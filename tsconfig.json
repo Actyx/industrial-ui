@@ -29,7 +29,6 @@
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "baseUrl": "src",
   },
   "include": [
     "src/**/*",

@@ -13,7 +13,7 @@ const COLOR_BLACK = theme.palette.grey.black;
 
 const BASE_WIDTH = 41;
 
-export type Variant = 'light' | 'dark';
+type Variant = 'light' | 'dark';
 
 type Props = Readonly<{
   className?: string;
