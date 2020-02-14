@@ -1,0 +1,205 @@
+import { TouchRipple } from '../TouchRipple';
+import { theme } from '../../theme';
+import * as classNames from 'classnames';
+import * as React from 'react';
+import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
+import { compose, setDisplayName } from 'recompose';
+import { Typography } from '../Typography';
+import { MUIcon } from '../MUIcon';
+
+type Variant = 'flat' | 'raised';
+
+type Color =
+  | 'primary'
+  | 'neutral'
+  | 'light200'
+  | 'transparent'
+  | 'green'
+  | 'orange'
+  | 'yellow'
+  | 'red';
+
+export type RawButtonType = Readonly<{
+  variant: Variant;
+  color: Color;
+  icon?: string;
+  text?: React.ReactNode;
+  disabled?: boolean;
+  fullWidth?: boolean;
+  className?: string;
+  noWrap?: boolean;
+  centered?: boolean;
+}>;
+
+export type ButtonType = RawButtonType &
+  Readonly<{
+    onClick: (ev: React.MouseEvent<HTMLElement>) => void;
+  }>;
+
+type CompProps = ButtonType;
+
+type Props = WithStyles<ClassKey> & CompProps;
+
+const ButtonComp = ({
+  classes,
+  variant,
+  color,
+  icon,
+  text,
+  disabled,
+  fullWidth,
+  onClick,
+  className,
+  noWrap,
+  centered
+}: Props) => (
+  <TouchRipple
+    disabled={!!disabled}
+    onClick={onClick}
+    className={classNames(
+      classes.root,
+      {
+        [classes.shadow]: variant !== 'flat',
+        [classes.fullWidth]: fullWidth,
+        [classes.disabled]: disabled
+      },
+      className
+    )}
+  >
+    <div className={classNames(classes[variant], classes[color], { [classes.centered]: centered })}>
+      {icon && (
+        <div className={classes.icon}>
+          <MUIcon type={icon} fontSize={40} />
+        </div>
+      )}
+      {text && (
+        <div className={icon ? classes.textIcon : classes.text}>
+          <Typography noWrap={noWrap} variant="standard" textTransform="uppercase" bold>
+            {text}
+          </Typography>
+        </div>
+      )}
+    </div>
+  </TouchRipple>
+);
+
+type ClassKey =
+  | 'root'
+  | 'flat'
+  | 'raised'
+  | 'text'
+  | 'textIcon'
+  | 'shadow'
+  | 'icon'
+  | 'primary'
+  | 'neutral'
+  | 'light200'
+  | 'transparent'
+  | 'green'
+  | 'orange'
+  | 'yellow'
+  | 'red'
+  | 'fullWidth'
+  | 'disabled'
+  | 'centered';
+
+const styles: StyleSheet<ClassKey> = {
+  root: {
+    display: 'inline-block',
+    height: 80
+  },
+  icon: {
+    width: 80,
+    height: 80,
+    lineHeight: 0,
+    userSelect: 'none',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center'
+  },
+  flat: {
+    height: '100%',
+    display: 'flex',
+    justifyContent: 'start',
+    alignItems: 'center'
+  },
+  raised: {
+    height: '100%',
+    display: 'flex',
+    justifyContent: 'start',
+    alignItems: 'center',
+    borderRadius: 4
+  },
+  centered: {
+    justifyContent: 'center'
+  },
+  primary: {
+    backgroundColor: theme.palette.actionHighlight.deepSkyBlue,
+    color: theme.palette.grey.white,
+    '& span': {
+      color: theme.palette.grey.white
+    }
+  },
+  neutral: {
+    backgroundColor: theme.palette.grey.dark100,
+    color: theme.palette.grey.white,
+    '& span': {
+      color: theme.palette.grey.white
+    }
+  },
+  light200: {
+    backgroundColor: theme.palette.grey.light200,
+    color: theme.palette.grey.dark400
+  },
+  green: {
+    backgroundColor: theme.palette.signal.greenDark,
+    color: theme.palette.grey.white,
+    '& span': {
+      color: theme.palette.grey.white
+    }
+  },
+  orange: {
+    backgroundColor: theme.palette.signal.orangeDark,
+    color: theme.palette.grey.white,
+    '& span': {
+      color: theme.palette.grey.white
+    }
+  },
+  yellow: {
+    backgroundColor: theme.palette.signal.yellowDark,
+    color: theme.palette.grey.white,
+    '& span': {
+      color: theme.palette.grey.white
+    }
+  },
+  red: {
+    backgroundColor: theme.palette.signal.redDark,
+    color: theme.palette.grey.white,
+    '& span': {
+      color: theme.palette.grey.white
+    }
+  },
+  transparent: {},
+  shadow: {
+    boxShadow: theme.shadow.xs,
+    borderRadius: 4
+  },
+  text: {
+    paddingRight: 24,
+    paddingLeft: 24
+  },
+  textIcon: {
+    paddingRight: 24
+  },
+  fullWidth: {
+    width: '100%'
+  },
+  disabled: {
+    filter: 'contrast(60%)'
+  }
+};
+
+export const Button = compose<Props, CompProps>(
+  setDisplayName('Button'),
+  injectSheet(styles)
+)(ButtonComp);
