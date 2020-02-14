@@ -1,1 +1,1 @@
-export { ButtonStatus } from './ButtonStatus'
+export { ButtonStatus } from './ButtonStatus';

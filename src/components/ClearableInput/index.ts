@@ -1,1 +1,1 @@
-export * from './ClearableInput'
+export * from './ClearableInput';
