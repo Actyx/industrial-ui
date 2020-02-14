@@ -8,8 +8,8 @@
 [x] Move stories next to react file
 [x] Migrate components
 [x] Decide which components to exclude
-[ ] Update to latest dependencies where possible
-[ ] Group components by category
+[x] Update to latest dependencies where possible
+[x] Group components by category
 [ ] Use only relative paths in tsconfig
 [ ] Cleanup theme
 [ ] Cleanup all components

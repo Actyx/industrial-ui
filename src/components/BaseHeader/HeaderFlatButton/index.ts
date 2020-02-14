@@ -1,1 +1,1 @@
-export * from './HeaderFlatButton'
+export * from './HeaderFlatButton';
