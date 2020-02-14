@@ -1,0 +1,1 @@
+export { MUIcon } from './MUIcon';
