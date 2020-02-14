@@ -1,0 +1,24 @@
+[x] Setup repo
+[x] Setup TS and react
+[x] Setup StoryBook with TS
+[x] Configure prettier
+[x] Add common scripts in package.json like run tsc
+[x] Add lint and lint:fix and prettier
+[x] Load jss and related
+[x] Move stories next to react file
+[x] Migrate components
+[ ] Decide which components to exclude
+[ ] Update to latest dependencies where possible
+[ ] Group components by category
+[ ] Use only relative paths in tsconfig
+[ ] Cleanup theme
+[ ] Cleanup all components
+[ ] Import font awesome or related
+[ ] Improve API for all components
+[ ] Add tests snapshots?
+[ ] Add visual regression, Cypress, Loki?
+[ ] Add CI using Travis
+[ ] Comment code
+[ ] Configure StoryBook to read comments and create docs
+[ ] Add nice readme and relative assets
+[ ] Ad additional tests
