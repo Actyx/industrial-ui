@@ -35,6 +35,7 @@ type ClassKey = 'root' | 'divider' | 'content' | 'icon' | 'text';
 
 const styles: StyleSheet<ClassKey, OuterProps> = {
   root: {
+    width: '100%',
     '& hr:first-child': {
       marginBottom: 15
     },
