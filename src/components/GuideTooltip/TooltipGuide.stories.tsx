@@ -6,7 +6,7 @@ import { TooltipGuide } from './TooltipGuide';
 
 const content = 'Enter an estimated number of items to be cleaned for this activity.';
 
-storiesOf('common|TooltipGuide', module)
+storiesOf('Components|TooltipGuide', module)
   .addDecorator(
     hostDecorator({
       width: 500,

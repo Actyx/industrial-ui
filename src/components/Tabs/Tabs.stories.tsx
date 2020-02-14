@@ -4,7 +4,7 @@ import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { Tabs } from './Tabs';
 
-storiesOf('common|Tabs', module)
+storiesOf('Components|Tabs', module)
   .addDecorator(hostDecorator({}))
   .add('default', () => (
     <Tabs

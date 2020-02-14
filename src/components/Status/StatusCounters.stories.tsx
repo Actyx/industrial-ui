@@ -10,7 +10,7 @@ const ex1: Counters = [ready];
 const ex2: Counters = [unknown, requested];
 const ex3: Counters = [ready, unknown, requested];
 
-storiesOf('common|Status.StatusCounters', module)
+storiesOf('Components|Status.StatusCounters', module)
   .addDecorator(hostDecorator({}))
   .add('example 1', () => <StatusCounters counters={ex1} />)
   .add('example 2', () => <StatusCounters counters={ex2} />)

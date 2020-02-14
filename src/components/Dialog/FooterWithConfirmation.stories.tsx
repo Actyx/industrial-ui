@@ -11,7 +11,7 @@ const baseProps = {
   onCancel: action('onCancel')
 };
 
-storiesOf('common|Dialog.FooterWithConfirmation', module)
+storiesOf('Components|Dialog.FooterWithConfirmation', module)
   .addDecorator(hostDecorator({}))
   .add('confirmation', () => <FooterWithConfirmation {...baseProps} />)
   .add('disable confirmation', () => (

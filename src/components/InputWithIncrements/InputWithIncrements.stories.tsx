@@ -11,7 +11,7 @@ const baseProps = {
   incrementMax: 10
 };
 
-storiesOf('common|InputWithIncrements', module)
+storiesOf('Components|InputWithIncrements', module)
   .addDecorator(
     hostDecorator({
       width: 600

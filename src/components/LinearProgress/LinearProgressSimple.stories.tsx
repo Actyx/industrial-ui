@@ -3,7 +3,7 @@ import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { LinearProgressSimple } from './LinearProgressSimple';
 
-storiesOf('common|LinearProgressSimple', module)
+storiesOf('Components|LinearProgressSimple', module)
   .addDecorator(hostDecorator({}))
   .add('green', () => <LinearProgressSimple color="green" value={50} />)
   .add('grey', () => <LinearProgressSimple color="grey" value={50} />)

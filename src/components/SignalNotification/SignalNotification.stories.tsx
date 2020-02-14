@@ -6,18 +6,15 @@ import { SignalNotification } from './SignalNotification';
 const text1 = 'Activity automatically interrupted:';
 const text2 = 'Activity automatically interrupted';
 
-const mkProps = (text: string, icon = 'notification_important') => ({
+const mkProps = (text: string, icon = 'warning') => ({
   icon,
   text
 });
 
-storiesOf('common|SignalNotification', module)
+storiesOf('Components|SignalNotification', module)
   .addDecorator(
     hostDecorator({
-      position: 'absolute',
-      top: 100,
-      left: 100,
-      width: 800
+      width: 500
     })
   )
   .add('longText', () => <SignalNotification {...mkProps(text1)} />)

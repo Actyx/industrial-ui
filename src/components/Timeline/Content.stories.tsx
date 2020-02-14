@@ -8,7 +8,7 @@ const baseProps = {
   timestamp: 1519223596657
 };
 
-storiesOf('common|Timeline.Content', module)
+storiesOf('Components|Timeline.Content', module)
   .addDecorator(
     hostDecorator({
       width: 600

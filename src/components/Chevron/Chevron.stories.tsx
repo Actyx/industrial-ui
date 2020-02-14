@@ -24,7 +24,7 @@ const Animate = ({ type }: { type: ChevronType }) => {
   );
 };
 
-storiesOf('common|Chevron', module)
+storiesOf('Components|Chevron', module)
   .addDecorator(hostDecorator())
   .add('standard', () => <Chevron variant="standard" />)
   .add('small', () => <Chevron variant="small" />)

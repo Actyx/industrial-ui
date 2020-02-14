@@ -4,7 +4,7 @@ import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { Scrim } from './Scrim';
 
-storiesOf('common|Scrim', module)
+storiesOf('Components|Scrim', module)
   .addDecorator(
     hostDecorator({
       width: '100%',

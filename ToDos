@@ -7,7 +7,7 @@
 [x] Load jss and related
 [x] Move stories next to react file
 [x] Migrate components
-[ ] Decide which components to exclude
+[x] Decide which components to exclude
 [ ] Update to latest dependencies where possible
 [ ] Group components by category
 [ ] Use only relative paths in tsconfig

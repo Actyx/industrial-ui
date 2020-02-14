@@ -4,7 +4,7 @@ import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { Checkbox } from './Checkbox';
 
-storiesOf('common|Checkbox', module)
+storiesOf('Components|Checkbox', module)
   .addDecorator(hostDecorator())
   .add('unchecked', () => (
     <Checkbox checked={false} color="neutral" onChange={action('onChange')} />

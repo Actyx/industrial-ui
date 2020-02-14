@@ -18,7 +18,7 @@ const baseProps = {
   content: 'content'
 };
 
-storiesOf('common|Card.Card', module)
+storiesOf('Components|Card.Card', module)
   .addDecorator(hostDecorator({}))
   .add('raised', () => <Card {...baseProps} />)
   .add('action', () => {
@@ -51,7 +51,7 @@ storiesOf('common|Card.Card', module)
     </div>
   ));
 
-storiesOf('common|Card.mount', module)
+storiesOf('Components|Card.mount', module)
   .addDecorator(hostDecorator({}))
   .add('swipeable', () => {
     const styles = {
@@ -95,7 +95,7 @@ storiesOf('common|Card.mount', module)
       </div>
     );
   })
-  .add('Swipeable cards', () => (
+  .add('Components|Swipeable cards', () => (
     <div style={{ width: `calc(${CARD_WIDTH}px * 2 + (3 * 1rem))` }}>
       <SwipeableCards>
         <SwipeableContainer>

@@ -34,6 +34,6 @@ export const listSub: ReadonlyArray<ListItem> = [
   }
 ];
 
-storiesOf('common|ModalDrawer.List', module)
+storiesOf('Components|ModalDrawer.List', module)
   .addDecorator(hostDecorator({}))
   .add('base', () => <List list={listMain} handleClose={action('handleClose')} />);

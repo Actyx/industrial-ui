@@ -16,7 +16,7 @@ const props = {
   onClick: action('onChange')
 };
 
-storiesOf('common|CheckboxWithIndeterminateState', module)
+storiesOf('Components|CheckboxWithIndeterminateState', module)
   .addDecorator(hostDecorator())
   .add('indeterminate', () => <CheckboxWithIndeterminateState {...props} state={'indeterminate'} />)
   .add('unchecked', () => <CheckboxWithIndeterminateState {...props} />)

@@ -11,7 +11,7 @@ const baseProps: Props = {
   arrangement: 'start'
 };
 
-storiesOf('common|Timeline.Status', module)
+storiesOf('Components|Timeline.Status', module)
   .addDecorator(hostDecorator({}))
   .add('single', () => {
     const props: Props = {

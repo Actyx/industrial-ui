@@ -4,6 +4,6 @@ import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { Pagination } from './Pagination';
 
-storiesOf('common|Card.Pagination', module)
+storiesOf('Components|Card.Pagination', module)
   .addDecorator(hostDecorator({}))
   .add('base', () => <Pagination dots={2} index={0} onChangeIndex={action('onChangeIndex')} />);

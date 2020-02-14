@@ -5,7 +5,7 @@ import * as React from 'react';
 import { theme } from '../../theme';
 import { MUIcon } from './MUIcon';
 
-storiesOf('common|MUIcon', module)
+storiesOf('Components|MUIcon', module)
   .addDecorator(hostDecorator())
   .add('base', () => <MUIcon type={'face'} />)
   .add('styled', () => (

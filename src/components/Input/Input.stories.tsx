@@ -4,7 +4,7 @@ import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { Input } from './Input';
 
-storiesOf('common|Input', module)
+storiesOf('Components|Input', module)
   .addDecorator(hostDecorator())
   .add('number', () => <Input type="number" />)
   .add('text', () => <Input type="text" />)

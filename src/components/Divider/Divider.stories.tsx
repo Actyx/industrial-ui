@@ -3,7 +3,7 @@ import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { Divider } from './Divider';
 
-storiesOf('common|Divider', module)
+storiesOf('Components|Divider', module)
   .addDecorator(
     hostDecorator({
       paddingTop: 20,

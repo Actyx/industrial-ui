@@ -9,7 +9,7 @@ const baseProps = {
   onSelect: action('onSelect')
 };
 
-storiesOf('common|ButtonStatus.ButtonStatus', module)
+storiesOf('Components|ButtonStatus.ButtonStatus', module)
   .addDecorator(hostDecorator())
   .add('base', () => {
     const props = {
@@ -50,7 +50,7 @@ storiesOf('common|ButtonStatus.ButtonStatus', module)
     return <ButtonStatus {...props} />;
   });
 
-storiesOf('common|ButtonStatus.mount', module)
+storiesOf('Components|ButtonStatus.mount', module)
   .addDecorator(hostDecorator())
   .add('inline', () => (
     <div>

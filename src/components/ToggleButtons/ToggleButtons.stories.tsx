@@ -35,7 +35,7 @@ const baseProps = {
   onToggle: action('onToggle')
 };
 
-storiesOf('common|ToggleButtons', module)
+storiesOf('Components|ToggleButtons', module)
   .addDecorator(hostDecorator())
   .add('base', () => <ToggleButtons {...baseProps} />)
   .add('one item', () => <ToggleButtons {...baseProps} items={[items[2]]} />)

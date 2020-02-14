@@ -10,7 +10,7 @@ const baseProps = {
   onDeleteSelect: action('onDeleteSelect')
 };
 
-storiesOf('common|NumericKeypad.Keypad', module)
+storiesOf('Components|NumericKeypad.Keypad', module)
   .addDecorator(hostDecorator())
   .add('confirm integer', () => <Keypad {...baseProps} />)
   .add('confirm decimal', () => (

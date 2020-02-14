@@ -37,7 +37,7 @@ const baseProps = {
   )
 };
 
-storiesOf('common|VirtualizedList', module)
+storiesOf('Components|VirtualizedList', module)
   .addDecorator(hostDecorator({ height: 400 }))
   .add('base', () => <VirtualizedList<Item> {...baseProps} />)
   .add('lots of data virtualized', () => {
