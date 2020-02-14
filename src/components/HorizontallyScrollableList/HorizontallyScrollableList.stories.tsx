@@ -4,7 +4,7 @@ import { hostDecorator, range } from '../../utils';
 import * as React from 'react';
 import { HorizontallyScrollableList } from './HorizontallyScrollableList';
 
-storiesOf('common|HorizontallyScrollableList', module)
+storiesOf('Components|HorizontallyScrollableList', module)
   .addDecorator(
     hostDecorator({
       width: 500,

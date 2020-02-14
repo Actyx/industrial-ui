@@ -35,7 +35,7 @@ const baseProps = {
   )
 };
 
-storiesOf('common|Grid', module)
+storiesOf('Components|Grid', module)
   .addDecorator(hostDecorator({}))
   .add('base', () => <Grid<Item> {...baseProps} />)
   .add('setRowClassName', () => (

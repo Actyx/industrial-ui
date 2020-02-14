@@ -7,7 +7,7 @@ const baseProps = {
   color: MeterColor.Green
 };
 
-storiesOf('common|CircularProgressMeter', module)
+storiesOf('Components|CircularProgressMeter', module)
   .addDecorator(hostDecorator({}))
   .add('25%', () => <CircularProgressMeter {...baseProps} value={25} />)
   .add('50%', () => <CircularProgressMeter {...baseProps} value={50} />)

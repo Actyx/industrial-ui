@@ -4,7 +4,7 @@ import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { NavigationalTags } from './NavigationalTags';
 
-storiesOf('common|NavigationalTags.NavigationalTags', module)
+storiesOf('Components|NavigationalTags.NavigationalTags', module)
   .addDecorator(hostDecorator())
   .add('base', () => (
     <NavigationalTags

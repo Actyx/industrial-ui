@@ -12,7 +12,7 @@ const baseProps = {
   footer: 'action'
 };
 
-storiesOf('common|Dialog.DialogAnimated', module)
+storiesOf('Components|Dialog.DialogAnimated', module)
   .addDecorator(hostDecorator({}))
   .add('open', () => {
     const props = { ...baseProps, open: true, header: <DialogHeader text={title} /> };

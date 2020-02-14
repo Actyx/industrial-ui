@@ -5,7 +5,7 @@ import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { SimpleToolbarButton } from './SimpleToolbarButton';
 
-storiesOf('common|SimpleToolbar.SimpleToolbarButton', module)
+storiesOf('Components|SimpleToolbar.SimpleToolbarButton', module)
   .addDecorator(hostDecorator({}))
   .add('enabled', () => <SimpleToolbarButton text="Confirm" onClick={action('onClick')} />)
   .add('disabled', () => (

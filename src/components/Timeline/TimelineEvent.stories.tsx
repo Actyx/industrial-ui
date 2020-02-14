@@ -19,7 +19,7 @@ const baseProps = {
   }
 };
 
-storiesOf('common|Timeline.TimelineEvent', module)
+storiesOf('Components|Timeline.TimelineEvent', module)
   .addDecorator(
     hostDecorator({
       width: 400,

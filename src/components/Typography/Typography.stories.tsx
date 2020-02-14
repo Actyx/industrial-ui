@@ -3,7 +3,7 @@ import * as React from 'react';
 import { Typography } from './Typography';
 import { hostDecorator, LoremIpsum } from '../../utils';
 
-storiesOf('common|Typography', module)
+storiesOf('Components|Typography', module)
   .addDecorator(hostDecorator())
   .add('standard', () => <Typography variant="standard">Standard</Typography>)
   .add('standard bold', () => (

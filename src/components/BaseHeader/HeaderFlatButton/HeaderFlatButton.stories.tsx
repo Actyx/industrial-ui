@@ -4,7 +4,7 @@ import { hostDecorator } from '../../../utils';
 import * as React from 'react';
 import { HeaderFlatButton } from './HeaderFlatButton';
 
-storiesOf('common|BaseHeader.HeaderFlatButton', module)
+storiesOf('Components|BaseHeader.HeaderFlatButton', module)
   .addDecorator(hostDecorator({}))
   .add('light background', () => (
     <HeaderFlatButton onClick={action('onClick')} type="keyboard_backspace" />

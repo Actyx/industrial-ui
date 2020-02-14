@@ -7,7 +7,7 @@ import { TableBody } from './TableBody';
 import { TableCell } from './TableCell';
 import { TableRow } from './TableRow';
 
-storiesOf('common|Table.TableCell', module)
+storiesOf('Components|Table.TableCell', module)
   .addDecorator(hostDecorator())
   .add('base', () => (
     <Table>

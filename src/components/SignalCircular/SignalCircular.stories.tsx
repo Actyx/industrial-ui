@@ -3,7 +3,7 @@ import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { SignalCircular } from './SignalCircular';
 
-storiesOf('common|SignalCircular', module)
+storiesOf('Components|SignalCircular', module)
   .addDecorator(hostDecorator())
   .add('xs', () => <SignalCircular color="green" size="xs" />)
   .add('sm', () => <SignalCircular color="green" size="sm" />)

@@ -11,13 +11,13 @@ const mkProps = (text: string, icon = 'notification_important') => ({
   text
 });
 
-storiesOf('common|SignalNotification', module)
+storiesOf('Others|SignalNotification', module)
   .addDecorator(
     hostDecorator({
       position: 'absolute',
       top: 100,
       left: 100,
-      width: 800
+      width: 500
     })
   )
   .add('longText', () => <SignalNotification {...mkProps(text1)} />)

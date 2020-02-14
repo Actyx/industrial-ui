@@ -9,7 +9,7 @@ import { Button } from '../../Button';
 
 const onClick = action('onClick');
 
-storiesOf('common.BaseHeader.HeaderContainer', module)
+storiesOf('Components.BaseHeader.HeaderContainer', module)
   .addDecorator(hostDecorator({}))
   .add('light content', () => (
     <HeaderContainer variant="light">

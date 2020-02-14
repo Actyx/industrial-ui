@@ -4,7 +4,7 @@ import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { LinearProgress } from './LinearProgress';
 
-storiesOf('common|LinearProgress', module)
+storiesOf('Components|LinearProgress', module)
   .addDecorator(hostDecorator({}))
   .add('xs', () => <LinearProgress size="xs" color="green" value={20} />)
   .add('md', () => (

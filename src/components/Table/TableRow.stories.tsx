@@ -25,7 +25,7 @@ const content = (
   </>
 );
 
-storiesOf('common|Table.TableRow', module)
+storiesOf('Components|Table.TableRow', module)
   .addDecorator(
     hostDecorator({
       width: 900

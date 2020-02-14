@@ -13,7 +13,7 @@ const baseProps = {
   onClose: action('onClose')
 };
 
-storiesOf('common|Dialog.Dialog', module)
+storiesOf('Components|Dialog.Dialog', module)
   .add('md title', () => {
     const props = { ...baseProps, title };
     return <Dialog {...props} />;

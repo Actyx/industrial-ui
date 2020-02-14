@@ -4,7 +4,7 @@ import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { TextArea } from './TextArea';
 
-storiesOf('common|TextArea', module)
+storiesOf('Components|TextArea', module)
   .addDecorator(hostDecorator())
   .add('text', () => <TextArea />)
   .add('autoFocus', () => <TextArea autoFocus />)

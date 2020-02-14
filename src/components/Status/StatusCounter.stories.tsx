@@ -3,7 +3,7 @@ import { hostDecorator } from '../../utils';
 import { StatusCounter } from './StatusCounter';
 import * as React from 'react';
 
-storiesOf('common|Status.StatusCounter', module)
+storiesOf('Components|Status.StatusCounter', module)
   .addDecorator(hostDecorator())
   .add('ready', () => <StatusCounter counter={1} status="ready" />)
   .add('requested', () => <StatusCounter counter={22} status="requested" />)

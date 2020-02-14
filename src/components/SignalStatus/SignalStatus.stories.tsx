@@ -3,7 +3,7 @@ import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { SignalStatus } from './SignalStatus';
 
-storiesOf('common|SignalStatus', module)
+storiesOf('Components|SignalStatus', module)
   .addDecorator(hostDecorator({}))
   .add('running', () => <SignalStatus status="running" />)
   .add('interrupted', () => <SignalStatus status="interrupted" />)

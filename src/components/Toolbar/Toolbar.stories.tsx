@@ -9,7 +9,7 @@ import { Button } from '../Button';
 
 const onClick = action('onClick');
 
-storiesOf('common|Toolbar', module)
+storiesOf('Components|Toolbar', module)
   .addDecorator(hostDecorator({}))
   .add('light content', () => (
     <Toolbar variant="light">

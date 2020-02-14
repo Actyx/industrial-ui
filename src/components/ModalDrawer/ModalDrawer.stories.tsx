@@ -13,7 +13,7 @@ const baseProps = {
   handleClose: action('handleClose')
 };
 
-storiesOf('common|ModalDrawer.ModalDrawer', module)
+storiesOf('Components|ModalDrawer.ModalDrawer', module)
   .addDecorator(hostDecorator({}))
   .add('open', () => {
     const props = { ...baseProps, open: true, headerIcon };

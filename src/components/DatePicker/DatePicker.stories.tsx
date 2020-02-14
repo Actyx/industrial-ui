@@ -8,7 +8,7 @@ const baseProps = {
   onChange: action('onChange')
 };
 
-storiesOf('common|DatePicker', module)
+storiesOf('Components|DatePicker', module)
   .addDecorator(hostDecorator())
   .add('no value', () => <DatePicker {...baseProps} />)
   .add('value', () => <DatePicker {...baseProps} value={new Date('2019-12-26T17:45:00Z')} />);

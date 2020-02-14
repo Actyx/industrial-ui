@@ -7,7 +7,7 @@ import { TableCell } from './TableCell';
 import { TableHeader } from './TableHeader';
 import { TableRow } from './TableRow';
 
-storiesOf('common|Table.TableHeader', module)
+storiesOf('Components|Table.TableHeader', module)
   .addDecorator(
     hostDecorator({
       width: 900

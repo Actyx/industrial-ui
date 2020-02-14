@@ -5,7 +5,7 @@ import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { CardAction } from './CardAction';
 
-storiesOf('common|Card.CardAction', module)
+storiesOf('Components|Card.CardAction', module)
   .addDecorator(
     hostDecorator({
       width: 500,

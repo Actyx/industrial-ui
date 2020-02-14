@@ -25,7 +25,7 @@ const baseProps = {
   main: headerMain
 };
 
-storiesOf('common|ModalDrawer.Header', module)
+storiesOf('Components|ModalDrawer.Header', module)
   .addDecorator(
     hostDecorator({
       width: 500,

@@ -17,7 +17,7 @@ const genericBaseProps = {
   counter: 17
 };
 
-storiesOf('common|IconTextNotification', module)
+storiesOf('Components|IconTextNotification', module)
   .addDecorator(hostDecorator({}))
   .add('warning', () => <IconTextNotification {...warningBaseProps} counter={3} />)
   .add('warning counter', () => <IconTextNotification {...warningBaseProps} />)
