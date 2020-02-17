@@ -2,6 +2,7 @@ import { create } from 'jss';
 import preset from 'jss-preset-default';
 
 import '../assets/fonts/Titillium_Web/font.css';
+import '../assets/fonts/MaterialIcons/material-icons.css';
 
 const createTheme = () => {
   const base = {

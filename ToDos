@@ -12,7 +12,7 @@
 [x] Group components by category
 [x] Import font Titillium_Web
 [x] Use only relative paths in tsconfig
-[ ] Evaluate if we need material ui icon font or font awesome
+[x] Evaluate if we need material ui icon font or font awesome
 [ ] Add types for react-jss
 [ ] Cleanup stories make sure to show only the main components and all sub-comp
 [ ] Make sure all index.ts are checked to expose the right component, check export
