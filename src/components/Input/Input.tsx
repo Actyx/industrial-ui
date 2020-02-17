@@ -1,5 +1,3 @@
-/* tslint:disable: no-this no-class no-expression-statement no-object-mutation */
-
 import { theme } from '../../theme';
 import * as classNames from 'classnames';
 import * as React from 'react';

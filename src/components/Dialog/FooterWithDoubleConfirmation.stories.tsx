@@ -19,13 +19,11 @@ const baseProps = {
   onCancel: action('onCancel')
 };
 
-// tslint:disable-next-line: no-class
 class AnimationWrapper extends React.Component<{}, { mode: Mode }> {
   state: { mode: Mode } = {
     mode: Mode.Normal
   };
   render(): React.ReactNode {
-    // tslint:disable-next-line: no-this
     const { mode } = this.state;
     return (
       <FooterWithDoubleConfirmation
@@ -33,9 +31,7 @@ class AnimationWrapper extends React.Component<{}, { mode: Mode }> {
         valid
         mode={mode}
         onSelectYes={action('onSelectYes')}
-        // tslint:disable-next-line: no-this
         onSelectNo={() => this.setState({ mode: Mode.Normal })}
-        // tslint:disable-next-line: no-this
         onConfirm={() => this.setState({ mode: Mode.Confirmation })}
       />
     );

@@ -1,4 +1,3 @@
-/* tslint:disable no-class no-this */
 import { Typography } from '../Typography';
 import { theme } from '../../theme';
 import * as classNames from 'classnames';

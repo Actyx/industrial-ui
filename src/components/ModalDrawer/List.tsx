@@ -30,9 +30,7 @@ const ListComp = ({ classes, list, handleClose }: Props) => (
         icon={icon}
         text={name}
         onClick={() => {
-          // tslint:disable-next-line:no-expression-statement
           onClick();
-          // tslint:disable-next-line:no-expression-statement
           handleClose();
         }}
       />

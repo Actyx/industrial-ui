@@ -1,4 +1,3 @@
-/* tslint:disable: no-this no-class no-expression-statement */
 import { action } from '@storybook/addon-actions';
 import { storiesOf } from '@storybook/react';
 import { hostDecorator } from '../../utils';

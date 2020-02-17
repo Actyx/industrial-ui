@@ -1,4 +1,3 @@
-/* tslint:disable: no-this no-class */
 import * as React from 'react';
 import { Dialog, Size } from './Dialog';
 
@@ -27,7 +26,6 @@ export class DialogAnimated extends React.Component<CompProps, State> {
     this.setState({ open: false });
 
     if (onClose) {
-      // tslint:disable-next-line:no-expression-statement
       onClose();
     }
   };

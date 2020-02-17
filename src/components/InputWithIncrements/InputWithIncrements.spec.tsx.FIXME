@@ -1,4 +1,3 @@
-// tslint:disable no-expression-statement
 import { Input } from '../Input';
 import { mount, shallow } from 'enzyme';
 import * as React from 'react';

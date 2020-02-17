@@ -1,4 +1,3 @@
-/* tslint:disable: no-expression-statement */
 import { handleDecimalEnter, handleMinusEnter, handleOnChange } from './NumericKeypad';
 
 describe('<NumericKeypad />', () => {

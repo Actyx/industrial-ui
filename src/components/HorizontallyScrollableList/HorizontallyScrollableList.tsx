@@ -26,13 +26,11 @@ const HorizontallyScrollableListComp = ({ classes, items, onItemSelect, rows }: 
     .fill(undefined)
     .map(() => Array(cols).fill(undefined));
 
-  /* tslint:disable no-let no-expression-statement no-object-mutation one-variable-per-declaration */
   for (let col = 0, idx = 0; col < cols; col++) {
     for (let row = 0; row < rows; row++) {
       matrix[row][col] = items[idx++];
     }
   }
-  /* tslint:enable no-let no-expression-statement no-object-mutation one-variable-per-declaration */
 
   return (
     <div className={classes.root}>

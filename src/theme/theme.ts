@@ -1,12 +1,7 @@
 import { create } from 'jss';
 import preset from 'jss-preset-default';
 
-/**
- * Site wide css
- */
-// import 'bootstrap/dist/css/bootstrap.min.css'
-// import 'font-awesome/css/font-awesome.css'
-// import '../assets/css/fonts.css'
+import '../assets/fonts/Titillium_Web/font.css';
 
 const createTheme = () => {
   const base = {
@@ -100,7 +95,6 @@ const createTheme = () => {
           throw new Error('Please use full color HEX!');
         }
 
-        // tslint:disable-next-line prettier
         return `rgba(${parseInt(c[1] + c[2], 16)}, ${parseInt(c[3] + c[4], 16)}, ${parseInt(
           c[5] + c[6],
           16
@@ -134,7 +128,6 @@ const jss = create({
 });
 
 // Add global styles
-// tslint:disable-next-line no-expression-statement
 jss
   .createStyleSheet(
     {
