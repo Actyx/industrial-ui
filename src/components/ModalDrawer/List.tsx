@@ -1,7 +1,8 @@
 import { Button } from '../Button';
 import * as React from 'react';
-import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
+import injectSheet from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
+import { WithStyles, StyleSheet } from '../../utils/jss';
 
 export type ListItem = Readonly<{
   id: string;

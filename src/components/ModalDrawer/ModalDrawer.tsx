@@ -2,11 +2,12 @@ import { Divider } from '../Divider';
 import { Scrim } from '../Scrim';
 import { theme } from '../../theme';
 import * as React from 'react';
-import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
+import injectSheet from 'react-jss';
 import Transition from 'react-transition-group/Transition';
 import { compose, setDisplayName } from 'recompose';
 import { Header } from './Header';
 import { List, ListItem } from './List';
+import { WithStyles, StyleSheet } from '../../utils/jss';
 
 const ANIMATION_DURATION = 150;
 const DRAWER_WIDTH = 500;

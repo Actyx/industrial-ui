@@ -2,7 +2,8 @@ import { theme } from '../../theme';
 import * as classNames from 'classnames';
 import * as React from 'react';
 import { compose, setDisplayName } from 'recompose';
-import injectSheet, { WithStyles, StyleSheet } from 'react-jss';
+import injectSheet from 'react-jss';
+import { WithStyles, StyleSheet } from '../../utils/jss';
 
 type TextTransform = 'uppercase' | 'lowercase' | 'capitalize';
 

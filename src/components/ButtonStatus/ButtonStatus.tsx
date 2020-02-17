@@ -1,11 +1,12 @@
 import { theme } from '../../theme';
 import * as classNames from 'classnames';
 import * as React from 'react';
-import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
+import injectSheet from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 import { TouchRipple } from '../TouchRipple';
 import { Typography } from '../Typography';
 import { MUIcon } from '../MUIcon';
+import { WithStyles, StyleSheet } from '../../utils/jss';
 
 type OuterProps = Readonly<{
   domId?: string;
@@ -56,7 +57,7 @@ type ClassKey =
   | 'icon'
   | 'button';
 
-const styles: StyleSheet<ClassKey, OuterProps> = {
+const styles: StyleSheet<ClassKey> = {
   root: {
     display: 'inline-flex',
     position: 'relative'

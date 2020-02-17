@@ -1,8 +1,9 @@
 import { theme } from '../../theme';
 import * as classNames from 'classnames';
 import * as React from 'react';
-import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
+import injectSheet from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
+import { WithStyles, StyleSheet } from '../../utils/jss';
 
 export type ToggleItem = Readonly<{
   id: string;
@@ -52,7 +53,7 @@ type ClassKey = 'root' | 'container' | 'item' | 'selectedItem';
 
 const border = `1px solid ${theme.palette.grey.dark200}`;
 
-const styles: StyleSheet<ClassKey, OuterProps> = {
+const styles: StyleSheet<ClassKey> = {
   root: {
     display: 'inline-block',
     height: 60

@@ -1,8 +1,9 @@
 import { theme } from '../../theme';
 import * as React from 'react';
-import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
+import injectSheet from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 import { Input } from '../Input';
+import { WithStyles, StyleSheet } from '../../utils/jss';
 
 type CompProps = {
   value?: string;

@@ -1,7 +1,8 @@
 import { theme } from '../../theme';
 import * as React from 'react';
-import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
+import injectSheet from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
+import { WithStyles, StyleSheet } from '../../utils/jss';
 
 const RADIUS = 54;
 const CIRCUMFERENCE = 2 * Math.PI * RADIUS;
@@ -68,7 +69,7 @@ const { deepSkyBlue } = theme.palette.actionHighlight;
 const { green } = theme.palette.signal;
 const { light200, dark400 } = theme.palette.grey;
 
-const styles: StyleSheet<ClassKey, OuterProps> = {
+const styles: StyleSheet<ClassKey> = {
   root: {
     transform: 'rotate(-90deg)'
   },

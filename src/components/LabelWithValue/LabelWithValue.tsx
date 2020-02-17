@@ -1,7 +1,8 @@
 import { theme } from '../../theme';
 import * as React from 'react';
-import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
+import injectSheet from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
+import { WithStyles, StyleSheet } from '../../utils/jss';
 
 type CompProps = Readonly<{
   className?: string;

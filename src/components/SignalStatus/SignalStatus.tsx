@@ -1,9 +1,10 @@
 import { theme } from '../../theme';
 import * as React from 'react';
-import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
+import injectSheet from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 import { SignalCircular } from '../SignalCircular';
 import { Typography } from '../Typography';
+import { WithStyles, StyleSheet } from '../../utils/jss';
 
 type ActivityProgressBarType =
   | 'running'
@@ -65,7 +66,7 @@ const SignalStatusComp = ({ classes, status, text }: Props) => {
 };
 type ClassKey = 'root' | 'text';
 
-const styles: StyleSheet<ClassKey, OuterProps> = {
+const styles: StyleSheet<ClassKey> = {
   root: {
     display: 'flex',
     height: 30,

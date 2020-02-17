@@ -1,10 +1,11 @@
 import { theme } from '../../theme';
 import * as classNames from 'classnames';
 import * as React from 'react';
-import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
+import injectSheet from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 import { Typography } from '../Typography';
 import { MUIcon } from '../MUIcon';
+import { WithStyles, StyleSheet } from '../../utils/jss';
 
 type Color = 'neutral';
 
@@ -42,14 +43,6 @@ const TooltipGuideComp = ({ classes, color, content }: Props) => (
   </div>
 );
 
-const box: React.CSSProperties = {
-  position: 'absolute',
-  top: 0,
-  left: 40,
-  width: 310,
-  height: '100%'
-};
-
 const styles: StyleSheet<ClassKey> = {
   root: {
     width: 350,
@@ -57,11 +50,19 @@ const styles: StyleSheet<ClassKey> = {
     position: 'relative'
   },
   box: {
-    ...box,
+    position: 'absolute',
+    top: 0,
+    left: 40,
+    width: 310,
+    height: '100%',
     backgroundColor: theme.palette.grey.white
   },
   boxShadow: {
-    ...box,
+    position: 'absolute',
+    top: 0,
+    left: 40,
+    width: 310,
+    height: '100%',
     boxShadow: theme.shadow.sm
   },
   archContainer: {

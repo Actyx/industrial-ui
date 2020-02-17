@@ -3,9 +3,10 @@ import { Typography } from '../Typography';
 import { theme } from '../../theme';
 import * as classNames from 'classnames';
 import * as React from 'react';
-import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
+import injectSheet from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 import { Divider } from '../Divider';
+import { WithStyles, StyleSheet } from '../../utils/jss';
 
 type OuterProps = Readonly<{
   className?: string;
@@ -33,7 +34,7 @@ const SignalNotificationComp = ({ classes, className, icon, text }: Props) => (
 
 type ClassKey = 'root' | 'divider' | 'content' | 'icon' | 'text';
 
-const styles: StyleSheet<ClassKey, OuterProps> = {
+const styles: StyleSheet<ClassKey> = {
   root: {
     width: '100%',
     '& hr:first-child': {

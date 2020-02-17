@@ -1,10 +1,11 @@
 import { theme } from '../../theme';
 import * as classNames from 'classnames';
 import * as React from 'react';
-import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
+import injectSheet from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 import { MUIcon } from '../MUIcon';
 import { TouchRipple } from '../TouchRipple/TouchRipple';
+import { WithStyles, StyleSheet } from '../../utils/jss';
 
 export type Color = 'primary' | 'neutral';
 

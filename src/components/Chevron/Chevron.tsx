@@ -1,9 +1,10 @@
 import * as classNames from 'classnames';
 import * as React from 'react';
-import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
+import injectSheet from 'react-jss';
 import { Transition } from 'react-transition-group';
 import { compose, setDisplayName } from 'recompose';
 import { MUIcon } from '../MUIcon';
+import { WithStyles, StyleSheet } from '../../utils/jss';
 
 const ANIMATION_DURATION = 140;
 

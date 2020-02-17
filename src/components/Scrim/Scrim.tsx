@@ -1,8 +1,9 @@
 import { theme } from '../../theme';
 import * as React from 'react';
-import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
+import injectSheet from 'react-jss';
 import Transition from 'react-transition-group/Transition';
 import { compose, setDisplayName } from 'recompose';
+import { WithStyles, StyleSheet } from '../../utils/jss';
 
 const ANIMATION_DURATION = 150;
 

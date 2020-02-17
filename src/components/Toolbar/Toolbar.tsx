@@ -1,8 +1,9 @@
 import { theme } from '../../theme';
 import * as classNames from 'classnames';
 import * as React from 'react';
-import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
+import injectSheet from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
+import { WithStyles } from '../../utils/jss';
 
 type Variant = 'light' | 'dark';
 
@@ -20,7 +21,7 @@ const ToolbarComp = ({ classes, className, variant, children }: Props) => (
 
 type ClassKey = 'root' | 'dark' | 'light';
 
-const styles: StyleSheet<ClassKey, OuterProps> = {
+const styles = {
   root: {
     display: 'flex',
     alignItems: 'center',

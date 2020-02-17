@@ -1,8 +1,9 @@
 import * as classNames from 'classnames';
 import * as React from 'react';
-import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
+import injectSheet from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 import { FluidDialog } from './FluidDialog';
+import { WithStyles, StyleSheet } from '../../utils/jss';
 
 export type Size = 'xs' | 'sm' | 'md' | 'xl' | 'xlw' | 'xxl';
 

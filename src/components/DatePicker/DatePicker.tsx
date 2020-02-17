@@ -1,9 +1,10 @@
 import * as React from 'react';
-import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
+import injectSheet from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 import RDatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import { DatePickerInput } from './DatePickerInput';
+import { WithStyles, StyleSheet } from '../../utils/jss';
 
 type CompProps = Readonly<{
   value?: Date;

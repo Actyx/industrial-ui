@@ -1,8 +1,9 @@
 import * as React from 'react';
-import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
+import injectSheet from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 import { Content, ContentType } from './Content';
 import { Status, StatusType } from './Status';
+import { WithStyles, StyleSheet } from '../../utils/jss';
 
 // TODO FIX THE TIMESTAMPS
 type CompProps = Readonly<{

@@ -1,7 +1,8 @@
 import * as React from 'react';
-import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
+import injectSheet from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 import { COLOR_TAG, Tag } from './Tag';
+import { WithStyles, StyleSheet } from '../../utils/jss';
 
 type CompProps = Readonly<{
   tags: ReadonlyArray<{
@@ -41,7 +42,7 @@ const NavigationalTagsComp = ({ classes, tags, onTagClose }: Props) => (
     </div>
   </div>
 );
-const styles: StyleSheet<ClassKey, CompProps> = {
+const styles: StyleSheet<ClassKey> = {
   root: {
     position: 'relative'
   },

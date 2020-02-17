@@ -1,8 +1,9 @@
 import * as React from 'react';
-import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
+import injectSheet from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 import { createStyleIndicator, createStyleTrack } from './LinearProgress';
 import { LinearProgressColor } from '.';
+import { WithStyles, StyleSheet } from '../../utils/jss';
 
 const VALUE_MIN = 0;
 const VALUE_MAX = 100;
@@ -28,7 +29,7 @@ const LinearProgressSimpleComp = ({ classes, color, value, disabled, border }: P
 
 type ClassKey = 'root' | 'indicator';
 
-const styles: StyleSheet<ClassKey, OuterProps> = {
+const styles: StyleSheet<ClassKey> = {
   root: {
     position: 'relative',
     borderRadius: 8,

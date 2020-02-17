@@ -1,8 +1,9 @@
 import * as React from 'react';
-import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
+import injectSheet from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 import { PaginationDot } from './PaginationDot';
 import { range } from '../../utils';
+import { WithStyles, StyleSheet } from '../../utils/jss';
 
 type OuterProps = Readonly<{
   dots: number;

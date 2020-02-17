@@ -1,9 +1,10 @@
 import * as classNames from 'classnames';
 import * as React from 'react';
-import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
+import injectSheet from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 import { Typography } from '../Typography';
 import { getBorderColor, getDarkColor, getRegularColor, getTextColor } from './colors';
+import { WithStyles, StyleSheet } from '../../utils/jss';
 
 export type LinearProgressColor =
   | 'green'
@@ -153,7 +154,7 @@ const LinearProgressComp = ({
 
 type ClassKey = 'root' | 'xs' | 'md' | 'md60' | 'lg' | 'indicator' | 'message' | 'content';
 
-const styles: StyleSheet<ClassKey, CompProps> = {
+const styles: StyleSheet<ClassKey> = {
   root: {
     position: 'relative',
     borderRadius: 8,

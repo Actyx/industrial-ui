@@ -1,10 +1,11 @@
 /* tslint:disable no-this no-class */
 import * as classNames from 'classnames';
 import * as React from 'react';
-import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
+import injectSheet from 'react-jss';
 import SwipeableViews from 'react-swipeable-views';
 import { compose, setDisplayName } from 'recompose';
 import { Pagination } from './Pagination';
+import { WithStyles, StyleSheet } from '../../utils/jss';
 
 type OuterProps = Readonly<{
   children: React.ReactNode;

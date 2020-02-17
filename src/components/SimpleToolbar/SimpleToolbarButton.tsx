@@ -1,10 +1,11 @@
 import { theme } from '../../theme';
 import * as classNames from 'classnames';
 import * as React from 'react';
-import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
+import injectSheet from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 import { TouchRipple } from '../TouchRipple';
 import { Typography } from '../Typography';
+import { WithStyles, StyleSheet } from '../../utils/jss';
 
 type OuterProps = Readonly<{
   disabled?: boolean;
@@ -35,7 +36,7 @@ const SimpleToolbarButtonComp = ({ classes, text, disabled, onClick }: Props) =>
 
 type ClassKey = 'root' | 'button' | 'disabled';
 
-const styles: StyleSheet<ClassKey, OuterProps> = {
+const styles: StyleSheet<ClassKey> = {
   root: {
     height: 80
   },

@@ -2,9 +2,10 @@ import { Typography } from '../Typography';
 import { theme } from '../../theme';
 import * as classNames from 'classnames';
 import * as React from 'react';
-import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
+import injectSheet from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 import { StatusType } from './Status';
+import { WithStyles, StyleSheet } from '../../utils/jss';
 
 type OuterProps = Readonly<{
   status: StatusType;
@@ -24,7 +25,7 @@ type ClassKey = 'root' | StatusType;
 const { green, greenDark, orange, orangeDark } = theme.palette.signal;
 const { mediumGrey, light150, white, dark400 } = theme.palette.grey;
 
-const styles: StyleSheet<ClassKey, OuterProps> = {
+const styles: StyleSheet<ClassKey> = {
   root: {
     height: 25,
     display: 'flex',

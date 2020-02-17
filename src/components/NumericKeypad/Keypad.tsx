@@ -1,8 +1,9 @@
 import * as React from 'react';
-import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
+import injectSheet from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 import { ButtonCircular } from '../ButtonCircular/ButtonCircular';
 import { range } from '../../utils';
+import { WithStyles, StyleSheet } from '../../utils/jss';
 
 export const DECIMAL_IDENTIFIER = '.';
 export const MINUS_IDENTIFIER = '-';

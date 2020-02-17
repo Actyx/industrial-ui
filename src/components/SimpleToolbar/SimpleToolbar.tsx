@@ -1,12 +1,13 @@
 import { theme } from '../../theme';
 import * as classNames from 'classnames';
 import * as React from 'react';
-import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
+import injectSheet from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 import { Typography } from '../Typography';
 import { MUIcon } from '../MUIcon';
 import { Toolbar } from '../Toolbar';
 import { TouchRipple } from '../TouchRipple';
+import { WithStyles, StyleSheet } from '../../utils/jss';
 
 type ToolbarIcon = Readonly<{
   onClick?: () => void;

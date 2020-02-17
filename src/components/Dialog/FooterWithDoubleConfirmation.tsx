@@ -1,9 +1,10 @@
 import { Button } from '../Button';
 import { Typography } from '../Typography';
 import * as React from 'react';
-import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
+import injectSheet from 'react-jss';
 import { Transition } from 'react-transition-group';
 import { compose, setDisplayName } from 'recompose';
+import { WithStyles, StyleSheet } from '../../utils/jss';
 
 export enum Mode {
   Normal = 'normal',
@@ -105,7 +106,7 @@ const FooterWithDoubleConfirmationComp = ({
 
 type ClassKey = 'root' | 'content' | 'confirm' | 'confirmation';
 
-const styles: StyleSheet<ClassKey, OuterProps> = {
+const styles: StyleSheet<ClassKey> = {
   root: {
     height: MASK_HEIGHT,
     overflow: 'hidden'

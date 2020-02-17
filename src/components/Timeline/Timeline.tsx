@@ -1,9 +1,10 @@
 /* tslint:disable: no-this no-class no-let no-expression-statement */
 import * as React from 'react';
-import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
+import injectSheet from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 import { Arrangement } from './Status';
 import { TimelineEvent } from './TimelineEvent';
+import { WithStyles, StyleSheet } from '../../utils/jss';
 
 export type TimelineEvent = Readonly<{
   color: string;

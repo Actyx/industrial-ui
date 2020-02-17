@@ -1,8 +1,9 @@
 import * as React from 'react';
-import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
+import injectSheet from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 import { StatusCounter } from './StatusCounter';
 import { StatusType } from './Status';
+import { WithStyles, StyleSheet } from '../../utils/jss';
 
 export type Counter = {
   status: StatusType;
@@ -27,7 +28,7 @@ const StatusCountersComp = ({ classes, counters }: Props) => (
 
 type ClassKey = 'root';
 
-const styles: StyleSheet<ClassKey, OuterProps> = {
+const styles: StyleSheet<ClassKey> = {
   root: {
     display: 'inline-flex',
     '& div:first-of-type': {
