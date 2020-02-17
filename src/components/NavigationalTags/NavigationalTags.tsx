@@ -26,12 +26,10 @@ const NavigationalTagsComp = ({ classes, tags, onTagClose }: Props) => (
             name={name}
             onClose={() => {
               if (onTagClose) {
-                // tslint:disable-next-line no-expression-statement
                 onTagClose(id);
               }
 
               if (onClose) {
-                // tslint:disable-next-line no-expression-statement
                 onClose();
               }
             }}

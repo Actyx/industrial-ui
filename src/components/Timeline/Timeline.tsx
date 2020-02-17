@@ -1,4 +1,3 @@
-/* tslint:disable: no-this no-class no-let no-expression-statement */
 import * as React from 'react';
 import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';

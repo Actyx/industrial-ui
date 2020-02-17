@@ -1,4 +1,3 @@
-/* tslint:disable: no-this no-class no-expression-statement no-object-mutation*/
 import { Input } from '../Input';
 import * as classNames from 'classnames';
 import * as React from 'react';

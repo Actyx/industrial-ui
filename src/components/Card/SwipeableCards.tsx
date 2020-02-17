@@ -1,4 +1,3 @@
-/* tslint:disable no-this no-class */
 import * as classNames from 'classnames';
 import * as React from 'react';
 import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
@@ -20,9 +19,7 @@ type State = Readonly<{
 
 class SwipeableCardsComp extends React.Component<Props, State> {
   constructor(props: Props) {
-    // tslint:disable-next-line:no-expression-statement
     super(props);
-    // tslint:disable-next-line:no-expression-statement
     this.state = {
       activeViewIndex:
         props.defaultActiveViewIndex === undefined ||

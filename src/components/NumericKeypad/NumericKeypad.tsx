@@ -1,4 +1,3 @@
-/* tslint:disable no-class no-this no-expression-statement */
 import * as React from 'react';
 import { ClearableInput } from '../ClearableInput';
 import { DECIMAL_IDENTIFIER, Keypad, MINUS_IDENTIFIER } from './Keypad';
