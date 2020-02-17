@@ -11,7 +11,8 @@
     "lint:fix": "tsc & eslint './src/**/*.{js,ts,tsx}' --fix & prettier './src/**/*.{js,ts,tsx}' --write",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "TZ=UTC jest",
+    "test:watch": "TZ=UTC jest --coverage=false --watch"
   },
   "repository": {
     "type": "git",
@@ -71,6 +72,7 @@
     "recompose": "0.30.0",
     "rimraf": "^3.0.2",
     "source-map-loader": "^0.2.4",
+    "ts-jest": "^25.2.0",
     "ts-loader": "^6.2.1",
     "typescript": "^3.7.5",
     "webpack": "^4.41.6",
