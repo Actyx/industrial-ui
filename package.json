@@ -11,7 +11,8 @@
     "lint:fix": "tsc & eslint './src/**/*.{js,ts,tsx}' --fix & prettier './src/**/*.{js,ts,tsx}' --write",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "TZ=UTC jest",
+    "test:watch": "TZ=UTC jest --coverage=false --watch"
   },
   "repository": {
     "type": "git",
