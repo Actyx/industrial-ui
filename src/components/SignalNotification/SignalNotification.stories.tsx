@@ -1,10 +1,9 @@
 import { storiesOf } from '@storybook/react';
-import { hostDecorator, LoremIpsum } from '../../utils';
+import { hostDecorator, LoremIpsumShort } from '../../utils';
 import * as React from 'react';
 import { SignalNotification } from './SignalNotification';
 
-const text1 = 'Activity automatically interrupted:';
-const text2 = 'Activity automatically interrupted';
+const text = 'Activity automatically interrupted';
 
 const mkProps = (text: string, icon = 'warning') => ({
   icon,
@@ -17,6 +16,5 @@ storiesOf('Components|SignalNotification', module)
       width: 500
     })
   )
-  .add('longText', () => <SignalNotification {...mkProps(text1)} />)
-  .add('shortText', () => <SignalNotification {...mkProps(text2)} />)
-  .add('veryLongText', () => <SignalNotification {...mkProps(LoremIpsum)} />);
+  .add('Short text', () => <SignalNotification {...mkProps(text)} />)
+  .add('Long text', () => <SignalNotification {...mkProps(LoremIpsumShort)} />);

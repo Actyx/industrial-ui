@@ -6,19 +6,19 @@ import { RadioButton } from './RadioButton';
 
 storiesOf('Components|RadioButton', module)
   .addDecorator(hostDecorator())
-  .add('unchecked', () => (
+  .add('Unchecked', () => (
     <RadioButton checked={false} color="neutral" onChange={action('onChange')} />
   ))
-  .add('checked', () => <RadioButton checked color="neutral" onChange={action('onChange')} />)
-  .add('disabled', () => (
+  .add('Checked', () => <RadioButton checked color="neutral" onChange={action('onChange')} />)
+  .add('Disabled', () => (
     <RadioButton checked color="neutral" disabled onChange={action('onChange')} />
   ))
-  .add('primary unchecked', () => (
+  .add('Primary unchecked', () => (
     <RadioButton checked={false} color="primary" onChange={action('onChange')} />
   ))
-  .add('primary checked', () => (
+  .add('Primary checked', () => (
     <RadioButton checked color="primary" onChange={action('onChange')} />
   ))
-  .add('primary disabled', () => (
+  .add('Primary disabled', () => (
     <RadioButton checked color="primary" disabled onChange={action('onChange')} />
   ));

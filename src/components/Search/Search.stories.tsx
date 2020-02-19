@@ -32,16 +32,16 @@ class SearchWrapper extends React.Component<{}, { searchTerm: string }> {
 
 storiesOf('Components|Search', module)
   .addDecorator(hostDecorator())
-  .add('base', () => {
+  .add('Base', () => {
     const props = { ...baseProps };
     return <Search {...props} />;
   })
-  .add('value', () => {
+  .add('Value', () => {
     const props = { ...baseProps, value: 'Abc' };
     return <Search {...props} />;
   })
-  .add('placeholder', () => {
+  .add('Placeholder', () => {
     const props = { ...baseProps, placeholder };
     return <Search {...props} />;
   })
-  .add('wrapper', () => <SearchWrapper />);
+  .add('Wrapper', () => <SearchWrapper />);

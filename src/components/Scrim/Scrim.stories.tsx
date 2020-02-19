@@ -11,4 +11,4 @@ storiesOf('Components|Scrim', module)
       height: '100%'
     })
   )
-  .add('base', () => <Scrim open onClose={action('onClick')} />);
+  .add('Base', () => <Scrim open onClose={action('onClick')} />);
