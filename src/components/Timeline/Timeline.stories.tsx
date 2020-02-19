@@ -135,7 +135,7 @@ storiesOf('Components|Timeline', module)
   .addDecorator(hostDecorator({}))
   .add('Base', () => <Timeline {...baseProps} />)
   .add('Intervals', () => <Timeline {...intervalsProps} />)
-  .add('Part: Event single', () => {
+  .add('Part event single', () => {
     const props = {
       domId: '1',
       content: {
@@ -146,41 +146,41 @@ storiesOf('Components|Timeline', module)
     };
     return <TimelineEvent {...props} />;
   })
-  .add('Part: Event start', () => {
+  .add('Part event start', () => {
     const props = {
       ...BASE_PROP_EVENTS,
       status: { color: COLOR_ORANGE, arrangement: 'start' as 'start' }
     };
     return <TimelineEvent {...props} />;
   })
-  .add('Part: Event continue', () => {
+  .add('Part event continue', () => {
     const props = {
       ...BASE_PROP_EVENTS,
       status: { color: COLOR_ORANGE, arrangement: 'continue' as 'continue' }
     };
     return <TimelineEvent {...props} />;
   })
-  .add('Part: Event end', () => {
+  .add('Part event end', () => {
     const props = {
       ...BASE_PROP_EVENTS,
       status: { color: COLOR_ORANGE, arrangement: 'end' as 'end' }
     };
     return <TimelineEvent {...props} />;
   })
-  .add('Part: Status single', () => (
+  .add('Part status single', () => (
     <StatusComponent color={theme.color.activeGreen} arrangement="single" />
   ))
-  .add('Part: Status start', () => (
+  .add('Part status start', () => (
     <StatusComponent color={theme.palette.signal.orangeDark} arrangement="start" />
   ))
-  .add('Part: Status middle', () => (
+  .add('Part status middle', () => (
     <StatusComponent color={theme.palette.signal.orangeDark} arrangement="continue" />
   ))
-  .add('Part: Status end', () => (
+  .add('Part status end', () => (
     <StatusComponent color={theme.palette.signal.orangeDark} arrangement="end" />
   ))
-  .add('Part: Content base', () => <Content title="Misalignment" timestamp={1519223596657} />)
-  .add('Part: Content description', () => {
+  .add('Part content base', () => <Content title="Misalignment" timestamp={1519223596657} />)
+  .add('Part content description', () => {
     const props = {
       title: 'Misalignment',
       timestamp: 1519223596657,

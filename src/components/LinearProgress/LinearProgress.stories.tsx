@@ -201,6 +201,6 @@ storiesOf('Components|LinearProgress', module)
       contentCenter={<span>I am center</span>}
     />
   ))
-  .add('Callback onSelect', () => (
+  .add('onSelect', () => (
     <LinearProgress size="xs" color="green" value={20} onSelect={action('onSelect')} />
   ));

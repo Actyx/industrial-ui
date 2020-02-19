@@ -6,5 +6,5 @@ import { PaginationDot } from './PaginationDot';
 
 storiesOf('Components|PaginationDot', module)
   .addDecorator(hostDecorator({}))
-  .add('active', () => <PaginationDot active onClick={action('onClick')} />)
-  .add('no active', () => <PaginationDot onClick={action('onClick')} />);
+  .add('Active', () => <PaginationDot active onClick={action('onClick')} />)
+  .add('No active', () => <PaginationDot onClick={action('onClick')} />);

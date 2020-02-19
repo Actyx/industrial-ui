@@ -17,8 +17,8 @@ storiesOf('Components|Input', module)
   .add('Error', () => <Input type="text" error />)
   .add('Full width', () => <Input type="text" fullWidth />)
   .add('Auto focus', () => <Input type="text" autoFocus />)
-  .add('Callback onClick', () => <Input type="text" onClick={action('onClick')} />)
-  .add('Callback onFocus', () => <Input type="text" onFocus={action('onFocus')} />)
-  .add('Callback onBlur', () => <Input type="text" onBlur={action('onBlur')} />)
-  .add('Callback onChange', () => <Input type="text" onChange={action('onChange')} />)
-  .add('Callback onKeyDOwn', () => <Input type="text" onKeyDown={action('onKeyDown')} />);
+  .add('onClick', () => <Input type="text" onClick={action('onClick')} />)
+  .add('onFocus', () => <Input type="text" onFocus={action('onFocus')} />)
+  .add('onBlur', () => <Input type="text" onBlur={action('onBlur')} />)
+  .add('onChange', () => <Input type="text" onChange={action('onChange')} />)
+  .add('onKeyDOwn', () => <Input type="text" onKeyDown={action('onKeyDown')} />);

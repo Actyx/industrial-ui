@@ -89,7 +89,7 @@ storiesOf('Components|Table.Table', module)
       <TableBody>{createRows(dataBody, undefined, true)}</TableBody>
     </Table>
   ))
-  .add('Part: TableBody base', () => (
+  .add('Part TableBody base', () => (
     <Table>
       <TableBody>
         <TableRow>
@@ -109,7 +109,7 @@ storiesOf('Components|Table.Table', module)
       </TableBody>
     </Table>
   ))
-  .add('Part: TableCell base', () => (
+  .add('Part TableCell base', () => (
     <Table>
       <TableBody>
         <TableRow>
@@ -120,7 +120,7 @@ storiesOf('Components|Table.Table', module)
       </TableBody>
     </Table>
   ))
-  .add('Part: TableCell numeric', () => (
+  .add('Part TableCell numeric', () => (
     <Table>
       <TableBody>
         <TableRow>
@@ -131,7 +131,7 @@ storiesOf('Components|Table.Table', module)
       </TableBody>
     </Table>
   ))
-  .add('Part: TableCell cellType', () => (
+  .add('Part TableCell cellType', () => (
     <Table>
       <TableBody>
         <TableRow>
@@ -162,21 +162,21 @@ storiesOf('Components|Table.Table', module)
       </TableHeader>
     </Table>
   ))
-  .add('Part: TableRow base', () => (
+  .add('Part TableRow base', () => (
     <Table>
       <TableBody>
         <TableRow>{content}</TableRow>
       </TableBody>
     </Table>
   ))
-  .add('Part: TableRow short', () => (
+  .add('Part TableRow short', () => (
     <Table>
       <TableBody>
         <TableRow condensed>{content}</TableRow>
       </TableBody>
     </Table>
   ))
-  .add('Part: TableRow onSelect', () => (
+  .add('Part TableRow onSelect', () => (
     <Table>
       <TableBody>
         <TableRow onSelect={action('onSelect')}>{content}</TableRow>

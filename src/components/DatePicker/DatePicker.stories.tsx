@@ -10,5 +10,5 @@ const baseProps = {
 
 storiesOf('Components|DatePicker', module)
   .addDecorator(hostDecorator())
-  .add('no value', () => <DatePicker {...baseProps} />)
-  .add('value', () => <DatePicker {...baseProps} value={new Date('2019-12-26T17:45:00Z')} />);
+  .add('No value', () => <DatePicker {...baseProps} />)
+  .add('Value', () => <DatePicker {...baseProps} value={new Date('2019-12-26T17:45:00Z')} />);

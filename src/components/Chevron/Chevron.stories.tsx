@@ -30,4 +30,4 @@ storiesOf('Components|Chevron', module)
   .add('Small', () => <Chevron variant="small" />)
   .add('Up-down animate', () => <Animate type="up-down" />)
   .add('Right-down animate', () => <Animate type="right-down" />)
-  .add('Callback onSelect', () => <Chevron onSelect={action('onSelect')} />);
+  .add('onSelect', () => <Chevron onSelect={action('onSelect')} />);

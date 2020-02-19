@@ -11,10 +11,10 @@ const baseProps = {
 
 storiesOf('Components|ClearableInput', module)
   .addDecorator(hostDecorator())
-  .add('no value', () => <ClearableInput value="" {...baseProps} />)
-  .add('value', () => <ClearableInput value="100" {...baseProps} />)
-  .add('larger', () => <ClearableInput value="100" long {...baseProps} />)
-  .add('interactable', () => {
+  .add('No value', () => <ClearableInput value="" {...baseProps} />)
+  .add('Value', () => <ClearableInput value="100" {...baseProps} />)
+  .add('Larger', () => <ClearableInput value="100" long {...baseProps} />)
+  .add('Interactable', () => {
     const Comp = () => {
       const [val, setVal] = React.useState('');
 
@@ -28,8 +28,8 @@ storiesOf('Components|ClearableInput', module)
 
     return <Comp />;
   })
-  .add('forSearch empty value', () => <ClearableInput value="" {...baseProps} forSearch />)
-  .add('forSearch interactable long', () => {
+  .add('Empty value forSearch', () => <ClearableInput value="" {...baseProps} forSearch />)
+  .add('Interactable long forSearch', () => {
     const Comp = () => {
       const [val, setVal] = React.useState('');
 

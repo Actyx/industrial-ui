@@ -16,6 +16,6 @@ storiesOf('Components|TextArea', module)
   .add('Disabled', () => <TextArea value="Text" disabled />)
   .add('Blur on enter', () => <TextArea blurOnEnter />)
   .add('Error', () => <TextArea error />)
-  .add('Callback onFocus', () => <TextArea onFocus={action('onFocus')} />)
-  .add('Callback onBlur', () => <TextArea onBlur={action('onBlur')} />)
-  .add('Callback onChange', () => <TextArea onChange={action('onChange')} />);
+  .add('onFocus', () => <TextArea onFocus={action('onFocus')} />)
+  .add('onBlur', () => <TextArea onBlur={action('onBlur')} />)
+  .add('onChange', () => <TextArea onChange={action('onChange')} />);

@@ -12,7 +12,7 @@ storiesOf('Components|SimpleToolbar', module)
       width: '100%'
     })
   )
-  .add('Variant: dark', () => (
+  .add('Dark', () => (
     <SimpleToolbar
       variant="dark"
       title="Report an Interruption"
@@ -22,7 +22,7 @@ storiesOf('Components|SimpleToolbar', module)
       }}
     />
   ))
-  .add('Variant: light', () => (
+  .add('Light', () => (
     <SimpleToolbar
       variant="light"
       title="Report an Interruption"
@@ -32,7 +32,7 @@ storiesOf('Components|SimpleToolbar', module)
       }}
     />
   ))
-  .add('Variant dark right icon', () => (
+  .add('Dark right icon', () => (
     <SimpleToolbar
       variant="dark"
       title="Report an Interruption"
@@ -46,7 +46,7 @@ storiesOf('Components|SimpleToolbar', module)
       }}
     />
   ))
-  .add('Variant light right icon', () => (
+  .add('Light right icon', () => (
     <SimpleToolbar
       variant="light"
       title="Report an Interruption"
@@ -60,7 +60,7 @@ storiesOf('Components|SimpleToolbar', module)
       }}
     />
   ))
-  .add('Variant: light right button', () => (
+  .add('Light right button', () => (
     <SimpleToolbar
       variant="light"
       title="Report an Interruption"
@@ -74,7 +74,7 @@ storiesOf('Components|SimpleToolbar', module)
       }}
     />
   ))
-  .add('Variant: light right', () => (
+  .add('Light right', () => (
     <SimpleToolbar
       variant="light"
       title="Report an Interruption"
@@ -114,9 +114,9 @@ storiesOf('Components|SimpleToolbar', module)
       }}
     />
   ))
-  .add('Part: Button enabled', () => (
+  .add('Part button enabled', () => (
     <SimpleToolbarButton text="Confirm" onClick={action('onClick')} />
   ))
-  .add('Part: Bittpm disabled', () => (
+  .add('Part button disabled', () => (
     <SimpleToolbarButton text="Confirm" disabled onClick={action('onClick')} />
   ));

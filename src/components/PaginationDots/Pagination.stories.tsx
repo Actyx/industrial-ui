@@ -6,4 +6,4 @@ import { Pagination } from './Pagination';
 
 storiesOf('Components|Pagination', module)
   .addDecorator(hostDecorator({}))
-  .add('base', () => <Pagination dots={2} index={0} onChangeIndex={action('onChangeIndex')} />);
+  .add('Base', () => <Pagination dots={2} index={0} onChangeIndex={action('onChangeIndex')} />);

@@ -41,7 +41,7 @@ storiesOf('Components|Typography', module)
   .add('Big', () => <Typography variant="big">Big</Typography>)
   .add('Giant', () => <Typography variant="giant">Giant</Typography>)
   .add('Heading', () => <Typography variant="heading">Heading</Typography>)
-  .add('NoWrap', () => (
+  .add('noWrap', () => (
     <div style={{ width: 100 }}>
       <Typography variant="standard" noWrap>
         No wrap this line of text

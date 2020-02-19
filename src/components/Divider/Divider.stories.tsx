@@ -10,4 +10,4 @@ storiesOf('Components|Divider', module)
       width: 600
     })
   )
-  .add('base', () => <Divider />);
+  .add('Base', () => <Divider />);

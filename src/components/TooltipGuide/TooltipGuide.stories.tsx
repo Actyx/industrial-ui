@@ -7,4 +7,4 @@ const content = 'Enter an estimated number of items to be cleaned for this activ
 
 storiesOf('Components|TooltipGuide', module)
   .addDecorator(hostDecorator({}))
-  .add('base', () => <TooltipGuide color="neutral" content={content} />);
+  .add('Base', () => <TooltipGuide color="neutral" content={content} />);

@@ -38,10 +38,8 @@ const baseProps = {
 storiesOf('Components|Grid', module)
   .addDecorator(hostDecorator({}))
   .add('Base', () => <Grid<Item> {...baseProps} />)
-  .add('SetRowClassName', () => (
+  .add('setRowClassName', () => (
     <Grid<Item> {...baseProps} setRowClassName={x => (x.id === 'b' ? 'font-weight-bold' : '')} />
   ))
   .add('isRowSelected', () => <Grid<Item> {...baseProps} isRowSelected={x => x.id === 'b'} />)
-  .add('Callback onRowSelect', () => (
-    <Grid<Item> {...baseProps} onRowSelect={action('onRowSelected')} />
-  ));
+  .add('onRowSelect', () => <Grid<Item> {...baseProps} onRowSelect={action('onRowSelected')} />);

@@ -21,7 +21,7 @@ storiesOf('Components|StatusCounters', module)
   .add('One counter', () => <StatusCounters counters={ex1} />)
   .add('Two counters', () => <StatusCounters counters={ex2} />)
   .add('Tree counters', () => <StatusCounters counters={ex3} />)
-  .add('Part: Ready', () => <StatusCounter counter={1} status="ready" />)
-  .add('Part: Requested', () => <StatusCounter counter={22} status="requested" />)
-  .add('Part: Unknown', () => <StatusCounter counter={764} status="unknown" />)
-  .add('Part: Long', () => <StatusCounter counter={43993487348734} status="ready" />);
+  .add('Part ready', () => <StatusCounter counter={1} status="ready" />)
+  .add('Part requested', () => <StatusCounter counter={22} status="requested" />)
+  .add('Part unknown', () => <StatusCounter counter={764} status="unknown" />)
+  .add('Part long', () => <StatusCounter counter={43993487348734} status="ready" />);

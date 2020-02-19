@@ -26,4 +26,4 @@ storiesOf('Components|NavigationalTags', module)
       onTagClose={action('onTagClose')}
     />
   ))
-  .add('Part: Tag', () => <Tag name="Tag name information" onClose={action('onClick')} />);
+  .add('Part Tag', () => <Tag name="Tag name information" onClose={action('onClick')} />);

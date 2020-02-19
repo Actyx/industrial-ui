@@ -78,6 +78,6 @@ storiesOf('Components|ModalDrawer', module)
     const props = { ...baseProps, listMain: [...listMain, ...listMain, ...listMain], open: true };
     return <ModalDrawer {...props} />;
   })
-  .add('Part: Header', () => <Header main={headerMain} icon="x" />)
-  .add('Part: Header icon', () => <Header main={headerMain} icon={headerIcon} />)
-  .add('Part: List', () => <List list={listMain} handleClose={action('handleClose')} />);
+  .add('Part Header', () => <Header main={headerMain} icon="x" />)
+  .add('Part Header icon', () => <Header main={headerMain} icon={headerIcon} />)
+  .add('Part List', () => <List list={listMain} handleClose={action('handleClose')} />);

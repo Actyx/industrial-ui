@@ -14,35 +14,35 @@ const baseProps = {
 };
 
 storiesOf('Components|Dialog.Dialog', module)
-  .add('md title', () => {
+  .add('Size md title', () => {
     const props = { ...baseProps, title };
     return <Dialog {...props} />;
   })
-  .add('md header', () => {
+  .add('Size md header', () => {
     const props = { ...baseProps, header: 'Custom header' };
     return <Dialog {...props} />;
   })
-  .add('xs', () => {
+  .add('Size xs', () => {
     const props = { ...baseProps, size: 'xs' as 'xs' };
     return <Dialog {...props} />;
   })
-  .add('sm', () => {
+  .add('Size sm', () => {
     const props = { ...baseProps, size: 'sm' as 'sm' };
     return <Dialog {...props} />;
   })
-  .add('xl', () => {
+  .add('Size xl', () => {
     const props = { ...baseProps, size: 'xl' as 'xl' };
     return <Dialog {...props} />;
   })
-  .add('xlw', () => {
+  .add('Size xlw', () => {
     const props = { ...baseProps, size: 'xlw' as 'xlw' };
     return <Dialog {...props} />;
   })
-  .add('xxl', () => {
+  .add('Size xxl', () => {
     const props = { ...baseProps, size: 'xxl' as 'xxl' };
     return <Dialog {...props} />;
   })
-  .add('header top right', () => {
+  .add('Size header top right', () => {
     const props = {
       ...baseProps,
       size: 'xl' as 'xl',

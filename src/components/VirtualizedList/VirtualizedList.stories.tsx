@@ -49,15 +49,15 @@ storiesOf('Components|VirtualizedList', module)
 
     return <VirtualizedList<Item> {...baseProps} data={d} />;
   })
-  .add('With setRowClassName', () => (
+  .add('setRowClassName', () => (
     <VirtualizedList<Item>
       {...baseProps}
       setRowClassName={x => (x.id === 'b' ? 'font-weight-bold' : '')}
     />
   ))
-  .add('With isRowSelected', () => (
+  .add('isRowSelected', () => (
     <VirtualizedList<Item> {...baseProps} isRowSelected={x => x.id === 'b'} />
   ))
-  .add('Callback onRowSelect', () => (
+  .add('onRowSelect', () => (
     <VirtualizedList<Item> {...baseProps} onRowSelect={action('onRowSelected')} />
   ));
