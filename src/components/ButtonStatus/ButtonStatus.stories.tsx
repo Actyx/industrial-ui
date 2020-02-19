@@ -9,16 +9,16 @@ const baseProps = {
   onSelect: action('onSelect')
 };
 
-storiesOf('Components|ButtonStatus.ButtonStatus', module)
+storiesOf('Components|ButtonStatus', module)
   .addDecorator(hostDecorator())
-  .add('base', () => {
+  .add('Text', () => {
     const props = {
       ...baseProps,
       selected: false
     };
     return <ButtonStatus {...props} />;
   })
-  .add('long', () => {
+  .add('Long text', () => {
     const props = {
       ...baseProps,
       text: 'Very long content',
@@ -26,14 +26,14 @@ storiesOf('Components|ButtonStatus.ButtonStatus', module)
     };
     return <ButtonStatus {...props} />;
   })
-  .add('selected', () => {
+  .add('Selected', () => {
     const props = {
       ...baseProps,
       selected: true
     };
     return <ButtonStatus {...props} />;
   })
-  .add('selected icon', () => {
+  .add('Selected icon', () => {
     const props = {
       ...baseProps,
       selected: true,
@@ -41,7 +41,7 @@ storiesOf('Components|ButtonStatus.ButtonStatus', module)
     };
     return <ButtonStatus {...props} />;
   })
-  .add('unselected icon', () => {
+  .add('Unselected icon', () => {
     const props = {
       ...baseProps,
       selected: false,
@@ -49,15 +49,3 @@ storiesOf('Components|ButtonStatus.ButtonStatus', module)
     };
     return <ButtonStatus {...props} />;
   });
-
-storiesOf('Components|ButtonStatus.mount', module)
-  .addDecorator(hostDecorator())
-  .add('inline', () => (
-    <div>
-      {['Workstation 1', 'Workstation 2', 'Workstation 3', ' Ws 4'].map(x => (
-        <span style={{ padding: 10 }} key={x}>
-          <ButtonStatus text={x} selected={false} onSelect={action('onSelect')} />
-        </span>
-      ))}
-    </div>
-  ));

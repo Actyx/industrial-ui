@@ -33,6 +33,7 @@ export * from './SignalCircular';
 export * from './SignalNotification';
 export * from './SignalStatus';
 export * from './SimpleToolbar';
+export * from './PaginationDot';
 export * from './Status';
 export * from './Table';
 export * from './Tabs';

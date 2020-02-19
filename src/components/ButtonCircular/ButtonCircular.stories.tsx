@@ -6,12 +6,12 @@ import { ButtonCircular } from './ButtonCircular';
 
 storiesOf('Components|ButtonCircular', module)
   .addDecorator(hostDecorator())
-  .add('neutral value', () => (
+  .add('Neutral value', () => (
     <ButtonCircular value="7" color="neutral" onSelect={action('onSelect')} />
   ))
-  .add('neutral icon', () => (
+  .add('Neutral icon', () => (
     <ButtonCircular value="arrow_forward" color="neutral" icon onSelect={action('onSelect')} />
   ))
-  .add('primary icon', () => (
+  .add('Primary icon', () => (
     <ButtonCircular value="arrow_forward" color="primary" icon onSelect={action('onSelect')} />
   ));
