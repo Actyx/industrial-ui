@@ -7,7 +7,7 @@ export * from './Checkbox';
 export * from './CheckboxIndeterminate';
 export * from './Chevron';
 export * from './CircularProgress';
-export * from './CiruclarProgressMeter';
+export * from './GaugeProgress';
 export * from './ClearableInput';
 export * from './DatePicker';
 export * from './Dialog';

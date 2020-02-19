@@ -31,7 +31,7 @@ const renderTextValue = (limitDigits: number) => (value: number) => {
 
 export const renderTextValueMax4Digits = renderTextValue(4);
 
-const CircularProgressMeterComp = ({
+const GaugeProgressComp = ({
   classes,
   color,
   value,
@@ -91,7 +91,7 @@ const styles: StyleSheet<ClassKey, OuterProps> = {
   }
 };
 
-export const CircularProgressMeter = compose<Props, OuterProps>(
-  setDisplayName('CircularProgressMeter'),
+export const GaugeProgress = compose<Props, OuterProps>(
+  setDisplayName('GaugeProgress'),
   injectSheet(styles)
-)(CircularProgressMeterComp);
+)(GaugeProgressComp);

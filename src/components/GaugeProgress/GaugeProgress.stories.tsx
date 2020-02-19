@@ -1,7 +1,7 @@
 import { storiesOf } from '@storybook/react';
 import { hostDecorator } from '../../utils';
 import * as React from 'react';
-import { GaugeProgress, MeterColor } from '../GaugeProgress';
+import { GaugeProgress, MeterColor } from './GaugeProgress';
 
 const baseProps = {
   color: MeterColor.Green
@@ -9,16 +9,15 @@ const baseProps = {
 
 storiesOf('Components|GaugeProgress', module)
   .addDecorator(hostDecorator({}))
-  .add('25%', () => <GaugeProgress {...baseProps} value={25} />)
   .add('50%', () => <GaugeProgress {...baseProps} value={50} />)
   .add('75%', () => <GaugeProgress {...baseProps} value={75} />)
   .add('100%', () => <GaugeProgress {...baseProps} value={100} />)
   .add('150%', () => <GaugeProgress {...baseProps} value={150} />)
-  .add('blue', () => <GaugeProgress value={60} color={MeterColor.Blue} />)
-  .add('green', () => <GaugeProgress value={60} color={MeterColor.Green} />)
-  .add('butt', () => <GaugeProgress value={60} color={MeterColor.Green} lineCap="butt" />)
-  .add('round', () => <GaugeProgress value={60} color={MeterColor.Green} lineCap="round" />)
-  .add('resize', () => (
+  .add('Blue', () => <GaugeProgress value={60} color={MeterColor.Blue} />)
+  .add('Green', () => <GaugeProgress value={60} color={MeterColor.Green} />)
+  .add('Butt', () => <GaugeProgress value={60} color={MeterColor.Green} lineCap="butt" />)
+  .add('Round', () => <GaugeProgress value={60} color={MeterColor.Green} lineCap="round" />)
+  .add('Resize', () => (
     <div
       style={{
         width: 500,
@@ -34,7 +33,7 @@ storiesOf('Components|GaugeProgress', module)
       />
     </div>
   ))
-  .add('dynamic', () => {
+  .add('Dynamic', () => {
     const Wrapper = () => {
       const defaultValue = 50;
       const [value, setValue] = React.useState<number>(defaultValue);
