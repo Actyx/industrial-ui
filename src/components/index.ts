@@ -1,4 +1,3 @@
-export * from './BaseHeader';
 export * from './BatteryIcon';
 export * from './Button';
 export * from './ButtonCircular';
