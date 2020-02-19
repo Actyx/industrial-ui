@@ -2,13 +2,28 @@ import { storiesOf } from '@storybook/react';
 import { theme } from '../../theme';
 import { hostDecorator } from '../../utils';
 import * as React from 'react';
-import { Timeline, TimelineEvent } from './Timeline';
+import { Timeline, TimelineEvent as TimelineEventType } from './Timeline';
+import { TimelineEvent } from './TimelineEvent';
+import { StatusComponent } from './Status';
+import { Content } from './Content';
 
 const COLOR_GREEN = theme.palette.signal.greenDark;
 const COLOR_ORANGE = theme.palette.signal.orangeDark;
 
+const DESCRIPTION =
+  'Misalignment, continues the paper, exists when the centre lines of two neighbouring machines deviate from each other.';
+
+const BASE_PROP_EVENTS = {
+  domId: '1',
+  content: {
+    title: 'Misalignment',
+    timestamp: 1519223596657,
+    description: DESCRIPTION
+  }
+};
+
 const baseProps: {
-  events: ReadonlyArray<TimelineEvent>;
+  events: ReadonlyArray<TimelineEventType>;
   scrollToLast: boolean;
 } = {
   events: [
@@ -46,7 +61,7 @@ const baseProps: {
 };
 
 const intervalsProps: {
-  events: ReadonlyArray<TimelineEvent>;
+  events: ReadonlyArray<TimelineEventType>;
   scrollToLast: boolean;
 } = {
   events: [
@@ -116,7 +131,61 @@ const intervalsProps: {
   scrollToLast: true
 };
 
-storiesOf('Components|Timeline.Timeline', module)
+storiesOf('Components|Timeline', module)
   .addDecorator(hostDecorator({}))
-  .add('base', () => <Timeline {...baseProps} />)
-  .add('intervals', () => <Timeline {...intervalsProps} />);
+  .add('Base', () => <Timeline {...baseProps} />)
+  .add('Intervals', () => <Timeline {...intervalsProps} />)
+  .add('Part: Event single', () => {
+    const props = {
+      domId: '1',
+      content: {
+        title: 'Resumed',
+        timestamp: 1519297197594
+      },
+      status: { color: COLOR_GREEN, arrangement: 'single' as 'single' }
+    };
+    return <TimelineEvent {...props} />;
+  })
+  .add('Part: Event start', () => {
+    const props = {
+      ...BASE_PROP_EVENTS,
+      status: { color: COLOR_ORANGE, arrangement: 'start' as 'start' }
+    };
+    return <TimelineEvent {...props} />;
+  })
+  .add('Part: Event continue', () => {
+    const props = {
+      ...BASE_PROP_EVENTS,
+      status: { color: COLOR_ORANGE, arrangement: 'continue' as 'continue' }
+    };
+    return <TimelineEvent {...props} />;
+  })
+  .add('Part: Event end', () => {
+    const props = {
+      ...BASE_PROP_EVENTS,
+      status: { color: COLOR_ORANGE, arrangement: 'end' as 'end' }
+    };
+    return <TimelineEvent {...props} />;
+  })
+  .add('Part: Status single', () => (
+    <StatusComponent color={theme.color.activeGreen} arrangement="single" />
+  ))
+  .add('Part: Status start', () => (
+    <StatusComponent color={theme.palette.signal.orangeDark} arrangement="start" />
+  ))
+  .add('Part: Status middle', () => (
+    <StatusComponent color={theme.palette.signal.orangeDark} arrangement="continue" />
+  ))
+  .add('Part: Status end', () => (
+    <StatusComponent color={theme.palette.signal.orangeDark} arrangement="end" />
+  ))
+  .add('Part: Content base', () => <Content title="Misalignment" timestamp={1519223596657} />)
+  .add('Part: Content description', () => {
+    const props = {
+      title: 'Misalignment',
+      timestamp: 1519223596657,
+      description:
+        'Misalignment, continues the paper, exists when the centre lines of two neighbouring machines deviate from each other.'
+    };
+    return <Content {...props} />;
+  });

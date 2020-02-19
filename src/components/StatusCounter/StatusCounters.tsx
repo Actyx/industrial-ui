@@ -2,7 +2,7 @@ import * as React from 'react';
 import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 import { StatusCounter } from './StatusCounter';
-import { StatusType } from './Status';
+import { StatusType } from '../Status';
 
 export type Counter = {
   status: StatusType;

@@ -11,19 +11,19 @@ const onClick = action('onClick');
 
 storiesOf('Components|Toolbar', module)
   .addDecorator(hostDecorator({}))
-  .add('light content', () => (
+  .add('Variant light content', () => (
     <Toolbar variant="light">
       <Typography variant="distance">Title</Typography>
     </Toolbar>
   ))
-  .add('light content/icons', () => (
+  .add('Variant light content/icons', () => (
     <Toolbar variant="light">
       <Button variant="flat" color="transparent" icon="rotate_left" onClick={onClick} />
       <Button variant="flat" color="transparent" icon="rotate_right" onClick={onClick} />
       <Button variant="flat" color="transparent" icon="refresh" onClick={onClick} />
     </Toolbar>
   ))
-  .add('dark content', () => (
+  .add('Variant dark content', () => (
     <Toolbar variant="dark">
       <Typography variant="distance" color={theme.palette.grey.white}>
         Title

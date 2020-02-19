@@ -39,8 +39,8 @@ const baseProps = {
 
 storiesOf('Components|VirtualizedList', module)
   .addDecorator(hostDecorator({ height: 400 }))
-  .add('base', () => <VirtualizedList<Item> {...baseProps} />)
-  .add('lots of data virtualized', () => {
+  .add('Base', () => <VirtualizedList<Item> {...baseProps} />)
+  .add('Lots of data virtualized', () => {
     const d: ReadonlyArray<Item> = range(0, 10000).map(x => ({
       id: `${x}`,
       description: `desc ${x}`,
@@ -49,15 +49,15 @@ storiesOf('Components|VirtualizedList', module)
 
     return <VirtualizedList<Item> {...baseProps} data={d} />;
   })
-  .add('setRowClassName', () => (
+  .add('With setRowClassName', () => (
     <VirtualizedList<Item>
       {...baseProps}
       setRowClassName={x => (x.id === 'b' ? 'font-weight-bold' : '')}
     />
   ))
-  .add('isRowSelected', () => (
+  .add('With isRowSelected', () => (
     <VirtualizedList<Item> {...baseProps} isRowSelected={x => x.id === 'b'} />
   ))
-  .add('onRowSelect', () => (
+  .add('Callback onRowSelect', () => (
     <VirtualizedList<Item> {...baseProps} onRowSelect={action('onRowSelected')} />
   ));

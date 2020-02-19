@@ -4,7 +4,7 @@ import * as classNames from 'classnames';
 import * as React from 'react';
 import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
-import { StatusType } from './Status';
+import { StatusType } from '../Status';
 
 type OuterProps = Readonly<{
   status: StatusType;
