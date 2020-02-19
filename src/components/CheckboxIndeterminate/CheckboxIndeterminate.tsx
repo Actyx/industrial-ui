@@ -13,7 +13,7 @@ type Props = Readonly<{
   onClick?: () => void;
 }>;
 
-export const CheckboxWithIndeterminateState = ({ state, color, disabled, onClick }: Props) => {
+export const CheckboxIndeterminate = ({ state, color, disabled, onClick }: Props) => {
   const iconType =
     state === 'checked'
       ? 'check_box'

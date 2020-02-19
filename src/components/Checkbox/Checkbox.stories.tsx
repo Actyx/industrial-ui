@@ -6,17 +6,17 @@ import { Checkbox } from './Checkbox';
 
 storiesOf('Components|Checkbox', module)
   .addDecorator(hostDecorator())
-  .add('unchecked', () => (
+  .add('Unchecked', () => (
     <Checkbox checked={false} color="neutral" onChange={action('onChange')} />
   ))
-  .add('checked', () => <Checkbox checked color="neutral" onChange={action('onChange')} />)
-  .add('disabled', () => (
+  .add('Checked', () => <Checkbox checked color="neutral" onChange={action('onChange')} />)
+  .add('Disabled', () => (
     <Checkbox checked color="neutral" disabled onChange={action('onChange')} />
   ))
-  .add('primary unchecked', () => (
+  .add('Primary unchecked', () => (
     <Checkbox checked={false} color="primary" onChange={action('onChange')} />
   ))
-  .add('primary checked', () => <Checkbox checked color="primary" onChange={action('onChange')} />)
-  .add('primary disabled', () => (
+  .add('Primary checked', () => <Checkbox checked color="primary" onChange={action('onChange')} />)
+  .add('Primary disabled', () => (
     <Checkbox checked color="primary" disabled onChange={action('onChange')} />
   ));

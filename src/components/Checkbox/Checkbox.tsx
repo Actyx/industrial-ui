@@ -1,8 +1,8 @@
 import * as React from 'react';
 import {
-  CheckboxWithIndeterminateState,
+  CheckboxIndeterminate,
   CheckboxWithIndeterminateStateColor
-} from '../CheckboxWithIndeterminateState';
+} from '../CheckboxIndeterminate';
 
 type Props = Readonly<{
   checked: boolean;
@@ -12,7 +12,7 @@ type Props = Readonly<{
 }>;
 
 export const Checkbox = ({ checked, color, disabled, onChange }: Props) => (
-  <CheckboxWithIndeterminateState
+  <CheckboxIndeterminate
     state={checked ? 'checked' : 'unchecked'}
     color={color}
     disabled={disabled}

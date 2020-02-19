@@ -4,7 +4,7 @@ export * from './ButtonCircular';
 export * from './ButtonStatus';
 export * from './Card';
 export * from './Checkbox';
-export * from './CheckboxWithIndeterminateState';
+export * from './CheckboxIndeterminate';
 export * from './Chevron';
 export * from './CircularProgress';
 export * from './CiruclarProgressMeter';
