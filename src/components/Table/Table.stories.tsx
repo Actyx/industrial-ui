@@ -65,7 +65,7 @@ const createRows = (dataRow: DataTable, variant: Variant = 'standard', dark = fa
   </>
 );
 
-storiesOf('Components|Table.Table', module)
+storiesOf('Components|Table', module)
   .addDecorator(
     hostDecorator({
       width: 900,
