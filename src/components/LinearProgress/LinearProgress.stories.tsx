@@ -6,24 +6,32 @@ import { LinearProgress } from './LinearProgress';
 
 storiesOf('Components|LinearProgress', module)
   .addDecorator(hostDecorator({}))
-  .add('xs', () => <LinearProgress size="xs" color="green" value={20} />)
-  .add('md', () => (
+  .add('Size xs', () => <LinearProgress size="xs" color="green" value={20} />)
+  .add('Size md', () => (
     <LinearProgress size="md" color="green" value={20} contentCenter={<strong>10 min</strong>} />
   ))
-  .add('md60', () => (
+  .add('Size md60', () => (
     <LinearProgress size="md60" color="green" value={20} contentCenter={<strong>10 min</strong>} />
   ))
-  .add('lg ', () => <LinearProgress size="lg" color="green" value={20} contentCenter="paused" />)
-  .add('green', () => <LinearProgress size="md" color="green" value={20} contentCenter="10 min" />)
-  .add('orange', () => (
+  .add('Size lg ', () => (
+    <LinearProgress size="lg" color="green" value={20} contentCenter="paused" />
+  ))
+  .add('Color green', () => (
+    <LinearProgress size="md" color="green" value={20} contentCenter="10 min" />
+  ))
+  .add('Color orange', () => (
     <LinearProgress size="md" color="orange" value={20} contentCenter="10 min" />
   ))
-  .add('yellow', () => (
+  .add('Color yellow', () => (
     <LinearProgress size="md" color="yellow" value={20} contentCenter="10 min" />
   ))
-  .add('red', () => <LinearProgress size="md" color="red" value={20} contentCenter="10 min" />)
-  .add('grey', () => <LinearProgress size="md" color="grey" value={20} contentCenter="10 min" />)
-  .add('white', () => (
+  .add('Color red', () => (
+    <LinearProgress size="md" color="red" value={20} contentCenter="10 min" />
+  ))
+  .add('Color grey', () => (
+    <LinearProgress size="md" color="grey" value={20} contentCenter="10 min" />
+  ))
+  .add('Color white', () => (
     <LinearProgress
       border
       size="md"
@@ -34,7 +42,7 @@ storiesOf('Components|LinearProgress', module)
       contentCenter={<span>I am center</span>}
     />
   ))
-  .add('brown', () => (
+  .add('Color brown', () => (
     <LinearProgress
       border
       size="md"
@@ -45,7 +53,7 @@ storiesOf('Components|LinearProgress', module)
       contentCenter={<span>I am center</span>}
     />
   ))
-  .add('xs content vertical align: center', () => (
+  .add('Variant xs content vertical align: center', () => (
     <LinearProgress
       size="xs"
       contentVerticalAlign="center"
@@ -57,7 +65,7 @@ storiesOf('Components|LinearProgress', module)
       contentCenter={<span>I am center</span>}
     />
   ))
-  .add('xs content vertical align: top', () => (
+  .add('Variant xs content vertical align: top', () => (
     <LinearProgress
       size="xs"
       contentVerticalAlign="top"
@@ -69,7 +77,7 @@ storiesOf('Components|LinearProgress', module)
       contentCenter={<span>I am center</span>}
     />
   ))
-  .add('xs content vertical align: bottom', () => (
+  .add('Variant xs content vertical align: bottom', () => (
     <LinearProgress
       size="xs"
       contentVerticalAlign="bottom"
@@ -81,7 +89,7 @@ storiesOf('Components|LinearProgress', module)
       contentCenter={<span>I am center</span>}
     />
   ))
-  .add('md content vertical align: center', () => (
+  .add('Variant md content vertical align: center', () => (
     <LinearProgress
       size="md"
       contentVerticalAlign="center"
@@ -93,7 +101,7 @@ storiesOf('Components|LinearProgress', module)
       contentCenter={<span>I am center</span>}
     />
   ))
-  .add('md content vertical align: top', () => (
+  .add('Variant md content vertical align: top', () => (
     <LinearProgress
       size="md"
       contentVerticalAlign="top"
@@ -105,7 +113,7 @@ storiesOf('Components|LinearProgress', module)
       contentCenter={<span>I am center</span>}
     />
   ))
-  .add('md content vertical align: bottom', () => (
+  .add('Variant md content vertical align: bottom', () => (
     <LinearProgress
       size="md"
       contentVerticalAlign="bottom"
@@ -117,7 +125,7 @@ storiesOf('Components|LinearProgress', module)
       contentCenter={<span>I am center</span>}
     />
   ))
-  .add('lg content vertical align: center', () => (
+  .add('Variant lg content vertical align: center', () => (
     <LinearProgress
       size="lg"
       contentVerticalAlign="center"
@@ -129,7 +137,7 @@ storiesOf('Components|LinearProgress', module)
       contentCenter={<span>I am center</span>}
     />
   ))
-  .add('lg content vertical align: top', () => (
+  .add('Variant lg content vertical align: top', () => (
     <LinearProgress
       size="lg"
       contentVerticalAlign="top"
@@ -141,7 +149,7 @@ storiesOf('Components|LinearProgress', module)
       contentCenter={<span>I am center</span>}
     />
   ))
-  .add('lg content vertical align: bottom', () => (
+  .add('Variant lg content vertical align: bottom', () => (
     <LinearProgress
       size="lg"
       contentVerticalAlign="bottom"
@@ -153,25 +161,25 @@ storiesOf('Components|LinearProgress', module)
       contentCenter={<span>I am center</span>}
     />
   ))
-  .add('contentRight %', () => (
+  .add('Content right %', () => (
     <LinearProgress size="md" color="green" value={50} contentRight="50%" contentLeft="" />
   ))
-  .add('value % xl', () => (
+  .add('Value % xl', () => (
     <LinearProgress size="lg" color="green" value={50} contentRight="50%" contentLeft="" />
   ))
-  .add('value x/y', () => (
+  .add('Value x/y', () => (
     <LinearProgress size="md" color="green" value={50} contentRight="10/20" contentLeft="" />
   ))
-  .add('exceed %', () => (
+  .add('Exceed %', () => (
     <LinearProgress size="md" color="green" value={100} contentRight="+20%" contentLeft="120%" />
   ))
-  .add('exceed % xl', () => (
+  .add('Exceed % xl', () => (
     <LinearProgress size="lg" color="green" value={100} contentRight="+20%" contentLeft="120%" />
   ))
-  .add('exceed x/y', () => (
+  .add('Exceed x/y', () => (
     <LinearProgress size="md" color="green" value={100} contentRight="+4" contentLeft="24/20" />
   ))
-  .add('exceed h:m', () => (
+  .add('Exceed h:m', () => (
     <LinearProgress
       size="md"
       color="green"
@@ -180,9 +188,9 @@ storiesOf('Components|LinearProgress', module)
       contentLeft="1 h 30 m"
     />
   ))
-  .add('no message ', () => <LinearProgress size="md" color="green" value={20} />)
-  .add('disabled', () => <LinearProgress size="md" color="green" value={20} disabled />)
-  .add('disabled with content', () => (
+  .add('No message ', () => <LinearProgress size="md" color="green" value={20} />)
+  .add('Disabled', () => <LinearProgress size="md" color="green" value={20} disabled />)
+  .add('Disabled with content', () => (
     <LinearProgress
       disabled
       size="md"
@@ -193,6 +201,6 @@ storiesOf('Components|LinearProgress', module)
       contentCenter={<span>I am center</span>}
     />
   ))
-  .add('onSelect', () => (
+  .add('Callback onSelect', () => (
     <LinearProgress size="xs" color="green" value={20} onSelect={action('onSelect')} />
-  ));
+  ));s

@@ -17,18 +17,18 @@ storiesOf('Components|InputWithIncrements', module)
       width: 600
     })
   )
-  .add('base', () => {
+  .add('Base', () => {
     const props = { ...baseProps };
     return <InputWithIncrements {...props} />;
   })
-  .add('defaultValue', () => {
+  .add('Default value', () => {
     const props = {
       ...baseProps,
       defaultValue: 20
     };
     return <InputWithIncrements {...props} />;
   })
-  .add('calculationDelay', () => {
+  .add('Calculation delay', () => {
     const props = {
       ...baseProps,
       incrementMin: 1,
