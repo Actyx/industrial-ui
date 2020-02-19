@@ -14,7 +14,7 @@ export * from './Dialog';
 export * from './Divider';
 export * from './FloatingActionButton';
 export * from './Grid';
-export * from './GuideTooltip';
+export * from './TooltipGuide';
 export * from './HorizontallyScrollableList';
 export * from './IconTextNotification';
 export * from './Input';

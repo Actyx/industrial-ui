@@ -14,4 +14,4 @@ storiesOf('Components|TooltipGuide', module)
       background: theme.palette.grey.light100
     })
   )
-  .add('base', () => <TooltipGuide color="neutral" content={content} />);
+  .add('Base', () => <TooltipGuide color="neutral" content={content} />);

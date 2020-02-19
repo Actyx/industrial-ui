@@ -19,7 +19,7 @@ const genericBaseProps = {
 
 storiesOf('Components|IconTextNotification', module)
   .addDecorator(hostDecorator({}))
-  .add('warning', () => <IconTextNotification {...warningBaseProps} counter={3} />)
-  .add('warning counter', () => <IconTextNotification {...warningBaseProps} />)
-  .add('generic counter', () => <IconTextNotification {...genericBaseProps} />)
-  .add('smallSize', () => <IconTextNotification {...genericBaseProps} smallSize />);
+  .add('Warning', () => <IconTextNotification {...warningBaseProps} counter={3} />)
+  .add('Warning counter', () => <IconTextNotification {...warningBaseProps} />)
+  .add('Generic counter', () => <IconTextNotification {...genericBaseProps} />)
+  .add('Small size', () => <IconTextNotification {...genericBaseProps} smallSize />);
