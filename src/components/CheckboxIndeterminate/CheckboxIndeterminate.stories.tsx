@@ -19,8 +19,8 @@ const props = {
 
 storiesOf('Components|CheckboxWithIndeterminateState', module)
   .addDecorator(hostDecorator())
-  .add('indeterminate', () => <CheckboxIndeterminate {...props} state={'indeterminate'} />)
-  .add('unchecked', () => <CheckboxIndeterminate {...props} />)
-  .add('checked', () => <CheckboxIndeterminate {...props} state={'checked'} />)
-  .add('disabled', () => <CheckboxIndeterminate {...props} disabled />)
-  .add('primary unchecked', () => <CheckboxIndeterminate {...props} color="primary" />);
+  .add('Indeterminate', () => <CheckboxIndeterminate {...props} state={'indeterminate'} />)
+  .add('Unchecked', () => <CheckboxIndeterminate {...props} />)
+  .add('Checked', () => <CheckboxIndeterminate {...props} state={'checked'} />)
+  .add('Disabled', () => <CheckboxIndeterminate {...props} disabled />)
+  .add('Primary unchecked', () => <CheckboxIndeterminate {...props} color="primary" />);
