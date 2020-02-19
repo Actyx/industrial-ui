@@ -203,4 +203,4 @@ storiesOf('Components|LinearProgress', module)
   ))
   .add('Callback onSelect', () => (
     <LinearProgress size="xs" color="green" value={20} onSelect={action('onSelect')} />
-  ));s
+  ));
