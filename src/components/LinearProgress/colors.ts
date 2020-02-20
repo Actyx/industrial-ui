@@ -6,7 +6,7 @@ const dark: { [color: string]: string } = {
   orange: theme.palette.signal.orangeDark,
   yellow: theme.palette.signal.yellowDark,
   red: theme.palette.signal.redDark,
-  grey: theme.palette.grey.neutral300,
+  grey: theme.palette.grey[500],
   white: theme.palette.common.white,
   brown: theme.palette.signal.brownDark
 };

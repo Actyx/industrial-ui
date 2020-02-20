@@ -14,7 +14,7 @@ type ClassKey = 'root' | 'shape' | 'shapeSeparator' | 'content' | 'icon' | 'name
 
 type Props = WithStyles<ClassKey> & CompProps;
 
-export const COLOR_TAG = theme.palette.grey.neutral300;
+export const COLOR_TAG = theme.palette.grey[500];
 
 const TagComp = ({ classes, name, onClose }: Props) => (
   <div className={classes.root} onClick={onClose}>
