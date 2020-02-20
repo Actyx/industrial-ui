@@ -2,15 +2,13 @@ import { MUIcon } from '../MUIcon';
 import * as React from 'react';
 import { Typography } from '../Typography';
 
-type OuterProps = Readonly<{
+type Props = Readonly<{
   icon: string;
   text: React.ReactNode;
   color: string;
   smallSize?: boolean;
   counter?: number;
 }>;
-
-type Props = OuterProps;
 
 export const IconTextNotification = ({ icon, text, color, smallSize = false, counter }: Props) => (
   <div className="d-flex align-items-center">
