@@ -169,7 +169,7 @@ storiesOf('Components|Timeline', module)
     return <TimelineEvent {...props} />;
   })
   .add('Part status single', () => (
-    <StatusComponent color={theme.palette.green.activeGreen} arrangement="single" />
+    <StatusComponent color={theme.palette.success.light} arrangement="single" />
   ))
   .add('Part status start', () => (
     <StatusComponent color={theme.palette.warning.main} arrangement="start" />

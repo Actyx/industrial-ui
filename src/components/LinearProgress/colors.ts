@@ -4,7 +4,7 @@ import { LinearProgressColor } from './LinearProgress';
 const dark: { [color: string]: string } = {
   green: theme.palette.success.main,
   orange: theme.palette.warning.dark,
-  yellow: theme.palette.signal.yellowDark,
+  yellow: theme.palette.prewarning.dark,
   red: theme.palette.signal.redDark,
   grey: theme.palette.grey[500],
   white: theme.palette.common.white,
@@ -14,7 +14,7 @@ const dark: { [color: string]: string } = {
 const regular: { [color: string]: string } = {
   green: theme.palette.success.light,
   orange: theme.palette.warning.main,
-  yellow: theme.palette.signal.yellow,
+  yellow: theme.palette.prewarning.main,
   red: theme.palette.error.main,
   grey: theme.palette.grey[400],
   white: theme.palette.grey[50],
@@ -34,7 +34,7 @@ const textColorMap: { [color: string]: string } = {
 const borderColorMap: { [color: string]: string } = {
   green: theme.palette.success.light,
   orange: theme.palette.warning.main,
-  yellow: theme.palette.signal.yellow,
+  yellow: theme.palette.prewarning.main,
   red: theme.palette.error.main,
   grey: theme.palette.grey[400],
   white: theme.palette.grey[400], // TODO check colors here

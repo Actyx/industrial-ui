@@ -160,7 +160,7 @@ const styles: StyleSheet<ClassKey> = {
     }
   },
   yellow: {
-    backgroundColor: theme.palette.signal.yellowDark,
+    backgroundColor: theme.palette.prewarning.dark,
     color: theme.palette.primary.contrastText,
     '& span': {
       color: theme.palette.primary.contrastText
