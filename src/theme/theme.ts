@@ -12,7 +12,8 @@ import {
   orange,
   lightGreen,
   red,
-  yellow
+  yellow,
+  brown
 } from '../colors';
 
 // Inspired from:
@@ -41,14 +42,16 @@ const createTheme = () => {
         main: yellow[600],
         dark: yellow[800]
       },
+      postwarning: {
+        main: brown[400],
+        dark: brown[900]
+      },
       error: {
         main: red.A700
       },
       signal: {
         redDark: '#990000',
-        redBright: '#e16464',
-        brown: '#DBB44B',
-        brownDark: '#917731'
+        redBright: '#e16464'
       }
     },
     typography: {

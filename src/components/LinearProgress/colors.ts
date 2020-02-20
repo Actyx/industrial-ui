@@ -8,7 +8,7 @@ const dark: { [color: string]: string } = {
   red: theme.palette.signal.redDark,
   grey: theme.palette.grey[500],
   white: theme.palette.common.white,
-  brown: theme.palette.signal.brownDark
+  brown: theme.palette.postwarning.dark
 };
 
 const regular: { [color: string]: string } = {
@@ -18,7 +18,7 @@ const regular: { [color: string]: string } = {
   red: theme.palette.error.main,
   grey: theme.palette.grey[400],
   white: theme.palette.grey[50],
-  brown: theme.palette.signal.brown
+  brown: theme.palette.postwarning.main
 };
 
 const textColorMap: { [color: string]: string } = {
@@ -28,7 +28,7 @@ const textColorMap: { [color: string]: string } = {
   red: theme.palette.common.white,
   grey: theme.palette.common.white,
   white: theme.palette.grey[900],
-  brown: theme.palette.signal.brown
+  brown: theme.palette.common.white
 };
 
 const borderColorMap: { [color: string]: string } = {
@@ -38,7 +38,7 @@ const borderColorMap: { [color: string]: string } = {
   red: theme.palette.error.main,
   grey: theme.palette.grey[400],
   white: theme.palette.grey[400], // TODO check colors here
-  brown: theme.palette.signal.brown
+  brown: theme.palette.postwarning.main
 };
 
 export const getRegularColor = (color: LinearProgressColor, disabled?: boolean) => {
