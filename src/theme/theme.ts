@@ -77,18 +77,10 @@ const createTheme = () => {
     }
   };
 
-  const shadowWidth = {
-    sm: 4
-  };
-
   return {
-    shadowWidth,
     shadow: {
       xs: `${1}px ${1}px ${3}px ${base.utils.rgba(base.palette.common.black, 0.4)}`,
-      sm: `${shadowWidth.sm}px ${shadowWidth.sm}px ${shadowWidth.sm}px ${base.utils.rgba(
-        base.palette.common.black,
-        0.3
-      )}`,
+      sm: `${4}px ${4}px ${4}px ${base.utils.rgba(base.palette.common.black, 0.3)}`,
       md: `${10}px ${10}px ${24}px ${base.utils.rgba(base.palette.common.black, 0.5)}`
     },
     ...base
