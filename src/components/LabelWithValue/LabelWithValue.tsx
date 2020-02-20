@@ -23,7 +23,7 @@ type ClassKey = 'label' | 'value';
 const styles: StyleSheet<ClassKey> = {
   label: {
     textTransform: 'uppercase',
-    color: theme.palette.grey.dark200,
+    color: theme.palette.grey[700],
     fontWeight: 'bold',
     fontSize: 18,
     lineHeight: 1

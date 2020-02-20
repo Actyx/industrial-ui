@@ -49,7 +49,7 @@ const button = {
 const styles: StyleSheet<ClassKey> = {
   neutral: {
     ...button,
-    background: theme.palette.grey.dark200
+    background: theme.palette.grey[700]
   },
   primary: {
     ...button,

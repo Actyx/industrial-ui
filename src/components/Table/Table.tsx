@@ -59,7 +59,7 @@ const styles: StyleSheet<ClassKey, CompProps> = {
   },
   alternateColorDark: {
     '& tbody > tr:nth-of-type(odd)': {
-      backgroundColor: theme.palette.grey.dark200
+      backgroundColor: theme.palette.grey[700]
     }
   },
   rowBorder: {

@@ -48,7 +48,7 @@ export const ToggleButtonsComp = ({ classes, items, initToggledItemId, onToggle 
 
 type ClassKey = 'root' | 'container' | 'item' | 'selectedItem';
 
-const border = `1px solid ${theme.palette.grey.dark200}`;
+const border = `1px solid ${theme.palette.grey[700]}`;
 
 const styles: StyleSheet<ClassKey, CompProps> = {
   root: {

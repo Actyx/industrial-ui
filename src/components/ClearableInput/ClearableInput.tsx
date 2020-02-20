@@ -23,7 +23,7 @@ type ClassKey = 'root' | 'input' | 'icon' | 'longInput' | 'searchField' | 'searc
 type Props = WithStyles<ClassKey> & CompProps;
 
 const icon = (hasValue: boolean, forSearch?: boolean) => {
-  const color = forSearch ? theme.palette.grey.dark200 : undefined;
+  const color = forSearch ? theme.palette.grey[700] : undefined;
   if (hasValue) {
     return <MUIcon fontSize={40} type="close" color={color} />;
   } else if (forSearch) {
@@ -73,7 +73,7 @@ const ClearableInputComp = ({
   );
 };
 
-const searchBorder = `1px solid ${theme.palette.grey.dark200}`;
+const searchBorder = `1px solid ${theme.palette.grey[700]}`;
 
 const styles: StyleSheet<ClassKey> = {
   root: {

@@ -25,7 +25,7 @@ const createTheme = () => {
         300: grey[300],
         400: grey[400],
         600: grey[600],
-        dark200: '#666666',
+        700: grey[700],
         dark400: '#333333',
         neutral100: '#d6d6d6',
         neutral300: '#999999',

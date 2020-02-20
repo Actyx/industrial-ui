@@ -52,7 +52,7 @@ const styles: StyleSheet<ClassKey> = {
   },
   active: {
     backgroundColor: theme.palette.common.white,
-    color: theme.palette.grey.dark200
+    color: theme.palette.grey[700]
   },
   inactive: {
     backgroundColor: theme.palette.grey[100],
