@@ -4,6 +4,10 @@ import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 import { Typography } from '../Typography';
 import { getBorderColor, getDarkColor, getRegularColor, getTextColor } from './colors';
+import { normalize } from '../../utils';
+
+const VALUE_MIN = 0;
+const VALUE_MAX = 100;
 
 export type LinearProgressColor =
   | 'green'
@@ -14,12 +18,9 @@ export type LinearProgressColor =
   | 'white'
   | 'brown';
 
-const VALUE_MIN = 0;
-const VALUE_MAX = 100;
-
 export type LinearProgressSize = 'xs' | 'md' | 'lg' | 'md60';
 
-type ContentVerticalAlign = 'center' | 'top' | 'bottom';
+export type LinearProgressContentVerticalAlign = 'center' | 'top' | 'bottom';
 
 type CompProps = Readonly<{
   className?: string;
@@ -31,18 +32,15 @@ type CompProps = Readonly<{
   contentLeft?: React.ReactNode;
   contentCenter?: React.ReactNode;
   border?: boolean;
-  contentVerticalAlign?: ContentVerticalAlign;
+  contentVerticalAlign?: LinearProgressContentVerticalAlign;
   onSelect?: () => void;
 }>;
 
 type Props = WithStyles<ClassKey> & CompProps;
 
-export const normalize = (value: number, min: number, max: number) =>
-  Math.min(Math.max(min, value), max);
-
 const getContentVerticalAlignTopOffset = (
   offset: number,
-  contentVerticalAlign?: ContentVerticalAlign
+  contentVerticalAlign?: LinearProgressContentVerticalAlign
 ) =>
   contentVerticalAlign === 'center' || contentVerticalAlign === undefined
     ? 0
@@ -52,7 +50,7 @@ const getContentVerticalAlignTopOffset = (
 
 const getContentStyle = (
   size: LinearProgressSize,
-  contentVerticalAlign?: ContentVerticalAlign
+  contentVerticalAlign?: LinearProgressContentVerticalAlign
 ): React.CSSProperties => {
   const common: React.CSSProperties = {
     position: 'absolute',

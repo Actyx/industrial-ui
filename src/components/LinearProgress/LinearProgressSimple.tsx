@@ -1,13 +1,12 @@
 import * as React from 'react';
 import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
-import { createStyleIndicator, createStyleTrack } from './LinearProgress';
-import { LinearProgressColor } from '.';
+import { createStyleIndicator, createStyleTrack, LinearProgressColor } from './LinearProgress';
 
 const VALUE_MIN = 0;
 const VALUE_MAX = 100;
 
-type OuterProps = Readonly<{
+type CompProps = Readonly<{
   className?: string;
   color: LinearProgressColor;
   value: number;
@@ -15,7 +14,7 @@ type OuterProps = Readonly<{
   border?: boolean;
 }>;
 
-type Props = WithStyles<ClassKey> & OuterProps;
+type Props = WithStyles<ClassKey> & CompProps;
 
 const LinearProgressSimpleComp = ({ classes, color, value, disabled, border }: Props) => (
   <div className={classes.root} style={createStyleTrack(color, disabled, border)}>
@@ -28,7 +27,7 @@ const LinearProgressSimpleComp = ({ classes, color, value, disabled, border }: P
 
 type ClassKey = 'root' | 'indicator';
 
-const styles: StyleSheet<ClassKey, OuterProps> = {
+const styles: StyleSheet<ClassKey, CompProps> = {
   root: {
     position: 'relative',
     borderRadius: 8,
@@ -41,7 +40,7 @@ const styles: StyleSheet<ClassKey, OuterProps> = {
   }
 };
 
-export const LinearProgressSimple = compose<Props, OuterProps>(
+export const LinearProgressSimple = compose<Props, CompProps>(
   setDisplayName('LinearProgressSimple'),
   injectSheet(styles)
 )(LinearProgressSimpleComp);
