@@ -4,15 +4,13 @@ import * as React from 'react';
 import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 
-export type ToggleItem = Readonly<{
+export type ToggleButtonsItem = Readonly<{
   id: string;
   label: React.ReactNode;
 }>;
 
-export type ToggleButtonsItems = ReadonlyArray<ToggleItem>;
-
 type CompProps = Readonly<{
-  items: ToggleButtonsItems;
+  items: ReadonlyArray<ToggleButtonsItem>;
   initToggledItemId?: string;
   onToggle: (id: string) => void;
 }>;
