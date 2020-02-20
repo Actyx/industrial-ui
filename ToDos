@@ -29,3 +29,4 @@
 [ ] Create branding with logo and asset main entry point
 [ ] Add proper license (MIT?)
 [ ] Add proper license for fonts used
+[ ] Add script for publishing on npm and taggin repo
