@@ -5,7 +5,7 @@ import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { Transition } from 'react-transition-group';
 import { compose, setDisplayName } from 'recompose';
 
-export enum Mode {
+export enum FooterWithDoubleConfirmationMode {
   Normal = 'normal',
   Confirmation = 'confirmation'
 }
@@ -23,10 +23,9 @@ const transitionStyles = {
   }
 };
 
-// TODO revise this component
 type OuterProps = Readonly<{
   valid: boolean;
-  mode: Mode;
+  mode: FooterWithDoubleConfirmationMode;
   cancelMessage?: string;
   confirmMessage: string;
   yesMessage?: string;
@@ -57,7 +56,10 @@ const FooterWithDoubleConfirmationComp = ({
   onSelectNo
 }: Props) => (
   <div className={classes.root}>
-    <Transition in={mode === Mode.Confirmation} timeout={ANIMATION_DURATION}>
+    <Transition
+      in={mode === FooterWithDoubleConfirmationMode.Confirmation}
+      timeout={ANIMATION_DURATION}
+    >
       {state => (
         <div
           className={classes.content}
