@@ -4,23 +4,21 @@ import { compose, setDisplayName } from 'recompose';
 import { StatusCounter } from './StatusCounter';
 import { StatusVariant } from '../Status';
 
-export type Counter = {
-  status: StatusVariant;
+export type StatusCountersCounter = {
+  variant: StatusVariant;
   counter: number;
 };
 
-export type Counters = ReadonlyArray<Counter>;
-
 type CompProps = Readonly<{
-  counters: Counters;
+  counters: ReadonlyArray<StatusCountersCounter>;
 }>;
 
 type Props = WithStyles<ClassKey> & CompProps;
 
 const StatusCountersComp = ({ classes, counters }: Props) => (
   <div className={classes.root}>
-    {counters.map(({ status, counter }, idx) => (
-      <StatusCounter key={`${idx}-${status}`} status={status} counter={counter} />
+    {counters.map(({ variant, counter }, idx) => (
+      <StatusCounter key={`${idx}-${variant}`} variant={variant} counter={counter} />
     ))}
   </div>
 );
