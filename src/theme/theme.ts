@@ -21,20 +21,15 @@ const createTheme = () => {
       grey: {
         50: grey[50],
         100: grey[100],
-        // light100: '#fafafa',
-        // light150: '#f5f5f5',
-        // light200: '#eaeaea',
         200: grey[200],
-        mediumGrey: '#d6d6d6',
-        dark100: '#777777',
+        300: grey[300],
+        400: grey[400],
+        600: grey[600],
         dark200: '#666666',
         dark400: '#333333',
-        // black: '#000000',
-        // white: '#ffffff',
         neutral100: '#d6d6d6',
         neutral300: '#999999',
-        grayVeryLight: '#F7F7F7',
-        grayVeryLight2: '#E0E0E0'
+        grayVeryLight: '#F7F7F7'
       },
       green: {
         activeGreen: '#14CC9E'

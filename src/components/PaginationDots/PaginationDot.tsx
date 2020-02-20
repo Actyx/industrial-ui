@@ -34,7 +34,7 @@ const styles: StyleSheet<ClassKey> = {
     padding: 0
   },
   dot: {
-    backgroundColor: theme.palette.grey.mediumGrey,
+    backgroundColor: theme.palette.grey[400],
     height: 12,
     width: 12,
     borderRadius: 6,

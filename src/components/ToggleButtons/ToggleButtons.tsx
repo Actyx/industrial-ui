@@ -87,7 +87,7 @@ const styles: StyleSheet<ClassKey, CompProps> = {
     color: theme.palette.grey.dark400
   },
   selectedItem: {
-    backgroundColor: theme.palette.grey.dark100,
+    backgroundColor: theme.palette.grey[600],
     color: theme.palette.primary.contrastText
   }
 };

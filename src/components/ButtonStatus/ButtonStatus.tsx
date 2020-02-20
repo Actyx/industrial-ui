@@ -62,7 +62,7 @@ const styles: StyleSheet<ClassKey, CompProps> = {
     position: 'relative'
   },
   normal: {
-    backgroundColor: theme.palette.grey.dark100,
+    backgroundColor: theme.palette.grey[600],
     '& > span': {
       color: theme.palette.primary.contrastText
     }

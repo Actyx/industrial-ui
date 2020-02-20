@@ -56,7 +56,7 @@ const styles: StyleSheet<ClassKey> = {
   },
   inactive: {
     backgroundColor: theme.palette.grey[100],
-    color: theme.palette.grey.dark100
+    color: theme.palette.grey[600]
   },
   tab: {
     cursor: 'pointer',

@@ -135,7 +135,7 @@ const styles: StyleSheet<ClassKey> = {
     }
   },
   neutral: {
-    backgroundColor: theme.palette.grey.dark100,
+    backgroundColor: theme.palette.grey[600],
     color: theme.palette.primary.contrastText,
     '& span': {
       color: theme.palette.primary.contrastText

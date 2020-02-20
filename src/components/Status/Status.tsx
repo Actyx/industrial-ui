@@ -25,7 +25,7 @@ const StatusComp = ({ classes, variant: status }: Props) => (
 type ClassKey = 'root' | StatusVariant;
 
 const { green, greenDark, orange, orangeDark } = theme.palette.signal;
-const { mediumGrey, 100: light150, dark400 } = theme.palette.grey;
+const { 100: light150, dark400 } = theme.palette.grey;
 
 const styles: StyleSheet<ClassKey, CompProps> = {
   root: {
@@ -43,7 +43,7 @@ const styles: StyleSheet<ClassKey, CompProps> = {
     }
   },
   unknown: {
-    border: `1px solid ${mediumGrey}`,
+    border: `1px solid ${theme.palette.grey[400]}`,
     backgroundColor: light150,
     '& span > span': {
       color: dark400

@@ -80,7 +80,7 @@ const styles: StyleSheet<ClassKey> = {
       border: 'none'
     },
     '& td': {
-      border: `${borderWidth}px solid ${theme.palette.grey.grayVeryLight2}`,
+      border: `${borderWidth}px solid ${theme.palette.grey[300]}`,
       padding: 0
     }
   },

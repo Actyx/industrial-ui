@@ -63,7 +63,7 @@ type ClassKey = 'xl' | 'md' | 'sm' | 'primary' | 'neutral' | 'disabled';
 
 const styles: StyleSheet<ClassKey> = {
   neutral: {
-    backgroundColor: theme.palette.grey.dark100
+    backgroundColor: theme.palette.grey[600]
   },
   primary: {
     backgroundColor: theme.palette.primary.main

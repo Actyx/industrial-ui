@@ -62,7 +62,7 @@ const styles: StyleSheet<ClassKey> = {
     backgroundColor: theme.palette.signal.greenDark
   },
   lightGrey: {
-    backgroundColor: theme.palette.grey.mediumGrey
+    backgroundColor: theme.palette.grey[400]
   },
   darkGrey: {
     backgroundColor: theme.palette.grey.dark200
