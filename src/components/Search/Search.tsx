@@ -11,7 +11,6 @@ type CompProps = Readonly<{
   onBlur?: () => void;
   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
 }>;
-type ClassKey = 'root' | 'icon';
 
 type Props = WithStyles<ClassKey> & CompProps;
 
@@ -30,6 +29,8 @@ const SearchComp = ({ classes, value, placeholder, onFocus, onBlur, onChange }: 
     </div>
   </div>
 );
+
+type ClassKey = 'root' | 'icon';
 
 const styles: StyleSheet<ClassKey> = {
   root: {
