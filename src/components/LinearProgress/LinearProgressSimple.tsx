@@ -1,7 +1,8 @@
 import * as React from 'react';
 import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
-import { createStyleIndicator, createStyleTrack, LinearProgressColor } from './LinearProgress';
+import { LinearProgressColor } from './LinearProgress';
+import { createStyleTrack, createStyleIndicator } from './utility';
 
 const VALUE_MIN = 0;
 const VALUE_MAX = 100;
