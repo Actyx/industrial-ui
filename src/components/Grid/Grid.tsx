@@ -3,7 +3,7 @@ import * as classNames from 'classnames';
 import * as React from 'react';
 import './grid.css';
 
-export type Props<T> = Readonly<{
+type Props<T> = Readonly<{
   className?: string;
   data: ReadonlyArray<T>;
   getUniqKey: (datum: T) => string;

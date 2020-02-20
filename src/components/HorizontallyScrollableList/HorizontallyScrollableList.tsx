@@ -12,8 +12,8 @@ export type HorizontallyScrollableListItem = Readonly<{
 
 type CompProps = Readonly<{
   items: ReadonlyArray<HorizontallyScrollableListItem>;
-  onItemSelect: (item: HorizontallyScrollableListItem) => void;
   rows: number;
+  onItemSelect: (item: HorizontallyScrollableListItem) => void;
 }>;
 
 type ClassKey = 'root' | 'itemContainer' | 'item';
