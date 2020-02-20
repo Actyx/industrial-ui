@@ -11,11 +11,11 @@ export type Counter = {
 
 export type Counters = ReadonlyArray<Counter>;
 
-type OuterProps = Readonly<{
+type CompProps = Readonly<{
   counters: Counters;
 }>;
 
-type Props = WithStyles<ClassKey> & OuterProps;
+type Props = WithStyles<ClassKey> & CompProps;
 
 const StatusCountersComp = ({ classes, counters }: Props) => (
   <div className={classes.root}>
@@ -27,7 +27,7 @@ const StatusCountersComp = ({ classes, counters }: Props) => (
 
 type ClassKey = 'root';
 
-const styles: StyleSheet<ClassKey, OuterProps> = {
+const styles: StyleSheet<ClassKey, CompProps> = {
   root: {
     display: 'inline-flex',
     '& div:first-of-type': {
@@ -39,7 +39,7 @@ const styles: StyleSheet<ClassKey, OuterProps> = {
   }
 };
 
-export const StatusCounters = compose<Props, OuterProps>(
+export const StatusCounters = compose<Props, CompProps>(
   setDisplayName('StatusCounters'),
   injectSheet(styles)
 )(StatusCountersComp);

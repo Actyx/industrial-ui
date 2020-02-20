@@ -9,7 +9,7 @@ export enum GaugeProgressColor {
   Green = 'green'
 }
 
-type OuterProps = Readonly<{
+type CompProps = Readonly<{
   color: GaugeProgressColor;
   value: number;
   width?: string;
@@ -17,7 +17,7 @@ type OuterProps = Readonly<{
   lineCap?: 'butt' | 'round';
 }>;
 
-type Props = WithStyles<ClassKey> & OuterProps;
+type Props = WithStyles<ClassKey> & CompProps;
 
 const GaugeProgressComp = ({
   classes,
@@ -56,7 +56,7 @@ const { deepSkyBlue } = theme.palette.actionHighlight;
 const { green } = theme.palette.signal;
 const { light200, dark400 } = theme.palette.grey;
 
-const styles: StyleSheet<ClassKey, OuterProps> = {
+const styles: StyleSheet<ClassKey, CompProps> = {
   root: {
     transform: 'rotate(-90deg)'
   },
@@ -79,7 +79,7 @@ const styles: StyleSheet<ClassKey, OuterProps> = {
   }
 };
 
-export const GaugeProgress = compose<Props, OuterProps>(
+export const GaugeProgress = compose<Props, CompProps>(
   setDisplayName('GaugeProgress'),
   injectSheet(styles)
 )(GaugeProgressComp);

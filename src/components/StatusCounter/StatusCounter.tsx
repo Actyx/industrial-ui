@@ -6,12 +6,12 @@ import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 import { StatusVariant } from '../Status';
 
-type OuterProps = Readonly<{
+type CompProps = Readonly<{
   status: StatusVariant;
   counter: number;
 }>;
 
-type Props = WithStyles<ClassKey> & OuterProps;
+type Props = WithStyles<ClassKey> & CompProps;
 
 const StatusCounterComp = ({ classes, status, counter }: Props) => (
   <div className={classNames(classes.root, classes[status])}>
@@ -24,7 +24,7 @@ type ClassKey = 'root' | StatusVariant;
 const { green, greenDark, orange, orangeDark } = theme.palette.signal;
 const { mediumGrey, light150, white, dark400 } = theme.palette.grey;
 
-const styles: StyleSheet<ClassKey, OuterProps> = {
+const styles: StyleSheet<ClassKey, CompProps> = {
   root: {
     height: 25,
     display: 'flex',
@@ -55,7 +55,7 @@ const styles: StyleSheet<ClassKey, OuterProps> = {
   }
 };
 
-export const StatusCounter = compose<Props, OuterProps>(
+export const StatusCounter = compose<Props, CompProps>(
   setDisplayName('StatusCounter'),
   injectSheet(styles)
 )(StatusCounterComp);

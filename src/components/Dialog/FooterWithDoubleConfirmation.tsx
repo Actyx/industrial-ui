@@ -23,7 +23,7 @@ const transitionStyles = {
   }
 };
 
-type OuterProps = Readonly<{
+type CompProps = Readonly<{
   valid: boolean;
   mode: FooterWithDoubleConfirmationMode;
   cancelMessage?: string;
@@ -38,7 +38,7 @@ type OuterProps = Readonly<{
   onSelectYes: () => void;
 }>;
 
-type Props = WithStyles<ClassKey> & OuterProps;
+type Props = WithStyles<ClassKey> & CompProps;
 
 const FooterWithDoubleConfirmationComp = ({
   classes,
@@ -107,7 +107,7 @@ const FooterWithDoubleConfirmationComp = ({
 
 type ClassKey = 'root' | 'content' | 'confirm' | 'confirmation';
 
-const styles: StyleSheet<ClassKey, OuterProps> = {
+const styles: StyleSheet<ClassKey, CompProps> = {
   root: {
     height: MASK_HEIGHT,
     overflow: 'hidden'
@@ -133,7 +133,7 @@ const styles: StyleSheet<ClassKey, OuterProps> = {
   }
 };
 
-export const FooterWithDoubleConfirmation = compose<Props, OuterProps>(
+export const FooterWithDoubleConfirmation = compose<Props, CompProps>(
   setDisplayName('FooterWithDoubleConfirmation'),
   injectSheet(styles)
 )(FooterWithDoubleConfirmationComp);

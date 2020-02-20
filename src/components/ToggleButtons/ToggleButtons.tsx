@@ -11,13 +11,13 @@ export type ToggleItem = Readonly<{
 
 export type ToggleButtonsItems = ReadonlyArray<ToggleItem>;
 
-type OuterProps = Readonly<{
+type CompProps = Readonly<{
   items: ToggleButtonsItems;
   initToggledItemId?: string;
   onToggle: (id: string) => void;
 }>;
 
-type Props = WithStyles<ClassKey> & OuterProps;
+type Props = WithStyles<ClassKey> & CompProps;
 
 export const ToggleButtonsComp = ({ classes, items, initToggledItemId, onToggle }: Props) => {
   const [toggledIndex, setToggledIndex] = React.useState<undefined | string>(initToggledItemId);
@@ -52,7 +52,7 @@ type ClassKey = 'root' | 'container' | 'item' | 'selectedItem';
 
 const border = `1px solid ${theme.palette.grey.dark200}`;
 
-const styles: StyleSheet<ClassKey, OuterProps> = {
+const styles: StyleSheet<ClassKey, CompProps> = {
   root: {
     display: 'inline-block',
     height: 60
@@ -94,7 +94,7 @@ const styles: StyleSheet<ClassKey, OuterProps> = {
   }
 };
 
-export const ToggleButtons = compose<Props, OuterProps>(
+export const ToggleButtons = compose<Props, CompProps>(
   injectSheet(styles),
   setDisplayName('ToggleButtons')
 )(ToggleButtonsComp);
