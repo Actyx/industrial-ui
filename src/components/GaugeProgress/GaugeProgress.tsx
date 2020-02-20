@@ -71,7 +71,7 @@ const styles: StyleSheet<ClassKey, CompProps> = {
   text: {
     transform: 'rotate(90deg)',
     fill: dark400,
-    fontWeight: 'bold',
+    fontWeight: theme.typography.fontWeightBold,
     textAnchor: 'middle',
     dominantBaseline: 'middle',
     fontSize: 36

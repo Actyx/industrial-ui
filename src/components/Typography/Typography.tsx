@@ -4,6 +4,15 @@ import * as React from 'react';
 import { compose, setDisplayName } from 'recompose';
 import injectSheet, { WithStyles, StyleSheet } from 'react-jss';
 
+const FONT_SIZE = {
+  giant: 70,
+  heading: 48,
+  big: 36,
+  distance: 28,
+  standard: 20,
+  small: 16
+};
+
 type TextTransform = 'uppercase' | 'lowercase' | 'capitalize';
 
 export type Variant = 'subtext' | 'standard' | 'distance' | 'big' | 'heading' | 'giant';
@@ -80,37 +89,37 @@ const defaultColor = theme.palette.grey[900];
 
 const styles: StyleSheet<ClassKey> = {
   bold: {
-    fontWeight: 700
+    fontWeight: theme.typography.fontWeightBold
   },
   semiBold: {
-    fontWeight: 600
+    fontWeight: theme.typography.fontWeightMedium
   },
   italic: {
     fontStyle: 'italic'
   },
   subtext: {
     color: defaultColor,
-    fontSize: theme.typography.fontSizes.small
+    fontSize: FONT_SIZE.small
   },
   standard: {
     color: defaultColor,
-    fontSize: theme.typography.fontSizes.standard
+    fontSize: FONT_SIZE.standard
   },
   distance: {
     color: defaultColor,
-    fontSize: theme.typography.fontSizes.distance
+    fontSize: FONT_SIZE.distance
   },
   big: {
     color: defaultColor,
-    fontSize: theme.typography.fontSizes.big
+    fontSize: FONT_SIZE.big
   },
   heading: {
     color: defaultColor,
-    fontSize: theme.typography.fontSizes.heading
+    fontSize: FONT_SIZE.heading
   },
   giant: {
     color: defaultColor,
-    fontSize: theme.typography.fontSizes.giant
+    fontSize: FONT_SIZE.giant
   },
   uppercase: {
     textTransform: 'uppercase'

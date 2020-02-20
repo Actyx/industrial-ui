@@ -58,14 +58,10 @@ const createTheme = () => {
     },
     typography: {
       fontFamily: '"Titillium Web", sans-serif',
-      fontSizes: {
-        giant: 70,
-        heading: 48,
-        big: 36,
-        distance: 28,
-        standard: 20,
-        small: 16
-      }
+      fontWeightLight: 300,
+      fontWeightRegular: 400,
+      fontWeightMedium: 600,
+      fontWeightBold: 700
     },
     utils: {
       rgba: (c: string, opacity: number) => {

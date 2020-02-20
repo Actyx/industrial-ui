@@ -4,6 +4,7 @@ import { LoremIpsumVeryShort, range } from '../../utils';
 import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { VirtualizedList } from './VirtualizedList';
+import { theme } from '../../theme';
 
 type Item = Readonly<{
   id: string;
@@ -17,14 +18,16 @@ const data: ReadonlyArray<Item> = [
   { id: 'c', description: `C ${LoremIpsumVeryShort}`, value: '3' }
 ];
 
+const FONT_WEIGHT_BOLD = theme.typography.fontWeightBold;
+
 const baseProps = {
   data,
   getUniqKey: (datum: Item) => datum.id,
   header: (
     <>
-      <div style={{ width: 100, fontWeight: 'bold' }}>Id</div>
-      <div style={{ width: 300, fontWeight: 'bold' }}>Description</div>
-      <div style={{ width: 100, marginLeft: 'auto', fontWeight: 'bold' }}>Value</div>
+      <div style={{ width: 100, fontWeight: FONT_WEIGHT_BOLD }}>Id</div>
+      <div style={{ width: 300, fontWeight: FONT_WEIGHT_BOLD }}>Description</div>
+      <div style={{ width: 100, marginLeft: 'auto', fontWeight: FONT_WEIGHT_BOLD }}>Value</div>
     </>
   ),
   // eslint-disable-next-line react/display-name

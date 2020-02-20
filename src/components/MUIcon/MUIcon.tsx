@@ -2,6 +2,7 @@ import * as classNames from 'classnames';
 import * as React from 'react';
 import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
+import { theme } from '../../theme';
 
 type CompProps = Readonly<{
   className?: string;
@@ -21,7 +22,7 @@ const MUIconComp = ({ className, type, classes }: Props) => (
 const styles: StyleSheet<ClassKey, CompProps> = {
   root: ({ fontSize, color }) => ({
     fontFamily: 'Material Icons',
-    fontWeight: 'normal',
+    fontWeight: theme.typography.fontWeightRegular,
     fontStyle: 'normal',
     fontSize: fontSize ? fontSize : 24,
     display: 'inline-block',

@@ -24,7 +24,7 @@ const styles: StyleSheet<ClassKey> = {
   label: {
     textTransform: 'uppercase',
     color: theme.palette.grey[700],
-    fontWeight: 'bold',
+    fontWeight: theme.typography.fontWeightBold,
     fontSize: 18,
     lineHeight: 1
   },
