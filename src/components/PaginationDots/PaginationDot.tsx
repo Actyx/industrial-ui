@@ -4,12 +4,12 @@ import * as React from 'react';
 import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 
-type OuterProps = Readonly<{
+type CompProps = Readonly<{
   active?: boolean;
   onClick: () => void;
 }>;
 
-type Props = WithStyles<ClassKey> & OuterProps;
+type Props = WithStyles<ClassKey> & CompProps;
 
 const PaginationDotComp = ({ classes, active, onClick }: Props) => (
   <button className={classes.root} onClick={onClick}>
@@ -45,7 +45,7 @@ const styles: StyleSheet<ClassKey> = {
   }
 };
 
-export const PaginationDot = compose<Props, OuterProps>(
+export const PaginationDot = compose<Props, CompProps>(
   setDisplayName('PaginationDot'),
   injectSheet(styles)
 )(PaginationDotComp);

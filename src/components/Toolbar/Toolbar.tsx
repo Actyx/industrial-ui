@@ -4,15 +4,15 @@ import * as React from 'react';
 import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 
-type Variant = 'light' | 'dark';
+export type ToolbarVariant = 'light' | 'dark';
 
-type OuterProps = Readonly<{
-  variant: Variant;
+type CompProps = Readonly<{
+  variant: ToolbarVariant;
   className?: string;
   children: React.ReactNode;
 }>;
 
-type Props = WithStyles<ClassKey> & OuterProps;
+type Props = WithStyles<ClassKey> & CompProps;
 
 const ToolbarComp = ({ classes, className, variant, children }: Props) => (
   <div className={classNames(classes.root, className, classes[variant])}>{children}</div>
@@ -20,7 +20,7 @@ const ToolbarComp = ({ classes, className, variant, children }: Props) => (
 
 type ClassKey = 'root' | 'dark' | 'light';
 
-const styles: StyleSheet<ClassKey, OuterProps> = {
+const styles: StyleSheet<ClassKey, CompProps> = {
   root: {
     display: 'flex',
     alignItems: 'center',
@@ -38,7 +38,7 @@ const styles: StyleSheet<ClassKey, OuterProps> = {
   }
 };
 
-export const Toolbar = compose<Props, OuterProps>(
+export const Toolbar = compose<Props, CompProps>(
   setDisplayName('Toolbar'),
   injectSheet(styles)
 )(ToolbarComp);

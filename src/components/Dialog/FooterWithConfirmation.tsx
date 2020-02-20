@@ -4,7 +4,7 @@ import * as React from 'react';
 
 type Props = Readonly<{
   className?: string;
-  confirmMessage: string; //TODO revide this code
+  confirmMessage: string;
   disableConfirm?: boolean;
   hideDivider?: boolean;
   onConfirm: () => void;

@@ -1,10 +1,10 @@
 import { storiesOf } from '@storybook/react';
 import { hostDecorator } from '../../utils';
 import * as React from 'react';
-import { GaugeProgress, MeterColor } from './GaugeProgress';
+import { GaugeProgress, GaugeProgressColor } from './GaugeProgress';
 
 const baseProps = {
-  color: MeterColor.Green
+  color: GaugeProgressColor.Green
 };
 
 storiesOf('Components|GaugeProgress', module)
@@ -13,10 +13,10 @@ storiesOf('Components|GaugeProgress', module)
   .add('Value 75%', () => <GaugeProgress {...baseProps} value={75} />)
   .add('Value 100%', () => <GaugeProgress {...baseProps} value={100} />)
   .add('Value 150%', () => <GaugeProgress {...baseProps} value={150} />)
-  .add('Color blue', () => <GaugeProgress value={60} color={MeterColor.Blue} />)
-  .add('Color green', () => <GaugeProgress value={60} color={MeterColor.Green} />)
-  .add('Butt', () => <GaugeProgress value={60} color={MeterColor.Green} lineCap="butt" />)
-  .add('Round', () => <GaugeProgress value={60} color={MeterColor.Green} lineCap="round" />)
+  .add('Color blue', () => <GaugeProgress value={60} color={GaugeProgressColor.Blue} />)
+  .add('Color green', () => <GaugeProgress value={60} color={GaugeProgressColor.Green} />)
+  .add('Butt', () => <GaugeProgress value={60} color={GaugeProgressColor.Green} lineCap="butt" />)
+  .add('Round', () => <GaugeProgress value={60} color={GaugeProgressColor.Green} lineCap="round" />)
   .add('Resize', () => (
     <div
       style={{
@@ -26,7 +26,7 @@ storiesOf('Components|GaugeProgress', module)
     >
       <GaugeProgress
         value={60}
-        color={MeterColor.Green}
+        color={GaugeProgressColor.Green}
         lineCap="round"
         width="100%"
         height="100%"
@@ -39,7 +39,7 @@ storiesOf('Components|GaugeProgress', module)
       const [value, setValue] = React.useState<number>(defaultValue);
       return (
         <div>
-          <GaugeProgress value={value} color={MeterColor.Green} />
+          <GaugeProgress value={value} color={GaugeProgressColor.Green} />
           <input
             type="range"
             style={{

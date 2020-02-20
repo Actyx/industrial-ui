@@ -4,26 +4,13 @@ import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { Transition } from 'react-transition-group';
 import { compose, setDisplayName } from 'recompose';
 import { MUIcon } from '../MUIcon';
+import { mkTransitionStyles, mkDefaultStyles } from './utility';
 
 const ANIMATION_DURATION = 140;
 
 export type ChevronType = 'up-down' | 'right-down';
 
-const mkDefaultStyles = (type: ChevronType) => (animationDuration: number) => ({
-  transition: `transform ${animationDuration}ms`,
-  transform: `rotate(${type === 'up-down' ? 0 : 90}deg)`
-});
-
-const mkTransitionStyles = (type: ChevronType) => ({
-  entering: {
-    transform: `rotate(${type === 'up-down' ? 0 : 90}deg)`
-  },
-  entered: {
-    transform: 'rotate(180deg)'
-  }
-});
-
-type OuterProps = Readonly<{
+type CompProps = Readonly<{
   className?: string;
   variant?: 'standard' | 'small';
   type?: ChevronType;
@@ -32,7 +19,7 @@ type OuterProps = Readonly<{
   onSelect?: (ev: React.MouseEvent<HTMLElement>) => void;
 }>;
 
-type Props = WithStyles<ClassKey> & OuterProps;
+type Props = WithStyles<ClassKey> & CompProps;
 
 const ChevronComp = ({
   classes,
@@ -82,7 +69,7 @@ const styles: StyleSheet<ClassKey> = {
   }
 };
 
-export const Chevron = compose<Props, OuterProps>(
+export const Chevron = compose<Props, CompProps>(
   setDisplayName('Chevron'),
   injectSheet(styles)
 )(ChevronComp);

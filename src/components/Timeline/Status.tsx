@@ -1,21 +1,15 @@
 import * as React from 'react';
 import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
+import { TimelineArrangement, TimelineStatusType } from './Timeline';
 
-export type Arrangement = 'single' | 'start' | 'continue' | 'end';
-
-export type StatusType = Readonly<{
-  color: string;
-  arrangement: Arrangement;
-}>;
-
-type CompProps = Readonly<StatusType>;
+type CompProps = Readonly<TimelineStatusType>;
 
 type ClassKey = 'root' | 'lineWrapper' | 'line' | 'circleWrapper' | 'circle';
 
 type Props = WithStyles<ClassKey> & CompProps;
 
-const lineWrapperStyles: Record<Arrangement, React.CSSProperties> = {
+const lineWrapperStyles: Record<TimelineArrangement, React.CSSProperties> = {
   single: {
     height: 0
   },

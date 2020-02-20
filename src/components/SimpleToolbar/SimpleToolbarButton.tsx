@@ -6,13 +6,13 @@ import { compose, setDisplayName } from 'recompose';
 import { TouchRipple } from '../TouchRipple';
 import { Typography } from '../Typography';
 
-type OuterProps = Readonly<{
+type CompProps = Readonly<{
   disabled?: boolean;
   text: React.ReactNode;
   onClick?: () => void;
 }>;
 
-type Props = WithStyles<ClassKey> & OuterProps;
+type Props = WithStyles<ClassKey> & CompProps;
 
 const SimpleToolbarButtonComp = ({ classes, text, disabled, onClick }: Props) => (
   <div className={classes.root}>
@@ -35,7 +35,7 @@ const SimpleToolbarButtonComp = ({ classes, text, disabled, onClick }: Props) =>
 
 type ClassKey = 'root' | 'button' | 'disabled';
 
-const styles: StyleSheet<ClassKey, OuterProps> = {
+const styles: StyleSheet<ClassKey, CompProps> = {
   root: {
     height: 80
   },
@@ -53,7 +53,7 @@ const styles: StyleSheet<ClassKey, OuterProps> = {
   }
 };
 
-export const SimpleToolbarButton = compose<Props, OuterProps>(
+export const SimpleToolbarButton = compose<Props, CompProps>(
   setDisplayName('SimpleToolbarButton'),
   injectSheet(styles)
 )(SimpleToolbarButtonComp);

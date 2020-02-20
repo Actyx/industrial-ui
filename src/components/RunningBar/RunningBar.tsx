@@ -2,11 +2,11 @@ import * as React from 'react';
 import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 
-type OuterProps = Readonly<{}>;
+type CompProps = Readonly<{}>;
 
 type ClassKey = 'root' | '@keyframes scrolling';
 
-type Props = WithStyles<ClassKey> & OuterProps;
+type Props = WithStyles<ClassKey> & CompProps;
 
 const RunningBarComp = ({ classes }: Props) => <div className={classes.root} />;
 
@@ -32,7 +32,7 @@ const styles: StyleSheet<ClassKey> = {
   }
 };
 
-export const RunningBar = compose<Props, OuterProps>(
+export const RunningBar = compose<Props, CompProps>(
   setDisplayName('RunningBar'),
   injectSheet(styles)
 )(RunningBarComp);

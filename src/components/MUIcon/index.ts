@@ -1,1 +1,1 @@
-export { MUIcon } from './MUIcon';
+export * from './MUIcon';

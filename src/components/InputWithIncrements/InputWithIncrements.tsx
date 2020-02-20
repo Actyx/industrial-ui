@@ -15,8 +15,9 @@ type CompProps = Readonly<{
   onChange: (value: number) => void;
 }>;
 
-type ClassKey = 'root' | 'inputs' | 'buttons' | 'button' | 'input';
 type Props = WithStyles<ClassKey> & CompProps;
+
+type ClassKey = 'root' | 'inputs' | 'buttons' | 'button' | 'input';
 
 type State = Readonly<{
   currentValue: number;

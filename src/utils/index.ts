@@ -1,4 +1,4 @@
 export * from './decorators';
-export * from './list';
+export * from './numeral';
 export * from './lorem';
 export * from './dom';

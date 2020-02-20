@@ -4,10 +4,10 @@ import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 import { FluidDialog } from './FluidDialog';
 
-type SizeDialog = 'xs' | 'sm' | 'md' | 'xl' | 'xlw' | 'xxl';
+export type DialogSize = 'xs' | 'sm' | 'md' | 'xl' | 'xlw' | 'xxl';
 
 type CompProps = Readonly<{
-  size: SizeDialog;
+  size: DialogSize;
   header?: React.ReactNode;
   content: React.ReactNode;
   footer: React.ReactNode;
@@ -27,7 +27,7 @@ const DialogComp = ({ classes, className, header, content, footer, onClose, size
   />
 );
 
-type ClassKey = 'dialog' | SizeDialog | 'header' | 'footer';
+type ClassKey = 'dialog' | DialogSize | 'header' | 'footer';
 
 const styles: StyleSheet<ClassKey> = {
   dialog: {

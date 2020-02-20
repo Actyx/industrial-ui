@@ -1,12 +1,18 @@
 import * as React from 'react';
 import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
-import { Arrangement } from './Status';
 import { TimelineEvent } from './TimelineEvent';
+
+export type TimelineStatusType = Readonly<{
+  color: string;
+  arrangement: TimelineArrangement;
+}>;
+
+export type TimelineArrangement = 'single' | 'start' | 'continue' | 'end';
 
 export type TimelineEvent = Readonly<{
   color: string;
-  arrangement: Arrangement;
+  arrangement: TimelineArrangement;
   title: string;
   timestamp: number;
   description?: string;
@@ -17,7 +23,6 @@ type CompProps = Readonly<{
   scrollToLast?: boolean;
 }>;
 
-type ClassKey = 'root' | 'content';
 type Props = WithStyles<ClassKey> & CompProps;
 
 type State = Readonly<{}>;
@@ -76,6 +81,8 @@ class TimelineComp extends React.Component<Props, State> {
     );
   }
 }
+
+type ClassKey = 'root' | 'content';
 
 const styles: StyleSheet<ClassKey> = {
   root: {},

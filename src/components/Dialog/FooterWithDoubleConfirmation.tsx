@@ -5,7 +5,7 @@ import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { Transition } from 'react-transition-group';
 import { compose, setDisplayName } from 'recompose';
 
-export enum Mode {
+export enum FooterWithDoubleConfirmationMode {
   Normal = 'normal',
   Confirmation = 'confirmation'
 }
@@ -23,10 +23,9 @@ const transitionStyles = {
   }
 };
 
-// TODO revise this component
-type OuterProps = Readonly<{
+type CompProps = Readonly<{
   valid: boolean;
-  mode: Mode;
+  mode: FooterWithDoubleConfirmationMode;
   cancelMessage?: string;
   confirmMessage: string;
   yesMessage?: string;
@@ -39,7 +38,7 @@ type OuterProps = Readonly<{
   onSelectYes: () => void;
 }>;
 
-type Props = WithStyles<ClassKey> & OuterProps;
+type Props = WithStyles<ClassKey> & CompProps;
 
 const FooterWithDoubleConfirmationComp = ({
   classes,
@@ -57,7 +56,10 @@ const FooterWithDoubleConfirmationComp = ({
   onSelectNo
 }: Props) => (
   <div className={classes.root}>
-    <Transition in={mode === Mode.Confirmation} timeout={ANIMATION_DURATION}>
+    <Transition
+      in={mode === FooterWithDoubleConfirmationMode.Confirmation}
+      timeout={ANIMATION_DURATION}
+    >
       {state => (
         <div
           className={classes.content}
@@ -105,7 +107,7 @@ const FooterWithDoubleConfirmationComp = ({
 
 type ClassKey = 'root' | 'content' | 'confirm' | 'confirmation';
 
-const styles: StyleSheet<ClassKey, OuterProps> = {
+const styles: StyleSheet<ClassKey, CompProps> = {
   root: {
     height: MASK_HEIGHT,
     overflow: 'hidden'
@@ -131,7 +133,7 @@ const styles: StyleSheet<ClassKey, OuterProps> = {
   }
 };
 
-export const FooterWithDoubleConfirmation = compose<Props, OuterProps>(
+export const FooterWithDoubleConfirmation = compose<Props, CompProps>(
   setDisplayName('FooterWithDoubleConfirmation'),
   injectSheet(styles)
 )(FooterWithDoubleConfirmationComp);

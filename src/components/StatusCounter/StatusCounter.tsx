@@ -4,27 +4,27 @@ import * as classNames from 'classnames';
 import * as React from 'react';
 import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
-import { StatusType } from '../Status';
+import { StatusVariant } from '../Status';
 
-type OuterProps = Readonly<{
-  status: StatusType;
+type CompProps = Readonly<{
+  variant: StatusVariant;
   counter: number;
 }>;
 
-type Props = WithStyles<ClassKey> & OuterProps;
+type Props = WithStyles<ClassKey> & CompProps;
 
-const StatusCounterComp = ({ classes, status, counter }: Props) => (
-  <div className={classNames(classes.root, classes[status])}>
+const StatusCounterComp = ({ classes, variant, counter }: Props) => (
+  <div className={classNames(classes.root, classes[variant])}>
     <Typography variant="subtext">{counter}⨉</Typography>
   </div>
 );
 
-type ClassKey = 'root' | StatusType;
-
 const { green, greenDark, orange, orangeDark } = theme.palette.signal;
 const { mediumGrey, light150, white, dark400 } = theme.palette.grey;
 
-const styles: StyleSheet<ClassKey, OuterProps> = {
+type ClassKey = 'root' | StatusVariant;
+
+const styles: StyleSheet<ClassKey, CompProps> = {
   root: {
     height: 25,
     display: 'flex',
@@ -55,7 +55,7 @@ const styles: StyleSheet<ClassKey, OuterProps> = {
   }
 };
 
-export const StatusCounter = compose<Props, OuterProps>(
+export const StatusCounter = compose<Props, CompProps>(
   setDisplayName('StatusCounter'),
   injectSheet(styles)
 )(StatusCounterComp);

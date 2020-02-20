@@ -3,9 +3,9 @@ import { storiesOf } from '@storybook/react';
 import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { Typography } from '../Typography';
-import { ToggleButtons, ToggleButtonsItems } from './ToggleButtons';
+import { ToggleButtons } from './ToggleButtons';
 
-const items: ToggleButtonsItems = [
+const items = [
   {
     id: 'first',
     label: 'First'

@@ -4,11 +4,11 @@ import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 import { CARD_WIDTH } from './Card';
 
-type OuterProps = Readonly<{
+type CompProps = Readonly<{
   children: React.ReactNode;
 }>;
 
-type Props = WithStyles<ClassKey> & OuterProps;
+type Props = WithStyles<ClassKey> & CompProps;
 
 const SwipeableContainerComp = ({ classes, children }: Props) => (
   <div className={classes.root}>{children}</div>
@@ -26,7 +26,7 @@ const styles: StyleSheet<ClassKey> = {
   }
 };
 
-export const SwipeableContainer = compose<Props, OuterProps>(
+export const SwipeableContainer = compose<Props, CompProps>(
   setDisplayName('SwipeableContainer'),
   injectSheet(styles)
 )(SwipeableContainerComp);

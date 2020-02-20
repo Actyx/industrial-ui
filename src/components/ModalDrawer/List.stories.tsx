@@ -4,7 +4,7 @@ import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { List, ListItem } from './List';
 
-export const listMain: ReadonlyArray<ListItem> = [
+const listMain: ReadonlyArray<ListItem> = [
   {
     id: 'a',
     name: 'Activities Overview',
@@ -19,21 +19,6 @@ export const listMain: ReadonlyArray<ListItem> = [
   }
 ];
 
-export const listSub: ReadonlyArray<ListItem> = [
-  {
-    id: 'c',
-    name: 'Lock',
-    icon: 'lock',
-    onClick: action('onClick')
-  },
-  {
-    id: 'd',
-    name: 'Sign Out',
-    icon: 'exit_to_app',
-    onClick: action('onClick')
-  }
-];
-
 storiesOf('Components|ModalDrawer.Parts', module)
   .addDecorator(hostDecorator({}))
-  .add('List', () => <List list={listMain} handleClose={action('handleClose')} />);
+  .add('List', () => <List items={listMain} handleClose={action('handleClose')} />);

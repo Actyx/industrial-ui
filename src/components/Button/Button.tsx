@@ -7,9 +7,9 @@ import { compose, setDisplayName } from 'recompose';
 import { Typography } from '../Typography';
 import { MUIcon } from '../MUIcon';
 
-type Variant = 'flat' | 'raised';
+export type ButtonVariant = 'flat' | 'raised';
 
-type Color =
+export type ButtonColor =
   | 'primary'
   | 'neutral'
   | 'light200'
@@ -19,9 +19,9 @@ type Color =
   | 'yellow'
   | 'red';
 
-export type RawButtonType = Readonly<{
-  variant: Variant;
-  color: Color;
+type CompProps = Readonly<{
+  variant: ButtonVariant;
+  color: ButtonColor;
   icon?: string;
   text?: React.ReactNode;
   disabled?: boolean;
@@ -29,14 +29,8 @@ export type RawButtonType = Readonly<{
   className?: string;
   noWrap?: boolean;
   centered?: boolean;
+  onClick: (ev: React.MouseEvent<HTMLElement>) => void;
 }>;
-
-export type ButtonType = RawButtonType &
-  Readonly<{
-    onClick: (ev: React.MouseEvent<HTMLElement>) => void;
-  }>;
-
-type CompProps = ButtonType;
 
 type Props = WithStyles<ClassKey> & CompProps;
 

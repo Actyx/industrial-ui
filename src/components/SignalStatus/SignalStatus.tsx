@@ -5,7 +5,7 @@ import { compose, setDisplayName } from 'recompose';
 import { SignalCircular } from '../SignalCircular';
 import { Typography } from '../Typography';
 
-type ActivityProgressBarType =
+export type SignalStatusStatus =
   | 'running'
   | 'idle'
   | 'not started'
@@ -14,12 +14,12 @@ type ActivityProgressBarType =
   | 'waiting'
   | 'unreleased';
 
-type OuterProps = Readonly<{
-  status: ActivityProgressBarType;
+type CompProps = Readonly<{
+  status: SignalStatusStatus;
   text?: string;
 }>;
 
-type Props = WithStyles<ClassKey> & OuterProps;
+type Props = WithStyles<ClassKey> & CompProps;
 
 const SignalStatusComp = ({ classes, status, text }: Props) => {
   const isInterrupted = status === 'interrupted';
@@ -65,7 +65,7 @@ const SignalStatusComp = ({ classes, status, text }: Props) => {
 };
 type ClassKey = 'root' | 'text';
 
-const styles: StyleSheet<ClassKey, OuterProps> = {
+const styles: StyleSheet<ClassKey, CompProps> = {
   root: {
     display: 'flex',
     height: 30,
@@ -81,7 +81,7 @@ const styles: StyleSheet<ClassKey, OuterProps> = {
   }
 };
 
-export const SignalStatus = compose<Props, OuterProps>(
+export const SignalStatus = compose<Props, CompProps>(
   setDisplayName('SignalStatus'),
   injectSheet(styles)
 )(SignalStatusComp);

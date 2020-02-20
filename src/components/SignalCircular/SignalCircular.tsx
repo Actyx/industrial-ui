@@ -4,14 +4,14 @@ import * as React from 'react';
 import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 
-type Color = 'red' | 'orange' | 'yellow' | 'green' | 'lightGrey' | 'darkGrey';
+export type SignalCircularColor = 'red' | 'orange' | 'yellow' | 'green' | 'lightGrey' | 'darkGrey';
 
-type Size = 'xs' | 'sm' | 'md';
+export type SignalCircularSize = 'xs' | 'sm' | 'md';
 
 type CompProps = Readonly<{
   className?: string;
-  color: Color;
-  size: Size;
+  color: SignalCircularColor;
+  size: SignalCircularSize;
 }>;
 
 type ClassKey =
@@ -70,6 +70,6 @@ const styles: StyleSheet<ClassKey> = {
 };
 
 export const SignalCircular = compose<Props, CompProps>(
-  setDisplayName('SignalCircularComp'),
+  setDisplayName('SignalCircular'),
   injectSheet(styles)
 )(SignalCircularComp);

@@ -4,12 +4,12 @@ import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import {
   CheckboxWithIndeterminateState,
-  CheckboxWithIndeterminateStateColor,
+  CheckboxIndeterminateState,
   CheckboxIndeterminate
 } from './CheckboxIndeterminate';
 
 const state: CheckboxWithIndeterminateState = 'unchecked';
-const color: CheckboxWithIndeterminateStateColor = 'neutral';
+const color: CheckboxIndeterminateState = 'neutral';
 
 const props = {
   state,

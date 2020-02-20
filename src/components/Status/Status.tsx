@@ -5,16 +5,16 @@ import * as React from 'react';
 import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 
-export type StatusType = 'ready' | 'unknown' | 'requested';
+export type StatusVariant = 'ready' | 'unknown' | 'requested';
 
-type OuterProps = Readonly<{
-  status: StatusType;
+type CompProps = Readonly<{
+  variant: StatusVariant;
   message: string;
 }>;
 
-type Props = WithStyles<ClassKey> & OuterProps;
+type Props = WithStyles<ClassKey> & CompProps;
 
-const StatusComp = ({ classes, status }: Props) => (
+const StatusComp = ({ classes, variant: status }: Props) => (
   <div className={classNames(classes.root, classes[status])}>
     <Typography variant="standard" bold textTransform="uppercase">
       {status}
@@ -22,12 +22,12 @@ const StatusComp = ({ classes, status }: Props) => (
   </div>
 );
 
-type ClassKey = 'root' | StatusType;
+type ClassKey = 'root' | StatusVariant;
 
 const { green, greenDark, orange, orangeDark } = theme.palette.signal;
 const { mediumGrey, light150, white, dark400 } = theme.palette.grey;
 
-const styles: StyleSheet<ClassKey, OuterProps> = {
+const styles: StyleSheet<ClassKey, CompProps> = {
   root: {
     width: 135,
     height: 80,
@@ -58,7 +58,7 @@ const styles: StyleSheet<ClassKey, OuterProps> = {
   }
 };
 
-export const Status = compose<Props, OuterProps>(
+export const Status = compose<Props, CompProps>(
   setDisplayName('Status'),
   injectSheet(styles)
 )(StatusComp);

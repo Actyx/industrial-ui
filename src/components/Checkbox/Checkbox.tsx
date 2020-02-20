@@ -1,12 +1,9 @@
 import * as React from 'react';
-import {
-  CheckboxIndeterminate,
-  CheckboxWithIndeterminateStateColor
-} from '../CheckboxIndeterminate';
+import { CheckboxIndeterminate, CheckboxIndeterminateState } from '../CheckboxIndeterminate';
 
 type Props = Readonly<{
   checked: boolean;
-  color?: CheckboxWithIndeterminateStateColor;
+  color?: CheckboxIndeterminateState;
   disabled?: boolean;
   onChange: () => void;
 }>;

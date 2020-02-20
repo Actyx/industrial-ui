@@ -2,32 +2,30 @@ import * as React from 'react';
 import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 import { StatusCounter } from './StatusCounter';
-import { StatusType } from '../Status';
+import { StatusVariant } from '../Status';
 
-export type Counter = {
-  status: StatusType;
+export type StatusCountersCounter = {
+  variant: StatusVariant;
   counter: number;
 };
 
-export type Counters = ReadonlyArray<Counter>;
-
-type OuterProps = Readonly<{
-  counters: Counters;
+type CompProps = Readonly<{
+  counters: ReadonlyArray<StatusCountersCounter>;
 }>;
 
-type Props = WithStyles<ClassKey> & OuterProps;
+type Props = WithStyles<ClassKey> & CompProps;
 
 const StatusCountersComp = ({ classes, counters }: Props) => (
   <div className={classes.root}>
-    {counters.map(({ status, counter }, idx) => (
-      <StatusCounter key={`${idx}-${status}`} status={status} counter={counter} />
+    {counters.map(({ variant, counter }, idx) => (
+      <StatusCounter key={`${idx}-${variant}`} variant={variant} counter={counter} />
     ))}
   </div>
 );
 
 type ClassKey = 'root';
 
-const styles: StyleSheet<ClassKey, OuterProps> = {
+const styles: StyleSheet<ClassKey, CompProps> = {
   root: {
     display: 'inline-flex',
     '& div:first-of-type': {
@@ -39,7 +37,7 @@ const styles: StyleSheet<ClassKey, OuterProps> = {
   }
 };
 
-export const StatusCounters = compose<Props, OuterProps>(
+export const StatusCounters = compose<Props, CompProps>(
   setDisplayName('StatusCounters'),
   injectSheet(styles)
 )(StatusCountersComp);

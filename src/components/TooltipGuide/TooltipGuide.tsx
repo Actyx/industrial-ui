@@ -6,10 +6,7 @@ import { compose, setDisplayName } from 'recompose';
 import { Typography } from '../Typography';
 import { MUIcon } from '../MUIcon';
 
-type Color = 'neutral';
-
 type CompProps = Readonly<{
-  color: Color;
   content: React.ReactNode;
 }>;
 
@@ -25,11 +22,11 @@ type ClassKey =
 
 type Props = WithStyles<ClassKey> & CompProps;
 
-const TooltipGuideComp = ({ classes, color, content }: Props) => (
+const TooltipGuideComp = ({ classes, content }: Props) => (
   <div className={classes.root}>
     <div className={classes.archContainer}>
       <div className={classes.arch} />
-      <div className={classNames(classes.icon, classes[color])}>
+      <div className={classNames(classes.icon, classes.neutral)}>
         <MUIcon type="info" fontSize={80} />
       </div>
     </div>

@@ -4,15 +4,15 @@ import { compose, setDisplayName } from 'recompose';
 import { PaginationDot } from './PaginationDot';
 import { range } from '../../utils';
 
-type OuterProps = Readonly<{
+type CompProps = Readonly<{
   dots: number;
   index: number;
   onChangeIndex: (index: number) => void;
 }>;
 
-type Props = WithStyles<ClassKey> & OuterProps;
+type Props = WithStyles<ClassKey> & CompProps;
 
-const PaginationComp = ({ classes, dots, index, onChangeIndex }: Props) => (
+const PaginationDotsComp = ({ classes, dots, index, onChangeIndex }: Props) => (
   <div className={classes.root}>
     {range(0, dots).map(x => (
       <PaginationDot key={x} active={x === index} onClick={() => onChangeIndex(x)} />
@@ -32,7 +32,7 @@ const styles: StyleSheet<ClassKey> = {
   }
 };
 
-export const Pagination = compose<Props, OuterProps>(
-  setDisplayName('Pagination'),
+export const PaginationDots = compose<Props, CompProps>(
+  setDisplayName('PaginationDots'),
   injectSheet(styles)
-)(PaginationComp);
+)(PaginationDotsComp);

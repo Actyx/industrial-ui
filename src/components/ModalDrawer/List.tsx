@@ -12,7 +12,7 @@ export type ListItem = Readonly<{
 }>;
 
 type CompProps = Readonly<{
-  list: ReadonlyArray<ListItem>;
+  items: ReadonlyArray<ListItem>;
   handleClose: () => void;
 }>;
 
@@ -20,9 +20,9 @@ type ClassKey = 'root';
 
 type Props = WithStyles<ClassKey> & CompProps;
 
-const ListComp = ({ classes, list, handleClose }: Props) => (
+const ListComp = ({ classes, items, handleClose }: Props) => (
   <div className={classes.root}>
-    {list.map(({ id, name, icon, onClick }, idx) => (
+    {items.map(({ id, name, icon, onClick }, idx) => (
       <Button
         key={`${id}-${idx}`}
         variant="flat"

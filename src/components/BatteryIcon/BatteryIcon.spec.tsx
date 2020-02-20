@@ -1,4 +1,4 @@
-import { getColorFromLevel, getColorFromVariant, getWidthFromLevel } from './BatteryIcon';
+import { getColorFromLevel, getColorFromVariant, getWidthFromLevel } from './utility';
 
 const COLOR_GREEN = '#22dd55';
 const COLOR_ORANGE = '#ff9900';

@@ -1,34 +1,18 @@
-import { theme } from '../../theme';
 import * as classNames from 'classnames';
 import * as React from 'react';
 import { compose, setDisplayName } from 'recompose';
 import { Typography } from '../Typography';
+import { getColorFromVariant, getWidthFromLevel, getColorFromLevel } from './utility';
 
-const COLOR_GREEN = theme.palette.signal.green;
-const COLOR_ORANGE = theme.palette.signal.orange;
-const COLOR_RED = theme.palette.signal.redBright;
-
-const COLOR_WHITE = theme.palette.grey.white;
-const COLOR_BLACK = theme.palette.grey.black;
-
-const BASE_WIDTH = 41;
-
-type Variant = 'light' | 'dark';
+export type BatteryIconVariant = 'light' | 'dark';
 
 type Props = Readonly<{
   className?: string;
   level: number;
   charging?: boolean;
-  variant?: Variant;
+  variant?: BatteryIconVariant;
   counter?: boolean;
 }>;
-
-export const getColorFromLevel = (l: number) =>
-  l <= 10 ? COLOR_RED : l <= 20 ? COLOR_ORANGE : COLOR_GREEN;
-
-export const getWidthFromLevel = (l: number) => Math.round((BASE_WIDTH * l) / 100);
-
-export const getColorFromVariant = (t: Variant) => (t === 'light' ? COLOR_WHITE : COLOR_BLACK);
 
 const BatteryIconComp = ({ className, level, variant = 'light', counter, charging }: Props) => {
   const levelRounded = Math.round(level);

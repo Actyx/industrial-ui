@@ -2,14 +2,9 @@ import * as React from 'react';
 import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 import { Typography } from '../Typography';
+import { TimelineEventContent } from './TimelineEvent';
 
-export type ContentType = Readonly<{
-  title: string;
-  timestamp: number;
-  description?: string;
-}>;
-
-type CompProps = Readonly<ContentType>;
+type CompProps = Readonly<TimelineEventContent>;
 
 type ClassKey = 'root' | 'description';
 

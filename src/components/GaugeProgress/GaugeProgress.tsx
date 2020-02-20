@@ -2,34 +2,22 @@ import { theme } from '../../theme';
 import * as React from 'react';
 import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
+import { RADIUS, CIRCUMFERENCE, calcDashoffset, renderTextValueMax4Digits } from './utility';
 
-const RADIUS = 54;
-const CIRCUMFERENCE = 2 * Math.PI * RADIUS;
-
-export enum MeterColor {
+export enum GaugeProgressColor {
   Blue = 'blue',
   Green = 'green'
 }
 
-type OuterProps = Readonly<{
-  color: MeterColor.Blue | MeterColor.Green;
+type CompProps = Readonly<{
+  color: GaugeProgressColor;
   value: number;
   width?: string;
   height?: string;
   lineCap?: 'butt' | 'round';
 }>;
 
-type Props = WithStyles<ClassKey> & OuterProps;
-
-const calcDashoffset = (value: number) => (value <= 100 ? CIRCUMFERENCE * (1 - value / 100) : 0);
-
-const renderTextValue = (limitDigits: number) => (value: number) => {
-  const rounded = Math.ceil(value);
-  const lenRounded = String(rounded).length;
-  return lenRounded <= limitDigits ? `${rounded}%` : `>100%`;
-};
-
-export const renderTextValueMax4Digits = renderTextValue(4);
+type Props = WithStyles<ClassKey> & CompProps;
 
 const GaugeProgressComp = ({
   classes,
@@ -68,7 +56,7 @@ const { deepSkyBlue } = theme.palette.actionHighlight;
 const { green } = theme.palette.signal;
 const { light200, dark400 } = theme.palette.grey;
 
-const styles: StyleSheet<ClassKey, OuterProps> = {
+const styles: StyleSheet<ClassKey, CompProps> = {
   root: {
     transform: 'rotate(-90deg)'
   },
@@ -91,7 +79,7 @@ const styles: StyleSheet<ClassKey, OuterProps> = {
   }
 };
 
-export const GaugeProgress = compose<Props, OuterProps>(
+export const GaugeProgress = compose<Props, CompProps>(
   setDisplayName('GaugeProgress'),
   injectSheet(styles)
 )(GaugeProgressComp);

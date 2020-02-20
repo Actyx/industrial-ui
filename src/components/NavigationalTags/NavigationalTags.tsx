@@ -1,14 +1,16 @@
 import * as React from 'react';
 import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
-import { COLOR_TAG, Tag } from './Tag';
+import { COLOR_TAG, Tag as NavigationalTagsTag } from './Tag';
+
+export type NavigationalTagsTag = Readonly<{
+  id: string;
+  name: string;
+  onClose?: () => void;
+}>;
 
 type CompProps = Readonly<{
-  tags: ReadonlyArray<{
-    id: string;
-    name: string;
-    onClose?: () => void;
-  }>;
+  tags: ReadonlyArray<NavigationalTagsTag>;
   onTagClose?: (tagId: string) => void;
 }>;
 
@@ -22,7 +24,7 @@ const NavigationalTagsComp = ({ classes, tags, onTagClose }: Props) => (
     <div className={classes.content}>
       {tags.map(({ id, name, onClose }, idx) => (
         <div style={{ zIndex: tags.length - idx }} key={`${idx}-${id}`}>
-          <Tag
+          <NavigationalTagsTag
             name={name}
             onClose={() => {
               if (onTagClose) {
