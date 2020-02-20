@@ -2,10 +2,10 @@ import * as React from 'react';
 import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 import { StatusCounter } from './StatusCounter';
-import { StatusType } from '../Status';
+import { StatusVariant } from '../Status';
 
 export type Counter = {
-  status: StatusType;
+  status: StatusVariant;
   counter: number;
 };
 

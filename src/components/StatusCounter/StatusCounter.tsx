@@ -4,10 +4,10 @@ import * as classNames from 'classnames';
 import * as React from 'react';
 import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
-import { StatusType } from '../Status';
+import { StatusVariant } from '../Status';
 
 type OuterProps = Readonly<{
-  status: StatusType;
+  status: StatusVariant;
   counter: number;
 }>;
 
@@ -19,7 +19,7 @@ const StatusCounterComp = ({ classes, status, counter }: Props) => (
   </div>
 );
 
-type ClassKey = 'root' | StatusType;
+type ClassKey = 'root' | StatusVariant;
 
 const { green, greenDark, orange, orangeDark } = theme.palette.signal;
 const { mediumGrey, light150, white, dark400 } = theme.palette.grey;

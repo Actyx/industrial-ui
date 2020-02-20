@@ -5,6 +5,6 @@ import { Status } from './Status';
 
 storiesOf('Components|Status', module)
   .addDecorator(hostDecorator())
-  .add('Ready', () => <Status status="ready" message="Ready" />)
-  .add('Unknown', () => <Status status="unknown" message="Unknown" />)
-  .add('Requested', () => <Status status="requested" message="Requested" />);
+  .add('Ready', () => <Status variant="ready" message="Ready" />)
+  .add('Unknown', () => <Status variant="unknown" message="Unknown" />)
+  .add('Requested', () => <Status variant="requested" message="Requested" />);
