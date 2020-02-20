@@ -1,4 +1,4 @@
-import { renderTextValueMax4Digits } from './GaugeProgress';
+import { renderTextValueMax4Digits } from './utility';
 
 describe('renderTextValue', () => {
   it('should render integet with percentage within 5 digits limit', () => {
