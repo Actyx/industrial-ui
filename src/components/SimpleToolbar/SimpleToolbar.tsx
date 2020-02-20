@@ -32,8 +32,8 @@ type CompProps = Readonly<{
 
 type Props = WithStyles<ClassKey> & CompProps;
 
-const COLOR_WHITE = theme.palette.grey.white;
-const COLOR_DARK = theme.palette.blue.dark;
+const COLOR_WHITE = theme.palette.common.white;
+const COLOR_DARK = theme.palette.primary.dark;
 
 const renderIcon = (
   btn: SimpleToolbarToolbarIcon,

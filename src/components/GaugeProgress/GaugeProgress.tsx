@@ -52,9 +52,8 @@ const GaugeProgressComp = ({
 
 type ClassKey = 'root' | 'blue' | 'green' | 'track' | 'text';
 
-const { deepSkyBlue } = theme.palette.actionHighlight;
-const { green } = theme.palette.signal;
-const { light200, dark400 } = theme.palette.grey;
+const { main } = theme.palette.primary;
+const { 200: light200, 900: dark400 } = theme.palette.grey;
 
 const styles: StyleSheet<ClassKey, CompProps> = {
   root: {
@@ -64,15 +63,15 @@ const styles: StyleSheet<ClassKey, CompProps> = {
     stroke: light200
   },
   blue: {
-    stroke: deepSkyBlue
+    stroke: main
   },
   green: {
-    stroke: green
+    stroke: theme.palette.success.light
   },
   text: {
     transform: 'rotate(90deg)',
     fill: dark400,
-    fontWeight: 'bold',
+    fontWeight: theme.typography.fontWeightBold,
     textAnchor: 'middle',
     dominantBaseline: 'middle',
     fontSize: 36

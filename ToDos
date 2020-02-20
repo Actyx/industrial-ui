@@ -14,8 +14,8 @@
 [x] Use only relative paths in tsconfig
 [x] Evaluate if we need material ui icon font or font awesome
 [x] Cleanup stories make sure to show only the main components and all sub-comp
-[ ] Make sure all index.ts are checked to expose the right component, check export
-[ ] Cleanup theme
+[x] Make sure all index.ts are checked to expose the right component, check export
+[x] Cleanup theme
 [ ] Cleanup all components api
 [ ] Improve API for all components
 [ ] Add tests snapshots?
@@ -25,8 +25,9 @@
 [ ] Configure StoryBook to read comments and create docs
 [ ] Add nice readme and relative assets
 [ ] Ad additional tests
+[ ] Give the possibility to customize the theme using a provider
 [ ] Create a great readme
 [ ] Create branding with logo and asset main entry point
 [ ] Add proper license (MIT?)
 [ ] Add proper license for fonts used
-[ ] Add script for publishing on npm and taggin repo
+[ ] Add script for publishing on npm and tagging repo

@@ -14,7 +14,7 @@ type ClassKey = 'root' | 'shape' | 'shapeSeparator' | 'content' | 'icon' | 'name
 
 type Props = WithStyles<ClassKey> & CompProps;
 
-export const COLOR_TAG = theme.palette.grey.neutral300;
+export const COLOR_TAG = theme.palette.grey[500];
 
 const TagComp = ({ classes, name, onClose }: Props) => (
   <div className={classes.root} onClick={onClose}>
@@ -52,7 +52,7 @@ const styles: StyleSheet<ClassKey> = {
     shapeRendering: 'crispEdges'
   },
   shapeSeparator: {
-    fill: theme.palette.grey.dark400,
+    fill: theme.palette.grey[900],
     shapeRendering: 'crispEdges'
   },
   content: {
@@ -69,7 +69,7 @@ const styles: StyleSheet<ClassKey> = {
     justifyContent: 'center',
     width: 60,
     height: '100%',
-    color: theme.palette.grey.white
+    color: theme.palette.primary.contrastText
   },
   name: {
     display: 'flex',
@@ -82,7 +82,7 @@ const styles: StyleSheet<ClassKey> = {
       whiteSpace: 'nowrap',
       overflow: 'hidden',
       textOverflow: 'ellipsis',
-      color: theme.palette.grey.white
+      color: theme.palette.primary.contrastText
     }
   }
 };

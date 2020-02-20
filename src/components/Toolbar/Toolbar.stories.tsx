@@ -1,11 +1,11 @@
 import { action } from '@storybook/addon-actions';
 import { storiesOf } from '@storybook/react';
-import { theme } from '../../theme';
 import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { Toolbar } from './Toolbar';
 import { Typography } from '../Typography';
 import { Button } from '../Button';
+import { common } from '../../colors';
 
 const onClick = action('onClick');
 
@@ -25,7 +25,7 @@ storiesOf('Components|Toolbar', module)
   ))
   .add('Variant dark content', () => (
     <Toolbar variant="dark">
-      <Typography variant="distance" color={theme.palette.grey.white}>
+      <Typography variant="distance" color={common.white}>
         Title
       </Typography>
     </Toolbar>

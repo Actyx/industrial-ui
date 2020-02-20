@@ -90,12 +90,12 @@ const inputReset = {
 const styles: StyleSheet<ClassKey> = {
   root: {
     fontSize: 48,
-    color: theme.palette.grey.black,
+    color: theme.palette.common.black,
     ...inputReset,
-    borderBottom: `${2}px solid ${theme.palette.grey.neutral100}`,
+    borderBottom: `${2}px solid ${theme.palette.grey[400]}`,
     '&:focus': {
       ...inputReset,
-      borderBottom: `${2}px solid ${theme.palette.actionHighlight.deepSkyBlue}`
+      borderBottom: `${2}px solid ${theme.palette.primary.main}`
     }
   },
   fullWidth: {
@@ -103,12 +103,12 @@ const styles: StyleSheet<ClassKey> = {
   },
   error: {
     fontSize: 48,
-    color: theme.palette.grey.black,
+    color: theme.palette.common.black,
     ...inputReset,
-    borderBottom: `${2}px solid ${theme.palette.signal.red}`,
+    borderBottom: `${2}px solid ${theme.palette.error.main}`,
     '&:focus': {
       ...inputReset,
-      borderBottom: `${2}px solid ${theme.palette.signal.red}`
+      borderBottom: `${2}px solid ${theme.palette.error.main}`
     }
   }
 };

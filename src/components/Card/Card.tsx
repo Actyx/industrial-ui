@@ -51,10 +51,10 @@ const styles: StyleSheet<ClassKey> = {
     boxShadow: theme.shadow.sm
   },
   neutral: {
-    backgroundColor: theme.palette.grey.light100
+    backgroundColor: theme.palette.grey[50]
   },
   red: {
-    backgroundColor: theme.palette.signal.redBright
+    backgroundColor: theme.palette.error.light
   },
   header: {
     display: 'flex',
@@ -63,7 +63,7 @@ const styles: StyleSheet<ClassKey> = {
     paddingRight: 30,
     width: '100%',
     minHeight: 60,
-    borderBottom: `${1}px solid ${theme.palette.grey.dark200}`
+    borderBottom: `${1}px solid ${theme.palette.grey[700]}`
   },
   content: {
     overflow: 'auto',

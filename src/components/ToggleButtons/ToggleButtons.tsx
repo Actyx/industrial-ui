@@ -48,7 +48,7 @@ export const ToggleButtonsComp = ({ classes, items, initToggledItemId, onToggle 
 
 type ClassKey = 'root' | 'container' | 'item' | 'selectedItem';
 
-const border = `1px solid ${theme.palette.grey.dark200}`;
+const border = `1px solid ${theme.palette.grey[700]}`;
 
 const styles: StyleSheet<ClassKey, CompProps> = {
   root: {
@@ -83,12 +83,12 @@ const styles: StyleSheet<ClassKey, CompProps> = {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: theme.palette.grey.white,
-    color: theme.palette.grey.dark400
+    backgroundColor: theme.palette.common.white,
+    color: theme.palette.grey[900]
   },
   selectedItem: {
-    backgroundColor: theme.palette.grey.dark100,
-    color: theme.palette.grey.white
+    backgroundColor: theme.palette.grey[600],
+    color: theme.palette.primary.contrastText
   }
 };
 

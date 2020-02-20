@@ -19,8 +19,7 @@ const StatusCounterComp = ({ classes, variant, counter }: Props) => (
   </div>
 );
 
-const { green, greenDark, orange, orangeDark } = theme.palette.signal;
-const { mediumGrey, light150, white, dark400 } = theme.palette.grey;
+const { 900: dark400 } = theme.palette.grey;
 
 type ClassKey = 'root' | StatusVariant;
 
@@ -33,24 +32,24 @@ const styles: StyleSheet<ClassKey, CompProps> = {
     padding: '0 10px 0 10px'
   },
   ready: {
-    border: `1px solid ${greenDark}`,
-    backgroundColor: green,
+    border: `1px solid ${theme.palette.success.main}`,
+    backgroundColor: theme.palette.success.light,
     '& span': {
-      color: white
+      color: theme.palette.primary.contrastText
     }
   },
   unknown: {
-    border: `1px solid ${mediumGrey}`,
-    backgroundColor: light150,
+    border: `1px solid ${theme.palette.grey[400]}`,
+    backgroundColor: theme.palette.grey[100],
     '& span': {
       color: dark400
     }
   },
   requested: {
-    border: `1px solid ${orangeDark}`,
-    backgroundColor: orange,
+    border: `1px solid ${theme.palette.warning.dark}`,
+    backgroundColor: theme.palette.warning.main,
     '& span': {
-      color: white
+      color: theme.palette.primary.contrastText
     }
   }
 };

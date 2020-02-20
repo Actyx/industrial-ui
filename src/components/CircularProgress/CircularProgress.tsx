@@ -6,8 +6,8 @@ import { compose, setDisplayName } from 'recompose';
 
 const SIZE_MD = 60;
 const SIZE_SM = 40;
-const COLOR_TRACK = theme.palette.grey.neutral100;
-const COLOR_INDICATOR = theme.palette.actionHighlight.deepSkyBlue;
+const COLOR_TRACK = theme.palette.grey[400];
+const COLOR_INDICATOR = theme.palette.primary.main;
 
 export type CircularProgressVariant = 'sm' | 'md';
 

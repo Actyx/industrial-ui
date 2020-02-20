@@ -20,7 +20,7 @@ const styles: StyleSheet<ClassKey> = {
   root: {
     border: 0,
     height: 1,
-    background: theme.palette.grey.neutral100,
+    background: theme.palette.grey[400],
     marginTop: 10,
     marginBottom: 10
   }

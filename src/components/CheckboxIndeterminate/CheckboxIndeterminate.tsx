@@ -25,9 +25,7 @@ export const CheckboxIndeterminate = ({ state, color, disabled, onClick }: Props
     <div
       style={{
         color: theme.utils.rgba(
-          color === 'neutral'
-            ? theme.palette.grey.dark400
-            : theme.palette.actionHighlight.deepSkyBlue,
+          color === 'neutral' ? theme.palette.grey[900] : theme.palette.primary.main,
           disabled ? 0.5 : 1
         )
       }}

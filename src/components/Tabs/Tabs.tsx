@@ -51,12 +51,12 @@ const styles: StyleSheet<ClassKey> = {
     width: '100%'
   },
   active: {
-    backgroundColor: theme.palette.grey.white,
-    color: theme.palette.grey.dark200
+    backgroundColor: theme.palette.common.white,
+    color: theme.palette.grey[700]
   },
   inactive: {
-    backgroundColor: theme.palette.grey.light150,
-    color: theme.palette.grey.dark100
+    backgroundColor: theme.palette.grey[100],
+    color: theme.palette.grey[600]
   },
   tab: {
     cursor: 'pointer',

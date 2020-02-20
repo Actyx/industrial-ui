@@ -44,38 +44,38 @@ const styles: StyleSheet<ClassKey, CompProps> = {
     width: '100%',
     borderCollapse: 'collapse',
     border: 'none',
-    backgroundColor: theme.palette.grey.white
+    backgroundColor: theme.palette.common.white
   },
   tableDark: {
     width: '100%',
     borderCollapse: 'collapse',
     border: 'none',
-    backgroundColor: theme.palette.grey.dark400
+    backgroundColor: theme.palette.grey[900]
   },
   alternateColor: {
     '& tbody > tr:nth-of-type(odd)': {
-      backgroundColor: theme.palette.grey.light100
+      backgroundColor: theme.palette.grey[50]
     }
   },
   alternateColorDark: {
     '& tbody > tr:nth-of-type(odd)': {
-      backgroundColor: theme.palette.grey.dark200
+      backgroundColor: theme.palette.grey[700]
     }
   },
   rowBorder: {
     '& thead > tr': {
-      borderBottom: `${1}px solid ${theme.palette.grey.neutral100}`
+      borderBottom: `${1}px solid ${theme.palette.grey[400]}`
     },
     '& tbody > tr': {
-      borderBottom: `${1}px solid ${theme.palette.grey.neutral100}`
+      borderBottom: `${1}px solid ${theme.palette.grey[400]}`
     }
   },
   rowBorderDark: {
     '& thead > tr': {
-      borderBottom: `${1}px solid ${theme.palette.grey.neutral100}`
+      borderBottom: `${1}px solid ${theme.palette.grey[400]}`
     },
     '& tbody > tr': {
-      borderBottom: `${1}px solid ${theme.palette.grey.dark400}`
+      borderBottom: `${1}px solid ${theme.palette.grey[900]}`
     }
   }
 };

@@ -24,8 +24,7 @@ const StatusComp = ({ classes, variant: status }: Props) => (
 
 type ClassKey = 'root' | StatusVariant;
 
-const { green, greenDark, orange, orangeDark } = theme.palette.signal;
-const { mediumGrey, light150, white, dark400 } = theme.palette.grey;
+const { 100: light150, 900: dark400 } = theme.palette.grey;
 
 const styles: StyleSheet<ClassKey, CompProps> = {
   root: {
@@ -36,24 +35,24 @@ const styles: StyleSheet<ClassKey, CompProps> = {
     alignItems: 'center'
   },
   ready: {
-    border: `1px solid ${greenDark}`,
-    backgroundColor: green,
+    border: `1px solid ${theme.palette.success.main}`,
+    backgroundColor: theme.palette.success.light,
     '& span > span': {
-      color: white
+      color: theme.palette.primary.contrastText
     }
   },
   unknown: {
-    border: `1px solid ${mediumGrey}`,
+    border: `1px solid ${theme.palette.grey[400]}`,
     backgroundColor: light150,
     '& span > span': {
       color: dark400
     }
   },
   requested: {
-    border: `1px solid ${orangeDark}`,
-    backgroundColor: orange,
+    border: `1px solid ${theme.palette.warning.main}`,
+    backgroundColor: theme.palette.warning.main,
     '& span > span': {
-      color: white
+      color: theme.palette.primary.contrastText
     }
   }
 };

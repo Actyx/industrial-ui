@@ -44,8 +44,8 @@ const styles: StyleSheet<ClassKey> = {
     },
     display: 'flex',
     width: '100%',
-    border: `${1}px solid ${theme.palette.grey.light200}`,
-    background: theme.palette.grey.white
+    border: `${1}px solid ${theme.palette.grey[200]}`,
+    background: theme.palette.common.white
   },
   icon: {
     '& i': {

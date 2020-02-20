@@ -82,14 +82,14 @@ const styles: StyleSheet<ClassKey> = {
     left: 0,
     width: '100%',
     height: '100%',
-    zIndex: 1000
+    zIndex: theme.zIndex.modalDrawer
   },
   drawer: {
     position: 'absolute',
     width: DRAWER_WIDTH,
     height: '100%',
     overflow: 'auto',
-    backgroundColor: theme.palette.grey.white
+    backgroundColor: theme.palette.common.white
   },
   listSub: {
     position: 'absolute',

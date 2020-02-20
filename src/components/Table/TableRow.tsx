@@ -18,7 +18,7 @@ const TableRowComp = ({ classes, className, children, active, condensed, onSelec
   <tr
     onClick={onSelect}
     className={classNames(condensed === true ? classes.condensed : classes.tableRow, className)}
-    style={active ? { backgroundColor: theme.palette.actionHighlight.deepSkyBlueBright } : {}}
+    style={active ? { backgroundColor: theme.palette.primary.light } : {}}
   >
     {children}
   </tr>

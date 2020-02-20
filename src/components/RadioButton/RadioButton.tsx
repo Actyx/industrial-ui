@@ -24,8 +24,8 @@ const RadioButtonComp = ({ classes, className, checked, color, disabled, onChang
     style={{
       color: theme.utils.rgba(
         color === undefined || color === 'primary'
-          ? theme.palette.actionHighlight.deepSkyBlue
-          : theme.palette.grey.dark400,
+          ? theme.palette.primary.main
+          : theme.palette.grey[900],
         disabled ? 0.5 : 1
       )
     }}

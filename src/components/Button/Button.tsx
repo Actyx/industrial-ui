@@ -128,49 +128,49 @@ const styles: StyleSheet<ClassKey> = {
     justifyContent: 'center'
   },
   primary: {
-    backgroundColor: theme.palette.actionHighlight.deepSkyBlue,
-    color: theme.palette.grey.white,
+    backgroundColor: theme.palette.primary.main,
+    color: theme.palette.primary.contrastText,
     '& span': {
-      color: theme.palette.grey.white
+      color: theme.palette.primary.contrastText
     }
   },
   neutral: {
-    backgroundColor: theme.palette.grey.dark100,
-    color: theme.palette.grey.white,
+    backgroundColor: theme.palette.grey[600],
+    color: theme.palette.primary.contrastText,
     '& span': {
-      color: theme.palette.grey.white
+      color: theme.palette.primary.contrastText
     }
   },
   light200: {
-    backgroundColor: theme.palette.grey.light200,
-    color: theme.palette.grey.dark400
+    backgroundColor: theme.palette.grey[200],
+    color: theme.palette.grey[900]
   },
   green: {
-    backgroundColor: theme.palette.signal.greenDark,
-    color: theme.palette.grey.white,
+    backgroundColor: theme.palette.success.main,
+    color: theme.palette.primary.contrastText,
     '& span': {
-      color: theme.palette.grey.white
+      color: theme.palette.primary.contrastText
     }
   },
   orange: {
-    backgroundColor: theme.palette.signal.orangeDark,
-    color: theme.palette.grey.white,
+    backgroundColor: theme.palette.warning.main,
+    color: theme.palette.primary.contrastText,
     '& span': {
-      color: theme.palette.grey.white
+      color: theme.palette.primary.contrastText
     }
   },
   yellow: {
-    backgroundColor: theme.palette.signal.yellowDark,
-    color: theme.palette.grey.white,
+    backgroundColor: theme.palette.acknowledge.dark,
+    color: theme.palette.primary.contrastText,
     '& span': {
-      color: theme.palette.grey.white
+      color: theme.palette.primary.contrastText
     }
   },
   red: {
-    backgroundColor: theme.palette.signal.redDark,
-    color: theme.palette.grey.white,
+    backgroundColor: theme.palette.error.main,
+    color: theme.palette.primary.contrastText,
     '& span': {
-      color: theme.palette.grey.white
+      color: theme.palette.primary.contrastText
     }
   },
   transparent: {},

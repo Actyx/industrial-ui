@@ -101,31 +101,29 @@ const inputReset = {
   backgroundColor: 'transparent'
 };
 
-const { red } = theme.palette.signal;
-const { black, neutral100, mediumGrey } = theme.palette.grey;
-const { deepSkyBlue } = theme.palette.actionHighlight;
+const { main } = theme.palette.primary;
 
 const styles: StyleSheet<ClassKey> = {
   root: {
     fontSize: 20,
-    color: theme.palette.grey.black,
+    color: theme.palette.common.black,
     ...inputReset,
-    borderBottom: `${2}px solid ${neutral100}`,
+    borderBottom: `${2}px solid ${theme.palette.grey[400]}`,
     '&:focus': {
       ...inputReset,
-      borderBottom: `${2}px solid ${deepSkyBlue}`
+      borderBottom: `${2}px solid ${main}`
     },
     '&::placeholder': {
-      color: mediumGrey
+      color: theme.palette.grey[400]
     }
   },
   error: {
-    color: black,
+    color: theme.palette.common.black,
     ...inputReset,
-    borderBottom: `${2}px solid ${red}`,
+    borderBottom: `${2}px solid ${theme.palette.error.main}`,
     '&:focus': {
       ...inputReset,
-      borderBottom: `${2}px solid ${red}`
+      borderBottom: `${2}px solid ${theme.palette.error.main}`
     }
   },
   fullWidth: {

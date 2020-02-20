@@ -55,7 +55,7 @@ const styles: StyleSheet<ClassKey> = {
   },
   box: {
     ...box,
-    backgroundColor: theme.palette.grey.white
+    backgroundColor: theme.palette.common.white
   },
   boxShadow: {
     ...box,
@@ -71,15 +71,15 @@ const styles: StyleSheet<ClassKey> = {
     width: 80,
     height: 80,
     borderRadius: 40,
-    backgroundColor: theme.palette.grey.white,
+    backgroundColor: theme.palette.common.white,
     boxShadow: theme.shadow.sm
   },
   icon: {
     position: 'absolute',
-    zIndex: 1
+    zIndex: 1 // FIXME remove it if possible
   },
   neutral: {
-    color: theme.palette.grey.dark400
+    color: theme.palette.grey[900]
   },
   content: {
     height: '100%',

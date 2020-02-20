@@ -31,7 +31,7 @@ const styles: StyleSheet<ClassKey> = {
     alignItems: 'center',
     height: 80,
     width: '100%',
-    backgroundColor: theme.palette.grey.neutral100
+    backgroundColor: theme.palette.grey[400]
   },
   main: {
     paddingLeft: 24,

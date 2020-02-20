@@ -3,92 +3,70 @@ import preset from 'jss-preset-default';
 
 import '../assets/fonts/Titillium_Web/font.css';
 import '../assets/fonts/MaterialIcons/material-icons.css';
+import {
+  common,
+  lightBlue,
+  blueGrey,
+  grey,
+  green,
+  orange,
+  lightGreen,
+  red,
+  yellow,
+  brown
+} from '../colors';
 
+// Inspired from:
+// https://material-ui.com/customization/default-theme/
+// https://material-ui.com/customization/color/#color-palette
 const createTheme = () => {
   const base = {
     palette: {
-      grey: {
-        light100: '#fafafa',
-        light150: '#f5f5f5',
-        light200: '#eaeaea',
-        mediumGrey: '#d6d6d6',
-        dark100: '#777777',
-        dark200: '#666666',
-        dark300: 'rgb(76, 76, 76)',
-        dark400: '#333333',
-        black: '#000000',
-        white: '#ffffff',
-        neutral100: '#d6d6d6',
-        neutral300: '#999999'
+      common,
+      primary: {
+        light: lightBlue[200],
+        main: lightBlue[500],
+        dark: blueGrey[900],
+        contrastText: common.white
       },
-      highlight: {
-        primary: '#bee5fa',
-        secondary: '#F8F9FB'
+      grey,
+      success: {
+        light: lightGreen.A700,
+        main: green[500],
+        dark: green[800]
       },
-      actionHighlight: {
-        deepSkyBlue: '#22aaee',
-        deepSkyBlueBright: '#81CFF5',
-        oceanBlue: '#0088cc',
-        seaBlue: '#005599',
-        bottomBlue: '#0D2237'
+      warning: {
+        light: orange[300],
+        main: orange[500],
+        dark: orange[800]
       },
-      signal: {
-        green: '#22dd55',
-        greenDark: '#11aa44',
-        orange: '#ff9900',
-        orangeDark: '#cc7700',
-        yellow: '#ffaa00',
-        yellowDark: '#ddaa00',
-        red: '#dd0000',
-        redDark: '#990000',
-        redBright: '#e16464',
-        brown: '#DBB44B',
-        brownDark: '#917731'
+      acknowledge: {
+        light: yellow[400],
+        main: yellow[600],
+        dark: yellow[800]
       },
-      blue: {
-        dark: '#0c2237'
+      support: {
+        light: brown[200],
+        main: brown[400],
+        dark: brown[900]
+      },
+      error: {
+        light: red[300],
+        main: red.A700,
+        dark: red[900]
       }
-    },
-    color: {
-      primaryWhite: '#D6D6D6',
-      primaryBlack: '#141414',
-      lightGreyLines: '#E9EAF0',
-      labelGrey: '#7E7E80',
-      pureWhite: '#FFFFFF',
-      inactiveDark: '#343436',
-      primary: '#0090D0',
-      activeGreen: '#14CC9E',
-      tabNavigation: '#A1A1A4',
-      failRed: '#BF0030',
-      secondaryBlack: '#222222',
-      warningOrange: '#FAA125',
-      lightGreyCardHeader: '#EFF0F6',
-      secondaryColor: '#006699',
-      darkGreen: '#158E6C',
-      blueLight: '#01a1df',
-      blueMid: '#017ecf',
-      blueDark: '#024466',
-      blueDarkGrey: '#2B3239',
-      grayLight: '#EAEAEA',
-      grayVeryLight: '#F7F7F7',
-      grayVeryLight2: '#E0E0E0',
-      grayMidLight: '#89898a',
-      grayExtremeLight: '#F2F2F2',
-      red: '#f44336'
-    },
-    dimension: {
-      borderRadius: 2
     },
     typography: {
       fontFamily: '"Titillium Web", sans-serif',
-      fontSizes: {
-        giant: 70,
-        heading: 48,
-        big: 36,
-        distance: 28,
-        standard: 20,
-        small: 16
-      }
+      fontWeightLight: 300,
+      fontWeightRegular: 400,
+      fontWeightMedium: 600,
+      fontWeightBold: 700
+    },
+    zIndex: {
+      dialog: 1110,
+      fluid: 1100,
+      modalDrawer: 1000
     },
     utils: {
       rgba: (c: string, opacity: number) => {
@@ -104,19 +82,11 @@ const createTheme = () => {
     }
   };
 
-  const shadowWidth = {
-    sm: 4
-  };
-
   return {
-    shadowWidth,
     shadow: {
-      xs: `${1}px ${1}px ${3}px ${base.utils.rgba(base.palette.grey.black, 0.4)}`,
-      sm: `${shadowWidth.sm}px ${shadowWidth.sm}px ${shadowWidth.sm}px ${base.utils.rgba(
-        base.palette.grey.black,
-        0.3
-      )}`,
-      md: `${10}px ${10}px ${24}px ${base.utils.rgba(base.palette.grey.black, 0.5)}`
+      xs: `${1}px ${1}px ${3}px ${base.utils.rgba(base.palette.common.black, 0.4)}`,
+      sm: `${4}px ${4}px ${4}px ${base.utils.rgba(base.palette.common.black, 0.3)}`,
+      md: `${10}px ${10}px ${24}px ${base.utils.rgba(base.palette.common.black, 0.5)}`
     },
     ...base
   };
@@ -128,14 +98,13 @@ const jss = create({
   plugins: preset().plugins
 });
 
-// Add global styles
 jss
   .createStyleSheet(
     {
       '@global': {
         html: {
           boxSizing: 'border-box',
-          backgroundColor: theme.palette.grey.light200,
+          backgroundColor: theme.palette.grey[200],
           height: '100%',
           width: '100%',
           padding: 0,

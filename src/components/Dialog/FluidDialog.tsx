@@ -38,7 +38,7 @@ const styles: StyleSheet<ClassKey> = {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    zIndex: 1100
+    zIndex: theme.zIndex.fluid
   },
   container: {
     position: 'relative',
@@ -46,7 +46,7 @@ const styles: StyleSheet<ClassKey> = {
     flexDirection: 'column',
     margin: 24,
     maxHeight: 'calc(100% - 40px)',
-    backgroundColor: theme.palette.grey.white,
+    backgroundColor: theme.palette.common.white,
     boxShadow: theme.shadow.md
   },
   content: {

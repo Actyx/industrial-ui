@@ -49,11 +49,11 @@ const button = {
 const styles: StyleSheet<ClassKey> = {
   neutral: {
     ...button,
-    background: theme.palette.grey.dark200
+    background: theme.palette.grey[700]
   },
   primary: {
     ...button,
-    backgroundColor: theme.palette.actionHighlight.deepSkyBlue
+    backgroundColor: theme.palette.primary.main
   },
   button: {
     display: 'flex',
@@ -62,9 +62,9 @@ const styles: StyleSheet<ClassKey> = {
     width: '100%',
     height: '100%',
     borderRadius,
-    color: theme.palette.grey.white,
+    color: theme.palette.primary.contrastText,
     '& span': {
-      color: theme.palette.grey.white,
+      color: theme.palette.primary.contrastText,
       lineHeight: 1,
       marginBottom: 4
     }

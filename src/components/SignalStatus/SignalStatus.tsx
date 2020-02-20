@@ -23,7 +23,6 @@ type Props = WithStyles<ClassKey> & CompProps;
 
 const SignalStatusComp = ({ classes, status, text }: Props) => {
   const isInterrupted = status === 'interrupted';
-  const { red } = theme.palette.signal;
   return (
     <div className={classes.root}>
       <div>
@@ -44,7 +43,7 @@ const SignalStatusComp = ({ classes, status, text }: Props) => {
         <Typography
           variant="standard"
           textTransform="uppercase"
-          color={isInterrupted ? red : undefined}
+          color={isInterrupted ? theme.palette.error.main : undefined}
           bold={isInterrupted || undefined}
         >
           {status}
@@ -53,7 +52,7 @@ const SignalStatusComp = ({ classes, status, text }: Props) => {
           <Typography
             variant="standard"
             textTransform="capitalize"
-            color={isInterrupted ? red : undefined}
+            color={isInterrupted ? theme.palette.error.main : undefined}
             bold={isInterrupted || undefined}
           >
             {`: ${text}`}

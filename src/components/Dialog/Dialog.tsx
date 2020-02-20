@@ -3,6 +3,7 @@ import * as React from 'react';
 import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 import { FluidDialog } from './FluidDialog';
+import { theme } from '../../theme';
 
 export type DialogSize = 'xs' | 'sm' | 'md' | 'xl' | 'xlw' | 'xxl';
 
@@ -32,7 +33,7 @@ type ClassKey = 'dialog' | DialogSize | 'header' | 'footer';
 const styles: StyleSheet<ClassKey> = {
   dialog: {
     padding: 24,
-    zIndex: 1110
+    zIndex: theme.zIndex.dialog
   },
   header: {
     marginBottom: 24

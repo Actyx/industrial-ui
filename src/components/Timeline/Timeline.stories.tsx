@@ -1,14 +1,16 @@
 import { storiesOf } from '@storybook/react';
-import { theme } from '../../theme';
 import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { Timeline, TimelineEvent as TimelineEventType } from './Timeline';
 import { TimelineEvent } from './TimelineEvent';
 import { StatusComponent } from './Status';
 import { Content } from './Content';
+import { green, orange, lightGreen } from '../../colors';
 
-const COLOR_GREEN = theme.palette.signal.greenDark;
-const COLOR_ORANGE = theme.palette.signal.orangeDark;
+const COLOR_GREEN_LIGHT = lightGreen.A700;
+const COLOR_GREEN = green[500];
+const COLOR_ORANGE = orange[700];
+const COLOR_ORANGE_DARK = orange[500];
 
 const DESCRIPTION =
   'Misalignment, continues the paper, exists when the centre lines of two neighbouring machines deviate from each other.';
@@ -168,17 +170,13 @@ storiesOf('Components|Timeline', module)
     return <TimelineEvent {...props} />;
   })
   .add('Part status single', () => (
-    <StatusComponent color={theme.color.activeGreen} arrangement="single" />
+    <StatusComponent color={COLOR_GREEN_LIGHT} arrangement="single" />
   ))
-  .add('Part status start', () => (
-    <StatusComponent color={theme.palette.signal.orangeDark} arrangement="start" />
-  ))
+  .add('Part status start', () => <StatusComponent color={COLOR_ORANGE_DARK} arrangement="start" />)
   .add('Part status middle', () => (
-    <StatusComponent color={theme.palette.signal.orangeDark} arrangement="continue" />
+    <StatusComponent color={COLOR_ORANGE_DARK} arrangement="continue" />
   ))
-  .add('Part status end', () => (
-    <StatusComponent color={theme.palette.signal.orangeDark} arrangement="end" />
-  ))
+  .add('Part status end', () => <StatusComponent color={COLOR_ORANGE_DARK} arrangement="end" />)
   .add('Part content base', () => <Content title="Misalignment" timestamp={1519223596657} />)
   .add('Part content description', () => {
     const props = {

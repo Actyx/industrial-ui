@@ -23,7 +23,7 @@ const SimpleToolbarButtonComp = ({ classes, text, disabled, onClick }: Props) =>
     >
       <Typography
         variant="standard"
-        color={theme.palette.grey.white}
+        color={theme.palette.common.white}
         textTransform="uppercase"
         bold
       >
@@ -46,10 +46,10 @@ const styles: StyleSheet<ClassKey, CompProps> = {
     alignItems: 'center',
     paddingLeft: 24,
     paddingRight: 24,
-    backgroundColor: theme.palette.actionHighlight.deepSkyBlue
+    backgroundColor: theme.palette.primary.main
   },
   disabled: {
-    backgroundColor: theme.palette.grey.light200
+    backgroundColor: theme.palette.grey[200]
   }
 };
 
