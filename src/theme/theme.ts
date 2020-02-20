@@ -18,18 +18,7 @@ const createTheme = () => {
         dark: blueGrey[900],
         contrastText: common.white
       },
-      grey: {
-        50: grey[50],
-        100: grey[100],
-        200: grey[200],
-        300: grey[300],
-        400: grey[400],
-        500: grey[500],
-        600: grey[600],
-        700: grey[700],
-        900: grey[900],
-        neutral100: '#d6d6d6'
-      },
+      grey,
       green: {
         activeGreen: '#14CC9E'
       },

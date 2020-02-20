@@ -102,7 +102,6 @@ const inputReset = {
 };
 
 const { red } = theme.palette.signal;
-const { neutral100 } = theme.palette.grey;
 const { main } = theme.palette.primary;
 
 const styles: StyleSheet<ClassKey> = {
@@ -110,7 +109,7 @@ const styles: StyleSheet<ClassKey> = {
     fontSize: 20,
     color: theme.palette.common.black,
     ...inputReset,
-    borderBottom: `${2}px solid ${neutral100}`,
+    borderBottom: `${2}px solid ${theme.palette.grey[400]}`,
     '&:focus': {
       ...inputReset,
       borderBottom: `${2}px solid ${main}`

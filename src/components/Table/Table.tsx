@@ -64,15 +64,15 @@ const styles: StyleSheet<ClassKey, CompProps> = {
   },
   rowBorder: {
     '& thead > tr': {
-      borderBottom: `${1}px solid ${theme.palette.grey.neutral100}`
+      borderBottom: `${1}px solid ${theme.palette.grey[400]}`
     },
     '& tbody > tr': {
-      borderBottom: `${1}px solid ${theme.palette.grey.neutral100}`
+      borderBottom: `${1}px solid ${theme.palette.grey[400]}`
     }
   },
   rowBorderDark: {
     '& thead > tr': {
-      borderBottom: `${1}px solid ${theme.palette.grey.neutral100}`
+      borderBottom: `${1}px solid ${theme.palette.grey[400]}`
     },
     '& tbody > tr': {
       borderBottom: `${1}px solid ${theme.palette.grey[900]}`

@@ -92,7 +92,7 @@ const styles: StyleSheet<ClassKey> = {
     fontSize: 48,
     color: theme.palette.common.black,
     ...inputReset,
-    borderBottom: `${2}px solid ${theme.palette.grey.neutral100}`,
+    borderBottom: `${2}px solid ${theme.palette.grey[400]}`,
     '&:focus': {
       ...inputReset,
       borderBottom: `${2}px solid ${theme.palette.primary.main}`
