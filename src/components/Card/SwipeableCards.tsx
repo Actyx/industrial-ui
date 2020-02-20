@@ -3,7 +3,7 @@ import * as React from 'react';
 import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import SwipeableViews from 'react-swipeable-views';
 import { compose, setDisplayName } from 'recompose';
-import { Pagination } from '../PaginationDots';
+import { PaginationDots } from '../PaginationDots';
 
 type OuterProps = Readonly<{
   children: React.ReactNode;
@@ -56,7 +56,7 @@ class SwipeableCardsComp extends React.Component<Props, State> {
         >
           {children}
         </SwipeableViews>
-        <Pagination
+        <PaginationDots
           onChangeIndex={this.handleOnViewIndexChange}
           dots={React.Children.count(children)}
           index={activeViewIndex}
