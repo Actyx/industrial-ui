@@ -8,34 +8,38 @@ import { MUIcon } from '../MUIcon';
 import { Toolbar } from '../Toolbar';
 import { TouchRipple } from '../TouchRipple';
 
-type ToolbarIcon = Readonly<{
-  onClick?: () => void;
+export type SimpleToolbarToolbarIcon = Readonly<{
   icon: string;
   type?: 'button' | 'submit' | 'reset';
+  onClick?: () => void;
 }>;
 
-type RightComponent = Readonly<{
+export type SimpleToolbarRightComponent = Readonly<{
   component: React.ReactNode;
   onClick?: () => void;
 }>;
 
-type Variant = 'light' | 'dark';
+export type SimpleToolbarVariant = 'light' | 'dark';
 
-type OuterProps = Readonly<{
-  variant: Variant;
+type CompProps = Readonly<{
+  variant: SimpleToolbarVariant;
   title: React.ReactNode;
-  leftIcon?: ToolbarIcon;
-  rightIcon?: ToolbarIcon;
+  leftIcon?: SimpleToolbarToolbarIcon;
+  rightIcon?: SimpleToolbarToolbarIcon;
   centerComponent?: React.ReactNode;
-  rightComponent?: RightComponent;
+  rightComponent?: SimpleToolbarRightComponent;
 }>;
 
-type Props = WithStyles<ClassKey> & OuterProps;
+type Props = WithStyles<ClassKey> & CompProps;
 
 const COLOR_WHITE = theme.palette.grey.white;
 const COLOR_DARK = theme.palette.blue.dark;
 
-const renderIcon = (btn: ToolbarIcon, classes: Record<ClassKey, string>, variant: Variant) => (
+const renderIcon = (
+  btn: SimpleToolbarToolbarIcon,
+  classes: Record<ClassKey, string>,
+  variant: SimpleToolbarVariant
+) => (
   <button
     type={btn.type || 'button'}
     className={classNames(classes.button, classes.icon)}
@@ -51,7 +55,10 @@ const renderIcon = (btn: ToolbarIcon, classes: Record<ClassKey, string>, variant
   </button>
 );
 
-const renderRight = (rightComponent: RightComponent, classes: Record<ClassKey, string>) => (
+const renderRight = (
+  rightComponent: SimpleToolbarRightComponent,
+  classes: Record<ClassKey, string>
+) => (
   <button
     type="submit"
     className={classNames(classes.button, classes.rightComponent)}
@@ -145,7 +152,7 @@ const styles: StyleSheet<ClassKey> = {
   }
 };
 
-export const SimpleToolbar = compose<Props, OuterProps>(
+export const SimpleToolbar = compose<Props, CompProps>(
   setDisplayName('SimpleToolbar'),
   injectSheet(styles)
 )(SimpleToolbarComp);

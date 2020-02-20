@@ -114,9 +114,9 @@ storiesOf('Components|SimpleToolbar', module)
       }}
     />
   ))
-  .add('Part button enabled', () => (
+  .add('Part SimpleToolbarButton button enabled', () => (
     <SimpleToolbarButton text="Confirm" onClick={action('onClick')} />
   ))
-  .add('Part button disabled', () => (
+  .add('Part SimpleToolbarButton button disabled', () => (
     <SimpleToolbarButton text="Confirm" disabled onClick={action('onClick')} />
   ));
