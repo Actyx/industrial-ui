@@ -7,7 +7,7 @@ import { TouchRipple } from '../TouchRipple';
 import { Typography } from '../Typography';
 import { MUIcon } from '../MUIcon';
 
-type OuterProps = Readonly<{
+type CompProps = Readonly<{
   domId?: string;
   className?: string;
   selected: boolean;
@@ -16,7 +16,7 @@ type OuterProps = Readonly<{
   onSelect?: () => void;
 }>;
 
-type Props = WithStyles<ClassKey> & OuterProps;
+type Props = WithStyles<ClassKey> & CompProps;
 
 const ButtonStatusComp = ({ classes, className, domId, selected, text, icon, onSelect }: Props) => (
   <div id={domId} className={classNames(classes.root, className)}>
@@ -56,7 +56,7 @@ type ClassKey =
   | 'icon'
   | 'button';
 
-const styles: StyleSheet<ClassKey, OuterProps> = {
+const styles: StyleSheet<ClassKey, CompProps> = {
   root: {
     display: 'inline-flex',
     position: 'relative'
@@ -103,7 +103,7 @@ const styles: StyleSheet<ClassKey, OuterProps> = {
   }
 };
 
-export const ButtonStatus = compose<Props, OuterProps>(
+export const ButtonStatus = compose<Props, CompProps>(
   setDisplayName('ButtonStatus'),
   injectSheet(styles)
 )(ButtonStatusComp);
