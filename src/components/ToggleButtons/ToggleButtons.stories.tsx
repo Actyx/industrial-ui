@@ -38,5 +38,5 @@ const baseProps = {
 storiesOf('Components|ToggleButtons', module)
   .addDecorator(hostDecorator())
   .add('Base', () => <ToggleButtons {...baseProps} />)
-  .add('One item', () => <ToggleButtons {...baseProps} items={[items[2]]} />)
-  .add('Init selection', () => <ToggleButtons {...baseProps} initToggledItemId="third" />);
+  .add('items', () => <ToggleButtons {...baseProps} items={[items[2]]} />)
+  .add('initToggledItemId', () => <ToggleButtons {...baseProps} initToggledItemId="third" />);

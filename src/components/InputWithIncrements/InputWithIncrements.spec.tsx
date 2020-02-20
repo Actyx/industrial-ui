@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable @typescript-eslint/ban-ts-ignore */
 import { Input } from '../Input';
 import { mount, shallow } from 'enzyme';
 import * as React from 'react';

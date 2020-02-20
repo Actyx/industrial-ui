@@ -40,16 +40,16 @@ class AnimationWrapper extends React.Component<{}, { mode: Mode }> {
 
 storiesOf('Components|Dialog.FooterWithDoubleConfirmation', module)
   .addDecorator(hostDecorator({}))
-  .add('confirm no valid', () => <FooterWithDoubleConfirmation {...baseProps} mode={Mode.Normal} />)
-  .add('confirm valid', () => (
+  .add('Confirm no valid', () => <FooterWithDoubleConfirmation {...baseProps} mode={Mode.Normal} />)
+  .add('Confirm valid', () => (
     <FooterWithDoubleConfirmation {...baseProps} mode={Mode.Normal} valid />
   ))
   .add('enableCancel', () => (
     <FooterWithDoubleConfirmation {...baseProps} mode={Mode.Normal} enableCancel />
   ))
-  .add('mode confirmation', () => (
+  .add('Mode confirmation', () => (
     <FooterWithDoubleConfirmation {...baseProps} mode={Mode.Confirmation} />
   ))
-  .add('animation', () => {
+  .add('Animation', () => {
     return <AnimationWrapper />;
   });

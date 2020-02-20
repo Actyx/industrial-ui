@@ -13,7 +13,7 @@ storiesOf('Components|ClearableInput', module)
   .addDecorator(hostDecorator())
   .add('No value', () => <ClearableInput value="" {...baseProps} />)
   .add('Value', () => <ClearableInput value="100" {...baseProps} />)
-  .add('Larger', () => <ClearableInput value="100" long {...baseProps} />)
+  .add('Long', () => <ClearableInput value="100" long {...baseProps} />)
   .add('Interactable', () => {
     const Comp = () => {
       const [val, setVal] = React.useState('');

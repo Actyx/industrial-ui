@@ -36,11 +36,11 @@ storiesOf('Components|Search', module)
     const props = { ...baseProps };
     return <Search {...props} />;
   })
-  .add('Value', () => {
+  .add('value', () => {
     const props = { ...baseProps, value: 'Abc' };
     return <Search {...props} />;
   })
-  .add('Placeholder', () => {
+  .add('placeholder', () => {
     const props = { ...baseProps, placeholder };
     return <Search {...props} />;
   })

@@ -16,5 +16,5 @@ storiesOf('Components|SignalNotification', module)
       width: 500
     })
   )
-  .add('Short text', () => <SignalNotification {...mkProps(text)} />)
+  .add('Text', () => <SignalNotification {...mkProps(text)} />)
   .add('Long text', () => <SignalNotification {...mkProps(LoremIpsumShort)} />);

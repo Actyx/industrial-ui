@@ -5,4 +5,4 @@ import { LabelWithValue } from './LabelWithValue';
 
 storiesOf('Components|LabelWithValue', module)
   .addDecorator(hostDecorator())
-  .add('base', () => <LabelWithValue label="sample label" value="sample value" />);
+  .add('Base', () => <LabelWithValue label="sample label" value="sample value" />);

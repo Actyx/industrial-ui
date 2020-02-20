@@ -11,7 +11,6 @@ const ex1: Counters = [ready];
 const ex2: Counters = [unknown, requested];
 const ex3: Counters = [ready, unknown, requested];
 
-// FIXME size of StatusCounter
 storiesOf('Components|StatusCounters', module)
   .addDecorator(
     hostDecorator({

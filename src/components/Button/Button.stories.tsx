@@ -135,7 +135,7 @@ storiesOf('Components|Button', module)
   ))
   .add('Knobs', () => {
     const colorKnob = object('Props', {
-      variant: 'raised' as 'raised',
+      variant: 'flat' as 'flat',
       color: 'light200' as 'light200',
       icon: 'person',
       text: 'Add User',

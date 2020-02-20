@@ -6,7 +6,11 @@ import { NavigationalTags } from './NavigationalTags';
 import { Tag } from './Tag';
 
 storiesOf('Components|NavigationalTags', module)
-  .addDecorator(hostDecorator())
+  .addDecorator(
+    hostDecorator({
+      width: 800
+    })
+  )
   .add('Base', () => (
     <NavigationalTags
       tags={[

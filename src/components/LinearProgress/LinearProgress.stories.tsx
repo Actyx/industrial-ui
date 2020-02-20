@@ -53,7 +53,7 @@ storiesOf('Components|LinearProgress', module)
       contentCenter={<span>I am center</span>}
     />
   ))
-  .add('Variant xs content vertical align: center', () => (
+  .add('Size xs content vertical align: center', () => (
     <LinearProgress
       size="xs"
       contentVerticalAlign="center"
@@ -65,7 +65,7 @@ storiesOf('Components|LinearProgress', module)
       contentCenter={<span>I am center</span>}
     />
   ))
-  .add('Variant xs content vertical align: top', () => (
+  .add('Size xs content vertical align: top', () => (
     <LinearProgress
       size="xs"
       contentVerticalAlign="top"
@@ -77,7 +77,7 @@ storiesOf('Components|LinearProgress', module)
       contentCenter={<span>I am center</span>}
     />
   ))
-  .add('Variant xs content vertical align: bottom', () => (
+  .add('Size xs content vertical align: bottom', () => (
     <LinearProgress
       size="xs"
       contentVerticalAlign="bottom"
@@ -89,7 +89,7 @@ storiesOf('Components|LinearProgress', module)
       contentCenter={<span>I am center</span>}
     />
   ))
-  .add('Variant md content vertical align: center', () => (
+  .add('Size md content vertical align: center', () => (
     <LinearProgress
       size="md"
       contentVerticalAlign="center"
@@ -101,7 +101,7 @@ storiesOf('Components|LinearProgress', module)
       contentCenter={<span>I am center</span>}
     />
   ))
-  .add('Variant md content vertical align: top', () => (
+  .add('Size md content vertical align: top', () => (
     <LinearProgress
       size="md"
       contentVerticalAlign="top"
@@ -113,7 +113,7 @@ storiesOf('Components|LinearProgress', module)
       contentCenter={<span>I am center</span>}
     />
   ))
-  .add('Variant md content vertical align: bottom', () => (
+  .add('Size md content vertical align: bottom', () => (
     <LinearProgress
       size="md"
       contentVerticalAlign="bottom"
@@ -125,7 +125,7 @@ storiesOf('Components|LinearProgress', module)
       contentCenter={<span>I am center</span>}
     />
   ))
-  .add('Variant lg content vertical align: center', () => (
+  .add('Size lg content vertical align: center', () => (
     <LinearProgress
       size="lg"
       contentVerticalAlign="center"
@@ -137,7 +137,7 @@ storiesOf('Components|LinearProgress', module)
       contentCenter={<span>I am center</span>}
     />
   ))
-  .add('Variant lg content vertical align: top', () => (
+  .add('Size lg content vertical align: top', () => (
     <LinearProgress
       size="lg"
       contentVerticalAlign="top"
@@ -149,7 +149,7 @@ storiesOf('Components|LinearProgress', module)
       contentCenter={<span>I am center</span>}
     />
   ))
-  .add('Variant lg content vertical align: bottom', () => (
+  .add('Size lg content vertical align: bottom', () => (
     <LinearProgress
       size="lg"
       contentVerticalAlign="bottom"
@@ -189,8 +189,8 @@ storiesOf('Components|LinearProgress', module)
     />
   ))
   .add('No message ', () => <LinearProgress size="md" color="green" value={20} />)
-  .add('Disabled', () => <LinearProgress size="md" color="green" value={20} disabled />)
-  .add('Disabled with content', () => (
+  .add('disabled', () => <LinearProgress size="md" color="green" value={20} disabled />)
+  .add('disabled content', () => (
     <LinearProgress
       disabled
       size="md"

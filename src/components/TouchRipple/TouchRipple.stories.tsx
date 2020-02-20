@@ -18,7 +18,7 @@ storiesOf('Components|TouchRipple', module)
       <div>TouchRipple</div>
     </TouchRipple>
   ))
-  .add('Disabled', () => {
+  .add('disabled', () => {
     const props = {
       ...baseProps,
       disabled: true

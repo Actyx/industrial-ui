@@ -48,7 +48,7 @@ storiesOf('Components|Typography', module)
       </Typography>
     </div>
   ))
-  .add('Ellipsis', () => (
+  .add('ellipsis', () => (
     <div style={{ width: 500 }}>
       <Typography variant="standard" ellipsis>
         {LoremIpsum}

@@ -13,7 +13,7 @@ const baseProps = {
 
 storiesOf('Components|Dialog.FooterWithConfirmation', module)
   .addDecorator(hostDecorator({}))
-  .add('confirmation', () => <FooterWithConfirmation {...baseProps} />)
-  .add('disable confirmation', () => (
+  .add('Confirmation', () => <FooterWithConfirmation {...baseProps} />)
+  .add('Disable confirmation', () => (
     <FooterWithConfirmation {...baseProps} confirmMessage="Confirm" disableConfirm />
   ));

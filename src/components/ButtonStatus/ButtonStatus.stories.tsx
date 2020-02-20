@@ -11,28 +11,7 @@ const baseProps = {
 
 storiesOf('Components|ButtonStatus', module)
   .addDecorator(hostDecorator())
-  .add('Text', () => {
-    const props = {
-      ...baseProps,
-      selected: false
-    };
-    return <ButtonStatus {...props} />;
-  })
-  .add('Long text', () => {
-    const props = {
-      ...baseProps,
-      text: 'Very long content',
-      selected: false
-    };
-    return <ButtonStatus {...props} />;
-  })
-  .add('Selected', () => {
-    const props = {
-      ...baseProps,
-      selected: true
-    };
-    return <ButtonStatus {...props} />;
-  })
+
   .add('Selected icon', () => {
     const props = {
       ...baseProps,
@@ -46,6 +25,35 @@ storiesOf('Components|ButtonStatus', module)
       ...baseProps,
       selected: false,
       icon: 'person'
+    };
+    return <ButtonStatus {...props} />;
+  })
+  .add('Selected no icon', () => {
+    const props = {
+      ...baseProps,
+      selected: true
+    };
+    return <ButtonStatus {...props} />;
+  })
+  .add('Unselected no icon', () => {
+    const props = {
+      ...baseProps,
+      selected: false
+    };
+    return <ButtonStatus {...props} />;
+  })
+  .add('Text', () => {
+    const props = {
+      ...baseProps,
+      selected: false
+    };
+    return <ButtonStatus {...props} />;
+  })
+  .add('Long text', () => {
+    const props = {
+      ...baseProps,
+      text: 'Very long content',
+      selected: false
     };
     return <ButtonStatus {...props} />;
   });
