@@ -4,21 +4,21 @@ import { LinearProgressColor } from './LinearProgress';
 const dark: { [color: string]: string } = {
   green: theme.palette.success.main,
   orange: theme.palette.warning.dark,
-  yellow: theme.palette.prewarning.dark,
+  yellow: theme.palette.acknowledge.dark,
   red: theme.palette.error.main,
   grey: theme.palette.grey[500],
   white: theme.palette.common.white,
-  brown: theme.palette.postwarning.dark
+  brown: theme.palette.support.dark
 };
 
 const regular: { [color: string]: string } = {
   green: theme.palette.success.light,
   orange: theme.palette.warning.main,
-  yellow: theme.palette.prewarning.main,
+  yellow: theme.palette.acknowledge.main,
   red: theme.palette.error.main,
   grey: theme.palette.grey[400],
   white: theme.palette.grey[50],
-  brown: theme.palette.postwarning.main
+  brown: theme.palette.support.main
 };
 
 const textColorMap: { [color: string]: string } = {
@@ -34,11 +34,11 @@ const textColorMap: { [color: string]: string } = {
 const borderColorMap: { [color: string]: string } = {
   green: theme.palette.success.light,
   orange: theme.palette.warning.main,
-  yellow: theme.palette.prewarning.main,
+  yellow: theme.palette.acknowledge.main,
   red: theme.palette.error.main,
   grey: theme.palette.grey[400],
   white: theme.palette.grey[400], // TODO check colors here
-  brown: theme.palette.postwarning.main
+  brown: theme.palette.support.main
 };
 
 export const getRegularColor = (color: LinearProgressColor, disabled?: boolean) => {

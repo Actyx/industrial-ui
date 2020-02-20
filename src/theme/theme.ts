@@ -32,23 +32,28 @@ const createTheme = () => {
       grey,
       success: {
         light: lightGreen.A700,
-        main: green[500]
+        main: green[500],
+        dark: green[800]
       },
       warning: {
+        light: orange[300],
         main: orange[500],
         dark: orange[800]
       },
-      prewarning: {
+      acknowledge: {
+        light: yellow[400],
         main: yellow[600],
         dark: yellow[800]
       },
-      postwarning: {
+      support: {
+        light: brown[200],
         main: brown[400],
         dark: brown[900]
       },
       error: {
         light: red[300],
-        main: red.A700
+        main: red.A700,
+        dark: red[900]
       }
     },
     typography: {
