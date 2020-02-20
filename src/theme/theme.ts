@@ -5,7 +5,7 @@ import '../assets/fonts/Titillium_Web/font.css';
 import '../assets/fonts/MaterialIcons/material-icons.css';
 import { common, lightBlue, blueGrey, grey, green, orange, lightGreen } from '../colors';
 
-// Inspiration from:
+// Inspired from:
 // https://material-ui.com/customization/default-theme/
 // https://material-ui.com/customization/color/#color-palette
 const createTheme = () => {
@@ -24,14 +24,13 @@ const createTheme = () => {
         main: green[500]
       },
       warning: {
-        main: orange[700]
+        main: orange[500],
+        dark: orange[800]
       },
       green: {
         activeGreen: '#14CC9E'
       },
       signal: {
-        // green: '#22dd55',
-        orange: '#ff9900',
         yellow: '#ffaa00',
         yellowDark: '#ddaa00',
         red: '#dd0000',

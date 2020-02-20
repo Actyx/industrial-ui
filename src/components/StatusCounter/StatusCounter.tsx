@@ -19,7 +19,6 @@ const StatusCounterComp = ({ classes, variant, counter }: Props) => (
   </div>
 );
 
-const { orange } = theme.palette.signal;
 const { 900: dark400 } = theme.palette.grey;
 
 type ClassKey = 'root' | StatusVariant;
@@ -47,8 +46,8 @@ const styles: StyleSheet<ClassKey, CompProps> = {
     }
   },
   requested: {
-    border: `1px solid ${theme.palette.warning.main}`,
-    backgroundColor: orange,
+    border: `1px solid ${theme.palette.warning.dark}`,
+    backgroundColor: theme.palette.warning.main,
     '& span': {
       color: theme.palette.primary.contrastText
     }
