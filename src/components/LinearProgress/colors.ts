@@ -15,7 +15,7 @@ const regular: { [color: string]: string } = {
   green: theme.palette.success.light,
   orange: theme.palette.warning.main,
   yellow: theme.palette.signal.yellow,
-  red: theme.palette.signal.red,
+  red: theme.palette.error.main,
   grey: theme.palette.grey[400],
   white: theme.palette.grey[50],
   brown: theme.palette.signal.brown
@@ -35,7 +35,7 @@ const borderColorMap: { [color: string]: string } = {
   green: theme.palette.success.light,
   orange: theme.palette.warning.main,
   yellow: theme.palette.signal.yellow,
-  red: theme.palette.signal.red,
+  red: theme.palette.error.main,
   grey: theme.palette.grey[400],
   white: theme.palette.grey[400], // TODO check colors here
   brown: theme.palette.signal.brown

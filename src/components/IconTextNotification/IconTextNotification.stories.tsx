@@ -3,11 +3,12 @@ import { theme } from '../../theme';
 import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { IconTextNotification } from './IconTextNotification';
+import { red } from '../../colors';
 
 const warningBaseProps = {
   icon: 'warning',
   text: 'Interrupted',
-  color: theme.palette.signal.red
+  color: red.A700
 };
 
 const genericBaseProps = {

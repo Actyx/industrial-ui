@@ -101,7 +101,6 @@ const inputReset = {
   backgroundColor: 'transparent'
 };
 
-const { red } = theme.palette.signal;
 const { main } = theme.palette.primary;
 
 const styles: StyleSheet<ClassKey> = {
@@ -121,10 +120,10 @@ const styles: StyleSheet<ClassKey> = {
   error: {
     color: theme.palette.common.black,
     ...inputReset,
-    borderBottom: `${2}px solid ${red}`,
+    borderBottom: `${2}px solid ${theme.palette.error.main}`,
     '&:focus': {
       ...inputReset,
-      borderBottom: `${2}px solid ${red}`
+      borderBottom: `${2}px solid ${theme.palette.error.main}`
     }
   },
   fullWidth: {

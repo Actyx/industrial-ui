@@ -20,7 +20,7 @@ const SignalNotificationComp = ({ classes, className, icon, text }: Props) => (
     <Divider className={classes.divider} />
     <div className={classes.content}>
       <div className={classes.icon}>
-        <MUIcon type={icon} color={theme.palette.signal.red} fontSize={93} />
+        <MUIcon type={icon} color={theme.palette.error.main} fontSize={93} />
       </div>
       <div className={classes.text}>
         <Typography variant="distance">{text}</Typography>

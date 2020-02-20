@@ -105,10 +105,10 @@ const styles: StyleSheet<ClassKey> = {
     fontSize: 48,
     color: theme.palette.common.black,
     ...inputReset,
-    borderBottom: `${2}px solid ${theme.palette.signal.red}`,
+    borderBottom: `${2}px solid ${theme.palette.error.main}`,
     '&:focus': {
       ...inputReset,
-      borderBottom: `${2}px solid ${theme.palette.signal.red}`
+      borderBottom: `${2}px solid ${theme.palette.error.main}`
     }
   }
 };
