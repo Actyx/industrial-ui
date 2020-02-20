@@ -5,8 +5,8 @@ import { RunningBar } from './RunningBar';
 
 storiesOf('Components|RunningBar', module)
   .addDecorator(hostDecorator({}))
-  .add('base', () => <RunningBar />)
-  .add('fixed width', () => (
+  .add('Base', () => <RunningBar />)
+  .add('Fixed width', () => (
     <div style={{ width: 100 }}>
       <RunningBar />
     </div>

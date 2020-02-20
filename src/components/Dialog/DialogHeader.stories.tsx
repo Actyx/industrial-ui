@@ -7,5 +7,5 @@ export const title = 'Title dialog';
 
 storiesOf('Components|Dialog.DialogHeader', module)
   .addDecorator(hostDecorator({ width: '100%' }))
-  .add('base', () => <DialogHeader text={title} />)
+  .add('Base', () => <DialogHeader text={title} />)
   .add('rightComponent', () => <DialogHeader text={title} rightComponent={'content right'} />);

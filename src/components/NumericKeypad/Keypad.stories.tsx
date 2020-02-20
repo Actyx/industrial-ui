@@ -12,9 +12,9 @@ const baseProps = {
 
 storiesOf('Components|NumericKeypad.Keypad', module)
   .addDecorator(hostDecorator())
-  .add('confirm integer', () => <Keypad {...baseProps} />)
-  .add('confirm decimal', () => (
+  .add('Confirm integer', () => <Keypad {...baseProps} />)
+  .add('Confirm decimal', () => (
     <Keypad {...baseProps} onDecimalSelect={action('onDecimalSelect')} />
   ))
-  .add('confirm minus', () => <Keypad {...baseProps} onDecimalSelect={action('onMinusSelect')} />)
+  .add('Confirm minus', () => <Keypad {...baseProps} onDecimalSelect={action('onMinusSelect')} />)
   .add('hideNegative', () => <Keypad {...baseProps} hideNegative />);

@@ -6,7 +6,7 @@ import { TextArea } from './TextArea';
 
 storiesOf('Components|TextArea', module)
   .addDecorator(hostDecorator())
-  .add('text', () => <TextArea />)
+  .add('Text', () => <TextArea />)
   .add('autoFocus', () => <TextArea autoFocus />)
   .add('fullWidth', () => <TextArea fullWidth />)
   .add('maxLength', () => <TextArea maxLength={3} />)

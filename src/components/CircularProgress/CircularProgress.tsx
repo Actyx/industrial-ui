@@ -66,6 +66,7 @@ const styles: StyleSheet<ClassKey> = {
   }
 };
 
+// FIXME animation should display
 export const CircularProgress = compose<Props, CompProps>(
   setDisplayName('CircularProgress'),
   injectSheet(styles)

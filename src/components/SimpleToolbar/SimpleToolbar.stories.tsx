@@ -6,13 +6,13 @@ import * as React from 'react';
 import { SimpleToolbar } from './SimpleToolbar';
 import { SimpleToolbarButton } from './SimpleToolbarButton';
 
-storiesOf('Components|SimpleToolbar.SimpleToolbar', module)
+storiesOf('Components|SimpleToolbar', module)
   .addDecorator(
     hostDecorator({
       width: '100%'
     })
   )
-  .add('dark', () => (
+  .add('Dark', () => (
     <SimpleToolbar
       variant="dark"
       title="Report an Interruption"
@@ -22,7 +22,7 @@ storiesOf('Components|SimpleToolbar.SimpleToolbar', module)
       }}
     />
   ))
-  .add('light', () => (
+  .add('Light', () => (
     <SimpleToolbar
       variant="light"
       title="Report an Interruption"
@@ -32,7 +32,7 @@ storiesOf('Components|SimpleToolbar.SimpleToolbar', module)
       }}
     />
   ))
-  .add('dark right icon', () => (
+  .add('Dark right icon', () => (
     <SimpleToolbar
       variant="dark"
       title="Report an Interruption"
@@ -46,7 +46,7 @@ storiesOf('Components|SimpleToolbar.SimpleToolbar', module)
       }}
     />
   ))
-  .add('light right icon', () => (
+  .add('Light right icon', () => (
     <SimpleToolbar
       variant="light"
       title="Report an Interruption"
@@ -60,7 +60,7 @@ storiesOf('Components|SimpleToolbar.SimpleToolbar', module)
       }}
     />
   ))
-  .add('light right button', () => (
+  .add('Light right button', () => (
     <SimpleToolbar
       variant="light"
       title="Report an Interruption"
@@ -74,7 +74,7 @@ storiesOf('Components|SimpleToolbar.SimpleToolbar', module)
       }}
     />
   ))
-  .add('light right', () => (
+  .add('Light right', () => (
     <SimpleToolbar
       variant="light"
       title="Report an Interruption"
@@ -88,7 +88,7 @@ storiesOf('Components|SimpleToolbar.SimpleToolbar', module)
       }}
     />
   ))
-  .add('center component', () => (
+  .add('Center component', () => (
     <SimpleToolbar
       variant="light"
       title="Report an Interruption"
@@ -113,4 +113,10 @@ storiesOf('Components|SimpleToolbar.SimpleToolbar', module)
         onClick: action('onClick rightComponent')
       }}
     />
+  ))
+  .add('Part button enabled', () => (
+    <SimpleToolbarButton text="Confirm" onClick={action('onClick')} />
+  ))
+  .add('Part button disabled', () => (
+    <SimpleToolbarButton text="Confirm" disabled onClick={action('onClick')} />
   ));

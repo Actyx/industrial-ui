@@ -11,8 +11,8 @@ const baseProps = {
 
 storiesOf('Components|NumericKeypad.NumericKeypad', module)
   .addDecorator(hostDecorator())
-  .add('no initial value', () => <NumericKeypad {...baseProps} />)
-  .add('initial value', () => <NumericKeypad {...baseProps} defaultValue={1500} />)
+  .add('No initial value', () => <NumericKeypad {...baseProps} />)
+  .add('defaultValue', () => <NumericKeypad {...baseProps} defaultValue={1500} />)
   .add('decimal', () => <NumericKeypad {...baseProps} decimal />)
   .add('invalid', () => <NumericKeypad {...baseProps} defaultValue={0} invalid />)
   .add('hideInput', () => <NumericKeypad {...baseProps} hideInput defaultValue={1500} />)

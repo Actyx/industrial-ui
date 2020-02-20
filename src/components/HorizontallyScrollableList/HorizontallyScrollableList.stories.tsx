@@ -11,14 +11,14 @@ storiesOf('Components|HorizontallyScrollableList', module)
       height: 240
     })
   )
-  .add('base', () => (
+  .add('Base', () => (
     <HorizontallyScrollableList
       rows={3}
       onItemSelect={action('onItemSelect')}
       items={range(1, 8).map(x => ({ id: `${x}`, name: `Item ${x}` }))}
     />
   ))
-  .add('long text', () => (
+  .add('Long text', () => (
     <HorizontallyScrollableList
       rows={2}
       onItemSelect={action('onItemSelect')}

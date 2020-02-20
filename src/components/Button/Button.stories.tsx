@@ -8,10 +8,10 @@ import { Button } from './Button';
 storiesOf('Components|Button', module)
   .addDecorator(withKnobs)
   .addDecorator(hostDecorator())
-  .add('flat transparent text', () => (
+  .add('Flat transparent text', () => (
     <Button variant="flat" color="transparent" text="Button" onClick={action('onClick')} />
   ))
-  .add('flat transparent icon text', () => (
+  .add('Flat transparent icon text', () => (
     <Button
       variant="flat"
       color="transparent"
@@ -20,13 +20,13 @@ storiesOf('Components|Button', module)
       onClick={action('onClick')}
     />
   ))
-  .add('flat transparent icon', () => (
+  .add('Flat transparent icon', () => (
     <Button variant="flat" color="transparent" icon="assignment" onClick={action('onClick')} />
   ))
-  .add('raised primary text', () => (
+  .add('Raised primary text', () => (
     <Button variant="raised" color="primary" text="Button" onClick={action('onClick')} />
   ))
-  .add('raised primary icon text', () => (
+  .add('Raised primary icon text', () => (
     <Button
       variant="raised"
       color="primary"
@@ -35,7 +35,7 @@ storiesOf('Components|Button', module)
       onClick={action('onClick')}
     />
   ))
-  .add('green', () => (
+  .add('Raised green icon text', () => (
     <Button
       variant="raised"
       color="green"
@@ -44,7 +44,7 @@ storiesOf('Components|Button', module)
       onClick={action('onClick')}
     />
   ))
-  .add('orange', () => (
+  .add('Raised orange icon text', () => (
     <Button
       variant="raised"
       color="orange"
@@ -53,7 +53,7 @@ storiesOf('Components|Button', module)
       onClick={action('onClick')}
     />
   ))
-  .add('yellow', () => (
+  .add('Raised yellow icon text', () => (
     <Button
       variant="raised"
       color="yellow"
@@ -62,7 +62,7 @@ storiesOf('Components|Button', module)
       onClick={action('onClick')}
     />
   ))
-  .add('red', () => (
+  .add('Raised red icon text', () => (
     <Button
       variant="raised"
       color="red"
@@ -71,7 +71,7 @@ storiesOf('Components|Button', module)
       onClick={action('onClick')}
     />
   ))
-  .add('disabled', () => (
+  .add('Disabled', () => (
     <Button
       variant="raised"
       color="red"
@@ -81,7 +81,7 @@ storiesOf('Components|Button', module)
       onClick={action('onClick')}
     />
   ))
-  .add('fullWidth', () => (
+  .add('Full width', () => (
     <div style={{ width: 400 }}>
       <Button
         variant="raised"
@@ -93,7 +93,7 @@ storiesOf('Components|Button', module)
       />
     </div>
   ))
-  .add('fullWidth centered', () => (
+  .add('Full width centered', () => (
     <div style={{ width: 400 }}>
       <Button
         centered
@@ -106,10 +106,10 @@ storiesOf('Components|Button', module)
       />
     </div>
   ))
-  .add('raised primary icon', () => (
+  .add('Raised primary icon', () => (
     <Button variant="raised" color="primary" icon="assignment" onClick={action('onClick')} />
   ))
-  .add('raised primary icon text long', () => (
+  .add('Raised primary icon long text', () => (
     <Button
       variant="raised"
       color="primary"
@@ -118,10 +118,10 @@ storiesOf('Components|Button', module)
       onClick={action('onClick')}
     />
   ))
-  .add('raised neutral text +1', () => (
+  .add('Raised neutral short text', () => (
     <Button variant="raised" color="neutral" text="+1" onClick={action('onClick')} />
   ))
-  .add('raised primary no wrap', () => (
+  .add('Raised primary no wrap', () => (
     <div style={{ width: 100 }}>
       <Button
         variant="raised"
@@ -133,9 +133,9 @@ storiesOf('Components|Button', module)
       />
     </div>
   ))
-  .add('dynamic', () => {
+  .add('Knobs', () => {
     const colorKnob = object('Props', {
-      variant: 'raised' as 'raised',
+      variant: 'flat' as 'flat',
       color: 'light200' as 'light200',
       icon: 'person',
       text: 'Add User',

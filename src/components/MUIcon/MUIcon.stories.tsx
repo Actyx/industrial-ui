@@ -7,14 +7,6 @@ import { MUIcon } from './MUIcon';
 
 storiesOf('Components|MUIcon', module)
   .addDecorator(hostDecorator())
-  .add('base', () => <MUIcon type={'face'} />)
-  .add('styled', () => (
-    <div
-      style={{
-        fontSize: 48
-      }}
-    >
-      <MUIcon type={'face'} fontSize={48} /> text
-    </div>
-  ))
+  .add('Base', () => <MUIcon type={'face'} />)
+  .add('fontSize', () => <MUIcon type={'face'} fontSize={48} />)
   .add('color', () => <MUIcon type={'face'} color={theme.palette.actionHighlight.deepSkyBlue} />);

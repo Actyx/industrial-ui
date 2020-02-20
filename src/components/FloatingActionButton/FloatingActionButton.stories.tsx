@@ -6,16 +6,16 @@ import { FloatingActionButton } from './FloatingActionButton';
 
 storiesOf('Components|FloatingActionButton', module)
   .addDecorator(hostDecorator())
-  .add('sm', () => (
+  .add('Size sm', () => (
     <FloatingActionButton size="sm" icon="close" color="primary" onClick={action('onClick')} />
   ))
-  .add('md', () => (
+  .add('Size md', () => (
     <FloatingActionButton size="md" icon="close" color="primary" onClick={action('onClick')} />
   ))
-  .add('xl', () => (
+  .add('Size xl', () => (
     <FloatingActionButton size="xl" icon="close" color="primary" onClick={action('onClick')} />
   ))
-  .add('disabled', () => (
+  .add('Disabled', () => (
     <FloatingActionButton
       size="xl"
       icon="close"
@@ -24,6 +24,6 @@ storiesOf('Components|FloatingActionButton', module)
       disabled
     />
   ))
-  .add('neutral', () => (
+  .add('Neutral', () => (
     <FloatingActionButton size="sm" icon="close" color="neutral" onClick={action('onClick')} />
   ));

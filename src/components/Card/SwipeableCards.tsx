@@ -3,7 +3,7 @@ import * as React from 'react';
 import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import SwipeableViews from 'react-swipeable-views';
 import { compose, setDisplayName } from 'recompose';
-import { Pagination } from './Pagination';
+import { Pagination } from '../PaginationDots';
 
 type OuterProps = Readonly<{
   children: React.ReactNode;

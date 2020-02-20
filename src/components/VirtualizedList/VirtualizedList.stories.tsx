@@ -39,8 +39,8 @@ const baseProps = {
 
 storiesOf('Components|VirtualizedList', module)
   .addDecorator(hostDecorator({ height: 400 }))
-  .add('base', () => <VirtualizedList<Item> {...baseProps} />)
-  .add('lots of data virtualized', () => {
+  .add('Base', () => <VirtualizedList<Item> {...baseProps} />)
+  .add('Lots of data virtualized', () => {
     const d: ReadonlyArray<Item> = range(0, 10000).map(x => ({
       id: `${x}`,
       description: `desc ${x}`,

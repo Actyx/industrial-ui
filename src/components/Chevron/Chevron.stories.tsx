@@ -26,12 +26,8 @@ const Animate = ({ type }: { type: ChevronType }) => {
 
 storiesOf('Components|Chevron', module)
   .addDecorator(hostDecorator())
-  .add('standard', () => <Chevron variant="standard" />)
-  .add('small', () => <Chevron variant="small" />)
-  .add('up-down up', () => <Chevron />)
-  .add('up-down down', () => <Chevron down />)
-  .add('up-down animate', () => <Animate type="up-down" />)
-  .add('callback', () => <Chevron onSelect={action('onSelect')} />)
-  .add('right-down right', () => <Chevron type="right-down" />)
-  .add('right-down down', () => <Chevron type="right-down" down />)
-  .add('right-down animate', () => <Animate type="right-down" />);
+  .add('Standard', () => <Chevron variant="standard" />)
+  .add('Small', () => <Chevron variant="small" />)
+  .add('Up-down animate', () => <Animate type="up-down" />)
+  .add('Right-down animate', () => <Animate type="right-down" />)
+  .add('onSelect', () => <Chevron onSelect={action('onSelect')} />);

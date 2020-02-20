@@ -59,6 +59,6 @@ const styles: StyleSheet<ClassKey, OuterProps> = {
 };
 
 export const Status = compose<Props, OuterProps>(
-  setDisplayName('Component'),
+  setDisplayName('Status'),
   injectSheet(styles)
 )(StatusComp);

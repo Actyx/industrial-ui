@@ -3,10 +3,15 @@ import { storiesOf } from '@storybook/react';
 import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { NavigationalTags } from './NavigationalTags';
+import { Tag } from './Tag';
 
-storiesOf('Components|NavigationalTags.NavigationalTags', module)
-  .addDecorator(hostDecorator())
-  .add('base', () => (
+storiesOf('Components|NavigationalTags', module)
+  .addDecorator(
+    hostDecorator({
+      width: 800
+    })
+  )
+  .add('Base', () => (
     <NavigationalTags
       tags={[
         {
@@ -24,4 +29,5 @@ storiesOf('Components|NavigationalTags.NavigationalTags', module)
       ]}
       onTagClose={action('onTagClose')}
     />
-  ));
+  ))
+  .add('Part Tag', () => <Tag name="Tag name information" onClose={action('onClick')} />);

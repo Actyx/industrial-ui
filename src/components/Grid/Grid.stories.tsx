@@ -37,7 +37,7 @@ const baseProps = {
 
 storiesOf('Components|Grid', module)
   .addDecorator(hostDecorator({}))
-  .add('base', () => <Grid<Item> {...baseProps} />)
+  .add('Base', () => <Grid<Item> {...baseProps} />)
   .add('setRowClassName', () => (
     <Grid<Item> {...baseProps} setRowClassName={x => (x.id === 'b' ? 'font-weight-bold' : '')} />
   ))

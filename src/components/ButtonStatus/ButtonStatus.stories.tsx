@@ -9,31 +9,10 @@ const baseProps = {
   onSelect: action('onSelect')
 };
 
-storiesOf('Components|ButtonStatus.ButtonStatus', module)
+storiesOf('Components|ButtonStatus', module)
   .addDecorator(hostDecorator())
-  .add('base', () => {
-    const props = {
-      ...baseProps,
-      selected: false
-    };
-    return <ButtonStatus {...props} />;
-  })
-  .add('long', () => {
-    const props = {
-      ...baseProps,
-      text: 'Very long content',
-      selected: false
-    };
-    return <ButtonStatus {...props} />;
-  })
-  .add('selected', () => {
-    const props = {
-      ...baseProps,
-      selected: true
-    };
-    return <ButtonStatus {...props} />;
-  })
-  .add('selected icon', () => {
+
+  .add('Selected icon', () => {
     const props = {
       ...baseProps,
       selected: true,
@@ -41,23 +20,40 @@ storiesOf('Components|ButtonStatus.ButtonStatus', module)
     };
     return <ButtonStatus {...props} />;
   })
-  .add('unselected icon', () => {
+  .add('Unselected icon', () => {
     const props = {
       ...baseProps,
       selected: false,
       icon: 'person'
     };
     return <ButtonStatus {...props} />;
+  })
+  .add('Selected no icon', () => {
+    const props = {
+      ...baseProps,
+      selected: true
+    };
+    return <ButtonStatus {...props} />;
+  })
+  .add('Unselected no icon', () => {
+    const props = {
+      ...baseProps,
+      selected: false
+    };
+    return <ButtonStatus {...props} />;
+  })
+  .add('Text', () => {
+    const props = {
+      ...baseProps,
+      selected: false
+    };
+    return <ButtonStatus {...props} />;
+  })
+  .add('Long text', () => {
+    const props = {
+      ...baseProps,
+      text: 'Very long content',
+      selected: false
+    };
+    return <ButtonStatus {...props} />;
   });
-
-storiesOf('Components|ButtonStatus.mount', module)
-  .addDecorator(hostDecorator())
-  .add('inline', () => (
-    <div>
-      {['Workstation 1', 'Workstation 2', 'Workstation 3', ' Ws 4'].map(x => (
-        <span style={{ padding: 10 }} key={x}>
-          <ButtonStatus text={x} selected={false} onSelect={action('onSelect')} />
-        </span>
-      ))}
-    </div>
-  ));

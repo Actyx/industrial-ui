@@ -5,9 +5,9 @@ import { SignalStatus } from './SignalStatus';
 
 storiesOf('Components|SignalStatus', module)
   .addDecorator(hostDecorator({}))
-  .add('running', () => <SignalStatus status="running" />)
-  .add('interrupted', () => <SignalStatus status="interrupted" />)
-  .add('idle', () => <SignalStatus status="idle" />)
-  .add('completed', () => <SignalStatus status="finished" />)
-  .add('running with text', () => <SignalStatus status="running" text="Some text" />)
-  .add('interrupted with text', () => <SignalStatus status="interrupted" text="Power failure" />);
+  .add('Running', () => <SignalStatus status="running" />)
+  .add('Interrupted', () => <SignalStatus status="interrupted" />)
+  .add('Idle', () => <SignalStatus status="idle" />)
+  .add('Completed', () => <SignalStatus status="finished" />)
+  .add('Running with text', () => <SignalStatus status="running" text="Some text" />)
+  .add('Interrupted with text', () => <SignalStatus status="interrupted" text="Power failure" />);

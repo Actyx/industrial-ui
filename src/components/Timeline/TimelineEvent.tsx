@@ -2,7 +2,7 @@ import * as React from 'react';
 import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 import { Content, ContentType } from './Content';
-import { Status, StatusType } from './Status';
+import { StatusComponent, StatusType } from './Status';
 
 // TODO FIX THE TIMESTAMPS
 type CompProps = Readonly<{
@@ -18,7 +18,7 @@ type Props = WithStyles<ClassKey> & CompProps;
 const TimelineEventComp = ({ classes, domId, status, content }: Props) => (
   <div className={classes.root} id={domId}>
     <div className={classes.status}>
-      <Status {...status} />
+      <StatusComponent {...status} />
     </div>
     <div className={classes.content}>
       <Content {...content} />

@@ -6,9 +6,9 @@ import { CircularProgress } from './CircularProgress';
 
 storiesOf('Components|CircularProgress', module)
   .addDecorator(hostDecorator())
-  .add('sm', () => <CircularProgress variant="sm" />)
-  .add('md', () => <CircularProgress variant="md" />)
-  .add('color', () => (
+  .add('Variant sm', () => <CircularProgress variant="sm" />)
+  .add('Variant md', () => <CircularProgress variant="md" />)
+  .add('Color', () => (
     <CircularProgress
       variant="md"
       colorIndicator={theme.palette.signal.orange}

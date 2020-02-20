@@ -13,7 +13,7 @@ storiesOf('Components|TouchRipple', module)
       width: 200
     })
   )
-  .add('base', () => (
+  .add('Base', () => (
     <TouchRipple {...baseProps}>
       <div>TouchRipple</div>
     </TouchRipple>

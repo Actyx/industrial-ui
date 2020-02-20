@@ -71,7 +71,7 @@ const styles: StyleSheet<ClassKey> = {
   }
 };
 
-export const Status = compose<Props, CompProps>(
+export const StatusComponent = compose<Props, CompProps>(
   setDisplayName('Status'),
   injectSheet(styles)
 )(StatusComp);
