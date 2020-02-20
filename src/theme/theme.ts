@@ -27,7 +27,7 @@ const createTheme = () => {
         light: lightBlue[200],
         main: lightBlue[500],
         dark: blueGrey[900],
-        contrastText: common.white // color on top of dark
+        contrastText: common.white
       },
       grey,
       success: {
@@ -47,11 +47,8 @@ const createTheme = () => {
         dark: brown[900]
       },
       error: {
+        light: red[300],
         main: red.A700
-      },
-      signal: {
-        redDark: '#990000',
-        redBright: '#e16464'
       }
     },
     typography: {

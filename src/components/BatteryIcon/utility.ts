@@ -3,7 +3,7 @@ import { BatteryIconVariant } from './BatteryIcon';
 
 const COLOR_GREEN = theme.palette.success.light;
 const COLOR_ORANGE = theme.palette.warning.main;
-const COLOR_RED = theme.palette.signal.redBright;
+const COLOR_RED = theme.palette.error.light;
 
 const COLOR_WHITE = theme.palette.primary.contrastText;
 const COLOR_BLACK = theme.palette.common.black;

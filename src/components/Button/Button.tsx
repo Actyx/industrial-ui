@@ -167,7 +167,7 @@ const styles: StyleSheet<ClassKey> = {
     }
   },
   red: {
-    backgroundColor: theme.palette.signal.redDark,
+    backgroundColor: theme.palette.error.main,
     color: theme.palette.primary.contrastText,
     '& span': {
       color: theme.palette.primary.contrastText

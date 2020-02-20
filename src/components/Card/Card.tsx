@@ -54,7 +54,7 @@ const styles: StyleSheet<ClassKey> = {
     backgroundColor: theme.palette.grey[50]
   },
   red: {
-    backgroundColor: theme.palette.signal.redBright
+    backgroundColor: theme.palette.error.light
   },
   header: {
     display: 'flex',

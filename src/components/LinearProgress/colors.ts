@@ -5,7 +5,7 @@ const dark: { [color: string]: string } = {
   green: theme.palette.success.main,
   orange: theme.palette.warning.dark,
   yellow: theme.palette.prewarning.dark,
-  red: theme.palette.signal.redDark,
+  red: theme.palette.error.main,
   grey: theme.palette.grey[500],
   white: theme.palette.common.white,
   brown: theme.palette.postwarning.dark

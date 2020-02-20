@@ -50,7 +50,7 @@ const styles: StyleSheet<ClassKey> = {
     borderRadius: 20
   },
   red: {
-    backgroundColor: theme.palette.signal.redDark
+    backgroundColor: theme.palette.error.main
   },
   orange: {
     backgroundColor: theme.palette.warning.main
