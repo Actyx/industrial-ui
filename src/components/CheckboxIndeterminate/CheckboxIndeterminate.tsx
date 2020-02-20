@@ -3,12 +3,12 @@ import * as React from 'react';
 import { MUIcon } from '../MUIcon';
 import { TouchRipple } from '../TouchRipple';
 
-export type CheckboxWithIndeterminateStateColor = 'neutral' | 'primary';
+export type CheckboxIndeterminateState = 'neutral' | 'primary';
 export type CheckboxWithIndeterminateState = 'indeterminate' | 'checked' | 'unchecked';
 
 type Props = Readonly<{
   state: CheckboxWithIndeterminateState;
-  color?: CheckboxWithIndeterminateStateColor;
+  color?: CheckboxIndeterminateState;
   disabled?: boolean;
   onClick?: () => void;
 }>;
