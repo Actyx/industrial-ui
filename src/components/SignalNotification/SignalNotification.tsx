@@ -7,15 +7,14 @@ import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 import { Divider } from '../Divider';
 
-type OuterProps = Readonly<{
+type CompProps = Readonly<{
   className?: string;
   icon: string;
   text: React.ReactNode;
 }>;
 
-type Props = WithStyles<ClassKey> & OuterProps;
+type Props = WithStyles<ClassKey> & CompProps;
 
-// FIXME why does not display properly?
 const SignalNotificationComp = ({ classes, className, icon, text }: Props) => (
   <div className={classNames(classes.root, className)}>
     <Divider className={classes.divider} />
@@ -33,7 +32,7 @@ const SignalNotificationComp = ({ classes, className, icon, text }: Props) => (
 
 type ClassKey = 'root' | 'divider' | 'content' | 'icon' | 'text';
 
-const styles: StyleSheet<ClassKey, OuterProps> = {
+const styles: StyleSheet<ClassKey, CompProps> = {
   root: {
     width: '100%',
     '& hr:first-child': {
@@ -59,7 +58,7 @@ const styles: StyleSheet<ClassKey, OuterProps> = {
   }
 };
 
-export const SignalNotification = compose<Props, OuterProps>(
+export const SignalNotification = compose<Props, CompProps>(
   setDisplayName('SignalNotification'),
   injectSheet(styles)
 )(SignalNotificationComp);

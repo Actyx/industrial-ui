@@ -5,7 +5,7 @@ import { compose, setDisplayName } from 'recompose';
 import { SignalCircular } from '../SignalCircular';
 import { Typography } from '../Typography';
 
-type ActivityProgressBarType =
+export type SignalStatusStatus =
   | 'running'
   | 'idle'
   | 'not started'
@@ -15,7 +15,7 @@ type ActivityProgressBarType =
   | 'unreleased';
 
 type OuterProps = Readonly<{
-  status: ActivityProgressBarType;
+  status: SignalStatusStatus;
   text?: string;
 }>;
 
