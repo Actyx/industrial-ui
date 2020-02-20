@@ -1,14 +1,20 @@
 import * as React from 'react';
 import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
-import { Content, ContentType } from './Content';
-import { StatusComponent, StatusType } from './Status';
+import { Content } from './Content';
+import { StatusComponent } from './Status';
+import { TimelineStatusType } from './Timeline';
 
-// TODO FIX THE TIMESTAMPS
+export type TimelineEventContent = Readonly<{
+  title: string;
+  timestamp: number;
+  description?: string;
+}>;
+
 type CompProps = Readonly<{
   domId: string;
-  status: StatusType;
-  content: ContentType;
+  status: TimelineStatusType;
+  content: TimelineEventContent;
 }>;
 
 type ClassKey = 'root' | 'status' | 'content';
