@@ -3,31 +3,37 @@ import preset from 'jss-preset-default';
 
 import '../assets/fonts/Titillium_Web/font.css';
 import '../assets/fonts/MaterialIcons/material-icons.css';
+import { common, lightBlue, blueGrey, grey } from '../colors';
 
+// Inspiration from:
+// https://material-ui.com/customization/default-theme/
+// https://material-ui.com/customization/color/#color-palette
 const createTheme = () => {
   const base = {
     palette: {
+      common,
+      primary: {
+        light: lightBlue[200],
+        main: lightBlue[500],
+        dark: blueGrey[900],
+        contrastText: common.white
+      },
       grey: {
-        light100: '#fafafa',
-        light150: '#f5f5f5',
+        light100: grey[50],
+        light150: grey[100],
+        // light100: '#fafafa',
+        // light150: '#f5f5f5',
         light200: '#eaeaea',
         mediumGrey: '#d6d6d6',
         dark100: '#777777',
         dark200: '#666666',
         dark400: '#333333',
         black: '#000000',
-        white: '#ffffff',
+        // white: '#ffffff',
         neutral100: '#d6d6d6',
         neutral300: '#999999',
         grayVeryLight: '#F7F7F7',
         grayVeryLight2: '#E0E0E0'
-      },
-      blue: {
-        deepSkyBlue: '#22aaee',
-        deepSkyBlueBright: '#81CFF5',
-        bottomBlue: '#0D2237',
-        dark: '#0c2237',
-        primary: '#0090D0'
       },
       green: {
         activeGreen: '#14CC9E'

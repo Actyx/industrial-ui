@@ -83,12 +83,12 @@ const styles: StyleSheet<ClassKey, CompProps> = {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: theme.palette.grey.white,
+    backgroundColor: theme.palette.common.white,
     color: theme.palette.grey.dark400
   },
   selectedItem: {
     backgroundColor: theme.palette.grey.dark100,
-    color: theme.palette.grey.white
+    color: theme.palette.primary.contrastText
   }
 };
 

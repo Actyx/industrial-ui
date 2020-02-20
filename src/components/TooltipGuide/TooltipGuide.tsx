@@ -55,7 +55,7 @@ const styles: StyleSheet<ClassKey> = {
   },
   box: {
     ...box,
-    backgroundColor: theme.palette.grey.white
+    backgroundColor: theme.palette.common.white
   },
   boxShadow: {
     ...box,
@@ -71,7 +71,7 @@ const styles: StyleSheet<ClassKey> = {
     width: 80,
     height: 80,
     borderRadius: 40,
-    backgroundColor: theme.palette.grey.white,
+    backgroundColor: theme.palette.common.white,
     boxShadow: theme.shadow.sm
   },
   icon: {

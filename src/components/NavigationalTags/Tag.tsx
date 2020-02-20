@@ -69,7 +69,7 @@ const styles: StyleSheet<ClassKey> = {
     justifyContent: 'center',
     width: 60,
     height: '100%',
-    color: theme.palette.grey.white
+    color: theme.palette.primary.contrastText
   },
   name: {
     display: 'flex',
@@ -82,7 +82,7 @@ const styles: StyleSheet<ClassKey> = {
       whiteSpace: 'nowrap',
       overflow: 'hidden',
       textOverflow: 'ellipsis',
-      color: theme.palette.grey.white
+      color: theme.palette.primary.contrastText
     }
   }
 };

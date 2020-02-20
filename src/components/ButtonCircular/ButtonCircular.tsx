@@ -53,7 +53,7 @@ const styles: StyleSheet<ClassKey> = {
   },
   primary: {
     ...button,
-    backgroundColor: theme.palette.blue.deepSkyBlue
+    backgroundColor: theme.palette.primary.main
   },
   button: {
     display: 'flex',
@@ -62,9 +62,9 @@ const styles: StyleSheet<ClassKey> = {
     width: '100%',
     height: '100%',
     borderRadius,
-    color: theme.palette.grey.white,
+    color: theme.palette.primary.contrastText,
     '& span': {
-      color: theme.palette.grey.white,
+      color: theme.palette.primary.contrastText,
       lineHeight: 1,
       marginBottom: 4
     }

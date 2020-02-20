@@ -26,15 +26,15 @@ const styles: StyleSheet<ClassKey, CompProps> = {
     alignItems: 'center',
     minHeight: 80,
     width: '100%',
-    backgroundColor: theme.palette.grey.white,
+    backgroundColor: theme.palette.common.white,
     boxShadow: theme.shadow.sm,
     zIndex: 1000
   },
   dark: {
-    backgroundColor: theme.palette.blue.dark
+    backgroundColor: theme.palette.primary.dark
   },
   light: {
-    backgroundColor: theme.palette.grey.white
+    backgroundColor: theme.palette.common.white
   }
 };
 

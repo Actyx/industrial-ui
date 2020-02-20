@@ -1,10 +1,10 @@
 import { storiesOf } from '@storybook/react';
-import { theme } from '../../theme';
 import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { Card, CARD_WIDTH } from './Card';
 import { SwipeableCards } from './SwipeableCards';
 import { SwipeableContainer } from './SwipeableContainer';
+import { common } from '../../colors';
 
 storiesOf('Components|Card.Swipeable', module)
   .addDecorator(hostDecorator({}))
@@ -32,8 +32,8 @@ storiesOf('Components|Card.Swipeable', module)
         padding: 15,
         minHeight: 100,
         width: 300,
-        color: '#fff',
-        backgroundColor: theme.palette.grey.white,
+        color: common.white,
+        backgroundColor: common.white,
         display: 'flex'
       },
       card: {

@@ -7,7 +7,7 @@ const dark: { [color: string]: string } = {
   yellow: theme.palette.signal.yellowDark,
   red: theme.palette.signal.redDark,
   grey: theme.palette.grey.neutral300,
-  white: theme.palette.grey.white,
+  white: theme.palette.common.white,
   brown: theme.palette.signal.brownDark
 };
 
@@ -22,11 +22,11 @@ const regular: { [color: string]: string } = {
 };
 
 const textColorMap: { [color: string]: string } = {
-  green: theme.palette.grey.white,
-  orange: theme.palette.grey.white,
-  yellow: theme.palette.grey.white,
-  red: theme.palette.grey.white,
-  grey: theme.palette.grey.white,
+  green: theme.palette.common.white,
+  orange: theme.palette.common.white,
+  yellow: theme.palette.common.white,
+  red: theme.palette.common.white,
+  grey: theme.palette.common.white,
   white: theme.palette.grey.dark400,
   brown: theme.palette.signal.brown
 };

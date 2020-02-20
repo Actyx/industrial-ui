@@ -9,8 +9,10 @@ import { TableCell } from './TableCell';
 import { TableHeader } from './TableHeader';
 import { TableRow } from './TableRow';
 import { action } from '@storybook/addon-actions';
+import { common } from '../../colors';
 
-const COLOR_WHITE = theme.palette.grey.white;
+const COLOR_WHITE = common.white;
+
 const content = (
   <>
     <TableCell>

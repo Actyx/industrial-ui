@@ -51,7 +51,7 @@ const styles: StyleSheet<ClassKey> = {
     width: '100%'
   },
   active: {
-    backgroundColor: theme.palette.grey.white,
+    backgroundColor: theme.palette.common.white,
     color: theme.palette.grey.dark200
   },
   inactive: {

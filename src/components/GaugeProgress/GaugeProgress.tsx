@@ -52,7 +52,7 @@ const GaugeProgressComp = ({
 
 type ClassKey = 'root' | 'blue' | 'green' | 'track' | 'text';
 
-const { deepSkyBlue } = theme.palette.blue;
+const { main } = theme.palette.primary;
 const { green } = theme.palette.signal;
 const { light200, dark400 } = theme.palette.grey;
 
@@ -64,7 +64,7 @@ const styles: StyleSheet<ClassKey, CompProps> = {
     stroke: light200
   },
   blue: {
-    stroke: deepSkyBlue
+    stroke: main
   },
   green: {
     stroke: green

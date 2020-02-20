@@ -41,7 +41,7 @@ const styles: StyleSheet<ClassKey> = {
     margin: 3
   },
   active: {
-    backgroundColor: theme.palette.blue.primary
+    backgroundColor: theme.palette.primary.main
   }
 };
 

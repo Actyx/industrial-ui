@@ -66,7 +66,7 @@ const styles: StyleSheet<ClassKey> = {
     backgroundColor: theme.palette.grey.dark100
   },
   primary: {
-    backgroundColor: theme.palette.blue.deepSkyBlue
+    backgroundColor: theme.palette.primary.main
   },
   md: {
     width: SIZE_MD,
@@ -74,7 +74,7 @@ const styles: StyleSheet<ClassKey> = {
     borderRadius: SIZE_MD / 2,
     boxShadow: theme.shadow.sm,
     '& i': {
-      color: theme.palette.grey.white
+      color: theme.palette.primary.contrastText
     },
     '& div': {
       display: 'flex',
@@ -91,7 +91,7 @@ const styles: StyleSheet<ClassKey> = {
     borderRadius: SIZE_XL / 2,
     boxShadow: theme.shadow.sm,
     '& i': {
-      color: theme.palette.grey.white
+      color: theme.palette.primary.contrastText
     },
     '& div': {
       display: 'flex',
@@ -108,7 +108,7 @@ const styles: StyleSheet<ClassKey> = {
     borderRadius: SIZE_SM / 2,
     boxShadow: theme.shadow.sm,
     '& i': {
-      color: theme.palette.grey.white
+      color: theme.palette.primary.contrastText
     },
     '& div': {
       display: 'flex',

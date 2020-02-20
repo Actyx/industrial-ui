@@ -1,9 +1,9 @@
 import { storiesOf } from '@storybook/react';
-import { theme } from '../../theme';
 import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { Typography } from '../Typography';
 import { Card } from './Card';
+import { common } from '../../colors';
 
 const baseProps = {
   size: 'md' as 'md',
@@ -29,7 +29,7 @@ storiesOf('Components|Card.Card', module)
       ...baseProps,
       color: 'red' as 'red',
       header: (
-        <Typography variant="distance" color={theme.palette.grey.white}>
+        <Typography variant="distance" color={common.white}>
           Title card
         </Typography>
       )

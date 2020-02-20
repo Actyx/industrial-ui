@@ -81,7 +81,7 @@ const styles: StyleSheet<ClassKey> = {
     alignItems: 'center'
   },
   input: {
-    backgroundColor: theme.palette.grey.white,
+    backgroundColor: theme.palette.common.white,
     fontSize: 28
   },
   longInput: {

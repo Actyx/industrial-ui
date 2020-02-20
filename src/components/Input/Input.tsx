@@ -103,7 +103,7 @@ const inputReset = {
 
 const { red } = theme.palette.signal;
 const { black, neutral100, mediumGrey } = theme.palette.grey;
-const { deepSkyBlue } = theme.palette.blue;
+const { main } = theme.palette.primary;
 
 const styles: StyleSheet<ClassKey> = {
   root: {
@@ -113,7 +113,7 @@ const styles: StyleSheet<ClassKey> = {
     borderBottom: `${2}px solid ${neutral100}`,
     '&:focus': {
       ...inputReset,
-      borderBottom: `${2}px solid ${deepSkyBlue}`
+      borderBottom: `${2}px solid ${main}`
     },
     '&::placeholder': {
       color: mediumGrey

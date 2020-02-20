@@ -46,7 +46,7 @@ const styles: StyleSheet<ClassKey> = {
     flexDirection: 'column',
     margin: 24,
     maxHeight: 'calc(100% - 40px)',
-    backgroundColor: theme.palette.grey.white,
+    backgroundColor: theme.palette.common.white,
     boxShadow: theme.shadow.md
   },
   content: {

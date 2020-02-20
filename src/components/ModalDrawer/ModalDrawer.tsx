@@ -89,7 +89,7 @@ const styles: StyleSheet<ClassKey> = {
     width: DRAWER_WIDTH,
     height: '100%',
     overflow: 'auto',
-    backgroundColor: theme.palette.grey.white
+    backgroundColor: theme.palette.common.white
   },
   listSub: {
     position: 'absolute',

@@ -19,7 +19,7 @@ type ClassKey = 'input';
 
 const styles: StyleSheet<ClassKey> = {
   input: {
-    backgroundColor: theme.palette.grey.white,
+    backgroundColor: theme.palette.common.white,
     fontSize: 28
   }
 };

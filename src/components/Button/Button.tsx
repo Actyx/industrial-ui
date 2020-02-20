@@ -128,17 +128,17 @@ const styles: StyleSheet<ClassKey> = {
     justifyContent: 'center'
   },
   primary: {
-    backgroundColor: theme.palette.blue.deepSkyBlue,
-    color: theme.palette.grey.white,
+    backgroundColor: theme.palette.primary.main,
+    color: theme.palette.primary.contrastText,
     '& span': {
-      color: theme.palette.grey.white
+      color: theme.palette.primary.contrastText
     }
   },
   neutral: {
     backgroundColor: theme.palette.grey.dark100,
-    color: theme.palette.grey.white,
+    color: theme.palette.primary.contrastText,
     '& span': {
-      color: theme.palette.grey.white
+      color: theme.palette.primary.contrastText
     }
   },
   light200: {
@@ -147,30 +147,30 @@ const styles: StyleSheet<ClassKey> = {
   },
   green: {
     backgroundColor: theme.palette.signal.greenDark,
-    color: theme.palette.grey.white,
+    color: theme.palette.primary.contrastText,
     '& span': {
-      color: theme.palette.grey.white
+      color: theme.palette.primary.contrastText
     }
   },
   orange: {
     backgroundColor: theme.palette.signal.orangeDark,
-    color: theme.palette.grey.white,
+    color: theme.palette.primary.contrastText,
     '& span': {
-      color: theme.palette.grey.white
+      color: theme.palette.primary.contrastText
     }
   },
   yellow: {
     backgroundColor: theme.palette.signal.yellowDark,
-    color: theme.palette.grey.white,
+    color: theme.palette.primary.contrastText,
     '& span': {
-      color: theme.palette.grey.white
+      color: theme.palette.primary.contrastText
     }
   },
   red: {
     backgroundColor: theme.palette.signal.redDark,
-    color: theme.palette.grey.white,
+    color: theme.palette.primary.contrastText,
     '& span': {
-      color: theme.palette.grey.white
+      color: theme.palette.primary.contrastText
     }
   },
   transparent: {},

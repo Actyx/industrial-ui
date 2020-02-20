@@ -44,7 +44,7 @@ const styles: StyleSheet<ClassKey, CompProps> = {
     width: '100%',
     borderCollapse: 'collapse',
     border: 'none',
-    backgroundColor: theme.palette.grey.white
+    backgroundColor: theme.palette.common.white
   },
   tableDark: {
     width: '100%',
