@@ -4,10 +4,10 @@ import * as React from 'react';
 import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 
-type Variant = 'light' | 'dark';
+export type ToolbarVariant = 'light' | 'dark';
 
 type CompProps = Readonly<{
-  variant: Variant;
+  variant: ToolbarVariant;
   className?: string;
   children: React.ReactNode;
 }>;
