@@ -28,8 +28,7 @@ const createTheme = () => {
         600: grey[600],
         700: grey[700],
         900: grey[900],
-        neutral100: '#d6d6d6',
-        grayVeryLight: '#F7F7F7'
+        neutral100: '#d6d6d6'
       },
       green: {
         activeGreen: '#14CC9E'
