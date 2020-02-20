@@ -17,7 +17,7 @@ const regular: { [color: string]: string } = {
   yellow: theme.palette.signal.yellow,
   red: theme.palette.signal.red,
   grey: theme.palette.grey.neutral100,
-  white: theme.palette.grey.light100,
+  white: theme.palette.grey[50],
   brown: theme.palette.signal.brown
 };
 

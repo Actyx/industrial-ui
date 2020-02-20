@@ -6,7 +6,7 @@ const COLOR_ORANGE = theme.palette.signal.orange;
 const COLOR_RED = theme.palette.signal.redBright;
 
 const COLOR_WHITE = theme.palette.primary.contrastText;
-const COLOR_BLACK = theme.palette.grey.black;
+const COLOR_BLACK = theme.palette.common.black;
 
 const BASE_WIDTH = 41;
 

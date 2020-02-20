@@ -51,7 +51,7 @@ const styles: StyleSheet<ClassKey> = {
     boxShadow: theme.shadow.sm
   },
   neutral: {
-    backgroundColor: theme.palette.grey.light100
+    backgroundColor: theme.palette.grey[50]
   },
   red: {
     backgroundColor: theme.palette.signal.redBright

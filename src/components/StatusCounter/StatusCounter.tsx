@@ -20,7 +20,7 @@ const StatusCounterComp = ({ classes, variant, counter }: Props) => (
 );
 
 const { green, greenDark, orange, orangeDark } = theme.palette.signal;
-const { mediumGrey, light150, dark400 } = theme.palette.grey;
+const { mediumGrey, 100: light150, dark400 } = theme.palette.grey;
 
 type ClassKey = 'root' | StatusVariant;
 

@@ -54,7 +54,7 @@ const styles: StyleSheet<ClassKey, CompProps> = {
   },
   alternateColor: {
     '& tbody > tr:nth-of-type(odd)': {
-      backgroundColor: theme.palette.grey.light100
+      backgroundColor: theme.palette.grey[50]
     }
   },
   alternateColorDark: {

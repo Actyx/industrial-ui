@@ -55,7 +55,7 @@ const styles: StyleSheet<ClassKey> = {
     color: theme.palette.grey.dark200
   },
   inactive: {
-    backgroundColor: theme.palette.grey.light150,
+    backgroundColor: theme.palette.grey[100],
     color: theme.palette.grey.dark100
   },
   tab: {

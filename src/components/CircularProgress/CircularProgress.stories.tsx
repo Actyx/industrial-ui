@@ -3,6 +3,7 @@ import { theme } from '../../theme';
 import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { CircularProgress } from './CircularProgress';
+import { grey } from '../../colors';
 
 storiesOf('Components|CircularProgress', module)
   .addDecorator(hostDecorator())
@@ -12,6 +13,6 @@ storiesOf('Components|CircularProgress', module)
     <CircularProgress
       variant="md"
       colorIndicator={theme.palette.signal.orange}
-      colorTrack={theme.palette.grey.light200}
+      colorTrack={grey[200]}
     />
   ));

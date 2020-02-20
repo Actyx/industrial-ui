@@ -49,7 +49,7 @@ const styles: StyleSheet<ClassKey, CompProps> = {
     backgroundColor: theme.palette.primary.main
   },
   disabled: {
-    backgroundColor: theme.palette.grey.light200
+    backgroundColor: theme.palette.grey[200]
   }
 };
 

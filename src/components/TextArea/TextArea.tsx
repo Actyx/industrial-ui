@@ -90,7 +90,7 @@ const inputReset = {
 const styles: StyleSheet<ClassKey> = {
   root: {
     fontSize: 48,
-    color: theme.palette.grey.black,
+    color: theme.palette.common.black,
     ...inputReset,
     borderBottom: `${2}px solid ${theme.palette.grey.neutral100}`,
     '&:focus': {
@@ -103,7 +103,7 @@ const styles: StyleSheet<ClassKey> = {
   },
   error: {
     fontSize: 48,
-    color: theme.palette.grey.black,
+    color: theme.palette.common.black,
     ...inputReset,
     borderBottom: `${2}px solid ${theme.palette.signal.red}`,
     '&:focus': {

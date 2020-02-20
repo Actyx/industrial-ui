@@ -19,16 +19,17 @@ const createTheme = () => {
         contrastText: common.white
       },
       grey: {
-        light100: grey[50],
-        light150: grey[100],
+        50: grey[50],
+        100: grey[100],
         // light100: '#fafafa',
         // light150: '#f5f5f5',
-        light200: '#eaeaea',
+        // light200: '#eaeaea',
+        200: grey[200],
         mediumGrey: '#d6d6d6',
         dark100: '#777777',
         dark200: '#666666',
         dark400: '#333333',
-        black: '#000000',
+        // black: '#000000',
         // white: '#ffffff',
         neutral100: '#d6d6d6',
         neutral300: '#999999',
@@ -84,12 +85,12 @@ const createTheme = () => {
   return {
     shadowWidth,
     shadow: {
-      xs: `${1}px ${1}px ${3}px ${base.utils.rgba(base.palette.grey.black, 0.4)}`,
+      xs: `${1}px ${1}px ${3}px ${base.utils.rgba(base.palette.common.black, 0.4)}`,
       sm: `${shadowWidth.sm}px ${shadowWidth.sm}px ${shadowWidth.sm}px ${base.utils.rgba(
-        base.palette.grey.black,
+        base.palette.common.black,
         0.3
       )}`,
-      md: `${10}px ${10}px ${24}px ${base.utils.rgba(base.palette.grey.black, 0.5)}`
+      md: `${10}px ${10}px ${24}px ${base.utils.rgba(base.palette.common.black, 0.5)}`
     },
     ...base
   };
@@ -107,7 +108,7 @@ jss
       '@global': {
         html: {
           boxSizing: 'border-box',
-          backgroundColor: theme.palette.grey.light200,
+          backgroundColor: theme.palette.grey[200],
           height: '100%',
           width: '100%',
           padding: 0,

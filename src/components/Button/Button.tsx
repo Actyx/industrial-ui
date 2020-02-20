@@ -142,7 +142,7 @@ const styles: StyleSheet<ClassKey> = {
     }
   },
   light200: {
-    backgroundColor: theme.palette.grey.light200,
+    backgroundColor: theme.palette.grey[200],
     color: theme.palette.grey.dark400
   },
   green: {

@@ -51,7 +51,7 @@ const styles: StyleSheet<ClassKey> = {
     left: 0,
     width: '100%',
     height: '100%',
-    backgroundColor: theme.utils.rgba(theme.palette.grey.black, 0.6)
+    backgroundColor: theme.utils.rgba(theme.palette.common.black, 0.6)
   }
 };
 
