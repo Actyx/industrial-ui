@@ -3,7 +3,7 @@ import { LinearProgressColor } from './LinearProgress';
 
 const dark: { [color: string]: string } = {
   green: theme.palette.success.main,
-  orange: theme.palette.signal.orangeDark,
+  orange: theme.palette.warning.main,
   yellow: theme.palette.signal.yellowDark,
   red: theme.palette.signal.redDark,
   grey: theme.palette.grey[500],

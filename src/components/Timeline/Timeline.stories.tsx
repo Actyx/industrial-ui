@@ -6,10 +6,10 @@ import { Timeline, TimelineEvent as TimelineEventType } from './Timeline';
 import { TimelineEvent } from './TimelineEvent';
 import { StatusComponent } from './Status';
 import { Content } from './Content';
-import { green } from '../../colors';
+import { green, orange } from '../../colors';
 
 const COLOR_GREEN = green[500];
-const COLOR_ORANGE = theme.palette.signal.orangeDark;
+const COLOR_ORANGE = orange[700];
 
 const DESCRIPTION =
   'Misalignment, continues the paper, exists when the centre lines of two neighbouring machines deviate from each other.';
@@ -172,13 +172,13 @@ storiesOf('Components|Timeline', module)
     <StatusComponent color={theme.palette.green.activeGreen} arrangement="single" />
   ))
   .add('Part status start', () => (
-    <StatusComponent color={theme.palette.signal.orangeDark} arrangement="start" />
+    <StatusComponent color={theme.palette.warning.main} arrangement="start" />
   ))
   .add('Part status middle', () => (
-    <StatusComponent color={theme.palette.signal.orangeDark} arrangement="continue" />
+    <StatusComponent color={theme.palette.warning.main} arrangement="continue" />
   ))
   .add('Part status end', () => (
-    <StatusComponent color={theme.palette.signal.orangeDark} arrangement="end" />
+    <StatusComponent color={theme.palette.warning.main} arrangement="end" />
   ))
   .add('Part content base', () => <Content title="Misalignment" timestamp={1519223596657} />)
   .add('Part content description', () => {

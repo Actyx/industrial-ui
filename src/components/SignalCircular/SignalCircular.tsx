@@ -53,7 +53,7 @@ const styles: StyleSheet<ClassKey> = {
     backgroundColor: theme.palette.signal.redDark
   },
   orange: {
-    backgroundColor: theme.palette.signal.orangeDark
+    backgroundColor: theme.palette.warning.main
   },
   yellow: {
     backgroundColor: theme.palette.signal.yellowDark

@@ -153,7 +153,7 @@ const styles: StyleSheet<ClassKey> = {
     }
   },
   orange: {
-    backgroundColor: theme.palette.signal.orangeDark,
+    backgroundColor: theme.palette.warning.main,
     color: theme.palette.primary.contrastText,
     '& span': {
       color: theme.palette.primary.contrastText

@@ -3,7 +3,7 @@ import preset from 'jss-preset-default';
 
 import '../assets/fonts/Titillium_Web/font.css';
 import '../assets/fonts/MaterialIcons/material-icons.css';
-import { common, lightBlue, blueGrey, grey, green } from '../colors';
+import { common, lightBlue, blueGrey, grey, green, orange } from '../colors';
 
 // Inspiration from:
 // https://material-ui.com/customization/default-theme/
@@ -22,14 +22,16 @@ const createTheme = () => {
       success: {
         main: green[500]
       },
+      warning: {
+        main: orange[700]
+      },
       green: {
         activeGreen: '#14CC9E'
       },
       signal: {
         green: '#22dd55',
-        // greenDark: '#11aa44',
         orange: '#ff9900',
-        orangeDark: '#cc7700',
+        // orangeDark: '#cc7700',
         yellow: '#ffaa00',
         yellowDark: '#ddaa00',
         red: '#dd0000',
