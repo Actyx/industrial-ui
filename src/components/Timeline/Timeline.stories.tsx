@@ -6,8 +6,9 @@ import { Timeline, TimelineEvent as TimelineEventType } from './Timeline';
 import { TimelineEvent } from './TimelineEvent';
 import { StatusComponent } from './Status';
 import { Content } from './Content';
+import { green } from '../../colors';
 
-const COLOR_GREEN = theme.palette.signal.greenDark;
+const COLOR_GREEN = green[500];
 const COLOR_ORANGE = theme.palette.signal.orangeDark;
 
 const DESCRIPTION =

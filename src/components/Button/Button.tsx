@@ -146,7 +146,7 @@ const styles: StyleSheet<ClassKey> = {
     color: theme.palette.grey[900]
   },
   green: {
-    backgroundColor: theme.palette.signal.greenDark,
+    backgroundColor: theme.palette.success.main,
     color: theme.palette.primary.contrastText,
     '& span': {
       color: theme.palette.primary.contrastText

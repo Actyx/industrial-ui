@@ -19,7 +19,7 @@ const StatusCounterComp = ({ classes, variant, counter }: Props) => (
   </div>
 );
 
-const { green, greenDark, orange, orangeDark } = theme.palette.signal;
+const { green, orange, orangeDark } = theme.palette.signal;
 const { 900: dark400 } = theme.palette.grey;
 
 type ClassKey = 'root' | StatusVariant;
@@ -33,7 +33,7 @@ const styles: StyleSheet<ClassKey, CompProps> = {
     padding: '0 10px 0 10px'
   },
   ready: {
-    border: `1px solid ${greenDark}`,
+    border: `1px solid ${theme.palette.success.main}`,
     backgroundColor: green,
     '& span': {
       color: theme.palette.primary.contrastText
