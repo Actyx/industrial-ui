@@ -6,9 +6,9 @@ import { ModalDrawer } from './ModalDrawer';
 import { Header } from './Header';
 import { ListItem, List } from './List';
 
-export const headerMain = 'Workstation 005 - Machine Cleaning';
+const headerMain = 'Workstation 005 - Machine Cleaning';
 
-export const headerIcon = (
+const headerIcon = (
   <div
     onClick={action('onClick')}
     style={{
@@ -23,7 +23,7 @@ export const headerIcon = (
   </div>
 );
 
-export const listMain: ReadonlyArray<ListItem> = [
+const listMain: ReadonlyArray<ListItem> = [
   {
     id: 'a',
     name: 'Activities Overview',
@@ -38,7 +38,7 @@ export const listMain: ReadonlyArray<ListItem> = [
   }
 ];
 
-export const listSub: ReadonlyArray<ListItem> = [
+const listSub: ReadonlyArray<ListItem> = [
   {
     id: 'c',
     name: 'Lock',
@@ -80,4 +80,4 @@ storiesOf('Components|ModalDrawer', module)
   })
   .add('Part Header', () => <Header main={headerMain} icon="x" />)
   .add('Part Header icon', () => <Header main={headerMain} icon={headerIcon} />)
-  .add('Part List', () => <List list={listMain} handleClose={action('handleClose')} />);
+  .add('Part List', () => <List items={listMain} handleClose={action('handleClose')} />);

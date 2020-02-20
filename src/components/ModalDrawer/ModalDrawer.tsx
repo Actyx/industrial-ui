@@ -34,8 +34,6 @@ type CompProps = Readonly<{
   handleClose: () => void;
 }>;
 
-type ClassKey = 'root' | 'drawer' | 'listSub';
-
 type Props = WithStyles<ClassKey> & CompProps;
 
 const ModalDrawerComp = ({
@@ -64,16 +62,18 @@ const ModalDrawerComp = ({
           }}
         >
           <Header main={headerMain} icon={headerIcon} />
-          <List list={listMain} handleClose={handleClose} />
+          <List items={listMain} handleClose={handleClose} />
           <div className={classes.listSub}>
             <Divider />
-            <List list={listSub} handleClose={handleClose} />
+            <List items={listSub} handleClose={handleClose} />
           </div>
         </div>
       )}
     </Transition>
   </div>
 );
+
+type ClassKey = 'root' | 'drawer' | 'listSub';
 
 const styles: StyleSheet<ClassKey> = {
   root: {
