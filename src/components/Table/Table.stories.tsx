@@ -1,5 +1,4 @@
 import { storiesOf } from '@storybook/react';
-import { theme } from '../../theme';
 import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { Typography, Variant } from '../Typography';
@@ -9,7 +8,7 @@ import { TableCell } from './TableCell';
 import { TableHeader } from './TableHeader';
 import { TableRow } from './TableRow';
 import { action } from '@storybook/addon-actions';
-import { common } from '../../colors';
+import { common, grey } from '../../colors';
 
 const COLOR_WHITE = common.white;
 
@@ -71,7 +70,7 @@ storiesOf('Components|Table', module)
   .addDecorator(
     hostDecorator({
       width: 900,
-      backgroundColor: theme.palette.grey.dark400
+      backgroundColor: grey[900]
     })
   )
   .add('Body', () => (

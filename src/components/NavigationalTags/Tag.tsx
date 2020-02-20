@@ -52,7 +52,7 @@ const styles: StyleSheet<ClassKey> = {
     shapeRendering: 'crispEdges'
   },
   shapeSeparator: {
-    fill: theme.palette.grey.dark400,
+    fill: theme.palette.grey[900],
     shapeRendering: 'crispEdges'
   },
   content: {

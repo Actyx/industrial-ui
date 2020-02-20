@@ -76,7 +76,7 @@ const TypographyComp = ({
   </span>
 );
 
-const defaultColor = theme.palette.grey.dark400;
+const defaultColor = theme.palette.grey[900];
 
 const styles: StyleSheet<ClassKey> = {
   bold: {

@@ -54,7 +54,7 @@ type ClassKey = 'root' | 'blue' | 'green' | 'track' | 'text';
 
 const { main } = theme.palette.primary;
 const { green } = theme.palette.signal;
-const { 200: light200, dark400 } = theme.palette.grey;
+const { 200: light200, 900: dark400 } = theme.palette.grey;
 
 const styles: StyleSheet<ClassKey, CompProps> = {
   root: {

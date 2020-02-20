@@ -84,7 +84,7 @@ const styles: StyleSheet<ClassKey, CompProps> = {
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: theme.palette.common.white,
-    color: theme.palette.grey.dark400
+    color: theme.palette.grey[900]
   },
   selectedItem: {
     backgroundColor: theme.palette.grey[600],

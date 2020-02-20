@@ -27,7 +27,7 @@ const textColorMap: { [color: string]: string } = {
   yellow: theme.palette.common.white,
   red: theme.palette.common.white,
   grey: theme.palette.common.white,
-  white: theme.palette.grey.dark400,
+  white: theme.palette.grey[900],
   brown: theme.palette.signal.brown
 };
 

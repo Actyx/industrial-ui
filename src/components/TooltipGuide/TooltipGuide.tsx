@@ -79,7 +79,7 @@ const styles: StyleSheet<ClassKey> = {
     zIndex: 1
   },
   neutral: {
-    color: theme.palette.grey.dark400
+    color: theme.palette.grey[900]
   },
   content: {
     height: '100%',

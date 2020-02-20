@@ -50,7 +50,7 @@ const styles: StyleSheet<ClassKey, CompProps> = {
     width: '100%',
     borderCollapse: 'collapse',
     border: 'none',
-    backgroundColor: theme.palette.grey.dark400
+    backgroundColor: theme.palette.grey[900]
   },
   alternateColor: {
     '& tbody > tr:nth-of-type(odd)': {
@@ -75,7 +75,7 @@ const styles: StyleSheet<ClassKey, CompProps> = {
       borderBottom: `${1}px solid ${theme.palette.grey.neutral100}`
     },
     '& tbody > tr': {
-      borderBottom: `${1}px solid ${theme.palette.grey.dark400}`
+      borderBottom: `${1}px solid ${theme.palette.grey[900]}`
     }
   }
 };
