@@ -52,7 +52,7 @@ const GaugeProgressComp = ({
 
 type ClassKey = 'root' | 'blue' | 'green' | 'track' | 'text';
 
-const { deepSkyBlue } = theme.palette.actionHighlight;
+const { deepSkyBlue } = theme.palette.blue;
 const { green } = theme.palette.signal;
 const { light200, dark400 } = theme.palette.grey;
 

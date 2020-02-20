@@ -30,7 +30,7 @@ export function Grid<T>({
       className={setRowClassName && setRowClassName(datum)}
       style={
         isRowSelected && isRowSelected(datum)
-          ? { backgroundColor: theme.palette.actionHighlight.deepSkyBlueBright }
+          ? { backgroundColor: theme.palette.blue.deepSkyBlueBright }
           : undefined
       }
       onClick={onRowSelect ? () => onRowSelect(datum) : undefined}

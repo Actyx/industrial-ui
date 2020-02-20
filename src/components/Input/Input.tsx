@@ -103,7 +103,7 @@ const inputReset = {
 
 const { red } = theme.palette.signal;
 const { black, neutral100, mediumGrey } = theme.palette.grey;
-const { deepSkyBlue } = theme.palette.actionHighlight;
+const { deepSkyBlue } = theme.palette.blue;
 
 const styles: StyleSheet<ClassKey> = {
   root: {

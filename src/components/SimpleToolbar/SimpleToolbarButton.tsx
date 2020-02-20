@@ -46,7 +46,7 @@ const styles: StyleSheet<ClassKey, CompProps> = {
     alignItems: 'center',
     paddingLeft: 24,
     paddingRight: 24,
-    backgroundColor: theme.palette.actionHighlight.deepSkyBlue
+    backgroundColor: theme.palette.blue.deepSkyBlue
   },
   disabled: {
     backgroundColor: theme.palette.grey.light200

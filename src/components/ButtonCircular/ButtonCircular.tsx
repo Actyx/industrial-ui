@@ -53,7 +53,7 @@ const styles: StyleSheet<ClassKey> = {
   },
   primary: {
     ...button,
-    backgroundColor: theme.palette.actionHighlight.deepSkyBlue
+    backgroundColor: theme.palette.blue.deepSkyBlue
   },
   button: {
     display: 'flex',

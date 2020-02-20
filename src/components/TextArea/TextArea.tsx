@@ -95,7 +95,7 @@ const styles: StyleSheet<ClassKey> = {
     borderBottom: `${2}px solid ${theme.palette.grey.neutral100}`,
     '&:focus': {
       ...inputReset,
-      borderBottom: `${2}px solid ${theme.palette.actionHighlight.deepSkyBlue}`
+      borderBottom: `${2}px solid ${theme.palette.blue.deepSkyBlue}`
     }
   },
   fullWidth: {

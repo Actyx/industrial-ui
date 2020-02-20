@@ -9,4 +9,4 @@ storiesOf('Components|MUIcon', module)
   .addDecorator(hostDecorator())
   .add('Base', () => <MUIcon type={'face'} />)
   .add('fontSize', () => <MUIcon type={'face'} fontSize={48} />)
-  .add('color', () => <MUIcon type={'face'} color={theme.palette.actionHighlight.deepSkyBlue} />);
+  .add('color', () => <MUIcon type={'face'} color={theme.palette.blue.deepSkyBlue} />);

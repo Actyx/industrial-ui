@@ -42,7 +42,7 @@ const HorizontallyScrollableListComp = ({ classes, items, onItemSelect, rows }: 
               <tr key={rowKey}>
                 {x.map((item, idx) => {
                   const backgroundColor =
-                    idx % 2 === 0 ? theme.color.grayVeryLight : theme.palette.grey.white;
+                    idx % 2 === 0 ? theme.palette.grey.grayVeryLight : theme.palette.grey.white;
                   return item ? (
                     <td
                       key={rowKey + item.name}
@@ -80,7 +80,7 @@ const styles: StyleSheet<ClassKey> = {
       border: 'none'
     },
     '& td': {
-      border: `${borderWidth}px solid ${theme.color.grayVeryLight2}`,
+      border: `${borderWidth}px solid ${theme.palette.grey.grayVeryLight2}`,
       padding: 0
     }
   },

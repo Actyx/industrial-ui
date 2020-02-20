@@ -18,12 +18,19 @@ const createTheme = () => {
         black: '#000000',
         white: '#ffffff',
         neutral100: '#d6d6d6',
-        neutral300: '#999999'
+        neutral300: '#999999',
+        grayVeryLight: '#F7F7F7',
+        grayVeryLight2: '#E0E0E0'
       },
-      actionHighlight: {
+      blue: {
         deepSkyBlue: '#22aaee',
         deepSkyBlueBright: '#81CFF5',
-        bottomBlue: '#0D2237'
+        bottomBlue: '#0D2237',
+        dark: '#0c2237',
+        primary: '#0090D0'
+      },
+      green: {
+        activeGreen: '#14CC9E'
       },
       signal: {
         green: '#22dd55',
@@ -37,18 +44,7 @@ const createTheme = () => {
         redBright: '#e16464',
         brown: '#DBB44B',
         brownDark: '#917731'
-      },
-      blue: {
-        dark: '#0c2237',
-        primary: '#0090D0'
       }
-    },
-    color: {
-      activeGreen: '#14CC9E',
-      grayLight: '#EAEAEA',
-      grayVeryLight: '#F7F7F7',
-      grayVeryLight2: '#E0E0E0',
-      red: '#f44336'
     },
     typography: {
       fontFamily: '"Titillium Web", sans-serif',

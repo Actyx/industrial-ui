@@ -66,7 +66,7 @@ const styles: StyleSheet<ClassKey> = {
     backgroundColor: theme.palette.grey.dark100
   },
   primary: {
-    backgroundColor: theme.palette.actionHighlight.deepSkyBlue
+    backgroundColor: theme.palette.blue.deepSkyBlue
   },
   md: {
     width: SIZE_MD,

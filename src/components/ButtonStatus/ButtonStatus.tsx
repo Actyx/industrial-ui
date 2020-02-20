@@ -38,7 +38,7 @@ const ButtonStatusComp = ({ classes, className, domId, selected, text, icon, onS
           <MUIcon
             type={icon}
             fontSize={40}
-            color={selected ? theme.palette.actionHighlight.bottomBlue : theme.palette.grey.white}
+            color={selected ? theme.palette.blue.bottomBlue : theme.palette.grey.white}
           />
         </div>
       )}
@@ -68,9 +68,9 @@ const styles: StyleSheet<ClassKey, CompProps> = {
     }
   },
   selected: {
-    backgroundColor: theme.palette.actionHighlight.deepSkyBlueBright,
+    backgroundColor: theme.palette.blue.deepSkyBlueBright,
     '& > span': {
-      color: theme.palette.actionHighlight.bottomBlue
+      color: theme.palette.blue.bottomBlue
     }
   },
   contour: {

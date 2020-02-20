@@ -13,7 +13,7 @@ const warningBaseProps = {
 const genericBaseProps = {
   icon: 'info',
   text: 'Generic text',
-  color: theme.palette.actionHighlight.deepSkyBlue,
+  color: theme.palette.blue.deepSkyBlue,
   counter: 17
 };
 

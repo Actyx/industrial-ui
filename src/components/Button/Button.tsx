@@ -128,7 +128,7 @@ const styles: StyleSheet<ClassKey> = {
     justifyContent: 'center'
   },
   primary: {
-    backgroundColor: theme.palette.actionHighlight.deepSkyBlue,
+    backgroundColor: theme.palette.blue.deepSkyBlue,
     color: theme.palette.grey.white,
     '& span': {
       color: theme.palette.grey.white
