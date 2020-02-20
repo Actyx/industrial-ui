@@ -12,7 +12,7 @@ const dark: { [color: string]: string } = {
 };
 
 const regular: { [color: string]: string } = {
-  green: theme.palette.signal.green,
+  green: theme.palette.success.light,
   orange: theme.palette.signal.orange,
   yellow: theme.palette.signal.yellow,
   red: theme.palette.signal.red,
@@ -32,7 +32,7 @@ const textColorMap: { [color: string]: string } = {
 };
 
 const borderColorMap: { [color: string]: string } = {
-  green: theme.palette.signal.green,
+  green: theme.palette.success.light,
   orange: theme.palette.signal.orange,
   yellow: theme.palette.signal.yellow,
   red: theme.palette.signal.red,

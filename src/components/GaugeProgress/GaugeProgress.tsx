@@ -53,7 +53,6 @@ const GaugeProgressComp = ({
 type ClassKey = 'root' | 'blue' | 'green' | 'track' | 'text';
 
 const { main } = theme.palette.primary;
-const { green } = theme.palette.signal;
 const { 200: light200, 900: dark400 } = theme.palette.grey;
 
 const styles: StyleSheet<ClassKey, CompProps> = {
@@ -67,7 +66,7 @@ const styles: StyleSheet<ClassKey, CompProps> = {
     stroke: main
   },
   green: {
-    stroke: green
+    stroke: theme.palette.success.light
   },
   text: {
     transform: 'rotate(90deg)',
