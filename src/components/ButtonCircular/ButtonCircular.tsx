@@ -7,13 +7,13 @@ import * as React from 'react';
 import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 
-type Color = 'primary' | 'neutral';
+export type ButtonCircularColor = 'primary' | 'neutral';
 
 type CompProps = Readonly<{
   className?: string;
   value: string | number;
   icon?: boolean;
-  color: Color;
+  color: ButtonCircularColor;
   onSelect: () => void;
 }>;
 
@@ -37,7 +37,7 @@ const ButtonCircularComp = ({ className, classes, value, icon, color, onSelect }
   </div>
 );
 
-const borderRadius = SIZE / 2; // TODO add better support for rounded corner touch ripple
+const borderRadius = SIZE / 2;
 
 const button = {
   width: SIZE,
