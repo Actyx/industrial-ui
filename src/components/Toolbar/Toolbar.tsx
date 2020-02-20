@@ -26,7 +26,7 @@ const styles: StyleSheet<ClassKey, CompProps> = {
     alignItems: 'center',
     minHeight: 80,
     width: '100%',
-    backgroundColor: theme.color.pureWhite,
+    backgroundColor: theme.palette.grey.white,
     boxShadow: theme.shadow.sm,
     zIndex: 1000
   },

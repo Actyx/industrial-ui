@@ -14,22 +14,15 @@ const createTheme = () => {
         mediumGrey: '#d6d6d6',
         dark100: '#777777',
         dark200: '#666666',
-        dark300: 'rgb(76, 76, 76)',
         dark400: '#333333',
         black: '#000000',
         white: '#ffffff',
         neutral100: '#d6d6d6',
         neutral300: '#999999'
       },
-      highlight: {
-        primary: '#bee5fa',
-        secondary: '#F8F9FB'
-      },
       actionHighlight: {
         deepSkyBlue: '#22aaee',
         deepSkyBlueBright: '#81CFF5',
-        oceanBlue: '#0088cc',
-        seaBlue: '#005599',
         bottomBlue: '#0D2237'
       },
       signal: {
@@ -46,38 +39,16 @@ const createTheme = () => {
         brownDark: '#917731'
       },
       blue: {
-        dark: '#0c2237'
+        dark: '#0c2237',
+        primary: '#0090D0'
       }
     },
     color: {
-      primaryWhite: '#D6D6D6',
-      primaryBlack: '#141414',
-      lightGreyLines: '#E9EAF0',
-      labelGrey: '#7E7E80',
-      pureWhite: '#FFFFFF',
-      inactiveDark: '#343436',
-      primary: '#0090D0',
       activeGreen: '#14CC9E',
-      tabNavigation: '#A1A1A4',
-      failRed: '#BF0030',
-      secondaryBlack: '#222222',
-      warningOrange: '#FAA125',
-      lightGreyCardHeader: '#EFF0F6',
-      secondaryColor: '#006699',
-      darkGreen: '#158E6C',
-      blueLight: '#01a1df',
-      blueMid: '#017ecf',
-      blueDark: '#024466',
-      blueDarkGrey: '#2B3239',
       grayLight: '#EAEAEA',
       grayVeryLight: '#F7F7F7',
       grayVeryLight2: '#E0E0E0',
-      grayMidLight: '#89898a',
-      grayExtremeLight: '#F2F2F2',
       red: '#f44336'
-    },
-    dimension: {
-      borderRadius: 2
     },
     typography: {
       fontFamily: '"Titillium Web", sans-serif',
@@ -128,7 +99,6 @@ const jss = create({
   plugins: preset().plugins
 });
 
-// Add global styles
 jss
   .createStyleSheet(
     {

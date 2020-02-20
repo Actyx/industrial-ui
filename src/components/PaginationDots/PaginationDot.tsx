@@ -34,14 +34,14 @@ const styles: StyleSheet<ClassKey> = {
     padding: 0
   },
   dot: {
-    backgroundColor: theme.color.primaryWhite,
+    backgroundColor: theme.palette.grey.mediumGrey,
     height: 12,
     width: 12,
     borderRadius: 6,
     margin: 3
   },
   active: {
-    backgroundColor: theme.color.primary
+    backgroundColor: theme.palette.blue.primary
   }
 };
 
