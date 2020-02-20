@@ -38,7 +38,7 @@ const styles: StyleSheet<ClassKey> = {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    zIndex: 1100
+    zIndex: theme.zIndex.fluid
   },
   container: {
     position: 'relative',

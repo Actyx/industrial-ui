@@ -63,6 +63,11 @@ const createTheme = () => {
       fontWeightMedium: 600,
       fontWeightBold: 700
     },
+    zIndex: {
+      dialog: 1110,
+      fluid: 1100,
+      modalDrawer: 1000
+    },
     utils: {
       rgba: (c: string, opacity: number) => {
         if (c.length < 7 || c.length > 7) {

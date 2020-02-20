@@ -82,7 +82,7 @@ const styles: StyleSheet<ClassKey> = {
     left: 0,
     width: '100%',
     height: '100%',
-    zIndex: 1000
+    zIndex: theme.zIndex.modalDrawer
   },
   drawer: {
     position: 'absolute',

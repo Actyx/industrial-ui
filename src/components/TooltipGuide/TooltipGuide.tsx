@@ -76,7 +76,7 @@ const styles: StyleSheet<ClassKey> = {
   },
   icon: {
     position: 'absolute',
-    zIndex: 1
+    zIndex: 1 // FIXME remove it if possible
   },
   neutral: {
     color: theme.palette.grey[900]
