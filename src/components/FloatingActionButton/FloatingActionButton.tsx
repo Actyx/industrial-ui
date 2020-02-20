@@ -6,22 +6,22 @@ import { compose, setDisplayName } from 'recompose';
 import { MUIcon } from '../MUIcon';
 import { TouchRipple } from '../TouchRipple/TouchRipple';
 
-export type Color = 'primary' | 'neutral';
+const SIZE_MD = 120;
+const SIZE_XL = 150;
+const SIZE_SM = 80;
 
-export type Size = 'sm' | 'md' | 'xl';
+export type FloatingActionButtonColor = 'primary' | 'neutral';
+
+export type FloatingActionButtonSize = 'sm' | 'md' | 'xl';
 
 type CompProps = Readonly<{
-  size: Size;
-  color: Color;
+  size: FloatingActionButtonSize;
+  color: FloatingActionButtonColor;
   icon: string;
   onClick: () => void;
   className?: string;
   disabled?: boolean;
 }>;
-
-const SIZE_MD = 120;
-const SIZE_XL = 150;
-const SIZE_SM = 80;
 
 type Props = WithStyles<ClassKey> & CompProps;
 
@@ -77,7 +77,6 @@ const styles: StyleSheet<ClassKey> = {
       color: theme.palette.grey.white
     },
     '& div': {
-      // TODO revise code for touch ripple as it should supported rounded border
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
