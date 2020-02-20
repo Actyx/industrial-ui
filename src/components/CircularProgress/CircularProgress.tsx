@@ -4,10 +4,15 @@ import * as React from 'react';
 import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 
-type Variant = 'sm' | 'md';
+const SIZE_MD = 60;
+const SIZE_SM = 40;
+const COLOR_TRACK = theme.palette.grey.neutral100;
+const COLOR_INDICATOR = theme.palette.actionHighlight.deepSkyBlue;
+
+export type CircularProgressVariant = 'sm' | 'md';
 
 type CompProps = Readonly<{
-  variant: Variant;
+  variant: CircularProgressVariant;
   colorIndicator?: string;
   colorTrack?: string;
   className?: string;
@@ -30,11 +35,6 @@ const CircularProgressComp = ({
     className={classNames(classes.root, variant === 'md' ? classes.md : classes.sm, className)}
   />
 );
-
-const SIZE_MD = 60;
-const SIZE_SM = 40;
-const COLOR_TRACK = theme.palette.grey.neutral100;
-const COLOR_INDICATOR = theme.palette.actionHighlight.deepSkyBlue;
 
 type ClassKey = 'root' | 'md' | 'sm' | '@keyframes spin';
 
@@ -66,7 +66,6 @@ const styles: StyleSheet<ClassKey> = {
   }
 };
 
-// FIXME animation should display
 export const CircularProgress = compose<Props, CompProps>(
   setDisplayName('CircularProgress'),
   injectSheet(styles)
