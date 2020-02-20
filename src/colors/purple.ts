@@ -12,7 +12,7 @@ const purple = {
   A100: '#ea80fc',
   A200: '#e040fb',
   A400: '#d500f9',
-  A700: '#aa00ff',
+  A700: '#aa00ff'
 };
 
 export default purple;

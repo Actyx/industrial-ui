@@ -12,7 +12,7 @@ const deepOrange = {
   A100: '#ff9e80',
   A200: '#ff6e40',
   A400: '#ff3d00',
-  A700: '#dd2c00',
+  A700: '#dd2c00'
 };
 
 export default deepOrange;

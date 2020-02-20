@@ -12,7 +12,7 @@ const deepPurple = {
   A100: '#b388ff',
   A200: '#7c4dff',
   A400: '#651fff',
-  A700: '#6200ea',
+  A700: '#6200ea'
 };
 
 export default deepPurple;

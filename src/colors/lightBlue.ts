@@ -12,7 +12,7 @@ const lightBlue = {
   A100: '#80d8ff',
   A200: '#40c4ff',
   A400: '#00b0ff',
-  A700: '#0091ea',
+  A700: '#0091ea'
 };
 
 export default lightBlue;

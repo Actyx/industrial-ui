@@ -12,7 +12,7 @@ const orange = {
   A100: '#ffd180',
   A200: '#ffab40',
   A400: '#ff9100',
-  A700: '#ff6d00',
+  A700: '#ff6d00'
 };
 
 export default orange;

@@ -12,7 +12,7 @@ const teal = {
   A100: '#a7ffeb',
   A200: '#64ffda',
   A400: '#1de9b6',
-  A700: '#00bfa5',
+  A700: '#00bfa5'
 };
 
 export default teal;

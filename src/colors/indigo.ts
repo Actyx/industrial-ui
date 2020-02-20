@@ -12,7 +12,7 @@ const indigo = {
   A100: '#8c9eff',
   A200: '#536dfe',
   A400: '#3d5afe',
-  A700: '#304ffe',
+  A700: '#304ffe'
 };
 
 export default indigo;

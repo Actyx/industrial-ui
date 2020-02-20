@@ -12,7 +12,7 @@ const pink = {
   A100: '#ff80ab',
   A200: '#ff4081',
   A400: '#f50057',
-  A700: '#c51162',
+  A700: '#c51162'
 };
 
 export default pink;
