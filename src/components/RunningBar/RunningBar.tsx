@@ -4,11 +4,11 @@ import { compose, setDisplayName } from 'recompose';
 
 type CompProps = Readonly<{}>;
 
-type ClassKey = 'root' | '@keyframes scrolling';
-
 type Props = WithStyles<ClassKey> & CompProps;
 
 const RunningBarComp = ({ classes }: Props) => <div className={classes.root} />;
+
+type ClassKey = 'root' | '@keyframes scrolling';
 
 const styles: StyleSheet<ClassKey> = {
   root: {
