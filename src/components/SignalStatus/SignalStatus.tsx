@@ -16,7 +16,7 @@ export type SignalStatusStatus =
 
 type CompProps = Readonly<{
   status: SignalStatusStatus;
-  text?: string;
+  text?: React.ReactNode;
 }>;
 
 type Props = WithStyles<ClassKey> & CompProps;
@@ -62,6 +62,7 @@ const SignalStatusComp = ({ classes, status, text }: Props) => {
     </div>
   );
 };
+
 type ClassKey = 'root' | 'text';
 
 const styles: StyleSheet<ClassKey, CompProps> = {
