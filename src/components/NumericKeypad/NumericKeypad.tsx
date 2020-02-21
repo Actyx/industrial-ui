@@ -83,7 +83,7 @@ export class NumericKeypad extends React.Component<Props, State> {
         {!hideInput && (
           <div className="mb-4">
             <ClearableInput
-              disableNativeKeyboard
+              disabledNativeKeyboard
               value={value}
               error={invalid}
               onClearRequested={this.handleClear}

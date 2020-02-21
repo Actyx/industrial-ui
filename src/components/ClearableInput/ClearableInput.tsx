@@ -8,7 +8,7 @@ import { MUIcon } from '../MUIcon';
 
 type CompProps = Readonly<{
   value: string;
-  disableNativeKeyboard?: boolean;
+  disabledNativeKeyboard?: boolean;
   error?: boolean;
   long?: boolean;
   forSearch?: boolean;
@@ -18,11 +18,9 @@ type CompProps = Readonly<{
   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
 }>;
 
-type ClassKey = 'root' | 'input' | 'icon' | 'longInput' | 'searchField' | 'searchFieldBorders';
-
 type Props = WithStyles<ClassKey> & CompProps;
 
-const icon = (hasValue: boolean, forSearch?: boolean) => {
+const renderIcon = (hasValue: boolean, forSearch?: boolean) => {
   const color = forSearch ? theme.palette.grey[700] : undefined;
   if (hasValue) {
     return <MUIcon fontSize={40} type="close" color={color} />;
@@ -35,7 +33,7 @@ const icon = (hasValue: boolean, forSearch?: boolean) => {
 
 const ClearableInputComp = ({
   classes,
-  disableNativeKeyboard,
+  disabledNativeKeyboard,
   value,
   long,
   forSearch,
@@ -56,7 +54,7 @@ const ClearableInputComp = ({
             long && classes.longInput,
             forSearch && classes.searchField
           )}
-          disabled={!!disableNativeKeyboard}
+          disabled={!!disabledNativeKeyboard}
           fullWidth
           error={error}
           type="text"
@@ -67,11 +65,13 @@ const ClearableInputComp = ({
         />
       </div>
       <div className={classes.icon} onClick={onClearRequested}>
-        {icon(hasValue, forSearch)}
+        {renderIcon(hasValue, forSearch)}
       </div>
     </div>
   );
 };
+
+type ClassKey = 'root' | 'input' | 'icon' | 'longInput' | 'searchField' | 'searchFieldBorders';
 
 const searchBorder = `1px solid ${theme.palette.grey[700]}`;
 
