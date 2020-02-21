@@ -18,16 +18,16 @@
 [x] Cleanup theme
 [x] Cleanup all components api
 [x] Improve API for all components
+[ ] Create a great readme
+[ ] Add CI using Travis
 [ ] Clanup refactory code when necessary
 [ ] Add tests snapshots?
 [ ] Add visual regression, Cypress, Loki?
-[ ] Add CI using Travis
 [ ] Comment code
 [ ] Configure StoryBook to read comments and create docs
 [ ] Add nice readme and relative assets
 [ ] Ad additional tests
 [ ] Give the possibility to customize the theme using a provider
-[ ] Create a great readme
 [ ] Create branding with logo and asset main entry point
 [ ] Add proper license (MIT?)
 [ ] Add proper license for fonts used
