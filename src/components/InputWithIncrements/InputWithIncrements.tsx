@@ -17,8 +17,6 @@ type CompProps = Readonly<{
 
 type Props = WithStyles<ClassKey> & CompProps;
 
-type ClassKey = 'root' | 'inputs' | 'buttons' | 'button' | 'input';
-
 type State = Readonly<{
   currentValue: number;
   currentValueDisplay: string;
@@ -183,6 +181,8 @@ export class InputWithIncrementsComp extends React.Component<Props, State> {
     );
   }
 }
+
+type ClassKey = 'root' | 'inputs' | 'buttons' | 'button' | 'input';
 
 const styles: StyleSheet<ClassKey> = {
   root: {},
