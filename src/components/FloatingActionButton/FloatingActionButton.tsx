@@ -8,7 +8,7 @@ import { TouchRipple } from '../TouchRipple/TouchRipple';
 
 export type FloatingActionButtonSize = 'sm' | 'md' | 'xl';
 
-export type FloatingActionButtonColor = 'primary' | 'neutral';
+export type FloatingActionButtonColor = 'primary' | 'secondary' | 'neutral';
 
 type CompProps = Readonly<{
   className?: string;
@@ -59,7 +59,7 @@ const FloatingActionButtonComp = ({
   </div>
 );
 
-type ClassKey = 'xl' | 'md' | 'sm' | 'primary' | 'neutral' | 'disabled';
+type ClassKey = 'xl' | 'md' | 'sm' | 'primary' | 'secondary' | 'neutral' | 'disabled';
 
 const styles: StyleSheet<ClassKey> = {
   neutral: {
@@ -67,6 +67,9 @@ const styles: StyleSheet<ClassKey> = {
   },
   primary: {
     backgroundColor: theme.palette.primary.main
+  },
+  secondary: {
+    backgroundColor: theme.palette.secondary.main
   },
   md: {
     width: SIZE_MD,
