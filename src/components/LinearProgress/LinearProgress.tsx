@@ -6,8 +6,7 @@ import { Typography } from '../Typography';
 import { getTextColor } from './colors';
 import { createStyleTrack, createStyleIndicator, getContentStyle } from './utility';
 
-const VALUE_MIN = 0;
-const VALUE_MAX = 100;
+export type LinearProgressSize = 'xs' | 'md' | 'lg' | 'md60';
 
 export type LinearProgressColor =
   | 'green'
@@ -17,8 +16,6 @@ export type LinearProgressColor =
   | 'grey'
   | 'white'
   | 'brown';
-
-export type LinearProgressSize = 'xs' | 'md' | 'lg' | 'md60';
 
 export type LinearProgressContentVerticalAlign = 'center' | 'top' | 'bottom';
 
@@ -37,6 +34,9 @@ type CompProps = Readonly<{
 }>;
 
 type Props = WithStyles<ClassKey> & CompProps;
+
+const VALUE_MIN = 0;
+const VALUE_MAX = 100;
 
 const LinearProgressComp = ({
   classes,

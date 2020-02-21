@@ -4,9 +4,6 @@ import { compose, setDisplayName } from 'recompose';
 import { LinearProgressColor } from './LinearProgress';
 import { createStyleTrack, createStyleIndicator } from './utility';
 
-const VALUE_MIN = 0;
-const VALUE_MAX = 100;
-
 type CompProps = Readonly<{
   className?: string;
   color: LinearProgressColor;
@@ -16,6 +13,9 @@ type CompProps = Readonly<{
 }>;
 
 type Props = WithStyles<ClassKey> & CompProps;
+
+const VALUE_MIN = 0;
+const VALUE_MAX = 100;
 
 const LinearProgressSimpleComp = ({ classes, color, value, disabled, border }: Props) => (
   <div className={classes.root} style={createStyleTrack(color, disabled, border)}>
