@@ -1,8 +1,35 @@
 {
-  "name": "actyx-ui-library",
+  "name": "actyx-ui",
   "version": "1.0.0",
-  "description": "Actyx UI library",
+  "private": true,
+  "description": "Actyx UI - Simple, modular UI Components for Shop Floor Applications",
   "main": "index.ts",
+  "keywords": [
+    "actyx",
+    "components",
+    "design system",
+    "ecosystem-react",
+    "graphical user interface",
+    "gui",
+    "industry 4.0",
+    "interaction",
+    "interface",
+    "layout",
+    "library",
+    "material design",
+    "react-component",
+    "react",
+    "reactjs",
+    "shop floor application",
+    "smart-factory",
+    "toolkit",
+    "typography",
+    "ui-components",
+    "ui",
+    "user interface",
+    "web-components",
+    "widgets"
+  ],
   "scripts": {
     "clear": "rimraf ./dist",
     "tsc": "tsc",
@@ -16,12 +43,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gibbok/actyx-ui-library.git"
+    "url": "git+https://github.com/Actyx/actyx-ui.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Actyx AG",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gibbok/actyx-ui-library/issues"
+    "url": "https://github.com/Actyx/actyx-ui/issues"
   },
   "homepage": "https://github.com/gibbok/actyx-ui-library#readme",
   "dependencies": {},
