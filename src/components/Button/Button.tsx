@@ -11,8 +11,8 @@ export type ButtonVariant = 'flat' | 'raised';
 
 export type ButtonColor =
   | 'primary'
+  | 'grey'
   | 'neutral'
-  | 'light200'
   | 'transparent'
   | 'green'
   | 'orange'
@@ -20,13 +20,13 @@ export type ButtonColor =
   | 'red';
 
 type CompProps = Readonly<{
+  className?: string;
   variant: ButtonVariant;
   color: ButtonColor;
   icon?: string;
   text?: React.ReactNode;
   disabled?: boolean;
   fullWidth?: boolean;
-  className?: string;
   noWrap?: boolean;
   centered?: boolean;
   onClick: (ev: React.MouseEvent<HTMLElement>) => void;
@@ -85,9 +85,9 @@ type ClassKey =
   | 'textIcon'
   | 'shadow'
   | 'icon'
-  | 'primary'
   | 'neutral'
-  | 'light200'
+  | 'primary'
+  | 'grey'
   | 'transparent'
   | 'green'
   | 'orange'
@@ -134,14 +134,14 @@ const styles: StyleSheet<ClassKey> = {
       color: theme.palette.primary.contrastText
     }
   },
-  neutral: {
+  grey: {
     backgroundColor: theme.palette.grey[600],
     color: theme.palette.primary.contrastText,
     '& span': {
       color: theme.palette.primary.contrastText
     }
   },
-  light200: {
+  neutral: {
     backgroundColor: theme.palette.grey[200],
     color: theme.palette.grey[900]
   },

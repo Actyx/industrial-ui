@@ -16,8 +16,9 @@
 [x] Cleanup stories make sure to show only the main components and all sub-comp
 [x] Make sure all index.ts are checked to expose the right component, check export
 [x] Cleanup theme
-[ ] Cleanup all components api
-[ ] Improve API for all components
+[x] Cleanup all components api
+[x] Improve API for all components
+[ ] Clanup refactory code when necessary
 [ ] Add tests snapshots?
 [ ] Add visual regression, Cypress, Loki?
 [ ] Add CI using Travis

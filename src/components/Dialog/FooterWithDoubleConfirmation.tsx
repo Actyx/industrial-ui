@@ -91,11 +91,11 @@ const FooterWithDoubleConfirmationComp = ({
             <Typography variant="distance" bold>
               {message}
             </Typography>
-            <Button variant="raised" text={message} color="light200" onClick={onSelectNo} />
+            <Button variant="raised" text={message} color="grey" onClick={onSelectNo} />
             <Button
               variant="raised"
               text={yesMessage ? yesMessage : noMessage}
-              color="light200"
+              color="grey"
               onClick={onSelectYes}
             />
           </div>
