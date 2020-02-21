@@ -24,7 +24,7 @@ storiesOf('Components|Card.Card', module)
     const props = { ...baseProps, raised: false };
     return <Card {...props} />;
   })
-  .add('Color', () => {
+  .add('Color red', () => {
     const props = {
       ...baseProps,
       color: 'red' as 'red',

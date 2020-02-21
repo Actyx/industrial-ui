@@ -4,20 +4,18 @@ import * as React from 'react';
 import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 
-type Size = 'md';
+export type CardSize = 'md';
 
-type Color = 'neutral' | 'red';
+export type CardColor = 'neutral' | 'red';
 
 type CompProps = Readonly<{
-  size: Size;
-  color: Color;
+  size: CardSize;
+  color: CardColor;
   raised: boolean;
   header?: React.ReactNode;
   content: React.ReactNode;
   action?: React.ReactNode;
 }>;
-
-type ClassKey = 'root' | 'raised' | 'md' | 'neutral' | 'red' | 'header' | 'content' | 'action';
 
 type Props = WithStyles<ClassKey> & CompProps;
 
@@ -36,7 +34,9 @@ const CardComp = ({ classes, raised, size, color, header, content, action }: Pro
   </div>
 );
 
-export const CARD_WIDTH = 510;
+const CARD_WIDTH = 510;
+
+type ClassKey = 'root' | 'raised' | 'md' | 'neutral' | 'red' | 'header' | 'content' | 'action';
 
 const styles: StyleSheet<ClassKey> = {
   root: {

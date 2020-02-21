@@ -1,7 +1,6 @@
 import * as React from 'react';
 import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
-import { CARD_WIDTH } from './Card';
 
 type CompProps = Readonly<{
   children: React.ReactNode;
@@ -19,7 +18,7 @@ const styles: StyleSheet<ClassKey> = {
   root: {
     paddingRight: 4,
     paddingBottom: 4,
-    minWidth: `calc((${CARD_WIDTH}px + ${4}px) * 2 + 1rem)`,
+    minWidth: `calc((${510}px + ${4}px) * 2 + 1rem)`,
     display: 'flex',
     justifyContent: 'space-between'
   }

@@ -1,7 +1,7 @@
 import { storiesOf } from '@storybook/react';
 import { hostDecorator } from '../../utils';
 import * as React from 'react';
-import { Card, CARD_WIDTH } from './Card';
+import { Card } from './Card';
 import { SwipeableCards } from './SwipeableCards';
 import { SwipeableContainer } from './SwipeableContainer';
 import { common } from '../../colors';
@@ -9,7 +9,7 @@ import { common } from '../../colors';
 storiesOf('Components|Card.Swipeable', module)
   .addDecorator(hostDecorator({}))
   .add('Swipeable cards', () => (
-    <div style={{ width: `calc(${CARD_WIDTH}px * 2 + (3 * 1rem))` }}>
+    <div style={{ width: `calc(${510}px * 2 + (3 * 1rem))` }}>
       <SwipeableCards>
         <SwipeableContainer>
           <Card size="md" color="neutral" raised content={'1.1'} />
