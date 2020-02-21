@@ -11,13 +11,13 @@ type CompProps = Readonly<{
   color?: string;
 }>;
 
-type ClassKey = 'root';
-
 type Props = WithStyles<ClassKey> & CompProps;
 
 const MUIconComp = ({ className, type, classes }: Props) => (
   <i className={classNames(classes.root, className)}>{type}</i>
 );
+
+type ClassKey = 'root';
 
 const styles: StyleSheet<ClassKey, CompProps> = {
   root: ({ fontSize, color }) => ({
