@@ -6,26 +6,26 @@ import { compose, setDisplayName } from 'recompose';
 import { MUIcon } from '../MUIcon';
 import { TouchRipple } from '../TouchRipple/TouchRipple';
 
-const SIZE_MD = 120;
-const SIZE_XL = 150;
-const SIZE_SM = 80;
+export type FloatingActionButtonSize = 'sm' | 'md' | 'xl';
 
 export type FloatingActionButtonColor = 'primary' | 'neutral';
 
-export type FloatingActionButtonSize = 'sm' | 'md' | 'xl';
-
 type CompProps = Readonly<{
+  className?: string;
   size: FloatingActionButtonSize;
   color: FloatingActionButtonColor;
   icon: string;
-  onClick: () => void;
-  className?: string;
   disabled?: boolean;
+  onClick: () => void;
 }>;
 
 type Props = WithStyles<ClassKey> & CompProps;
 
-const iconSizes = {
+const SIZE_MD = 120;
+const SIZE_XL = 150;
+const SIZE_SM = 80;
+
+const ICON_SIZES = {
   xl: 80,
   md: 50,
   sm: 40
@@ -52,9 +52,9 @@ const FloatingActionButtonComp = ({
     onClick={disabled ? undefined : onClick}
   >
     {disabled ? (
-      <div>{renderIcon(icon, iconSizes[size])}</div>
+      <div>{renderIcon(icon, ICON_SIZES[size])}</div>
     ) : (
-      <TouchRipple>{renderIcon(icon, iconSizes[size])}</TouchRipple>
+      <TouchRipple>{renderIcon(icon, ICON_SIZES[size])}</TouchRipple>
     )}
   </div>
 );
