@@ -4,25 +4,16 @@ import * as React from 'react';
 import { compose, setDisplayName } from 'recompose';
 import injectSheet, { WithStyles, StyleSheet } from 'react-jss';
 
-const FONT_SIZE = {
-  giant: 70,
-  heading: 48,
-  big: 36,
-  distance: 28,
-  standard: 20,
-  small: 16
-};
+export type TypographyTextTransform = 'uppercase' | 'lowercase' | 'capitalize';
 
-type TextTransform = 'uppercase' | 'lowercase' | 'capitalize';
-
-export type Variant = 'subtext' | 'standard' | 'distance' | 'big' | 'heading' | 'giant';
+export type TypographyVariant = 'subtext' | 'standard' | 'distance' | 'big' | 'heading' | 'giant';
 
 type BaseProps = Readonly<{
-  color?: string;
   className?: string;
-  variant: Variant;
+  color?: string;
+  variant: TypographyVariant;
   italic?: boolean;
-  textTransform?: TextTransform;
+  textTransform?: TypographyTextTransform;
   children: React.ReactNode;
   disabled?: boolean;
   noWrap?: boolean;
@@ -41,7 +32,14 @@ type SemiBold = Readonly<{
 
 type CompProps = BaseProps & (Bold | SemiBold);
 
-type ClassKey = 'bold' | 'semiBold' | 'italic' | 'noWrap' | 'ellipsis' | Variant | TextTransform;
+type ClassKey =
+  | 'bold'
+  | 'semiBold'
+  | 'italic'
+  | 'noWrap'
+  | 'ellipsis'
+  | TypographyVariant
+  | TypographyTextTransform;
 
 type Props = WithStyles<ClassKey> & CompProps;
 
@@ -85,7 +83,16 @@ const TypographyComp = ({
   </span>
 );
 
-const defaultColor = theme.palette.grey[900];
+const DEFAULT_COLOR = theme.palette.grey[900];
+
+const FONT_SIZE = {
+  giant: 70,
+  heading: 48,
+  big: 36,
+  distance: 28,
+  standard: 20,
+  small: 16
+};
 
 const styles: StyleSheet<ClassKey> = {
   bold: {
@@ -98,27 +105,27 @@ const styles: StyleSheet<ClassKey> = {
     fontStyle: 'italic'
   },
   subtext: {
-    color: defaultColor,
+    color: DEFAULT_COLOR,
     fontSize: FONT_SIZE.small
   },
   standard: {
-    color: defaultColor,
+    color: DEFAULT_COLOR,
     fontSize: FONT_SIZE.standard
   },
   distance: {
-    color: defaultColor,
+    color: DEFAULT_COLOR,
     fontSize: FONT_SIZE.distance
   },
   big: {
-    color: defaultColor,
+    color: DEFAULT_COLOR,
     fontSize: FONT_SIZE.big
   },
   heading: {
-    color: defaultColor,
+    color: DEFAULT_COLOR,
     fontSize: FONT_SIZE.heading
   },
   giant: {
-    color: defaultColor,
+    color: DEFAULT_COLOR,
     fontSize: FONT_SIZE.giant
   },
   uppercase: {
