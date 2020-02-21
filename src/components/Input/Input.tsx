@@ -4,9 +4,11 @@ import * as React from 'react';
 import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 
+export type InputType = 'number' | 'text';
+
 type CompProps = Readonly<{
   className?: string;
-  type: 'number' | 'text';
+  type: InputType;
   value?: number | string;
   maxLength?: number;
   readOnly?: boolean;
@@ -22,8 +24,6 @@ type CompProps = Readonly<{
   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
   onKeyDown?: (e: React.KeyboardEvent<HTMLInputElement>) => void;
 }>;
-
-type ClassKey = 'root' | 'error' | 'fullWidth';
 
 type Props = WithStyles<ClassKey> & CompProps;
 
@@ -92,6 +92,8 @@ class InputComp extends React.Component<Props, {}> {
     );
   }
 }
+
+type ClassKey = 'root' | 'error' | 'fullWidth';
 
 const inputReset = {
   outline: 'none',
