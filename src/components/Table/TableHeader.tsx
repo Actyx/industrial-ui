@@ -6,13 +6,13 @@ type CompProps = Readonly<{
   children: React.ReactNode;
 }>;
 
-type ClassKey = 'thead';
-
 type Props = WithStyles<ClassKey> & CompProps;
 
 const TableHeaderComp = ({ classes, children }: Props) => (
   <thead className={classes.thead}>{children}</thead>
 );
+
+type ClassKey = 'thead';
 
 const styles: StyleSheet<ClassKey> = {
   thead: {
