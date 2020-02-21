@@ -14,7 +14,7 @@ export type TimelineEvent = Readonly<{
   color: string;
   arrangement: TimelineArrangement;
   title: string;
-  timestamp: number;
+  dateFormated: React.ReactNode;
   description?: string;
 }>;
 
@@ -31,7 +31,7 @@ class TimelineComp extends React.Component<Props, State> {
   state: State = {};
 
   elementId(idx: number): string {
-    return `${idx}-${this.props.events[idx].timestamp}`;
+    return `${idx}-${this.props.events[idx].dateFormated}`;
   }
 
   scrollLastIntoView(): void {
@@ -58,7 +58,7 @@ class TimelineComp extends React.Component<Props, State> {
     return (
       <div className={classes.root}>
         <div className={classes.content}>
-          {events.map(({ color, arrangement, title, timestamp, description }, idx: number) => {
+          {events.map(({ color, arrangement, title, dateFormated, description }, idx: number) => {
             const id = this.elementId(idx);
             return (
               <TimelineEvent
@@ -70,7 +70,7 @@ class TimelineComp extends React.Component<Props, State> {
                 }}
                 content={{
                   title,
-                  timestamp,
+                  dateFormatted: dateFormated,
                   description
                 }}
               />

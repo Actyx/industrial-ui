@@ -7,7 +7,7 @@ import { TimelineStatusType } from './Timeline';
 
 export type TimelineEventContent = Readonly<{
   title: string;
-  timestamp: number;
+  dateFormatted: React.ReactNode;
   description?: string;
 }>;
 

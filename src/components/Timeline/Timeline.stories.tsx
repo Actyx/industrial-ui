@@ -12,6 +12,8 @@ const COLOR_GREEN = green[500];
 const COLOR_ORANGE = orange[700];
 const COLOR_ORANGE_DARK = orange[500];
 
+const formatDate = (timestamp: number) => <>{new Date(timestamp).toLocaleString('en-US')}</>;
+
 const DESCRIPTION =
   'Misalignment, continues the paper, exists when the centre lines of two neighbouring machines deviate from each other.';
 
@@ -19,7 +21,7 @@ const BASE_PROP_EVENTS = {
   domId: '1',
   content: {
     title: 'Misalignment',
-    timestamp: 1519223596657,
+    dateFormatted: formatDate(1519223596657),
     description: DESCRIPTION
   }
 };
@@ -33,7 +35,7 @@ const baseProps: {
       color: COLOR_ORANGE,
       arrangement: 'start',
       title: 'Improper or inadequate maintenance',
-      timestamp: 1519296926000,
+      dateFormated: formatDate(1519296926000),
       description:
         'Error in machine maintenance, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla varius felis fringilla felis volutpat volutpat. Nunc felis mi, placerat vitae posuere nec, condimentum in lectus.'
     },
@@ -41,7 +43,7 @@ const baseProps: {
       color: COLOR_ORANGE,
       arrangement: 'continue',
       title: 'Assembly errors',
-      timestamp: 1519300526000,
+      dateFormated: formatDate(1519300526000),
       description:
         'Mechanical error on the assembly line, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla varius felis fringilla felis volutpat volutpat. Nunc felis mi, placerat vitae posuere nec, condimentum in lectus.'
     },
@@ -49,14 +51,14 @@ const baseProps: {
       color: COLOR_ORANGE,
       arrangement: 'end',
       title: 'Assembly errors',
-      timestamp: 1519304126000,
+      dateFormated: formatDate(1519304126000),
       description: 'Calibration error on the assembly line.'
     },
     {
       color: COLOR_GREEN,
       arrangement: 'single',
       title: 'Resolved',
-      timestamp: 1519307726000
+      dateFormated: formatDate(1519307726000)
     }
   ],
   scrollToLast: true
@@ -71,7 +73,7 @@ const intervalsProps: {
       color: COLOR_ORANGE,
       arrangement: 'start',
       title: 'Improper or inadequate maintenance',
-      timestamp: 1517448369000,
+      dateFormated: formatDate(1517448369000),
       description:
         'Error in machine maintenance, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla varius felis fringilla felis volutpat volutpat. Nunc felis mi, placerat vitae posuere nec, condimentum in lectus.'
     },
@@ -79,7 +81,7 @@ const intervalsProps: {
       color: COLOR_ORANGE,
       arrangement: 'continue',
       title: 'Assembly errors',
-      timestamp: 1517451969000,
+      dateFormated: formatDate(1517451969000),
       description:
         'Mechanical error on the assembly line, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla varius felis fringilla felis volutpat volutpat. Nunc felis mi, placerat vitae posuere nec, condimentum in lectus.'
     },
@@ -87,20 +89,20 @@ const intervalsProps: {
       color: COLOR_ORANGE,
       arrangement: 'end',
       title: 'Assembly errors',
-      timestamp: 1517455569000,
+      dateFormated: formatDate(1517455569000),
       description: 'Calibration error on the assembly line.'
     },
     {
       color: COLOR_GREEN,
       arrangement: 'single',
       title: 'Resolved',
-      timestamp: 1517459169000
+      dateFormated: formatDate(1517459169000)
     },
     {
       color: COLOR_ORANGE,
       arrangement: 'start',
       title: 'Improper or inadequate maintenance',
-      timestamp: 1517462769000,
+      dateFormated: formatDate(1517462769000),
       description:
         'Error in machine maintenance, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla varius felis fringilla felis volutpat volutpat. Nunc felis mi, placerat vitae posuere nec, condimentum in lectus.'
     },
@@ -108,26 +110,26 @@ const intervalsProps: {
       color: COLOR_ORANGE,
       arrangement: 'end',
       title: 'Assembly errors',
-      timestamp: 1517466369000,
+      dateFormated: formatDate(1517466369000),
       description: 'Calibration error on the assembly line.'
     },
     {
       color: COLOR_GREEN,
       arrangement: 'single',
       title: 'Resolved',
-      timestamp: 1517469969000
+      dateFormated: formatDate(1517469969000)
     },
     {
       color: COLOR_ORANGE,
       arrangement: 'single',
       title: 'Assembly errors',
-      timestamp: 1517473569000
+      dateFormated: formatDate(1517473569000)
     },
     {
       color: COLOR_GREEN,
       arrangement: 'single',
       title: 'Resolved',
-      timestamp: 1517477169000
+      dateFormated: formatDate(1517477169000)
     }
   ],
   scrollToLast: true
@@ -142,7 +144,7 @@ storiesOf('Components|Timeline', module)
       domId: '1',
       content: {
         title: 'Resumed',
-        timestamp: 1519297197594
+        dateFormatted: formatDate(1519297197594)
       },
       status: { color: COLOR_GREEN, arrangement: 'single' as 'single' }
     };
@@ -177,11 +179,13 @@ storiesOf('Components|Timeline', module)
     <StatusComponent color={COLOR_ORANGE_DARK} arrangement="continue" />
   ))
   .add('Part status end', () => <StatusComponent color={COLOR_ORANGE_DARK} arrangement="end" />)
-  .add('Part content base', () => <Content title="Misalignment" timestamp={1519223596657} />)
+  .add('Part content base', () => (
+    <Content title="Misalignment" dateFormatted={formatDate(1519223596657)} />
+  ))
   .add('Part content description', () => {
     const props = {
       title: 'Misalignment',
-      timestamp: 1519223596657,
+      dateFormatted: formatDate(1519223596657),
       description:
         'Misalignment, continues the paper, exists when the centre lines of two neighbouring machines deviate from each other.'
     };
