@@ -26,4 +26,7 @@ storiesOf('Components|FloatingActionButton', module)
   ))
   .add('Neutral', () => (
     <FloatingActionButton size="sm" icon="close" color="neutral" onClick={action('onClick')} />
+  ))
+  .add('Secondary', () => (
+    <FloatingActionButton size="sm" icon="close" color="secondary" onClick={action('onClick')} />
   ));
