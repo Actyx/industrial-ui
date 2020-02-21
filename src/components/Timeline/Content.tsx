@@ -8,7 +8,7 @@ type CompProps = Readonly<TimelineEventContent>;
 
 type Props = WithStyles<ClassKey> & CompProps;
 
-const ContentComp = ({ classes, title, timestamp, description }: Props) => (
+const ContentComp = ({ classes, title, dateFormatted, description }: Props) => (
   <div className={classes.root}>
     <div>
       <Typography variant="distance" bold className={classes.description}>
@@ -17,7 +17,7 @@ const ContentComp = ({ classes, title, timestamp, description }: Props) => (
     </div>
     <div>
       <Typography variant="standard" bold className={classes.description}>
-        {timestamp}
+        {dateFormatted}
       </Typography>
     </div>
     <div>
