@@ -3,12 +3,12 @@ import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 import { TimelineEvent } from './TimelineEvent';
 
+export type TimelineArrangement = 'single' | 'start' | 'continue' | 'end';
+
 export type TimelineStatusType = Readonly<{
   color: string;
   arrangement: TimelineArrangement;
 }>;
-
-export type TimelineArrangement = 'single' | 'start' | 'continue' | 'end';
 
 export type TimelineEvent = Readonly<{
   color: string;

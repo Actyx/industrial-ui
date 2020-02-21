@@ -6,8 +6,6 @@ import { TimelineEventContent } from './TimelineEvent';
 
 type CompProps = Readonly<TimelineEventContent>;
 
-type ClassKey = 'root' | 'description';
-
 type Props = WithStyles<ClassKey> & CompProps;
 
 const ContentComp = ({ classes, title, timestamp, description }: Props) => (
@@ -31,6 +29,8 @@ const ContentComp = ({ classes, title, timestamp, description }: Props) => (
     </div>
   </div>
 );
+
+type ClassKey = 'root' | 'description';
 
 const styles: StyleSheet<ClassKey> = {
   root: {
