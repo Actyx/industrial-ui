@@ -14,8 +14,6 @@ type CompProps = Readonly<{
   onTagClose?: (tagId: string) => void;
 }>;
 
-type ClassKey = 'root' | 'content' | 'bar';
-
 type Props = WithStyles<ClassKey> & CompProps;
 
 const NavigationalTagsComp = ({ classes, tags, onTagClose }: Props) => (
@@ -41,6 +39,9 @@ const NavigationalTagsComp = ({ classes, tags, onTagClose }: Props) => (
     </div>
   </div>
 );
+
+type ClassKey = 'root' | 'content' | 'bar';
+
 const styles: StyleSheet<ClassKey, CompProps> = {
   root: {
     position: 'relative'
