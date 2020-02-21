@@ -16,8 +16,6 @@ type CompProps = Readonly<{
   onItemSelect: (item: HorizontallyScrollableListItem) => void;
 }>;
 
-type ClassKey = 'root' | 'itemContainer' | 'item';
-
 type Props = WithStyles<ClassKey> & CompProps;
 
 const HorizontallyScrollableListComp = ({ classes, items, onItemSelect, rows }: Props) => {
@@ -70,7 +68,10 @@ const HorizontallyScrollableListComp = ({ classes, items, onItemSelect, rows }: 
   );
 };
 
+type ClassKey = 'root' | 'itemContainer' | 'item';
+
 const borderWidth = 1;
+
 const styles: StyleSheet<ClassKey> = {
   root: {
     overflowY: 'hidden',
