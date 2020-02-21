@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { ClearableInput } from '../ClearableInput';
-import { DECIMAL_IDENTIFIER, Keypad, MINUS_IDENTIFIER } from './Keypad';
+import { Keypad } from './Keypad';
 
 type Props = Readonly<{
   className?: string;
@@ -11,6 +11,9 @@ type Props = Readonly<{
   hideNegative?: boolean;
   onChange: (value: number) => void;
 }>;
+
+export const DECIMAL_IDENTIFIER = '.';
+export const MINUS_IDENTIFIER = '-';
 
 const handleSubsequentSeparator = (separator: string) => (currentValue: string, newValue: string) =>
   currentValue.includes(separator) && newValue.includes(separator)
