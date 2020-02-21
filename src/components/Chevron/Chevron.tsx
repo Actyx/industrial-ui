@@ -6,13 +6,13 @@ import { compose, setDisplayName } from 'recompose';
 import { MUIcon } from '../MUIcon';
 import { mkTransitionStyles, mkDefaultStyles } from './utility';
 
-const ANIMATION_DURATION = 140;
+export type ChevronSize = 'md' | 'sm';
 
-export type ChevronType = 'up-down' | 'right-down';
+export type ChevronType = 'upDown' | 'rightDown';
 
 type CompProps = Readonly<{
   className?: string;
-  variant?: 'standard' | 'small';
+  size?: ChevronSize;
   type?: ChevronType;
   down?: boolean;
   animation?: boolean;
@@ -21,36 +21,40 @@ type CompProps = Readonly<{
 
 type Props = WithStyles<ClassKey> & CompProps;
 
+const ANIMATION_DURATION = 140;
+
 const ChevronComp = ({
   classes,
   className,
   down,
-  type = 'up-down',
+  type = 'upDown',
   animation = true,
   onSelect,
-  variant = 'standard'
+  size = 'md'
 }: Props) => {
   const duration = animation ? ANIMATION_DURATION : 0;
   const transitionStyles = mkTransitionStyles(type);
   const defaultStyles = mkDefaultStyles(type);
+  const iconFontSize = size === 'sm' ? 35 : 45;
   return (
     <Transition in={!!down} timeout={duration}>
       {state => (
         <div
-          className={classNames(classes.root, className, classes[variant])}
+          className={classNames(classes.root, className, classes[size])}
           style={{
             ...defaultStyles(duration),
             ...transitionStyles[state]
           }}
           onClick={onSelect}
         >
-          <MUIcon fontSize={35} type="keyboard_arrow_up" />
+          <MUIcon fontSize={iconFontSize} type="keyboard_arrow_up" />
         </div>
       )}
     </Transition>
   );
 };
-type ClassKey = 'root' | 'standard' | 'small';
+
+type ClassKey = 'root' | 'md' | 'sm';
 
 const styles: StyleSheet<ClassKey> = {
   root: {
@@ -59,11 +63,11 @@ const styles: StyleSheet<ClassKey> = {
     alignItems: 'center',
     userSelect: 'none'
   },
-  standard: {
+  md: {
     width: 80,
     height: 80
   },
-  small: {
+  sm: {
     width: 60,
     height: 60
   }

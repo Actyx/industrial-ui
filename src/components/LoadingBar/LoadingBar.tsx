@@ -4,11 +4,11 @@ import { compose, setDisplayName } from 'recompose';
 
 type CompProps = Readonly<{}>;
 
-type ClassKey = 'root' | '@keyframes scrolling';
-
 type Props = WithStyles<ClassKey> & CompProps;
 
-const RunningBarComp = ({ classes }: Props) => <div className={classes.root} />;
+const LoadingBarComp = ({ classes }: Props) => <div className={classes.root} />;
+
+type ClassKey = 'root' | '@keyframes scrolling';
 
 const styles: StyleSheet<ClassKey> = {
   root: {
@@ -32,7 +32,7 @@ const styles: StyleSheet<ClassKey> = {
   }
 };
 
-export const RunningBar = compose<Props, CompProps>(
-  setDisplayName('RunningBar'),
+export const LoadingBar = compose<Props, CompProps>(
+  setDisplayName('LoadingBar'),
   injectSheet(styles)
-)(RunningBarComp);
+)(LoadingBarComp);

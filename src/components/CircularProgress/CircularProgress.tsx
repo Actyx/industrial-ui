@@ -4,15 +4,10 @@ import * as React from 'react';
 import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 
-const SIZE_MD = 60;
-const SIZE_SM = 40;
-const COLOR_TRACK = theme.palette.grey[400];
-const COLOR_INDICATOR = theme.palette.primary.main;
-
-export type CircularProgressVariant = 'sm' | 'md';
+export type CircularProgressSize = 'sm' | 'md';
 
 type CompProps = Readonly<{
-  variant: CircularProgressVariant;
+  size: CircularProgressSize;
   colorIndicator?: string;
   colorTrack?: string;
   className?: string;
@@ -20,19 +15,18 @@ type CompProps = Readonly<{
 
 type Props = WithStyles<ClassKey> & CompProps;
 
-const CircularProgressComp = ({
-  classes,
-  variant,
-  colorIndicator,
-  colorTrack,
-  className
-}: Props) => (
+const SIZE_MD = 60;
+const SIZE_SM = 40;
+const COLOR_TRACK = theme.palette.grey[400];
+const COLOR_INDICATOR = theme.palette.primary.main;
+
+const CircularProgressComp = ({ classes, size, colorIndicator, colorTrack, className }: Props) => (
   <div
     style={{
       borderColor: colorTrack,
       borderTopColor: colorIndicator
     }}
-    className={classNames(classes.root, variant === 'md' ? classes.md : classes.sm, className)}
+    className={classNames(classes.root, size === 'md' ? classes.md : classes.sm, className)}
   />
 );
 

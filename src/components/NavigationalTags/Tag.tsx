@@ -10,11 +10,7 @@ type CompProps = Readonly<{
   onClose: () => void;
 }>;
 
-type ClassKey = 'root' | 'shape' | 'shapeSeparator' | 'content' | 'icon' | 'name';
-
 type Props = WithStyles<ClassKey> & CompProps;
-
-export const COLOR_TAG = theme.palette.grey[500];
 
 const TagComp = ({ classes, name, onClose }: Props) => (
   <div className={classes.root} onClick={onClose}>
@@ -40,6 +36,10 @@ const TagComp = ({ classes, name, onClose }: Props) => (
     </div>
   </div>
 );
+
+type ClassKey = 'root' | 'shape' | 'shapeSeparator' | 'content' | 'icon' | 'name';
+
+export const COLOR_TAG = theme.palette.grey[500];
 
 const styles: StyleSheet<ClassKey> = {
   root: {

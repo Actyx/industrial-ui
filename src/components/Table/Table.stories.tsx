@@ -1,7 +1,7 @@
 import { storiesOf } from '@storybook/react';
 import { hostDecorator } from '../../utils';
 import * as React from 'react';
-import { Typography, Variant } from '../Typography';
+import { Typography, TypographyVariant } from '../Typography';
 import { Table } from './Table';
 import { TableBody } from './TableBody';
 import { TableCell } from './TableCell';
@@ -31,7 +31,7 @@ const content = (
 
 const createTableCell = (
   children: React.ReactNode,
-  variant: Variant,
+  variant: TypographyVariant,
   dark: boolean,
   numeric = false,
   idx: number
@@ -56,7 +56,7 @@ const dataBody: DataTable = [
   ['Machine Cleaning: PQR 1 of 3', 'Tony Tesla', 'Finished', '10']
 ];
 
-const createRows = (dataRow: DataTable, variant: Variant = 'standard', dark = false) => (
+const createRows = (dataRow: DataTable, variant: TypographyVariant = 'standard', dark = false) => (
   <>
     {dataRow.map((row, rIdx: number) => (
       <TableRow key={rIdx} active={rIdx === 1}>

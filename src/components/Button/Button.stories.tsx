@@ -71,6 +71,18 @@ storiesOf('Components|Button', module)
       onClick={action('onClick')}
     />
   ))
+  .add('Raised grey icon text', () => (
+    <Button
+      variant="raised"
+      color="grey"
+      icon="assignment"
+      text="Button"
+      onClick={action('onClick')}
+    />
+  ))
+  .add('Raised neutral short text', () => (
+    <Button variant="raised" color="neutral" text="+1" onClick={action('onClick')} />
+  ))
   .add('Disabled', () => (
     <Button
       variant="raised"
@@ -118,9 +130,7 @@ storiesOf('Components|Button', module)
       onClick={action('onClick')}
     />
   ))
-  .add('Raised neutral short text', () => (
-    <Button variant="raised" color="neutral" text="+1" onClick={action('onClick')} />
-  ))
+
   .add('Raised primary no wrap', () => (
     <div style={{ width: 100 }}>
       <Button
@@ -136,7 +146,7 @@ storiesOf('Components|Button', module)
   .add('Knobs', () => {
     const colorKnob = object('Props', {
       variant: 'flat' as 'flat',
-      color: 'light200' as 'light200',
+      color: 'grey' as 'grey',
       icon: 'person',
       text: 'Add User',
       disabled: false,

@@ -21,8 +21,6 @@ type CompProps = Readonly<{
   onChange?: (e: React.ChangeEvent<HTMLTextAreaElement>) => void;
 }>;
 
-type ClassKey = 'root' | 'fullWidth' | 'error';
-
 type Props = WithStyles<ClassKey> & CompProps;
 
 class TextAreaComp extends React.Component<Props, {}> {
@@ -79,6 +77,8 @@ class TextAreaComp extends React.Component<Props, {}> {
     );
   }
 }
+
+type ClassKey = 'root' | 'fullWidth' | 'error';
 
 const inputReset = {
   outline: 'none',

@@ -16,8 +16,6 @@ type CompProps = Readonly<{
   handleClose: () => void;
 }>;
 
-type ClassKey = 'root';
-
 type Props = WithStyles<ClassKey> & CompProps;
 
 const ListComp = ({ classes, items, handleClose }: Props) => (
@@ -37,6 +35,8 @@ const ListComp = ({ classes, items, handleClose }: Props) => (
     ))}
   </div>
 );
+
+type ClassKey = 'root';
 
 const styles: StyleSheet<ClassKey> = {
   root: {

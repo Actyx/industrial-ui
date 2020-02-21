@@ -8,13 +8,13 @@ type CompProps = Readonly<{
   className?: string;
 }>;
 
-type ClassKey = 'root';
-
 type Props = WithStyles<ClassKey> & CompProps;
 
 const DividerComp = ({ classes, className }: Props) => (
   <hr className={classNames(classes.root, className)} />
 );
+
+type ClassKey = 'root';
 
 const styles: StyleSheet<ClassKey> = {
   root: {

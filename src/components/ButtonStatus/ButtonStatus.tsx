@@ -8,7 +8,6 @@ import { Typography } from '../Typography';
 import { MUIcon } from '../MUIcon';
 
 type CompProps = Readonly<{
-  domId?: string;
   className?: string;
   selected: boolean;
   text: React.ReactNode;
@@ -18,8 +17,8 @@ type CompProps = Readonly<{
 
 type Props = WithStyles<ClassKey> & CompProps;
 
-const ButtonStatusComp = ({ classes, className, domId, selected, text, icon, onSelect }: Props) => (
-  <div id={domId} className={classNames(classes.root, className)}>
+const ButtonStatusComp = ({ classes, className, selected, text, icon, onSelect }: Props) => (
+  <div className={classNames(classes.root, className)}>
     <TouchRipple
       className={classNames(
         classes.button,

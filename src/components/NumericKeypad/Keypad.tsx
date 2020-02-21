@@ -4,9 +4,6 @@ import { compose, setDisplayName } from 'recompose';
 import { ButtonCircular } from '../ButtonCircular/ButtonCircular';
 import { range } from '../../utils';
 
-export const DECIMAL_IDENTIFIER = '.';
-export const MINUS_IDENTIFIER = '-';
-
 type OnNumberSelect = (value: number) => void;
 
 type CompProps = Readonly<{

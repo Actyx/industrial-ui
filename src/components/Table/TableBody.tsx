@@ -6,13 +6,13 @@ type CompProps = Readonly<{
   children: React.ReactNode;
 }>;
 
-type ClassKey = 'tableBody';
-
 type Props = WithStyles<ClassKey> & CompProps;
 
 const TableBodyComp = ({ classes, children }: Props) => (
   <tbody className={classes.tableBody}>{children}</tbody>
 );
+
+type ClassKey = 'tableBody';
 
 const styles: StyleSheet<ClassKey, CompProps> = {
   tableBody: {}

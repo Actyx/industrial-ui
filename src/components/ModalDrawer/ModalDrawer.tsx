@@ -8,6 +8,17 @@ import { compose, setDisplayName } from 'recompose';
 import { Header } from './Header';
 import { List, ListItem } from './List';
 
+type CompProps = Readonly<{
+  open: boolean;
+  headerMain: React.ReactNode;
+  headerIcon?: React.ReactNode;
+  listMain: ReadonlyArray<ListItem>;
+  listSub: ReadonlyArray<ListItem>;
+  handleClose: () => void;
+}>;
+
+type Props = WithStyles<ClassKey> & CompProps;
+
 const ANIMATION_DURATION = 150;
 const DRAWER_WIDTH = 500;
 
@@ -24,17 +35,6 @@ const transitionStyles = {
     transform: 'none'
   }
 };
-
-type CompProps = Readonly<{
-  open: boolean;
-  headerMain: React.ReactNode;
-  headerIcon?: React.ReactNode;
-  listMain: ReadonlyArray<ListItem>;
-  listSub: ReadonlyArray<ListItem>;
-  handleClose: () => void;
-}>;
-
-type Props = WithStyles<ClassKey> & CompProps;
 
 const ModalDrawerComp = ({
   classes,

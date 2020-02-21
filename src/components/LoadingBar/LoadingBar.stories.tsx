@@ -1,13 +1,13 @@
 import { storiesOf } from '@storybook/react';
 import { hostDecorator } from '../../utils';
 import * as React from 'react';
-import { RunningBar } from './RunningBar';
+import { LoadingBar } from './LoadingBar';
 
-storiesOf('Components|RunningBar', module)
+storiesOf('Components|LoadingBar', module)
   .addDecorator(hostDecorator({}))
-  .add('Base', () => <RunningBar />)
+  .add('Base', () => <LoadingBar />)
   .add('Fixed width', () => (
     <div style={{ width: 100 }}>
-      <RunningBar />
+      <LoadingBar />
     </div>
   ));

@@ -6,10 +6,10 @@ import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 
 type CompProps = Readonly<{
+  className?: string;
   header?: React.ReactNode;
   content: React.ReactNode;
   footer?: React.ReactNode;
-  className?: string;
   onClose: () => void;
 }>;
 

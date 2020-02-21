@@ -4,6 +4,13 @@ import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import Transition from 'react-transition-group/Transition';
 import { compose, setDisplayName } from 'recompose';
 
+type CompProps = Readonly<{
+  open: boolean;
+  onClose: () => void;
+}>;
+
+type Props = WithStyles<ClassKey> & CompProps;
+
 const ANIMATION_DURATION = 150;
 
 const defaultStyle = {
@@ -20,15 +27,6 @@ const transitionStyles = {
   }
 };
 
-type CompProps = Readonly<{
-  open: boolean;
-  onClose: () => void;
-}>;
-
-type ClassKey = 'root';
-
-type Props = WithStyles<ClassKey> & CompProps;
-
 const ScrimComp = ({ classes, open, onClose }: Props) => (
   <Transition in={open} timeout={ANIMATION_DURATION}>
     {state => (
@@ -43,6 +41,8 @@ const ScrimComp = ({ classes, open, onClose }: Props) => (
     )}
   </Transition>
 );
+
+type ClassKey = 'root';
 
 const styles: StyleSheet<ClassKey> = {
   root: {

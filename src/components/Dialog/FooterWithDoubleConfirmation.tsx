@@ -6,9 +6,26 @@ import { Transition } from 'react-transition-group';
 import { compose, setDisplayName } from 'recompose';
 
 export enum FooterWithDoubleConfirmationMode {
-  Normal = 'normal',
-  Confirmation = 'confirmation'
+  Normal = 'Normal',
+  Confirmation = 'Confirmation'
 }
+
+type CompProps = Readonly<{
+  valid: boolean;
+  mode: FooterWithDoubleConfirmationMode;
+  cancelMessage?: React.ReactNode;
+  confirmMessage: React.ReactNode;
+  yesMessage?: React.ReactNode;
+  noMessage?: React.ReactNode;
+  message: React.ReactNode;
+  enableCancel?: boolean;
+  onCancel: () => void;
+  onConfirm: () => void;
+  onSelectNo: () => void;
+  onSelectYes: () => void;
+}>;
+
+type Props = WithStyles<ClassKey> & CompProps;
 
 const ANIMATION_DURATION = 150;
 const MASK_HEIGHT = 85;
@@ -22,23 +39,6 @@ const transitionStyles = {
     transform: `translateY(-${MASK_HEIGHT}px)`
   }
 };
-
-type CompProps = Readonly<{
-  valid: boolean;
-  mode: FooterWithDoubleConfirmationMode;
-  cancelMessage?: string;
-  confirmMessage: string;
-  yesMessage?: string;
-  noMessage?: string;
-  message: string;
-  enableCancel?: boolean;
-  onCancel: () => void;
-  onConfirm: () => void;
-  onSelectNo: () => void;
-  onSelectYes: () => void;
-}>;
-
-type Props = WithStyles<ClassKey> & CompProps;
 
 const FooterWithDoubleConfirmationComp = ({
   classes,
@@ -91,11 +91,11 @@ const FooterWithDoubleConfirmationComp = ({
             <Typography variant="distance" bold>
               {message}
             </Typography>
-            <Button variant="raised" text={message} color="light200" onClick={onSelectNo} />
+            <Button variant="raised" text={message} color="grey" onClick={onSelectNo} />
             <Button
               variant="raised"
               text={yesMessage ? yesMessage : noMessage}
-              color="light200"
+              color="grey"
               onClick={onSelectYes}
             />
           </div>

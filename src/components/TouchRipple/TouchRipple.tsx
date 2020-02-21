@@ -3,14 +3,12 @@ import * as React from 'react';
 import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 
-const ANIMATION_DURATION = 500;
-
 type CompProps = Readonly<{
   children: React.ReactNode;
   className?: string;
   disabled?: boolean;
-  onClick?: (ev: React.MouseEvent<HTMLElement>) => void;
   style?: React.CSSProperties;
+  onClick?: (ev: React.MouseEvent<HTMLElement>) => void;
 }>;
 
 type Props = WithStyles<ClassKey> & CompProps;
@@ -29,6 +27,8 @@ const TouchRippleComp = ({ classes, children, disabled, className, onClick, styl
 );
 
 type ClassKey = 'root' | 'disabled';
+
+const ANIMATION_DURATION = 500;
 
 const styles: StyleSheet<ClassKey> = {
   root: {

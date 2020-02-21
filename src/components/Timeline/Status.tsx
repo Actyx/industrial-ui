@@ -5,8 +5,6 @@ import { TimelineArrangement, TimelineStatusType } from './Timeline';
 
 type CompProps = Readonly<TimelineStatusType>;
 
-type ClassKey = 'root' | 'lineWrapper' | 'line' | 'circleWrapper' | 'circle';
-
 type Props = WithStyles<ClassKey> & CompProps;
 
 const lineWrapperStyles: Record<TimelineArrangement, React.CSSProperties> = {
@@ -36,7 +34,9 @@ const StatusComp = ({ classes, color, arrangement }: Props) => (
   </div>
 );
 
-const circleSize = 16;
+type ClassKey = 'root' | 'lineWrapper' | 'line' | 'circleWrapper' | 'circle';
+
+const CIRCLE_SIZE = 16;
 
 const styles: StyleSheet<ClassKey> = {
   root: {},
@@ -59,9 +59,9 @@ const styles: StyleSheet<ClassKey> = {
     paddingTop: 8
   },
   circle: {
-    width: circleSize,
-    height: circleSize,
-    borderRadius: circleSize / 2
+    width: CIRCLE_SIZE,
+    height: CIRCLE_SIZE,
+    borderRadius: CIRCLE_SIZE / 2
   }
 };
 

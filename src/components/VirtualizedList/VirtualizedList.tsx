@@ -27,7 +27,7 @@ export function VirtualizedList<T>({
   setRowClassName,
   isRowSelected,
   calcRowHeight
-}: Props<T>): JSX.Element {
+}: Props<T>) {
   const renderItem: React.FunctionComponent<ListChildComponentProps> = ({
     index,
     style

@@ -6,8 +6,8 @@ import { compose, setDisplayName } from 'recompose';
 import { PaginationDots } from '../PaginationDots';
 
 type CompProps = Readonly<{
-  children: React.ReactNode;
   className?: string;
+  children: React.ReactNode;
   defaultActiveViewIndex?: number;
 }>;
 

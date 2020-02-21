@@ -13,7 +13,8 @@ import {
   lightGreen,
   red,
   yellow,
-  brown
+  brown,
+  pink
 } from '../colors';
 
 // Inspired from:
@@ -27,6 +28,12 @@ const createTheme = () => {
         light: lightBlue[200],
         main: lightBlue[500],
         dark: blueGrey[900],
+        contrastText: common.white
+      },
+      secondary: {
+        light: pink.A200,
+        main: pink.A400,
+        dark: pink.A700,
         contrastText: common.white
       },
       grey,

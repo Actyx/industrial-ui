@@ -26,7 +26,7 @@ export * from './MUIcon';
 export * from './NavigationalTags';
 export * from './NumericKeypad';
 export * from './RadioButton';
-export * from './RunningBar';
+export * from './LoadingBar';
 export * from './Scrim';
 export * from './Search';
 export * from './SignalCircular';

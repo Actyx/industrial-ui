@@ -14,6 +14,12 @@ type CompProps = Readonly<{
   size: SignalCircularSize;
 }>;
 
+type Props = WithStyles<ClassKey> & CompProps;
+
+const SignalCircularComp = ({ className, classes, color, size }: Props) => (
+  <div className={classNames(classes.root, classes[color], classes[size], className)} />
+);
+
 type ClassKey =
   | 'root'
   | 'xs'
@@ -25,12 +31,6 @@ type ClassKey =
   | 'green'
   | 'lightGrey'
   | 'darkGrey';
-
-type Props = WithStyles<ClassKey> & CompProps;
-
-const SignalCircularComp = ({ className, classes, color, size }: Props) => (
-  <div className={classNames(classes.root, classes[color], classes[size], className)} />
-);
 
 const styles: StyleSheet<ClassKey> = {
   root: {},

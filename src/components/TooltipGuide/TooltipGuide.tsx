@@ -10,16 +10,6 @@ type CompProps = Readonly<{
   content: React.ReactNode;
 }>;
 
-type ClassKey =
-  | 'root'
-  | 'box'
-  | 'boxShadow'
-  | 'arch'
-  | 'archContainer'
-  | 'icon'
-  | 'neutral'
-  | 'content';
-
 type Props = WithStyles<ClassKey> & CompProps;
 
 const TooltipGuideComp = ({ classes, content }: Props) => (
@@ -38,6 +28,16 @@ const TooltipGuideComp = ({ classes, content }: Props) => (
     <div className={classes.boxShadow} />
   </div>
 );
+
+type ClassKey =
+  | 'root'
+  | 'box'
+  | 'boxShadow'
+  | 'arch'
+  | 'archContainer'
+  | 'icon'
+  | 'neutral'
+  | 'content';
 
 const box: React.CSSProperties = {
   position: 'absolute',
@@ -76,7 +76,7 @@ const styles: StyleSheet<ClassKey> = {
   },
   icon: {
     position: 'absolute',
-    zIndex: 1 // FIXME remove it if possible
+    zIndex: 1
   },
   neutral: {
     color: theme.palette.grey[900]

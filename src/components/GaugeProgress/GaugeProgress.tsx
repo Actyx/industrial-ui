@@ -4,10 +4,7 @@ import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 import { RADIUS, CIRCUMFERENCE, calcDashoffset, renderTextValueMax4Digits } from './utility';
 
-export enum GaugeProgressColor {
-  Blue = 'blue',
-  Green = 'green'
-}
+type GaugeProgressColor = 'blue' | 'green';
 
 type CompProps = Readonly<{
   color: GaugeProgressColor;

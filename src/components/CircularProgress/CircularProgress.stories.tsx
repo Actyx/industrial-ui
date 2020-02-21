@@ -6,8 +6,8 @@ import { common, red } from '../../colors';
 
 storiesOf('Components|CircularProgress', module)
   .addDecorator(hostDecorator())
-  .add('Variant sm', () => <CircularProgress variant="sm" />)
-  .add('Variant md', () => <CircularProgress variant="md" />)
+  .add('Variant sm', () => <CircularProgress size="sm" />)
+  .add('Variant md', () => <CircularProgress size="md" />)
   .add('Color', () => (
-    <CircularProgress variant="md" colorIndicator={red[500]} colorTrack={common.black} />
+    <CircularProgress size="md" colorIndicator={red[500]} colorTrack={common.black} />
   ));

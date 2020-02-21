@@ -17,8 +17,6 @@ type CompProps = Readonly<{
   content: TimelineEventContent;
 }>;
 
-type ClassKey = 'root' | 'status' | 'content';
-
 type Props = WithStyles<ClassKey> & CompProps;
 
 const TimelineEventComp = ({ classes, domId, status, content }: Props) => (
@@ -31,6 +29,8 @@ const TimelineEventComp = ({ classes, domId, status, content }: Props) => (
     </div>
   </div>
 );
+
+type ClassKey = 'root' | 'status' | 'content';
 
 const styles: StyleSheet<ClassKey> = {
   root: {

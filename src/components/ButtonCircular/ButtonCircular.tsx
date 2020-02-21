@@ -17,10 +17,6 @@ type CompProps = Readonly<{
   onSelect: () => void;
 }>;
 
-type ClassKey = 'neutral' | 'primary' | 'button';
-
-const SIZE = 80;
-
 type Props = WithStyles<ClassKey> & CompProps;
 
 const ButtonCircularComp = ({ className, classes, value, icon, color, onSelect }: Props) => (
@@ -37,6 +33,8 @@ const ButtonCircularComp = ({ className, classes, value, icon, color, onSelect }
   </div>
 );
 
+const SIZE = 80;
+
 const borderRadius = SIZE / 2;
 
 const button = {
@@ -45,6 +43,8 @@ const button = {
   boxShadow: theme.shadow.xs,
   borderRadius
 };
+
+type ClassKey = 'neutral' | 'primary' | 'button';
 
 const styles: StyleSheet<ClassKey> = {
   neutral: {
@@ -72,6 +72,6 @@ const styles: StyleSheet<ClassKey> = {
 };
 
 export const ButtonCircular = compose<Props, CompProps>(
-  setDisplayName('Button'),
+  setDisplayName('ButtonCircular'),
   injectSheet(styles)
 )(ButtonCircularComp);

@@ -9,8 +9,6 @@ type CompProps = Readonly<{
   icon?: React.ReactNode;
 }>;
 
-type ClassKey = 'root' | 'main';
-
 type Props = WithStyles<ClassKey> & CompProps;
 
 const HeaderComp = ({ classes, main, icon }: Props) => (
@@ -23,6 +21,8 @@ const HeaderComp = ({ classes, main, icon }: Props) => (
     {icon}
   </div>
 );
+
+type ClassKey = 'root' | 'main';
 
 const styles: StyleSheet<ClassKey> = {
   root: {

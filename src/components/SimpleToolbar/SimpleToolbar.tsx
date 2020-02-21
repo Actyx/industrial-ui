@@ -8,9 +8,13 @@ import { MUIcon } from '../MUIcon';
 import { Toolbar } from '../Toolbar';
 import { TouchRipple } from '../TouchRipple';
 
-export type SimpleToolbarToolbarIcon = Readonly<{
+export type SimpleToolbarVariant = 'light' | 'dark';
+
+export type SimpleToolbarType = 'button' | 'submit' | 'reset';
+
+export type SimpleToolbarIcon = Readonly<{
   icon: string;
-  type?: 'button' | 'submit' | 'reset';
+  type?: SimpleToolbarType;
   onClick?: () => void;
 }>;
 
@@ -19,13 +23,11 @@ export type SimpleToolbarRightComponent = Readonly<{
   onClick?: () => void;
 }>;
 
-export type SimpleToolbarVariant = 'light' | 'dark';
-
 type CompProps = Readonly<{
   variant: SimpleToolbarVariant;
   title: React.ReactNode;
-  leftIcon?: SimpleToolbarToolbarIcon;
-  rightIcon?: SimpleToolbarToolbarIcon;
+  leftIcon?: SimpleToolbarIcon;
+  rightIcon?: SimpleToolbarIcon;
   centerComponent?: React.ReactNode;
   rightComponent?: SimpleToolbarRightComponent;
 }>;
@@ -36,7 +38,7 @@ const COLOR_WHITE = theme.palette.common.white;
 const COLOR_DARK = theme.palette.primary.dark;
 
 const renderIcon = (
-  btn: SimpleToolbarToolbarIcon,
+  btn: SimpleToolbarIcon,
   classes: Record<ClassKey, string>,
   variant: SimpleToolbarVariant
 ) => (

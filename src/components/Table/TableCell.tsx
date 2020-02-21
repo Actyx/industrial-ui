@@ -11,8 +11,6 @@ type CompProps = Readonly<{
   cellType?: string;
 }>;
 
-type ClassKey = 'tableCell' | 'numeric';
-
 type Props = WithStyles<ClassKey> & CompProps;
 
 const TableCellComp = ({ classes, className, children, numeric, style, cellType }: Props) => (
@@ -24,6 +22,8 @@ const TableCellComp = ({ classes, className, children, numeric, style, cellType 
     {children}
   </td>
 );
+
+type ClassKey = 'tableCell' | 'numeric';
 
 const styles: StyleSheet<ClassKey> = {
   tableCell: {
