@@ -8,8 +8,8 @@ import { compose, setDisplayName } from 'recompose';
 type CompProps = Readonly<{
   tabs: ReadonlyArray<React.ReactNode>;
   selected: number;
-  onSelect: (tabIdx: number) => void;
   children: React.ReactNode;
+  onSelect: (tabIdx: number) => void;
 }>;
 
 type Props = WithStyles<ClassKey> & CompProps;
@@ -40,7 +40,6 @@ const styles: StyleSheet<ClassKey> = {
   root: {
     height: '100%',
     width: '100%',
-    // TODO: CSS layout rules have to be reevaluated
     display: 'flex',
     flexDirection: 'column'
   },
