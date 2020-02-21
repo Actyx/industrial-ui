@@ -1,20 +1,14 @@
 import * as React from 'react';
-import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
-import { compose, setDisplayName } from 'recompose';
 import RDatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import { DatePickerInput } from './DatePickerInput';
 
-type CompProps = Readonly<{
+type Props = Readonly<{
   value?: Date;
   onChange: (e: Date) => void;
 }>;
 
-type ClassKey = 'root';
-
-type Props = WithStyles<ClassKey> & CompProps;
-
-const DatePickerComp = ({ classes, value, onChange }: Props) => {
+export const DatePicker = ({ value, onChange }: Props) => {
   const [date, setDate] = React.useState(value === undefined ? null : value);
 
   const handleOnChange = (x: Date) => {
@@ -23,7 +17,7 @@ const DatePickerComp = ({ classes, value, onChange }: Props) => {
   };
 
   return (
-    <div className={classes.root}>
+    <div>
       <RDatePicker
         selected={date}
         onChange={handleOnChange}
@@ -38,12 +32,3 @@ const DatePickerComp = ({ classes, value, onChange }: Props) => {
     </div>
   );
 };
-
-const styles: StyleSheet<ClassKey> = {
-  root: {}
-};
-
-export const DatePicker = compose<Props, CompProps>(
-  setDisplayName('DatePicker'),
-  injectSheet(styles)
-)(DatePickerComp);
