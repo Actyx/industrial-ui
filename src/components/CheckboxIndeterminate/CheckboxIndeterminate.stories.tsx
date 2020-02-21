@@ -11,7 +11,7 @@ import {
 const state: CheckboxIndeterminateState = 'unchecked';
 const color: CheckboxIndeterminateColor = 'neutral';
 
-const props = {
+const baseProps = {
   state,
   color,
   onClick: action('onChange')
@@ -19,8 +19,8 @@ const props = {
 
 storiesOf('Components|CheckboxIndeterminate', module)
   .addDecorator(hostDecorator())
-  .add('Indeterminate', () => <CheckboxIndeterminate {...props} state={'indeterminate'} />)
-  .add('Unchecked', () => <CheckboxIndeterminate {...props} />)
-  .add('Checked', () => <CheckboxIndeterminate {...props} state={'checked'} />)
-  .add('Disabled', () => <CheckboxIndeterminate {...props} disabled />)
-  .add('Primary unchecked', () => <CheckboxIndeterminate {...props} color="primary" />);
+  .add('Indeterminate', () => <CheckboxIndeterminate {...baseProps} state={'indeterminate'} />)
+  .add('Unchecked', () => <CheckboxIndeterminate {...baseProps} />)
+  .add('Checked', () => <CheckboxIndeterminate {...baseProps} state={'checked'} />)
+  .add('Disabled', () => <CheckboxIndeterminate {...baseProps} disabled />)
+  .add('Primary unchecked', () => <CheckboxIndeterminate {...baseProps} color="primary" />);
