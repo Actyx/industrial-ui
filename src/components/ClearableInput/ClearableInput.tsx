@@ -89,7 +89,6 @@ const styles: StyleSheet<ClassKey> = {
   },
   searchField: {
     borderBottom: 'none',
-    marginLeft: 10,
     '&:focus': {
       borderBottom: 'none'
     }
@@ -100,6 +99,7 @@ const styles: StyleSheet<ClassKey> = {
     padding: 3
   },
   icon: {
+    marginLeft: 8,
     width: 40,
     height: 40
   }
