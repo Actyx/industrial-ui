@@ -1,10 +1,12 @@
 import { getColorFromLevel, getColorFromVariant, getWidthFromLevel } from './utility';
+import { orange, lightGreen, red, common } from '../../colors';
 
-const COLOR_GREEN = '#22dd55';
-const COLOR_ORANGE = '#ff9900';
-const COLOR_RED = '#e16464';
-const COLOR_WHITE = '#ffffff';
-const COLOR_BLACK = '#000000';
+const COLOR_GREEN = lightGreen.A700;
+const COLOR_ORANGE = orange[500];
+
+const COLOR_RED = red[300];
+const COLOR_WHITE = common.white;
+const COLOR_BLACK = common.black;
 
 describe('BatteryIcon', () => {
   describe('getColotFromLevel', () => {
