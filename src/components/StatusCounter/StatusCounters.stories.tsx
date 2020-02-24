@@ -12,11 +12,7 @@ const ex2 = [unknown, requested];
 const ex3 = [ready, unknown, requested];
 
 storiesOf('Components|StatusCounters', module)
-  .addDecorator(
-    hostDecorator({
-      width: 500
-    })
-  )
+  .addDecorator(hostDecorator())
   .add('One counter', () => <StatusCounters counters={ex1} />)
   .add('Two counters', () => <StatusCounters counters={ex2} />)
   .add('Tree counters', () => <StatusCounters counters={ex3} />)
