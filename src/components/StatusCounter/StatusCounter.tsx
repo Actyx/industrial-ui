@@ -26,6 +26,7 @@ type ClassKey = 'root' | StatusVariant;
 const styles: StyleSheet<ClassKey, CompProps> = {
   root: {
     height: 25,
+    minWidth: 45,
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
