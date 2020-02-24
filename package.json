@@ -31,7 +31,7 @@
     "widgets"
   ],
   "scripts": {
-    "clear": "rimraf ./dist",
+    "clear": "rimraf ./dist ./coverage",
     "tsc": "tsc",
     "tsc:watch": "tsc --watch --pretty",
     "lint": "tsc & eslint './src/**/*.{js,ts,tsx}' & prettier './src/**/*.{js,ts,tsx}' --check",
@@ -39,6 +39,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "test": "TZ=UTC jest",
+    "test:no-coverage": "TZ=UTC jest --coverage=false",
     "test:watch": "TZ=UTC jest --coverage=false --watch"
   },
   "repository": {
