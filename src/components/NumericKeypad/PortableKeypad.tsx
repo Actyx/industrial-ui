@@ -31,7 +31,7 @@ const transitionStyles = {
   }
 };
 
-const LateralKeypadComp = ({ classes, open, onChange, onDeleteSelect }: Props) => (
+const PortableKeypadComp = ({ classes, open, onChange, onDeleteSelect }: Props) => (
   <Transition in={open} timeout={ANIMATION_DURATION}>
     {state => (
       <div
@@ -72,7 +72,7 @@ const styles: StyleSheet<ClassKey, OuterProps> = {
   }
 };
 
-export const LateralKeypad = compose<Props, OuterProps>(
-  setDisplayName('LateralKeypad'),
+export const PortableKeypad = compose<Props, OuterProps>(
+  setDisplayName('PortableKeypad'),
   injectSheet(styles)
-)(LateralKeypadComp);
+)(PortableKeypadComp);

@@ -2,7 +2,7 @@ import { action } from '@storybook/addon-actions';
 import { storiesOf } from '@storybook/react';
 import { hostDecorator } from '../../utils';
 import * as React from 'react';
-import { LateralKeypad } from './LateralKeypad';
+import { PortableKeypad } from './PortableKeypad';
 
 const ShowAnimation = ({}) => {
   const [open, setOpen] = React.useState<boolean>(true);
@@ -10,7 +10,7 @@ const ShowAnimation = ({}) => {
     <>
       Open/Close with an animation:
       <input type="checkbox" checked={open} onChange={() => setOpen(!open)}></input>
-      <LateralKeypad
+      <PortableKeypad
         open={open}
         onChange={action('onChange')}
         onDeleteSelect={action('onDeleteSelect')}
@@ -19,13 +19,13 @@ const ShowAnimation = ({}) => {
   );
 };
 
-storiesOf('Components|NumericKeypad.LateralKeypad', module)
+storiesOf('Components|NumericKeypad.PortableKeypad', module)
   .addDecorator(hostDecorator({}))
   .add('Open', () => (
-    <LateralKeypad open onChange={action('onChange')} onDeleteSelect={action('onDeleteSelect')} />
+    <PortableKeypad open onChange={action('onChange')} onDeleteSelect={action('onDeleteSelect')} />
   ))
   .add('Close', () => (
-    <LateralKeypad
+    <PortableKeypad
       open={false}
       onChange={action('onChange')}
       onDeleteSelect={action('onDeleteSelect')}
