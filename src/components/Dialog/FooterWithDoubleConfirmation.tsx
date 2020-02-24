@@ -5,20 +5,16 @@ import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { Transition } from 'react-transition-group';
 import { compose, setDisplayName } from 'recompose';
 
-export enum FooterWithDoubleConfirmationMode {
-  Normal = 'Normal',
-  Confirmation = 'Confirmation'
-}
+export type FooterWithDoubleConfirmationMode = 'normal' | 'confirmation';
 
 type CompProps = Readonly<{
   valid: boolean;
   mode: FooterWithDoubleConfirmationMode;
   cancelMessage?: React.ReactNode;
   confirmMessage: React.ReactNode;
-  yesMessage?: React.ReactNode;
-  noMessage?: React.ReactNode;
+  yesMessage: React.ReactNode;
+  noMessage: React.ReactNode;
   message: React.ReactNode;
-  enableCancel?: boolean;
   onCancel: () => void;
   onConfirm: () => void;
   onSelectNo: () => void;
@@ -49,17 +45,13 @@ const FooterWithDoubleConfirmationComp = ({
   yesMessage,
   noMessage,
   message,
-  enableCancel = true,
   onCancel,
   onConfirm,
   onSelectYes,
   onSelectNo
 }: Props) => (
   <div className={classes.root}>
-    <Transition
-      in={mode === FooterWithDoubleConfirmationMode.Confirmation}
-      timeout={ANIMATION_DURATION}
-    >
+    <Transition in={mode === 'confirmation'} timeout={ANIMATION_DURATION}>
       {state => (
         <div
           className={classes.content}
@@ -69,13 +61,8 @@ const FooterWithDoubleConfirmationComp = ({
           }}
         >
           <div className={classes.confirm}>
-            {enableCancel ? (
-              <Button
-                variant="flat"
-                color="transparent"
-                text={cancelMessage ? cancelMessage : 'x'}
-                onClick={onCancel}
-              />
+            {cancelMessage ? (
+              <Button variant="flat" color="transparent" text={cancelMessage} onClick={onCancel} />
             ) : (
               <div />
             )}
@@ -91,7 +78,7 @@ const FooterWithDoubleConfirmationComp = ({
             <Typography variant="distance" bold>
               {message}
             </Typography>
-            <Button variant="raised" text={message} color="grey" onClick={onSelectNo} />
+            <Button variant="raised" text={noMessage} color="grey" onClick={onSelectNo} />
             <Button
               variant="raised"
               text={yesMessage ? yesMessage : noMessage}
