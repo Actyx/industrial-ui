@@ -1,8 +1,10 @@
 import { Button } from '../Button';
 import { Divider } from '../Divider';
 import * as React from 'react';
+import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
+import { compose, setDisplayName } from 'recompose';
 
-type Props = Readonly<{
+type CompProps = Readonly<{
   className?: string;
   confirmMessage: React.ReactNode;
   disableConfirm?: boolean;
@@ -11,7 +13,10 @@ type Props = Readonly<{
   onCancel: () => void;
 }>;
 
-export const FooterWithConfirmation = ({
+type Props = WithStyles<ClassKey> & CompProps;
+
+export const FooterWithConfirmationComp = ({
+  classes,
   className,
   confirmMessage,
   disableConfirm,
@@ -21,7 +26,7 @@ export const FooterWithConfirmation = ({
 }: Props) => (
   <div className={className}>
     {!hideDivider && <Divider />}
-    <div className="d-flex justify-content-between mt-4">
+    <div className={classes.root}>
       <Button variant="flat" color="transparent" text={'Cancel'} onClick={onCancel} />
       <Button
         disabled={disableConfirm}
@@ -33,3 +38,18 @@ export const FooterWithConfirmation = ({
     </div>
   </div>
 );
+
+type ClassKey = 'root';
+
+const styles: StyleSheet<ClassKey, CompProps> = {
+  root: {
+    display: 'flex',
+    justifyContent: 'space-between',
+    marginTop: 5
+  }
+};
+
+export const FooterWithConfirmation = compose<Props, CompProps>(
+  setDisplayName('FooterWithConfirmation'),
+  injectSheet(styles)
+)(FooterWithConfirmationComp);
