@@ -34,7 +34,7 @@ type ClassKey = 'root' | 'md' | 'sm' | '@keyframes spin';
 
 const styles: StyleSheet<ClassKey> = {
   root: {
-    animation: 'spin 1s linear infinite'
+    animation: '$spin 1s linear infinite'
   },
   md: {
     border: `${SIZE_MD / 10}px solid ${COLOR_TRACK}`,

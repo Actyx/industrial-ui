@@ -13,7 +13,7 @@ type ClassKey = 'root' | '@keyframes scrolling';
 const styles: StyleSheet<ClassKey> = {
   root: {
     height: 6,
-    animation: 'scrolling 4s linear infinite',
+    animation: '$scrolling 4s linear infinite',
     backgroundImage: `
     repeating-linear-gradient(
       -45deg,
