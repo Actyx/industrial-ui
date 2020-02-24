@@ -1,6 +1,8 @@
 export const RADIUS = 54;
 export const CIRCUMFERENCE = 2 * Math.PI * RADIUS;
 
+// Defines the location along an SVG path where the dash of a stroke will begin.
+// The higher the number, the further along the path the dashes will begin.
 export const calcDashoffset = (value: number) =>
   value <= 100 ? CIRCUMFERENCE * (1 - value / 100) : 0;
 
