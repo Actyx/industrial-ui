@@ -9,8 +9,7 @@ import {
 
 const baseProps = {
   valid: false,
-  mode: FooterWithDoubleConfirmationMode.Normal,
-  enableCancel: false,
+  mode: 'Normal' as 'Normal',
   cancelMessage: 'Cancel',
   confirmMessage: 'Confirm',
   yesMessage: 'Yes',
@@ -24,7 +23,7 @@ const baseProps = {
 
 class AnimationWrapper extends React.Component<{}, { mode: FooterWithDoubleConfirmationMode }> {
   state: { mode: FooterWithDoubleConfirmationMode } = {
-    mode: FooterWithDoubleConfirmationMode.Normal
+    mode: 'normal'
   };
   render(): React.ReactNode {
     const { mode } = this.state;
@@ -34,8 +33,8 @@ class AnimationWrapper extends React.Component<{}, { mode: FooterWithDoubleConfi
         valid
         mode={mode}
         onSelectYes={action('onSelectYes')}
-        onSelectNo={() => this.setState({ mode: FooterWithDoubleConfirmationMode.Normal })}
-        onConfirm={() => this.setState({ mode: FooterWithDoubleConfirmationMode.Confirmation })}
+        onSelectNo={() => this.setState({ mode: 'normal' })}
+        onConfirm={() => this.setState({ mode: 'confirmation' })}
       />
     );
   }
@@ -43,28 +42,13 @@ class AnimationWrapper extends React.Component<{}, { mode: FooterWithDoubleConfi
 
 storiesOf('Components|Dialog.FooterWithDoubleConfirmation', module)
   .addDecorator(hostDecorator({}))
-  .add('Confirm no valid', () => (
-    <FooterWithDoubleConfirmation {...baseProps} mode={FooterWithDoubleConfirmationMode.Normal} />
-  ))
-  .add('Confirm valid', () => (
-    <FooterWithDoubleConfirmation
-      {...baseProps}
-      mode={FooterWithDoubleConfirmationMode.Normal}
-      valid
-    />
-  ))
-  .add('enableCancel', () => (
-    <FooterWithDoubleConfirmation
-      {...baseProps}
-      mode={FooterWithDoubleConfirmationMode.Normal}
-      enableCancel
-    />
+  .add('Confirm no valid', () => <FooterWithDoubleConfirmation {...baseProps} mode={'normal'} />)
+  .add('Confirm valid', () => <FooterWithDoubleConfirmation {...baseProps} mode={'normal'} valid />)
+  .add('no cancelMessage', () => (
+    <FooterWithDoubleConfirmation {...baseProps} mode={'normal'} cancelMessage={undefined} />
   ))
   .add('Mode confirmation', () => (
-    <FooterWithDoubleConfirmation
-      {...baseProps}
-      mode={FooterWithDoubleConfirmationMode.Confirmation}
-    />
+    <FooterWithDoubleConfirmation {...baseProps} mode={'confirmation'} />
   ))
   .add('Animation', () => {
     return <AnimationWrapper />;
