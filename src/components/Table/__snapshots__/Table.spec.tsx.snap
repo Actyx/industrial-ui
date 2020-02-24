@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Table /> should render 1`] = `ShallowWrapper {}`;
+
+exports[`<Table /> should render alternateColor 1`] = `ShallowWrapper {}`;
+
+exports[`<Table /> should render dark 1`] = `ShallowWrapper {}`;
