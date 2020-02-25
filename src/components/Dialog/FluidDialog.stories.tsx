@@ -6,7 +6,7 @@ import { range } from '../../utils';
 
 const longContent = range(0, 100).reduce(acc => acc + ' very long content', '');
 
-storiesOf('Components|Dialog.FluidDialog', module)
+storiesOf('Components/Dialog/FluidDialog', module)
   .add('Base', () => <FluidDialog onClose={action('onClose')} content={'content'} />)
   .add('Long content', () => <FluidDialog onClose={action('onClose')} content={longContent} />)
   .add('Long content with header and footer', () => (

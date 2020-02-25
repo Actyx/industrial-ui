@@ -135,7 +135,7 @@ const intervalsProps: {
   scrollToLast: true
 };
 
-storiesOf('Components|Timeline', module)
+storiesOf('Components/Timeline', module)
   .addDecorator(hostDecorator({}))
   .add('Base', () => <Timeline {...baseProps} />)
   .add('Intervals', () => <Timeline {...intervalsProps} />)

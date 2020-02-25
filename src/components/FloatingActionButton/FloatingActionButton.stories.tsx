@@ -4,7 +4,7 @@ import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { FloatingActionButton } from './FloatingActionButton';
 
-storiesOf('Components|FloatingActionButton', module)
+storiesOf('Components/FloatingActionButton', module)
   .addDecorator(hostDecorator())
   .add('Size sm', () => (
     <FloatingActionButton size="sm" icon="close" color="primary" onClick={action('onClick')} />

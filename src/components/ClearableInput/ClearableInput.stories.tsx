@@ -9,7 +9,7 @@ const baseProps = {
   onClearRequested: action('onClearRequested')
 };
 
-storiesOf('Components|ClearableInput', module)
+storiesOf('Components/ClearableInput', module)
   .addDecorator(hostDecorator())
   .add('No value', () => <ClearableInput value="" {...baseProps} />)
   .add('Value', () => <ClearableInput value="100" {...baseProps} />)

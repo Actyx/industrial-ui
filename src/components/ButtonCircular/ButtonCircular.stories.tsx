@@ -4,7 +4,7 @@ import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { ButtonCircular } from './ButtonCircular';
 
-storiesOf('Components|ButtonCircular', module)
+storiesOf('Components/ButtonCircular', module)
   .addDecorator(hostDecorator())
   .add('Neutral value', () => (
     <ButtonCircular value="7" color="neutral" onSelect={action('onSelect')} />

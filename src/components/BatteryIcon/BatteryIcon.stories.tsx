@@ -3,7 +3,7 @@ import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { BatteryIcon } from './BatteryIcon';
 
-storiesOf('Components|BatteryIcon', module)
+storiesOf('Components/BatteryIcon', module)
   .addDecorator(
     hostDecorator({
       height: 100,

@@ -8,7 +8,7 @@ const baseProps = {
   color: 'green' as 'green'
 };
 
-storiesOf('Components|GaugeProgress', module)
+storiesOf('Components/GaugeProgress', module)
   .addDecorator(hostDecorator({}))
   .add('Value 50%', () => <GaugeProgress {...baseProps} value={50} />)
   .add('Value 75%', () => <GaugeProgress {...baseProps} value={75} />)

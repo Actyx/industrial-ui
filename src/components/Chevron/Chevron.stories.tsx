@@ -24,7 +24,7 @@ const Animate = ({ type }: { type: ChevronType }) => {
   );
 };
 
-storiesOf('Components|Chevron', module)
+storiesOf('Components/Chevron', module)
   .addDecorator(hostDecorator())
   .add('Size sm', () => <Chevron size="sm" />)
   .add('Size md', () => <Chevron size="md" />)

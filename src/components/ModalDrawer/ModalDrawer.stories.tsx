@@ -60,7 +60,7 @@ const baseProps = {
   handleClose: action('handleClose')
 };
 
-storiesOf('Components|ModalDrawer', module)
+storiesOf('Components/ModalDrawer', module)
   .addDecorator(hostDecorator({}))
   .add('Open', () => {
     const props = { ...baseProps, open: true, headerIcon };

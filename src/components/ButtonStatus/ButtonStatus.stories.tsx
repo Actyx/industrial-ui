@@ -9,7 +9,7 @@ const baseProps = {
   onSelect: action('onSelect')
 };
 
-storiesOf('Components|ButtonStatus', module)
+storiesOf('Components/ButtonStatus', module)
   .addDecorator(hostDecorator())
 
   .add('Selected icon', () => {

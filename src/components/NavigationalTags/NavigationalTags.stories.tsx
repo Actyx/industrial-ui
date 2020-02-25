@@ -5,7 +5,7 @@ import * as React from 'react';
 import { NavigationalTags } from './NavigationalTags';
 import { Tag } from './Tag';
 
-storiesOf('Components|NavigationalTags', module)
+storiesOf('Components/NavigationalTags', module)
   .addDecorator(
     hostDecorator({
       width: 800

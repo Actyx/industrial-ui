@@ -19,7 +19,7 @@ const ShowAnimation = ({}) => {
   );
 };
 
-storiesOf('Components|NumericKeypad.PortableKeypad', module)
+storiesOf('Components/NumericKeypad/PortableKeypad', module)
   .addDecorator(hostDecorator({}))
   .add('Open', () => (
     <PortableKeypad open onChange={action('onChange')} onDeleteSelect={action('onDeleteSelect')} />

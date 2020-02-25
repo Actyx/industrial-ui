@@ -7,7 +7,7 @@ import { TouchRipple } from './TouchRipple';
 const baseProps = {
   onClick: action('onClick')
 };
-storiesOf('Components|TouchRipple', module)
+storiesOf('Components/TouchRipple', module)
   .addDecorator(
     hostDecorator({
       width: 200

@@ -4,7 +4,7 @@ import * as React from 'react';
 import { MUIcon } from './MUIcon';
 import { lightBlue } from '../../colors';
 
-storiesOf('Components|MUIcon', module)
+storiesOf('Components/MUIcon', module)
   .addDecorator(hostDecorator())
   .add('Base', () => <MUIcon type={'face'} />)
   .add('fontSize', () => <MUIcon type={'face'} fontSize={48} />)

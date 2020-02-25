@@ -4,7 +4,7 @@ import { hostDecorator, LoremIpsum } from '../../utils';
 import * as React from 'react';
 import { Tabs } from './Tabs';
 
-storiesOf('Components|Tabs', module)
+storiesOf('Components/Tabs', module)
   .addDecorator(hostDecorator({}))
   .add('Base', () => (
     <Tabs

@@ -9,7 +9,7 @@ import { common } from '../../colors';
 
 const onClick = action('onClick');
 
-storiesOf('Components|Toolbar', module)
+storiesOf('Components/Toolbar', module)
   .addDecorator(hostDecorator({}))
   .add('Variant light content', () => (
     <Toolbar variant="light">

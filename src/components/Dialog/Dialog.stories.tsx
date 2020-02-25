@@ -40,7 +40,7 @@ const DialogFooterWithDoubleConfirmation = ({}) => {
   return <Dialog {...props} />;
 };
 
-storiesOf('Components|Dialog.Dialog', module)
+storiesOf('Components/Dialog/Dialog', module)
   .add('Size md title', () => {
     const props = { ...baseProps, title };
     return <Dialog {...props} />;

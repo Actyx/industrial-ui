@@ -66,7 +66,7 @@ const createRows = (dataRow: DataTable, variant: TypographyVariant = 'standard',
   </>
 );
 
-storiesOf('Components|Table', module)
+storiesOf('Components/Table', module)
   .addDecorator(
     hostDecorator({
       width: 900,

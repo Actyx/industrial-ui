@@ -3,7 +3,7 @@ import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { LoadingBar } from './LoadingBar';
 
-storiesOf('Components|LoadingBar', module)
+storiesOf('Components/LoadingBar', module)
   .addDecorator(hostDecorator({}))
   .add('Base', () => <LoadingBar />)
   .add('Fixed width', () => (
