@@ -1,0 +1,444 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/TextArea Text 1`] = `
+<TextArea>
+  <WithStyles(TextAreaComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    theme={Object {}}
+  >
+    <TextAreaComp
+      classes={
+        Object {
+          "error": "TextAreaComp-error-0-3-328",
+          "fullWidth": "TextAreaComp-fullWidth-0-3-327",
+          "root": "TextAreaComp-root-0-3-326",
+        }
+      }
+    >
+      <textarea
+        className="TextAreaComp-root-0-3-326"
+      />
+    </TextAreaComp>
+  </WithStyles(TextAreaComp)>
+</TextArea>
+`;
+
+exports[`Storyshots Components/TextArea autoFocus 1`] = `
+<TextArea
+  autoFocus={true}
+>
+  <WithStyles(TextAreaComp)
+    autoFocus={true}
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    theme={Object {}}
+  >
+    <TextAreaComp
+      autoFocus={true}
+      classes={
+        Object {
+          "error": "TextAreaComp-error-0-3-328",
+          "fullWidth": "TextAreaComp-fullWidth-0-3-327",
+          "root": "TextAreaComp-root-0-3-326",
+        }
+      }
+    >
+      <textarea
+        autoFocus={true}
+        className="TextAreaComp-root-0-3-326"
+      />
+    </TextAreaComp>
+  </WithStyles(TextAreaComp)>
+</TextArea>
+`;
+
+exports[`Storyshots Components/TextArea blurOnEnter 1`] = `
+<TextArea
+  blurOnEnter={true}
+>
+  <WithStyles(TextAreaComp)
+    blurOnEnter={true}
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    theme={Object {}}
+  >
+    <TextAreaComp
+      blurOnEnter={true}
+      classes={
+        Object {
+          "error": "TextAreaComp-error-0-3-328",
+          "fullWidth": "TextAreaComp-fullWidth-0-3-327",
+          "root": "TextAreaComp-root-0-3-326",
+        }
+      }
+    >
+      <textarea
+        className="TextAreaComp-root-0-3-326"
+        onKeyDown={[Function]}
+      />
+    </TextAreaComp>
+  </WithStyles(TextAreaComp)>
+</TextArea>
+`;
+
+exports[`Storyshots Components/TextArea disabled 1`] = `
+<TextArea
+  disabled={true}
+  value="Text"
+>
+  <WithStyles(TextAreaComp)
+    disabled={true}
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    theme={Object {}}
+    value="Text"
+  >
+    <TextAreaComp
+      classes={
+        Object {
+          "error": "TextAreaComp-error-0-3-328",
+          "fullWidth": "TextAreaComp-fullWidth-0-3-327",
+          "root": "TextAreaComp-root-0-3-326",
+        }
+      }
+      disabled={true}
+      value="Text"
+    >
+      <textarea
+        className="TextAreaComp-root-0-3-326"
+        disabled={true}
+        value="Text"
+      />
+    </TextAreaComp>
+  </WithStyles(TextAreaComp)>
+</TextArea>
+`;
+
+exports[`Storyshots Components/TextArea error 1`] = `
+<TextArea
+  error={true}
+>
+  <WithStyles(TextAreaComp)
+    error={true}
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    theme={Object {}}
+  >
+    <TextAreaComp
+      classes={
+        Object {
+          "error": "TextAreaComp-error-0-3-328",
+          "fullWidth": "TextAreaComp-fullWidth-0-3-327",
+          "root": "TextAreaComp-root-0-3-326",
+        }
+      }
+      error={true}
+    >
+      <textarea
+        className="TextAreaComp-root-0-3-326 TextAreaComp-error-0-3-328"
+      />
+    </TextAreaComp>
+  </WithStyles(TextAreaComp)>
+</TextArea>
+`;
+
+exports[`Storyshots Components/TextArea fullWidth 1`] = `
+<TextArea
+  fullWidth={true}
+>
+  <WithStyles(TextAreaComp)
+    fullWidth={true}
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    theme={Object {}}
+  >
+    <TextAreaComp
+      classes={
+        Object {
+          "error": "TextAreaComp-error-0-3-328",
+          "fullWidth": "TextAreaComp-fullWidth-0-3-327",
+          "root": "TextAreaComp-root-0-3-326",
+        }
+      }
+      fullWidth={true}
+    >
+      <textarea
+        className="TextAreaComp-root-0-3-326 TextAreaComp-fullWidth-0-3-327"
+      />
+    </TextAreaComp>
+  </WithStyles(TextAreaComp)>
+</TextArea>
+`;
+
+exports[`Storyshots Components/TextArea maxLength 1`] = `
+<TextArea
+  maxLength={3}
+>
+  <WithStyles(TextAreaComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    maxLength={3}
+    theme={Object {}}
+  >
+    <TextAreaComp
+      classes={
+        Object {
+          "error": "TextAreaComp-error-0-3-328",
+          "fullWidth": "TextAreaComp-fullWidth-0-3-327",
+          "root": "TextAreaComp-root-0-3-326",
+        }
+      }
+      maxLength={3}
+    >
+      <textarea
+        className="TextAreaComp-root-0-3-326"
+        maxLength={3}
+      />
+    </TextAreaComp>
+  </WithStyles(TextAreaComp)>
+</TextArea>
+`;
+
+exports[`Storyshots Components/TextArea onBlur 1`] = `
+<TextArea
+  onBlur={[Function]}
+>
+  <WithStyles(TextAreaComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onBlur={[Function]}
+    theme={Object {}}
+  >
+    <TextAreaComp
+      classes={
+        Object {
+          "error": "TextAreaComp-error-0-3-328",
+          "fullWidth": "TextAreaComp-fullWidth-0-3-327",
+          "root": "TextAreaComp-root-0-3-326",
+        }
+      }
+      onBlur={[Function]}
+    >
+      <textarea
+        className="TextAreaComp-root-0-3-326"
+        onBlur={[Function]}
+      />
+    </TextAreaComp>
+  </WithStyles(TextAreaComp)>
+</TextArea>
+`;
+
+exports[`Storyshots Components/TextArea onChange 1`] = `
+<TextArea
+  onChange={[Function]}
+>
+  <WithStyles(TextAreaComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onChange={[Function]}
+    theme={Object {}}
+  >
+    <TextAreaComp
+      classes={
+        Object {
+          "error": "TextAreaComp-error-0-3-328",
+          "fullWidth": "TextAreaComp-fullWidth-0-3-327",
+          "root": "TextAreaComp-root-0-3-326",
+        }
+      }
+      onChange={[Function]}
+    >
+      <textarea
+        className="TextAreaComp-root-0-3-326"
+        onChange={[Function]}
+      />
+    </TextAreaComp>
+  </WithStyles(TextAreaComp)>
+</TextArea>
+`;
+
+exports[`Storyshots Components/TextArea onFocus 1`] = `
+<TextArea
+  onFocus={[Function]}
+>
+  <WithStyles(TextAreaComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onFocus={[Function]}
+    theme={Object {}}
+  >
+    <TextAreaComp
+      classes={
+        Object {
+          "error": "TextAreaComp-error-0-3-328",
+          "fullWidth": "TextAreaComp-fullWidth-0-3-327",
+          "root": "TextAreaComp-root-0-3-326",
+        }
+      }
+      onFocus={[Function]}
+    >
+      <textarea
+        className="TextAreaComp-root-0-3-326"
+        onFocus={[Function]}
+      />
+    </TextAreaComp>
+  </WithStyles(TextAreaComp)>
+</TextArea>
+`;
+
+exports[`Storyshots Components/TextArea placeholder 1`] = `
+<TextArea
+  placeholder="Placeholder"
+>
+  <WithStyles(TextAreaComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    placeholder="Placeholder"
+    theme={Object {}}
+  >
+    <TextAreaComp
+      classes={
+        Object {
+          "error": "TextAreaComp-error-0-3-328",
+          "fullWidth": "TextAreaComp-fullWidth-0-3-327",
+          "root": "TextAreaComp-root-0-3-326",
+        }
+      }
+      placeholder="Placeholder"
+    >
+      <textarea
+        className="TextAreaComp-root-0-3-326"
+        placeholder="Placeholder"
+      />
+    </TextAreaComp>
+  </WithStyles(TextAreaComp)>
+</TextArea>
+`;
+
+exports[`Storyshots Components/TextArea readOnly 1`] = `
+<TextArea
+  readOnly={true}
+  value="Read only"
+>
+  <WithStyles(TextAreaComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    readOnly={true}
+    theme={Object {}}
+    value="Read only"
+  >
+    <TextAreaComp
+      classes={
+        Object {
+          "error": "TextAreaComp-error-0-3-328",
+          "fullWidth": "TextAreaComp-fullWidth-0-3-327",
+          "root": "TextAreaComp-root-0-3-326",
+        }
+      }
+      readOnly={true}
+      value="Read only"
+    >
+      <textarea
+        className="TextAreaComp-root-0-3-326"
+        readOnly={true}
+        value="Read only"
+      />
+    </TextAreaComp>
+  </WithStyles(TextAreaComp)>
+</TextArea>
+`;
+
+exports[`Storyshots Components/TextArea value 1`] = `
+<TextArea
+  value="Text"
+>
+  <WithStyles(TextAreaComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    theme={Object {}}
+    value="Text"
+  >
+    <TextAreaComp
+      classes={
+        Object {
+          "error": "TextAreaComp-error-0-3-328",
+          "fullWidth": "TextAreaComp-fullWidth-0-3-327",
+          "root": "TextAreaComp-root-0-3-326",
+        }
+      }
+      value="Text"
+    >
+      <textarea
+        className="TextAreaComp-root-0-3-326"
+        value="Text"
+      />
+    </TextAreaComp>
+  </WithStyles(TextAreaComp)>
+</TextArea>
+`;

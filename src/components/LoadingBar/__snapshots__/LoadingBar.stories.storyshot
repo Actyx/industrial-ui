@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/LoadingBar Base 1`] = `
+<LoadingBar>
+  <WithStyles(LoadingBarComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    theme={Object {}}
+  >
+    <LoadingBarComp
+      classes={
+        Object {
+          "@keyframes scrolling": undefined,
+          "root": "LoadingBarComp-root-0-3-175",
+        }
+      }
+    >
+      <div
+        className="LoadingBarComp-root-0-3-175"
+      />
+    </LoadingBarComp>
+  </WithStyles(LoadingBarComp)>
+</LoadingBar>
+`;
+
+exports[`Storyshots Components/LoadingBar Fixed width 1`] = `
+<div
+  style={
+    Object {
+      "width": 100,
+    }
+  }
+>
+  <LoadingBar>
+    <WithStyles(LoadingBarComp)
+      innerRef={null}
+      jssContext={
+        Object {
+          "classNamePrefix": "",
+          "disableStylesGeneration": false,
+        }
+      }
+      theme={Object {}}
+    >
+      <LoadingBarComp
+        classes={
+          Object {
+            "@keyframes scrolling": undefined,
+            "root": "LoadingBarComp-root-0-3-175",
+          }
+        }
+      >
+        <div
+          className="LoadingBarComp-root-0-3-175"
+        />
+      </LoadingBarComp>
+    </WithStyles(LoadingBarComp)>
+  </LoadingBar>
+</div>
+`;

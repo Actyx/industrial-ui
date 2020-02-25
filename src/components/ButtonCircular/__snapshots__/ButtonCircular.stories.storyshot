@@ -1,0 +1,332 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/ButtonCircular Neutral icon 1`] = `
+<ButtonCircular
+  color="neutral"
+  icon={true}
+  onSelect={[Function]}
+  value="arrow_forward"
+>
+  <WithStyles(ButtonCircularComp)
+    color="neutral"
+    icon={true}
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onSelect={[Function]}
+    theme={Object {}}
+    value="arrow_forward"
+  >
+    <ButtonCircularComp
+      classes={
+        Object {
+          "button": "ButtonCircularComp-button-0-3-53",
+          "neutral": "ButtonCircularComp-neutral-0-3-51",
+          "primary": "ButtonCircularComp-primary-0-3-52",
+        }
+      }
+      color="neutral"
+      icon={true}
+      onSelect={[Function]}
+      value="arrow_forward"
+    >
+      <div
+        className="ButtonCircularComp-neutral-0-3-51"
+        onClick={[Function]}
+      >
+        <TouchRipple
+          className="ButtonCircularComp-button-0-3-53"
+        >
+          <WithStyles(TouchRippleComp)
+            className="ButtonCircularComp-button-0-3-53"
+            innerRef={null}
+            jssContext={
+              Object {
+                "classNamePrefix": "",
+                "disableStylesGeneration": false,
+              }
+            }
+            theme={Object {}}
+          >
+            <TouchRippleComp
+              className="ButtonCircularComp-button-0-3-53"
+              classes={
+                Object {
+                  "disabled": "TouchRippleComp-disabled-0-3-34",
+                  "root": "TouchRippleComp-root-0-3-33",
+                }
+              }
+            >
+              <div
+                className="ButtonCircularComp-button-0-3-53 TouchRippleComp-root-0-3-33"
+              >
+                <MUIcon
+                  fontSize={40}
+                  type="arrow_forward"
+                >
+                  <WithStyles(MUIconComp)
+                    fontSize={40}
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                    type="arrow_forward"
+                  >
+                    <MUIconComp
+                      classes={
+                        Object {
+                          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d15-0-3-54",
+                        }
+                      }
+                      fontSize={40}
+                      type="arrow_forward"
+                    >
+                      <i
+                        className="MUIconComp-root-0-3-35 MUIconComp-root-d15-0-3-54"
+                      >
+                        arrow_forward
+                      </i>
+                    </MUIconComp>
+                  </WithStyles(MUIconComp)>
+                </MUIcon>
+              </div>
+            </TouchRippleComp>
+          </WithStyles(TouchRippleComp)>
+        </TouchRipple>
+      </div>
+    </ButtonCircularComp>
+  </WithStyles(ButtonCircularComp)>
+</ButtonCircular>
+`;
+
+exports[`Storyshots Components/ButtonCircular Neutral value 1`] = `
+<ButtonCircular
+  color="neutral"
+  onSelect={[Function]}
+  value="7"
+>
+  <WithStyles(ButtonCircularComp)
+    color="neutral"
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onSelect={[Function]}
+    theme={Object {}}
+    value="7"
+  >
+    <ButtonCircularComp
+      classes={
+        Object {
+          "button": "ButtonCircularComp-button-0-3-53",
+          "neutral": "ButtonCircularComp-neutral-0-3-51",
+          "primary": "ButtonCircularComp-primary-0-3-52",
+        }
+      }
+      color="neutral"
+      onSelect={[Function]}
+      value="7"
+    >
+      <div
+        className="ButtonCircularComp-neutral-0-3-51"
+        onClick={[Function]}
+      >
+        <TouchRipple
+          className="ButtonCircularComp-button-0-3-53"
+        >
+          <WithStyles(TouchRippleComp)
+            className="ButtonCircularComp-button-0-3-53"
+            innerRef={null}
+            jssContext={
+              Object {
+                "classNamePrefix": "",
+                "disableStylesGeneration": false,
+              }
+            }
+            theme={Object {}}
+          >
+            <TouchRippleComp
+              className="ButtonCircularComp-button-0-3-53"
+              classes={
+                Object {
+                  "disabled": "TouchRippleComp-disabled-0-3-34",
+                  "root": "TouchRippleComp-root-0-3-33",
+                }
+              }
+            >
+              <div
+                className="ButtonCircularComp-button-0-3-53 TouchRippleComp-root-0-3-33"
+              >
+                <Typography
+                  bold={true}
+                  variant="big"
+                >
+                  <WithStyles(TypographyComp)
+                    bold={true}
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                    variant="big"
+                  >
+                    <TypographyComp
+                      bold={true}
+                      classes={
+                        Object {
+                          "big": "TypographyComp-big-0-3-7",
+                          "bold": "TypographyComp-bold-0-3-1",
+                          "capitalize": "TypographyComp-capitalize-0-3-12",
+                          "distance": "TypographyComp-distance-0-3-6",
+                          "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                          "giant": "TypographyComp-giant-0-3-9",
+                          "heading": "TypographyComp-heading-0-3-8",
+                          "italic": "TypographyComp-italic-0-3-3",
+                          "lowercase": "TypographyComp-lowercase-0-3-11",
+                          "noWrap": "TypographyComp-noWrap-0-3-13",
+                          "semiBold": "TypographyComp-semiBold-0-3-2",
+                          "standard": "TypographyComp-standard-0-3-5",
+                          "subtext": "TypographyComp-subtext-0-3-4",
+                          "uppercase": "TypographyComp-uppercase-0-3-10",
+                        }
+                      }
+                      variant="big"
+                    >
+                      <span
+                        className="TypographyComp-big-0-3-7 TypographyComp-bold-0-3-1"
+                      >
+                        7
+                      </span>
+                    </TypographyComp>
+                  </WithStyles(TypographyComp)>
+                </Typography>
+              </div>
+            </TouchRippleComp>
+          </WithStyles(TouchRippleComp)>
+        </TouchRipple>
+      </div>
+    </ButtonCircularComp>
+  </WithStyles(ButtonCircularComp)>
+</ButtonCircular>
+`;
+
+exports[`Storyshots Components/ButtonCircular Primary icon 1`] = `
+<ButtonCircular
+  color="primary"
+  icon={true}
+  onSelect={[Function]}
+  value="arrow_forward"
+>
+  <WithStyles(ButtonCircularComp)
+    color="primary"
+    icon={true}
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onSelect={[Function]}
+    theme={Object {}}
+    value="arrow_forward"
+  >
+    <ButtonCircularComp
+      classes={
+        Object {
+          "button": "ButtonCircularComp-button-0-3-53",
+          "neutral": "ButtonCircularComp-neutral-0-3-51",
+          "primary": "ButtonCircularComp-primary-0-3-52",
+        }
+      }
+      color="primary"
+      icon={true}
+      onSelect={[Function]}
+      value="arrow_forward"
+    >
+      <div
+        className="ButtonCircularComp-primary-0-3-52"
+        onClick={[Function]}
+      >
+        <TouchRipple
+          className="ButtonCircularComp-button-0-3-53"
+        >
+          <WithStyles(TouchRippleComp)
+            className="ButtonCircularComp-button-0-3-53"
+            innerRef={null}
+            jssContext={
+              Object {
+                "classNamePrefix": "",
+                "disableStylesGeneration": false,
+              }
+            }
+            theme={Object {}}
+          >
+            <TouchRippleComp
+              className="ButtonCircularComp-button-0-3-53"
+              classes={
+                Object {
+                  "disabled": "TouchRippleComp-disabled-0-3-34",
+                  "root": "TouchRippleComp-root-0-3-33",
+                }
+              }
+            >
+              <div
+                className="ButtonCircularComp-button-0-3-53 TouchRippleComp-root-0-3-33"
+              >
+                <MUIcon
+                  fontSize={40}
+                  type="arrow_forward"
+                >
+                  <WithStyles(MUIconComp)
+                    fontSize={40}
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                    type="arrow_forward"
+                  >
+                    <MUIconComp
+                      classes={
+                        Object {
+                          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d16-0-3-55",
+                        }
+                      }
+                      fontSize={40}
+                      type="arrow_forward"
+                    >
+                      <i
+                        className="MUIconComp-root-0-3-35 MUIconComp-root-d16-0-3-55"
+                      >
+                        arrow_forward
+                      </i>
+                    </MUIconComp>
+                  </WithStyles(MUIconComp)>
+                </MUIcon>
+              </div>
+            </TouchRippleComp>
+          </WithStyles(TouchRippleComp)>
+        </TouchRipple>
+      </div>
+    </ButtonCircularComp>
+  </WithStyles(ButtonCircularComp)>
+</ButtonCircular>
+`;

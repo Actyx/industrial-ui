@@ -1,0 +1,467 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Grid Base 1`] = `
+<Grid
+  data={
+    Array [
+      Object {
+        "description": "A Lorem ipsum dolor sit amet.",
+        "id": "a",
+        "value": "1",
+      },
+      Object {
+        "description": "B Lorem ipsum dolor sit amet.",
+        "id": "b",
+        "value": "2",
+      },
+      Object {
+        "description": "C Lorem ipsum dolor sit amet.",
+        "id": "c",
+        "value": "3",
+      },
+    ]
+  }
+  getUniqKey={[Function]}
+  header={
+    Array [
+      <td
+        className="font-weight-bold"
+      >
+        ID
+      </td>,
+      <td
+        className="font-weight-bold"
+      >
+        DESCRIPTION
+      </td>,
+      <td
+        className="font-weight-bold"
+      >
+        VALUE
+      </td>,
+    ]
+  }
+  renderRow={[Function]}
+>
+  <table
+    className="ax-grid"
+  >
+    <thead>
+      <tr>
+        <td
+          className="font-weight-bold"
+          key="0"
+        >
+          ID
+        </td>
+        <td
+          className="font-weight-bold"
+          key="1"
+        >
+          DESCRIPTION
+        </td>
+        <td
+          className="font-weight-bold"
+          key="2"
+        >
+          VALUE
+        </td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        key="a"
+      >
+        <td>
+          a
+        </td>
+        <td>
+          A Lorem ipsum dolor sit amet.
+        </td>
+        <td>
+          1
+        </td>
+      </tr>
+      <tr
+        key="b"
+      >
+        <td>
+          b
+        </td>
+        <td>
+          B Lorem ipsum dolor sit amet.
+        </td>
+        <td>
+          2
+        </td>
+      </tr>
+      <tr
+        key="c"
+      >
+        <td>
+          c
+        </td>
+        <td>
+          C Lorem ipsum dolor sit amet.
+        </td>
+        <td>
+          3
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</Grid>
+`;
+
+exports[`Storyshots Components/Grid isRowSelected 1`] = `
+<Grid
+  data={
+    Array [
+      Object {
+        "description": "A Lorem ipsum dolor sit amet.",
+        "id": "a",
+        "value": "1",
+      },
+      Object {
+        "description": "B Lorem ipsum dolor sit amet.",
+        "id": "b",
+        "value": "2",
+      },
+      Object {
+        "description": "C Lorem ipsum dolor sit amet.",
+        "id": "c",
+        "value": "3",
+      },
+    ]
+  }
+  getUniqKey={[Function]}
+  header={
+    Array [
+      <td
+        className="font-weight-bold"
+      >
+        ID
+      </td>,
+      <td
+        className="font-weight-bold"
+      >
+        DESCRIPTION
+      </td>,
+      <td
+        className="font-weight-bold"
+      >
+        VALUE
+      </td>,
+    ]
+  }
+  isRowSelected={[Function]}
+  renderRow={[Function]}
+>
+  <table
+    className="ax-grid"
+  >
+    <thead>
+      <tr>
+        <td
+          className="font-weight-bold"
+          key="0"
+        >
+          ID
+        </td>
+        <td
+          className="font-weight-bold"
+          key="1"
+        >
+          DESCRIPTION
+        </td>
+        <td
+          className="font-weight-bold"
+          key="2"
+        >
+          VALUE
+        </td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        key="a"
+      >
+        <td>
+          a
+        </td>
+        <td>
+          A Lorem ipsum dolor sit amet.
+        </td>
+        <td>
+          1
+        </td>
+      </tr>
+      <tr
+        key="b"
+        style={
+          Object {
+            "backgroundColor": "#81d4fa",
+          }
+        }
+      >
+        <td>
+          b
+        </td>
+        <td>
+          B Lorem ipsum dolor sit amet.
+        </td>
+        <td>
+          2
+        </td>
+      </tr>
+      <tr
+        key="c"
+      >
+        <td>
+          c
+        </td>
+        <td>
+          C Lorem ipsum dolor sit amet.
+        </td>
+        <td>
+          3
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</Grid>
+`;
+
+exports[`Storyshots Components/Grid onRowSelect 1`] = `
+<Grid
+  data={
+    Array [
+      Object {
+        "description": "A Lorem ipsum dolor sit amet.",
+        "id": "a",
+        "value": "1",
+      },
+      Object {
+        "description": "B Lorem ipsum dolor sit amet.",
+        "id": "b",
+        "value": "2",
+      },
+      Object {
+        "description": "C Lorem ipsum dolor sit amet.",
+        "id": "c",
+        "value": "3",
+      },
+    ]
+  }
+  getUniqKey={[Function]}
+  header={
+    Array [
+      <td
+        className="font-weight-bold"
+      >
+        ID
+      </td>,
+      <td
+        className="font-weight-bold"
+      >
+        DESCRIPTION
+      </td>,
+      <td
+        className="font-weight-bold"
+      >
+        VALUE
+      </td>,
+    ]
+  }
+  onRowSelect={[Function]}
+  renderRow={[Function]}
+>
+  <table
+    className="ax-grid"
+  >
+    <thead>
+      <tr>
+        <td
+          className="font-weight-bold"
+          key="0"
+        >
+          ID
+        </td>
+        <td
+          className="font-weight-bold"
+          key="1"
+        >
+          DESCRIPTION
+        </td>
+        <td
+          className="font-weight-bold"
+          key="2"
+        >
+          VALUE
+        </td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        key="a"
+        onClick={[Function]}
+      >
+        <td>
+          a
+        </td>
+        <td>
+          A Lorem ipsum dolor sit amet.
+        </td>
+        <td>
+          1
+        </td>
+      </tr>
+      <tr
+        key="b"
+        onClick={[Function]}
+      >
+        <td>
+          b
+        </td>
+        <td>
+          B Lorem ipsum dolor sit amet.
+        </td>
+        <td>
+          2
+        </td>
+      </tr>
+      <tr
+        key="c"
+        onClick={[Function]}
+      >
+        <td>
+          c
+        </td>
+        <td>
+          C Lorem ipsum dolor sit amet.
+        </td>
+        <td>
+          3
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</Grid>
+`;
+
+exports[`Storyshots Components/Grid setRowClassName 1`] = `
+<Grid
+  data={
+    Array [
+      Object {
+        "description": "A Lorem ipsum dolor sit amet.",
+        "id": "a",
+        "value": "1",
+      },
+      Object {
+        "description": "B Lorem ipsum dolor sit amet.",
+        "id": "b",
+        "value": "2",
+      },
+      Object {
+        "description": "C Lorem ipsum dolor sit amet.",
+        "id": "c",
+        "value": "3",
+      },
+    ]
+  }
+  getUniqKey={[Function]}
+  header={
+    Array [
+      <td
+        className="font-weight-bold"
+      >
+        ID
+      </td>,
+      <td
+        className="font-weight-bold"
+      >
+        DESCRIPTION
+      </td>,
+      <td
+        className="font-weight-bold"
+      >
+        VALUE
+      </td>,
+    ]
+  }
+  renderRow={[Function]}
+  setRowClassName={[Function]}
+>
+  <table
+    className="ax-grid"
+  >
+    <thead>
+      <tr>
+        <td
+          className="font-weight-bold"
+          key="0"
+        >
+          ID
+        </td>
+        <td
+          className="font-weight-bold"
+          key="1"
+        >
+          DESCRIPTION
+        </td>
+        <td
+          className="font-weight-bold"
+          key="2"
+        >
+          VALUE
+        </td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        className=""
+        key="a"
+      >
+        <td>
+          a
+        </td>
+        <td>
+          A Lorem ipsum dolor sit amet.
+        </td>
+        <td>
+          1
+        </td>
+      </tr>
+      <tr
+        className="font-weight-bold"
+        key="b"
+      >
+        <td>
+          b
+        </td>
+        <td>
+          B Lorem ipsum dolor sit amet.
+        </td>
+        <td>
+          2
+        </td>
+      </tr>
+      <tr
+        className=""
+        key="c"
+      >
+        <td>
+          c
+        </td>
+        <td>
+          C Lorem ipsum dolor sit amet.
+        </td>
+        <td>
+          3
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</Grid>
+`;

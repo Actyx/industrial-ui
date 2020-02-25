@@ -1,0 +1,882 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/SignalStatus Completed 1`] = `
+<SignalStatus
+  status="finished"
+>
+  <WithStyles(SignalStatusComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    status="finished"
+    theme={Object {}}
+  >
+    <SignalStatusComp
+      classes={
+        Object {
+          "root": "SignalStatusComp-root-0-3-272",
+          "text": "SignalStatusComp-text-0-3-273",
+        }
+      }
+      status="finished"
+    >
+      <div
+        className="SignalStatusComp-root-0-3-272"
+      >
+        <div>
+          <SignalCircular
+            color="darkGrey"
+            size="xs"
+          >
+            <WithStyles(SignalCircularComp)
+              color="darkGrey"
+              innerRef={null}
+              jssContext={
+                Object {
+                  "classNamePrefix": "",
+                  "disableStylesGeneration": false,
+                }
+              }
+              size="xs"
+              theme={Object {}}
+            >
+              <SignalCircularComp
+                classes={
+                  Object {
+                    "darkGrey": "SignalCircularComp-darkGrey-0-3-264",
+                    "green": "SignalCircularComp-green-0-3-262",
+                    "lightGrey": "SignalCircularComp-lightGrey-0-3-263",
+                    "md": "SignalCircularComp-md-0-3-258",
+                    "orange": "SignalCircularComp-orange-0-3-260",
+                    "red": "SignalCircularComp-red-0-3-259",
+                    "root": "SignalCircularComp-root-0-3-255",
+                    "sm": "SignalCircularComp-sm-0-3-257",
+                    "xs": "SignalCircularComp-xs-0-3-256",
+                    "yellow": "SignalCircularComp-yellow-0-3-261",
+                  }
+                }
+                color="darkGrey"
+                size="xs"
+              >
+                <div
+                  className="SignalCircularComp-root-0-3-255 SignalCircularComp-darkGrey-0-3-264 SignalCircularComp-xs-0-3-256"
+                />
+              </SignalCircularComp>
+            </WithStyles(SignalCircularComp)>
+          </SignalCircular>
+        </div>
+        <div
+          className="SignalStatusComp-text-0-3-273"
+        >
+          <Typography
+            textTransform="uppercase"
+            variant="standard"
+          >
+            <WithStyles(TypographyComp)
+              innerRef={null}
+              jssContext={
+                Object {
+                  "classNamePrefix": "",
+                  "disableStylesGeneration": false,
+                }
+              }
+              textTransform="uppercase"
+              theme={Object {}}
+              variant="standard"
+            >
+              <TypographyComp
+                classes={
+                  Object {
+                    "big": "TypographyComp-big-0-3-7",
+                    "bold": "TypographyComp-bold-0-3-1",
+                    "capitalize": "TypographyComp-capitalize-0-3-12",
+                    "distance": "TypographyComp-distance-0-3-6",
+                    "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                    "giant": "TypographyComp-giant-0-3-9",
+                    "heading": "TypographyComp-heading-0-3-8",
+                    "italic": "TypographyComp-italic-0-3-3",
+                    "lowercase": "TypographyComp-lowercase-0-3-11",
+                    "noWrap": "TypographyComp-noWrap-0-3-13",
+                    "semiBold": "TypographyComp-semiBold-0-3-2",
+                    "standard": "TypographyComp-standard-0-3-5",
+                    "subtext": "TypographyComp-subtext-0-3-4",
+                    "uppercase": "TypographyComp-uppercase-0-3-10",
+                  }
+                }
+                textTransform="uppercase"
+                variant="standard"
+              >
+                <span
+                  className="TypographyComp-standard-0-3-5 TypographyComp-uppercase-0-3-10"
+                >
+                  finished
+                </span>
+              </TypographyComp>
+            </WithStyles(TypographyComp)>
+          </Typography>
+        </div>
+      </div>
+    </SignalStatusComp>
+  </WithStyles(SignalStatusComp)>
+</SignalStatus>
+`;
+
+exports[`Storyshots Components/SignalStatus Idle 1`] = `
+<SignalStatus
+  status="idle"
+>
+  <WithStyles(SignalStatusComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    status="idle"
+    theme={Object {}}
+  >
+    <SignalStatusComp
+      classes={
+        Object {
+          "root": "SignalStatusComp-root-0-3-272",
+          "text": "SignalStatusComp-text-0-3-273",
+        }
+      }
+      status="idle"
+    >
+      <div
+        className="SignalStatusComp-root-0-3-272"
+      >
+        <div>
+          <SignalCircular
+            color="lightGrey"
+            size="xs"
+          >
+            <WithStyles(SignalCircularComp)
+              color="lightGrey"
+              innerRef={null}
+              jssContext={
+                Object {
+                  "classNamePrefix": "",
+                  "disableStylesGeneration": false,
+                }
+              }
+              size="xs"
+              theme={Object {}}
+            >
+              <SignalCircularComp
+                classes={
+                  Object {
+                    "darkGrey": "SignalCircularComp-darkGrey-0-3-264",
+                    "green": "SignalCircularComp-green-0-3-262",
+                    "lightGrey": "SignalCircularComp-lightGrey-0-3-263",
+                    "md": "SignalCircularComp-md-0-3-258",
+                    "orange": "SignalCircularComp-orange-0-3-260",
+                    "red": "SignalCircularComp-red-0-3-259",
+                    "root": "SignalCircularComp-root-0-3-255",
+                    "sm": "SignalCircularComp-sm-0-3-257",
+                    "xs": "SignalCircularComp-xs-0-3-256",
+                    "yellow": "SignalCircularComp-yellow-0-3-261",
+                  }
+                }
+                color="lightGrey"
+                size="xs"
+              >
+                <div
+                  className="SignalCircularComp-root-0-3-255 SignalCircularComp-lightGrey-0-3-263 SignalCircularComp-xs-0-3-256"
+                />
+              </SignalCircularComp>
+            </WithStyles(SignalCircularComp)>
+          </SignalCircular>
+        </div>
+        <div
+          className="SignalStatusComp-text-0-3-273"
+        >
+          <Typography
+            textTransform="uppercase"
+            variant="standard"
+          >
+            <WithStyles(TypographyComp)
+              innerRef={null}
+              jssContext={
+                Object {
+                  "classNamePrefix": "",
+                  "disableStylesGeneration": false,
+                }
+              }
+              textTransform="uppercase"
+              theme={Object {}}
+              variant="standard"
+            >
+              <TypographyComp
+                classes={
+                  Object {
+                    "big": "TypographyComp-big-0-3-7",
+                    "bold": "TypographyComp-bold-0-3-1",
+                    "capitalize": "TypographyComp-capitalize-0-3-12",
+                    "distance": "TypographyComp-distance-0-3-6",
+                    "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                    "giant": "TypographyComp-giant-0-3-9",
+                    "heading": "TypographyComp-heading-0-3-8",
+                    "italic": "TypographyComp-italic-0-3-3",
+                    "lowercase": "TypographyComp-lowercase-0-3-11",
+                    "noWrap": "TypographyComp-noWrap-0-3-13",
+                    "semiBold": "TypographyComp-semiBold-0-3-2",
+                    "standard": "TypographyComp-standard-0-3-5",
+                    "subtext": "TypographyComp-subtext-0-3-4",
+                    "uppercase": "TypographyComp-uppercase-0-3-10",
+                  }
+                }
+                textTransform="uppercase"
+                variant="standard"
+              >
+                <span
+                  className="TypographyComp-standard-0-3-5 TypographyComp-uppercase-0-3-10"
+                >
+                  idle
+                </span>
+              </TypographyComp>
+            </WithStyles(TypographyComp)>
+          </Typography>
+        </div>
+      </div>
+    </SignalStatusComp>
+  </WithStyles(SignalStatusComp)>
+</SignalStatus>
+`;
+
+exports[`Storyshots Components/SignalStatus Interrupted 1`] = `
+<SignalStatus
+  status="interrupted"
+>
+  <WithStyles(SignalStatusComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    status="interrupted"
+    theme={Object {}}
+  >
+    <SignalStatusComp
+      classes={
+        Object {
+          "root": "SignalStatusComp-root-0-3-272",
+          "text": "SignalStatusComp-text-0-3-273",
+        }
+      }
+      status="interrupted"
+    >
+      <div
+        className="SignalStatusComp-root-0-3-272"
+      >
+        <div>
+          <SignalCircular
+            color="red"
+            size="xs"
+          >
+            <WithStyles(SignalCircularComp)
+              color="red"
+              innerRef={null}
+              jssContext={
+                Object {
+                  "classNamePrefix": "",
+                  "disableStylesGeneration": false,
+                }
+              }
+              size="xs"
+              theme={Object {}}
+            >
+              <SignalCircularComp
+                classes={
+                  Object {
+                    "darkGrey": "SignalCircularComp-darkGrey-0-3-264",
+                    "green": "SignalCircularComp-green-0-3-262",
+                    "lightGrey": "SignalCircularComp-lightGrey-0-3-263",
+                    "md": "SignalCircularComp-md-0-3-258",
+                    "orange": "SignalCircularComp-orange-0-3-260",
+                    "red": "SignalCircularComp-red-0-3-259",
+                    "root": "SignalCircularComp-root-0-3-255",
+                    "sm": "SignalCircularComp-sm-0-3-257",
+                    "xs": "SignalCircularComp-xs-0-3-256",
+                    "yellow": "SignalCircularComp-yellow-0-3-261",
+                  }
+                }
+                color="red"
+                size="xs"
+              >
+                <div
+                  className="SignalCircularComp-root-0-3-255 SignalCircularComp-red-0-3-259 SignalCircularComp-xs-0-3-256"
+                />
+              </SignalCircularComp>
+            </WithStyles(SignalCircularComp)>
+          </SignalCircular>
+        </div>
+        <div
+          className="SignalStatusComp-text-0-3-273"
+        >
+          <Typography
+            bold={true}
+            color="#d50000"
+            textTransform="uppercase"
+            variant="standard"
+          >
+            <WithStyles(TypographyComp)
+              bold={true}
+              color="#d50000"
+              innerRef={null}
+              jssContext={
+                Object {
+                  "classNamePrefix": "",
+                  "disableStylesGeneration": false,
+                }
+              }
+              textTransform="uppercase"
+              theme={Object {}}
+              variant="standard"
+            >
+              <TypographyComp
+                bold={true}
+                classes={
+                  Object {
+                    "big": "TypographyComp-big-0-3-7",
+                    "bold": "TypographyComp-bold-0-3-1",
+                    "capitalize": "TypographyComp-capitalize-0-3-12",
+                    "distance": "TypographyComp-distance-0-3-6",
+                    "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                    "giant": "TypographyComp-giant-0-3-9",
+                    "heading": "TypographyComp-heading-0-3-8",
+                    "italic": "TypographyComp-italic-0-3-3",
+                    "lowercase": "TypographyComp-lowercase-0-3-11",
+                    "noWrap": "TypographyComp-noWrap-0-3-13",
+                    "semiBold": "TypographyComp-semiBold-0-3-2",
+                    "standard": "TypographyComp-standard-0-3-5",
+                    "subtext": "TypographyComp-subtext-0-3-4",
+                    "uppercase": "TypographyComp-uppercase-0-3-10",
+                  }
+                }
+                color="#d50000"
+                textTransform="uppercase"
+                variant="standard"
+              >
+                <span
+                  className="TypographyComp-standard-0-3-5 TypographyComp-uppercase-0-3-10 TypographyComp-bold-0-3-1"
+                  style={
+                    Object {
+                      "color": "rgba(213, 0, 0, 1)",
+                    }
+                  }
+                >
+                  interrupted
+                </span>
+              </TypographyComp>
+            </WithStyles(TypographyComp)>
+          </Typography>
+        </div>
+      </div>
+    </SignalStatusComp>
+  </WithStyles(SignalStatusComp)>
+</SignalStatus>
+`;
+
+exports[`Storyshots Components/SignalStatus Interrupted with text 1`] = `
+<SignalStatus
+  status="interrupted"
+  text="Power failure"
+>
+  <WithStyles(SignalStatusComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    status="interrupted"
+    text="Power failure"
+    theme={Object {}}
+  >
+    <SignalStatusComp
+      classes={
+        Object {
+          "root": "SignalStatusComp-root-0-3-272",
+          "text": "SignalStatusComp-text-0-3-273",
+        }
+      }
+      status="interrupted"
+      text="Power failure"
+    >
+      <div
+        className="SignalStatusComp-root-0-3-272"
+      >
+        <div>
+          <SignalCircular
+            color="red"
+            size="xs"
+          >
+            <WithStyles(SignalCircularComp)
+              color="red"
+              innerRef={null}
+              jssContext={
+                Object {
+                  "classNamePrefix": "",
+                  "disableStylesGeneration": false,
+                }
+              }
+              size="xs"
+              theme={Object {}}
+            >
+              <SignalCircularComp
+                classes={
+                  Object {
+                    "darkGrey": "SignalCircularComp-darkGrey-0-3-264",
+                    "green": "SignalCircularComp-green-0-3-262",
+                    "lightGrey": "SignalCircularComp-lightGrey-0-3-263",
+                    "md": "SignalCircularComp-md-0-3-258",
+                    "orange": "SignalCircularComp-orange-0-3-260",
+                    "red": "SignalCircularComp-red-0-3-259",
+                    "root": "SignalCircularComp-root-0-3-255",
+                    "sm": "SignalCircularComp-sm-0-3-257",
+                    "xs": "SignalCircularComp-xs-0-3-256",
+                    "yellow": "SignalCircularComp-yellow-0-3-261",
+                  }
+                }
+                color="red"
+                size="xs"
+              >
+                <div
+                  className="SignalCircularComp-root-0-3-255 SignalCircularComp-red-0-3-259 SignalCircularComp-xs-0-3-256"
+                />
+              </SignalCircularComp>
+            </WithStyles(SignalCircularComp)>
+          </SignalCircular>
+        </div>
+        <div
+          className="SignalStatusComp-text-0-3-273"
+        >
+          <Typography
+            bold={true}
+            color="#d50000"
+            textTransform="uppercase"
+            variant="standard"
+          >
+            <WithStyles(TypographyComp)
+              bold={true}
+              color="#d50000"
+              innerRef={null}
+              jssContext={
+                Object {
+                  "classNamePrefix": "",
+                  "disableStylesGeneration": false,
+                }
+              }
+              textTransform="uppercase"
+              theme={Object {}}
+              variant="standard"
+            >
+              <TypographyComp
+                bold={true}
+                classes={
+                  Object {
+                    "big": "TypographyComp-big-0-3-7",
+                    "bold": "TypographyComp-bold-0-3-1",
+                    "capitalize": "TypographyComp-capitalize-0-3-12",
+                    "distance": "TypographyComp-distance-0-3-6",
+                    "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                    "giant": "TypographyComp-giant-0-3-9",
+                    "heading": "TypographyComp-heading-0-3-8",
+                    "italic": "TypographyComp-italic-0-3-3",
+                    "lowercase": "TypographyComp-lowercase-0-3-11",
+                    "noWrap": "TypographyComp-noWrap-0-3-13",
+                    "semiBold": "TypographyComp-semiBold-0-3-2",
+                    "standard": "TypographyComp-standard-0-3-5",
+                    "subtext": "TypographyComp-subtext-0-3-4",
+                    "uppercase": "TypographyComp-uppercase-0-3-10",
+                  }
+                }
+                color="#d50000"
+                textTransform="uppercase"
+                variant="standard"
+              >
+                <span
+                  className="TypographyComp-standard-0-3-5 TypographyComp-uppercase-0-3-10 TypographyComp-bold-0-3-1"
+                  style={
+                    Object {
+                      "color": "rgba(213, 0, 0, 1)",
+                    }
+                  }
+                >
+                  interrupted
+                </span>
+              </TypographyComp>
+            </WithStyles(TypographyComp)>
+          </Typography>
+          <Typography
+            bold={true}
+            color="#d50000"
+            textTransform="capitalize"
+            variant="standard"
+          >
+            <WithStyles(TypographyComp)
+              bold={true}
+              color="#d50000"
+              innerRef={null}
+              jssContext={
+                Object {
+                  "classNamePrefix": "",
+                  "disableStylesGeneration": false,
+                }
+              }
+              textTransform="capitalize"
+              theme={Object {}}
+              variant="standard"
+            >
+              <TypographyComp
+                bold={true}
+                classes={
+                  Object {
+                    "big": "TypographyComp-big-0-3-7",
+                    "bold": "TypographyComp-bold-0-3-1",
+                    "capitalize": "TypographyComp-capitalize-0-3-12",
+                    "distance": "TypographyComp-distance-0-3-6",
+                    "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                    "giant": "TypographyComp-giant-0-3-9",
+                    "heading": "TypographyComp-heading-0-3-8",
+                    "italic": "TypographyComp-italic-0-3-3",
+                    "lowercase": "TypographyComp-lowercase-0-3-11",
+                    "noWrap": "TypographyComp-noWrap-0-3-13",
+                    "semiBold": "TypographyComp-semiBold-0-3-2",
+                    "standard": "TypographyComp-standard-0-3-5",
+                    "subtext": "TypographyComp-subtext-0-3-4",
+                    "uppercase": "TypographyComp-uppercase-0-3-10",
+                  }
+                }
+                color="#d50000"
+                textTransform="capitalize"
+                variant="standard"
+              >
+                <span
+                  className="TypographyComp-standard-0-3-5 TypographyComp-capitalize-0-3-12 TypographyComp-bold-0-3-1"
+                  style={
+                    Object {
+                      "color": "rgba(213, 0, 0, 1)",
+                    }
+                  }
+                >
+                  : Power failure
+                </span>
+              </TypographyComp>
+            </WithStyles(TypographyComp)>
+          </Typography>
+        </div>
+      </div>
+    </SignalStatusComp>
+  </WithStyles(SignalStatusComp)>
+</SignalStatus>
+`;
+
+exports[`Storyshots Components/SignalStatus Running 1`] = `
+<SignalStatus
+  status="running"
+>
+  <WithStyles(SignalStatusComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    status="running"
+    theme={Object {}}
+  >
+    <SignalStatusComp
+      classes={
+        Object {
+          "root": "SignalStatusComp-root-0-3-272",
+          "text": "SignalStatusComp-text-0-3-273",
+        }
+      }
+      status="running"
+    >
+      <div
+        className="SignalStatusComp-root-0-3-272"
+      >
+        <div>
+          <SignalCircular
+            color="green"
+            size="xs"
+          >
+            <WithStyles(SignalCircularComp)
+              color="green"
+              innerRef={null}
+              jssContext={
+                Object {
+                  "classNamePrefix": "",
+                  "disableStylesGeneration": false,
+                }
+              }
+              size="xs"
+              theme={Object {}}
+            >
+              <SignalCircularComp
+                classes={
+                  Object {
+                    "darkGrey": "SignalCircularComp-darkGrey-0-3-264",
+                    "green": "SignalCircularComp-green-0-3-262",
+                    "lightGrey": "SignalCircularComp-lightGrey-0-3-263",
+                    "md": "SignalCircularComp-md-0-3-258",
+                    "orange": "SignalCircularComp-orange-0-3-260",
+                    "red": "SignalCircularComp-red-0-3-259",
+                    "root": "SignalCircularComp-root-0-3-255",
+                    "sm": "SignalCircularComp-sm-0-3-257",
+                    "xs": "SignalCircularComp-xs-0-3-256",
+                    "yellow": "SignalCircularComp-yellow-0-3-261",
+                  }
+                }
+                color="green"
+                size="xs"
+              >
+                <div
+                  className="SignalCircularComp-root-0-3-255 SignalCircularComp-green-0-3-262 SignalCircularComp-xs-0-3-256"
+                />
+              </SignalCircularComp>
+            </WithStyles(SignalCircularComp)>
+          </SignalCircular>
+        </div>
+        <div
+          className="SignalStatusComp-text-0-3-273"
+        >
+          <Typography
+            textTransform="uppercase"
+            variant="standard"
+          >
+            <WithStyles(TypographyComp)
+              innerRef={null}
+              jssContext={
+                Object {
+                  "classNamePrefix": "",
+                  "disableStylesGeneration": false,
+                }
+              }
+              textTransform="uppercase"
+              theme={Object {}}
+              variant="standard"
+            >
+              <TypographyComp
+                classes={
+                  Object {
+                    "big": "TypographyComp-big-0-3-7",
+                    "bold": "TypographyComp-bold-0-3-1",
+                    "capitalize": "TypographyComp-capitalize-0-3-12",
+                    "distance": "TypographyComp-distance-0-3-6",
+                    "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                    "giant": "TypographyComp-giant-0-3-9",
+                    "heading": "TypographyComp-heading-0-3-8",
+                    "italic": "TypographyComp-italic-0-3-3",
+                    "lowercase": "TypographyComp-lowercase-0-3-11",
+                    "noWrap": "TypographyComp-noWrap-0-3-13",
+                    "semiBold": "TypographyComp-semiBold-0-3-2",
+                    "standard": "TypographyComp-standard-0-3-5",
+                    "subtext": "TypographyComp-subtext-0-3-4",
+                    "uppercase": "TypographyComp-uppercase-0-3-10",
+                  }
+                }
+                textTransform="uppercase"
+                variant="standard"
+              >
+                <span
+                  className="TypographyComp-standard-0-3-5 TypographyComp-uppercase-0-3-10"
+                >
+                  running
+                </span>
+              </TypographyComp>
+            </WithStyles(TypographyComp)>
+          </Typography>
+        </div>
+      </div>
+    </SignalStatusComp>
+  </WithStyles(SignalStatusComp)>
+</SignalStatus>
+`;
+
+exports[`Storyshots Components/SignalStatus Running with text 1`] = `
+<SignalStatus
+  status="running"
+  text="Some text"
+>
+  <WithStyles(SignalStatusComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    status="running"
+    text="Some text"
+    theme={Object {}}
+  >
+    <SignalStatusComp
+      classes={
+        Object {
+          "root": "SignalStatusComp-root-0-3-272",
+          "text": "SignalStatusComp-text-0-3-273",
+        }
+      }
+      status="running"
+      text="Some text"
+    >
+      <div
+        className="SignalStatusComp-root-0-3-272"
+      >
+        <div>
+          <SignalCircular
+            color="green"
+            size="xs"
+          >
+            <WithStyles(SignalCircularComp)
+              color="green"
+              innerRef={null}
+              jssContext={
+                Object {
+                  "classNamePrefix": "",
+                  "disableStylesGeneration": false,
+                }
+              }
+              size="xs"
+              theme={Object {}}
+            >
+              <SignalCircularComp
+                classes={
+                  Object {
+                    "darkGrey": "SignalCircularComp-darkGrey-0-3-264",
+                    "green": "SignalCircularComp-green-0-3-262",
+                    "lightGrey": "SignalCircularComp-lightGrey-0-3-263",
+                    "md": "SignalCircularComp-md-0-3-258",
+                    "orange": "SignalCircularComp-orange-0-3-260",
+                    "red": "SignalCircularComp-red-0-3-259",
+                    "root": "SignalCircularComp-root-0-3-255",
+                    "sm": "SignalCircularComp-sm-0-3-257",
+                    "xs": "SignalCircularComp-xs-0-3-256",
+                    "yellow": "SignalCircularComp-yellow-0-3-261",
+                  }
+                }
+                color="green"
+                size="xs"
+              >
+                <div
+                  className="SignalCircularComp-root-0-3-255 SignalCircularComp-green-0-3-262 SignalCircularComp-xs-0-3-256"
+                />
+              </SignalCircularComp>
+            </WithStyles(SignalCircularComp)>
+          </SignalCircular>
+        </div>
+        <div
+          className="SignalStatusComp-text-0-3-273"
+        >
+          <Typography
+            textTransform="uppercase"
+            variant="standard"
+          >
+            <WithStyles(TypographyComp)
+              innerRef={null}
+              jssContext={
+                Object {
+                  "classNamePrefix": "",
+                  "disableStylesGeneration": false,
+                }
+              }
+              textTransform="uppercase"
+              theme={Object {}}
+              variant="standard"
+            >
+              <TypographyComp
+                classes={
+                  Object {
+                    "big": "TypographyComp-big-0-3-7",
+                    "bold": "TypographyComp-bold-0-3-1",
+                    "capitalize": "TypographyComp-capitalize-0-3-12",
+                    "distance": "TypographyComp-distance-0-3-6",
+                    "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                    "giant": "TypographyComp-giant-0-3-9",
+                    "heading": "TypographyComp-heading-0-3-8",
+                    "italic": "TypographyComp-italic-0-3-3",
+                    "lowercase": "TypographyComp-lowercase-0-3-11",
+                    "noWrap": "TypographyComp-noWrap-0-3-13",
+                    "semiBold": "TypographyComp-semiBold-0-3-2",
+                    "standard": "TypographyComp-standard-0-3-5",
+                    "subtext": "TypographyComp-subtext-0-3-4",
+                    "uppercase": "TypographyComp-uppercase-0-3-10",
+                  }
+                }
+                textTransform="uppercase"
+                variant="standard"
+              >
+                <span
+                  className="TypographyComp-standard-0-3-5 TypographyComp-uppercase-0-3-10"
+                >
+                  running
+                </span>
+              </TypographyComp>
+            </WithStyles(TypographyComp)>
+          </Typography>
+          <Typography
+            textTransform="capitalize"
+            variant="standard"
+          >
+            <WithStyles(TypographyComp)
+              innerRef={null}
+              jssContext={
+                Object {
+                  "classNamePrefix": "",
+                  "disableStylesGeneration": false,
+                }
+              }
+              textTransform="capitalize"
+              theme={Object {}}
+              variant="standard"
+            >
+              <TypographyComp
+                classes={
+                  Object {
+                    "big": "TypographyComp-big-0-3-7",
+                    "bold": "TypographyComp-bold-0-3-1",
+                    "capitalize": "TypographyComp-capitalize-0-3-12",
+                    "distance": "TypographyComp-distance-0-3-6",
+                    "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                    "giant": "TypographyComp-giant-0-3-9",
+                    "heading": "TypographyComp-heading-0-3-8",
+                    "italic": "TypographyComp-italic-0-3-3",
+                    "lowercase": "TypographyComp-lowercase-0-3-11",
+                    "noWrap": "TypographyComp-noWrap-0-3-13",
+                    "semiBold": "TypographyComp-semiBold-0-3-2",
+                    "standard": "TypographyComp-standard-0-3-5",
+                    "subtext": "TypographyComp-subtext-0-3-4",
+                    "uppercase": "TypographyComp-uppercase-0-3-10",
+                  }
+                }
+                textTransform="capitalize"
+                variant="standard"
+              >
+                <span
+                  className="TypographyComp-standard-0-3-5 TypographyComp-capitalize-0-3-12"
+                >
+                  : Some text
+                </span>
+              </TypographyComp>
+            </WithStyles(TypographyComp)>
+          </Typography>
+        </div>
+      </div>
+    </SignalStatusComp>
+  </WithStyles(SignalStatusComp)>
+</SignalStatus>
+`;

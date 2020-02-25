@@ -1,0 +1,686 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Typography Big 1`] = `
+<Typography
+  variant="big"
+>
+  <WithStyles(TypographyComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    theme={Object {}}
+    variant="big"
+  >
+    <TypographyComp
+      classes={
+        Object {
+          "big": "TypographyComp-big-0-3-7",
+          "bold": "TypographyComp-bold-0-3-1",
+          "capitalize": "TypographyComp-capitalize-0-3-12",
+          "distance": "TypographyComp-distance-0-3-6",
+          "ellipsis": "TypographyComp-ellipsis-0-3-14",
+          "giant": "TypographyComp-giant-0-3-9",
+          "heading": "TypographyComp-heading-0-3-8",
+          "italic": "TypographyComp-italic-0-3-3",
+          "lowercase": "TypographyComp-lowercase-0-3-11",
+          "noWrap": "TypographyComp-noWrap-0-3-13",
+          "semiBold": "TypographyComp-semiBold-0-3-2",
+          "standard": "TypographyComp-standard-0-3-5",
+          "subtext": "TypographyComp-subtext-0-3-4",
+          "uppercase": "TypographyComp-uppercase-0-3-10",
+        }
+      }
+      variant="big"
+    >
+      <span
+        className="TypographyComp-big-0-3-7"
+      >
+        Big
+      </span>
+    </TypographyComp>
+  </WithStyles(TypographyComp)>
+</Typography>
+`;
+
+exports[`Storyshots Components/Typography Distance 1`] = `
+<Typography
+  variant="distance"
+>
+  <WithStyles(TypographyComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    theme={Object {}}
+    variant="distance"
+  >
+    <TypographyComp
+      classes={
+        Object {
+          "big": "TypographyComp-big-0-3-7",
+          "bold": "TypographyComp-bold-0-3-1",
+          "capitalize": "TypographyComp-capitalize-0-3-12",
+          "distance": "TypographyComp-distance-0-3-6",
+          "ellipsis": "TypographyComp-ellipsis-0-3-14",
+          "giant": "TypographyComp-giant-0-3-9",
+          "heading": "TypographyComp-heading-0-3-8",
+          "italic": "TypographyComp-italic-0-3-3",
+          "lowercase": "TypographyComp-lowercase-0-3-11",
+          "noWrap": "TypographyComp-noWrap-0-3-13",
+          "semiBold": "TypographyComp-semiBold-0-3-2",
+          "standard": "TypographyComp-standard-0-3-5",
+          "subtext": "TypographyComp-subtext-0-3-4",
+          "uppercase": "TypographyComp-uppercase-0-3-10",
+        }
+      }
+      variant="distance"
+    >
+      <span
+        className="TypographyComp-distance-0-3-6"
+      >
+        Distance
+      </span>
+    </TypographyComp>
+  </WithStyles(TypographyComp)>
+</Typography>
+`;
+
+exports[`Storyshots Components/Typography Giant 1`] = `
+<Typography
+  variant="giant"
+>
+  <WithStyles(TypographyComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    theme={Object {}}
+    variant="giant"
+  >
+    <TypographyComp
+      classes={
+        Object {
+          "big": "TypographyComp-big-0-3-7",
+          "bold": "TypographyComp-bold-0-3-1",
+          "capitalize": "TypographyComp-capitalize-0-3-12",
+          "distance": "TypographyComp-distance-0-3-6",
+          "ellipsis": "TypographyComp-ellipsis-0-3-14",
+          "giant": "TypographyComp-giant-0-3-9",
+          "heading": "TypographyComp-heading-0-3-8",
+          "italic": "TypographyComp-italic-0-3-3",
+          "lowercase": "TypographyComp-lowercase-0-3-11",
+          "noWrap": "TypographyComp-noWrap-0-3-13",
+          "semiBold": "TypographyComp-semiBold-0-3-2",
+          "standard": "TypographyComp-standard-0-3-5",
+          "subtext": "TypographyComp-subtext-0-3-4",
+          "uppercase": "TypographyComp-uppercase-0-3-10",
+        }
+      }
+      variant="giant"
+    >
+      <span
+        className="TypographyComp-giant-0-3-9"
+      >
+        Giant
+      </span>
+    </TypographyComp>
+  </WithStyles(TypographyComp)>
+</Typography>
+`;
+
+exports[`Storyshots Components/Typography Heading 1`] = `
+<Typography
+  variant="heading"
+>
+  <WithStyles(TypographyComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    theme={Object {}}
+    variant="heading"
+  >
+    <TypographyComp
+      classes={
+        Object {
+          "big": "TypographyComp-big-0-3-7",
+          "bold": "TypographyComp-bold-0-3-1",
+          "capitalize": "TypographyComp-capitalize-0-3-12",
+          "distance": "TypographyComp-distance-0-3-6",
+          "ellipsis": "TypographyComp-ellipsis-0-3-14",
+          "giant": "TypographyComp-giant-0-3-9",
+          "heading": "TypographyComp-heading-0-3-8",
+          "italic": "TypographyComp-italic-0-3-3",
+          "lowercase": "TypographyComp-lowercase-0-3-11",
+          "noWrap": "TypographyComp-noWrap-0-3-13",
+          "semiBold": "TypographyComp-semiBold-0-3-2",
+          "standard": "TypographyComp-standard-0-3-5",
+          "subtext": "TypographyComp-subtext-0-3-4",
+          "uppercase": "TypographyComp-uppercase-0-3-10",
+        }
+      }
+      variant="heading"
+    >
+      <span
+        className="TypographyComp-heading-0-3-8"
+      >
+        Heading
+      </span>
+    </TypographyComp>
+  </WithStyles(TypographyComp)>
+</Typography>
+`;
+
+exports[`Storyshots Components/Typography Standard 1`] = `
+<Typography
+  variant="standard"
+>
+  <WithStyles(TypographyComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    theme={Object {}}
+    variant="standard"
+  >
+    <TypographyComp
+      classes={
+        Object {
+          "big": "TypographyComp-big-0-3-7",
+          "bold": "TypographyComp-bold-0-3-1",
+          "capitalize": "TypographyComp-capitalize-0-3-12",
+          "distance": "TypographyComp-distance-0-3-6",
+          "ellipsis": "TypographyComp-ellipsis-0-3-14",
+          "giant": "TypographyComp-giant-0-3-9",
+          "heading": "TypographyComp-heading-0-3-8",
+          "italic": "TypographyComp-italic-0-3-3",
+          "lowercase": "TypographyComp-lowercase-0-3-11",
+          "noWrap": "TypographyComp-noWrap-0-3-13",
+          "semiBold": "TypographyComp-semiBold-0-3-2",
+          "standard": "TypographyComp-standard-0-3-5",
+          "subtext": "TypographyComp-subtext-0-3-4",
+          "uppercase": "TypographyComp-uppercase-0-3-10",
+        }
+      }
+      variant="standard"
+    >
+      <span
+        className="TypographyComp-standard-0-3-5"
+      >
+        Standard
+      </span>
+    </TypographyComp>
+  </WithStyles(TypographyComp)>
+</Typography>
+`;
+
+exports[`Storyshots Components/Typography Standard bold 1`] = `
+<Typography
+  bold={true}
+  variant="standard"
+>
+  <WithStyles(TypographyComp)
+    bold={true}
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    theme={Object {}}
+    variant="standard"
+  >
+    <TypographyComp
+      bold={true}
+      classes={
+        Object {
+          "big": "TypographyComp-big-0-3-7",
+          "bold": "TypographyComp-bold-0-3-1",
+          "capitalize": "TypographyComp-capitalize-0-3-12",
+          "distance": "TypographyComp-distance-0-3-6",
+          "ellipsis": "TypographyComp-ellipsis-0-3-14",
+          "giant": "TypographyComp-giant-0-3-9",
+          "heading": "TypographyComp-heading-0-3-8",
+          "italic": "TypographyComp-italic-0-3-3",
+          "lowercase": "TypographyComp-lowercase-0-3-11",
+          "noWrap": "TypographyComp-noWrap-0-3-13",
+          "semiBold": "TypographyComp-semiBold-0-3-2",
+          "standard": "TypographyComp-standard-0-3-5",
+          "subtext": "TypographyComp-subtext-0-3-4",
+          "uppercase": "TypographyComp-uppercase-0-3-10",
+        }
+      }
+      variant="standard"
+    >
+      <span
+        className="TypographyComp-standard-0-3-5 TypographyComp-bold-0-3-1"
+      >
+        Standard Bold
+      </span>
+    </TypographyComp>
+  </WithStyles(TypographyComp)>
+</Typography>
+`;
+
+exports[`Storyshots Components/Typography Standard capitalize 1`] = `
+<Typography
+  textTransform="capitalize"
+  variant="standard"
+>
+  <WithStyles(TypographyComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    textTransform="capitalize"
+    theme={Object {}}
+    variant="standard"
+  >
+    <TypographyComp
+      classes={
+        Object {
+          "big": "TypographyComp-big-0-3-7",
+          "bold": "TypographyComp-bold-0-3-1",
+          "capitalize": "TypographyComp-capitalize-0-3-12",
+          "distance": "TypographyComp-distance-0-3-6",
+          "ellipsis": "TypographyComp-ellipsis-0-3-14",
+          "giant": "TypographyComp-giant-0-3-9",
+          "heading": "TypographyComp-heading-0-3-8",
+          "italic": "TypographyComp-italic-0-3-3",
+          "lowercase": "TypographyComp-lowercase-0-3-11",
+          "noWrap": "TypographyComp-noWrap-0-3-13",
+          "semiBold": "TypographyComp-semiBold-0-3-2",
+          "standard": "TypographyComp-standard-0-3-5",
+          "subtext": "TypographyComp-subtext-0-3-4",
+          "uppercase": "TypographyComp-uppercase-0-3-10",
+        }
+      }
+      textTransform="capitalize"
+      variant="standard"
+    >
+      <span
+        className="TypographyComp-standard-0-3-5 TypographyComp-capitalize-0-3-12"
+      >
+        Standard
+      </span>
+    </TypographyComp>
+  </WithStyles(TypographyComp)>
+</Typography>
+`;
+
+exports[`Storyshots Components/Typography Standard italic 1`] = `
+<Typography
+  italic={true}
+  variant="standard"
+>
+  <WithStyles(TypographyComp)
+    innerRef={null}
+    italic={true}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    theme={Object {}}
+    variant="standard"
+  >
+    <TypographyComp
+      classes={
+        Object {
+          "big": "TypographyComp-big-0-3-7",
+          "bold": "TypographyComp-bold-0-3-1",
+          "capitalize": "TypographyComp-capitalize-0-3-12",
+          "distance": "TypographyComp-distance-0-3-6",
+          "ellipsis": "TypographyComp-ellipsis-0-3-14",
+          "giant": "TypographyComp-giant-0-3-9",
+          "heading": "TypographyComp-heading-0-3-8",
+          "italic": "TypographyComp-italic-0-3-3",
+          "lowercase": "TypographyComp-lowercase-0-3-11",
+          "noWrap": "TypographyComp-noWrap-0-3-13",
+          "semiBold": "TypographyComp-semiBold-0-3-2",
+          "standard": "TypographyComp-standard-0-3-5",
+          "subtext": "TypographyComp-subtext-0-3-4",
+          "uppercase": "TypographyComp-uppercase-0-3-10",
+        }
+      }
+      italic={true}
+      variant="standard"
+    >
+      <span
+        className="TypographyComp-standard-0-3-5 TypographyComp-italic-0-3-3"
+      >
+        Standard Italic
+      </span>
+    </TypographyComp>
+  </WithStyles(TypographyComp)>
+</Typography>
+`;
+
+exports[`Storyshots Components/Typography Standard lowercase 1`] = `
+<Typography
+  textTransform="lowercase"
+  variant="standard"
+>
+  <WithStyles(TypographyComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    textTransform="lowercase"
+    theme={Object {}}
+    variant="standard"
+  >
+    <TypographyComp
+      classes={
+        Object {
+          "big": "TypographyComp-big-0-3-7",
+          "bold": "TypographyComp-bold-0-3-1",
+          "capitalize": "TypographyComp-capitalize-0-3-12",
+          "distance": "TypographyComp-distance-0-3-6",
+          "ellipsis": "TypographyComp-ellipsis-0-3-14",
+          "giant": "TypographyComp-giant-0-3-9",
+          "heading": "TypographyComp-heading-0-3-8",
+          "italic": "TypographyComp-italic-0-3-3",
+          "lowercase": "TypographyComp-lowercase-0-3-11",
+          "noWrap": "TypographyComp-noWrap-0-3-13",
+          "semiBold": "TypographyComp-semiBold-0-3-2",
+          "standard": "TypographyComp-standard-0-3-5",
+          "subtext": "TypographyComp-subtext-0-3-4",
+          "uppercase": "TypographyComp-uppercase-0-3-10",
+        }
+      }
+      textTransform="lowercase"
+      variant="standard"
+    >
+      <span
+        className="TypographyComp-standard-0-3-5 TypographyComp-lowercase-0-3-11"
+      >
+        Standard
+      </span>
+    </TypographyComp>
+  </WithStyles(TypographyComp)>
+</Typography>
+`;
+
+exports[`Storyshots Components/Typography Standard semiBold 1`] = `
+<Typography
+  semiBold={true}
+  variant="standard"
+>
+  <WithStyles(TypographyComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    semiBold={true}
+    theme={Object {}}
+    variant="standard"
+  >
+    <TypographyComp
+      classes={
+        Object {
+          "big": "TypographyComp-big-0-3-7",
+          "bold": "TypographyComp-bold-0-3-1",
+          "capitalize": "TypographyComp-capitalize-0-3-12",
+          "distance": "TypographyComp-distance-0-3-6",
+          "ellipsis": "TypographyComp-ellipsis-0-3-14",
+          "giant": "TypographyComp-giant-0-3-9",
+          "heading": "TypographyComp-heading-0-3-8",
+          "italic": "TypographyComp-italic-0-3-3",
+          "lowercase": "TypographyComp-lowercase-0-3-11",
+          "noWrap": "TypographyComp-noWrap-0-3-13",
+          "semiBold": "TypographyComp-semiBold-0-3-2",
+          "standard": "TypographyComp-standard-0-3-5",
+          "subtext": "TypographyComp-subtext-0-3-4",
+          "uppercase": "TypographyComp-uppercase-0-3-10",
+        }
+      }
+      semiBold={true}
+      variant="standard"
+    >
+      <span
+        className="TypographyComp-standard-0-3-5 TypographyComp-semiBold-0-3-2"
+      >
+        Standard semiBold
+      </span>
+    </TypographyComp>
+  </WithStyles(TypographyComp)>
+</Typography>
+`;
+
+exports[`Storyshots Components/Typography Standard uppercase 1`] = `
+<Typography
+  textTransform="uppercase"
+  variant="standard"
+>
+  <WithStyles(TypographyComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    textTransform="uppercase"
+    theme={Object {}}
+    variant="standard"
+  >
+    <TypographyComp
+      classes={
+        Object {
+          "big": "TypographyComp-big-0-3-7",
+          "bold": "TypographyComp-bold-0-3-1",
+          "capitalize": "TypographyComp-capitalize-0-3-12",
+          "distance": "TypographyComp-distance-0-3-6",
+          "ellipsis": "TypographyComp-ellipsis-0-3-14",
+          "giant": "TypographyComp-giant-0-3-9",
+          "heading": "TypographyComp-heading-0-3-8",
+          "italic": "TypographyComp-italic-0-3-3",
+          "lowercase": "TypographyComp-lowercase-0-3-11",
+          "noWrap": "TypographyComp-noWrap-0-3-13",
+          "semiBold": "TypographyComp-semiBold-0-3-2",
+          "standard": "TypographyComp-standard-0-3-5",
+          "subtext": "TypographyComp-subtext-0-3-4",
+          "uppercase": "TypographyComp-uppercase-0-3-10",
+        }
+      }
+      textTransform="uppercase"
+      variant="standard"
+    >
+      <span
+        className="TypographyComp-standard-0-3-5 TypographyComp-uppercase-0-3-10"
+      >
+        Standard
+      </span>
+    </TypographyComp>
+  </WithStyles(TypographyComp)>
+</Typography>
+`;
+
+exports[`Storyshots Components/Typography Subtext 1`] = `
+<Typography
+  variant="subtext"
+>
+  <WithStyles(TypographyComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    theme={Object {}}
+    variant="subtext"
+  >
+    <TypographyComp
+      classes={
+        Object {
+          "big": "TypographyComp-big-0-3-7",
+          "bold": "TypographyComp-bold-0-3-1",
+          "capitalize": "TypographyComp-capitalize-0-3-12",
+          "distance": "TypographyComp-distance-0-3-6",
+          "ellipsis": "TypographyComp-ellipsis-0-3-14",
+          "giant": "TypographyComp-giant-0-3-9",
+          "heading": "TypographyComp-heading-0-3-8",
+          "italic": "TypographyComp-italic-0-3-3",
+          "lowercase": "TypographyComp-lowercase-0-3-11",
+          "noWrap": "TypographyComp-noWrap-0-3-13",
+          "semiBold": "TypographyComp-semiBold-0-3-2",
+          "standard": "TypographyComp-standard-0-3-5",
+          "subtext": "TypographyComp-subtext-0-3-4",
+          "uppercase": "TypographyComp-uppercase-0-3-10",
+        }
+      }
+      variant="subtext"
+    >
+      <span
+        className="TypographyComp-subtext-0-3-4"
+      >
+        Subtext
+      </span>
+    </TypographyComp>
+  </WithStyles(TypographyComp)>
+</Typography>
+`;
+
+exports[`Storyshots Components/Typography ellipsis 1`] = `
+<div
+  style={
+    Object {
+      "width": 500,
+    }
+  }
+>
+  <Typography
+    ellipsis={true}
+    variant="standard"
+  >
+    <WithStyles(TypographyComp)
+      ellipsis={true}
+      innerRef={null}
+      jssContext={
+        Object {
+          "classNamePrefix": "",
+          "disableStylesGeneration": false,
+        }
+      }
+      theme={Object {}}
+      variant="standard"
+    >
+      <TypographyComp
+        classes={
+          Object {
+            "big": "TypographyComp-big-0-3-7",
+            "bold": "TypographyComp-bold-0-3-1",
+            "capitalize": "TypographyComp-capitalize-0-3-12",
+            "distance": "TypographyComp-distance-0-3-6",
+            "ellipsis": "TypographyComp-ellipsis-0-3-14",
+            "giant": "TypographyComp-giant-0-3-9",
+            "heading": "TypographyComp-heading-0-3-8",
+            "italic": "TypographyComp-italic-0-3-3",
+            "lowercase": "TypographyComp-lowercase-0-3-11",
+            "noWrap": "TypographyComp-noWrap-0-3-13",
+            "semiBold": "TypographyComp-semiBold-0-3-2",
+            "standard": "TypographyComp-standard-0-3-5",
+            "subtext": "TypographyComp-subtext-0-3-4",
+            "uppercase": "TypographyComp-uppercase-0-3-10",
+          }
+        }
+        ellipsis={true}
+        variant="standard"
+      >
+        <span
+          className="TypographyComp-standard-0-3-5 TypographyComp-ellipsis-0-3-14"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Ut labore et dolore magna aliqua. Lacus vel facilisis volutpat est. Sed faucibus turpis in eu mi bibendum neque egestas. Id eu nisl nunc mi ipsum faucibus vitae aliquet nec. Pharetra sit amet aliquam id diam maecenas ultricies mi. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque. Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Risus nec feugiat in fermentum posuere urna nec tincidunt praesent. Quis lectus nulla at volutpat diam. At consectetur lorem donec massa sapien faucibus. Aliquet nibh praesent tristique magna sit amet.
+
+        </span>
+      </TypographyComp>
+    </WithStyles(TypographyComp)>
+  </Typography>
+</div>
+`;
+
+exports[`Storyshots Components/Typography noWrap 1`] = `
+<div
+  style={
+    Object {
+      "width": 100,
+    }
+  }
+>
+  <Typography
+    noWrap={true}
+    variant="standard"
+  >
+    <WithStyles(TypographyComp)
+      innerRef={null}
+      jssContext={
+        Object {
+          "classNamePrefix": "",
+          "disableStylesGeneration": false,
+        }
+      }
+      noWrap={true}
+      theme={Object {}}
+      variant="standard"
+    >
+      <TypographyComp
+        classes={
+          Object {
+            "big": "TypographyComp-big-0-3-7",
+            "bold": "TypographyComp-bold-0-3-1",
+            "capitalize": "TypographyComp-capitalize-0-3-12",
+            "distance": "TypographyComp-distance-0-3-6",
+            "ellipsis": "TypographyComp-ellipsis-0-3-14",
+            "giant": "TypographyComp-giant-0-3-9",
+            "heading": "TypographyComp-heading-0-3-8",
+            "italic": "TypographyComp-italic-0-3-3",
+            "lowercase": "TypographyComp-lowercase-0-3-11",
+            "noWrap": "TypographyComp-noWrap-0-3-13",
+            "semiBold": "TypographyComp-semiBold-0-3-2",
+            "standard": "TypographyComp-standard-0-3-5",
+            "subtext": "TypographyComp-subtext-0-3-4",
+            "uppercase": "TypographyComp-uppercase-0-3-10",
+          }
+        }
+        noWrap={true}
+        variant="standard"
+      >
+        <span
+          className="TypographyComp-standard-0-3-5 TypographyComp-noWrap-0-3-13"
+        >
+          No wrap this line of text
+        </span>
+      </TypographyComp>
+    </WithStyles(TypographyComp)>
+  </Typography>
+</div>
+`;

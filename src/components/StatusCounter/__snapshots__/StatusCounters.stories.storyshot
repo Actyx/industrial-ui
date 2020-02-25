@@ -1,0 +1,1004 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/StatusCounters One counter 1`] = `
+<StatusCounters
+  counters={
+    Array [
+      Object {
+        "counter": 2,
+        "variant": "ready",
+      },
+    ]
+  }
+>
+  <WithStyles(StatusCountersComp)
+    counters={
+      Array [
+        Object {
+          "counter": 2,
+          "variant": "ready",
+        },
+      ]
+    }
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    theme={Object {}}
+  >
+    <StatusCountersComp
+      classes={
+        Object {
+          "root": "StatusCountersComp-root-0-3-303",
+        }
+      }
+      counters={
+        Array [
+          Object {
+            "counter": 2,
+            "variant": "ready",
+          },
+        ]
+      }
+    >
+      <div
+        className="StatusCountersComp-root-0-3-303"
+      >
+        <StatusCounter
+          counter={2}
+          key="0-ready"
+          variant="ready"
+        >
+          <WithStyles(StatusCounterComp)
+            counter={2}
+            innerRef={null}
+            jssContext={
+              Object {
+                "classNamePrefix": "",
+                "disableStylesGeneration": false,
+              }
+            }
+            theme={Object {}}
+            variant="ready"
+          >
+            <StatusCounterComp
+              classes={
+                Object {
+                  "ready": "StatusCounterComp-ready-0-3-305",
+                  "requested": "StatusCounterComp-requested-0-3-307",
+                  "root": "StatusCounterComp-root-0-3-304",
+                  "unknown": "StatusCounterComp-unknown-0-3-306",
+                }
+              }
+              counter={2}
+              variant="ready"
+            >
+              <div
+                className="StatusCounterComp-root-0-3-304 StatusCounterComp-ready-0-3-305"
+              >
+                <Typography
+                  variant="subtext"
+                >
+                  <WithStyles(TypographyComp)
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                    variant="subtext"
+                  >
+                    <TypographyComp
+                      classes={
+                        Object {
+                          "big": "TypographyComp-big-0-3-7",
+                          "bold": "TypographyComp-bold-0-3-1",
+                          "capitalize": "TypographyComp-capitalize-0-3-12",
+                          "distance": "TypographyComp-distance-0-3-6",
+                          "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                          "giant": "TypographyComp-giant-0-3-9",
+                          "heading": "TypographyComp-heading-0-3-8",
+                          "italic": "TypographyComp-italic-0-3-3",
+                          "lowercase": "TypographyComp-lowercase-0-3-11",
+                          "noWrap": "TypographyComp-noWrap-0-3-13",
+                          "semiBold": "TypographyComp-semiBold-0-3-2",
+                          "standard": "TypographyComp-standard-0-3-5",
+                          "subtext": "TypographyComp-subtext-0-3-4",
+                          "uppercase": "TypographyComp-uppercase-0-3-10",
+                        }
+                      }
+                      variant="subtext"
+                    >
+                      <span
+                        className="TypographyComp-subtext-0-3-4"
+                      >
+                        2
+                        ⨉
+                      </span>
+                    </TypographyComp>
+                  </WithStyles(TypographyComp)>
+                </Typography>
+              </div>
+            </StatusCounterComp>
+          </WithStyles(StatusCounterComp)>
+        </StatusCounter>
+      </div>
+    </StatusCountersComp>
+  </WithStyles(StatusCountersComp)>
+</StatusCounters>
+`;
+
+exports[`Storyshots Components/StatusCounters Part long 1`] = `
+<StatusCounter
+  counter={43993487348734}
+  variant="ready"
+>
+  <WithStyles(StatusCounterComp)
+    counter={43993487348734}
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    theme={Object {}}
+    variant="ready"
+  >
+    <StatusCounterComp
+      classes={
+        Object {
+          "ready": "StatusCounterComp-ready-0-3-305",
+          "requested": "StatusCounterComp-requested-0-3-307",
+          "root": "StatusCounterComp-root-0-3-304",
+          "unknown": "StatusCounterComp-unknown-0-3-306",
+        }
+      }
+      counter={43993487348734}
+      variant="ready"
+    >
+      <div
+        className="StatusCounterComp-root-0-3-304 StatusCounterComp-ready-0-3-305"
+      >
+        <Typography
+          variant="subtext"
+        >
+          <WithStyles(TypographyComp)
+            innerRef={null}
+            jssContext={
+              Object {
+                "classNamePrefix": "",
+                "disableStylesGeneration": false,
+              }
+            }
+            theme={Object {}}
+            variant="subtext"
+          >
+            <TypographyComp
+              classes={
+                Object {
+                  "big": "TypographyComp-big-0-3-7",
+                  "bold": "TypographyComp-bold-0-3-1",
+                  "capitalize": "TypographyComp-capitalize-0-3-12",
+                  "distance": "TypographyComp-distance-0-3-6",
+                  "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                  "giant": "TypographyComp-giant-0-3-9",
+                  "heading": "TypographyComp-heading-0-3-8",
+                  "italic": "TypographyComp-italic-0-3-3",
+                  "lowercase": "TypographyComp-lowercase-0-3-11",
+                  "noWrap": "TypographyComp-noWrap-0-3-13",
+                  "semiBold": "TypographyComp-semiBold-0-3-2",
+                  "standard": "TypographyComp-standard-0-3-5",
+                  "subtext": "TypographyComp-subtext-0-3-4",
+                  "uppercase": "TypographyComp-uppercase-0-3-10",
+                }
+              }
+              variant="subtext"
+            >
+              <span
+                className="TypographyComp-subtext-0-3-4"
+              >
+                43993487348734
+                ⨉
+              </span>
+            </TypographyComp>
+          </WithStyles(TypographyComp)>
+        </Typography>
+      </div>
+    </StatusCounterComp>
+  </WithStyles(StatusCounterComp)>
+</StatusCounter>
+`;
+
+exports[`Storyshots Components/StatusCounters Part ready 1`] = `
+<StatusCounter
+  counter={1}
+  variant="ready"
+>
+  <WithStyles(StatusCounterComp)
+    counter={1}
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    theme={Object {}}
+    variant="ready"
+  >
+    <StatusCounterComp
+      classes={
+        Object {
+          "ready": "StatusCounterComp-ready-0-3-305",
+          "requested": "StatusCounterComp-requested-0-3-307",
+          "root": "StatusCounterComp-root-0-3-304",
+          "unknown": "StatusCounterComp-unknown-0-3-306",
+        }
+      }
+      counter={1}
+      variant="ready"
+    >
+      <div
+        className="StatusCounterComp-root-0-3-304 StatusCounterComp-ready-0-3-305"
+      >
+        <Typography
+          variant="subtext"
+        >
+          <WithStyles(TypographyComp)
+            innerRef={null}
+            jssContext={
+              Object {
+                "classNamePrefix": "",
+                "disableStylesGeneration": false,
+              }
+            }
+            theme={Object {}}
+            variant="subtext"
+          >
+            <TypographyComp
+              classes={
+                Object {
+                  "big": "TypographyComp-big-0-3-7",
+                  "bold": "TypographyComp-bold-0-3-1",
+                  "capitalize": "TypographyComp-capitalize-0-3-12",
+                  "distance": "TypographyComp-distance-0-3-6",
+                  "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                  "giant": "TypographyComp-giant-0-3-9",
+                  "heading": "TypographyComp-heading-0-3-8",
+                  "italic": "TypographyComp-italic-0-3-3",
+                  "lowercase": "TypographyComp-lowercase-0-3-11",
+                  "noWrap": "TypographyComp-noWrap-0-3-13",
+                  "semiBold": "TypographyComp-semiBold-0-3-2",
+                  "standard": "TypographyComp-standard-0-3-5",
+                  "subtext": "TypographyComp-subtext-0-3-4",
+                  "uppercase": "TypographyComp-uppercase-0-3-10",
+                }
+              }
+              variant="subtext"
+            >
+              <span
+                className="TypographyComp-subtext-0-3-4"
+              >
+                1
+                ⨉
+              </span>
+            </TypographyComp>
+          </WithStyles(TypographyComp)>
+        </Typography>
+      </div>
+    </StatusCounterComp>
+  </WithStyles(StatusCounterComp)>
+</StatusCounter>
+`;
+
+exports[`Storyshots Components/StatusCounters Part requested 1`] = `
+<StatusCounter
+  counter={22}
+  variant="requested"
+>
+  <WithStyles(StatusCounterComp)
+    counter={22}
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    theme={Object {}}
+    variant="requested"
+  >
+    <StatusCounterComp
+      classes={
+        Object {
+          "ready": "StatusCounterComp-ready-0-3-305",
+          "requested": "StatusCounterComp-requested-0-3-307",
+          "root": "StatusCounterComp-root-0-3-304",
+          "unknown": "StatusCounterComp-unknown-0-3-306",
+        }
+      }
+      counter={22}
+      variant="requested"
+    >
+      <div
+        className="StatusCounterComp-root-0-3-304 StatusCounterComp-requested-0-3-307"
+      >
+        <Typography
+          variant="subtext"
+        >
+          <WithStyles(TypographyComp)
+            innerRef={null}
+            jssContext={
+              Object {
+                "classNamePrefix": "",
+                "disableStylesGeneration": false,
+              }
+            }
+            theme={Object {}}
+            variant="subtext"
+          >
+            <TypographyComp
+              classes={
+                Object {
+                  "big": "TypographyComp-big-0-3-7",
+                  "bold": "TypographyComp-bold-0-3-1",
+                  "capitalize": "TypographyComp-capitalize-0-3-12",
+                  "distance": "TypographyComp-distance-0-3-6",
+                  "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                  "giant": "TypographyComp-giant-0-3-9",
+                  "heading": "TypographyComp-heading-0-3-8",
+                  "italic": "TypographyComp-italic-0-3-3",
+                  "lowercase": "TypographyComp-lowercase-0-3-11",
+                  "noWrap": "TypographyComp-noWrap-0-3-13",
+                  "semiBold": "TypographyComp-semiBold-0-3-2",
+                  "standard": "TypographyComp-standard-0-3-5",
+                  "subtext": "TypographyComp-subtext-0-3-4",
+                  "uppercase": "TypographyComp-uppercase-0-3-10",
+                }
+              }
+              variant="subtext"
+            >
+              <span
+                className="TypographyComp-subtext-0-3-4"
+              >
+                22
+                ⨉
+              </span>
+            </TypographyComp>
+          </WithStyles(TypographyComp)>
+        </Typography>
+      </div>
+    </StatusCounterComp>
+  </WithStyles(StatusCounterComp)>
+</StatusCounter>
+`;
+
+exports[`Storyshots Components/StatusCounters Part unknown 1`] = `
+<StatusCounter
+  counter={764}
+  variant="unknown"
+>
+  <WithStyles(StatusCounterComp)
+    counter={764}
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    theme={Object {}}
+    variant="unknown"
+  >
+    <StatusCounterComp
+      classes={
+        Object {
+          "ready": "StatusCounterComp-ready-0-3-305",
+          "requested": "StatusCounterComp-requested-0-3-307",
+          "root": "StatusCounterComp-root-0-3-304",
+          "unknown": "StatusCounterComp-unknown-0-3-306",
+        }
+      }
+      counter={764}
+      variant="unknown"
+    >
+      <div
+        className="StatusCounterComp-root-0-3-304 StatusCounterComp-unknown-0-3-306"
+      >
+        <Typography
+          variant="subtext"
+        >
+          <WithStyles(TypographyComp)
+            innerRef={null}
+            jssContext={
+              Object {
+                "classNamePrefix": "",
+                "disableStylesGeneration": false,
+              }
+            }
+            theme={Object {}}
+            variant="subtext"
+          >
+            <TypographyComp
+              classes={
+                Object {
+                  "big": "TypographyComp-big-0-3-7",
+                  "bold": "TypographyComp-bold-0-3-1",
+                  "capitalize": "TypographyComp-capitalize-0-3-12",
+                  "distance": "TypographyComp-distance-0-3-6",
+                  "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                  "giant": "TypographyComp-giant-0-3-9",
+                  "heading": "TypographyComp-heading-0-3-8",
+                  "italic": "TypographyComp-italic-0-3-3",
+                  "lowercase": "TypographyComp-lowercase-0-3-11",
+                  "noWrap": "TypographyComp-noWrap-0-3-13",
+                  "semiBold": "TypographyComp-semiBold-0-3-2",
+                  "standard": "TypographyComp-standard-0-3-5",
+                  "subtext": "TypographyComp-subtext-0-3-4",
+                  "uppercase": "TypographyComp-uppercase-0-3-10",
+                }
+              }
+              variant="subtext"
+            >
+              <span
+                className="TypographyComp-subtext-0-3-4"
+              >
+                764
+                ⨉
+              </span>
+            </TypographyComp>
+          </WithStyles(TypographyComp)>
+        </Typography>
+      </div>
+    </StatusCounterComp>
+  </WithStyles(StatusCounterComp)>
+</StatusCounter>
+`;
+
+exports[`Storyshots Components/StatusCounters Tree counters 1`] = `
+<StatusCounters
+  counters={
+    Array [
+      Object {
+        "counter": 2,
+        "variant": "ready",
+      },
+      Object {
+        "counter": 4,
+        "variant": "unknown",
+      },
+      Object {
+        "counter": 19,
+        "variant": "requested",
+      },
+    ]
+  }
+>
+  <WithStyles(StatusCountersComp)
+    counters={
+      Array [
+        Object {
+          "counter": 2,
+          "variant": "ready",
+        },
+        Object {
+          "counter": 4,
+          "variant": "unknown",
+        },
+        Object {
+          "counter": 19,
+          "variant": "requested",
+        },
+      ]
+    }
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    theme={Object {}}
+  >
+    <StatusCountersComp
+      classes={
+        Object {
+          "root": "StatusCountersComp-root-0-3-303",
+        }
+      }
+      counters={
+        Array [
+          Object {
+            "counter": 2,
+            "variant": "ready",
+          },
+          Object {
+            "counter": 4,
+            "variant": "unknown",
+          },
+          Object {
+            "counter": 19,
+            "variant": "requested",
+          },
+        ]
+      }
+    >
+      <div
+        className="StatusCountersComp-root-0-3-303"
+      >
+        <StatusCounter
+          counter={2}
+          key="0-ready"
+          variant="ready"
+        >
+          <WithStyles(StatusCounterComp)
+            counter={2}
+            innerRef={null}
+            jssContext={
+              Object {
+                "classNamePrefix": "",
+                "disableStylesGeneration": false,
+              }
+            }
+            theme={Object {}}
+            variant="ready"
+          >
+            <StatusCounterComp
+              classes={
+                Object {
+                  "ready": "StatusCounterComp-ready-0-3-305",
+                  "requested": "StatusCounterComp-requested-0-3-307",
+                  "root": "StatusCounterComp-root-0-3-304",
+                  "unknown": "StatusCounterComp-unknown-0-3-306",
+                }
+              }
+              counter={2}
+              variant="ready"
+            >
+              <div
+                className="StatusCounterComp-root-0-3-304 StatusCounterComp-ready-0-3-305"
+              >
+                <Typography
+                  variant="subtext"
+                >
+                  <WithStyles(TypographyComp)
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                    variant="subtext"
+                  >
+                    <TypographyComp
+                      classes={
+                        Object {
+                          "big": "TypographyComp-big-0-3-7",
+                          "bold": "TypographyComp-bold-0-3-1",
+                          "capitalize": "TypographyComp-capitalize-0-3-12",
+                          "distance": "TypographyComp-distance-0-3-6",
+                          "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                          "giant": "TypographyComp-giant-0-3-9",
+                          "heading": "TypographyComp-heading-0-3-8",
+                          "italic": "TypographyComp-italic-0-3-3",
+                          "lowercase": "TypographyComp-lowercase-0-3-11",
+                          "noWrap": "TypographyComp-noWrap-0-3-13",
+                          "semiBold": "TypographyComp-semiBold-0-3-2",
+                          "standard": "TypographyComp-standard-0-3-5",
+                          "subtext": "TypographyComp-subtext-0-3-4",
+                          "uppercase": "TypographyComp-uppercase-0-3-10",
+                        }
+                      }
+                      variant="subtext"
+                    >
+                      <span
+                        className="TypographyComp-subtext-0-3-4"
+                      >
+                        2
+                        ⨉
+                      </span>
+                    </TypographyComp>
+                  </WithStyles(TypographyComp)>
+                </Typography>
+              </div>
+            </StatusCounterComp>
+          </WithStyles(StatusCounterComp)>
+        </StatusCounter>
+        <StatusCounter
+          counter={4}
+          key="1-unknown"
+          variant="unknown"
+        >
+          <WithStyles(StatusCounterComp)
+            counter={4}
+            innerRef={null}
+            jssContext={
+              Object {
+                "classNamePrefix": "",
+                "disableStylesGeneration": false,
+              }
+            }
+            theme={Object {}}
+            variant="unknown"
+          >
+            <StatusCounterComp
+              classes={
+                Object {
+                  "ready": "StatusCounterComp-ready-0-3-305",
+                  "requested": "StatusCounterComp-requested-0-3-307",
+                  "root": "StatusCounterComp-root-0-3-304",
+                  "unknown": "StatusCounterComp-unknown-0-3-306",
+                }
+              }
+              counter={4}
+              variant="unknown"
+            >
+              <div
+                className="StatusCounterComp-root-0-3-304 StatusCounterComp-unknown-0-3-306"
+              >
+                <Typography
+                  variant="subtext"
+                >
+                  <WithStyles(TypographyComp)
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                    variant="subtext"
+                  >
+                    <TypographyComp
+                      classes={
+                        Object {
+                          "big": "TypographyComp-big-0-3-7",
+                          "bold": "TypographyComp-bold-0-3-1",
+                          "capitalize": "TypographyComp-capitalize-0-3-12",
+                          "distance": "TypographyComp-distance-0-3-6",
+                          "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                          "giant": "TypographyComp-giant-0-3-9",
+                          "heading": "TypographyComp-heading-0-3-8",
+                          "italic": "TypographyComp-italic-0-3-3",
+                          "lowercase": "TypographyComp-lowercase-0-3-11",
+                          "noWrap": "TypographyComp-noWrap-0-3-13",
+                          "semiBold": "TypographyComp-semiBold-0-3-2",
+                          "standard": "TypographyComp-standard-0-3-5",
+                          "subtext": "TypographyComp-subtext-0-3-4",
+                          "uppercase": "TypographyComp-uppercase-0-3-10",
+                        }
+                      }
+                      variant="subtext"
+                    >
+                      <span
+                        className="TypographyComp-subtext-0-3-4"
+                      >
+                        4
+                        ⨉
+                      </span>
+                    </TypographyComp>
+                  </WithStyles(TypographyComp)>
+                </Typography>
+              </div>
+            </StatusCounterComp>
+          </WithStyles(StatusCounterComp)>
+        </StatusCounter>
+        <StatusCounter
+          counter={19}
+          key="2-requested"
+          variant="requested"
+        >
+          <WithStyles(StatusCounterComp)
+            counter={19}
+            innerRef={null}
+            jssContext={
+              Object {
+                "classNamePrefix": "",
+                "disableStylesGeneration": false,
+              }
+            }
+            theme={Object {}}
+            variant="requested"
+          >
+            <StatusCounterComp
+              classes={
+                Object {
+                  "ready": "StatusCounterComp-ready-0-3-305",
+                  "requested": "StatusCounterComp-requested-0-3-307",
+                  "root": "StatusCounterComp-root-0-3-304",
+                  "unknown": "StatusCounterComp-unknown-0-3-306",
+                }
+              }
+              counter={19}
+              variant="requested"
+            >
+              <div
+                className="StatusCounterComp-root-0-3-304 StatusCounterComp-requested-0-3-307"
+              >
+                <Typography
+                  variant="subtext"
+                >
+                  <WithStyles(TypographyComp)
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                    variant="subtext"
+                  >
+                    <TypographyComp
+                      classes={
+                        Object {
+                          "big": "TypographyComp-big-0-3-7",
+                          "bold": "TypographyComp-bold-0-3-1",
+                          "capitalize": "TypographyComp-capitalize-0-3-12",
+                          "distance": "TypographyComp-distance-0-3-6",
+                          "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                          "giant": "TypographyComp-giant-0-3-9",
+                          "heading": "TypographyComp-heading-0-3-8",
+                          "italic": "TypographyComp-italic-0-3-3",
+                          "lowercase": "TypographyComp-lowercase-0-3-11",
+                          "noWrap": "TypographyComp-noWrap-0-3-13",
+                          "semiBold": "TypographyComp-semiBold-0-3-2",
+                          "standard": "TypographyComp-standard-0-3-5",
+                          "subtext": "TypographyComp-subtext-0-3-4",
+                          "uppercase": "TypographyComp-uppercase-0-3-10",
+                        }
+                      }
+                      variant="subtext"
+                    >
+                      <span
+                        className="TypographyComp-subtext-0-3-4"
+                      >
+                        19
+                        ⨉
+                      </span>
+                    </TypographyComp>
+                  </WithStyles(TypographyComp)>
+                </Typography>
+              </div>
+            </StatusCounterComp>
+          </WithStyles(StatusCounterComp)>
+        </StatusCounter>
+      </div>
+    </StatusCountersComp>
+  </WithStyles(StatusCountersComp)>
+</StatusCounters>
+`;
+
+exports[`Storyshots Components/StatusCounters Two counters 1`] = `
+<StatusCounters
+  counters={
+    Array [
+      Object {
+        "counter": 4,
+        "variant": "unknown",
+      },
+      Object {
+        "counter": 19,
+        "variant": "requested",
+      },
+    ]
+  }
+>
+  <WithStyles(StatusCountersComp)
+    counters={
+      Array [
+        Object {
+          "counter": 4,
+          "variant": "unknown",
+        },
+        Object {
+          "counter": 19,
+          "variant": "requested",
+        },
+      ]
+    }
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    theme={Object {}}
+  >
+    <StatusCountersComp
+      classes={
+        Object {
+          "root": "StatusCountersComp-root-0-3-303",
+        }
+      }
+      counters={
+        Array [
+          Object {
+            "counter": 4,
+            "variant": "unknown",
+          },
+          Object {
+            "counter": 19,
+            "variant": "requested",
+          },
+        ]
+      }
+    >
+      <div
+        className="StatusCountersComp-root-0-3-303"
+      >
+        <StatusCounter
+          counter={4}
+          key="0-unknown"
+          variant="unknown"
+        >
+          <WithStyles(StatusCounterComp)
+            counter={4}
+            innerRef={null}
+            jssContext={
+              Object {
+                "classNamePrefix": "",
+                "disableStylesGeneration": false,
+              }
+            }
+            theme={Object {}}
+            variant="unknown"
+          >
+            <StatusCounterComp
+              classes={
+                Object {
+                  "ready": "StatusCounterComp-ready-0-3-305",
+                  "requested": "StatusCounterComp-requested-0-3-307",
+                  "root": "StatusCounterComp-root-0-3-304",
+                  "unknown": "StatusCounterComp-unknown-0-3-306",
+                }
+              }
+              counter={4}
+              variant="unknown"
+            >
+              <div
+                className="StatusCounterComp-root-0-3-304 StatusCounterComp-unknown-0-3-306"
+              >
+                <Typography
+                  variant="subtext"
+                >
+                  <WithStyles(TypographyComp)
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                    variant="subtext"
+                  >
+                    <TypographyComp
+                      classes={
+                        Object {
+                          "big": "TypographyComp-big-0-3-7",
+                          "bold": "TypographyComp-bold-0-3-1",
+                          "capitalize": "TypographyComp-capitalize-0-3-12",
+                          "distance": "TypographyComp-distance-0-3-6",
+                          "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                          "giant": "TypographyComp-giant-0-3-9",
+                          "heading": "TypographyComp-heading-0-3-8",
+                          "italic": "TypographyComp-italic-0-3-3",
+                          "lowercase": "TypographyComp-lowercase-0-3-11",
+                          "noWrap": "TypographyComp-noWrap-0-3-13",
+                          "semiBold": "TypographyComp-semiBold-0-3-2",
+                          "standard": "TypographyComp-standard-0-3-5",
+                          "subtext": "TypographyComp-subtext-0-3-4",
+                          "uppercase": "TypographyComp-uppercase-0-3-10",
+                        }
+                      }
+                      variant="subtext"
+                    >
+                      <span
+                        className="TypographyComp-subtext-0-3-4"
+                      >
+                        4
+                        ⨉
+                      </span>
+                    </TypographyComp>
+                  </WithStyles(TypographyComp)>
+                </Typography>
+              </div>
+            </StatusCounterComp>
+          </WithStyles(StatusCounterComp)>
+        </StatusCounter>
+        <StatusCounter
+          counter={19}
+          key="1-requested"
+          variant="requested"
+        >
+          <WithStyles(StatusCounterComp)
+            counter={19}
+            innerRef={null}
+            jssContext={
+              Object {
+                "classNamePrefix": "",
+                "disableStylesGeneration": false,
+              }
+            }
+            theme={Object {}}
+            variant="requested"
+          >
+            <StatusCounterComp
+              classes={
+                Object {
+                  "ready": "StatusCounterComp-ready-0-3-305",
+                  "requested": "StatusCounterComp-requested-0-3-307",
+                  "root": "StatusCounterComp-root-0-3-304",
+                  "unknown": "StatusCounterComp-unknown-0-3-306",
+                }
+              }
+              counter={19}
+              variant="requested"
+            >
+              <div
+                className="StatusCounterComp-root-0-3-304 StatusCounterComp-requested-0-3-307"
+              >
+                <Typography
+                  variant="subtext"
+                >
+                  <WithStyles(TypographyComp)
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                    variant="subtext"
+                  >
+                    <TypographyComp
+                      classes={
+                        Object {
+                          "big": "TypographyComp-big-0-3-7",
+                          "bold": "TypographyComp-bold-0-3-1",
+                          "capitalize": "TypographyComp-capitalize-0-3-12",
+                          "distance": "TypographyComp-distance-0-3-6",
+                          "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                          "giant": "TypographyComp-giant-0-3-9",
+                          "heading": "TypographyComp-heading-0-3-8",
+                          "italic": "TypographyComp-italic-0-3-3",
+                          "lowercase": "TypographyComp-lowercase-0-3-11",
+                          "noWrap": "TypographyComp-noWrap-0-3-13",
+                          "semiBold": "TypographyComp-semiBold-0-3-2",
+                          "standard": "TypographyComp-standard-0-3-5",
+                          "subtext": "TypographyComp-subtext-0-3-4",
+                          "uppercase": "TypographyComp-uppercase-0-3-10",
+                        }
+                      }
+                      variant="subtext"
+                    >
+                      <span
+                        className="TypographyComp-subtext-0-3-4"
+                      >
+                        19
+                        ⨉
+                      </span>
+                    </TypographyComp>
+                  </WithStyles(TypographyComp)>
+                </Typography>
+              </div>
+            </StatusCounterComp>
+          </WithStyles(StatusCounterComp)>
+        </StatusCounter>
+      </div>
+    </StatusCountersComp>
+  </WithStyles(StatusCountersComp)>
+</StatusCounters>
+`;

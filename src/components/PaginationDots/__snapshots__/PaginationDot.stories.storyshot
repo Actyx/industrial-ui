@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/PaginationDot Active 1`] = `
+<PaginationDot
+  active={true}
+  onClick={[Function]}
+>
+  <WithStyles(PaginationDotComp)
+    active={true}
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onClick={[Function]}
+    theme={Object {}}
+  >
+    <PaginationDotComp
+      active={true}
+      classes={
+        Object {
+          "active": "PaginationDotComp-active-0-3-79",
+          "dot": "PaginationDotComp-dot-0-3-78",
+          "root": "PaginationDotComp-root-0-3-77",
+        }
+      }
+      onClick={[Function]}
+    >
+      <button
+        className="PaginationDotComp-root-0-3-77"
+        onClick={[Function]}
+      >
+        <div
+          className="PaginationDotComp-active-0-3-79 PaginationDotComp-dot-0-3-78"
+        />
+      </button>
+    </PaginationDotComp>
+  </WithStyles(PaginationDotComp)>
+</PaginationDot>
+`;
+
+exports[`Storyshots Components/PaginationDot No active 1`] = `
+<PaginationDot
+  onClick={[Function]}
+>
+  <WithStyles(PaginationDotComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onClick={[Function]}
+    theme={Object {}}
+  >
+    <PaginationDotComp
+      classes={
+        Object {
+          "active": "PaginationDotComp-active-0-3-79",
+          "dot": "PaginationDotComp-dot-0-3-78",
+          "root": "PaginationDotComp-root-0-3-77",
+        }
+      }
+      onClick={[Function]}
+    >
+      <button
+        className="PaginationDotComp-root-0-3-77"
+        onClick={[Function]}
+      >
+        <div
+          className="PaginationDotComp-dot-0-3-78"
+        />
+      </button>
+    </PaginationDotComp>
+  </WithStyles(PaginationDotComp)>
+</PaginationDot>
+`;

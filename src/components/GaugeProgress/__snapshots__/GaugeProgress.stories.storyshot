@@ -1,0 +1,779 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/GaugeProgress Butt 1`] = `
+<GaugeProgress
+  color="green"
+  lineCap="butt"
+  value={60}
+>
+  <WithStyles(GaugeProgressComp)
+    color="green"
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    lineCap="butt"
+    theme={Object {}}
+    value={60}
+  >
+    <GaugeProgressComp
+      classes={
+        Object {
+          "blue": "GaugeProgressComp-blue-0-3-148",
+          "green": "GaugeProgressComp-green-0-3-149",
+          "root": "GaugeProgressComp-root-0-3-146",
+          "text": "GaugeProgressComp-text-0-3-150",
+          "track": "GaugeProgressComp-track-0-3-147",
+        }
+      }
+      color="green"
+      lineCap="butt"
+      value={60}
+    >
+      <svg
+        className="GaugeProgressComp-root-0-3-146"
+        height="120px"
+        viewBox="0 0 120 120"
+        width="120px"
+      >
+        <g>
+          <circle
+            className="GaugeProgressComp-track-0-3-147"
+            cx="60"
+            cy="60"
+            fill="none"
+            r={54}
+            strokeWidth="12"
+          />
+          <circle
+            className="GaugeProgressComp-green-0-3-149"
+            cx="60"
+            cy="60"
+            fill="none"
+            r={54}
+            strokeLinecap="butt"
+            strokeWidth="12"
+            style={
+              Object {
+                "strokeDasharray": 339.29200658769764,
+                "strokeDashoffset": 135.71680263507906,
+              }
+            }
+          />
+          <text
+            className="GaugeProgressComp-text-0-3-150"
+            x="50%"
+            y="-48%"
+          >
+            60%
+          </text>
+        </g>
+      </svg>
+    </GaugeProgressComp>
+  </WithStyles(GaugeProgressComp)>
+</GaugeProgress>
+`;
+
+exports[`Storyshots Components/GaugeProgress Color blue 1`] = `
+<GaugeProgress
+  color="blue"
+  value={60}
+>
+  <WithStyles(GaugeProgressComp)
+    color="blue"
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    theme={Object {}}
+    value={60}
+  >
+    <GaugeProgressComp
+      classes={
+        Object {
+          "blue": "GaugeProgressComp-blue-0-3-148",
+          "green": "GaugeProgressComp-green-0-3-149",
+          "root": "GaugeProgressComp-root-0-3-146",
+          "text": "GaugeProgressComp-text-0-3-150",
+          "track": "GaugeProgressComp-track-0-3-147",
+        }
+      }
+      color="blue"
+      value={60}
+    >
+      <svg
+        className="GaugeProgressComp-root-0-3-146"
+        height="120px"
+        viewBox="0 0 120 120"
+        width="120px"
+      >
+        <g>
+          <circle
+            className="GaugeProgressComp-track-0-3-147"
+            cx="60"
+            cy="60"
+            fill="none"
+            r={54}
+            strokeWidth="12"
+          />
+          <circle
+            className="GaugeProgressComp-blue-0-3-148"
+            cx="60"
+            cy="60"
+            fill="none"
+            r={54}
+            strokeLinecap="round"
+            strokeWidth="12"
+            style={
+              Object {
+                "strokeDasharray": 339.29200658769764,
+                "strokeDashoffset": 135.71680263507906,
+              }
+            }
+          />
+          <text
+            className="GaugeProgressComp-text-0-3-150"
+            x="50%"
+            y="-48%"
+          >
+            60%
+          </text>
+        </g>
+      </svg>
+    </GaugeProgressComp>
+  </WithStyles(GaugeProgressComp)>
+</GaugeProgress>
+`;
+
+exports[`Storyshots Components/GaugeProgress Color green 1`] = `
+<GaugeProgress
+  color="green"
+  value={60}
+>
+  <WithStyles(GaugeProgressComp)
+    color="green"
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    theme={Object {}}
+    value={60}
+  >
+    <GaugeProgressComp
+      classes={
+        Object {
+          "blue": "GaugeProgressComp-blue-0-3-148",
+          "green": "GaugeProgressComp-green-0-3-149",
+          "root": "GaugeProgressComp-root-0-3-146",
+          "text": "GaugeProgressComp-text-0-3-150",
+          "track": "GaugeProgressComp-track-0-3-147",
+        }
+      }
+      color="green"
+      value={60}
+    >
+      <svg
+        className="GaugeProgressComp-root-0-3-146"
+        height="120px"
+        viewBox="0 0 120 120"
+        width="120px"
+      >
+        <g>
+          <circle
+            className="GaugeProgressComp-track-0-3-147"
+            cx="60"
+            cy="60"
+            fill="none"
+            r={54}
+            strokeWidth="12"
+          />
+          <circle
+            className="GaugeProgressComp-green-0-3-149"
+            cx="60"
+            cy="60"
+            fill="none"
+            r={54}
+            strokeLinecap="round"
+            strokeWidth="12"
+            style={
+              Object {
+                "strokeDasharray": 339.29200658769764,
+                "strokeDashoffset": 135.71680263507906,
+              }
+            }
+          />
+          <text
+            className="GaugeProgressComp-text-0-3-150"
+            x="50%"
+            y="-48%"
+          >
+            60%
+          </text>
+        </g>
+      </svg>
+    </GaugeProgressComp>
+  </WithStyles(GaugeProgressComp)>
+</GaugeProgress>
+`;
+
+exports[`Storyshots Components/GaugeProgress Dynamic 1`] = `
+<Wrapper>
+  <div>
+    <GaugeProgress
+      color="green"
+      value={50}
+    >
+      <WithStyles(GaugeProgressComp)
+        color="green"
+        innerRef={null}
+        jssContext={
+          Object {
+            "classNamePrefix": "",
+            "disableStylesGeneration": false,
+          }
+        }
+        theme={Object {}}
+        value={50}
+      >
+        <GaugeProgressComp
+          classes={
+            Object {
+              "blue": "GaugeProgressComp-blue-0-3-148",
+              "green": "GaugeProgressComp-green-0-3-149",
+              "root": "GaugeProgressComp-root-0-3-146",
+              "text": "GaugeProgressComp-text-0-3-150",
+              "track": "GaugeProgressComp-track-0-3-147",
+            }
+          }
+          color="green"
+          value={50}
+        >
+          <svg
+            className="GaugeProgressComp-root-0-3-146"
+            height="120px"
+            viewBox="0 0 120 120"
+            width="120px"
+          >
+            <g>
+              <circle
+                className="GaugeProgressComp-track-0-3-147"
+                cx="60"
+                cy="60"
+                fill="none"
+                r={54}
+                strokeWidth="12"
+              />
+              <circle
+                className="GaugeProgressComp-green-0-3-149"
+                cx="60"
+                cy="60"
+                fill="none"
+                r={54}
+                strokeLinecap="round"
+                strokeWidth="12"
+                style={
+                  Object {
+                    "strokeDasharray": 339.29200658769764,
+                    "strokeDashoffset": 169.64600329384882,
+                  }
+                }
+              />
+              <text
+                className="GaugeProgressComp-text-0-3-150"
+                x="50%"
+                y="-48%"
+              >
+                50%
+              </text>
+            </g>
+          </svg>
+        </GaugeProgressComp>
+      </WithStyles(GaugeProgressComp)>
+    </GaugeProgress>
+    <input
+      onChange={[Function]}
+      style={
+        Object {
+          "marginLeft": 20,
+        }
+      }
+      type="range"
+      value={50}
+    />
+  </div>
+</Wrapper>
+`;
+
+exports[`Storyshots Components/GaugeProgress Resize 1`] = `
+<div
+  style={
+    Object {
+      "height": 500,
+      "width": 500,
+    }
+  }
+>
+  <GaugeProgress
+    color="green"
+    height="100%"
+    lineCap="round"
+    value={60}
+    width="100%"
+  >
+    <WithStyles(GaugeProgressComp)
+      color="green"
+      height="100%"
+      innerRef={null}
+      jssContext={
+        Object {
+          "classNamePrefix": "",
+          "disableStylesGeneration": false,
+        }
+      }
+      lineCap="round"
+      theme={Object {}}
+      value={60}
+      width="100%"
+    >
+      <GaugeProgressComp
+        classes={
+          Object {
+            "blue": "GaugeProgressComp-blue-0-3-148",
+            "green": "GaugeProgressComp-green-0-3-149",
+            "root": "GaugeProgressComp-root-0-3-146",
+            "text": "GaugeProgressComp-text-0-3-150",
+            "track": "GaugeProgressComp-track-0-3-147",
+          }
+        }
+        color="green"
+        height="100%"
+        lineCap="round"
+        value={60}
+        width="100%"
+      >
+        <svg
+          className="GaugeProgressComp-root-0-3-146"
+          height="100%"
+          viewBox="0 0 120 120"
+          width="100%"
+        >
+          <g>
+            <circle
+              className="GaugeProgressComp-track-0-3-147"
+              cx="60"
+              cy="60"
+              fill="none"
+              r={54}
+              strokeWidth="12"
+            />
+            <circle
+              className="GaugeProgressComp-green-0-3-149"
+              cx="60"
+              cy="60"
+              fill="none"
+              r={54}
+              strokeLinecap="round"
+              strokeWidth="12"
+              style={
+                Object {
+                  "strokeDasharray": 339.29200658769764,
+                  "strokeDashoffset": 135.71680263507906,
+                }
+              }
+            />
+            <text
+              className="GaugeProgressComp-text-0-3-150"
+              x="50%"
+              y="-48%"
+            >
+              60%
+            </text>
+          </g>
+        </svg>
+      </GaugeProgressComp>
+    </WithStyles(GaugeProgressComp)>
+  </GaugeProgress>
+</div>
+`;
+
+exports[`Storyshots Components/GaugeProgress Round 1`] = `
+<GaugeProgress
+  color="green"
+  lineCap="round"
+  value={60}
+>
+  <WithStyles(GaugeProgressComp)
+    color="green"
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    lineCap="round"
+    theme={Object {}}
+    value={60}
+  >
+    <GaugeProgressComp
+      classes={
+        Object {
+          "blue": "GaugeProgressComp-blue-0-3-148",
+          "green": "GaugeProgressComp-green-0-3-149",
+          "root": "GaugeProgressComp-root-0-3-146",
+          "text": "GaugeProgressComp-text-0-3-150",
+          "track": "GaugeProgressComp-track-0-3-147",
+        }
+      }
+      color="green"
+      lineCap="round"
+      value={60}
+    >
+      <svg
+        className="GaugeProgressComp-root-0-3-146"
+        height="120px"
+        viewBox="0 0 120 120"
+        width="120px"
+      >
+        <g>
+          <circle
+            className="GaugeProgressComp-track-0-3-147"
+            cx="60"
+            cy="60"
+            fill="none"
+            r={54}
+            strokeWidth="12"
+          />
+          <circle
+            className="GaugeProgressComp-green-0-3-149"
+            cx="60"
+            cy="60"
+            fill="none"
+            r={54}
+            strokeLinecap="round"
+            strokeWidth="12"
+            style={
+              Object {
+                "strokeDasharray": 339.29200658769764,
+                "strokeDashoffset": 135.71680263507906,
+              }
+            }
+          />
+          <text
+            className="GaugeProgressComp-text-0-3-150"
+            x="50%"
+            y="-48%"
+          >
+            60%
+          </text>
+        </g>
+      </svg>
+    </GaugeProgressComp>
+  </WithStyles(GaugeProgressComp)>
+</GaugeProgress>
+`;
+
+exports[`Storyshots Components/GaugeProgress Value 50% 1`] = `
+<GaugeProgress
+  color="green"
+  value={50}
+>
+  <WithStyles(GaugeProgressComp)
+    color="green"
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    theme={Object {}}
+    value={50}
+  >
+    <GaugeProgressComp
+      classes={
+        Object {
+          "blue": "GaugeProgressComp-blue-0-3-148",
+          "green": "GaugeProgressComp-green-0-3-149",
+          "root": "GaugeProgressComp-root-0-3-146",
+          "text": "GaugeProgressComp-text-0-3-150",
+          "track": "GaugeProgressComp-track-0-3-147",
+        }
+      }
+      color="green"
+      value={50}
+    >
+      <svg
+        className="GaugeProgressComp-root-0-3-146"
+        height="120px"
+        viewBox="0 0 120 120"
+        width="120px"
+      >
+        <g>
+          <circle
+            className="GaugeProgressComp-track-0-3-147"
+            cx="60"
+            cy="60"
+            fill="none"
+            r={54}
+            strokeWidth="12"
+          />
+          <circle
+            className="GaugeProgressComp-green-0-3-149"
+            cx="60"
+            cy="60"
+            fill="none"
+            r={54}
+            strokeLinecap="round"
+            strokeWidth="12"
+            style={
+              Object {
+                "strokeDasharray": 339.29200658769764,
+                "strokeDashoffset": 169.64600329384882,
+              }
+            }
+          />
+          <text
+            className="GaugeProgressComp-text-0-3-150"
+            x="50%"
+            y="-48%"
+          >
+            50%
+          </text>
+        </g>
+      </svg>
+    </GaugeProgressComp>
+  </WithStyles(GaugeProgressComp)>
+</GaugeProgress>
+`;
+
+exports[`Storyshots Components/GaugeProgress Value 75% 1`] = `
+<GaugeProgress
+  color="green"
+  value={75}
+>
+  <WithStyles(GaugeProgressComp)
+    color="green"
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    theme={Object {}}
+    value={75}
+  >
+    <GaugeProgressComp
+      classes={
+        Object {
+          "blue": "GaugeProgressComp-blue-0-3-148",
+          "green": "GaugeProgressComp-green-0-3-149",
+          "root": "GaugeProgressComp-root-0-3-146",
+          "text": "GaugeProgressComp-text-0-3-150",
+          "track": "GaugeProgressComp-track-0-3-147",
+        }
+      }
+      color="green"
+      value={75}
+    >
+      <svg
+        className="GaugeProgressComp-root-0-3-146"
+        height="120px"
+        viewBox="0 0 120 120"
+        width="120px"
+      >
+        <g>
+          <circle
+            className="GaugeProgressComp-track-0-3-147"
+            cx="60"
+            cy="60"
+            fill="none"
+            r={54}
+            strokeWidth="12"
+          />
+          <circle
+            className="GaugeProgressComp-green-0-3-149"
+            cx="60"
+            cy="60"
+            fill="none"
+            r={54}
+            strokeLinecap="round"
+            strokeWidth="12"
+            style={
+              Object {
+                "strokeDasharray": 339.29200658769764,
+                "strokeDashoffset": 84.82300164692441,
+              }
+            }
+          />
+          <text
+            className="GaugeProgressComp-text-0-3-150"
+            x="50%"
+            y="-48%"
+          >
+            75%
+          </text>
+        </g>
+      </svg>
+    </GaugeProgressComp>
+  </WithStyles(GaugeProgressComp)>
+</GaugeProgress>
+`;
+
+exports[`Storyshots Components/GaugeProgress Value 100% 1`] = `
+<GaugeProgress
+  color="green"
+  value={100}
+>
+  <WithStyles(GaugeProgressComp)
+    color="green"
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    theme={Object {}}
+    value={100}
+  >
+    <GaugeProgressComp
+      classes={
+        Object {
+          "blue": "GaugeProgressComp-blue-0-3-148",
+          "green": "GaugeProgressComp-green-0-3-149",
+          "root": "GaugeProgressComp-root-0-3-146",
+          "text": "GaugeProgressComp-text-0-3-150",
+          "track": "GaugeProgressComp-track-0-3-147",
+        }
+      }
+      color="green"
+      value={100}
+    >
+      <svg
+        className="GaugeProgressComp-root-0-3-146"
+        height="120px"
+        viewBox="0 0 120 120"
+        width="120px"
+      >
+        <g>
+          <circle
+            className="GaugeProgressComp-track-0-3-147"
+            cx="60"
+            cy="60"
+            fill="none"
+            r={54}
+            strokeWidth="12"
+          />
+          <circle
+            className="GaugeProgressComp-green-0-3-149"
+            cx="60"
+            cy="60"
+            fill="none"
+            r={54}
+            strokeLinecap="round"
+            strokeWidth="12"
+            style={
+              Object {
+                "strokeDasharray": 339.29200658769764,
+                "strokeDashoffset": 0,
+              }
+            }
+          />
+          <text
+            className="GaugeProgressComp-text-0-3-150"
+            x="50%"
+            y="-48%"
+          >
+            100%
+          </text>
+        </g>
+      </svg>
+    </GaugeProgressComp>
+  </WithStyles(GaugeProgressComp)>
+</GaugeProgress>
+`;
+
+exports[`Storyshots Components/GaugeProgress Value 150% 1`] = `
+<GaugeProgress
+  color="green"
+  value={150}
+>
+  <WithStyles(GaugeProgressComp)
+    color="green"
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    theme={Object {}}
+    value={150}
+  >
+    <GaugeProgressComp
+      classes={
+        Object {
+          "blue": "GaugeProgressComp-blue-0-3-148",
+          "green": "GaugeProgressComp-green-0-3-149",
+          "root": "GaugeProgressComp-root-0-3-146",
+          "text": "GaugeProgressComp-text-0-3-150",
+          "track": "GaugeProgressComp-track-0-3-147",
+        }
+      }
+      color="green"
+      value={150}
+    >
+      <svg
+        className="GaugeProgressComp-root-0-3-146"
+        height="120px"
+        viewBox="0 0 120 120"
+        width="120px"
+      >
+        <g>
+          <circle
+            className="GaugeProgressComp-track-0-3-147"
+            cx="60"
+            cy="60"
+            fill="none"
+            r={54}
+            strokeWidth="12"
+          />
+          <circle
+            className="GaugeProgressComp-green-0-3-149"
+            cx="60"
+            cy="60"
+            fill="none"
+            r={54}
+            strokeLinecap="round"
+            strokeWidth="12"
+            style={
+              Object {
+                "strokeDasharray": 339.29200658769764,
+                "strokeDashoffset": 0,
+              }
+            }
+          />
+          <text
+            className="GaugeProgressComp-text-0-3-150"
+            x="50%"
+            y="-48%"
+          >
+            150%
+          </text>
+        </g>
+      </svg>
+    </GaugeProgressComp>
+  </WithStyles(GaugeProgressComp)>
+</GaugeProgress>
+`;

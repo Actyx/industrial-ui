@@ -1,0 +1,262 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Status Ready 1`] = `
+<Status
+  message="Ready"
+  variant="ready"
+>
+  <WithStyles(StatusComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    message="Ready"
+    theme={Object {}}
+    variant="ready"
+  >
+    <StatusComp
+      classes={
+        Object {
+          "ready": "StatusComp-ready-0-3-300",
+          "requested": "StatusComp-requested-0-3-302",
+          "root": "StatusComp-root-0-3-299",
+          "unknown": "StatusComp-unknown-0-3-301",
+        }
+      }
+      message="Ready"
+      variant="ready"
+    >
+      <div
+        className="StatusComp-root-0-3-299 StatusComp-ready-0-3-300"
+      >
+        <Typography
+          bold={true}
+          textTransform="uppercase"
+          variant="standard"
+        >
+          <WithStyles(TypographyComp)
+            bold={true}
+            innerRef={null}
+            jssContext={
+              Object {
+                "classNamePrefix": "",
+                "disableStylesGeneration": false,
+              }
+            }
+            textTransform="uppercase"
+            theme={Object {}}
+            variant="standard"
+          >
+            <TypographyComp
+              bold={true}
+              classes={
+                Object {
+                  "big": "TypographyComp-big-0-3-7",
+                  "bold": "TypographyComp-bold-0-3-1",
+                  "capitalize": "TypographyComp-capitalize-0-3-12",
+                  "distance": "TypographyComp-distance-0-3-6",
+                  "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                  "giant": "TypographyComp-giant-0-3-9",
+                  "heading": "TypographyComp-heading-0-3-8",
+                  "italic": "TypographyComp-italic-0-3-3",
+                  "lowercase": "TypographyComp-lowercase-0-3-11",
+                  "noWrap": "TypographyComp-noWrap-0-3-13",
+                  "semiBold": "TypographyComp-semiBold-0-3-2",
+                  "standard": "TypographyComp-standard-0-3-5",
+                  "subtext": "TypographyComp-subtext-0-3-4",
+                  "uppercase": "TypographyComp-uppercase-0-3-10",
+                }
+              }
+              textTransform="uppercase"
+              variant="standard"
+            >
+              <span
+                className="TypographyComp-standard-0-3-5 TypographyComp-uppercase-0-3-10 TypographyComp-bold-0-3-1"
+              >
+                ready
+              </span>
+            </TypographyComp>
+          </WithStyles(TypographyComp)>
+        </Typography>
+      </div>
+    </StatusComp>
+  </WithStyles(StatusComp)>
+</Status>
+`;
+
+exports[`Storyshots Components/Status Requested 1`] = `
+<Status
+  message="Requested"
+  variant="requested"
+>
+  <WithStyles(StatusComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    message="Requested"
+    theme={Object {}}
+    variant="requested"
+  >
+    <StatusComp
+      classes={
+        Object {
+          "ready": "StatusComp-ready-0-3-300",
+          "requested": "StatusComp-requested-0-3-302",
+          "root": "StatusComp-root-0-3-299",
+          "unknown": "StatusComp-unknown-0-3-301",
+        }
+      }
+      message="Requested"
+      variant="requested"
+    >
+      <div
+        className="StatusComp-root-0-3-299 StatusComp-requested-0-3-302"
+      >
+        <Typography
+          bold={true}
+          textTransform="uppercase"
+          variant="standard"
+        >
+          <WithStyles(TypographyComp)
+            bold={true}
+            innerRef={null}
+            jssContext={
+              Object {
+                "classNamePrefix": "",
+                "disableStylesGeneration": false,
+              }
+            }
+            textTransform="uppercase"
+            theme={Object {}}
+            variant="standard"
+          >
+            <TypographyComp
+              bold={true}
+              classes={
+                Object {
+                  "big": "TypographyComp-big-0-3-7",
+                  "bold": "TypographyComp-bold-0-3-1",
+                  "capitalize": "TypographyComp-capitalize-0-3-12",
+                  "distance": "TypographyComp-distance-0-3-6",
+                  "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                  "giant": "TypographyComp-giant-0-3-9",
+                  "heading": "TypographyComp-heading-0-3-8",
+                  "italic": "TypographyComp-italic-0-3-3",
+                  "lowercase": "TypographyComp-lowercase-0-3-11",
+                  "noWrap": "TypographyComp-noWrap-0-3-13",
+                  "semiBold": "TypographyComp-semiBold-0-3-2",
+                  "standard": "TypographyComp-standard-0-3-5",
+                  "subtext": "TypographyComp-subtext-0-3-4",
+                  "uppercase": "TypographyComp-uppercase-0-3-10",
+                }
+              }
+              textTransform="uppercase"
+              variant="standard"
+            >
+              <span
+                className="TypographyComp-standard-0-3-5 TypographyComp-uppercase-0-3-10 TypographyComp-bold-0-3-1"
+              >
+                requested
+              </span>
+            </TypographyComp>
+          </WithStyles(TypographyComp)>
+        </Typography>
+      </div>
+    </StatusComp>
+  </WithStyles(StatusComp)>
+</Status>
+`;
+
+exports[`Storyshots Components/Status Unknown 1`] = `
+<Status
+  message="Unknown"
+  variant="unknown"
+>
+  <WithStyles(StatusComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    message="Unknown"
+    theme={Object {}}
+    variant="unknown"
+  >
+    <StatusComp
+      classes={
+        Object {
+          "ready": "StatusComp-ready-0-3-300",
+          "requested": "StatusComp-requested-0-3-302",
+          "root": "StatusComp-root-0-3-299",
+          "unknown": "StatusComp-unknown-0-3-301",
+        }
+      }
+      message="Unknown"
+      variant="unknown"
+    >
+      <div
+        className="StatusComp-root-0-3-299 StatusComp-unknown-0-3-301"
+      >
+        <Typography
+          bold={true}
+          textTransform="uppercase"
+          variant="standard"
+        >
+          <WithStyles(TypographyComp)
+            bold={true}
+            innerRef={null}
+            jssContext={
+              Object {
+                "classNamePrefix": "",
+                "disableStylesGeneration": false,
+              }
+            }
+            textTransform="uppercase"
+            theme={Object {}}
+            variant="standard"
+          >
+            <TypographyComp
+              bold={true}
+              classes={
+                Object {
+                  "big": "TypographyComp-big-0-3-7",
+                  "bold": "TypographyComp-bold-0-3-1",
+                  "capitalize": "TypographyComp-capitalize-0-3-12",
+                  "distance": "TypographyComp-distance-0-3-6",
+                  "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                  "giant": "TypographyComp-giant-0-3-9",
+                  "heading": "TypographyComp-heading-0-3-8",
+                  "italic": "TypographyComp-italic-0-3-3",
+                  "lowercase": "TypographyComp-lowercase-0-3-11",
+                  "noWrap": "TypographyComp-noWrap-0-3-13",
+                  "semiBold": "TypographyComp-semiBold-0-3-2",
+                  "standard": "TypographyComp-standard-0-3-5",
+                  "subtext": "TypographyComp-subtext-0-3-4",
+                  "uppercase": "TypographyComp-uppercase-0-3-10",
+                }
+              }
+              textTransform="uppercase"
+              variant="standard"
+            >
+              <span
+                className="TypographyComp-standard-0-3-5 TypographyComp-uppercase-0-3-10 TypographyComp-bold-0-3-1"
+              >
+                unknown
+              </span>
+            </TypographyComp>
+          </WithStyles(TypographyComp)>
+        </Typography>
+      </div>
+    </StatusComp>
+  </WithStyles(StatusComp)>
+</Status>
+`;

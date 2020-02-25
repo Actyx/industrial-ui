@@ -1,0 +1,317 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Dialog/FluidDialog Base 1`] = `
+<FluidDialog
+  content="content"
+  onClose={[Function]}
+>
+  <WithStyles(FluidDialogComp)
+    content="content"
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onClose={[Function]}
+    theme={Object {}}
+  >
+    <FluidDialogComp
+      classes={
+        Object {
+          "container": "FluidDialogComp-container-0-3-124",
+          "content": "FluidDialogComp-content-0-3-125",
+          "root": "FluidDialogComp-root-0-3-123",
+        }
+      }
+      content="content"
+      onClose={[Function]}
+    >
+      <div
+        className="FluidDialogComp-root-0-3-123"
+      >
+        <Scrim
+          onClose={[Function]}
+          open={true}
+        >
+          <WithStyles(ScrimComp)
+            innerRef={null}
+            jssContext={
+              Object {
+                "classNamePrefix": "",
+                "disableStylesGeneration": false,
+              }
+            }
+            onClose={[Function]}
+            open={true}
+            theme={Object {}}
+          >
+            <ScrimComp
+              classes={
+                Object {
+                  "root": "ScrimComp-root-0-3-126",
+                }
+              }
+              onClose={[Function]}
+              open={true}
+            >
+              <Transition
+                appear={false}
+                enter={true}
+                exit={true}
+                in={true}
+                mountOnEnter={false}
+                onEnter={[Function]}
+                onEntered={[Function]}
+                onEntering={[Function]}
+                onExit={[Function]}
+                onExited={[Function]}
+                onExiting={[Function]}
+                timeout={150}
+                unmountOnExit={false}
+              >
+                <div
+                  className="ScrimComp-root-0-3-126"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                      "transition": "opacity 150ms",
+                    }
+                  }
+                />
+              </Transition>
+            </ScrimComp>
+          </WithStyles(ScrimComp)>
+        </Scrim>
+        <div
+          className="FluidDialogComp-container-0-3-124"
+        >
+          <div />
+          <div
+            className="FluidDialogComp-content-0-3-125"
+          >
+            content
+          </div>
+          <div />
+        </div>
+      </div>
+    </FluidDialogComp>
+  </WithStyles(FluidDialogComp)>
+</FluidDialog>
+`;
+
+exports[`Storyshots Components/Dialog/FluidDialog Long content 1`] = `
+<FluidDialog
+  content=" very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content"
+  onClose={[Function]}
+>
+  <WithStyles(FluidDialogComp)
+    content=" very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content"
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onClose={[Function]}
+    theme={Object {}}
+  >
+    <FluidDialogComp
+      classes={
+        Object {
+          "container": "FluidDialogComp-container-0-3-124",
+          "content": "FluidDialogComp-content-0-3-125",
+          "root": "FluidDialogComp-root-0-3-123",
+        }
+      }
+      content=" very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content"
+      onClose={[Function]}
+    >
+      <div
+        className="FluidDialogComp-root-0-3-123"
+      >
+        <Scrim
+          onClose={[Function]}
+          open={true}
+        >
+          <WithStyles(ScrimComp)
+            innerRef={null}
+            jssContext={
+              Object {
+                "classNamePrefix": "",
+                "disableStylesGeneration": false,
+              }
+            }
+            onClose={[Function]}
+            open={true}
+            theme={Object {}}
+          >
+            <ScrimComp
+              classes={
+                Object {
+                  "root": "ScrimComp-root-0-3-126",
+                }
+              }
+              onClose={[Function]}
+              open={true}
+            >
+              <Transition
+                appear={false}
+                enter={true}
+                exit={true}
+                in={true}
+                mountOnEnter={false}
+                onEnter={[Function]}
+                onEntered={[Function]}
+                onEntering={[Function]}
+                onExit={[Function]}
+                onExited={[Function]}
+                onExiting={[Function]}
+                timeout={150}
+                unmountOnExit={false}
+              >
+                <div
+                  className="ScrimComp-root-0-3-126"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                      "transition": "opacity 150ms",
+                    }
+                  }
+                />
+              </Transition>
+            </ScrimComp>
+          </WithStyles(ScrimComp)>
+        </Scrim>
+        <div
+          className="FluidDialogComp-container-0-3-124"
+        >
+          <div />
+          <div
+            className="FluidDialogComp-content-0-3-125"
+          >
+             very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content
+          </div>
+          <div />
+        </div>
+      </div>
+    </FluidDialogComp>
+  </WithStyles(FluidDialogComp)>
+</FluidDialog>
+`;
+
+exports[`Storyshots Components/Dialog/FluidDialog Long content with header and footer 1`] = `
+<FluidDialog
+  content=" very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content"
+  footer="footer"
+  header="header"
+  onClose={[Function]}
+>
+  <WithStyles(FluidDialogComp)
+    content=" very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content"
+    footer="footer"
+    header="header"
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onClose={[Function]}
+    theme={Object {}}
+  >
+    <FluidDialogComp
+      classes={
+        Object {
+          "container": "FluidDialogComp-container-0-3-124",
+          "content": "FluidDialogComp-content-0-3-125",
+          "root": "FluidDialogComp-root-0-3-123",
+        }
+      }
+      content=" very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content"
+      footer="footer"
+      header="header"
+      onClose={[Function]}
+    >
+      <div
+        className="FluidDialogComp-root-0-3-123"
+      >
+        <Scrim
+          onClose={[Function]}
+          open={true}
+        >
+          <WithStyles(ScrimComp)
+            innerRef={null}
+            jssContext={
+              Object {
+                "classNamePrefix": "",
+                "disableStylesGeneration": false,
+              }
+            }
+            onClose={[Function]}
+            open={true}
+            theme={Object {}}
+          >
+            <ScrimComp
+              classes={
+                Object {
+                  "root": "ScrimComp-root-0-3-126",
+                }
+              }
+              onClose={[Function]}
+              open={true}
+            >
+              <Transition
+                appear={false}
+                enter={true}
+                exit={true}
+                in={true}
+                mountOnEnter={false}
+                onEnter={[Function]}
+                onEntered={[Function]}
+                onEntering={[Function]}
+                onExit={[Function]}
+                onExited={[Function]}
+                onExiting={[Function]}
+                timeout={150}
+                unmountOnExit={false}
+              >
+                <div
+                  className="ScrimComp-root-0-3-126"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "opacity": 1,
+                      "transition": "opacity 150ms",
+                    }
+                  }
+                />
+              </Transition>
+            </ScrimComp>
+          </WithStyles(ScrimComp)>
+        </Scrim>
+        <div
+          className="FluidDialogComp-container-0-3-124"
+        >
+          <div>
+            header
+          </div>
+          <div
+            className="FluidDialogComp-content-0-3-125"
+          >
+             very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content
+          </div>
+          <div>
+            footer
+          </div>
+        </div>
+      </div>
+    </FluidDialogComp>
+  </WithStyles(FluidDialogComp)>
+</FluidDialog>
+`;

@@ -1,0 +1,696 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/NavigationalTags Base 1`] = `
+<NavigationalTags
+  onTagClose={[Function]}
+  tags={
+    Array [
+      Object {
+        "id": "tag0",
+        "name": "Tag name 0 information ",
+      },
+      Object {
+        "id": "tag1",
+        "name": "Tag name 1 information",
+      },
+      Object {
+        "id": "tag2",
+        "name": "Tag name 2 information",
+      },
+    ]
+  }
+>
+  <WithStyles(NavigationalTagsComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onTagClose={[Function]}
+    tags={
+      Array [
+        Object {
+          "id": "tag0",
+          "name": "Tag name 0 information ",
+        },
+        Object {
+          "id": "tag1",
+          "name": "Tag name 1 information",
+        },
+        Object {
+          "id": "tag2",
+          "name": "Tag name 2 information",
+        },
+      ]
+    }
+    theme={Object {}}
+  >
+    <NavigationalTagsComp
+      classes={
+        Object {
+          "bar": "NavigationalTagsComp-bar-0-3-212",
+          "content": "NavigationalTagsComp-content-0-3-211",
+          "root": "NavigationalTagsComp-root-0-3-210",
+        }
+      }
+      onTagClose={[Function]}
+      tags={
+        Array [
+          Object {
+            "id": "tag0",
+            "name": "Tag name 0 information ",
+          },
+          Object {
+            "id": "tag1",
+            "name": "Tag name 1 information",
+          },
+          Object {
+            "id": "tag2",
+            "name": "Tag name 2 information",
+          },
+        ]
+      }
+    >
+      <div
+        className="NavigationalTagsComp-root-0-3-210"
+      >
+        <div
+          className="NavigationalTagsComp-bar-0-3-212"
+        />
+        <div
+          className="NavigationalTagsComp-content-0-3-211"
+        >
+          <div
+            key="0-tag0"
+            style={
+              Object {
+                "zIndex": 3,
+              }
+            }
+          >
+            <Tag
+              name="Tag name 0 information "
+              onClose={[Function]}
+            >
+              <WithStyles(TagComp)
+                innerRef={null}
+                jssContext={
+                  Object {
+                    "classNamePrefix": "",
+                    "disableStylesGeneration": false,
+                  }
+                }
+                name="Tag name 0 information "
+                onClose={[Function]}
+                theme={Object {}}
+              >
+                <TagComp
+                  classes={
+                    Object {
+                      "content": "TagComp-content-0-3-216",
+                      "icon": "TagComp-icon-0-3-217",
+                      "name": "TagComp-name-0-3-218",
+                      "root": "TagComp-root-0-3-213",
+                      "shape": "TagComp-shape-0-3-214",
+                      "shapeSeparator": "TagComp-shapeSeparator-0-3-215",
+                    }
+                  }
+                  name="Tag name 0 information "
+                  onClose={[Function]}
+                >
+                  <div
+                    className="TagComp-root-0-3-213"
+                    onClick={[Function]}
+                  >
+                    <svg
+                      viewBox="0 0 79.375 15.875"
+                    >
+                      <path
+                        className="TagComp-shapeSeparator-0-3-215"
+                        d="M0 0v15.875h74.083l2.646-3.969 2.646-3.969-2.646-3.968L74.083 0z"
+                      />
+                      <path
+                        className="TagComp-shape-0-3-214"
+                        d="M0 0v15.875h73.554l2.646-3.969 2.646-3.969L76.2 3.97 73.554 0z"
+                      />
+                    </svg>
+                    <div
+                      className="TagComp-content-0-3-216"
+                    >
+                      <div
+                        className="TagComp-icon-0-3-217"
+                      >
+                        <MUIcon
+                          fontSize={40}
+                          type="close"
+                        >
+                          <WithStyles(MUIconComp)
+                            fontSize={40}
+                            innerRef={null}
+                            jssContext={
+                              Object {
+                                "classNamePrefix": "",
+                                "disableStylesGeneration": false,
+                              }
+                            }
+                            theme={Object {}}
+                            type="close"
+                          >
+                            <MUIconComp
+                              classes={
+                                Object {
+                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d73-0-3-219",
+                                }
+                              }
+                              fontSize={40}
+                              type="close"
+                            >
+                              <i
+                                className="MUIconComp-root-0-3-35 MUIconComp-root-d73-0-3-219"
+                              >
+                                close
+                              </i>
+                            </MUIconComp>
+                          </WithStyles(MUIconComp)>
+                        </MUIcon>
+                      </div>
+                      <div
+                        className="TagComp-name-0-3-218"
+                      >
+                        <Typography
+                          bold={true}
+                          textTransform="uppercase"
+                          variant="standard"
+                        >
+                          <WithStyles(TypographyComp)
+                            bold={true}
+                            innerRef={null}
+                            jssContext={
+                              Object {
+                                "classNamePrefix": "",
+                                "disableStylesGeneration": false,
+                              }
+                            }
+                            textTransform="uppercase"
+                            theme={Object {}}
+                            variant="standard"
+                          >
+                            <TypographyComp
+                              bold={true}
+                              classes={
+                                Object {
+                                  "big": "TypographyComp-big-0-3-7",
+                                  "bold": "TypographyComp-bold-0-3-1",
+                                  "capitalize": "TypographyComp-capitalize-0-3-12",
+                                  "distance": "TypographyComp-distance-0-3-6",
+                                  "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                                  "giant": "TypographyComp-giant-0-3-9",
+                                  "heading": "TypographyComp-heading-0-3-8",
+                                  "italic": "TypographyComp-italic-0-3-3",
+                                  "lowercase": "TypographyComp-lowercase-0-3-11",
+                                  "noWrap": "TypographyComp-noWrap-0-3-13",
+                                  "semiBold": "TypographyComp-semiBold-0-3-2",
+                                  "standard": "TypographyComp-standard-0-3-5",
+                                  "subtext": "TypographyComp-subtext-0-3-4",
+                                  "uppercase": "TypographyComp-uppercase-0-3-10",
+                                }
+                              }
+                              textTransform="uppercase"
+                              variant="standard"
+                            >
+                              <span
+                                className="TypographyComp-standard-0-3-5 TypographyComp-uppercase-0-3-10 TypographyComp-bold-0-3-1"
+                              >
+                                Tag name 0 information 
+                              </span>
+                            </TypographyComp>
+                          </WithStyles(TypographyComp)>
+                        </Typography>
+                      </div>
+                    </div>
+                  </div>
+                </TagComp>
+              </WithStyles(TagComp)>
+            </Tag>
+          </div>
+          <div
+            key="1-tag1"
+            style={
+              Object {
+                "zIndex": 2,
+              }
+            }
+          >
+            <Tag
+              name="Tag name 1 information"
+              onClose={[Function]}
+            >
+              <WithStyles(TagComp)
+                innerRef={null}
+                jssContext={
+                  Object {
+                    "classNamePrefix": "",
+                    "disableStylesGeneration": false,
+                  }
+                }
+                name="Tag name 1 information"
+                onClose={[Function]}
+                theme={Object {}}
+              >
+                <TagComp
+                  classes={
+                    Object {
+                      "content": "TagComp-content-0-3-216",
+                      "icon": "TagComp-icon-0-3-217",
+                      "name": "TagComp-name-0-3-218",
+                      "root": "TagComp-root-0-3-213",
+                      "shape": "TagComp-shape-0-3-214",
+                      "shapeSeparator": "TagComp-shapeSeparator-0-3-215",
+                    }
+                  }
+                  name="Tag name 1 information"
+                  onClose={[Function]}
+                >
+                  <div
+                    className="TagComp-root-0-3-213"
+                    onClick={[Function]}
+                  >
+                    <svg
+                      viewBox="0 0 79.375 15.875"
+                    >
+                      <path
+                        className="TagComp-shapeSeparator-0-3-215"
+                        d="M0 0v15.875h74.083l2.646-3.969 2.646-3.969-2.646-3.968L74.083 0z"
+                      />
+                      <path
+                        className="TagComp-shape-0-3-214"
+                        d="M0 0v15.875h73.554l2.646-3.969 2.646-3.969L76.2 3.97 73.554 0z"
+                      />
+                    </svg>
+                    <div
+                      className="TagComp-content-0-3-216"
+                    >
+                      <div
+                        className="TagComp-icon-0-3-217"
+                      >
+                        <MUIcon
+                          fontSize={40}
+                          type="close"
+                        >
+                          <WithStyles(MUIconComp)
+                            fontSize={40}
+                            innerRef={null}
+                            jssContext={
+                              Object {
+                                "classNamePrefix": "",
+                                "disableStylesGeneration": false,
+                              }
+                            }
+                            theme={Object {}}
+                            type="close"
+                          >
+                            <MUIconComp
+                              classes={
+                                Object {
+                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d74-0-3-220",
+                                }
+                              }
+                              fontSize={40}
+                              type="close"
+                            >
+                              <i
+                                className="MUIconComp-root-0-3-35 MUIconComp-root-d74-0-3-220"
+                              >
+                                close
+                              </i>
+                            </MUIconComp>
+                          </WithStyles(MUIconComp)>
+                        </MUIcon>
+                      </div>
+                      <div
+                        className="TagComp-name-0-3-218"
+                      >
+                        <Typography
+                          bold={true}
+                          textTransform="uppercase"
+                          variant="standard"
+                        >
+                          <WithStyles(TypographyComp)
+                            bold={true}
+                            innerRef={null}
+                            jssContext={
+                              Object {
+                                "classNamePrefix": "",
+                                "disableStylesGeneration": false,
+                              }
+                            }
+                            textTransform="uppercase"
+                            theme={Object {}}
+                            variant="standard"
+                          >
+                            <TypographyComp
+                              bold={true}
+                              classes={
+                                Object {
+                                  "big": "TypographyComp-big-0-3-7",
+                                  "bold": "TypographyComp-bold-0-3-1",
+                                  "capitalize": "TypographyComp-capitalize-0-3-12",
+                                  "distance": "TypographyComp-distance-0-3-6",
+                                  "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                                  "giant": "TypographyComp-giant-0-3-9",
+                                  "heading": "TypographyComp-heading-0-3-8",
+                                  "italic": "TypographyComp-italic-0-3-3",
+                                  "lowercase": "TypographyComp-lowercase-0-3-11",
+                                  "noWrap": "TypographyComp-noWrap-0-3-13",
+                                  "semiBold": "TypographyComp-semiBold-0-3-2",
+                                  "standard": "TypographyComp-standard-0-3-5",
+                                  "subtext": "TypographyComp-subtext-0-3-4",
+                                  "uppercase": "TypographyComp-uppercase-0-3-10",
+                                }
+                              }
+                              textTransform="uppercase"
+                              variant="standard"
+                            >
+                              <span
+                                className="TypographyComp-standard-0-3-5 TypographyComp-uppercase-0-3-10 TypographyComp-bold-0-3-1"
+                              >
+                                Tag name 1 information
+                              </span>
+                            </TypographyComp>
+                          </WithStyles(TypographyComp)>
+                        </Typography>
+                      </div>
+                    </div>
+                  </div>
+                </TagComp>
+              </WithStyles(TagComp)>
+            </Tag>
+          </div>
+          <div
+            key="2-tag2"
+            style={
+              Object {
+                "zIndex": 1,
+              }
+            }
+          >
+            <Tag
+              name="Tag name 2 information"
+              onClose={[Function]}
+            >
+              <WithStyles(TagComp)
+                innerRef={null}
+                jssContext={
+                  Object {
+                    "classNamePrefix": "",
+                    "disableStylesGeneration": false,
+                  }
+                }
+                name="Tag name 2 information"
+                onClose={[Function]}
+                theme={Object {}}
+              >
+                <TagComp
+                  classes={
+                    Object {
+                      "content": "TagComp-content-0-3-216",
+                      "icon": "TagComp-icon-0-3-217",
+                      "name": "TagComp-name-0-3-218",
+                      "root": "TagComp-root-0-3-213",
+                      "shape": "TagComp-shape-0-3-214",
+                      "shapeSeparator": "TagComp-shapeSeparator-0-3-215",
+                    }
+                  }
+                  name="Tag name 2 information"
+                  onClose={[Function]}
+                >
+                  <div
+                    className="TagComp-root-0-3-213"
+                    onClick={[Function]}
+                  >
+                    <svg
+                      viewBox="0 0 79.375 15.875"
+                    >
+                      <path
+                        className="TagComp-shapeSeparator-0-3-215"
+                        d="M0 0v15.875h74.083l2.646-3.969 2.646-3.969-2.646-3.968L74.083 0z"
+                      />
+                      <path
+                        className="TagComp-shape-0-3-214"
+                        d="M0 0v15.875h73.554l2.646-3.969 2.646-3.969L76.2 3.97 73.554 0z"
+                      />
+                    </svg>
+                    <div
+                      className="TagComp-content-0-3-216"
+                    >
+                      <div
+                        className="TagComp-icon-0-3-217"
+                      >
+                        <MUIcon
+                          fontSize={40}
+                          type="close"
+                        >
+                          <WithStyles(MUIconComp)
+                            fontSize={40}
+                            innerRef={null}
+                            jssContext={
+                              Object {
+                                "classNamePrefix": "",
+                                "disableStylesGeneration": false,
+                              }
+                            }
+                            theme={Object {}}
+                            type="close"
+                          >
+                            <MUIconComp
+                              classes={
+                                Object {
+                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d75-0-3-221",
+                                }
+                              }
+                              fontSize={40}
+                              type="close"
+                            >
+                              <i
+                                className="MUIconComp-root-0-3-35 MUIconComp-root-d75-0-3-221"
+                              >
+                                close
+                              </i>
+                            </MUIconComp>
+                          </WithStyles(MUIconComp)>
+                        </MUIcon>
+                      </div>
+                      <div
+                        className="TagComp-name-0-3-218"
+                      >
+                        <Typography
+                          bold={true}
+                          textTransform="uppercase"
+                          variant="standard"
+                        >
+                          <WithStyles(TypographyComp)
+                            bold={true}
+                            innerRef={null}
+                            jssContext={
+                              Object {
+                                "classNamePrefix": "",
+                                "disableStylesGeneration": false,
+                              }
+                            }
+                            textTransform="uppercase"
+                            theme={Object {}}
+                            variant="standard"
+                          >
+                            <TypographyComp
+                              bold={true}
+                              classes={
+                                Object {
+                                  "big": "TypographyComp-big-0-3-7",
+                                  "bold": "TypographyComp-bold-0-3-1",
+                                  "capitalize": "TypographyComp-capitalize-0-3-12",
+                                  "distance": "TypographyComp-distance-0-3-6",
+                                  "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                                  "giant": "TypographyComp-giant-0-3-9",
+                                  "heading": "TypographyComp-heading-0-3-8",
+                                  "italic": "TypographyComp-italic-0-3-3",
+                                  "lowercase": "TypographyComp-lowercase-0-3-11",
+                                  "noWrap": "TypographyComp-noWrap-0-3-13",
+                                  "semiBold": "TypographyComp-semiBold-0-3-2",
+                                  "standard": "TypographyComp-standard-0-3-5",
+                                  "subtext": "TypographyComp-subtext-0-3-4",
+                                  "uppercase": "TypographyComp-uppercase-0-3-10",
+                                }
+                              }
+                              textTransform="uppercase"
+                              variant="standard"
+                            >
+                              <span
+                                className="TypographyComp-standard-0-3-5 TypographyComp-uppercase-0-3-10 TypographyComp-bold-0-3-1"
+                              >
+                                Tag name 2 information
+                              </span>
+                            </TypographyComp>
+                          </WithStyles(TypographyComp)>
+                        </Typography>
+                      </div>
+                    </div>
+                  </div>
+                </TagComp>
+              </WithStyles(TagComp)>
+            </Tag>
+          </div>
+        </div>
+      </div>
+    </NavigationalTagsComp>
+  </WithStyles(NavigationalTagsComp)>
+</NavigationalTags>
+`;
+
+exports[`Storyshots Components/NavigationalTags Part Tag 1`] = `
+<Tag
+  name="Tag name information"
+  onClose={[Function]}
+>
+  <WithStyles(TagComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    name="Tag name information"
+    onClose={[Function]}
+    theme={Object {}}
+  >
+    <TagComp
+      classes={
+        Object {
+          "content": "TagComp-content-0-3-216",
+          "icon": "TagComp-icon-0-3-217",
+          "name": "TagComp-name-0-3-218",
+          "root": "TagComp-root-0-3-213",
+          "shape": "TagComp-shape-0-3-214",
+          "shapeSeparator": "TagComp-shapeSeparator-0-3-215",
+        }
+      }
+      name="Tag name information"
+      onClose={[Function]}
+    >
+      <div
+        className="TagComp-root-0-3-213"
+        onClick={[Function]}
+      >
+        <svg
+          viewBox="0 0 79.375 15.875"
+        >
+          <path
+            className="TagComp-shapeSeparator-0-3-215"
+            d="M0 0v15.875h74.083l2.646-3.969 2.646-3.969-2.646-3.968L74.083 0z"
+          />
+          <path
+            className="TagComp-shape-0-3-214"
+            d="M0 0v15.875h73.554l2.646-3.969 2.646-3.969L76.2 3.97 73.554 0z"
+          />
+        </svg>
+        <div
+          className="TagComp-content-0-3-216"
+        >
+          <div
+            className="TagComp-icon-0-3-217"
+          >
+            <MUIcon
+              fontSize={40}
+              type="close"
+            >
+              <WithStyles(MUIconComp)
+                fontSize={40}
+                innerRef={null}
+                jssContext={
+                  Object {
+                    "classNamePrefix": "",
+                    "disableStylesGeneration": false,
+                  }
+                }
+                theme={Object {}}
+                type="close"
+              >
+                <MUIconComp
+                  classes={
+                    Object {
+                      "root": "MUIconComp-root-0-3-35 MUIconComp-root-d76-0-3-222",
+                    }
+                  }
+                  fontSize={40}
+                  type="close"
+                >
+                  <i
+                    className="MUIconComp-root-0-3-35 MUIconComp-root-d76-0-3-222"
+                  >
+                    close
+                  </i>
+                </MUIconComp>
+              </WithStyles(MUIconComp)>
+            </MUIcon>
+          </div>
+          <div
+            className="TagComp-name-0-3-218"
+          >
+            <Typography
+              bold={true}
+              textTransform="uppercase"
+              variant="standard"
+            >
+              <WithStyles(TypographyComp)
+                bold={true}
+                innerRef={null}
+                jssContext={
+                  Object {
+                    "classNamePrefix": "",
+                    "disableStylesGeneration": false,
+                  }
+                }
+                textTransform="uppercase"
+                theme={Object {}}
+                variant="standard"
+              >
+                <TypographyComp
+                  bold={true}
+                  classes={
+                    Object {
+                      "big": "TypographyComp-big-0-3-7",
+                      "bold": "TypographyComp-bold-0-3-1",
+                      "capitalize": "TypographyComp-capitalize-0-3-12",
+                      "distance": "TypographyComp-distance-0-3-6",
+                      "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                      "giant": "TypographyComp-giant-0-3-9",
+                      "heading": "TypographyComp-heading-0-3-8",
+                      "italic": "TypographyComp-italic-0-3-3",
+                      "lowercase": "TypographyComp-lowercase-0-3-11",
+                      "noWrap": "TypographyComp-noWrap-0-3-13",
+                      "semiBold": "TypographyComp-semiBold-0-3-2",
+                      "standard": "TypographyComp-standard-0-3-5",
+                      "subtext": "TypographyComp-subtext-0-3-4",
+                      "uppercase": "TypographyComp-uppercase-0-3-10",
+                    }
+                  }
+                  textTransform="uppercase"
+                  variant="standard"
+                >
+                  <span
+                    className="TypographyComp-standard-0-3-5 TypographyComp-uppercase-0-3-10 TypographyComp-bold-0-3-1"
+                  >
+                    Tag name information
+                  </span>
+                </TypographyComp>
+              </WithStyles(TypographyComp)>
+            </Typography>
+          </div>
+        </div>
+      </div>
+    </TagComp>
+  </WithStyles(TagComp)>
+</Tag>
+`;

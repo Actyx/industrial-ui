@@ -1,0 +1,355 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Search Base 1`] = `
+<Search
+  onBlur={[Function]}
+  onChange={[Function]}
+  onFocus={[Function]}
+  value=""
+>
+  <WithStyles(SearchComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    theme={Object {}}
+    value=""
+  >
+    <SearchComp
+      classes={
+        Object {
+          "icon": "SearchComp-icon-0-3-250",
+          "root": "SearchComp-root-0-3-249",
+        }
+      }
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      value=""
+    >
+      <div
+        className="SearchComp-root-0-3-249"
+      >
+        <input
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          type="text"
+          value=""
+        />
+        <div
+          className="SearchComp-icon-0-3-250"
+        >
+          <MUIcon
+            fontSize={48}
+            type="search"
+          >
+            <WithStyles(MUIconComp)
+              fontSize={48}
+              innerRef={null}
+              jssContext={
+                Object {
+                  "classNamePrefix": "",
+                  "disableStylesGeneration": false,
+                }
+              }
+              theme={Object {}}
+              type="search"
+            >
+              <MUIconComp
+                classes={
+                  Object {
+                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d99-0-3-251",
+                  }
+                }
+                fontSize={48}
+                type="search"
+              >
+                <i
+                  className="MUIconComp-root-0-3-35 MUIconComp-root-d99-0-3-251"
+                >
+                  search
+                </i>
+              </MUIconComp>
+            </WithStyles(MUIconComp)>
+          </MUIcon>
+        </div>
+      </div>
+    </SearchComp>
+  </WithStyles(SearchComp)>
+</Search>
+`;
+
+exports[`Storyshots Components/Search Wrapper 1`] = `
+<SearchWrapper>
+  <Search
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    placeholder="Search for article group"
+    value=""
+  >
+    <WithStyles(SearchComp)
+      innerRef={null}
+      jssContext={
+        Object {
+          "classNamePrefix": "",
+          "disableStylesGeneration": false,
+        }
+      }
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder="Search for article group"
+      theme={Object {}}
+      value=""
+    >
+      <SearchComp
+        classes={
+          Object {
+            "icon": "SearchComp-icon-0-3-250",
+            "root": "SearchComp-root-0-3-249",
+          }
+        }
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="Search for article group"
+        value=""
+      >
+        <div
+          className="SearchComp-root-0-3-249"
+        >
+          <input
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="Search for article group"
+            type="text"
+            value=""
+          />
+          <div
+            className="SearchComp-icon-0-3-250"
+          >
+            <MUIcon
+              fontSize={48}
+              type="search"
+            >
+              <WithStyles(MUIconComp)
+                fontSize={48}
+                innerRef={null}
+                jssContext={
+                  Object {
+                    "classNamePrefix": "",
+                    "disableStylesGeneration": false,
+                  }
+                }
+                theme={Object {}}
+                type="search"
+              >
+                <MUIconComp
+                  classes={
+                    Object {
+                      "root": "MUIconComp-root-0-3-35 MUIconComp-root-d102-0-3-254",
+                    }
+                  }
+                  fontSize={48}
+                  type="search"
+                >
+                  <i
+                    className="MUIconComp-root-0-3-35 MUIconComp-root-d102-0-3-254"
+                  >
+                    search
+                  </i>
+                </MUIconComp>
+              </WithStyles(MUIconComp)>
+            </MUIcon>
+          </div>
+        </div>
+      </SearchComp>
+    </WithStyles(SearchComp)>
+  </Search>
+</SearchWrapper>
+`;
+
+exports[`Storyshots Components/Search placeholder 1`] = `
+<Search
+  onBlur={[Function]}
+  onChange={[Function]}
+  onFocus={[Function]}
+  placeholder="Search for article group"
+  value=""
+>
+  <WithStyles(SearchComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    placeholder="Search for article group"
+    theme={Object {}}
+    value=""
+  >
+    <SearchComp
+      classes={
+        Object {
+          "icon": "SearchComp-icon-0-3-250",
+          "root": "SearchComp-root-0-3-249",
+        }
+      }
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder="Search for article group"
+      value=""
+    >
+      <div
+        className="SearchComp-root-0-3-249"
+      >
+        <input
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="Search for article group"
+          type="text"
+          value=""
+        />
+        <div
+          className="SearchComp-icon-0-3-250"
+        >
+          <MUIcon
+            fontSize={48}
+            type="search"
+          >
+            <WithStyles(MUIconComp)
+              fontSize={48}
+              innerRef={null}
+              jssContext={
+                Object {
+                  "classNamePrefix": "",
+                  "disableStylesGeneration": false,
+                }
+              }
+              theme={Object {}}
+              type="search"
+            >
+              <MUIconComp
+                classes={
+                  Object {
+                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d101-0-3-253",
+                  }
+                }
+                fontSize={48}
+                type="search"
+              >
+                <i
+                  className="MUIconComp-root-0-3-35 MUIconComp-root-d101-0-3-253"
+                >
+                  search
+                </i>
+              </MUIconComp>
+            </WithStyles(MUIconComp)>
+          </MUIcon>
+        </div>
+      </div>
+    </SearchComp>
+  </WithStyles(SearchComp)>
+</Search>
+`;
+
+exports[`Storyshots Components/Search value 1`] = `
+<Search
+  onBlur={[Function]}
+  onChange={[Function]}
+  onFocus={[Function]}
+  value="Abc"
+>
+  <WithStyles(SearchComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    theme={Object {}}
+    value="Abc"
+  >
+    <SearchComp
+      classes={
+        Object {
+          "icon": "SearchComp-icon-0-3-250",
+          "root": "SearchComp-root-0-3-249",
+        }
+      }
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      value="Abc"
+    >
+      <div
+        className="SearchComp-root-0-3-249"
+      >
+        <input
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          type="text"
+          value="Abc"
+        />
+        <div
+          className="SearchComp-icon-0-3-250"
+        >
+          <MUIcon
+            fontSize={48}
+            type="search"
+          >
+            <WithStyles(MUIconComp)
+              fontSize={48}
+              innerRef={null}
+              jssContext={
+                Object {
+                  "classNamePrefix": "",
+                  "disableStylesGeneration": false,
+                }
+              }
+              theme={Object {}}
+              type="search"
+            >
+              <MUIconComp
+                classes={
+                  Object {
+                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d100-0-3-252",
+                  }
+                }
+                fontSize={48}
+                type="search"
+              >
+                <i
+                  className="MUIconComp-root-0-3-35 MUIconComp-root-d100-0-3-252"
+                >
+                  search
+                </i>
+              </MUIconComp>
+            </WithStyles(MUIconComp)>
+          </MUIcon>
+        </div>
+      </div>
+    </SearchComp>
+  </WithStyles(SearchComp)>
+</Search>
+`;

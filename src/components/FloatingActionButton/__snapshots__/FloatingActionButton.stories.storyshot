@@ -1,0 +1,621 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/FloatingActionButton Disabled 1`] = `
+<FloatingActionButton
+  color="primary"
+  disabled={true}
+  icon="close"
+  onClick={[Function]}
+  size="xl"
+>
+  <WithStyles(FloatingActionButtonComp)
+    color="primary"
+    disabled={true}
+    icon="close"
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onClick={[Function]}
+    size="xl"
+    theme={Object {}}
+  >
+    <FloatingActionButtonComp
+      classes={
+        Object {
+          "disabled": "FloatingActionButtonComp-disabled-0-3-139",
+          "md": "FloatingActionButtonComp-md-0-3-136",
+          "neutral": "FloatingActionButtonComp-neutral-0-3-133",
+          "primary": "FloatingActionButtonComp-primary-0-3-134",
+          "secondary": "FloatingActionButtonComp-secondary-0-3-135",
+          "sm": "FloatingActionButtonComp-sm-0-3-138",
+          "xl": "FloatingActionButtonComp-xl-0-3-137",
+        }
+      }
+      color="primary"
+      disabled={true}
+      icon="close"
+      onClick={[Function]}
+      size="xl"
+    >
+      <div
+        className="FloatingActionButtonComp-xl-0-3-137 FloatingActionButtonComp-primary-0-3-134 FloatingActionButtonComp-disabled-0-3-139"
+      >
+        <div>
+          <MUIcon
+            fontSize={80}
+            type="close"
+          >
+            <WithStyles(MUIconComp)
+              fontSize={80}
+              innerRef={null}
+              jssContext={
+                Object {
+                  "classNamePrefix": "",
+                  "disableStylesGeneration": false,
+                }
+              }
+              theme={Object {}}
+              type="close"
+            >
+              <MUIconComp
+                classes={
+                  Object {
+                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d39-0-3-143",
+                  }
+                }
+                fontSize={80}
+                type="close"
+              >
+                <i
+                  className="MUIconComp-root-0-3-35 MUIconComp-root-d39-0-3-143"
+                >
+                  close
+                </i>
+              </MUIconComp>
+            </WithStyles(MUIconComp)>
+          </MUIcon>
+        </div>
+      </div>
+    </FloatingActionButtonComp>
+  </WithStyles(FloatingActionButtonComp)>
+</FloatingActionButton>
+`;
+
+exports[`Storyshots Components/FloatingActionButton Neutral 1`] = `
+<FloatingActionButton
+  color="neutral"
+  icon="close"
+  onClick={[Function]}
+  size="sm"
+>
+  <WithStyles(FloatingActionButtonComp)
+    color="neutral"
+    icon="close"
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onClick={[Function]}
+    size="sm"
+    theme={Object {}}
+  >
+    <FloatingActionButtonComp
+      classes={
+        Object {
+          "disabled": "FloatingActionButtonComp-disabled-0-3-139",
+          "md": "FloatingActionButtonComp-md-0-3-136",
+          "neutral": "FloatingActionButtonComp-neutral-0-3-133",
+          "primary": "FloatingActionButtonComp-primary-0-3-134",
+          "secondary": "FloatingActionButtonComp-secondary-0-3-135",
+          "sm": "FloatingActionButtonComp-sm-0-3-138",
+          "xl": "FloatingActionButtonComp-xl-0-3-137",
+        }
+      }
+      color="neutral"
+      icon="close"
+      onClick={[Function]}
+      size="sm"
+    >
+      <div
+        className="FloatingActionButtonComp-sm-0-3-138 FloatingActionButtonComp-neutral-0-3-133"
+        onClick={[Function]}
+      >
+        <TouchRipple>
+          <WithStyles(TouchRippleComp)
+            innerRef={null}
+            jssContext={
+              Object {
+                "classNamePrefix": "",
+                "disableStylesGeneration": false,
+              }
+            }
+            theme={Object {}}
+          >
+            <TouchRippleComp
+              classes={
+                Object {
+                  "disabled": "TouchRippleComp-disabled-0-3-34",
+                  "root": "TouchRippleComp-root-0-3-33",
+                }
+              }
+            >
+              <div
+                className="TouchRippleComp-root-0-3-33"
+              >
+                <MUIcon
+                  fontSize={40}
+                  type="close"
+                >
+                  <WithStyles(MUIconComp)
+                    fontSize={40}
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                    type="close"
+                  >
+                    <MUIconComp
+                      classes={
+                        Object {
+                          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d40-0-3-144",
+                        }
+                      }
+                      fontSize={40}
+                      type="close"
+                    >
+                      <i
+                        className="MUIconComp-root-0-3-35 MUIconComp-root-d40-0-3-144"
+                      >
+                        close
+                      </i>
+                    </MUIconComp>
+                  </WithStyles(MUIconComp)>
+                </MUIcon>
+              </div>
+            </TouchRippleComp>
+          </WithStyles(TouchRippleComp)>
+        </TouchRipple>
+      </div>
+    </FloatingActionButtonComp>
+  </WithStyles(FloatingActionButtonComp)>
+</FloatingActionButton>
+`;
+
+exports[`Storyshots Components/FloatingActionButton Secondary 1`] = `
+<FloatingActionButton
+  color="secondary"
+  icon="close"
+  onClick={[Function]}
+  size="sm"
+>
+  <WithStyles(FloatingActionButtonComp)
+    color="secondary"
+    icon="close"
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onClick={[Function]}
+    size="sm"
+    theme={Object {}}
+  >
+    <FloatingActionButtonComp
+      classes={
+        Object {
+          "disabled": "FloatingActionButtonComp-disabled-0-3-139",
+          "md": "FloatingActionButtonComp-md-0-3-136",
+          "neutral": "FloatingActionButtonComp-neutral-0-3-133",
+          "primary": "FloatingActionButtonComp-primary-0-3-134",
+          "secondary": "FloatingActionButtonComp-secondary-0-3-135",
+          "sm": "FloatingActionButtonComp-sm-0-3-138",
+          "xl": "FloatingActionButtonComp-xl-0-3-137",
+        }
+      }
+      color="secondary"
+      icon="close"
+      onClick={[Function]}
+      size="sm"
+    >
+      <div
+        className="FloatingActionButtonComp-sm-0-3-138 FloatingActionButtonComp-secondary-0-3-135"
+        onClick={[Function]}
+      >
+        <TouchRipple>
+          <WithStyles(TouchRippleComp)
+            innerRef={null}
+            jssContext={
+              Object {
+                "classNamePrefix": "",
+                "disableStylesGeneration": false,
+              }
+            }
+            theme={Object {}}
+          >
+            <TouchRippleComp
+              classes={
+                Object {
+                  "disabled": "TouchRippleComp-disabled-0-3-34",
+                  "root": "TouchRippleComp-root-0-3-33",
+                }
+              }
+            >
+              <div
+                className="TouchRippleComp-root-0-3-33"
+              >
+                <MUIcon
+                  fontSize={40}
+                  type="close"
+                >
+                  <WithStyles(MUIconComp)
+                    fontSize={40}
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                    type="close"
+                  >
+                    <MUIconComp
+                      classes={
+                        Object {
+                          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d41-0-3-145",
+                        }
+                      }
+                      fontSize={40}
+                      type="close"
+                    >
+                      <i
+                        className="MUIconComp-root-0-3-35 MUIconComp-root-d41-0-3-145"
+                      >
+                        close
+                      </i>
+                    </MUIconComp>
+                  </WithStyles(MUIconComp)>
+                </MUIcon>
+              </div>
+            </TouchRippleComp>
+          </WithStyles(TouchRippleComp)>
+        </TouchRipple>
+      </div>
+    </FloatingActionButtonComp>
+  </WithStyles(FloatingActionButtonComp)>
+</FloatingActionButton>
+`;
+
+exports[`Storyshots Components/FloatingActionButton Size md 1`] = `
+<FloatingActionButton
+  color="primary"
+  icon="close"
+  onClick={[Function]}
+  size="md"
+>
+  <WithStyles(FloatingActionButtonComp)
+    color="primary"
+    icon="close"
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onClick={[Function]}
+    size="md"
+    theme={Object {}}
+  >
+    <FloatingActionButtonComp
+      classes={
+        Object {
+          "disabled": "FloatingActionButtonComp-disabled-0-3-139",
+          "md": "FloatingActionButtonComp-md-0-3-136",
+          "neutral": "FloatingActionButtonComp-neutral-0-3-133",
+          "primary": "FloatingActionButtonComp-primary-0-3-134",
+          "secondary": "FloatingActionButtonComp-secondary-0-3-135",
+          "sm": "FloatingActionButtonComp-sm-0-3-138",
+          "xl": "FloatingActionButtonComp-xl-0-3-137",
+        }
+      }
+      color="primary"
+      icon="close"
+      onClick={[Function]}
+      size="md"
+    >
+      <div
+        className="FloatingActionButtonComp-md-0-3-136 FloatingActionButtonComp-primary-0-3-134"
+        onClick={[Function]}
+      >
+        <TouchRipple>
+          <WithStyles(TouchRippleComp)
+            innerRef={null}
+            jssContext={
+              Object {
+                "classNamePrefix": "",
+                "disableStylesGeneration": false,
+              }
+            }
+            theme={Object {}}
+          >
+            <TouchRippleComp
+              classes={
+                Object {
+                  "disabled": "TouchRippleComp-disabled-0-3-34",
+                  "root": "TouchRippleComp-root-0-3-33",
+                }
+              }
+            >
+              <div
+                className="TouchRippleComp-root-0-3-33"
+              >
+                <MUIcon
+                  fontSize={50}
+                  type="close"
+                >
+                  <WithStyles(MUIconComp)
+                    fontSize={50}
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                    type="close"
+                  >
+                    <MUIconComp
+                      classes={
+                        Object {
+                          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d37-0-3-141",
+                        }
+                      }
+                      fontSize={50}
+                      type="close"
+                    >
+                      <i
+                        className="MUIconComp-root-0-3-35 MUIconComp-root-d37-0-3-141"
+                      >
+                        close
+                      </i>
+                    </MUIconComp>
+                  </WithStyles(MUIconComp)>
+                </MUIcon>
+              </div>
+            </TouchRippleComp>
+          </WithStyles(TouchRippleComp)>
+        </TouchRipple>
+      </div>
+    </FloatingActionButtonComp>
+  </WithStyles(FloatingActionButtonComp)>
+</FloatingActionButton>
+`;
+
+exports[`Storyshots Components/FloatingActionButton Size sm 1`] = `
+<FloatingActionButton
+  color="primary"
+  icon="close"
+  onClick={[Function]}
+  size="sm"
+>
+  <WithStyles(FloatingActionButtonComp)
+    color="primary"
+    icon="close"
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onClick={[Function]}
+    size="sm"
+    theme={Object {}}
+  >
+    <FloatingActionButtonComp
+      classes={
+        Object {
+          "disabled": "FloatingActionButtonComp-disabled-0-3-139",
+          "md": "FloatingActionButtonComp-md-0-3-136",
+          "neutral": "FloatingActionButtonComp-neutral-0-3-133",
+          "primary": "FloatingActionButtonComp-primary-0-3-134",
+          "secondary": "FloatingActionButtonComp-secondary-0-3-135",
+          "sm": "FloatingActionButtonComp-sm-0-3-138",
+          "xl": "FloatingActionButtonComp-xl-0-3-137",
+        }
+      }
+      color="primary"
+      icon="close"
+      onClick={[Function]}
+      size="sm"
+    >
+      <div
+        className="FloatingActionButtonComp-sm-0-3-138 FloatingActionButtonComp-primary-0-3-134"
+        onClick={[Function]}
+      >
+        <TouchRipple>
+          <WithStyles(TouchRippleComp)
+            innerRef={null}
+            jssContext={
+              Object {
+                "classNamePrefix": "",
+                "disableStylesGeneration": false,
+              }
+            }
+            theme={Object {}}
+          >
+            <TouchRippleComp
+              classes={
+                Object {
+                  "disabled": "TouchRippleComp-disabled-0-3-34",
+                  "root": "TouchRippleComp-root-0-3-33",
+                }
+              }
+            >
+              <div
+                className="TouchRippleComp-root-0-3-33"
+              >
+                <MUIcon
+                  fontSize={40}
+                  type="close"
+                >
+                  <WithStyles(MUIconComp)
+                    fontSize={40}
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                    type="close"
+                  >
+                    <MUIconComp
+                      classes={
+                        Object {
+                          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d36-0-3-140",
+                        }
+                      }
+                      fontSize={40}
+                      type="close"
+                    >
+                      <i
+                        className="MUIconComp-root-0-3-35 MUIconComp-root-d36-0-3-140"
+                      >
+                        close
+                      </i>
+                    </MUIconComp>
+                  </WithStyles(MUIconComp)>
+                </MUIcon>
+              </div>
+            </TouchRippleComp>
+          </WithStyles(TouchRippleComp)>
+        </TouchRipple>
+      </div>
+    </FloatingActionButtonComp>
+  </WithStyles(FloatingActionButtonComp)>
+</FloatingActionButton>
+`;
+
+exports[`Storyshots Components/FloatingActionButton Size xl 1`] = `
+<FloatingActionButton
+  color="primary"
+  icon="close"
+  onClick={[Function]}
+  size="xl"
+>
+  <WithStyles(FloatingActionButtonComp)
+    color="primary"
+    icon="close"
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onClick={[Function]}
+    size="xl"
+    theme={Object {}}
+  >
+    <FloatingActionButtonComp
+      classes={
+        Object {
+          "disabled": "FloatingActionButtonComp-disabled-0-3-139",
+          "md": "FloatingActionButtonComp-md-0-3-136",
+          "neutral": "FloatingActionButtonComp-neutral-0-3-133",
+          "primary": "FloatingActionButtonComp-primary-0-3-134",
+          "secondary": "FloatingActionButtonComp-secondary-0-3-135",
+          "sm": "FloatingActionButtonComp-sm-0-3-138",
+          "xl": "FloatingActionButtonComp-xl-0-3-137",
+        }
+      }
+      color="primary"
+      icon="close"
+      onClick={[Function]}
+      size="xl"
+    >
+      <div
+        className="FloatingActionButtonComp-xl-0-3-137 FloatingActionButtonComp-primary-0-3-134"
+        onClick={[Function]}
+      >
+        <TouchRipple>
+          <WithStyles(TouchRippleComp)
+            innerRef={null}
+            jssContext={
+              Object {
+                "classNamePrefix": "",
+                "disableStylesGeneration": false,
+              }
+            }
+            theme={Object {}}
+          >
+            <TouchRippleComp
+              classes={
+                Object {
+                  "disabled": "TouchRippleComp-disabled-0-3-34",
+                  "root": "TouchRippleComp-root-0-3-33",
+                }
+              }
+            >
+              <div
+                className="TouchRippleComp-root-0-3-33"
+              >
+                <MUIcon
+                  fontSize={80}
+                  type="close"
+                >
+                  <WithStyles(MUIconComp)
+                    fontSize={80}
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                    type="close"
+                  >
+                    <MUIconComp
+                      classes={
+                        Object {
+                          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d38-0-3-142",
+                        }
+                      }
+                      fontSize={80}
+                      type="close"
+                    >
+                      <i
+                        className="MUIconComp-root-0-3-35 MUIconComp-root-d38-0-3-142"
+                      >
+                        close
+                      </i>
+                    </MUIconComp>
+                  </WithStyles(MUIconComp)>
+                </MUIcon>
+              </div>
+            </TouchRippleComp>
+          </WithStyles(TouchRippleComp)>
+        </TouchRipple>
+      </div>
+    </FloatingActionButtonComp>
+  </WithStyles(FloatingActionButtonComp)>
+</FloatingActionButton>
+`;

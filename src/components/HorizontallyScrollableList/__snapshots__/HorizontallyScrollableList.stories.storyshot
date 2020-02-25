@@ -1,0 +1,1171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/HorizontallyScrollableList Base 1`] = `
+<HorizontallyScrollableList
+  items={
+    Array [
+      Object {
+        "id": "1",
+        "name": "Item 1",
+      },
+      Object {
+        "id": "2",
+        "name": "Item 2",
+      },
+      Object {
+        "id": "3",
+        "name": "Item 3",
+      },
+      Object {
+        "id": "4",
+        "name": "Item 4",
+      },
+      Object {
+        "id": "5",
+        "name": "Item 5",
+      },
+      Object {
+        "id": "6",
+        "name": "Item 6",
+      },
+      Object {
+        "id": "7",
+        "name": "Item 7",
+      },
+    ]
+  }
+  onItemSelect={[Function]}
+  rows={3}
+>
+  <WithStyles(HorizontallyScrollableListComp)
+    innerRef={null}
+    items={
+      Array [
+        Object {
+          "id": "1",
+          "name": "Item 1",
+        },
+        Object {
+          "id": "2",
+          "name": "Item 2",
+        },
+        Object {
+          "id": "3",
+          "name": "Item 3",
+        },
+        Object {
+          "id": "4",
+          "name": "Item 4",
+        },
+        Object {
+          "id": "5",
+          "name": "Item 5",
+        },
+        Object {
+          "id": "6",
+          "name": "Item 6",
+        },
+        Object {
+          "id": "7",
+          "name": "Item 7",
+        },
+      ]
+    }
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onItemSelect={[Function]}
+    rows={3}
+    theme={Object {}}
+  >
+    <HorizontallyScrollableListComp
+      classes={
+        Object {
+          "item": "HorizontallyScrollableListComp-item-0-3-153",
+          "itemContainer": "HorizontallyScrollableListComp-itemContainer-0-3-152",
+          "root": "HorizontallyScrollableListComp-root-0-3-151",
+        }
+      }
+      items={
+        Array [
+          Object {
+            "id": "1",
+            "name": "Item 1",
+          },
+          Object {
+            "id": "2",
+            "name": "Item 2",
+          },
+          Object {
+            "id": "3",
+            "name": "Item 3",
+          },
+          Object {
+            "id": "4",
+            "name": "Item 4",
+          },
+          Object {
+            "id": "5",
+            "name": "Item 5",
+          },
+          Object {
+            "id": "6",
+            "name": "Item 6",
+          },
+          Object {
+            "id": "7",
+            "name": "Item 7",
+          },
+        ]
+      }
+      onItemSelect={[Function]}
+      rows={3}
+    >
+      <div
+        className="HorizontallyScrollableListComp-root-0-3-151"
+      >
+        <table>
+          <tbody>
+            <tr
+              key="Item 1-Item 4-Item 70"
+            >
+              <td
+                key="Item 1-Item 4-Item 70Item 1"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "#fafafa",
+                  }
+                }
+              >
+                <TouchRipple
+                  className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                >
+                  <WithStyles(TouchRippleComp)
+                    className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                  >
+                    <TouchRippleComp
+                      className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                      classes={
+                        Object {
+                          "disabled": "TouchRippleComp-disabled-0-3-34",
+                          "root": "TouchRippleComp-root-0-3-33",
+                        }
+                      }
+                    >
+                      <div
+                        className="HorizontallyScrollableListComp-itemContainer-0-3-152 TouchRippleComp-root-0-3-33"
+                      >
+                        <div
+                          className="HorizontallyScrollableListComp-item-0-3-153"
+                        >
+                          <Typography
+                            textTransform="uppercase"
+                            variant="standard"
+                          >
+                            <WithStyles(TypographyComp)
+                              innerRef={null}
+                              jssContext={
+                                Object {
+                                  "classNamePrefix": "",
+                                  "disableStylesGeneration": false,
+                                }
+                              }
+                              textTransform="uppercase"
+                              theme={Object {}}
+                              variant="standard"
+                            >
+                              <TypographyComp
+                                classes={
+                                  Object {
+                                    "big": "TypographyComp-big-0-3-7",
+                                    "bold": "TypographyComp-bold-0-3-1",
+                                    "capitalize": "TypographyComp-capitalize-0-3-12",
+                                    "distance": "TypographyComp-distance-0-3-6",
+                                    "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                                    "giant": "TypographyComp-giant-0-3-9",
+                                    "heading": "TypographyComp-heading-0-3-8",
+                                    "italic": "TypographyComp-italic-0-3-3",
+                                    "lowercase": "TypographyComp-lowercase-0-3-11",
+                                    "noWrap": "TypographyComp-noWrap-0-3-13",
+                                    "semiBold": "TypographyComp-semiBold-0-3-2",
+                                    "standard": "TypographyComp-standard-0-3-5",
+                                    "subtext": "TypographyComp-subtext-0-3-4",
+                                    "uppercase": "TypographyComp-uppercase-0-3-10",
+                                  }
+                                }
+                                textTransform="uppercase"
+                                variant="standard"
+                              >
+                                <span
+                                  className="TypographyComp-standard-0-3-5 TypographyComp-uppercase-0-3-10"
+                                >
+                                  Item 1
+                                </span>
+                              </TypographyComp>
+                            </WithStyles(TypographyComp)>
+                          </Typography>
+                        </div>
+                      </div>
+                    </TouchRippleComp>
+                  </WithStyles(TouchRippleComp)>
+                </TouchRipple>
+              </td>
+              <td
+                key="Item 1-Item 4-Item 70Item 4"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "#ffffff",
+                  }
+                }
+              >
+                <TouchRipple
+                  className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                >
+                  <WithStyles(TouchRippleComp)
+                    className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                  >
+                    <TouchRippleComp
+                      className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                      classes={
+                        Object {
+                          "disabled": "TouchRippleComp-disabled-0-3-34",
+                          "root": "TouchRippleComp-root-0-3-33",
+                        }
+                      }
+                    >
+                      <div
+                        className="HorizontallyScrollableListComp-itemContainer-0-3-152 TouchRippleComp-root-0-3-33"
+                      >
+                        <div
+                          className="HorizontallyScrollableListComp-item-0-3-153"
+                        >
+                          <Typography
+                            textTransform="uppercase"
+                            variant="standard"
+                          >
+                            <WithStyles(TypographyComp)
+                              innerRef={null}
+                              jssContext={
+                                Object {
+                                  "classNamePrefix": "",
+                                  "disableStylesGeneration": false,
+                                }
+                              }
+                              textTransform="uppercase"
+                              theme={Object {}}
+                              variant="standard"
+                            >
+                              <TypographyComp
+                                classes={
+                                  Object {
+                                    "big": "TypographyComp-big-0-3-7",
+                                    "bold": "TypographyComp-bold-0-3-1",
+                                    "capitalize": "TypographyComp-capitalize-0-3-12",
+                                    "distance": "TypographyComp-distance-0-3-6",
+                                    "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                                    "giant": "TypographyComp-giant-0-3-9",
+                                    "heading": "TypographyComp-heading-0-3-8",
+                                    "italic": "TypographyComp-italic-0-3-3",
+                                    "lowercase": "TypographyComp-lowercase-0-3-11",
+                                    "noWrap": "TypographyComp-noWrap-0-3-13",
+                                    "semiBold": "TypographyComp-semiBold-0-3-2",
+                                    "standard": "TypographyComp-standard-0-3-5",
+                                    "subtext": "TypographyComp-subtext-0-3-4",
+                                    "uppercase": "TypographyComp-uppercase-0-3-10",
+                                  }
+                                }
+                                textTransform="uppercase"
+                                variant="standard"
+                              >
+                                <span
+                                  className="TypographyComp-standard-0-3-5 TypographyComp-uppercase-0-3-10"
+                                >
+                                  Item 4
+                                </span>
+                              </TypographyComp>
+                            </WithStyles(TypographyComp)>
+                          </Typography>
+                        </div>
+                      </div>
+                    </TouchRippleComp>
+                  </WithStyles(TouchRippleComp)>
+                </TouchRipple>
+              </td>
+              <td
+                key="Item 1-Item 4-Item 70Item 7"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "#fafafa",
+                  }
+                }
+              >
+                <TouchRipple
+                  className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                >
+                  <WithStyles(TouchRippleComp)
+                    className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                  >
+                    <TouchRippleComp
+                      className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                      classes={
+                        Object {
+                          "disabled": "TouchRippleComp-disabled-0-3-34",
+                          "root": "TouchRippleComp-root-0-3-33",
+                        }
+                      }
+                    >
+                      <div
+                        className="HorizontallyScrollableListComp-itemContainer-0-3-152 TouchRippleComp-root-0-3-33"
+                      >
+                        <div
+                          className="HorizontallyScrollableListComp-item-0-3-153"
+                        >
+                          <Typography
+                            textTransform="uppercase"
+                            variant="standard"
+                          >
+                            <WithStyles(TypographyComp)
+                              innerRef={null}
+                              jssContext={
+                                Object {
+                                  "classNamePrefix": "",
+                                  "disableStylesGeneration": false,
+                                }
+                              }
+                              textTransform="uppercase"
+                              theme={Object {}}
+                              variant="standard"
+                            >
+                              <TypographyComp
+                                classes={
+                                  Object {
+                                    "big": "TypographyComp-big-0-3-7",
+                                    "bold": "TypographyComp-bold-0-3-1",
+                                    "capitalize": "TypographyComp-capitalize-0-3-12",
+                                    "distance": "TypographyComp-distance-0-3-6",
+                                    "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                                    "giant": "TypographyComp-giant-0-3-9",
+                                    "heading": "TypographyComp-heading-0-3-8",
+                                    "italic": "TypographyComp-italic-0-3-3",
+                                    "lowercase": "TypographyComp-lowercase-0-3-11",
+                                    "noWrap": "TypographyComp-noWrap-0-3-13",
+                                    "semiBold": "TypographyComp-semiBold-0-3-2",
+                                    "standard": "TypographyComp-standard-0-3-5",
+                                    "subtext": "TypographyComp-subtext-0-3-4",
+                                    "uppercase": "TypographyComp-uppercase-0-3-10",
+                                  }
+                                }
+                                textTransform="uppercase"
+                                variant="standard"
+                              >
+                                <span
+                                  className="TypographyComp-standard-0-3-5 TypographyComp-uppercase-0-3-10"
+                                >
+                                  Item 7
+                                </span>
+                              </TypographyComp>
+                            </WithStyles(TypographyComp)>
+                          </Typography>
+                        </div>
+                      </div>
+                    </TouchRippleComp>
+                  </WithStyles(TouchRippleComp)>
+                </TouchRipple>
+              </td>
+            </tr>
+            <tr
+              key="Item 2-Item 5-21"
+            >
+              <td
+                key="Item 2-Item 5-21Item 2"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "#fafafa",
+                  }
+                }
+              >
+                <TouchRipple
+                  className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                >
+                  <WithStyles(TouchRippleComp)
+                    className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                  >
+                    <TouchRippleComp
+                      className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                      classes={
+                        Object {
+                          "disabled": "TouchRippleComp-disabled-0-3-34",
+                          "root": "TouchRippleComp-root-0-3-33",
+                        }
+                      }
+                    >
+                      <div
+                        className="HorizontallyScrollableListComp-itemContainer-0-3-152 TouchRippleComp-root-0-3-33"
+                      >
+                        <div
+                          className="HorizontallyScrollableListComp-item-0-3-153"
+                        >
+                          <Typography
+                            textTransform="uppercase"
+                            variant="standard"
+                          >
+                            <WithStyles(TypographyComp)
+                              innerRef={null}
+                              jssContext={
+                                Object {
+                                  "classNamePrefix": "",
+                                  "disableStylesGeneration": false,
+                                }
+                              }
+                              textTransform="uppercase"
+                              theme={Object {}}
+                              variant="standard"
+                            >
+                              <TypographyComp
+                                classes={
+                                  Object {
+                                    "big": "TypographyComp-big-0-3-7",
+                                    "bold": "TypographyComp-bold-0-3-1",
+                                    "capitalize": "TypographyComp-capitalize-0-3-12",
+                                    "distance": "TypographyComp-distance-0-3-6",
+                                    "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                                    "giant": "TypographyComp-giant-0-3-9",
+                                    "heading": "TypographyComp-heading-0-3-8",
+                                    "italic": "TypographyComp-italic-0-3-3",
+                                    "lowercase": "TypographyComp-lowercase-0-3-11",
+                                    "noWrap": "TypographyComp-noWrap-0-3-13",
+                                    "semiBold": "TypographyComp-semiBold-0-3-2",
+                                    "standard": "TypographyComp-standard-0-3-5",
+                                    "subtext": "TypographyComp-subtext-0-3-4",
+                                    "uppercase": "TypographyComp-uppercase-0-3-10",
+                                  }
+                                }
+                                textTransform="uppercase"
+                                variant="standard"
+                              >
+                                <span
+                                  className="TypographyComp-standard-0-3-5 TypographyComp-uppercase-0-3-10"
+                                >
+                                  Item 2
+                                </span>
+                              </TypographyComp>
+                            </WithStyles(TypographyComp)>
+                          </Typography>
+                        </div>
+                      </div>
+                    </TouchRippleComp>
+                  </WithStyles(TouchRippleComp)>
+                </TouchRipple>
+              </td>
+              <td
+                key="Item 2-Item 5-21Item 5"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "#ffffff",
+                  }
+                }
+              >
+                <TouchRipple
+                  className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                >
+                  <WithStyles(TouchRippleComp)
+                    className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                  >
+                    <TouchRippleComp
+                      className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                      classes={
+                        Object {
+                          "disabled": "TouchRippleComp-disabled-0-3-34",
+                          "root": "TouchRippleComp-root-0-3-33",
+                        }
+                      }
+                    >
+                      <div
+                        className="HorizontallyScrollableListComp-itemContainer-0-3-152 TouchRippleComp-root-0-3-33"
+                      >
+                        <div
+                          className="HorizontallyScrollableListComp-item-0-3-153"
+                        >
+                          <Typography
+                            textTransform="uppercase"
+                            variant="standard"
+                          >
+                            <WithStyles(TypographyComp)
+                              innerRef={null}
+                              jssContext={
+                                Object {
+                                  "classNamePrefix": "",
+                                  "disableStylesGeneration": false,
+                                }
+                              }
+                              textTransform="uppercase"
+                              theme={Object {}}
+                              variant="standard"
+                            >
+                              <TypographyComp
+                                classes={
+                                  Object {
+                                    "big": "TypographyComp-big-0-3-7",
+                                    "bold": "TypographyComp-bold-0-3-1",
+                                    "capitalize": "TypographyComp-capitalize-0-3-12",
+                                    "distance": "TypographyComp-distance-0-3-6",
+                                    "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                                    "giant": "TypographyComp-giant-0-3-9",
+                                    "heading": "TypographyComp-heading-0-3-8",
+                                    "italic": "TypographyComp-italic-0-3-3",
+                                    "lowercase": "TypographyComp-lowercase-0-3-11",
+                                    "noWrap": "TypographyComp-noWrap-0-3-13",
+                                    "semiBold": "TypographyComp-semiBold-0-3-2",
+                                    "standard": "TypographyComp-standard-0-3-5",
+                                    "subtext": "TypographyComp-subtext-0-3-4",
+                                    "uppercase": "TypographyComp-uppercase-0-3-10",
+                                  }
+                                }
+                                textTransform="uppercase"
+                                variant="standard"
+                              >
+                                <span
+                                  className="TypographyComp-standard-0-3-5 TypographyComp-uppercase-0-3-10"
+                                >
+                                  Item 5
+                                </span>
+                              </TypographyComp>
+                            </WithStyles(TypographyComp)>
+                          </Typography>
+                        </div>
+                      </div>
+                    </TouchRippleComp>
+                  </WithStyles(TouchRippleComp)>
+                </TouchRipple>
+              </td>
+              <td
+                key="Item 2-Item 5-212"
+                style={
+                  Object {
+                    "backgroundColor": "#fafafa",
+                  }
+                }
+              />
+            </tr>
+            <tr
+              key="Item 3-Item 6-22"
+            >
+              <td
+                key="Item 3-Item 6-22Item 3"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "#fafafa",
+                  }
+                }
+              >
+                <TouchRipple
+                  className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                >
+                  <WithStyles(TouchRippleComp)
+                    className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                  >
+                    <TouchRippleComp
+                      className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                      classes={
+                        Object {
+                          "disabled": "TouchRippleComp-disabled-0-3-34",
+                          "root": "TouchRippleComp-root-0-3-33",
+                        }
+                      }
+                    >
+                      <div
+                        className="HorizontallyScrollableListComp-itemContainer-0-3-152 TouchRippleComp-root-0-3-33"
+                      >
+                        <div
+                          className="HorizontallyScrollableListComp-item-0-3-153"
+                        >
+                          <Typography
+                            textTransform="uppercase"
+                            variant="standard"
+                          >
+                            <WithStyles(TypographyComp)
+                              innerRef={null}
+                              jssContext={
+                                Object {
+                                  "classNamePrefix": "",
+                                  "disableStylesGeneration": false,
+                                }
+                              }
+                              textTransform="uppercase"
+                              theme={Object {}}
+                              variant="standard"
+                            >
+                              <TypographyComp
+                                classes={
+                                  Object {
+                                    "big": "TypographyComp-big-0-3-7",
+                                    "bold": "TypographyComp-bold-0-3-1",
+                                    "capitalize": "TypographyComp-capitalize-0-3-12",
+                                    "distance": "TypographyComp-distance-0-3-6",
+                                    "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                                    "giant": "TypographyComp-giant-0-3-9",
+                                    "heading": "TypographyComp-heading-0-3-8",
+                                    "italic": "TypographyComp-italic-0-3-3",
+                                    "lowercase": "TypographyComp-lowercase-0-3-11",
+                                    "noWrap": "TypographyComp-noWrap-0-3-13",
+                                    "semiBold": "TypographyComp-semiBold-0-3-2",
+                                    "standard": "TypographyComp-standard-0-3-5",
+                                    "subtext": "TypographyComp-subtext-0-3-4",
+                                    "uppercase": "TypographyComp-uppercase-0-3-10",
+                                  }
+                                }
+                                textTransform="uppercase"
+                                variant="standard"
+                              >
+                                <span
+                                  className="TypographyComp-standard-0-3-5 TypographyComp-uppercase-0-3-10"
+                                >
+                                  Item 3
+                                </span>
+                              </TypographyComp>
+                            </WithStyles(TypographyComp)>
+                          </Typography>
+                        </div>
+                      </div>
+                    </TouchRippleComp>
+                  </WithStyles(TouchRippleComp)>
+                </TouchRipple>
+              </td>
+              <td
+                key="Item 3-Item 6-22Item 6"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "#ffffff",
+                  }
+                }
+              >
+                <TouchRipple
+                  className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                >
+                  <WithStyles(TouchRippleComp)
+                    className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                  >
+                    <TouchRippleComp
+                      className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                      classes={
+                        Object {
+                          "disabled": "TouchRippleComp-disabled-0-3-34",
+                          "root": "TouchRippleComp-root-0-3-33",
+                        }
+                      }
+                    >
+                      <div
+                        className="HorizontallyScrollableListComp-itemContainer-0-3-152 TouchRippleComp-root-0-3-33"
+                      >
+                        <div
+                          className="HorizontallyScrollableListComp-item-0-3-153"
+                        >
+                          <Typography
+                            textTransform="uppercase"
+                            variant="standard"
+                          >
+                            <WithStyles(TypographyComp)
+                              innerRef={null}
+                              jssContext={
+                                Object {
+                                  "classNamePrefix": "",
+                                  "disableStylesGeneration": false,
+                                }
+                              }
+                              textTransform="uppercase"
+                              theme={Object {}}
+                              variant="standard"
+                            >
+                              <TypographyComp
+                                classes={
+                                  Object {
+                                    "big": "TypographyComp-big-0-3-7",
+                                    "bold": "TypographyComp-bold-0-3-1",
+                                    "capitalize": "TypographyComp-capitalize-0-3-12",
+                                    "distance": "TypographyComp-distance-0-3-6",
+                                    "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                                    "giant": "TypographyComp-giant-0-3-9",
+                                    "heading": "TypographyComp-heading-0-3-8",
+                                    "italic": "TypographyComp-italic-0-3-3",
+                                    "lowercase": "TypographyComp-lowercase-0-3-11",
+                                    "noWrap": "TypographyComp-noWrap-0-3-13",
+                                    "semiBold": "TypographyComp-semiBold-0-3-2",
+                                    "standard": "TypographyComp-standard-0-3-5",
+                                    "subtext": "TypographyComp-subtext-0-3-4",
+                                    "uppercase": "TypographyComp-uppercase-0-3-10",
+                                  }
+                                }
+                                textTransform="uppercase"
+                                variant="standard"
+                              >
+                                <span
+                                  className="TypographyComp-standard-0-3-5 TypographyComp-uppercase-0-3-10"
+                                >
+                                  Item 6
+                                </span>
+                              </TypographyComp>
+                            </WithStyles(TypographyComp)>
+                          </Typography>
+                        </div>
+                      </div>
+                    </TouchRippleComp>
+                  </WithStyles(TouchRippleComp)>
+                </TouchRipple>
+              </td>
+              <td
+                key="Item 3-Item 6-222"
+                style={
+                  Object {
+                    "backgroundColor": "#fafafa",
+                  }
+                }
+              />
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </HorizontallyScrollableListComp>
+  </WithStyles(HorizontallyScrollableListComp)>
+</HorizontallyScrollableList>
+`;
+
+exports[`Storyshots Components/HorizontallyScrollableList Long text 1`] = `
+<HorizontallyScrollableList
+  items={
+    Array [
+      Object {
+        "id": "1",
+        "name": " 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      },
+      Object {
+        "id": "2",
+        "name": " 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      },
+      Object {
+        "id": "3",
+        "name": " 3 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      },
+    ]
+  }
+  onItemSelect={[Function]}
+  rows={2}
+>
+  <WithStyles(HorizontallyScrollableListComp)
+    innerRef={null}
+    items={
+      Array [
+        Object {
+          "id": "1",
+          "name": " 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        },
+        Object {
+          "id": "2",
+          "name": " 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        },
+        Object {
+          "id": "3",
+          "name": " 3 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        },
+      ]
+    }
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onItemSelect={[Function]}
+    rows={2}
+    theme={Object {}}
+  >
+    <HorizontallyScrollableListComp
+      classes={
+        Object {
+          "item": "HorizontallyScrollableListComp-item-0-3-153",
+          "itemContainer": "HorizontallyScrollableListComp-itemContainer-0-3-152",
+          "root": "HorizontallyScrollableListComp-root-0-3-151",
+        }
+      }
+      items={
+        Array [
+          Object {
+            "id": "1",
+            "name": " 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          },
+          Object {
+            "id": "2",
+            "name": " 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          },
+          Object {
+            "id": "3",
+            "name": " 3 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          },
+        ]
+      }
+      onItemSelect={[Function]}
+      rows={2}
+    >
+      <div
+        className="HorizontallyScrollableListComp-root-0-3-151"
+      >
+        <table>
+          <tbody>
+            <tr
+              key=" 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.- 3 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.0"
+            >
+              <td
+                key=" 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.- 3 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.0 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                onClick={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "#fafafa",
+                  }
+                }
+              >
+                <TouchRipple
+                  className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                >
+                  <WithStyles(TouchRippleComp)
+                    className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                  >
+                    <TouchRippleComp
+                      className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                      classes={
+                        Object {
+                          "disabled": "TouchRippleComp-disabled-0-3-34",
+                          "root": "TouchRippleComp-root-0-3-33",
+                        }
+                      }
+                    >
+                      <div
+                        className="HorizontallyScrollableListComp-itemContainer-0-3-152 TouchRippleComp-root-0-3-33"
+                      >
+                        <div
+                          className="HorizontallyScrollableListComp-item-0-3-153"
+                        >
+                          <Typography
+                            textTransform="uppercase"
+                            variant="standard"
+                          >
+                            <WithStyles(TypographyComp)
+                              innerRef={null}
+                              jssContext={
+                                Object {
+                                  "classNamePrefix": "",
+                                  "disableStylesGeneration": false,
+                                }
+                              }
+                              textTransform="uppercase"
+                              theme={Object {}}
+                              variant="standard"
+                            >
+                              <TypographyComp
+                                classes={
+                                  Object {
+                                    "big": "TypographyComp-big-0-3-7",
+                                    "bold": "TypographyComp-bold-0-3-1",
+                                    "capitalize": "TypographyComp-capitalize-0-3-12",
+                                    "distance": "TypographyComp-distance-0-3-6",
+                                    "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                                    "giant": "TypographyComp-giant-0-3-9",
+                                    "heading": "TypographyComp-heading-0-3-8",
+                                    "italic": "TypographyComp-italic-0-3-3",
+                                    "lowercase": "TypographyComp-lowercase-0-3-11",
+                                    "noWrap": "TypographyComp-noWrap-0-3-13",
+                                    "semiBold": "TypographyComp-semiBold-0-3-2",
+                                    "standard": "TypographyComp-standard-0-3-5",
+                                    "subtext": "TypographyComp-subtext-0-3-4",
+                                    "uppercase": "TypographyComp-uppercase-0-3-10",
+                                  }
+                                }
+                                textTransform="uppercase"
+                                variant="standard"
+                              >
+                                <span
+                                  className="TypographyComp-standard-0-3-5 TypographyComp-uppercase-0-3-10"
+                                >
+                                   1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </span>
+                              </TypographyComp>
+                            </WithStyles(TypographyComp)>
+                          </Typography>
+                        </div>
+                      </div>
+                    </TouchRippleComp>
+                  </WithStyles(TouchRippleComp)>
+                </TouchRipple>
+              </td>
+              <td
+                key=" 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.- 3 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.0 3 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                onClick={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "#ffffff",
+                  }
+                }
+              >
+                <TouchRipple
+                  className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                >
+                  <WithStyles(TouchRippleComp)
+                    className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                  >
+                    <TouchRippleComp
+                      className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                      classes={
+                        Object {
+                          "disabled": "TouchRippleComp-disabled-0-3-34",
+                          "root": "TouchRippleComp-root-0-3-33",
+                        }
+                      }
+                    >
+                      <div
+                        className="HorizontallyScrollableListComp-itemContainer-0-3-152 TouchRippleComp-root-0-3-33"
+                      >
+                        <div
+                          className="HorizontallyScrollableListComp-item-0-3-153"
+                        >
+                          <Typography
+                            textTransform="uppercase"
+                            variant="standard"
+                          >
+                            <WithStyles(TypographyComp)
+                              innerRef={null}
+                              jssContext={
+                                Object {
+                                  "classNamePrefix": "",
+                                  "disableStylesGeneration": false,
+                                }
+                              }
+                              textTransform="uppercase"
+                              theme={Object {}}
+                              variant="standard"
+                            >
+                              <TypographyComp
+                                classes={
+                                  Object {
+                                    "big": "TypographyComp-big-0-3-7",
+                                    "bold": "TypographyComp-bold-0-3-1",
+                                    "capitalize": "TypographyComp-capitalize-0-3-12",
+                                    "distance": "TypographyComp-distance-0-3-6",
+                                    "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                                    "giant": "TypographyComp-giant-0-3-9",
+                                    "heading": "TypographyComp-heading-0-3-8",
+                                    "italic": "TypographyComp-italic-0-3-3",
+                                    "lowercase": "TypographyComp-lowercase-0-3-11",
+                                    "noWrap": "TypographyComp-noWrap-0-3-13",
+                                    "semiBold": "TypographyComp-semiBold-0-3-2",
+                                    "standard": "TypographyComp-standard-0-3-5",
+                                    "subtext": "TypographyComp-subtext-0-3-4",
+                                    "uppercase": "TypographyComp-uppercase-0-3-10",
+                                  }
+                                }
+                                textTransform="uppercase"
+                                variant="standard"
+                              >
+                                <span
+                                  className="TypographyComp-standard-0-3-5 TypographyComp-uppercase-0-3-10"
+                                >
+                                   3 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </span>
+                              </TypographyComp>
+                            </WithStyles(TypographyComp)>
+                          </Typography>
+                        </div>
+                      </div>
+                    </TouchRippleComp>
+                  </WithStyles(TouchRippleComp)>
+                </TouchRipple>
+              </td>
+            </tr>
+            <tr
+              key=" 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.-11"
+            >
+              <td
+                key=" 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.-11 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                onClick={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "#fafafa",
+                  }
+                }
+              >
+                <TouchRipple
+                  className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                >
+                  <WithStyles(TouchRippleComp)
+                    className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                  >
+                    <TouchRippleComp
+                      className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                      classes={
+                        Object {
+                          "disabled": "TouchRippleComp-disabled-0-3-34",
+                          "root": "TouchRippleComp-root-0-3-33",
+                        }
+                      }
+                    >
+                      <div
+                        className="HorizontallyScrollableListComp-itemContainer-0-3-152 TouchRippleComp-root-0-3-33"
+                      >
+                        <div
+                          className="HorizontallyScrollableListComp-item-0-3-153"
+                        >
+                          <Typography
+                            textTransform="uppercase"
+                            variant="standard"
+                          >
+                            <WithStyles(TypographyComp)
+                              innerRef={null}
+                              jssContext={
+                                Object {
+                                  "classNamePrefix": "",
+                                  "disableStylesGeneration": false,
+                                }
+                              }
+                              textTransform="uppercase"
+                              theme={Object {}}
+                              variant="standard"
+                            >
+                              <TypographyComp
+                                classes={
+                                  Object {
+                                    "big": "TypographyComp-big-0-3-7",
+                                    "bold": "TypographyComp-bold-0-3-1",
+                                    "capitalize": "TypographyComp-capitalize-0-3-12",
+                                    "distance": "TypographyComp-distance-0-3-6",
+                                    "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                                    "giant": "TypographyComp-giant-0-3-9",
+                                    "heading": "TypographyComp-heading-0-3-8",
+                                    "italic": "TypographyComp-italic-0-3-3",
+                                    "lowercase": "TypographyComp-lowercase-0-3-11",
+                                    "noWrap": "TypographyComp-noWrap-0-3-13",
+                                    "semiBold": "TypographyComp-semiBold-0-3-2",
+                                    "standard": "TypographyComp-standard-0-3-5",
+                                    "subtext": "TypographyComp-subtext-0-3-4",
+                                    "uppercase": "TypographyComp-uppercase-0-3-10",
+                                  }
+                                }
+                                textTransform="uppercase"
+                                variant="standard"
+                              >
+                                <span
+                                  className="TypographyComp-standard-0-3-5 TypographyComp-uppercase-0-3-10"
+                                >
+                                   2 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </span>
+                              </TypographyComp>
+                            </WithStyles(TypographyComp)>
+                          </Typography>
+                        </div>
+                      </div>
+                    </TouchRippleComp>
+                  </WithStyles(TouchRippleComp)>
+                </TouchRipple>
+              </td>
+              <td
+                key=" 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.-111"
+                style={
+                  Object {
+                    "backgroundColor": "#ffffff",
+                  }
+                }
+              />
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </HorizontallyScrollableListComp>
+  </WithStyles(HorizontallyScrollableListComp)>
+</HorizontallyScrollableList>
+`;

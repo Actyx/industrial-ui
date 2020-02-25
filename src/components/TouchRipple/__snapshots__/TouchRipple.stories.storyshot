@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/TouchRipple Base 1`] = `
+<TouchRipple
+  onClick={[Function]}
+>
+  <WithStyles(TouchRippleComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onClick={[Function]}
+    theme={Object {}}
+  >
+    <TouchRippleComp
+      classes={
+        Object {
+          "disabled": "TouchRippleComp-disabled-0-3-34",
+          "root": "TouchRippleComp-root-0-3-33",
+        }
+      }
+      onClick={[Function]}
+    >
+      <div
+        className="TouchRippleComp-root-0-3-33"
+        onClick={[Function]}
+      >
+        <div>
+          TouchRipple
+        </div>
+      </div>
+    </TouchRippleComp>
+  </WithStyles(TouchRippleComp)>
+</TouchRipple>
+`;
+
+exports[`Storyshots Components/TouchRipple disabled 1`] = `
+<TouchRipple
+  disabled={true}
+  onClick={[Function]}
+>
+  <WithStyles(TouchRippleComp)
+    disabled={true}
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onClick={[Function]}
+    theme={Object {}}
+  >
+    <TouchRippleComp
+      classes={
+        Object {
+          "disabled": "TouchRippleComp-disabled-0-3-34",
+          "root": "TouchRippleComp-root-0-3-33",
+        }
+      }
+      disabled={true}
+      onClick={[Function]}
+    >
+      <div
+        className="TouchRippleComp-disabled-0-3-34"
+      >
+        <div>
+          TouchRipple
+        </div>
+      </div>
+    </TouchRippleComp>
+  </WithStyles(TouchRippleComp)>
+</TouchRipple>
+`;

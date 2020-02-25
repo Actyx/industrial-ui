@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/TooltipGuide Base 1`] = `
+<TooltipGuide
+  content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+>
+  <WithStyles(TooltipGuideComp)
+    content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    theme={Object {}}
+  >
+    <TooltipGuideComp
+      classes={
+        Object {
+          "arch": "TooltipGuideComp-arch-0-3-352",
+          "archContainer": "TooltipGuideComp-archContainer-0-3-351",
+          "box": "TooltipGuideComp-box-0-3-349",
+          "boxShadow": "TooltipGuideComp-boxShadow-0-3-350",
+          "content": "TooltipGuideComp-content-0-3-355",
+          "icon": "TooltipGuideComp-icon-0-3-353",
+          "neutral": "TooltipGuideComp-neutral-0-3-354",
+          "root": "TooltipGuideComp-root-0-3-348",
+        }
+      }
+      content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+    >
+      <div
+        className="TooltipGuideComp-root-0-3-348"
+      >
+        <div
+          className="TooltipGuideComp-archContainer-0-3-351"
+        >
+          <div
+            className="TooltipGuideComp-arch-0-3-352"
+          />
+          <div
+            className="TooltipGuideComp-icon-0-3-353 TooltipGuideComp-neutral-0-3-354"
+          >
+            <MUIcon
+              fontSize={80}
+              type="info"
+            >
+              <WithStyles(MUIconComp)
+                fontSize={80}
+                innerRef={null}
+                jssContext={
+                  Object {
+                    "classNamePrefix": "",
+                    "disableStylesGeneration": false,
+                  }
+                }
+                theme={Object {}}
+                type="info"
+              >
+                <MUIconComp
+                  classes={
+                    Object {
+                      "root": "MUIconComp-root-0-3-35 MUIconComp-root-d118-0-3-356",
+                    }
+                  }
+                  fontSize={80}
+                  type="info"
+                >
+                  <i
+                    className="MUIconComp-root-0-3-35 MUIconComp-root-d118-0-3-356"
+                  >
+                    info
+                  </i>
+                </MUIconComp>
+              </WithStyles(MUIconComp)>
+            </MUIcon>
+          </div>
+        </div>
+        <div
+          className="TooltipGuideComp-box-0-3-349"
+        >
+          <div
+            className="TooltipGuideComp-content-0-3-355"
+          >
+            <Typography
+              variant="standard"
+            >
+              <WithStyles(TypographyComp)
+                innerRef={null}
+                jssContext={
+                  Object {
+                    "classNamePrefix": "",
+                    "disableStylesGeneration": false,
+                  }
+                }
+                theme={Object {}}
+                variant="standard"
+              >
+                <TypographyComp
+                  classes={
+                    Object {
+                      "big": "TypographyComp-big-0-3-7",
+                      "bold": "TypographyComp-bold-0-3-1",
+                      "capitalize": "TypographyComp-capitalize-0-3-12",
+                      "distance": "TypographyComp-distance-0-3-6",
+                      "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                      "giant": "TypographyComp-giant-0-3-9",
+                      "heading": "TypographyComp-heading-0-3-8",
+                      "italic": "TypographyComp-italic-0-3-3",
+                      "lowercase": "TypographyComp-lowercase-0-3-11",
+                      "noWrap": "TypographyComp-noWrap-0-3-13",
+                      "semiBold": "TypographyComp-semiBold-0-3-2",
+                      "standard": "TypographyComp-standard-0-3-5",
+                      "subtext": "TypographyComp-subtext-0-3-4",
+                      "uppercase": "TypographyComp-uppercase-0-3-10",
+                    }
+                  }
+                  variant="standard"
+                >
+                  <span
+                    className="TypographyComp-standard-0-3-5"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                  </span>
+                </TypographyComp>
+              </WithStyles(TypographyComp)>
+            </Typography>
+          </div>
+        </div>
+        <div
+          className="TooltipGuideComp-boxShadow-0-3-350"
+        />
+      </div>
+    </TooltipGuideComp>
+  </WithStyles(TooltipGuideComp)>
+</TooltipGuide>
+`;

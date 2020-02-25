@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Divider Base 1`] = `
+<Divider>
+  <WithStyles(DividerComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    theme={Object {}}
+  >
+    <DividerComp
+      classes={
+        Object {
+          "root": "DividerComp-root-0-3-128",
+        }
+      }
+    >
+      <hr
+        className="DividerComp-root-0-3-128"
+      />
+    </DividerComp>
+  </WithStyles(DividerComp)>
+</Divider>
+`;

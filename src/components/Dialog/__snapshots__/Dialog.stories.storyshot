@@ -1,0 +1,3450 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Dialog/Dialog Size header top right 1`] = `
+<Dialog
+  content="content"
+  footer="action"
+  header={
+    <DialogHeader
+      rightComponent="some conttent here"
+      text="Header"
+    />
+  }
+  onClose={[Function]}
+  size="xl"
+>
+  <WithStyles(DialogComp)
+    content="content"
+    footer="action"
+    header={
+      <DialogHeader
+        rightComponent="some conttent here"
+        text="Header"
+      />
+    }
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onClose={[Function]}
+    size="xl"
+    theme={Object {}}
+  >
+    <DialogComp
+      classes={
+        Object {
+          "dialog": "DialogComp-dialog-0-3-114",
+          "footer": "DialogComp-footer-0-3-116",
+          "header": "DialogComp-header-0-3-115",
+          "md": "DialogComp-md-0-3-119",
+          "sm": "DialogComp-sm-0-3-118",
+          "xl": "DialogComp-xl-0-3-120",
+          "xlw": "DialogComp-xlw-0-3-121",
+          "xs": "DialogComp-xs-0-3-117",
+          "xxl": "DialogComp-xxl-0-3-122",
+        }
+      }
+      content="content"
+      footer="action"
+      header={
+        <DialogHeader
+          rightComponent="some conttent here"
+          text="Header"
+        />
+      }
+      onClose={[Function]}
+      size="xl"
+    >
+      <FluidDialog
+        className="DialogComp-dialog-0-3-114 DialogComp-xl-0-3-120"
+        content="content"
+        footer={
+          <div
+            className="DialogComp-footer-0-3-116"
+          >
+            action
+          </div>
+        }
+        header={
+          <div
+            className="DialogComp-header-0-3-115"
+          >
+            <DialogHeader
+              rightComponent="some conttent here"
+              text="Header"
+            />
+          </div>
+        }
+        onClose={[Function]}
+      >
+        <WithStyles(FluidDialogComp)
+          className="DialogComp-dialog-0-3-114 DialogComp-xl-0-3-120"
+          content="content"
+          footer={
+            <div
+              className="DialogComp-footer-0-3-116"
+            >
+              action
+            </div>
+          }
+          header={
+            <div
+              className="DialogComp-header-0-3-115"
+            >
+              <DialogHeader
+                rightComponent="some conttent here"
+                text="Header"
+              />
+            </div>
+          }
+          innerRef={null}
+          jssContext={
+            Object {
+              "classNamePrefix": "",
+              "disableStylesGeneration": false,
+            }
+          }
+          onClose={[Function]}
+          theme={Object {}}
+        >
+          <FluidDialogComp
+            className="DialogComp-dialog-0-3-114 DialogComp-xl-0-3-120"
+            classes={
+              Object {
+                "container": "FluidDialogComp-container-0-3-124",
+                "content": "FluidDialogComp-content-0-3-125",
+                "root": "FluidDialogComp-root-0-3-123",
+              }
+            }
+            content="content"
+            footer={
+              <div
+                className="DialogComp-footer-0-3-116"
+              >
+                action
+              </div>
+            }
+            header={
+              <div
+                className="DialogComp-header-0-3-115"
+              >
+                <DialogHeader
+                  rightComponent="some conttent here"
+                  text="Header"
+                />
+              </div>
+            }
+            onClose={[Function]}
+          >
+            <div
+              className="FluidDialogComp-root-0-3-123"
+            >
+              <Scrim
+                onClose={[Function]}
+                open={true}
+              >
+                <WithStyles(ScrimComp)
+                  innerRef={null}
+                  jssContext={
+                    Object {
+                      "classNamePrefix": "",
+                      "disableStylesGeneration": false,
+                    }
+                  }
+                  onClose={[Function]}
+                  open={true}
+                  theme={Object {}}
+                >
+                  <ScrimComp
+                    classes={
+                      Object {
+                        "root": "ScrimComp-root-0-3-126",
+                      }
+                    }
+                    onClose={[Function]}
+                    open={true}
+                  >
+                    <Transition
+                      appear={false}
+                      enter={true}
+                      exit={true}
+                      in={true}
+                      mountOnEnter={false}
+                      onEnter={[Function]}
+                      onEntered={[Function]}
+                      onEntering={[Function]}
+                      onExit={[Function]}
+                      onExited={[Function]}
+                      onExiting={[Function]}
+                      timeout={150}
+                      unmountOnExit={false}
+                    >
+                      <div
+                        className="ScrimComp-root-0-3-126"
+                        onClick={[Function]}
+                        style={
+                          Object {
+                            "opacity": 1,
+                            "transition": "opacity 150ms",
+                          }
+                        }
+                      />
+                    </Transition>
+                  </ScrimComp>
+                </WithStyles(ScrimComp)>
+              </Scrim>
+              <div
+                className="FluidDialogComp-container-0-3-124 DialogComp-dialog-0-3-114 DialogComp-xl-0-3-120"
+              >
+                <div>
+                  <div
+                    className="DialogComp-header-0-3-115"
+                  >
+                    <DialogHeader
+                      rightComponent="some conttent here"
+                      text="Header"
+                    >
+                      <div
+                        className="d-flex justify-content-between"
+                      >
+                        <Typography
+                          bold={true}
+                          variant="big"
+                        >
+                          <WithStyles(TypographyComp)
+                            bold={true}
+                            innerRef={null}
+                            jssContext={
+                              Object {
+                                "classNamePrefix": "",
+                                "disableStylesGeneration": false,
+                              }
+                            }
+                            theme={Object {}}
+                            variant="big"
+                          >
+                            <TypographyComp
+                              bold={true}
+                              classes={
+                                Object {
+                                  "big": "TypographyComp-big-0-3-7",
+                                  "bold": "TypographyComp-bold-0-3-1",
+                                  "capitalize": "TypographyComp-capitalize-0-3-12",
+                                  "distance": "TypographyComp-distance-0-3-6",
+                                  "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                                  "giant": "TypographyComp-giant-0-3-9",
+                                  "heading": "TypographyComp-heading-0-3-8",
+                                  "italic": "TypographyComp-italic-0-3-3",
+                                  "lowercase": "TypographyComp-lowercase-0-3-11",
+                                  "noWrap": "TypographyComp-noWrap-0-3-13",
+                                  "semiBold": "TypographyComp-semiBold-0-3-2",
+                                  "standard": "TypographyComp-standard-0-3-5",
+                                  "subtext": "TypographyComp-subtext-0-3-4",
+                                  "uppercase": "TypographyComp-uppercase-0-3-10",
+                                }
+                              }
+                              variant="big"
+                            >
+                              <span
+                                className="TypographyComp-big-0-3-7 TypographyComp-bold-0-3-1"
+                              >
+                                Header
+                              </span>
+                            </TypographyComp>
+                          </WithStyles(TypographyComp)>
+                        </Typography>
+                        <div>
+                          some conttent here
+                        </div>
+                      </div>
+                    </DialogHeader>
+                  </div>
+                </div>
+                <div
+                  className="FluidDialogComp-content-0-3-125"
+                >
+                  content
+                </div>
+                <div>
+                  <div
+                    className="DialogComp-footer-0-3-116"
+                  >
+                    action
+                  </div>
+                </div>
+              </div>
+            </div>
+          </FluidDialogComp>
+        </WithStyles(FluidDialogComp)>
+      </FluidDialog>
+    </DialogComp>
+  </WithStyles(DialogComp)>
+</Dialog>
+`;
+
+exports[`Storyshots Components/Dialog/Dialog Size md header 1`] = `
+<Dialog
+  content="content"
+  footer="action"
+  header="Custom header"
+  onClose={[Function]}
+  size="md"
+>
+  <WithStyles(DialogComp)
+    content="content"
+    footer="action"
+    header="Custom header"
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onClose={[Function]}
+    size="md"
+    theme={Object {}}
+  >
+    <DialogComp
+      classes={
+        Object {
+          "dialog": "DialogComp-dialog-0-3-114",
+          "footer": "DialogComp-footer-0-3-116",
+          "header": "DialogComp-header-0-3-115",
+          "md": "DialogComp-md-0-3-119",
+          "sm": "DialogComp-sm-0-3-118",
+          "xl": "DialogComp-xl-0-3-120",
+          "xlw": "DialogComp-xlw-0-3-121",
+          "xs": "DialogComp-xs-0-3-117",
+          "xxl": "DialogComp-xxl-0-3-122",
+        }
+      }
+      content="content"
+      footer="action"
+      header="Custom header"
+      onClose={[Function]}
+      size="md"
+    >
+      <FluidDialog
+        className="DialogComp-dialog-0-3-114 DialogComp-md-0-3-119"
+        content="content"
+        footer={
+          <div
+            className="DialogComp-footer-0-3-116"
+          >
+            action
+          </div>
+        }
+        header={
+          <div
+            className="DialogComp-header-0-3-115"
+          >
+            Custom header
+          </div>
+        }
+        onClose={[Function]}
+      >
+        <WithStyles(FluidDialogComp)
+          className="DialogComp-dialog-0-3-114 DialogComp-md-0-3-119"
+          content="content"
+          footer={
+            <div
+              className="DialogComp-footer-0-3-116"
+            >
+              action
+            </div>
+          }
+          header={
+            <div
+              className="DialogComp-header-0-3-115"
+            >
+              Custom header
+            </div>
+          }
+          innerRef={null}
+          jssContext={
+            Object {
+              "classNamePrefix": "",
+              "disableStylesGeneration": false,
+            }
+          }
+          onClose={[Function]}
+          theme={Object {}}
+        >
+          <FluidDialogComp
+            className="DialogComp-dialog-0-3-114 DialogComp-md-0-3-119"
+            classes={
+              Object {
+                "container": "FluidDialogComp-container-0-3-124",
+                "content": "FluidDialogComp-content-0-3-125",
+                "root": "FluidDialogComp-root-0-3-123",
+              }
+            }
+            content="content"
+            footer={
+              <div
+                className="DialogComp-footer-0-3-116"
+              >
+                action
+              </div>
+            }
+            header={
+              <div
+                className="DialogComp-header-0-3-115"
+              >
+                Custom header
+              </div>
+            }
+            onClose={[Function]}
+          >
+            <div
+              className="FluidDialogComp-root-0-3-123"
+            >
+              <Scrim
+                onClose={[Function]}
+                open={true}
+              >
+                <WithStyles(ScrimComp)
+                  innerRef={null}
+                  jssContext={
+                    Object {
+                      "classNamePrefix": "",
+                      "disableStylesGeneration": false,
+                    }
+                  }
+                  onClose={[Function]}
+                  open={true}
+                  theme={Object {}}
+                >
+                  <ScrimComp
+                    classes={
+                      Object {
+                        "root": "ScrimComp-root-0-3-126",
+                      }
+                    }
+                    onClose={[Function]}
+                    open={true}
+                  >
+                    <Transition
+                      appear={false}
+                      enter={true}
+                      exit={true}
+                      in={true}
+                      mountOnEnter={false}
+                      onEnter={[Function]}
+                      onEntered={[Function]}
+                      onEntering={[Function]}
+                      onExit={[Function]}
+                      onExited={[Function]}
+                      onExiting={[Function]}
+                      timeout={150}
+                      unmountOnExit={false}
+                    >
+                      <div
+                        className="ScrimComp-root-0-3-126"
+                        onClick={[Function]}
+                        style={
+                          Object {
+                            "opacity": 1,
+                            "transition": "opacity 150ms",
+                          }
+                        }
+                      />
+                    </Transition>
+                  </ScrimComp>
+                </WithStyles(ScrimComp)>
+              </Scrim>
+              <div
+                className="FluidDialogComp-container-0-3-124 DialogComp-dialog-0-3-114 DialogComp-md-0-3-119"
+              >
+                <div>
+                  <div
+                    className="DialogComp-header-0-3-115"
+                  >
+                    Custom header
+                  </div>
+                </div>
+                <div
+                  className="FluidDialogComp-content-0-3-125"
+                >
+                  content
+                </div>
+                <div>
+                  <div
+                    className="DialogComp-footer-0-3-116"
+                  >
+                    action
+                  </div>
+                </div>
+              </div>
+            </div>
+          </FluidDialogComp>
+        </WithStyles(FluidDialogComp)>
+      </FluidDialog>
+    </DialogComp>
+  </WithStyles(DialogComp)>
+</Dialog>
+`;
+
+exports[`Storyshots Components/Dialog/Dialog Size md title 1`] = `
+<Dialog
+  content="content"
+  footer="action"
+  header="header"
+  onClose={[Function]}
+  size="md"
+  title="Title dialog"
+>
+  <WithStyles(DialogComp)
+    content="content"
+    footer="action"
+    header="header"
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onClose={[Function]}
+    size="md"
+    theme={Object {}}
+    title="Title dialog"
+  >
+    <DialogComp
+      classes={
+        Object {
+          "dialog": "DialogComp-dialog-0-3-114",
+          "footer": "DialogComp-footer-0-3-116",
+          "header": "DialogComp-header-0-3-115",
+          "md": "DialogComp-md-0-3-119",
+          "sm": "DialogComp-sm-0-3-118",
+          "xl": "DialogComp-xl-0-3-120",
+          "xlw": "DialogComp-xlw-0-3-121",
+          "xs": "DialogComp-xs-0-3-117",
+          "xxl": "DialogComp-xxl-0-3-122",
+        }
+      }
+      content="content"
+      footer="action"
+      header="header"
+      onClose={[Function]}
+      size="md"
+      title="Title dialog"
+    >
+      <FluidDialog
+        className="DialogComp-dialog-0-3-114 DialogComp-md-0-3-119"
+        content="content"
+        footer={
+          <div
+            className="DialogComp-footer-0-3-116"
+          >
+            action
+          </div>
+        }
+        header={
+          <div
+            className="DialogComp-header-0-3-115"
+          >
+            header
+          </div>
+        }
+        onClose={[Function]}
+      >
+        <WithStyles(FluidDialogComp)
+          className="DialogComp-dialog-0-3-114 DialogComp-md-0-3-119"
+          content="content"
+          footer={
+            <div
+              className="DialogComp-footer-0-3-116"
+            >
+              action
+            </div>
+          }
+          header={
+            <div
+              className="DialogComp-header-0-3-115"
+            >
+              header
+            </div>
+          }
+          innerRef={null}
+          jssContext={
+            Object {
+              "classNamePrefix": "",
+              "disableStylesGeneration": false,
+            }
+          }
+          onClose={[Function]}
+          theme={Object {}}
+        >
+          <FluidDialogComp
+            className="DialogComp-dialog-0-3-114 DialogComp-md-0-3-119"
+            classes={
+              Object {
+                "container": "FluidDialogComp-container-0-3-124",
+                "content": "FluidDialogComp-content-0-3-125",
+                "root": "FluidDialogComp-root-0-3-123",
+              }
+            }
+            content="content"
+            footer={
+              <div
+                className="DialogComp-footer-0-3-116"
+              >
+                action
+              </div>
+            }
+            header={
+              <div
+                className="DialogComp-header-0-3-115"
+              >
+                header
+              </div>
+            }
+            onClose={[Function]}
+          >
+            <div
+              className="FluidDialogComp-root-0-3-123"
+            >
+              <Scrim
+                onClose={[Function]}
+                open={true}
+              >
+                <WithStyles(ScrimComp)
+                  innerRef={null}
+                  jssContext={
+                    Object {
+                      "classNamePrefix": "",
+                      "disableStylesGeneration": false,
+                    }
+                  }
+                  onClose={[Function]}
+                  open={true}
+                  theme={Object {}}
+                >
+                  <ScrimComp
+                    classes={
+                      Object {
+                        "root": "ScrimComp-root-0-3-126",
+                      }
+                    }
+                    onClose={[Function]}
+                    open={true}
+                  >
+                    <Transition
+                      appear={false}
+                      enter={true}
+                      exit={true}
+                      in={true}
+                      mountOnEnter={false}
+                      onEnter={[Function]}
+                      onEntered={[Function]}
+                      onEntering={[Function]}
+                      onExit={[Function]}
+                      onExited={[Function]}
+                      onExiting={[Function]}
+                      timeout={150}
+                      unmountOnExit={false}
+                    >
+                      <div
+                        className="ScrimComp-root-0-3-126"
+                        onClick={[Function]}
+                        style={
+                          Object {
+                            "opacity": 1,
+                            "transition": "opacity 150ms",
+                          }
+                        }
+                      />
+                    </Transition>
+                  </ScrimComp>
+                </WithStyles(ScrimComp)>
+              </Scrim>
+              <div
+                className="FluidDialogComp-container-0-3-124 DialogComp-dialog-0-3-114 DialogComp-md-0-3-119"
+              >
+                <div>
+                  <div
+                    className="DialogComp-header-0-3-115"
+                  >
+                    header
+                  </div>
+                </div>
+                <div
+                  className="FluidDialogComp-content-0-3-125"
+                >
+                  content
+                </div>
+                <div>
+                  <div
+                    className="DialogComp-footer-0-3-116"
+                  >
+                    action
+                  </div>
+                </div>
+              </div>
+            </div>
+          </FluidDialogComp>
+        </WithStyles(FluidDialogComp)>
+      </FluidDialog>
+    </DialogComp>
+  </WithStyles(DialogComp)>
+</Dialog>
+`;
+
+exports[`Storyshots Components/Dialog/Dialog Size sm 1`] = `
+<Dialog
+  content="content"
+  footer="action"
+  header="header"
+  onClose={[Function]}
+  size="sm"
+>
+  <WithStyles(DialogComp)
+    content="content"
+    footer="action"
+    header="header"
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onClose={[Function]}
+    size="sm"
+    theme={Object {}}
+  >
+    <DialogComp
+      classes={
+        Object {
+          "dialog": "DialogComp-dialog-0-3-114",
+          "footer": "DialogComp-footer-0-3-116",
+          "header": "DialogComp-header-0-3-115",
+          "md": "DialogComp-md-0-3-119",
+          "sm": "DialogComp-sm-0-3-118",
+          "xl": "DialogComp-xl-0-3-120",
+          "xlw": "DialogComp-xlw-0-3-121",
+          "xs": "DialogComp-xs-0-3-117",
+          "xxl": "DialogComp-xxl-0-3-122",
+        }
+      }
+      content="content"
+      footer="action"
+      header="header"
+      onClose={[Function]}
+      size="sm"
+    >
+      <FluidDialog
+        className="DialogComp-dialog-0-3-114 DialogComp-sm-0-3-118"
+        content="content"
+        footer={
+          <div
+            className="DialogComp-footer-0-3-116"
+          >
+            action
+          </div>
+        }
+        header={
+          <div
+            className="DialogComp-header-0-3-115"
+          >
+            header
+          </div>
+        }
+        onClose={[Function]}
+      >
+        <WithStyles(FluidDialogComp)
+          className="DialogComp-dialog-0-3-114 DialogComp-sm-0-3-118"
+          content="content"
+          footer={
+            <div
+              className="DialogComp-footer-0-3-116"
+            >
+              action
+            </div>
+          }
+          header={
+            <div
+              className="DialogComp-header-0-3-115"
+            >
+              header
+            </div>
+          }
+          innerRef={null}
+          jssContext={
+            Object {
+              "classNamePrefix": "",
+              "disableStylesGeneration": false,
+            }
+          }
+          onClose={[Function]}
+          theme={Object {}}
+        >
+          <FluidDialogComp
+            className="DialogComp-dialog-0-3-114 DialogComp-sm-0-3-118"
+            classes={
+              Object {
+                "container": "FluidDialogComp-container-0-3-124",
+                "content": "FluidDialogComp-content-0-3-125",
+                "root": "FluidDialogComp-root-0-3-123",
+              }
+            }
+            content="content"
+            footer={
+              <div
+                className="DialogComp-footer-0-3-116"
+              >
+                action
+              </div>
+            }
+            header={
+              <div
+                className="DialogComp-header-0-3-115"
+              >
+                header
+              </div>
+            }
+            onClose={[Function]}
+          >
+            <div
+              className="FluidDialogComp-root-0-3-123"
+            >
+              <Scrim
+                onClose={[Function]}
+                open={true}
+              >
+                <WithStyles(ScrimComp)
+                  innerRef={null}
+                  jssContext={
+                    Object {
+                      "classNamePrefix": "",
+                      "disableStylesGeneration": false,
+                    }
+                  }
+                  onClose={[Function]}
+                  open={true}
+                  theme={Object {}}
+                >
+                  <ScrimComp
+                    classes={
+                      Object {
+                        "root": "ScrimComp-root-0-3-126",
+                      }
+                    }
+                    onClose={[Function]}
+                    open={true}
+                  >
+                    <Transition
+                      appear={false}
+                      enter={true}
+                      exit={true}
+                      in={true}
+                      mountOnEnter={false}
+                      onEnter={[Function]}
+                      onEntered={[Function]}
+                      onEntering={[Function]}
+                      onExit={[Function]}
+                      onExited={[Function]}
+                      onExiting={[Function]}
+                      timeout={150}
+                      unmountOnExit={false}
+                    >
+                      <div
+                        className="ScrimComp-root-0-3-126"
+                        onClick={[Function]}
+                        style={
+                          Object {
+                            "opacity": 1,
+                            "transition": "opacity 150ms",
+                          }
+                        }
+                      />
+                    </Transition>
+                  </ScrimComp>
+                </WithStyles(ScrimComp)>
+              </Scrim>
+              <div
+                className="FluidDialogComp-container-0-3-124 DialogComp-dialog-0-3-114 DialogComp-sm-0-3-118"
+              >
+                <div>
+                  <div
+                    className="DialogComp-header-0-3-115"
+                  >
+                    header
+                  </div>
+                </div>
+                <div
+                  className="FluidDialogComp-content-0-3-125"
+                >
+                  content
+                </div>
+                <div>
+                  <div
+                    className="DialogComp-footer-0-3-116"
+                  >
+                    action
+                  </div>
+                </div>
+              </div>
+            </div>
+          </FluidDialogComp>
+        </WithStyles(FluidDialogComp)>
+      </FluidDialog>
+    </DialogComp>
+  </WithStyles(DialogComp)>
+</Dialog>
+`;
+
+exports[`Storyshots Components/Dialog/Dialog Size xl 1`] = `
+<Dialog
+  content="content"
+  footer="action"
+  header="header"
+  onClose={[Function]}
+  size="xl"
+>
+  <WithStyles(DialogComp)
+    content="content"
+    footer="action"
+    header="header"
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onClose={[Function]}
+    size="xl"
+    theme={Object {}}
+  >
+    <DialogComp
+      classes={
+        Object {
+          "dialog": "DialogComp-dialog-0-3-114",
+          "footer": "DialogComp-footer-0-3-116",
+          "header": "DialogComp-header-0-3-115",
+          "md": "DialogComp-md-0-3-119",
+          "sm": "DialogComp-sm-0-3-118",
+          "xl": "DialogComp-xl-0-3-120",
+          "xlw": "DialogComp-xlw-0-3-121",
+          "xs": "DialogComp-xs-0-3-117",
+          "xxl": "DialogComp-xxl-0-3-122",
+        }
+      }
+      content="content"
+      footer="action"
+      header="header"
+      onClose={[Function]}
+      size="xl"
+    >
+      <FluidDialog
+        className="DialogComp-dialog-0-3-114 DialogComp-xl-0-3-120"
+        content="content"
+        footer={
+          <div
+            className="DialogComp-footer-0-3-116"
+          >
+            action
+          </div>
+        }
+        header={
+          <div
+            className="DialogComp-header-0-3-115"
+          >
+            header
+          </div>
+        }
+        onClose={[Function]}
+      >
+        <WithStyles(FluidDialogComp)
+          className="DialogComp-dialog-0-3-114 DialogComp-xl-0-3-120"
+          content="content"
+          footer={
+            <div
+              className="DialogComp-footer-0-3-116"
+            >
+              action
+            </div>
+          }
+          header={
+            <div
+              className="DialogComp-header-0-3-115"
+            >
+              header
+            </div>
+          }
+          innerRef={null}
+          jssContext={
+            Object {
+              "classNamePrefix": "",
+              "disableStylesGeneration": false,
+            }
+          }
+          onClose={[Function]}
+          theme={Object {}}
+        >
+          <FluidDialogComp
+            className="DialogComp-dialog-0-3-114 DialogComp-xl-0-3-120"
+            classes={
+              Object {
+                "container": "FluidDialogComp-container-0-3-124",
+                "content": "FluidDialogComp-content-0-3-125",
+                "root": "FluidDialogComp-root-0-3-123",
+              }
+            }
+            content="content"
+            footer={
+              <div
+                className="DialogComp-footer-0-3-116"
+              >
+                action
+              </div>
+            }
+            header={
+              <div
+                className="DialogComp-header-0-3-115"
+              >
+                header
+              </div>
+            }
+            onClose={[Function]}
+          >
+            <div
+              className="FluidDialogComp-root-0-3-123"
+            >
+              <Scrim
+                onClose={[Function]}
+                open={true}
+              >
+                <WithStyles(ScrimComp)
+                  innerRef={null}
+                  jssContext={
+                    Object {
+                      "classNamePrefix": "",
+                      "disableStylesGeneration": false,
+                    }
+                  }
+                  onClose={[Function]}
+                  open={true}
+                  theme={Object {}}
+                >
+                  <ScrimComp
+                    classes={
+                      Object {
+                        "root": "ScrimComp-root-0-3-126",
+                      }
+                    }
+                    onClose={[Function]}
+                    open={true}
+                  >
+                    <Transition
+                      appear={false}
+                      enter={true}
+                      exit={true}
+                      in={true}
+                      mountOnEnter={false}
+                      onEnter={[Function]}
+                      onEntered={[Function]}
+                      onEntering={[Function]}
+                      onExit={[Function]}
+                      onExited={[Function]}
+                      onExiting={[Function]}
+                      timeout={150}
+                      unmountOnExit={false}
+                    >
+                      <div
+                        className="ScrimComp-root-0-3-126"
+                        onClick={[Function]}
+                        style={
+                          Object {
+                            "opacity": 1,
+                            "transition": "opacity 150ms",
+                          }
+                        }
+                      />
+                    </Transition>
+                  </ScrimComp>
+                </WithStyles(ScrimComp)>
+              </Scrim>
+              <div
+                className="FluidDialogComp-container-0-3-124 DialogComp-dialog-0-3-114 DialogComp-xl-0-3-120"
+              >
+                <div>
+                  <div
+                    className="DialogComp-header-0-3-115"
+                  >
+                    header
+                  </div>
+                </div>
+                <div
+                  className="FluidDialogComp-content-0-3-125"
+                >
+                  content
+                </div>
+                <div>
+                  <div
+                    className="DialogComp-footer-0-3-116"
+                  >
+                    action
+                  </div>
+                </div>
+              </div>
+            </div>
+          </FluidDialogComp>
+        </WithStyles(FluidDialogComp)>
+      </FluidDialog>
+    </DialogComp>
+  </WithStyles(DialogComp)>
+</Dialog>
+`;
+
+exports[`Storyshots Components/Dialog/Dialog Size xlw 1`] = `
+<Dialog
+  content="content"
+  footer="action"
+  header="header"
+  onClose={[Function]}
+  size="xlw"
+>
+  <WithStyles(DialogComp)
+    content="content"
+    footer="action"
+    header="header"
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onClose={[Function]}
+    size="xlw"
+    theme={Object {}}
+  >
+    <DialogComp
+      classes={
+        Object {
+          "dialog": "DialogComp-dialog-0-3-114",
+          "footer": "DialogComp-footer-0-3-116",
+          "header": "DialogComp-header-0-3-115",
+          "md": "DialogComp-md-0-3-119",
+          "sm": "DialogComp-sm-0-3-118",
+          "xl": "DialogComp-xl-0-3-120",
+          "xlw": "DialogComp-xlw-0-3-121",
+          "xs": "DialogComp-xs-0-3-117",
+          "xxl": "DialogComp-xxl-0-3-122",
+        }
+      }
+      content="content"
+      footer="action"
+      header="header"
+      onClose={[Function]}
+      size="xlw"
+    >
+      <FluidDialog
+        className="DialogComp-dialog-0-3-114 DialogComp-xlw-0-3-121"
+        content="content"
+        footer={
+          <div
+            className="DialogComp-footer-0-3-116"
+          >
+            action
+          </div>
+        }
+        header={
+          <div
+            className="DialogComp-header-0-3-115"
+          >
+            header
+          </div>
+        }
+        onClose={[Function]}
+      >
+        <WithStyles(FluidDialogComp)
+          className="DialogComp-dialog-0-3-114 DialogComp-xlw-0-3-121"
+          content="content"
+          footer={
+            <div
+              className="DialogComp-footer-0-3-116"
+            >
+              action
+            </div>
+          }
+          header={
+            <div
+              className="DialogComp-header-0-3-115"
+            >
+              header
+            </div>
+          }
+          innerRef={null}
+          jssContext={
+            Object {
+              "classNamePrefix": "",
+              "disableStylesGeneration": false,
+            }
+          }
+          onClose={[Function]}
+          theme={Object {}}
+        >
+          <FluidDialogComp
+            className="DialogComp-dialog-0-3-114 DialogComp-xlw-0-3-121"
+            classes={
+              Object {
+                "container": "FluidDialogComp-container-0-3-124",
+                "content": "FluidDialogComp-content-0-3-125",
+                "root": "FluidDialogComp-root-0-3-123",
+              }
+            }
+            content="content"
+            footer={
+              <div
+                className="DialogComp-footer-0-3-116"
+              >
+                action
+              </div>
+            }
+            header={
+              <div
+                className="DialogComp-header-0-3-115"
+              >
+                header
+              </div>
+            }
+            onClose={[Function]}
+          >
+            <div
+              className="FluidDialogComp-root-0-3-123"
+            >
+              <Scrim
+                onClose={[Function]}
+                open={true}
+              >
+                <WithStyles(ScrimComp)
+                  innerRef={null}
+                  jssContext={
+                    Object {
+                      "classNamePrefix": "",
+                      "disableStylesGeneration": false,
+                    }
+                  }
+                  onClose={[Function]}
+                  open={true}
+                  theme={Object {}}
+                >
+                  <ScrimComp
+                    classes={
+                      Object {
+                        "root": "ScrimComp-root-0-3-126",
+                      }
+                    }
+                    onClose={[Function]}
+                    open={true}
+                  >
+                    <Transition
+                      appear={false}
+                      enter={true}
+                      exit={true}
+                      in={true}
+                      mountOnEnter={false}
+                      onEnter={[Function]}
+                      onEntered={[Function]}
+                      onEntering={[Function]}
+                      onExit={[Function]}
+                      onExited={[Function]}
+                      onExiting={[Function]}
+                      timeout={150}
+                      unmountOnExit={false}
+                    >
+                      <div
+                        className="ScrimComp-root-0-3-126"
+                        onClick={[Function]}
+                        style={
+                          Object {
+                            "opacity": 1,
+                            "transition": "opacity 150ms",
+                          }
+                        }
+                      />
+                    </Transition>
+                  </ScrimComp>
+                </WithStyles(ScrimComp)>
+              </Scrim>
+              <div
+                className="FluidDialogComp-container-0-3-124 DialogComp-dialog-0-3-114 DialogComp-xlw-0-3-121"
+              >
+                <div>
+                  <div
+                    className="DialogComp-header-0-3-115"
+                  >
+                    header
+                  </div>
+                </div>
+                <div
+                  className="FluidDialogComp-content-0-3-125"
+                >
+                  content
+                </div>
+                <div>
+                  <div
+                    className="DialogComp-footer-0-3-116"
+                  >
+                    action
+                  </div>
+                </div>
+              </div>
+            </div>
+          </FluidDialogComp>
+        </WithStyles(FluidDialogComp)>
+      </FluidDialog>
+    </DialogComp>
+  </WithStyles(DialogComp)>
+</Dialog>
+`;
+
+exports[`Storyshots Components/Dialog/Dialog Size xs 1`] = `
+<Dialog
+  content="content"
+  footer="action"
+  header="header"
+  onClose={[Function]}
+  size="xs"
+>
+  <WithStyles(DialogComp)
+    content="content"
+    footer="action"
+    header="header"
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onClose={[Function]}
+    size="xs"
+    theme={Object {}}
+  >
+    <DialogComp
+      classes={
+        Object {
+          "dialog": "DialogComp-dialog-0-3-114",
+          "footer": "DialogComp-footer-0-3-116",
+          "header": "DialogComp-header-0-3-115",
+          "md": "DialogComp-md-0-3-119",
+          "sm": "DialogComp-sm-0-3-118",
+          "xl": "DialogComp-xl-0-3-120",
+          "xlw": "DialogComp-xlw-0-3-121",
+          "xs": "DialogComp-xs-0-3-117",
+          "xxl": "DialogComp-xxl-0-3-122",
+        }
+      }
+      content="content"
+      footer="action"
+      header="header"
+      onClose={[Function]}
+      size="xs"
+    >
+      <FluidDialog
+        className="DialogComp-dialog-0-3-114 DialogComp-xs-0-3-117"
+        content="content"
+        footer={
+          <div
+            className="DialogComp-footer-0-3-116"
+          >
+            action
+          </div>
+        }
+        header={
+          <div
+            className="DialogComp-header-0-3-115"
+          >
+            header
+          </div>
+        }
+        onClose={[Function]}
+      >
+        <WithStyles(FluidDialogComp)
+          className="DialogComp-dialog-0-3-114 DialogComp-xs-0-3-117"
+          content="content"
+          footer={
+            <div
+              className="DialogComp-footer-0-3-116"
+            >
+              action
+            </div>
+          }
+          header={
+            <div
+              className="DialogComp-header-0-3-115"
+            >
+              header
+            </div>
+          }
+          innerRef={null}
+          jssContext={
+            Object {
+              "classNamePrefix": "",
+              "disableStylesGeneration": false,
+            }
+          }
+          onClose={[Function]}
+          theme={Object {}}
+        >
+          <FluidDialogComp
+            className="DialogComp-dialog-0-3-114 DialogComp-xs-0-3-117"
+            classes={
+              Object {
+                "container": "FluidDialogComp-container-0-3-124",
+                "content": "FluidDialogComp-content-0-3-125",
+                "root": "FluidDialogComp-root-0-3-123",
+              }
+            }
+            content="content"
+            footer={
+              <div
+                className="DialogComp-footer-0-3-116"
+              >
+                action
+              </div>
+            }
+            header={
+              <div
+                className="DialogComp-header-0-3-115"
+              >
+                header
+              </div>
+            }
+            onClose={[Function]}
+          >
+            <div
+              className="FluidDialogComp-root-0-3-123"
+            >
+              <Scrim
+                onClose={[Function]}
+                open={true}
+              >
+                <WithStyles(ScrimComp)
+                  innerRef={null}
+                  jssContext={
+                    Object {
+                      "classNamePrefix": "",
+                      "disableStylesGeneration": false,
+                    }
+                  }
+                  onClose={[Function]}
+                  open={true}
+                  theme={Object {}}
+                >
+                  <ScrimComp
+                    classes={
+                      Object {
+                        "root": "ScrimComp-root-0-3-126",
+                      }
+                    }
+                    onClose={[Function]}
+                    open={true}
+                  >
+                    <Transition
+                      appear={false}
+                      enter={true}
+                      exit={true}
+                      in={true}
+                      mountOnEnter={false}
+                      onEnter={[Function]}
+                      onEntered={[Function]}
+                      onEntering={[Function]}
+                      onExit={[Function]}
+                      onExited={[Function]}
+                      onExiting={[Function]}
+                      timeout={150}
+                      unmountOnExit={false}
+                    >
+                      <div
+                        className="ScrimComp-root-0-3-126"
+                        onClick={[Function]}
+                        style={
+                          Object {
+                            "opacity": 1,
+                            "transition": "opacity 150ms",
+                          }
+                        }
+                      />
+                    </Transition>
+                  </ScrimComp>
+                </WithStyles(ScrimComp)>
+              </Scrim>
+              <div
+                className="FluidDialogComp-container-0-3-124 DialogComp-dialog-0-3-114 DialogComp-xs-0-3-117"
+              >
+                <div>
+                  <div
+                    className="DialogComp-header-0-3-115"
+                  >
+                    header
+                  </div>
+                </div>
+                <div
+                  className="FluidDialogComp-content-0-3-125"
+                >
+                  content
+                </div>
+                <div>
+                  <div
+                    className="DialogComp-footer-0-3-116"
+                  >
+                    action
+                  </div>
+                </div>
+              </div>
+            </div>
+          </FluidDialogComp>
+        </WithStyles(FluidDialogComp)>
+      </FluidDialog>
+    </DialogComp>
+  </WithStyles(DialogComp)>
+</Dialog>
+`;
+
+exports[`Storyshots Components/Dialog/Dialog Size xxl 1`] = `
+<Dialog
+  content="content"
+  footer="action"
+  header="header"
+  onClose={[Function]}
+  size="xxl"
+>
+  <WithStyles(DialogComp)
+    content="content"
+    footer="action"
+    header="header"
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onClose={[Function]}
+    size="xxl"
+    theme={Object {}}
+  >
+    <DialogComp
+      classes={
+        Object {
+          "dialog": "DialogComp-dialog-0-3-114",
+          "footer": "DialogComp-footer-0-3-116",
+          "header": "DialogComp-header-0-3-115",
+          "md": "DialogComp-md-0-3-119",
+          "sm": "DialogComp-sm-0-3-118",
+          "xl": "DialogComp-xl-0-3-120",
+          "xlw": "DialogComp-xlw-0-3-121",
+          "xs": "DialogComp-xs-0-3-117",
+          "xxl": "DialogComp-xxl-0-3-122",
+        }
+      }
+      content="content"
+      footer="action"
+      header="header"
+      onClose={[Function]}
+      size="xxl"
+    >
+      <FluidDialog
+        className="DialogComp-dialog-0-3-114 DialogComp-xxl-0-3-122"
+        content="content"
+        footer={
+          <div
+            className="DialogComp-footer-0-3-116"
+          >
+            action
+          </div>
+        }
+        header={
+          <div
+            className="DialogComp-header-0-3-115"
+          >
+            header
+          </div>
+        }
+        onClose={[Function]}
+      >
+        <WithStyles(FluidDialogComp)
+          className="DialogComp-dialog-0-3-114 DialogComp-xxl-0-3-122"
+          content="content"
+          footer={
+            <div
+              className="DialogComp-footer-0-3-116"
+            >
+              action
+            </div>
+          }
+          header={
+            <div
+              className="DialogComp-header-0-3-115"
+            >
+              header
+            </div>
+          }
+          innerRef={null}
+          jssContext={
+            Object {
+              "classNamePrefix": "",
+              "disableStylesGeneration": false,
+            }
+          }
+          onClose={[Function]}
+          theme={Object {}}
+        >
+          <FluidDialogComp
+            className="DialogComp-dialog-0-3-114 DialogComp-xxl-0-3-122"
+            classes={
+              Object {
+                "container": "FluidDialogComp-container-0-3-124",
+                "content": "FluidDialogComp-content-0-3-125",
+                "root": "FluidDialogComp-root-0-3-123",
+              }
+            }
+            content="content"
+            footer={
+              <div
+                className="DialogComp-footer-0-3-116"
+              >
+                action
+              </div>
+            }
+            header={
+              <div
+                className="DialogComp-header-0-3-115"
+              >
+                header
+              </div>
+            }
+            onClose={[Function]}
+          >
+            <div
+              className="FluidDialogComp-root-0-3-123"
+            >
+              <Scrim
+                onClose={[Function]}
+                open={true}
+              >
+                <WithStyles(ScrimComp)
+                  innerRef={null}
+                  jssContext={
+                    Object {
+                      "classNamePrefix": "",
+                      "disableStylesGeneration": false,
+                    }
+                  }
+                  onClose={[Function]}
+                  open={true}
+                  theme={Object {}}
+                >
+                  <ScrimComp
+                    classes={
+                      Object {
+                        "root": "ScrimComp-root-0-3-126",
+                      }
+                    }
+                    onClose={[Function]}
+                    open={true}
+                  >
+                    <Transition
+                      appear={false}
+                      enter={true}
+                      exit={true}
+                      in={true}
+                      mountOnEnter={false}
+                      onEnter={[Function]}
+                      onEntered={[Function]}
+                      onEntering={[Function]}
+                      onExit={[Function]}
+                      onExited={[Function]}
+                      onExiting={[Function]}
+                      timeout={150}
+                      unmountOnExit={false}
+                    >
+                      <div
+                        className="ScrimComp-root-0-3-126"
+                        onClick={[Function]}
+                        style={
+                          Object {
+                            "opacity": 1,
+                            "transition": "opacity 150ms",
+                          }
+                        }
+                      />
+                    </Transition>
+                  </ScrimComp>
+                </WithStyles(ScrimComp)>
+              </Scrim>
+              <div
+                className="FluidDialogComp-container-0-3-124 DialogComp-dialog-0-3-114 DialogComp-xxl-0-3-122"
+              >
+                <div>
+                  <div
+                    className="DialogComp-header-0-3-115"
+                  >
+                    header
+                  </div>
+                </div>
+                <div
+                  className="FluidDialogComp-content-0-3-125"
+                >
+                  content
+                </div>
+                <div>
+                  <div
+                    className="DialogComp-footer-0-3-116"
+                  >
+                    action
+                  </div>
+                </div>
+              </div>
+            </div>
+          </FluidDialogComp>
+        </WithStyles(FluidDialogComp)>
+      </FluidDialog>
+    </DialogComp>
+  </WithStyles(DialogComp)>
+</Dialog>
+`;
+
+exports[`Storyshots Components/Dialog/Dialog With FooterWithConfirmation 1`] = `
+<Dialog
+  content="content"
+  footer={
+    <ForwardRef
+      confirmMessage="Confirm"
+      onCancel={[Function]}
+      onConfirm={[Function]}
+    />
+  }
+  header={
+    <DialogHeader
+      text="Title dialog"
+    />
+  }
+  onClose={[Function]}
+  size="xlw"
+>
+  <WithStyles(DialogComp)
+    content="content"
+    footer={
+      <ForwardRef
+        confirmMessage="Confirm"
+        onCancel={[Function]}
+        onConfirm={[Function]}
+      />
+    }
+    header={
+      <DialogHeader
+        text="Title dialog"
+      />
+    }
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onClose={[Function]}
+    size="xlw"
+    theme={Object {}}
+  >
+    <DialogComp
+      classes={
+        Object {
+          "dialog": "DialogComp-dialog-0-3-114",
+          "footer": "DialogComp-footer-0-3-116",
+          "header": "DialogComp-header-0-3-115",
+          "md": "DialogComp-md-0-3-119",
+          "sm": "DialogComp-sm-0-3-118",
+          "xl": "DialogComp-xl-0-3-120",
+          "xlw": "DialogComp-xlw-0-3-121",
+          "xs": "DialogComp-xs-0-3-117",
+          "xxl": "DialogComp-xxl-0-3-122",
+        }
+      }
+      content="content"
+      footer={
+        <ForwardRef
+          confirmMessage="Confirm"
+          onCancel={[Function]}
+          onConfirm={[Function]}
+        />
+      }
+      header={
+        <DialogHeader
+          text="Title dialog"
+        />
+      }
+      onClose={[Function]}
+      size="xlw"
+    >
+      <FluidDialog
+        className="DialogComp-dialog-0-3-114 DialogComp-xlw-0-3-121"
+        content="content"
+        footer={
+          <div
+            className="DialogComp-footer-0-3-116"
+          >
+            <ForwardRef
+              confirmMessage="Confirm"
+              onCancel={[Function]}
+              onConfirm={[Function]}
+            />
+          </div>
+        }
+        header={
+          <div
+            className="DialogComp-header-0-3-115"
+          >
+            <DialogHeader
+              text="Title dialog"
+            />
+          </div>
+        }
+        onClose={[Function]}
+      >
+        <WithStyles(FluidDialogComp)
+          className="DialogComp-dialog-0-3-114 DialogComp-xlw-0-3-121"
+          content="content"
+          footer={
+            <div
+              className="DialogComp-footer-0-3-116"
+            >
+              <ForwardRef
+                confirmMessage="Confirm"
+                onCancel={[Function]}
+                onConfirm={[Function]}
+              />
+            </div>
+          }
+          header={
+            <div
+              className="DialogComp-header-0-3-115"
+            >
+              <DialogHeader
+                text="Title dialog"
+              />
+            </div>
+          }
+          innerRef={null}
+          jssContext={
+            Object {
+              "classNamePrefix": "",
+              "disableStylesGeneration": false,
+            }
+          }
+          onClose={[Function]}
+          theme={Object {}}
+        >
+          <FluidDialogComp
+            className="DialogComp-dialog-0-3-114 DialogComp-xlw-0-3-121"
+            classes={
+              Object {
+                "container": "FluidDialogComp-container-0-3-124",
+                "content": "FluidDialogComp-content-0-3-125",
+                "root": "FluidDialogComp-root-0-3-123",
+              }
+            }
+            content="content"
+            footer={
+              <div
+                className="DialogComp-footer-0-3-116"
+              >
+                <ForwardRef
+                  confirmMessage="Confirm"
+                  onCancel={[Function]}
+                  onConfirm={[Function]}
+                />
+              </div>
+            }
+            header={
+              <div
+                className="DialogComp-header-0-3-115"
+              >
+                <DialogHeader
+                  text="Title dialog"
+                />
+              </div>
+            }
+            onClose={[Function]}
+          >
+            <div
+              className="FluidDialogComp-root-0-3-123"
+            >
+              <Scrim
+                onClose={[Function]}
+                open={true}
+              >
+                <WithStyles(ScrimComp)
+                  innerRef={null}
+                  jssContext={
+                    Object {
+                      "classNamePrefix": "",
+                      "disableStylesGeneration": false,
+                    }
+                  }
+                  onClose={[Function]}
+                  open={true}
+                  theme={Object {}}
+                >
+                  <ScrimComp
+                    classes={
+                      Object {
+                        "root": "ScrimComp-root-0-3-126",
+                      }
+                    }
+                    onClose={[Function]}
+                    open={true}
+                  >
+                    <Transition
+                      appear={false}
+                      enter={true}
+                      exit={true}
+                      in={true}
+                      mountOnEnter={false}
+                      onEnter={[Function]}
+                      onEntered={[Function]}
+                      onEntering={[Function]}
+                      onExit={[Function]}
+                      onExited={[Function]}
+                      onExiting={[Function]}
+                      timeout={150}
+                      unmountOnExit={false}
+                    >
+                      <div
+                        className="ScrimComp-root-0-3-126"
+                        onClick={[Function]}
+                        style={
+                          Object {
+                            "opacity": 1,
+                            "transition": "opacity 150ms",
+                          }
+                        }
+                      />
+                    </Transition>
+                  </ScrimComp>
+                </WithStyles(ScrimComp)>
+              </Scrim>
+              <div
+                className="FluidDialogComp-container-0-3-124 DialogComp-dialog-0-3-114 DialogComp-xlw-0-3-121"
+              >
+                <div>
+                  <div
+                    className="DialogComp-header-0-3-115"
+                  >
+                    <DialogHeader
+                      text="Title dialog"
+                    >
+                      <div
+                        className="d-flex justify-content-between"
+                      >
+                        <Typography
+                          bold={true}
+                          variant="big"
+                        >
+                          <WithStyles(TypographyComp)
+                            bold={true}
+                            innerRef={null}
+                            jssContext={
+                              Object {
+                                "classNamePrefix": "",
+                                "disableStylesGeneration": false,
+                              }
+                            }
+                            theme={Object {}}
+                            variant="big"
+                          >
+                            <TypographyComp
+                              bold={true}
+                              classes={
+                                Object {
+                                  "big": "TypographyComp-big-0-3-7",
+                                  "bold": "TypographyComp-bold-0-3-1",
+                                  "capitalize": "TypographyComp-capitalize-0-3-12",
+                                  "distance": "TypographyComp-distance-0-3-6",
+                                  "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                                  "giant": "TypographyComp-giant-0-3-9",
+                                  "heading": "TypographyComp-heading-0-3-8",
+                                  "italic": "TypographyComp-italic-0-3-3",
+                                  "lowercase": "TypographyComp-lowercase-0-3-11",
+                                  "noWrap": "TypographyComp-noWrap-0-3-13",
+                                  "semiBold": "TypographyComp-semiBold-0-3-2",
+                                  "standard": "TypographyComp-standard-0-3-5",
+                                  "subtext": "TypographyComp-subtext-0-3-4",
+                                  "uppercase": "TypographyComp-uppercase-0-3-10",
+                                }
+                              }
+                              variant="big"
+                            >
+                              <span
+                                className="TypographyComp-big-0-3-7 TypographyComp-bold-0-3-1"
+                              >
+                                Title dialog
+                              </span>
+                            </TypographyComp>
+                          </WithStyles(TypographyComp)>
+                        </Typography>
+                      </div>
+                    </DialogHeader>
+                  </div>
+                </div>
+                <div
+                  className="FluidDialogComp-content-0-3-125"
+                >
+                  content
+                </div>
+                <div>
+                  <div
+                    className="DialogComp-footer-0-3-116"
+                  >
+                    <FooterWithConfirmation
+                      confirmMessage="Confirm"
+                      onCancel={[Function]}
+                      onConfirm={[Function]}
+                    >
+                      <WithStyles(Component)
+                        confirmMessage="Confirm"
+                        innerRef={null}
+                        jssContext={
+                          Object {
+                            "classNamePrefix": "",
+                            "disableStylesGeneration": false,
+                          }
+                        }
+                        onCancel={[Function]}
+                        onConfirm={[Function]}
+                        theme={Object {}}
+                      >
+                        <Component
+                          classes={
+                            Object {
+                              "root": "Component-root-0-3-127",
+                            }
+                          }
+                          confirmMessage="Confirm"
+                          onCancel={[Function]}
+                          onConfirm={[Function]}
+                        >
+                          <div>
+                            <Divider>
+                              <WithStyles(DividerComp)
+                                innerRef={null}
+                                jssContext={
+                                  Object {
+                                    "classNamePrefix": "",
+                                    "disableStylesGeneration": false,
+                                  }
+                                }
+                                theme={Object {}}
+                              >
+                                <DividerComp
+                                  classes={
+                                    Object {
+                                      "root": "DividerComp-root-0-3-128",
+                                    }
+                                  }
+                                >
+                                  <hr
+                                    className="DividerComp-root-0-3-128"
+                                  />
+                                </DividerComp>
+                              </WithStyles(DividerComp)>
+                            </Divider>
+                            <div
+                              className="Component-root-0-3-127"
+                            >
+                              <Button
+                                color="transparent"
+                                onClick={[Function]}
+                                text="Cancel"
+                                variant="flat"
+                              >
+                                <WithStyles(ButtonComp)
+                                  color="transparent"
+                                  innerRef={null}
+                                  jssContext={
+                                    Object {
+                                      "classNamePrefix": "",
+                                      "disableStylesGeneration": false,
+                                    }
+                                  }
+                                  onClick={[Function]}
+                                  text="Cancel"
+                                  theme={Object {}}
+                                  variant="flat"
+                                >
+                                  <ButtonComp
+                                    classes={
+                                      Object {
+                                        "centered": "ButtonComp-centered-0-3-19",
+                                        "disabled": "ButtonComp-disabled-0-3-32",
+                                        "flat": "ButtonComp-flat-0-3-17",
+                                        "fullWidth": "ButtonComp-fullWidth-0-3-31",
+                                        "green": "ButtonComp-green-0-3-23",
+                                        "grey": "ButtonComp-grey-0-3-21",
+                                        "icon": "ButtonComp-icon-0-3-16",
+                                        "neutral": "ButtonComp-neutral-0-3-22",
+                                        "orange": "ButtonComp-orange-0-3-24",
+                                        "primary": "ButtonComp-primary-0-3-20",
+                                        "raised": "ButtonComp-raised-0-3-18",
+                                        "red": "ButtonComp-red-0-3-26",
+                                        "root": "ButtonComp-root-0-3-15",
+                                        "shadow": "ButtonComp-shadow-0-3-28",
+                                        "text": "ButtonComp-text-0-3-29",
+                                        "textIcon": "ButtonComp-textIcon-0-3-30",
+                                        "transparent": "ButtonComp-transparent-0-3-27",
+                                        "yellow": "ButtonComp-yellow-0-3-25",
+                                      }
+                                    }
+                                    color="transparent"
+                                    onClick={[Function]}
+                                    text="Cancel"
+                                    variant="flat"
+                                  >
+                                    <TouchRipple
+                                      className="ButtonComp-root-0-3-15"
+                                      disabled={false}
+                                      onClick={[Function]}
+                                    >
+                                      <WithStyles(TouchRippleComp)
+                                        className="ButtonComp-root-0-3-15"
+                                        disabled={false}
+                                        innerRef={null}
+                                        jssContext={
+                                          Object {
+                                            "classNamePrefix": "",
+                                            "disableStylesGeneration": false,
+                                          }
+                                        }
+                                        onClick={[Function]}
+                                        theme={Object {}}
+                                      >
+                                        <TouchRippleComp
+                                          className="ButtonComp-root-0-3-15"
+                                          classes={
+                                            Object {
+                                              "disabled": "TouchRippleComp-disabled-0-3-34",
+                                              "root": "TouchRippleComp-root-0-3-33",
+                                            }
+                                          }
+                                          disabled={false}
+                                          onClick={[Function]}
+                                        >
+                                          <div
+                                            className="ButtonComp-root-0-3-15 TouchRippleComp-root-0-3-33"
+                                            onClick={[Function]}
+                                          >
+                                            <div
+                                              className="ButtonComp-flat-0-3-17 ButtonComp-transparent-0-3-27"
+                                            >
+                                              <div
+                                                className="ButtonComp-text-0-3-29"
+                                              >
+                                                <Typography
+                                                  bold={true}
+                                                  textTransform="uppercase"
+                                                  variant="standard"
+                                                >
+                                                  <WithStyles(TypographyComp)
+                                                    bold={true}
+                                                    innerRef={null}
+                                                    jssContext={
+                                                      Object {
+                                                        "classNamePrefix": "",
+                                                        "disableStylesGeneration": false,
+                                                      }
+                                                    }
+                                                    textTransform="uppercase"
+                                                    theme={Object {}}
+                                                    variant="standard"
+                                                  >
+                                                    <TypographyComp
+                                                      bold={true}
+                                                      classes={
+                                                        Object {
+                                                          "big": "TypographyComp-big-0-3-7",
+                                                          "bold": "TypographyComp-bold-0-3-1",
+                                                          "capitalize": "TypographyComp-capitalize-0-3-12",
+                                                          "distance": "TypographyComp-distance-0-3-6",
+                                                          "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                                                          "giant": "TypographyComp-giant-0-3-9",
+                                                          "heading": "TypographyComp-heading-0-3-8",
+                                                          "italic": "TypographyComp-italic-0-3-3",
+                                                          "lowercase": "TypographyComp-lowercase-0-3-11",
+                                                          "noWrap": "TypographyComp-noWrap-0-3-13",
+                                                          "semiBold": "TypographyComp-semiBold-0-3-2",
+                                                          "standard": "TypographyComp-standard-0-3-5",
+                                                          "subtext": "TypographyComp-subtext-0-3-4",
+                                                          "uppercase": "TypographyComp-uppercase-0-3-10",
+                                                        }
+                                                      }
+                                                      textTransform="uppercase"
+                                                      variant="standard"
+                                                    >
+                                                      <span
+                                                        className="TypographyComp-standard-0-3-5 TypographyComp-uppercase-0-3-10 TypographyComp-bold-0-3-1"
+                                                      >
+                                                        Cancel
+                                                      </span>
+                                                    </TypographyComp>
+                                                  </WithStyles(TypographyComp)>
+                                                </Typography>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </TouchRippleComp>
+                                      </WithStyles(TouchRippleComp)>
+                                    </TouchRipple>
+                                  </ButtonComp>
+                                </WithStyles(ButtonComp)>
+                              </Button>
+                              <Button
+                                color="primary"
+                                onClick={[Function]}
+                                text="Confirm"
+                                variant="raised"
+                              >
+                                <WithStyles(ButtonComp)
+                                  color="primary"
+                                  innerRef={null}
+                                  jssContext={
+                                    Object {
+                                      "classNamePrefix": "",
+                                      "disableStylesGeneration": false,
+                                    }
+                                  }
+                                  onClick={[Function]}
+                                  text="Confirm"
+                                  theme={Object {}}
+                                  variant="raised"
+                                >
+                                  <ButtonComp
+                                    classes={
+                                      Object {
+                                        "centered": "ButtonComp-centered-0-3-19",
+                                        "disabled": "ButtonComp-disabled-0-3-32",
+                                        "flat": "ButtonComp-flat-0-3-17",
+                                        "fullWidth": "ButtonComp-fullWidth-0-3-31",
+                                        "green": "ButtonComp-green-0-3-23",
+                                        "grey": "ButtonComp-grey-0-3-21",
+                                        "icon": "ButtonComp-icon-0-3-16",
+                                        "neutral": "ButtonComp-neutral-0-3-22",
+                                        "orange": "ButtonComp-orange-0-3-24",
+                                        "primary": "ButtonComp-primary-0-3-20",
+                                        "raised": "ButtonComp-raised-0-3-18",
+                                        "red": "ButtonComp-red-0-3-26",
+                                        "root": "ButtonComp-root-0-3-15",
+                                        "shadow": "ButtonComp-shadow-0-3-28",
+                                        "text": "ButtonComp-text-0-3-29",
+                                        "textIcon": "ButtonComp-textIcon-0-3-30",
+                                        "transparent": "ButtonComp-transparent-0-3-27",
+                                        "yellow": "ButtonComp-yellow-0-3-25",
+                                      }
+                                    }
+                                    color="primary"
+                                    onClick={[Function]}
+                                    text="Confirm"
+                                    variant="raised"
+                                  >
+                                    <TouchRipple
+                                      className="ButtonComp-root-0-3-15 ButtonComp-shadow-0-3-28"
+                                      disabled={false}
+                                      onClick={[Function]}
+                                    >
+                                      <WithStyles(TouchRippleComp)
+                                        className="ButtonComp-root-0-3-15 ButtonComp-shadow-0-3-28"
+                                        disabled={false}
+                                        innerRef={null}
+                                        jssContext={
+                                          Object {
+                                            "classNamePrefix": "",
+                                            "disableStylesGeneration": false,
+                                          }
+                                        }
+                                        onClick={[Function]}
+                                        theme={Object {}}
+                                      >
+                                        <TouchRippleComp
+                                          className="ButtonComp-root-0-3-15 ButtonComp-shadow-0-3-28"
+                                          classes={
+                                            Object {
+                                              "disabled": "TouchRippleComp-disabled-0-3-34",
+                                              "root": "TouchRippleComp-root-0-3-33",
+                                            }
+                                          }
+                                          disabled={false}
+                                          onClick={[Function]}
+                                        >
+                                          <div
+                                            className="ButtonComp-root-0-3-15 ButtonComp-shadow-0-3-28 TouchRippleComp-root-0-3-33"
+                                            onClick={[Function]}
+                                          >
+                                            <div
+                                              className="ButtonComp-raised-0-3-18 ButtonComp-primary-0-3-20"
+                                            >
+                                              <div
+                                                className="ButtonComp-text-0-3-29"
+                                              >
+                                                <Typography
+                                                  bold={true}
+                                                  textTransform="uppercase"
+                                                  variant="standard"
+                                                >
+                                                  <WithStyles(TypographyComp)
+                                                    bold={true}
+                                                    innerRef={null}
+                                                    jssContext={
+                                                      Object {
+                                                        "classNamePrefix": "",
+                                                        "disableStylesGeneration": false,
+                                                      }
+                                                    }
+                                                    textTransform="uppercase"
+                                                    theme={Object {}}
+                                                    variant="standard"
+                                                  >
+                                                    <TypographyComp
+                                                      bold={true}
+                                                      classes={
+                                                        Object {
+                                                          "big": "TypographyComp-big-0-3-7",
+                                                          "bold": "TypographyComp-bold-0-3-1",
+                                                          "capitalize": "TypographyComp-capitalize-0-3-12",
+                                                          "distance": "TypographyComp-distance-0-3-6",
+                                                          "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                                                          "giant": "TypographyComp-giant-0-3-9",
+                                                          "heading": "TypographyComp-heading-0-3-8",
+                                                          "italic": "TypographyComp-italic-0-3-3",
+                                                          "lowercase": "TypographyComp-lowercase-0-3-11",
+                                                          "noWrap": "TypographyComp-noWrap-0-3-13",
+                                                          "semiBold": "TypographyComp-semiBold-0-3-2",
+                                                          "standard": "TypographyComp-standard-0-3-5",
+                                                          "subtext": "TypographyComp-subtext-0-3-4",
+                                                          "uppercase": "TypographyComp-uppercase-0-3-10",
+                                                        }
+                                                      }
+                                                      textTransform="uppercase"
+                                                      variant="standard"
+                                                    >
+                                                      <span
+                                                        className="TypographyComp-standard-0-3-5 TypographyComp-uppercase-0-3-10 TypographyComp-bold-0-3-1"
+                                                      >
+                                                        Confirm
+                                                      </span>
+                                                    </TypographyComp>
+                                                  </WithStyles(TypographyComp)>
+                                                </Typography>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </TouchRippleComp>
+                                      </WithStyles(TouchRippleComp)>
+                                    </TouchRipple>
+                                  </ButtonComp>
+                                </WithStyles(ButtonComp)>
+                              </Button>
+                            </div>
+                          </div>
+                        </Component>
+                      </WithStyles(Component)>
+                    </FooterWithConfirmation>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </FluidDialogComp>
+        </WithStyles(FluidDialogComp)>
+      </FluidDialog>
+    </DialogComp>
+  </WithStyles(DialogComp)>
+</Dialog>
+`;
+
+exports[`Storyshots Components/Dialog/Dialog With FooterWithDoubleConfirmation 1`] = `
+<DialogFooterWithDoubleConfirmation>
+  <Dialog
+    content="content"
+    footer={
+      <ForwardRef
+        cancelMessage="Cancel"
+        confirmMessage="Comfirm"
+        message="Are you sure?"
+        mode="normal"
+        noMessage="No"
+        onCancel={[Function]}
+        onConfirm={[Function]}
+        onSelectNo={[Function]}
+        onSelectYes={[Function]}
+        valid={true}
+        yesMessage="Yes"
+      />
+    }
+    header={
+      <DialogHeader
+        text="Title dialog"
+      />
+    }
+    onClose={[Function]}
+    size="xlw"
+  >
+    <WithStyles(DialogComp)
+      content="content"
+      footer={
+        <ForwardRef
+          cancelMessage="Cancel"
+          confirmMessage="Comfirm"
+          message="Are you sure?"
+          mode="normal"
+          noMessage="No"
+          onCancel={[Function]}
+          onConfirm={[Function]}
+          onSelectNo={[Function]}
+          onSelectYes={[Function]}
+          valid={true}
+          yesMessage="Yes"
+        />
+      }
+      header={
+        <DialogHeader
+          text="Title dialog"
+        />
+      }
+      innerRef={null}
+      jssContext={
+        Object {
+          "classNamePrefix": "",
+          "disableStylesGeneration": false,
+        }
+      }
+      onClose={[Function]}
+      size="xlw"
+      theme={Object {}}
+    >
+      <DialogComp
+        classes={
+          Object {
+            "dialog": "DialogComp-dialog-0-3-114",
+            "footer": "DialogComp-footer-0-3-116",
+            "header": "DialogComp-header-0-3-115",
+            "md": "DialogComp-md-0-3-119",
+            "sm": "DialogComp-sm-0-3-118",
+            "xl": "DialogComp-xl-0-3-120",
+            "xlw": "DialogComp-xlw-0-3-121",
+            "xs": "DialogComp-xs-0-3-117",
+            "xxl": "DialogComp-xxl-0-3-122",
+          }
+        }
+        content="content"
+        footer={
+          <ForwardRef
+            cancelMessage="Cancel"
+            confirmMessage="Comfirm"
+            message="Are you sure?"
+            mode="normal"
+            noMessage="No"
+            onCancel={[Function]}
+            onConfirm={[Function]}
+            onSelectNo={[Function]}
+            onSelectYes={[Function]}
+            valid={true}
+            yesMessage="Yes"
+          />
+        }
+        header={
+          <DialogHeader
+            text="Title dialog"
+          />
+        }
+        onClose={[Function]}
+        size="xlw"
+      >
+        <FluidDialog
+          className="DialogComp-dialog-0-3-114 DialogComp-xlw-0-3-121"
+          content="content"
+          footer={
+            <div
+              className="DialogComp-footer-0-3-116"
+            >
+              <ForwardRef
+                cancelMessage="Cancel"
+                confirmMessage="Comfirm"
+                message="Are you sure?"
+                mode="normal"
+                noMessage="No"
+                onCancel={[Function]}
+                onConfirm={[Function]}
+                onSelectNo={[Function]}
+                onSelectYes={[Function]}
+                valid={true}
+                yesMessage="Yes"
+              />
+            </div>
+          }
+          header={
+            <div
+              className="DialogComp-header-0-3-115"
+            >
+              <DialogHeader
+                text="Title dialog"
+              />
+            </div>
+          }
+          onClose={[Function]}
+        >
+          <WithStyles(FluidDialogComp)
+            className="DialogComp-dialog-0-3-114 DialogComp-xlw-0-3-121"
+            content="content"
+            footer={
+              <div
+                className="DialogComp-footer-0-3-116"
+              >
+                <ForwardRef
+                  cancelMessage="Cancel"
+                  confirmMessage="Comfirm"
+                  message="Are you sure?"
+                  mode="normal"
+                  noMessage="No"
+                  onCancel={[Function]}
+                  onConfirm={[Function]}
+                  onSelectNo={[Function]}
+                  onSelectYes={[Function]}
+                  valid={true}
+                  yesMessage="Yes"
+                />
+              </div>
+            }
+            header={
+              <div
+                className="DialogComp-header-0-3-115"
+              >
+                <DialogHeader
+                  text="Title dialog"
+                />
+              </div>
+            }
+            innerRef={null}
+            jssContext={
+              Object {
+                "classNamePrefix": "",
+                "disableStylesGeneration": false,
+              }
+            }
+            onClose={[Function]}
+            theme={Object {}}
+          >
+            <FluidDialogComp
+              className="DialogComp-dialog-0-3-114 DialogComp-xlw-0-3-121"
+              classes={
+                Object {
+                  "container": "FluidDialogComp-container-0-3-124",
+                  "content": "FluidDialogComp-content-0-3-125",
+                  "root": "FluidDialogComp-root-0-3-123",
+                }
+              }
+              content="content"
+              footer={
+                <div
+                  className="DialogComp-footer-0-3-116"
+                >
+                  <ForwardRef
+                    cancelMessage="Cancel"
+                    confirmMessage="Comfirm"
+                    message="Are you sure?"
+                    mode="normal"
+                    noMessage="No"
+                    onCancel={[Function]}
+                    onConfirm={[Function]}
+                    onSelectNo={[Function]}
+                    onSelectYes={[Function]}
+                    valid={true}
+                    yesMessage="Yes"
+                  />
+                </div>
+              }
+              header={
+                <div
+                  className="DialogComp-header-0-3-115"
+                >
+                  <DialogHeader
+                    text="Title dialog"
+                  />
+                </div>
+              }
+              onClose={[Function]}
+            >
+              <div
+                className="FluidDialogComp-root-0-3-123"
+              >
+                <Scrim
+                  onClose={[Function]}
+                  open={true}
+                >
+                  <WithStyles(ScrimComp)
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    onClose={[Function]}
+                    open={true}
+                    theme={Object {}}
+                  >
+                    <ScrimComp
+                      classes={
+                        Object {
+                          "root": "ScrimComp-root-0-3-126",
+                        }
+                      }
+                      onClose={[Function]}
+                      open={true}
+                    >
+                      <Transition
+                        appear={false}
+                        enter={true}
+                        exit={true}
+                        in={true}
+                        mountOnEnter={false}
+                        onEnter={[Function]}
+                        onEntered={[Function]}
+                        onEntering={[Function]}
+                        onExit={[Function]}
+                        onExited={[Function]}
+                        onExiting={[Function]}
+                        timeout={150}
+                        unmountOnExit={false}
+                      >
+                        <div
+                          className="ScrimComp-root-0-3-126"
+                          onClick={[Function]}
+                          style={
+                            Object {
+                              "opacity": 1,
+                              "transition": "opacity 150ms",
+                            }
+                          }
+                        />
+                      </Transition>
+                    </ScrimComp>
+                  </WithStyles(ScrimComp)>
+                </Scrim>
+                <div
+                  className="FluidDialogComp-container-0-3-124 DialogComp-dialog-0-3-114 DialogComp-xlw-0-3-121"
+                >
+                  <div>
+                    <div
+                      className="DialogComp-header-0-3-115"
+                    >
+                      <DialogHeader
+                        text="Title dialog"
+                      >
+                        <div
+                          className="d-flex justify-content-between"
+                        >
+                          <Typography
+                            bold={true}
+                            variant="big"
+                          >
+                            <WithStyles(TypographyComp)
+                              bold={true}
+                              innerRef={null}
+                              jssContext={
+                                Object {
+                                  "classNamePrefix": "",
+                                  "disableStylesGeneration": false,
+                                }
+                              }
+                              theme={Object {}}
+                              variant="big"
+                            >
+                              <TypographyComp
+                                bold={true}
+                                classes={
+                                  Object {
+                                    "big": "TypographyComp-big-0-3-7",
+                                    "bold": "TypographyComp-bold-0-3-1",
+                                    "capitalize": "TypographyComp-capitalize-0-3-12",
+                                    "distance": "TypographyComp-distance-0-3-6",
+                                    "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                                    "giant": "TypographyComp-giant-0-3-9",
+                                    "heading": "TypographyComp-heading-0-3-8",
+                                    "italic": "TypographyComp-italic-0-3-3",
+                                    "lowercase": "TypographyComp-lowercase-0-3-11",
+                                    "noWrap": "TypographyComp-noWrap-0-3-13",
+                                    "semiBold": "TypographyComp-semiBold-0-3-2",
+                                    "standard": "TypographyComp-standard-0-3-5",
+                                    "subtext": "TypographyComp-subtext-0-3-4",
+                                    "uppercase": "TypographyComp-uppercase-0-3-10",
+                                  }
+                                }
+                                variant="big"
+                              >
+                                <span
+                                  className="TypographyComp-big-0-3-7 TypographyComp-bold-0-3-1"
+                                >
+                                  Title dialog
+                                </span>
+                              </TypographyComp>
+                            </WithStyles(TypographyComp)>
+                          </Typography>
+                        </div>
+                      </DialogHeader>
+                    </div>
+                  </div>
+                  <div
+                    className="FluidDialogComp-content-0-3-125"
+                  >
+                    content
+                  </div>
+                  <div>
+                    <div
+                      className="DialogComp-footer-0-3-116"
+                    >
+                      <FooterWithDoubleConfirmation
+                        cancelMessage="Cancel"
+                        confirmMessage="Comfirm"
+                        message="Are you sure?"
+                        mode="normal"
+                        noMessage="No"
+                        onCancel={[Function]}
+                        onConfirm={[Function]}
+                        onSelectNo={[Function]}
+                        onSelectYes={[Function]}
+                        valid={true}
+                        yesMessage="Yes"
+                      >
+                        <WithStyles(FooterWithDoubleConfirmationComp)
+                          cancelMessage="Cancel"
+                          confirmMessage="Comfirm"
+                          innerRef={null}
+                          jssContext={
+                            Object {
+                              "classNamePrefix": "",
+                              "disableStylesGeneration": false,
+                            }
+                          }
+                          message="Are you sure?"
+                          mode="normal"
+                          noMessage="No"
+                          onCancel={[Function]}
+                          onConfirm={[Function]}
+                          onSelectNo={[Function]}
+                          onSelectYes={[Function]}
+                          theme={Object {}}
+                          valid={true}
+                          yesMessage="Yes"
+                        >
+                          <FooterWithDoubleConfirmationComp
+                            cancelMessage="Cancel"
+                            classes={
+                              Object {
+                                "confirm": "FooterWithDoubleConfirmationComp-confirm-0-3-131",
+                                "confirmation": "FooterWithDoubleConfirmationComp-confirmation-0-3-132",
+                                "content": "FooterWithDoubleConfirmationComp-content-0-3-130",
+                                "root": "FooterWithDoubleConfirmationComp-root-0-3-129",
+                              }
+                            }
+                            confirmMessage="Comfirm"
+                            message="Are you sure?"
+                            mode="normal"
+                            noMessage="No"
+                            onCancel={[Function]}
+                            onConfirm={[Function]}
+                            onSelectNo={[Function]}
+                            onSelectYes={[Function]}
+                            valid={true}
+                            yesMessage="Yes"
+                          >
+                            <div
+                              className="FooterWithDoubleConfirmationComp-root-0-3-129"
+                            >
+                              <Transition
+                                appear={false}
+                                enter={true}
+                                exit={true}
+                                in={false}
+                                mountOnEnter={false}
+                                onEnter={[Function]}
+                                onEntered={[Function]}
+                                onEntering={[Function]}
+                                onExit={[Function]}
+                                onExited={[Function]}
+                                onExiting={[Function]}
+                                timeout={150}
+                                unmountOnExit={false}
+                              >
+                                <div
+                                  className="FooterWithDoubleConfirmationComp-content-0-3-130"
+                                  style={
+                                    Object {
+                                      "transition": "transform 150ms ease-in-out",
+                                    }
+                                  }
+                                >
+                                  <div
+                                    className="FooterWithDoubleConfirmationComp-confirm-0-3-131"
+                                  >
+                                    <Button
+                                      color="transparent"
+                                      onClick={[Function]}
+                                      text="Cancel"
+                                      variant="flat"
+                                    >
+                                      <WithStyles(ButtonComp)
+                                        color="transparent"
+                                        innerRef={null}
+                                        jssContext={
+                                          Object {
+                                            "classNamePrefix": "",
+                                            "disableStylesGeneration": false,
+                                          }
+                                        }
+                                        onClick={[Function]}
+                                        text="Cancel"
+                                        theme={Object {}}
+                                        variant="flat"
+                                      >
+                                        <ButtonComp
+                                          classes={
+                                            Object {
+                                              "centered": "ButtonComp-centered-0-3-19",
+                                              "disabled": "ButtonComp-disabled-0-3-32",
+                                              "flat": "ButtonComp-flat-0-3-17",
+                                              "fullWidth": "ButtonComp-fullWidth-0-3-31",
+                                              "green": "ButtonComp-green-0-3-23",
+                                              "grey": "ButtonComp-grey-0-3-21",
+                                              "icon": "ButtonComp-icon-0-3-16",
+                                              "neutral": "ButtonComp-neutral-0-3-22",
+                                              "orange": "ButtonComp-orange-0-3-24",
+                                              "primary": "ButtonComp-primary-0-3-20",
+                                              "raised": "ButtonComp-raised-0-3-18",
+                                              "red": "ButtonComp-red-0-3-26",
+                                              "root": "ButtonComp-root-0-3-15",
+                                              "shadow": "ButtonComp-shadow-0-3-28",
+                                              "text": "ButtonComp-text-0-3-29",
+                                              "textIcon": "ButtonComp-textIcon-0-3-30",
+                                              "transparent": "ButtonComp-transparent-0-3-27",
+                                              "yellow": "ButtonComp-yellow-0-3-25",
+                                            }
+                                          }
+                                          color="transparent"
+                                          onClick={[Function]}
+                                          text="Cancel"
+                                          variant="flat"
+                                        >
+                                          <TouchRipple
+                                            className="ButtonComp-root-0-3-15"
+                                            disabled={false}
+                                            onClick={[Function]}
+                                          >
+                                            <WithStyles(TouchRippleComp)
+                                              className="ButtonComp-root-0-3-15"
+                                              disabled={false}
+                                              innerRef={null}
+                                              jssContext={
+                                                Object {
+                                                  "classNamePrefix": "",
+                                                  "disableStylesGeneration": false,
+                                                }
+                                              }
+                                              onClick={[Function]}
+                                              theme={Object {}}
+                                            >
+                                              <TouchRippleComp
+                                                className="ButtonComp-root-0-3-15"
+                                                classes={
+                                                  Object {
+                                                    "disabled": "TouchRippleComp-disabled-0-3-34",
+                                                    "root": "TouchRippleComp-root-0-3-33",
+                                                  }
+                                                }
+                                                disabled={false}
+                                                onClick={[Function]}
+                                              >
+                                                <div
+                                                  className="ButtonComp-root-0-3-15 TouchRippleComp-root-0-3-33"
+                                                  onClick={[Function]}
+                                                >
+                                                  <div
+                                                    className="ButtonComp-flat-0-3-17 ButtonComp-transparent-0-3-27"
+                                                  >
+                                                    <div
+                                                      className="ButtonComp-text-0-3-29"
+                                                    >
+                                                      <Typography
+                                                        bold={true}
+                                                        textTransform="uppercase"
+                                                        variant="standard"
+                                                      >
+                                                        <WithStyles(TypographyComp)
+                                                          bold={true}
+                                                          innerRef={null}
+                                                          jssContext={
+                                                            Object {
+                                                              "classNamePrefix": "",
+                                                              "disableStylesGeneration": false,
+                                                            }
+                                                          }
+                                                          textTransform="uppercase"
+                                                          theme={Object {}}
+                                                          variant="standard"
+                                                        >
+                                                          <TypographyComp
+                                                            bold={true}
+                                                            classes={
+                                                              Object {
+                                                                "big": "TypographyComp-big-0-3-7",
+                                                                "bold": "TypographyComp-bold-0-3-1",
+                                                                "capitalize": "TypographyComp-capitalize-0-3-12",
+                                                                "distance": "TypographyComp-distance-0-3-6",
+                                                                "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                                                                "giant": "TypographyComp-giant-0-3-9",
+                                                                "heading": "TypographyComp-heading-0-3-8",
+                                                                "italic": "TypographyComp-italic-0-3-3",
+                                                                "lowercase": "TypographyComp-lowercase-0-3-11",
+                                                                "noWrap": "TypographyComp-noWrap-0-3-13",
+                                                                "semiBold": "TypographyComp-semiBold-0-3-2",
+                                                                "standard": "TypographyComp-standard-0-3-5",
+                                                                "subtext": "TypographyComp-subtext-0-3-4",
+                                                                "uppercase": "TypographyComp-uppercase-0-3-10",
+                                                              }
+                                                            }
+                                                            textTransform="uppercase"
+                                                            variant="standard"
+                                                          >
+                                                            <span
+                                                              className="TypographyComp-standard-0-3-5 TypographyComp-uppercase-0-3-10 TypographyComp-bold-0-3-1"
+                                                            >
+                                                              Cancel
+                                                            </span>
+                                                          </TypographyComp>
+                                                        </WithStyles(TypographyComp)>
+                                                      </Typography>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </TouchRippleComp>
+                                            </WithStyles(TouchRippleComp)>
+                                          </TouchRipple>
+                                        </ButtonComp>
+                                      </WithStyles(ButtonComp)>
+                                    </Button>
+                                    <Button
+                                      color="primary"
+                                      disabled={false}
+                                      onClick={[Function]}
+                                      text="Comfirm"
+                                      variant="raised"
+                                    >
+                                      <WithStyles(ButtonComp)
+                                        color="primary"
+                                        disabled={false}
+                                        innerRef={null}
+                                        jssContext={
+                                          Object {
+                                            "classNamePrefix": "",
+                                            "disableStylesGeneration": false,
+                                          }
+                                        }
+                                        onClick={[Function]}
+                                        text="Comfirm"
+                                        theme={Object {}}
+                                        variant="raised"
+                                      >
+                                        <ButtonComp
+                                          classes={
+                                            Object {
+                                              "centered": "ButtonComp-centered-0-3-19",
+                                              "disabled": "ButtonComp-disabled-0-3-32",
+                                              "flat": "ButtonComp-flat-0-3-17",
+                                              "fullWidth": "ButtonComp-fullWidth-0-3-31",
+                                              "green": "ButtonComp-green-0-3-23",
+                                              "grey": "ButtonComp-grey-0-3-21",
+                                              "icon": "ButtonComp-icon-0-3-16",
+                                              "neutral": "ButtonComp-neutral-0-3-22",
+                                              "orange": "ButtonComp-orange-0-3-24",
+                                              "primary": "ButtonComp-primary-0-3-20",
+                                              "raised": "ButtonComp-raised-0-3-18",
+                                              "red": "ButtonComp-red-0-3-26",
+                                              "root": "ButtonComp-root-0-3-15",
+                                              "shadow": "ButtonComp-shadow-0-3-28",
+                                              "text": "ButtonComp-text-0-3-29",
+                                              "textIcon": "ButtonComp-textIcon-0-3-30",
+                                              "transparent": "ButtonComp-transparent-0-3-27",
+                                              "yellow": "ButtonComp-yellow-0-3-25",
+                                            }
+                                          }
+                                          color="primary"
+                                          disabled={false}
+                                          onClick={[Function]}
+                                          text="Comfirm"
+                                          variant="raised"
+                                        >
+                                          <TouchRipple
+                                            className="ButtonComp-root-0-3-15 ButtonComp-shadow-0-3-28"
+                                            disabled={false}
+                                            onClick={[Function]}
+                                          >
+                                            <WithStyles(TouchRippleComp)
+                                              className="ButtonComp-root-0-3-15 ButtonComp-shadow-0-3-28"
+                                              disabled={false}
+                                              innerRef={null}
+                                              jssContext={
+                                                Object {
+                                                  "classNamePrefix": "",
+                                                  "disableStylesGeneration": false,
+                                                }
+                                              }
+                                              onClick={[Function]}
+                                              theme={Object {}}
+                                            >
+                                              <TouchRippleComp
+                                                className="ButtonComp-root-0-3-15 ButtonComp-shadow-0-3-28"
+                                                classes={
+                                                  Object {
+                                                    "disabled": "TouchRippleComp-disabled-0-3-34",
+                                                    "root": "TouchRippleComp-root-0-3-33",
+                                                  }
+                                                }
+                                                disabled={false}
+                                                onClick={[Function]}
+                                              >
+                                                <div
+                                                  className="ButtonComp-root-0-3-15 ButtonComp-shadow-0-3-28 TouchRippleComp-root-0-3-33"
+                                                  onClick={[Function]}
+                                                >
+                                                  <div
+                                                    className="ButtonComp-raised-0-3-18 ButtonComp-primary-0-3-20"
+                                                  >
+                                                    <div
+                                                      className="ButtonComp-text-0-3-29"
+                                                    >
+                                                      <Typography
+                                                        bold={true}
+                                                        textTransform="uppercase"
+                                                        variant="standard"
+                                                      >
+                                                        <WithStyles(TypographyComp)
+                                                          bold={true}
+                                                          innerRef={null}
+                                                          jssContext={
+                                                            Object {
+                                                              "classNamePrefix": "",
+                                                              "disableStylesGeneration": false,
+                                                            }
+                                                          }
+                                                          textTransform="uppercase"
+                                                          theme={Object {}}
+                                                          variant="standard"
+                                                        >
+                                                          <TypographyComp
+                                                            bold={true}
+                                                            classes={
+                                                              Object {
+                                                                "big": "TypographyComp-big-0-3-7",
+                                                                "bold": "TypographyComp-bold-0-3-1",
+                                                                "capitalize": "TypographyComp-capitalize-0-3-12",
+                                                                "distance": "TypographyComp-distance-0-3-6",
+                                                                "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                                                                "giant": "TypographyComp-giant-0-3-9",
+                                                                "heading": "TypographyComp-heading-0-3-8",
+                                                                "italic": "TypographyComp-italic-0-3-3",
+                                                                "lowercase": "TypographyComp-lowercase-0-3-11",
+                                                                "noWrap": "TypographyComp-noWrap-0-3-13",
+                                                                "semiBold": "TypographyComp-semiBold-0-3-2",
+                                                                "standard": "TypographyComp-standard-0-3-5",
+                                                                "subtext": "TypographyComp-subtext-0-3-4",
+                                                                "uppercase": "TypographyComp-uppercase-0-3-10",
+                                                              }
+                                                            }
+                                                            textTransform="uppercase"
+                                                            variant="standard"
+                                                          >
+                                                            <span
+                                                              className="TypographyComp-standard-0-3-5 TypographyComp-uppercase-0-3-10 TypographyComp-bold-0-3-1"
+                                                            >
+                                                              Comfirm
+                                                            </span>
+                                                          </TypographyComp>
+                                                        </WithStyles(TypographyComp)>
+                                                      </Typography>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </TouchRippleComp>
+                                            </WithStyles(TouchRippleComp)>
+                                          </TouchRipple>
+                                        </ButtonComp>
+                                      </WithStyles(ButtonComp)>
+                                    </Button>
+                                  </div>
+                                  <div
+                                    className="FooterWithDoubleConfirmationComp-confirmation-0-3-132"
+                                  >
+                                    <Typography
+                                      bold={true}
+                                      variant="distance"
+                                    >
+                                      <WithStyles(TypographyComp)
+                                        bold={true}
+                                        innerRef={null}
+                                        jssContext={
+                                          Object {
+                                            "classNamePrefix": "",
+                                            "disableStylesGeneration": false,
+                                          }
+                                        }
+                                        theme={Object {}}
+                                        variant="distance"
+                                      >
+                                        <TypographyComp
+                                          bold={true}
+                                          classes={
+                                            Object {
+                                              "big": "TypographyComp-big-0-3-7",
+                                              "bold": "TypographyComp-bold-0-3-1",
+                                              "capitalize": "TypographyComp-capitalize-0-3-12",
+                                              "distance": "TypographyComp-distance-0-3-6",
+                                              "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                                              "giant": "TypographyComp-giant-0-3-9",
+                                              "heading": "TypographyComp-heading-0-3-8",
+                                              "italic": "TypographyComp-italic-0-3-3",
+                                              "lowercase": "TypographyComp-lowercase-0-3-11",
+                                              "noWrap": "TypographyComp-noWrap-0-3-13",
+                                              "semiBold": "TypographyComp-semiBold-0-3-2",
+                                              "standard": "TypographyComp-standard-0-3-5",
+                                              "subtext": "TypographyComp-subtext-0-3-4",
+                                              "uppercase": "TypographyComp-uppercase-0-3-10",
+                                            }
+                                          }
+                                          variant="distance"
+                                        >
+                                          <span
+                                            className="TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
+                                          >
+                                            Are you sure?
+                                          </span>
+                                        </TypographyComp>
+                                      </WithStyles(TypographyComp)>
+                                    </Typography>
+                                    <Button
+                                      color="grey"
+                                      onClick={[Function]}
+                                      text="No"
+                                      variant="raised"
+                                    >
+                                      <WithStyles(ButtonComp)
+                                        color="grey"
+                                        innerRef={null}
+                                        jssContext={
+                                          Object {
+                                            "classNamePrefix": "",
+                                            "disableStylesGeneration": false,
+                                          }
+                                        }
+                                        onClick={[Function]}
+                                        text="No"
+                                        theme={Object {}}
+                                        variant="raised"
+                                      >
+                                        <ButtonComp
+                                          classes={
+                                            Object {
+                                              "centered": "ButtonComp-centered-0-3-19",
+                                              "disabled": "ButtonComp-disabled-0-3-32",
+                                              "flat": "ButtonComp-flat-0-3-17",
+                                              "fullWidth": "ButtonComp-fullWidth-0-3-31",
+                                              "green": "ButtonComp-green-0-3-23",
+                                              "grey": "ButtonComp-grey-0-3-21",
+                                              "icon": "ButtonComp-icon-0-3-16",
+                                              "neutral": "ButtonComp-neutral-0-3-22",
+                                              "orange": "ButtonComp-orange-0-3-24",
+                                              "primary": "ButtonComp-primary-0-3-20",
+                                              "raised": "ButtonComp-raised-0-3-18",
+                                              "red": "ButtonComp-red-0-3-26",
+                                              "root": "ButtonComp-root-0-3-15",
+                                              "shadow": "ButtonComp-shadow-0-3-28",
+                                              "text": "ButtonComp-text-0-3-29",
+                                              "textIcon": "ButtonComp-textIcon-0-3-30",
+                                              "transparent": "ButtonComp-transparent-0-3-27",
+                                              "yellow": "ButtonComp-yellow-0-3-25",
+                                            }
+                                          }
+                                          color="grey"
+                                          onClick={[Function]}
+                                          text="No"
+                                          variant="raised"
+                                        >
+                                          <TouchRipple
+                                            className="ButtonComp-root-0-3-15 ButtonComp-shadow-0-3-28"
+                                            disabled={false}
+                                            onClick={[Function]}
+                                          >
+                                            <WithStyles(TouchRippleComp)
+                                              className="ButtonComp-root-0-3-15 ButtonComp-shadow-0-3-28"
+                                              disabled={false}
+                                              innerRef={null}
+                                              jssContext={
+                                                Object {
+                                                  "classNamePrefix": "",
+                                                  "disableStylesGeneration": false,
+                                                }
+                                              }
+                                              onClick={[Function]}
+                                              theme={Object {}}
+                                            >
+                                              <TouchRippleComp
+                                                className="ButtonComp-root-0-3-15 ButtonComp-shadow-0-3-28"
+                                                classes={
+                                                  Object {
+                                                    "disabled": "TouchRippleComp-disabled-0-3-34",
+                                                    "root": "TouchRippleComp-root-0-3-33",
+                                                  }
+                                                }
+                                                disabled={false}
+                                                onClick={[Function]}
+                                              >
+                                                <div
+                                                  className="ButtonComp-root-0-3-15 ButtonComp-shadow-0-3-28 TouchRippleComp-root-0-3-33"
+                                                  onClick={[Function]}
+                                                >
+                                                  <div
+                                                    className="ButtonComp-raised-0-3-18 ButtonComp-grey-0-3-21"
+                                                  >
+                                                    <div
+                                                      className="ButtonComp-text-0-3-29"
+                                                    >
+                                                      <Typography
+                                                        bold={true}
+                                                        textTransform="uppercase"
+                                                        variant="standard"
+                                                      >
+                                                        <WithStyles(TypographyComp)
+                                                          bold={true}
+                                                          innerRef={null}
+                                                          jssContext={
+                                                            Object {
+                                                              "classNamePrefix": "",
+                                                              "disableStylesGeneration": false,
+                                                            }
+                                                          }
+                                                          textTransform="uppercase"
+                                                          theme={Object {}}
+                                                          variant="standard"
+                                                        >
+                                                          <TypographyComp
+                                                            bold={true}
+                                                            classes={
+                                                              Object {
+                                                                "big": "TypographyComp-big-0-3-7",
+                                                                "bold": "TypographyComp-bold-0-3-1",
+                                                                "capitalize": "TypographyComp-capitalize-0-3-12",
+                                                                "distance": "TypographyComp-distance-0-3-6",
+                                                                "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                                                                "giant": "TypographyComp-giant-0-3-9",
+                                                                "heading": "TypographyComp-heading-0-3-8",
+                                                                "italic": "TypographyComp-italic-0-3-3",
+                                                                "lowercase": "TypographyComp-lowercase-0-3-11",
+                                                                "noWrap": "TypographyComp-noWrap-0-3-13",
+                                                                "semiBold": "TypographyComp-semiBold-0-3-2",
+                                                                "standard": "TypographyComp-standard-0-3-5",
+                                                                "subtext": "TypographyComp-subtext-0-3-4",
+                                                                "uppercase": "TypographyComp-uppercase-0-3-10",
+                                                              }
+                                                            }
+                                                            textTransform="uppercase"
+                                                            variant="standard"
+                                                          >
+                                                            <span
+                                                              className="TypographyComp-standard-0-3-5 TypographyComp-uppercase-0-3-10 TypographyComp-bold-0-3-1"
+                                                            >
+                                                              No
+                                                            </span>
+                                                          </TypographyComp>
+                                                        </WithStyles(TypographyComp)>
+                                                      </Typography>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </TouchRippleComp>
+                                            </WithStyles(TouchRippleComp)>
+                                          </TouchRipple>
+                                        </ButtonComp>
+                                      </WithStyles(ButtonComp)>
+                                    </Button>
+                                    <Button
+                                      color="grey"
+                                      onClick={[Function]}
+                                      text="Yes"
+                                      variant="raised"
+                                    >
+                                      <WithStyles(ButtonComp)
+                                        color="grey"
+                                        innerRef={null}
+                                        jssContext={
+                                          Object {
+                                            "classNamePrefix": "",
+                                            "disableStylesGeneration": false,
+                                          }
+                                        }
+                                        onClick={[Function]}
+                                        text="Yes"
+                                        theme={Object {}}
+                                        variant="raised"
+                                      >
+                                        <ButtonComp
+                                          classes={
+                                            Object {
+                                              "centered": "ButtonComp-centered-0-3-19",
+                                              "disabled": "ButtonComp-disabled-0-3-32",
+                                              "flat": "ButtonComp-flat-0-3-17",
+                                              "fullWidth": "ButtonComp-fullWidth-0-3-31",
+                                              "green": "ButtonComp-green-0-3-23",
+                                              "grey": "ButtonComp-grey-0-3-21",
+                                              "icon": "ButtonComp-icon-0-3-16",
+                                              "neutral": "ButtonComp-neutral-0-3-22",
+                                              "orange": "ButtonComp-orange-0-3-24",
+                                              "primary": "ButtonComp-primary-0-3-20",
+                                              "raised": "ButtonComp-raised-0-3-18",
+                                              "red": "ButtonComp-red-0-3-26",
+                                              "root": "ButtonComp-root-0-3-15",
+                                              "shadow": "ButtonComp-shadow-0-3-28",
+                                              "text": "ButtonComp-text-0-3-29",
+                                              "textIcon": "ButtonComp-textIcon-0-3-30",
+                                              "transparent": "ButtonComp-transparent-0-3-27",
+                                              "yellow": "ButtonComp-yellow-0-3-25",
+                                            }
+                                          }
+                                          color="grey"
+                                          onClick={[Function]}
+                                          text="Yes"
+                                          variant="raised"
+                                        >
+                                          <TouchRipple
+                                            className="ButtonComp-root-0-3-15 ButtonComp-shadow-0-3-28"
+                                            disabled={false}
+                                            onClick={[Function]}
+                                          >
+                                            <WithStyles(TouchRippleComp)
+                                              className="ButtonComp-root-0-3-15 ButtonComp-shadow-0-3-28"
+                                              disabled={false}
+                                              innerRef={null}
+                                              jssContext={
+                                                Object {
+                                                  "classNamePrefix": "",
+                                                  "disableStylesGeneration": false,
+                                                }
+                                              }
+                                              onClick={[Function]}
+                                              theme={Object {}}
+                                            >
+                                              <TouchRippleComp
+                                                className="ButtonComp-root-0-3-15 ButtonComp-shadow-0-3-28"
+                                                classes={
+                                                  Object {
+                                                    "disabled": "TouchRippleComp-disabled-0-3-34",
+                                                    "root": "TouchRippleComp-root-0-3-33",
+                                                  }
+                                                }
+                                                disabled={false}
+                                                onClick={[Function]}
+                                              >
+                                                <div
+                                                  className="ButtonComp-root-0-3-15 ButtonComp-shadow-0-3-28 TouchRippleComp-root-0-3-33"
+                                                  onClick={[Function]}
+                                                >
+                                                  <div
+                                                    className="ButtonComp-raised-0-3-18 ButtonComp-grey-0-3-21"
+                                                  >
+                                                    <div
+                                                      className="ButtonComp-text-0-3-29"
+                                                    >
+                                                      <Typography
+                                                        bold={true}
+                                                        textTransform="uppercase"
+                                                        variant="standard"
+                                                      >
+                                                        <WithStyles(TypographyComp)
+                                                          bold={true}
+                                                          innerRef={null}
+                                                          jssContext={
+                                                            Object {
+                                                              "classNamePrefix": "",
+                                                              "disableStylesGeneration": false,
+                                                            }
+                                                          }
+                                                          textTransform="uppercase"
+                                                          theme={Object {}}
+                                                          variant="standard"
+                                                        >
+                                                          <TypographyComp
+                                                            bold={true}
+                                                            classes={
+                                                              Object {
+                                                                "big": "TypographyComp-big-0-3-7",
+                                                                "bold": "TypographyComp-bold-0-3-1",
+                                                                "capitalize": "TypographyComp-capitalize-0-3-12",
+                                                                "distance": "TypographyComp-distance-0-3-6",
+                                                                "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                                                                "giant": "TypographyComp-giant-0-3-9",
+                                                                "heading": "TypographyComp-heading-0-3-8",
+                                                                "italic": "TypographyComp-italic-0-3-3",
+                                                                "lowercase": "TypographyComp-lowercase-0-3-11",
+                                                                "noWrap": "TypographyComp-noWrap-0-3-13",
+                                                                "semiBold": "TypographyComp-semiBold-0-3-2",
+                                                                "standard": "TypographyComp-standard-0-3-5",
+                                                                "subtext": "TypographyComp-subtext-0-3-4",
+                                                                "uppercase": "TypographyComp-uppercase-0-3-10",
+                                                              }
+                                                            }
+                                                            textTransform="uppercase"
+                                                            variant="standard"
+                                                          >
+                                                            <span
+                                                              className="TypographyComp-standard-0-3-5 TypographyComp-uppercase-0-3-10 TypographyComp-bold-0-3-1"
+                                                            >
+                                                              Yes
+                                                            </span>
+                                                          </TypographyComp>
+                                                        </WithStyles(TypographyComp)>
+                                                      </Typography>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </TouchRippleComp>
+                                            </WithStyles(TouchRippleComp)>
+                                          </TouchRipple>
+                                        </ButtonComp>
+                                      </WithStyles(ButtonComp)>
+                                    </Button>
+                                  </div>
+                                </div>
+                              </Transition>
+                            </div>
+                          </FooterWithDoubleConfirmationComp>
+                        </WithStyles(FooterWithDoubleConfirmationComp)>
+                      </FooterWithDoubleConfirmation>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </FluidDialogComp>
+          </WithStyles(FluidDialogComp)>
+        </FluidDialog>
+      </DialogComp>
+    </WithStyles(DialogComp)>
+  </Dialog>
+</DialogFooterWithDoubleConfirmation>
+`;
