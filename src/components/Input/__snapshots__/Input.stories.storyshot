@@ -1,0 +1,605 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Input Type number 1`] = `
+<Input
+  type="number"
+>
+  <WithStyles(InputComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    theme={Object {}}
+    type="number"
+  >
+    <InputComp
+      classes={
+        Object {
+          "error": "InputComp-error-0-3-107",
+          "fullWidth": "InputComp-fullWidth-0-3-108",
+          "root": "InputComp-root-0-3-106",
+        }
+      }
+      type="number"
+    >
+      <input
+        className="InputComp-root-0-3-106"
+        type="number"
+      />
+    </InputComp>
+  </WithStyles(InputComp)>
+</Input>
+`;
+
+exports[`Storyshots Components/Input Type text 1`] = `
+<Input
+  type="text"
+>
+  <WithStyles(InputComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    theme={Object {}}
+    type="text"
+  >
+    <InputComp
+      classes={
+        Object {
+          "error": "InputComp-error-0-3-107",
+          "fullWidth": "InputComp-fullWidth-0-3-108",
+          "root": "InputComp-root-0-3-106",
+        }
+      }
+      type="text"
+    >
+      <input
+        className="InputComp-root-0-3-106"
+        type="text"
+      />
+    </InputComp>
+  </WithStyles(InputComp)>
+</Input>
+`;
+
+exports[`Storyshots Components/Input autoFocus 1`] = `
+<Input
+  autoFocus={true}
+  type="text"
+>
+  <WithStyles(InputComp)
+    autoFocus={true}
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    theme={Object {}}
+    type="text"
+  >
+    <InputComp
+      autoFocus={true}
+      classes={
+        Object {
+          "error": "InputComp-error-0-3-107",
+          "fullWidth": "InputComp-fullWidth-0-3-108",
+          "root": "InputComp-root-0-3-106",
+        }
+      }
+      type="text"
+    >
+      <input
+        className="InputComp-root-0-3-106"
+        type="text"
+      />
+    </InputComp>
+  </WithStyles(InputComp)>
+</Input>
+`;
+
+exports[`Storyshots Components/Input blurOnEnter 1`] = `
+<Input
+  blurOnEnter={true}
+  type="text"
+>
+  <WithStyles(InputComp)
+    blurOnEnter={true}
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    theme={Object {}}
+    type="text"
+  >
+    <InputComp
+      blurOnEnter={true}
+      classes={
+        Object {
+          "error": "InputComp-error-0-3-107",
+          "fullWidth": "InputComp-fullWidth-0-3-108",
+          "root": "InputComp-root-0-3-106",
+        }
+      }
+      type="text"
+    >
+      <input
+        className="InputComp-root-0-3-106"
+        onKeyDown={[Function]}
+        type="text"
+      />
+    </InputComp>
+  </WithStyles(InputComp)>
+</Input>
+`;
+
+exports[`Storyshots Components/Input disabled 1`] = `
+<Input
+  disabled={true}
+  type="text"
+  value="Text"
+>
+  <WithStyles(InputComp)
+    disabled={true}
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    theme={Object {}}
+    type="text"
+    value="Text"
+  >
+    <InputComp
+      classes={
+        Object {
+          "error": "InputComp-error-0-3-107",
+          "fullWidth": "InputComp-fullWidth-0-3-108",
+          "root": "InputComp-root-0-3-106",
+        }
+      }
+      disabled={true}
+      type="text"
+      value="Text"
+    >
+      <input
+        className="InputComp-root-0-3-106"
+        disabled={true}
+        type="text"
+        value="Text"
+      />
+    </InputComp>
+  </WithStyles(InputComp)>
+</Input>
+`;
+
+exports[`Storyshots Components/Input error 1`] = `
+<Input
+  error={true}
+  type="text"
+>
+  <WithStyles(InputComp)
+    error={true}
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    theme={Object {}}
+    type="text"
+  >
+    <InputComp
+      classes={
+        Object {
+          "error": "InputComp-error-0-3-107",
+          "fullWidth": "InputComp-fullWidth-0-3-108",
+          "root": "InputComp-root-0-3-106",
+        }
+      }
+      error={true}
+      type="text"
+    >
+      <input
+        className="InputComp-error-0-3-107"
+        type="text"
+      />
+    </InputComp>
+  </WithStyles(InputComp)>
+</Input>
+`;
+
+exports[`Storyshots Components/Input fullWidth 1`] = `
+<Input
+  fullWidth={true}
+  type="text"
+>
+  <WithStyles(InputComp)
+    fullWidth={true}
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    theme={Object {}}
+    type="text"
+  >
+    <InputComp
+      classes={
+        Object {
+          "error": "InputComp-error-0-3-107",
+          "fullWidth": "InputComp-fullWidth-0-3-108",
+          "root": "InputComp-root-0-3-106",
+        }
+      }
+      fullWidth={true}
+      type="text"
+    >
+      <input
+        className="InputComp-fullWidth-0-3-108 InputComp-root-0-3-106"
+        type="text"
+      />
+    </InputComp>
+  </WithStyles(InputComp)>
+</Input>
+`;
+
+exports[`Storyshots Components/Input maxLength 1`] = `
+<Input
+  maxLength={3}
+  type="text"
+>
+  <WithStyles(InputComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    maxLength={3}
+    theme={Object {}}
+    type="text"
+  >
+    <InputComp
+      classes={
+        Object {
+          "error": "InputComp-error-0-3-107",
+          "fullWidth": "InputComp-fullWidth-0-3-108",
+          "root": "InputComp-root-0-3-106",
+        }
+      }
+      maxLength={3}
+      type="text"
+    >
+      <input
+        className="InputComp-root-0-3-106"
+        maxLength={3}
+        type="text"
+      />
+    </InputComp>
+  </WithStyles(InputComp)>
+</Input>
+`;
+
+exports[`Storyshots Components/Input onBlur 1`] = `
+<Input
+  onBlur={[Function]}
+  type="text"
+>
+  <WithStyles(InputComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onBlur={[Function]}
+    theme={Object {}}
+    type="text"
+  >
+    <InputComp
+      classes={
+        Object {
+          "error": "InputComp-error-0-3-107",
+          "fullWidth": "InputComp-fullWidth-0-3-108",
+          "root": "InputComp-root-0-3-106",
+        }
+      }
+      onBlur={[Function]}
+      type="text"
+    >
+      <input
+        className="InputComp-root-0-3-106"
+        onBlur={[Function]}
+        type="text"
+      />
+    </InputComp>
+  </WithStyles(InputComp)>
+</Input>
+`;
+
+exports[`Storyshots Components/Input onChange 1`] = `
+<Input
+  onChange={[Function]}
+  type="text"
+>
+  <WithStyles(InputComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onChange={[Function]}
+    theme={Object {}}
+    type="text"
+  >
+    <InputComp
+      classes={
+        Object {
+          "error": "InputComp-error-0-3-107",
+          "fullWidth": "InputComp-fullWidth-0-3-108",
+          "root": "InputComp-root-0-3-106",
+        }
+      }
+      onChange={[Function]}
+      type="text"
+    >
+      <input
+        className="InputComp-root-0-3-106"
+        onChange={[Function]}
+        type="text"
+      />
+    </InputComp>
+  </WithStyles(InputComp)>
+</Input>
+`;
+
+exports[`Storyshots Components/Input onClick 1`] = `
+<Input
+  onClick={[Function]}
+  type="text"
+>
+  <WithStyles(InputComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onClick={[Function]}
+    theme={Object {}}
+    type="text"
+  >
+    <InputComp
+      classes={
+        Object {
+          "error": "InputComp-error-0-3-107",
+          "fullWidth": "InputComp-fullWidth-0-3-108",
+          "root": "InputComp-root-0-3-106",
+        }
+      }
+      onClick={[Function]}
+      type="text"
+    >
+      <input
+        className="InputComp-root-0-3-106"
+        onClick={[Function]}
+        type="text"
+      />
+    </InputComp>
+  </WithStyles(InputComp)>
+</Input>
+`;
+
+exports[`Storyshots Components/Input onFocus 1`] = `
+<Input
+  onFocus={[Function]}
+  type="text"
+>
+  <WithStyles(InputComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onFocus={[Function]}
+    theme={Object {}}
+    type="text"
+  >
+    <InputComp
+      classes={
+        Object {
+          "error": "InputComp-error-0-3-107",
+          "fullWidth": "InputComp-fullWidth-0-3-108",
+          "root": "InputComp-root-0-3-106",
+        }
+      }
+      onFocus={[Function]}
+      type="text"
+    >
+      <input
+        className="InputComp-root-0-3-106"
+        onFocus={[Function]}
+        type="text"
+      />
+    </InputComp>
+  </WithStyles(InputComp)>
+</Input>
+`;
+
+exports[`Storyshots Components/Input onKeyDOwn 1`] = `
+<Input
+  onKeyDown={[Function]}
+  type="text"
+>
+  <WithStyles(InputComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onKeyDown={[Function]}
+    theme={Object {}}
+    type="text"
+  >
+    <InputComp
+      classes={
+        Object {
+          "error": "InputComp-error-0-3-107",
+          "fullWidth": "InputComp-fullWidth-0-3-108",
+          "root": "InputComp-root-0-3-106",
+        }
+      }
+      onKeyDown={[Function]}
+      type="text"
+    >
+      <input
+        className="InputComp-root-0-3-106"
+        type="text"
+      />
+    </InputComp>
+  </WithStyles(InputComp)>
+</Input>
+`;
+
+exports[`Storyshots Components/Input placeholder 1`] = `
+<Input
+  placeholder="Placeholder"
+  type="text"
+>
+  <WithStyles(InputComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    placeholder="Placeholder"
+    theme={Object {}}
+    type="text"
+  >
+    <InputComp
+      classes={
+        Object {
+          "error": "InputComp-error-0-3-107",
+          "fullWidth": "InputComp-fullWidth-0-3-108",
+          "root": "InputComp-root-0-3-106",
+        }
+      }
+      placeholder="Placeholder"
+      type="text"
+    >
+      <input
+        className="InputComp-root-0-3-106"
+        placeholder="Placeholder"
+        type="text"
+      />
+    </InputComp>
+  </WithStyles(InputComp)>
+</Input>
+`;
+
+exports[`Storyshots Components/Input readOnly 1`] = `
+<Input
+  readOnly={true}
+  type="text"
+  value="Read only"
+>
+  <WithStyles(InputComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    readOnly={true}
+    theme={Object {}}
+    type="text"
+    value="Read only"
+  >
+    <InputComp
+      classes={
+        Object {
+          "error": "InputComp-error-0-3-107",
+          "fullWidth": "InputComp-fullWidth-0-3-108",
+          "root": "InputComp-root-0-3-106",
+        }
+      }
+      readOnly={true}
+      type="text"
+      value="Read only"
+    >
+      <input
+        className="InputComp-root-0-3-106"
+        readOnly={true}
+        type="text"
+        value="Read only"
+      />
+    </InputComp>
+  </WithStyles(InputComp)>
+</Input>
+`;
+
+exports[`Storyshots Components/Input value 1`] = `
+<Input
+  type="text"
+  value="Text"
+>
+  <WithStyles(InputComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    theme={Object {}}
+    type="text"
+    value="Text"
+  >
+    <InputComp
+      classes={
+        Object {
+          "error": "InputComp-error-0-3-107",
+          "fullWidth": "InputComp-fullWidth-0-3-108",
+          "root": "InputComp-root-0-3-106",
+        }
+      }
+      type="text"
+      value="Text"
+    >
+      <input
+        className="InputComp-root-0-3-106"
+        type="text"
+        value="Text"
+      />
+    </InputComp>
+  </WithStyles(InputComp)>
+</Input>
+`;

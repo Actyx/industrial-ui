@@ -1,0 +1,783 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/ClearableInput Empty value forSearch 1`] = `
+<ClearableInput
+  forSearch={true}
+  onChange={[Function]}
+  onClearRequested={[Function]}
+  value=""
+>
+  <WithStyles(ClearableInputComp)
+    forSearch={true}
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onChange={[Function]}
+    onClearRequested={[Function]}
+    theme={Object {}}
+    value=""
+  >
+    <ClearableInputComp
+      classes={
+        Object {
+          "icon": "ClearableInputComp-icon-0-3-105",
+          "input": "ClearableInputComp-input-0-3-101",
+          "longInput": "ClearableInputComp-longInput-0-3-102",
+          "root": "ClearableInputComp-root-0-3-100",
+          "searchField": "ClearableInputComp-searchField-0-3-103",
+          "searchFieldBorders": "ClearableInputComp-searchFieldBorders-0-3-104",
+        }
+      }
+      forSearch={true}
+      onChange={[Function]}
+      onClearRequested={[Function]}
+      value=""
+    >
+      <div
+        className="ClearableInputComp-root-0-3-100 ClearableInputComp-searchFieldBorders-0-3-104"
+      >
+        <div
+          className="ClearableInputComp-input-0-3-101"
+        >
+          <Input
+            blurOnEnter={true}
+            className="ClearableInputComp-input-0-3-101 ClearableInputComp-searchField-0-3-103"
+            disabled={false}
+            fullWidth={true}
+            onChange={[Function]}
+            type="text"
+            value=""
+          >
+            <WithStyles(InputComp)
+              blurOnEnter={true}
+              className="ClearableInputComp-input-0-3-101 ClearableInputComp-searchField-0-3-103"
+              disabled={false}
+              fullWidth={true}
+              innerRef={null}
+              jssContext={
+                Object {
+                  "classNamePrefix": "",
+                  "disableStylesGeneration": false,
+                }
+              }
+              onChange={[Function]}
+              theme={Object {}}
+              type="text"
+              value=""
+            >
+              <InputComp
+                blurOnEnter={true}
+                className="ClearableInputComp-input-0-3-101 ClearableInputComp-searchField-0-3-103"
+                classes={
+                  Object {
+                    "error": "InputComp-error-0-3-107",
+                    "fullWidth": "InputComp-fullWidth-0-3-108",
+                    "root": "InputComp-root-0-3-106",
+                  }
+                }
+                disabled={false}
+                fullWidth={true}
+                onChange={[Function]}
+                type="text"
+                value=""
+              >
+                <input
+                  className="ClearableInputComp-input-0-3-101 ClearableInputComp-searchField-0-3-103 InputComp-fullWidth-0-3-108 InputComp-root-0-3-106"
+                  disabled={false}
+                  onChange={[Function]}
+                  onKeyDown={[Function]}
+                  type="text"
+                  value=""
+                />
+              </InputComp>
+            </WithStyles(InputComp)>
+          </Input>
+        </div>
+        <div
+          className="ClearableInputComp-icon-0-3-105"
+          onClick={[Function]}
+        >
+          <MUIcon
+            color="#616161"
+            fontSize={40}
+            type="search"
+          >
+            <WithStyles(MUIconComp)
+              color="#616161"
+              fontSize={40}
+              innerRef={null}
+              jssContext={
+                Object {
+                  "classNamePrefix": "",
+                  "disableStylesGeneration": false,
+                }
+              }
+              theme={Object {}}
+              type="search"
+            >
+              <MUIconComp
+                classes={
+                  Object {
+                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d34-0-3-111",
+                  }
+                }
+                color="#616161"
+                fontSize={40}
+                type="search"
+              >
+                <i
+                  className="MUIconComp-root-0-3-35 MUIconComp-root-d34-0-3-111"
+                >
+                  search
+                </i>
+              </MUIconComp>
+            </WithStyles(MUIconComp)>
+          </MUIcon>
+        </div>
+      </div>
+    </ClearableInputComp>
+  </WithStyles(ClearableInputComp)>
+</ClearableInput>
+`;
+
+exports[`Storyshots Components/ClearableInput Interactable 1`] = `
+<Comp>
+  <ClearableInput
+    onChange={[Function]}
+    onClearRequested={[Function]}
+    value=""
+  >
+    <WithStyles(ClearableInputComp)
+      innerRef={null}
+      jssContext={
+        Object {
+          "classNamePrefix": "",
+          "disableStylesGeneration": false,
+        }
+      }
+      onChange={[Function]}
+      onClearRequested={[Function]}
+      theme={Object {}}
+      value=""
+    >
+      <ClearableInputComp
+        classes={
+          Object {
+            "icon": "ClearableInputComp-icon-0-3-105",
+            "input": "ClearableInputComp-input-0-3-101",
+            "longInput": "ClearableInputComp-longInput-0-3-102",
+            "root": "ClearableInputComp-root-0-3-100",
+            "searchField": "ClearableInputComp-searchField-0-3-103",
+            "searchFieldBorders": "ClearableInputComp-searchFieldBorders-0-3-104",
+          }
+        }
+        onChange={[Function]}
+        onClearRequested={[Function]}
+        value=""
+      >
+        <div
+          className="ClearableInputComp-root-0-3-100"
+        >
+          <div
+            className="ClearableInputComp-input-0-3-101"
+          >
+            <Input
+              blurOnEnter={true}
+              className="ClearableInputComp-input-0-3-101"
+              disabled={false}
+              fullWidth={true}
+              onChange={[Function]}
+              type="text"
+              value=""
+            >
+              <WithStyles(InputComp)
+                blurOnEnter={true}
+                className="ClearableInputComp-input-0-3-101"
+                disabled={false}
+                fullWidth={true}
+                innerRef={null}
+                jssContext={
+                  Object {
+                    "classNamePrefix": "",
+                    "disableStylesGeneration": false,
+                  }
+                }
+                onChange={[Function]}
+                theme={Object {}}
+                type="text"
+                value=""
+              >
+                <InputComp
+                  blurOnEnter={true}
+                  className="ClearableInputComp-input-0-3-101"
+                  classes={
+                    Object {
+                      "error": "InputComp-error-0-3-107",
+                      "fullWidth": "InputComp-fullWidth-0-3-108",
+                      "root": "InputComp-root-0-3-106",
+                    }
+                  }
+                  disabled={false}
+                  fullWidth={true}
+                  onChange={[Function]}
+                  type="text"
+                  value=""
+                >
+                  <input
+                    className="ClearableInputComp-input-0-3-101 InputComp-fullWidth-0-3-108 InputComp-root-0-3-106"
+                    disabled={false}
+                    onChange={[Function]}
+                    onKeyDown={[Function]}
+                    type="text"
+                    value=""
+                  />
+                </InputComp>
+              </WithStyles(InputComp)>
+            </Input>
+          </div>
+          <div
+            className="ClearableInputComp-icon-0-3-105"
+            onClick={[Function]}
+          />
+        </div>
+      </ClearableInputComp>
+    </WithStyles(ClearableInputComp)>
+  </ClearableInput>
+</Comp>
+`;
+
+exports[`Storyshots Components/ClearableInput Interactable long forSearch 1`] = `
+<Comp>
+  <ClearableInput
+    forSearch={true}
+    long={true}
+    onChange={[Function]}
+    onClearRequested={[Function]}
+    value=""
+  >
+    <WithStyles(ClearableInputComp)
+      forSearch={true}
+      innerRef={null}
+      jssContext={
+        Object {
+          "classNamePrefix": "",
+          "disableStylesGeneration": false,
+        }
+      }
+      long={true}
+      onChange={[Function]}
+      onClearRequested={[Function]}
+      theme={Object {}}
+      value=""
+    >
+      <ClearableInputComp
+        classes={
+          Object {
+            "icon": "ClearableInputComp-icon-0-3-105",
+            "input": "ClearableInputComp-input-0-3-101",
+            "longInput": "ClearableInputComp-longInput-0-3-102",
+            "root": "ClearableInputComp-root-0-3-100",
+            "searchField": "ClearableInputComp-searchField-0-3-103",
+            "searchFieldBorders": "ClearableInputComp-searchFieldBorders-0-3-104",
+          }
+        }
+        forSearch={true}
+        long={true}
+        onChange={[Function]}
+        onClearRequested={[Function]}
+        value=""
+      >
+        <div
+          className="ClearableInputComp-root-0-3-100 ClearableInputComp-searchFieldBorders-0-3-104"
+        >
+          <div
+            className="ClearableInputComp-input-0-3-101"
+          >
+            <Input
+              blurOnEnter={true}
+              className="ClearableInputComp-input-0-3-101 ClearableInputComp-longInput-0-3-102 ClearableInputComp-searchField-0-3-103"
+              disabled={false}
+              fullWidth={true}
+              onChange={[Function]}
+              type="text"
+              value=""
+            >
+              <WithStyles(InputComp)
+                blurOnEnter={true}
+                className="ClearableInputComp-input-0-3-101 ClearableInputComp-longInput-0-3-102 ClearableInputComp-searchField-0-3-103"
+                disabled={false}
+                fullWidth={true}
+                innerRef={null}
+                jssContext={
+                  Object {
+                    "classNamePrefix": "",
+                    "disableStylesGeneration": false,
+                  }
+                }
+                onChange={[Function]}
+                theme={Object {}}
+                type="text"
+                value=""
+              >
+                <InputComp
+                  blurOnEnter={true}
+                  className="ClearableInputComp-input-0-3-101 ClearableInputComp-longInput-0-3-102 ClearableInputComp-searchField-0-3-103"
+                  classes={
+                    Object {
+                      "error": "InputComp-error-0-3-107",
+                      "fullWidth": "InputComp-fullWidth-0-3-108",
+                      "root": "InputComp-root-0-3-106",
+                    }
+                  }
+                  disabled={false}
+                  fullWidth={true}
+                  onChange={[Function]}
+                  type="text"
+                  value=""
+                >
+                  <input
+                    className="ClearableInputComp-input-0-3-101 ClearableInputComp-longInput-0-3-102 ClearableInputComp-searchField-0-3-103 InputComp-fullWidth-0-3-108 InputComp-root-0-3-106"
+                    disabled={false}
+                    onChange={[Function]}
+                    onKeyDown={[Function]}
+                    type="text"
+                    value=""
+                  />
+                </InputComp>
+              </WithStyles(InputComp)>
+            </Input>
+          </div>
+          <div
+            className="ClearableInputComp-icon-0-3-105"
+            onClick={[Function]}
+          >
+            <MUIcon
+              color="#616161"
+              fontSize={40}
+              type="search"
+            >
+              <WithStyles(MUIconComp)
+                color="#616161"
+                fontSize={40}
+                innerRef={null}
+                jssContext={
+                  Object {
+                    "classNamePrefix": "",
+                    "disableStylesGeneration": false,
+                  }
+                }
+                theme={Object {}}
+                type="search"
+              >
+                <MUIconComp
+                  classes={
+                    Object {
+                      "root": "MUIconComp-root-0-3-35 MUIconComp-root-d35-0-3-112",
+                    }
+                  }
+                  color="#616161"
+                  fontSize={40}
+                  type="search"
+                >
+                  <i
+                    className="MUIconComp-root-0-3-35 MUIconComp-root-d35-0-3-112"
+                  >
+                    search
+                  </i>
+                </MUIconComp>
+              </WithStyles(MUIconComp)>
+            </MUIcon>
+          </div>
+        </div>
+      </ClearableInputComp>
+    </WithStyles(ClearableInputComp)>
+  </ClearableInput>
+</Comp>
+`;
+
+exports[`Storyshots Components/ClearableInput Long 1`] = `
+<ClearableInput
+  long={true}
+  onChange={[Function]}
+  onClearRequested={[Function]}
+  value="100"
+>
+  <WithStyles(ClearableInputComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    long={true}
+    onChange={[Function]}
+    onClearRequested={[Function]}
+    theme={Object {}}
+    value="100"
+  >
+    <ClearableInputComp
+      classes={
+        Object {
+          "icon": "ClearableInputComp-icon-0-3-105",
+          "input": "ClearableInputComp-input-0-3-101",
+          "longInput": "ClearableInputComp-longInput-0-3-102",
+          "root": "ClearableInputComp-root-0-3-100",
+          "searchField": "ClearableInputComp-searchField-0-3-103",
+          "searchFieldBorders": "ClearableInputComp-searchFieldBorders-0-3-104",
+        }
+      }
+      long={true}
+      onChange={[Function]}
+      onClearRequested={[Function]}
+      value="100"
+    >
+      <div
+        className="ClearableInputComp-root-0-3-100"
+      >
+        <div
+          className="ClearableInputComp-input-0-3-101"
+        >
+          <Input
+            blurOnEnter={true}
+            className="ClearableInputComp-input-0-3-101 ClearableInputComp-longInput-0-3-102"
+            disabled={false}
+            fullWidth={true}
+            onChange={[Function]}
+            type="text"
+            value="100"
+          >
+            <WithStyles(InputComp)
+              blurOnEnter={true}
+              className="ClearableInputComp-input-0-3-101 ClearableInputComp-longInput-0-3-102"
+              disabled={false}
+              fullWidth={true}
+              innerRef={null}
+              jssContext={
+                Object {
+                  "classNamePrefix": "",
+                  "disableStylesGeneration": false,
+                }
+              }
+              onChange={[Function]}
+              theme={Object {}}
+              type="text"
+              value="100"
+            >
+              <InputComp
+                blurOnEnter={true}
+                className="ClearableInputComp-input-0-3-101 ClearableInputComp-longInput-0-3-102"
+                classes={
+                  Object {
+                    "error": "InputComp-error-0-3-107",
+                    "fullWidth": "InputComp-fullWidth-0-3-108",
+                    "root": "InputComp-root-0-3-106",
+                  }
+                }
+                disabled={false}
+                fullWidth={true}
+                onChange={[Function]}
+                type="text"
+                value="100"
+              >
+                <input
+                  className="ClearableInputComp-input-0-3-101 ClearableInputComp-longInput-0-3-102 InputComp-fullWidth-0-3-108 InputComp-root-0-3-106"
+                  disabled={false}
+                  onChange={[Function]}
+                  onKeyDown={[Function]}
+                  type="text"
+                  value="100"
+                />
+              </InputComp>
+            </WithStyles(InputComp)>
+          </Input>
+        </div>
+        <div
+          className="ClearableInputComp-icon-0-3-105"
+          onClick={[Function]}
+        >
+          <MUIcon
+            fontSize={40}
+            type="close"
+          >
+            <WithStyles(MUIconComp)
+              fontSize={40}
+              innerRef={null}
+              jssContext={
+                Object {
+                  "classNamePrefix": "",
+                  "disableStylesGeneration": false,
+                }
+              }
+              theme={Object {}}
+              type="close"
+            >
+              <MUIconComp
+                classes={
+                  Object {
+                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d33-0-3-110",
+                  }
+                }
+                fontSize={40}
+                type="close"
+              >
+                <i
+                  className="MUIconComp-root-0-3-35 MUIconComp-root-d33-0-3-110"
+                >
+                  close
+                </i>
+              </MUIconComp>
+            </WithStyles(MUIconComp)>
+          </MUIcon>
+        </div>
+      </div>
+    </ClearableInputComp>
+  </WithStyles(ClearableInputComp)>
+</ClearableInput>
+`;
+
+exports[`Storyshots Components/ClearableInput No value 1`] = `
+<ClearableInput
+  onChange={[Function]}
+  onClearRequested={[Function]}
+  value=""
+>
+  <WithStyles(ClearableInputComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onChange={[Function]}
+    onClearRequested={[Function]}
+    theme={Object {}}
+    value=""
+  >
+    <ClearableInputComp
+      classes={
+        Object {
+          "icon": "ClearableInputComp-icon-0-3-105",
+          "input": "ClearableInputComp-input-0-3-101",
+          "longInput": "ClearableInputComp-longInput-0-3-102",
+          "root": "ClearableInputComp-root-0-3-100",
+          "searchField": "ClearableInputComp-searchField-0-3-103",
+          "searchFieldBorders": "ClearableInputComp-searchFieldBorders-0-3-104",
+        }
+      }
+      onChange={[Function]}
+      onClearRequested={[Function]}
+      value=""
+    >
+      <div
+        className="ClearableInputComp-root-0-3-100"
+      >
+        <div
+          className="ClearableInputComp-input-0-3-101"
+        >
+          <Input
+            blurOnEnter={true}
+            className="ClearableInputComp-input-0-3-101"
+            disabled={false}
+            fullWidth={true}
+            onChange={[Function]}
+            type="text"
+            value=""
+          >
+            <WithStyles(InputComp)
+              blurOnEnter={true}
+              className="ClearableInputComp-input-0-3-101"
+              disabled={false}
+              fullWidth={true}
+              innerRef={null}
+              jssContext={
+                Object {
+                  "classNamePrefix": "",
+                  "disableStylesGeneration": false,
+                }
+              }
+              onChange={[Function]}
+              theme={Object {}}
+              type="text"
+              value=""
+            >
+              <InputComp
+                blurOnEnter={true}
+                className="ClearableInputComp-input-0-3-101"
+                classes={
+                  Object {
+                    "error": "InputComp-error-0-3-107",
+                    "fullWidth": "InputComp-fullWidth-0-3-108",
+                    "root": "InputComp-root-0-3-106",
+                  }
+                }
+                disabled={false}
+                fullWidth={true}
+                onChange={[Function]}
+                type="text"
+                value=""
+              >
+                <input
+                  className="ClearableInputComp-input-0-3-101 InputComp-fullWidth-0-3-108 InputComp-root-0-3-106"
+                  disabled={false}
+                  onChange={[Function]}
+                  onKeyDown={[Function]}
+                  type="text"
+                  value=""
+                />
+              </InputComp>
+            </WithStyles(InputComp)>
+          </Input>
+        </div>
+        <div
+          className="ClearableInputComp-icon-0-3-105"
+          onClick={[Function]}
+        />
+      </div>
+    </ClearableInputComp>
+  </WithStyles(ClearableInputComp)>
+</ClearableInput>
+`;
+
+exports[`Storyshots Components/ClearableInput Value 1`] = `
+<ClearableInput
+  onChange={[Function]}
+  onClearRequested={[Function]}
+  value="100"
+>
+  <WithStyles(ClearableInputComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onChange={[Function]}
+    onClearRequested={[Function]}
+    theme={Object {}}
+    value="100"
+  >
+    <ClearableInputComp
+      classes={
+        Object {
+          "icon": "ClearableInputComp-icon-0-3-105",
+          "input": "ClearableInputComp-input-0-3-101",
+          "longInput": "ClearableInputComp-longInput-0-3-102",
+          "root": "ClearableInputComp-root-0-3-100",
+          "searchField": "ClearableInputComp-searchField-0-3-103",
+          "searchFieldBorders": "ClearableInputComp-searchFieldBorders-0-3-104",
+        }
+      }
+      onChange={[Function]}
+      onClearRequested={[Function]}
+      value="100"
+    >
+      <div
+        className="ClearableInputComp-root-0-3-100"
+      >
+        <div
+          className="ClearableInputComp-input-0-3-101"
+        >
+          <Input
+            blurOnEnter={true}
+            className="ClearableInputComp-input-0-3-101"
+            disabled={false}
+            fullWidth={true}
+            onChange={[Function]}
+            type="text"
+            value="100"
+          >
+            <WithStyles(InputComp)
+              blurOnEnter={true}
+              className="ClearableInputComp-input-0-3-101"
+              disabled={false}
+              fullWidth={true}
+              innerRef={null}
+              jssContext={
+                Object {
+                  "classNamePrefix": "",
+                  "disableStylesGeneration": false,
+                }
+              }
+              onChange={[Function]}
+              theme={Object {}}
+              type="text"
+              value="100"
+            >
+              <InputComp
+                blurOnEnter={true}
+                className="ClearableInputComp-input-0-3-101"
+                classes={
+                  Object {
+                    "error": "InputComp-error-0-3-107",
+                    "fullWidth": "InputComp-fullWidth-0-3-108",
+                    "root": "InputComp-root-0-3-106",
+                  }
+                }
+                disabled={false}
+                fullWidth={true}
+                onChange={[Function]}
+                type="text"
+                value="100"
+              >
+                <input
+                  className="ClearableInputComp-input-0-3-101 InputComp-fullWidth-0-3-108 InputComp-root-0-3-106"
+                  disabled={false}
+                  onChange={[Function]}
+                  onKeyDown={[Function]}
+                  type="text"
+                  value="100"
+                />
+              </InputComp>
+            </WithStyles(InputComp)>
+          </Input>
+        </div>
+        <div
+          className="ClearableInputComp-icon-0-3-105"
+          onClick={[Function]}
+        >
+          <MUIcon
+            fontSize={40}
+            type="close"
+          >
+            <WithStyles(MUIconComp)
+              fontSize={40}
+              innerRef={null}
+              jssContext={
+                Object {
+                  "classNamePrefix": "",
+                  "disableStylesGeneration": false,
+                }
+              }
+              theme={Object {}}
+              type="close"
+            >
+              <MUIconComp
+                classes={
+                  Object {
+                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d32-0-3-109",
+                  }
+                }
+                fontSize={40}
+                type="close"
+              >
+                <i
+                  className="MUIconComp-root-0-3-35 MUIconComp-root-d32-0-3-109"
+                >
+                  close
+                </i>
+              </MUIconComp>
+            </WithStyles(MUIconComp)>
+          </MUIcon>
+        </div>
+      </div>
+    </ClearableInputComp>
+  </WithStyles(ClearableInputComp)>
+</ClearableInput>
+`;

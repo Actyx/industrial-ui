@@ -19,6 +19,6 @@ const listMain: ReadonlyArray<ListItem> = [
   }
 ];
 
-storiesOf('Components|ModalDrawer.Parts', module)
+storiesOf('Components/ModalDrawer/Parts', module)
   .addDecorator(hostDecorator({}))
   .add('List', () => <List items={listMain} handleClose={action('handleClose')} />);

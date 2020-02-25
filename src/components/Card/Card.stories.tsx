@@ -13,7 +13,7 @@ const baseProps = {
   content: 'content'
 };
 
-storiesOf('Components|Card.Card', module)
+storiesOf('Components/Card/Card', module)
   .addDecorator(hostDecorator({}))
   .add('Raised', () => <Card {...baseProps} />)
   .add('Action', () => {

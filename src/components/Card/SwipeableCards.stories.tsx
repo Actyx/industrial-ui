@@ -6,7 +6,7 @@ import { SwipeableCards } from './SwipeableCards';
 import { SwipeableContainer } from './SwipeableContainer';
 import { common } from '../../colors';
 
-storiesOf('Components|Card.Swipeable', module)
+storiesOf('Components/Card/Swipeable', module)
   .addDecorator(hostDecorator({}))
   .add('Swipeable cards', () => (
     <div style={{ width: `calc(${510}px * 2 + (3 * 1rem))` }}>

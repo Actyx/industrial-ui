@@ -6,7 +6,7 @@ import * as React from 'react';
 import { SimpleToolbar } from './SimpleToolbar';
 import { SimpleToolbarButton } from './SimpleToolbarButton';
 
-storiesOf('Components|SimpleToolbar', module)
+storiesOf('Components/SimpleToolbar', module)
   .addDecorator(
     hostDecorator({
       width: '100%'

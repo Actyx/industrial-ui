@@ -1,0 +1,373 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/SignalNotification Long text 1`] = `
+<SignalNotification
+  icon="warning"
+  text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+>
+  <WithStyles(SignalNotificationComp)
+    icon="warning"
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+    theme={Object {}}
+  >
+    <SignalNotificationComp
+      classes={
+        Object {
+          "content": "SignalNotificationComp-content-0-3-267",
+          "divider": "SignalNotificationComp-divider-0-3-266",
+          "icon": "SignalNotificationComp-icon-0-3-268",
+          "root": "SignalNotificationComp-root-0-3-265",
+          "text": "SignalNotificationComp-text-0-3-269",
+        }
+      }
+      icon="warning"
+      text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+    >
+      <div
+        className="SignalNotificationComp-root-0-3-265"
+      >
+        <Divider
+          className="SignalNotificationComp-divider-0-3-266"
+        >
+          <WithStyles(DividerComp)
+            className="SignalNotificationComp-divider-0-3-266"
+            innerRef={null}
+            jssContext={
+              Object {
+                "classNamePrefix": "",
+                "disableStylesGeneration": false,
+              }
+            }
+            theme={Object {}}
+          >
+            <DividerComp
+              className="SignalNotificationComp-divider-0-3-266"
+              classes={
+                Object {
+                  "root": "DividerComp-root-0-3-128",
+                }
+              }
+            >
+              <hr
+                className="DividerComp-root-0-3-128 SignalNotificationComp-divider-0-3-266"
+              />
+            </DividerComp>
+          </WithStyles(DividerComp)>
+        </Divider>
+        <div
+          className="SignalNotificationComp-content-0-3-267"
+        >
+          <div
+            className="SignalNotificationComp-icon-0-3-268"
+          >
+            <MUIcon
+              color="#d50000"
+              fontSize={93}
+              type="warning"
+            >
+              <WithStyles(MUIconComp)
+                color="#d50000"
+                fontSize={93}
+                innerRef={null}
+                jssContext={
+                  Object {
+                    "classNamePrefix": "",
+                    "disableStylesGeneration": false,
+                  }
+                }
+                theme={Object {}}
+                type="warning"
+              >
+                <MUIconComp
+                  classes={
+                    Object {
+                      "root": "MUIconComp-root-0-3-35 MUIconComp-root-d104-0-3-271",
+                    }
+                  }
+                  color="#d50000"
+                  fontSize={93}
+                  type="warning"
+                >
+                  <i
+                    className="MUIconComp-root-0-3-35 MUIconComp-root-d104-0-3-271"
+                  >
+                    warning
+                  </i>
+                </MUIconComp>
+              </WithStyles(MUIconComp)>
+            </MUIcon>
+          </div>
+          <div
+            className="SignalNotificationComp-text-0-3-269"
+          >
+            <Typography
+              variant="distance"
+            >
+              <WithStyles(TypographyComp)
+                innerRef={null}
+                jssContext={
+                  Object {
+                    "classNamePrefix": "",
+                    "disableStylesGeneration": false,
+                  }
+                }
+                theme={Object {}}
+                variant="distance"
+              >
+                <TypographyComp
+                  classes={
+                    Object {
+                      "big": "TypographyComp-big-0-3-7",
+                      "bold": "TypographyComp-bold-0-3-1",
+                      "capitalize": "TypographyComp-capitalize-0-3-12",
+                      "distance": "TypographyComp-distance-0-3-6",
+                      "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                      "giant": "TypographyComp-giant-0-3-9",
+                      "heading": "TypographyComp-heading-0-3-8",
+                      "italic": "TypographyComp-italic-0-3-3",
+                      "lowercase": "TypographyComp-lowercase-0-3-11",
+                      "noWrap": "TypographyComp-noWrap-0-3-13",
+                      "semiBold": "TypographyComp-semiBold-0-3-2",
+                      "standard": "TypographyComp-standard-0-3-5",
+                      "subtext": "TypographyComp-subtext-0-3-4",
+                      "uppercase": "TypographyComp-uppercase-0-3-10",
+                    }
+                  }
+                  variant="distance"
+                >
+                  <span
+                    className="TypographyComp-distance-0-3-6"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                  </span>
+                </TypographyComp>
+              </WithStyles(TypographyComp)>
+            </Typography>
+          </div>
+        </div>
+        <Divider
+          className="SignalNotificationComp-divider-0-3-266"
+        >
+          <WithStyles(DividerComp)
+            className="SignalNotificationComp-divider-0-3-266"
+            innerRef={null}
+            jssContext={
+              Object {
+                "classNamePrefix": "",
+                "disableStylesGeneration": false,
+              }
+            }
+            theme={Object {}}
+          >
+            <DividerComp
+              className="SignalNotificationComp-divider-0-3-266"
+              classes={
+                Object {
+                  "root": "DividerComp-root-0-3-128",
+                }
+              }
+            >
+              <hr
+                className="DividerComp-root-0-3-128 SignalNotificationComp-divider-0-3-266"
+              />
+            </DividerComp>
+          </WithStyles(DividerComp)>
+        </Divider>
+      </div>
+    </SignalNotificationComp>
+  </WithStyles(SignalNotificationComp)>
+</SignalNotification>
+`;
+
+exports[`Storyshots Components/SignalNotification Text 1`] = `
+<SignalNotification
+  icon="warning"
+  text="Activity automatically interrupted"
+>
+  <WithStyles(SignalNotificationComp)
+    icon="warning"
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    text="Activity automatically interrupted"
+    theme={Object {}}
+  >
+    <SignalNotificationComp
+      classes={
+        Object {
+          "content": "SignalNotificationComp-content-0-3-267",
+          "divider": "SignalNotificationComp-divider-0-3-266",
+          "icon": "SignalNotificationComp-icon-0-3-268",
+          "root": "SignalNotificationComp-root-0-3-265",
+          "text": "SignalNotificationComp-text-0-3-269",
+        }
+      }
+      icon="warning"
+      text="Activity automatically interrupted"
+    >
+      <div
+        className="SignalNotificationComp-root-0-3-265"
+      >
+        <Divider
+          className="SignalNotificationComp-divider-0-3-266"
+        >
+          <WithStyles(DividerComp)
+            className="SignalNotificationComp-divider-0-3-266"
+            innerRef={null}
+            jssContext={
+              Object {
+                "classNamePrefix": "",
+                "disableStylesGeneration": false,
+              }
+            }
+            theme={Object {}}
+          >
+            <DividerComp
+              className="SignalNotificationComp-divider-0-3-266"
+              classes={
+                Object {
+                  "root": "DividerComp-root-0-3-128",
+                }
+              }
+            >
+              <hr
+                className="DividerComp-root-0-3-128 SignalNotificationComp-divider-0-3-266"
+              />
+            </DividerComp>
+          </WithStyles(DividerComp)>
+        </Divider>
+        <div
+          className="SignalNotificationComp-content-0-3-267"
+        >
+          <div
+            className="SignalNotificationComp-icon-0-3-268"
+          >
+            <MUIcon
+              color="#d50000"
+              fontSize={93}
+              type="warning"
+            >
+              <WithStyles(MUIconComp)
+                color="#d50000"
+                fontSize={93}
+                innerRef={null}
+                jssContext={
+                  Object {
+                    "classNamePrefix": "",
+                    "disableStylesGeneration": false,
+                  }
+                }
+                theme={Object {}}
+                type="warning"
+              >
+                <MUIconComp
+                  classes={
+                    Object {
+                      "root": "MUIconComp-root-0-3-35 MUIconComp-root-d103-0-3-270",
+                    }
+                  }
+                  color="#d50000"
+                  fontSize={93}
+                  type="warning"
+                >
+                  <i
+                    className="MUIconComp-root-0-3-35 MUIconComp-root-d103-0-3-270"
+                  >
+                    warning
+                  </i>
+                </MUIconComp>
+              </WithStyles(MUIconComp)>
+            </MUIcon>
+          </div>
+          <div
+            className="SignalNotificationComp-text-0-3-269"
+          >
+            <Typography
+              variant="distance"
+            >
+              <WithStyles(TypographyComp)
+                innerRef={null}
+                jssContext={
+                  Object {
+                    "classNamePrefix": "",
+                    "disableStylesGeneration": false,
+                  }
+                }
+                theme={Object {}}
+                variant="distance"
+              >
+                <TypographyComp
+                  classes={
+                    Object {
+                      "big": "TypographyComp-big-0-3-7",
+                      "bold": "TypographyComp-bold-0-3-1",
+                      "capitalize": "TypographyComp-capitalize-0-3-12",
+                      "distance": "TypographyComp-distance-0-3-6",
+                      "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                      "giant": "TypographyComp-giant-0-3-9",
+                      "heading": "TypographyComp-heading-0-3-8",
+                      "italic": "TypographyComp-italic-0-3-3",
+                      "lowercase": "TypographyComp-lowercase-0-3-11",
+                      "noWrap": "TypographyComp-noWrap-0-3-13",
+                      "semiBold": "TypographyComp-semiBold-0-3-2",
+                      "standard": "TypographyComp-standard-0-3-5",
+                      "subtext": "TypographyComp-subtext-0-3-4",
+                      "uppercase": "TypographyComp-uppercase-0-3-10",
+                    }
+                  }
+                  variant="distance"
+                >
+                  <span
+                    className="TypographyComp-distance-0-3-6"
+                  >
+                    Activity automatically interrupted
+                  </span>
+                </TypographyComp>
+              </WithStyles(TypographyComp)>
+            </Typography>
+          </div>
+        </div>
+        <Divider
+          className="SignalNotificationComp-divider-0-3-266"
+        >
+          <WithStyles(DividerComp)
+            className="SignalNotificationComp-divider-0-3-266"
+            innerRef={null}
+            jssContext={
+              Object {
+                "classNamePrefix": "",
+                "disableStylesGeneration": false,
+              }
+            }
+            theme={Object {}}
+          >
+            <DividerComp
+              className="SignalNotificationComp-divider-0-3-266"
+              classes={
+                Object {
+                  "root": "DividerComp-root-0-3-128",
+                }
+              }
+            >
+              <hr
+                className="DividerComp-root-0-3-128 SignalNotificationComp-divider-0-3-266"
+              />
+            </DividerComp>
+          </WithStyles(DividerComp)>
+        </Divider>
+      </div>
+    </SignalNotificationComp>
+  </WithStyles(SignalNotificationComp)>
+</SignalNotification>
+`;

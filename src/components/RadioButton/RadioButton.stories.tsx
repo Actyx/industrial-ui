@@ -4,7 +4,7 @@ import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { RadioButton } from './RadioButton';
 
-storiesOf('Components|RadioButton', module)
+storiesOf('Components/RadioButton', module)
   .addDecorator(hostDecorator())
   .add('Unchecked', () => (
     <RadioButton checked={false} color="neutral" onChange={action('onChange')} />

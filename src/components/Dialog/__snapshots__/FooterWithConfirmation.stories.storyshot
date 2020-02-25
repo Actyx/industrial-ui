@@ -1,0 +1,720 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Dialog/FooterWithConfirmation Confirmation 1`] = `
+<FooterWithConfirmation
+  confirmMessage="Confirm"
+  disableConfirm={false}
+  onCancel={[Function]}
+  onConfirm={[Function]}
+>
+  <WithStyles(Component)
+    confirmMessage="Confirm"
+    disableConfirm={false}
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    theme={Object {}}
+  >
+    <Component
+      classes={
+        Object {
+          "root": "Component-root-0-3-127",
+        }
+      }
+      confirmMessage="Confirm"
+      disableConfirm={false}
+      onCancel={[Function]}
+      onConfirm={[Function]}
+    >
+      <div>
+        <Divider>
+          <WithStyles(DividerComp)
+            innerRef={null}
+            jssContext={
+              Object {
+                "classNamePrefix": "",
+                "disableStylesGeneration": false,
+              }
+            }
+            theme={Object {}}
+          >
+            <DividerComp
+              classes={
+                Object {
+                  "root": "DividerComp-root-0-3-128",
+                }
+              }
+            >
+              <hr
+                className="DividerComp-root-0-3-128"
+              />
+            </DividerComp>
+          </WithStyles(DividerComp)>
+        </Divider>
+        <div
+          className="Component-root-0-3-127"
+        >
+          <Button
+            color="transparent"
+            onClick={[Function]}
+            text="Cancel"
+            variant="flat"
+          >
+            <WithStyles(ButtonComp)
+              color="transparent"
+              innerRef={null}
+              jssContext={
+                Object {
+                  "classNamePrefix": "",
+                  "disableStylesGeneration": false,
+                }
+              }
+              onClick={[Function]}
+              text="Cancel"
+              theme={Object {}}
+              variant="flat"
+            >
+              <ButtonComp
+                classes={
+                  Object {
+                    "centered": "ButtonComp-centered-0-3-19",
+                    "disabled": "ButtonComp-disabled-0-3-32",
+                    "flat": "ButtonComp-flat-0-3-17",
+                    "fullWidth": "ButtonComp-fullWidth-0-3-31",
+                    "green": "ButtonComp-green-0-3-23",
+                    "grey": "ButtonComp-grey-0-3-21",
+                    "icon": "ButtonComp-icon-0-3-16",
+                    "neutral": "ButtonComp-neutral-0-3-22",
+                    "orange": "ButtonComp-orange-0-3-24",
+                    "primary": "ButtonComp-primary-0-3-20",
+                    "raised": "ButtonComp-raised-0-3-18",
+                    "red": "ButtonComp-red-0-3-26",
+                    "root": "ButtonComp-root-0-3-15",
+                    "shadow": "ButtonComp-shadow-0-3-28",
+                    "text": "ButtonComp-text-0-3-29",
+                    "textIcon": "ButtonComp-textIcon-0-3-30",
+                    "transparent": "ButtonComp-transparent-0-3-27",
+                    "yellow": "ButtonComp-yellow-0-3-25",
+                  }
+                }
+                color="transparent"
+                onClick={[Function]}
+                text="Cancel"
+                variant="flat"
+              >
+                <TouchRipple
+                  className="ButtonComp-root-0-3-15"
+                  disabled={false}
+                  onClick={[Function]}
+                >
+                  <WithStyles(TouchRippleComp)
+                    className="ButtonComp-root-0-3-15"
+                    disabled={false}
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    onClick={[Function]}
+                    theme={Object {}}
+                  >
+                    <TouchRippleComp
+                      className="ButtonComp-root-0-3-15"
+                      classes={
+                        Object {
+                          "disabled": "TouchRippleComp-disabled-0-3-34",
+                          "root": "TouchRippleComp-root-0-3-33",
+                        }
+                      }
+                      disabled={false}
+                      onClick={[Function]}
+                    >
+                      <div
+                        className="ButtonComp-root-0-3-15 TouchRippleComp-root-0-3-33"
+                        onClick={[Function]}
+                      >
+                        <div
+                          className="ButtonComp-flat-0-3-17 ButtonComp-transparent-0-3-27"
+                        >
+                          <div
+                            className="ButtonComp-text-0-3-29"
+                          >
+                            <Typography
+                              bold={true}
+                              textTransform="uppercase"
+                              variant="standard"
+                            >
+                              <WithStyles(TypographyComp)
+                                bold={true}
+                                innerRef={null}
+                                jssContext={
+                                  Object {
+                                    "classNamePrefix": "",
+                                    "disableStylesGeneration": false,
+                                  }
+                                }
+                                textTransform="uppercase"
+                                theme={Object {}}
+                                variant="standard"
+                              >
+                                <TypographyComp
+                                  bold={true}
+                                  classes={
+                                    Object {
+                                      "big": "TypographyComp-big-0-3-7",
+                                      "bold": "TypographyComp-bold-0-3-1",
+                                      "capitalize": "TypographyComp-capitalize-0-3-12",
+                                      "distance": "TypographyComp-distance-0-3-6",
+                                      "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                                      "giant": "TypographyComp-giant-0-3-9",
+                                      "heading": "TypographyComp-heading-0-3-8",
+                                      "italic": "TypographyComp-italic-0-3-3",
+                                      "lowercase": "TypographyComp-lowercase-0-3-11",
+                                      "noWrap": "TypographyComp-noWrap-0-3-13",
+                                      "semiBold": "TypographyComp-semiBold-0-3-2",
+                                      "standard": "TypographyComp-standard-0-3-5",
+                                      "subtext": "TypographyComp-subtext-0-3-4",
+                                      "uppercase": "TypographyComp-uppercase-0-3-10",
+                                    }
+                                  }
+                                  textTransform="uppercase"
+                                  variant="standard"
+                                >
+                                  <span
+                                    className="TypographyComp-standard-0-3-5 TypographyComp-uppercase-0-3-10 TypographyComp-bold-0-3-1"
+                                  >
+                                    Cancel
+                                  </span>
+                                </TypographyComp>
+                              </WithStyles(TypographyComp)>
+                            </Typography>
+                          </div>
+                        </div>
+                      </div>
+                    </TouchRippleComp>
+                  </WithStyles(TouchRippleComp)>
+                </TouchRipple>
+              </ButtonComp>
+            </WithStyles(ButtonComp)>
+          </Button>
+          <Button
+            color="primary"
+            disabled={false}
+            onClick={[Function]}
+            text="Confirm"
+            variant="raised"
+          >
+            <WithStyles(ButtonComp)
+              color="primary"
+              disabled={false}
+              innerRef={null}
+              jssContext={
+                Object {
+                  "classNamePrefix": "",
+                  "disableStylesGeneration": false,
+                }
+              }
+              onClick={[Function]}
+              text="Confirm"
+              theme={Object {}}
+              variant="raised"
+            >
+              <ButtonComp
+                classes={
+                  Object {
+                    "centered": "ButtonComp-centered-0-3-19",
+                    "disabled": "ButtonComp-disabled-0-3-32",
+                    "flat": "ButtonComp-flat-0-3-17",
+                    "fullWidth": "ButtonComp-fullWidth-0-3-31",
+                    "green": "ButtonComp-green-0-3-23",
+                    "grey": "ButtonComp-grey-0-3-21",
+                    "icon": "ButtonComp-icon-0-3-16",
+                    "neutral": "ButtonComp-neutral-0-3-22",
+                    "orange": "ButtonComp-orange-0-3-24",
+                    "primary": "ButtonComp-primary-0-3-20",
+                    "raised": "ButtonComp-raised-0-3-18",
+                    "red": "ButtonComp-red-0-3-26",
+                    "root": "ButtonComp-root-0-3-15",
+                    "shadow": "ButtonComp-shadow-0-3-28",
+                    "text": "ButtonComp-text-0-3-29",
+                    "textIcon": "ButtonComp-textIcon-0-3-30",
+                    "transparent": "ButtonComp-transparent-0-3-27",
+                    "yellow": "ButtonComp-yellow-0-3-25",
+                  }
+                }
+                color="primary"
+                disabled={false}
+                onClick={[Function]}
+                text="Confirm"
+                variant="raised"
+              >
+                <TouchRipple
+                  className="ButtonComp-root-0-3-15 ButtonComp-shadow-0-3-28"
+                  disabled={false}
+                  onClick={[Function]}
+                >
+                  <WithStyles(TouchRippleComp)
+                    className="ButtonComp-root-0-3-15 ButtonComp-shadow-0-3-28"
+                    disabled={false}
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    onClick={[Function]}
+                    theme={Object {}}
+                  >
+                    <TouchRippleComp
+                      className="ButtonComp-root-0-3-15 ButtonComp-shadow-0-3-28"
+                      classes={
+                        Object {
+                          "disabled": "TouchRippleComp-disabled-0-3-34",
+                          "root": "TouchRippleComp-root-0-3-33",
+                        }
+                      }
+                      disabled={false}
+                      onClick={[Function]}
+                    >
+                      <div
+                        className="ButtonComp-root-0-3-15 ButtonComp-shadow-0-3-28 TouchRippleComp-root-0-3-33"
+                        onClick={[Function]}
+                      >
+                        <div
+                          className="ButtonComp-raised-0-3-18 ButtonComp-primary-0-3-20"
+                        >
+                          <div
+                            className="ButtonComp-text-0-3-29"
+                          >
+                            <Typography
+                              bold={true}
+                              textTransform="uppercase"
+                              variant="standard"
+                            >
+                              <WithStyles(TypographyComp)
+                                bold={true}
+                                innerRef={null}
+                                jssContext={
+                                  Object {
+                                    "classNamePrefix": "",
+                                    "disableStylesGeneration": false,
+                                  }
+                                }
+                                textTransform="uppercase"
+                                theme={Object {}}
+                                variant="standard"
+                              >
+                                <TypographyComp
+                                  bold={true}
+                                  classes={
+                                    Object {
+                                      "big": "TypographyComp-big-0-3-7",
+                                      "bold": "TypographyComp-bold-0-3-1",
+                                      "capitalize": "TypographyComp-capitalize-0-3-12",
+                                      "distance": "TypographyComp-distance-0-3-6",
+                                      "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                                      "giant": "TypographyComp-giant-0-3-9",
+                                      "heading": "TypographyComp-heading-0-3-8",
+                                      "italic": "TypographyComp-italic-0-3-3",
+                                      "lowercase": "TypographyComp-lowercase-0-3-11",
+                                      "noWrap": "TypographyComp-noWrap-0-3-13",
+                                      "semiBold": "TypographyComp-semiBold-0-3-2",
+                                      "standard": "TypographyComp-standard-0-3-5",
+                                      "subtext": "TypographyComp-subtext-0-3-4",
+                                      "uppercase": "TypographyComp-uppercase-0-3-10",
+                                    }
+                                  }
+                                  textTransform="uppercase"
+                                  variant="standard"
+                                >
+                                  <span
+                                    className="TypographyComp-standard-0-3-5 TypographyComp-uppercase-0-3-10 TypographyComp-bold-0-3-1"
+                                  >
+                                    Confirm
+                                  </span>
+                                </TypographyComp>
+                              </WithStyles(TypographyComp)>
+                            </Typography>
+                          </div>
+                        </div>
+                      </div>
+                    </TouchRippleComp>
+                  </WithStyles(TouchRippleComp)>
+                </TouchRipple>
+              </ButtonComp>
+            </WithStyles(ButtonComp)>
+          </Button>
+        </div>
+      </div>
+    </Component>
+  </WithStyles(Component)>
+</FooterWithConfirmation>
+`;
+
+exports[`Storyshots Components/Dialog/FooterWithConfirmation Disable confirmation 1`] = `
+<FooterWithConfirmation
+  confirmMessage="Confirm"
+  disableConfirm={true}
+  onCancel={[Function]}
+  onConfirm={[Function]}
+>
+  <WithStyles(Component)
+    confirmMessage="Confirm"
+    disableConfirm={true}
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onCancel={[Function]}
+    onConfirm={[Function]}
+    theme={Object {}}
+  >
+    <Component
+      classes={
+        Object {
+          "root": "Component-root-0-3-127",
+        }
+      }
+      confirmMessage="Confirm"
+      disableConfirm={true}
+      onCancel={[Function]}
+      onConfirm={[Function]}
+    >
+      <div>
+        <Divider>
+          <WithStyles(DividerComp)
+            innerRef={null}
+            jssContext={
+              Object {
+                "classNamePrefix": "",
+                "disableStylesGeneration": false,
+              }
+            }
+            theme={Object {}}
+          >
+            <DividerComp
+              classes={
+                Object {
+                  "root": "DividerComp-root-0-3-128",
+                }
+              }
+            >
+              <hr
+                className="DividerComp-root-0-3-128"
+              />
+            </DividerComp>
+          </WithStyles(DividerComp)>
+        </Divider>
+        <div
+          className="Component-root-0-3-127"
+        >
+          <Button
+            color="transparent"
+            onClick={[Function]}
+            text="Cancel"
+            variant="flat"
+          >
+            <WithStyles(ButtonComp)
+              color="transparent"
+              innerRef={null}
+              jssContext={
+                Object {
+                  "classNamePrefix": "",
+                  "disableStylesGeneration": false,
+                }
+              }
+              onClick={[Function]}
+              text="Cancel"
+              theme={Object {}}
+              variant="flat"
+            >
+              <ButtonComp
+                classes={
+                  Object {
+                    "centered": "ButtonComp-centered-0-3-19",
+                    "disabled": "ButtonComp-disabled-0-3-32",
+                    "flat": "ButtonComp-flat-0-3-17",
+                    "fullWidth": "ButtonComp-fullWidth-0-3-31",
+                    "green": "ButtonComp-green-0-3-23",
+                    "grey": "ButtonComp-grey-0-3-21",
+                    "icon": "ButtonComp-icon-0-3-16",
+                    "neutral": "ButtonComp-neutral-0-3-22",
+                    "orange": "ButtonComp-orange-0-3-24",
+                    "primary": "ButtonComp-primary-0-3-20",
+                    "raised": "ButtonComp-raised-0-3-18",
+                    "red": "ButtonComp-red-0-3-26",
+                    "root": "ButtonComp-root-0-3-15",
+                    "shadow": "ButtonComp-shadow-0-3-28",
+                    "text": "ButtonComp-text-0-3-29",
+                    "textIcon": "ButtonComp-textIcon-0-3-30",
+                    "transparent": "ButtonComp-transparent-0-3-27",
+                    "yellow": "ButtonComp-yellow-0-3-25",
+                  }
+                }
+                color="transparent"
+                onClick={[Function]}
+                text="Cancel"
+                variant="flat"
+              >
+                <TouchRipple
+                  className="ButtonComp-root-0-3-15"
+                  disabled={false}
+                  onClick={[Function]}
+                >
+                  <WithStyles(TouchRippleComp)
+                    className="ButtonComp-root-0-3-15"
+                    disabled={false}
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    onClick={[Function]}
+                    theme={Object {}}
+                  >
+                    <TouchRippleComp
+                      className="ButtonComp-root-0-3-15"
+                      classes={
+                        Object {
+                          "disabled": "TouchRippleComp-disabled-0-3-34",
+                          "root": "TouchRippleComp-root-0-3-33",
+                        }
+                      }
+                      disabled={false}
+                      onClick={[Function]}
+                    >
+                      <div
+                        className="ButtonComp-root-0-3-15 TouchRippleComp-root-0-3-33"
+                        onClick={[Function]}
+                      >
+                        <div
+                          className="ButtonComp-flat-0-3-17 ButtonComp-transparent-0-3-27"
+                        >
+                          <div
+                            className="ButtonComp-text-0-3-29"
+                          >
+                            <Typography
+                              bold={true}
+                              textTransform="uppercase"
+                              variant="standard"
+                            >
+                              <WithStyles(TypographyComp)
+                                bold={true}
+                                innerRef={null}
+                                jssContext={
+                                  Object {
+                                    "classNamePrefix": "",
+                                    "disableStylesGeneration": false,
+                                  }
+                                }
+                                textTransform="uppercase"
+                                theme={Object {}}
+                                variant="standard"
+                              >
+                                <TypographyComp
+                                  bold={true}
+                                  classes={
+                                    Object {
+                                      "big": "TypographyComp-big-0-3-7",
+                                      "bold": "TypographyComp-bold-0-3-1",
+                                      "capitalize": "TypographyComp-capitalize-0-3-12",
+                                      "distance": "TypographyComp-distance-0-3-6",
+                                      "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                                      "giant": "TypographyComp-giant-0-3-9",
+                                      "heading": "TypographyComp-heading-0-3-8",
+                                      "italic": "TypographyComp-italic-0-3-3",
+                                      "lowercase": "TypographyComp-lowercase-0-3-11",
+                                      "noWrap": "TypographyComp-noWrap-0-3-13",
+                                      "semiBold": "TypographyComp-semiBold-0-3-2",
+                                      "standard": "TypographyComp-standard-0-3-5",
+                                      "subtext": "TypographyComp-subtext-0-3-4",
+                                      "uppercase": "TypographyComp-uppercase-0-3-10",
+                                    }
+                                  }
+                                  textTransform="uppercase"
+                                  variant="standard"
+                                >
+                                  <span
+                                    className="TypographyComp-standard-0-3-5 TypographyComp-uppercase-0-3-10 TypographyComp-bold-0-3-1"
+                                  >
+                                    Cancel
+                                  </span>
+                                </TypographyComp>
+                              </WithStyles(TypographyComp)>
+                            </Typography>
+                          </div>
+                        </div>
+                      </div>
+                    </TouchRippleComp>
+                  </WithStyles(TouchRippleComp)>
+                </TouchRipple>
+              </ButtonComp>
+            </WithStyles(ButtonComp)>
+          </Button>
+          <Button
+            color="primary"
+            disabled={true}
+            onClick={[Function]}
+            text="Confirm"
+            variant="raised"
+          >
+            <WithStyles(ButtonComp)
+              color="primary"
+              disabled={true}
+              innerRef={null}
+              jssContext={
+                Object {
+                  "classNamePrefix": "",
+                  "disableStylesGeneration": false,
+                }
+              }
+              onClick={[Function]}
+              text="Confirm"
+              theme={Object {}}
+              variant="raised"
+            >
+              <ButtonComp
+                classes={
+                  Object {
+                    "centered": "ButtonComp-centered-0-3-19",
+                    "disabled": "ButtonComp-disabled-0-3-32",
+                    "flat": "ButtonComp-flat-0-3-17",
+                    "fullWidth": "ButtonComp-fullWidth-0-3-31",
+                    "green": "ButtonComp-green-0-3-23",
+                    "grey": "ButtonComp-grey-0-3-21",
+                    "icon": "ButtonComp-icon-0-3-16",
+                    "neutral": "ButtonComp-neutral-0-3-22",
+                    "orange": "ButtonComp-orange-0-3-24",
+                    "primary": "ButtonComp-primary-0-3-20",
+                    "raised": "ButtonComp-raised-0-3-18",
+                    "red": "ButtonComp-red-0-3-26",
+                    "root": "ButtonComp-root-0-3-15",
+                    "shadow": "ButtonComp-shadow-0-3-28",
+                    "text": "ButtonComp-text-0-3-29",
+                    "textIcon": "ButtonComp-textIcon-0-3-30",
+                    "transparent": "ButtonComp-transparent-0-3-27",
+                    "yellow": "ButtonComp-yellow-0-3-25",
+                  }
+                }
+                color="primary"
+                disabled={true}
+                onClick={[Function]}
+                text="Confirm"
+                variant="raised"
+              >
+                <TouchRipple
+                  className="ButtonComp-root-0-3-15 ButtonComp-shadow-0-3-28 ButtonComp-disabled-0-3-32"
+                  disabled={true}
+                  onClick={[Function]}
+                >
+                  <WithStyles(TouchRippleComp)
+                    className="ButtonComp-root-0-3-15 ButtonComp-shadow-0-3-28 ButtonComp-disabled-0-3-32"
+                    disabled={true}
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    onClick={[Function]}
+                    theme={Object {}}
+                  >
+                    <TouchRippleComp
+                      className="ButtonComp-root-0-3-15 ButtonComp-shadow-0-3-28 ButtonComp-disabled-0-3-32"
+                      classes={
+                        Object {
+                          "disabled": "TouchRippleComp-disabled-0-3-34",
+                          "root": "TouchRippleComp-root-0-3-33",
+                        }
+                      }
+                      disabled={true}
+                      onClick={[Function]}
+                    >
+                      <div
+                        className="ButtonComp-root-0-3-15 ButtonComp-shadow-0-3-28 ButtonComp-disabled-0-3-32 TouchRippleComp-disabled-0-3-34"
+                      >
+                        <div
+                          className="ButtonComp-raised-0-3-18 ButtonComp-primary-0-3-20"
+                        >
+                          <div
+                            className="ButtonComp-text-0-3-29"
+                          >
+                            <Typography
+                              bold={true}
+                              textTransform="uppercase"
+                              variant="standard"
+                            >
+                              <WithStyles(TypographyComp)
+                                bold={true}
+                                innerRef={null}
+                                jssContext={
+                                  Object {
+                                    "classNamePrefix": "",
+                                    "disableStylesGeneration": false,
+                                  }
+                                }
+                                textTransform="uppercase"
+                                theme={Object {}}
+                                variant="standard"
+                              >
+                                <TypographyComp
+                                  bold={true}
+                                  classes={
+                                    Object {
+                                      "big": "TypographyComp-big-0-3-7",
+                                      "bold": "TypographyComp-bold-0-3-1",
+                                      "capitalize": "TypographyComp-capitalize-0-3-12",
+                                      "distance": "TypographyComp-distance-0-3-6",
+                                      "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                                      "giant": "TypographyComp-giant-0-3-9",
+                                      "heading": "TypographyComp-heading-0-3-8",
+                                      "italic": "TypographyComp-italic-0-3-3",
+                                      "lowercase": "TypographyComp-lowercase-0-3-11",
+                                      "noWrap": "TypographyComp-noWrap-0-3-13",
+                                      "semiBold": "TypographyComp-semiBold-0-3-2",
+                                      "standard": "TypographyComp-standard-0-3-5",
+                                      "subtext": "TypographyComp-subtext-0-3-4",
+                                      "uppercase": "TypographyComp-uppercase-0-3-10",
+                                    }
+                                  }
+                                  textTransform="uppercase"
+                                  variant="standard"
+                                >
+                                  <span
+                                    className="TypographyComp-standard-0-3-5 TypographyComp-uppercase-0-3-10 TypographyComp-bold-0-3-1"
+                                  >
+                                    Confirm
+                                  </span>
+                                </TypographyComp>
+                              </WithStyles(TypographyComp)>
+                            </Typography>
+                          </div>
+                        </div>
+                      </div>
+                    </TouchRippleComp>
+                  </WithStyles(TouchRippleComp)>
+                </TouchRipple>
+              </ButtonComp>
+            </WithStyles(ButtonComp)>
+          </Button>
+        </div>
+      </div>
+    </Component>
+  </WithStyles(Component)>
+</FooterWithConfirmation>
+`;

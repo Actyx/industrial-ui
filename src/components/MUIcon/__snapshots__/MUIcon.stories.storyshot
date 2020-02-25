@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/MUIcon Base 1`] = `
+<MUIcon
+  type="face"
+>
+  <WithStyles(MUIconComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    theme={Object {}}
+    type="face"
+  >
+    <MUIconComp
+      classes={
+        Object {
+          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d46-0-3-177",
+        }
+      }
+      type="face"
+    >
+      <i
+        className="MUIconComp-root-0-3-35 MUIconComp-root-d46-0-3-177"
+      >
+        face
+      </i>
+    </MUIconComp>
+  </WithStyles(MUIconComp)>
+</MUIcon>
+`;
+
+exports[`Storyshots Components/MUIcon color 1`] = `
+<MUIcon
+  color="#03a9f4"
+  type="face"
+>
+  <WithStyles(MUIconComp)
+    color="#03a9f4"
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    theme={Object {}}
+    type="face"
+  >
+    <MUIconComp
+      classes={
+        Object {
+          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d48-0-3-179",
+        }
+      }
+      color="#03a9f4"
+      type="face"
+    >
+      <i
+        className="MUIconComp-root-0-3-35 MUIconComp-root-d48-0-3-179"
+      >
+        face
+      </i>
+    </MUIconComp>
+  </WithStyles(MUIconComp)>
+</MUIcon>
+`;
+
+exports[`Storyshots Components/MUIcon fontSize 1`] = `
+<MUIcon
+  fontSize={48}
+  type="face"
+>
+  <WithStyles(MUIconComp)
+    fontSize={48}
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    theme={Object {}}
+    type="face"
+  >
+    <MUIconComp
+      classes={
+        Object {
+          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d47-0-3-178",
+        }
+      }
+      fontSize={48}
+      type="face"
+    >
+      <i
+        className="MUIconComp-root-0-3-35 MUIconComp-root-d47-0-3-178"
+      >
+        face
+      </i>
+    </MUIconComp>
+  </WithStyles(MUIconComp)>
+</MUIcon>
+`;

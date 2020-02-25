@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Scrim Base 1`] = `
+<Scrim
+  onClose={[Function]}
+  open={true}
+>
+  <WithStyles(ScrimComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onClose={[Function]}
+    open={true}
+    theme={Object {}}
+  >
+    <ScrimComp
+      classes={
+        Object {
+          "root": "ScrimComp-root-0-3-126",
+        }
+      }
+      onClose={[Function]}
+      open={true}
+    >
+      <Transition
+        appear={false}
+        enter={true}
+        exit={true}
+        in={true}
+        mountOnEnter={false}
+        onEnter={[Function]}
+        onEntered={[Function]}
+        onEntering={[Function]}
+        onExit={[Function]}
+        onExited={[Function]}
+        onExiting={[Function]}
+        timeout={150}
+        unmountOnExit={false}
+      >
+        <div
+          className="ScrimComp-root-0-3-126"
+          onClick={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+              "transition": "opacity 150ms",
+            }
+          }
+        />
+      </Transition>
+    </ScrimComp>
+  </WithStyles(ScrimComp)>
+</Scrim>
+`;

@@ -1,0 +1,444 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/IconTextNotification Generic counter 1`] = `
+<Component
+  color="#03a9f4"
+  counter={17}
+  icon="info"
+  text="Generic text"
+>
+  <div
+    className="d-flex align-items-center"
+  >
+    <MUIcon
+      className="mr-2"
+      color="#03a9f4"
+      fontSize={37}
+      type="info"
+    >
+      <WithStyles(MUIconComp)
+        className="mr-2"
+        color="#03a9f4"
+        fontSize={37}
+        innerRef={null}
+        jssContext={
+          Object {
+            "classNamePrefix": "",
+            "disableStylesGeneration": false,
+          }
+        }
+        theme={Object {}}
+        type="info"
+      >
+        <MUIconComp
+          className="mr-2"
+          classes={
+            Object {
+              "root": "MUIconComp-root-0-3-35 MUIconComp-root-d44-0-3-156",
+            }
+          }
+          color="#03a9f4"
+          fontSize={37}
+          type="info"
+        >
+          <i
+            className="MUIconComp-root-0-3-35 MUIconComp-root-d44-0-3-156 mr-2"
+          >
+            info
+          </i>
+        </MUIconComp>
+      </WithStyles(MUIconComp)>
+    </MUIcon>
+    <Typography
+      bold={true}
+      color="#03a9f4"
+      textTransform="uppercase"
+      variant="distance"
+    >
+      <WithStyles(TypographyComp)
+        bold={true}
+        color="#03a9f4"
+        innerRef={null}
+        jssContext={
+          Object {
+            "classNamePrefix": "",
+            "disableStylesGeneration": false,
+          }
+        }
+        textTransform="uppercase"
+        theme={Object {}}
+        variant="distance"
+      >
+        <TypographyComp
+          bold={true}
+          classes={
+            Object {
+              "big": "TypographyComp-big-0-3-7",
+              "bold": "TypographyComp-bold-0-3-1",
+              "capitalize": "TypographyComp-capitalize-0-3-12",
+              "distance": "TypographyComp-distance-0-3-6",
+              "ellipsis": "TypographyComp-ellipsis-0-3-14",
+              "giant": "TypographyComp-giant-0-3-9",
+              "heading": "TypographyComp-heading-0-3-8",
+              "italic": "TypographyComp-italic-0-3-3",
+              "lowercase": "TypographyComp-lowercase-0-3-11",
+              "noWrap": "TypographyComp-noWrap-0-3-13",
+              "semiBold": "TypographyComp-semiBold-0-3-2",
+              "standard": "TypographyComp-standard-0-3-5",
+              "subtext": "TypographyComp-subtext-0-3-4",
+              "uppercase": "TypographyComp-uppercase-0-3-10",
+            }
+          }
+          color="#03a9f4"
+          textTransform="uppercase"
+          variant="distance"
+        >
+          <span
+            className="TypographyComp-distance-0-3-6 TypographyComp-uppercase-0-3-10 TypographyComp-bold-0-3-1"
+            style={
+              Object {
+                "color": "rgba(3, 169, 244, 1)",
+              }
+            }
+          >
+            Generic text
+             x17
+          </span>
+        </TypographyComp>
+      </WithStyles(TypographyComp)>
+    </Typography>
+  </div>
+</Component>
+`;
+
+exports[`Storyshots Components/IconTextNotification Small size 1`] = `
+<Component
+  color="#03a9f4"
+  counter={17}
+  icon="info"
+  smallSize={true}
+  text="Generic text"
+>
+  <div
+    className="d-flex align-items-center"
+  >
+    <MUIcon
+      className="mr-2"
+      color="#03a9f4"
+      fontSize={28}
+      type="info"
+    >
+      <WithStyles(MUIconComp)
+        className="mr-2"
+        color="#03a9f4"
+        fontSize={28}
+        innerRef={null}
+        jssContext={
+          Object {
+            "classNamePrefix": "",
+            "disableStylesGeneration": false,
+          }
+        }
+        theme={Object {}}
+        type="info"
+      >
+        <MUIconComp
+          className="mr-2"
+          classes={
+            Object {
+              "root": "MUIconComp-root-0-3-35 MUIconComp-root-d45-0-3-157",
+            }
+          }
+          color="#03a9f4"
+          fontSize={28}
+          type="info"
+        >
+          <i
+            className="MUIconComp-root-0-3-35 MUIconComp-root-d45-0-3-157 mr-2"
+          >
+            info
+          </i>
+        </MUIconComp>
+      </WithStyles(MUIconComp)>
+    </MUIcon>
+    <Typography
+      bold={true}
+      color="#03a9f4"
+      textTransform="uppercase"
+      variant="standard"
+    >
+      <WithStyles(TypographyComp)
+        bold={true}
+        color="#03a9f4"
+        innerRef={null}
+        jssContext={
+          Object {
+            "classNamePrefix": "",
+            "disableStylesGeneration": false,
+          }
+        }
+        textTransform="uppercase"
+        theme={Object {}}
+        variant="standard"
+      >
+        <TypographyComp
+          bold={true}
+          classes={
+            Object {
+              "big": "TypographyComp-big-0-3-7",
+              "bold": "TypographyComp-bold-0-3-1",
+              "capitalize": "TypographyComp-capitalize-0-3-12",
+              "distance": "TypographyComp-distance-0-3-6",
+              "ellipsis": "TypographyComp-ellipsis-0-3-14",
+              "giant": "TypographyComp-giant-0-3-9",
+              "heading": "TypographyComp-heading-0-3-8",
+              "italic": "TypographyComp-italic-0-3-3",
+              "lowercase": "TypographyComp-lowercase-0-3-11",
+              "noWrap": "TypographyComp-noWrap-0-3-13",
+              "semiBold": "TypographyComp-semiBold-0-3-2",
+              "standard": "TypographyComp-standard-0-3-5",
+              "subtext": "TypographyComp-subtext-0-3-4",
+              "uppercase": "TypographyComp-uppercase-0-3-10",
+            }
+          }
+          color="#03a9f4"
+          textTransform="uppercase"
+          variant="standard"
+        >
+          <span
+            className="TypographyComp-standard-0-3-5 TypographyComp-uppercase-0-3-10 TypographyComp-bold-0-3-1"
+            style={
+              Object {
+                "color": "rgba(3, 169, 244, 1)",
+              }
+            }
+          >
+            Generic text
+             x17
+          </span>
+        </TypographyComp>
+      </WithStyles(TypographyComp)>
+    </Typography>
+  </div>
+</Component>
+`;
+
+exports[`Storyshots Components/IconTextNotification Warning 1`] = `
+<Component
+  color="#d50000"
+  counter={3}
+  icon="warning"
+  text="Interrupted"
+>
+  <div
+    className="d-flex align-items-center"
+  >
+    <MUIcon
+      className="mr-2"
+      color="#d50000"
+      fontSize={37}
+      type="warning"
+    >
+      <WithStyles(MUIconComp)
+        className="mr-2"
+        color="#d50000"
+        fontSize={37}
+        innerRef={null}
+        jssContext={
+          Object {
+            "classNamePrefix": "",
+            "disableStylesGeneration": false,
+          }
+        }
+        theme={Object {}}
+        type="warning"
+      >
+        <MUIconComp
+          className="mr-2"
+          classes={
+            Object {
+              "root": "MUIconComp-root-0-3-35 MUIconComp-root-d42-0-3-154",
+            }
+          }
+          color="#d50000"
+          fontSize={37}
+          type="warning"
+        >
+          <i
+            className="MUIconComp-root-0-3-35 MUIconComp-root-d42-0-3-154 mr-2"
+          >
+            warning
+          </i>
+        </MUIconComp>
+      </WithStyles(MUIconComp)>
+    </MUIcon>
+    <Typography
+      bold={true}
+      color="#d50000"
+      textTransform="uppercase"
+      variant="distance"
+    >
+      <WithStyles(TypographyComp)
+        bold={true}
+        color="#d50000"
+        innerRef={null}
+        jssContext={
+          Object {
+            "classNamePrefix": "",
+            "disableStylesGeneration": false,
+          }
+        }
+        textTransform="uppercase"
+        theme={Object {}}
+        variant="distance"
+      >
+        <TypographyComp
+          bold={true}
+          classes={
+            Object {
+              "big": "TypographyComp-big-0-3-7",
+              "bold": "TypographyComp-bold-0-3-1",
+              "capitalize": "TypographyComp-capitalize-0-3-12",
+              "distance": "TypographyComp-distance-0-3-6",
+              "ellipsis": "TypographyComp-ellipsis-0-3-14",
+              "giant": "TypographyComp-giant-0-3-9",
+              "heading": "TypographyComp-heading-0-3-8",
+              "italic": "TypographyComp-italic-0-3-3",
+              "lowercase": "TypographyComp-lowercase-0-3-11",
+              "noWrap": "TypographyComp-noWrap-0-3-13",
+              "semiBold": "TypographyComp-semiBold-0-3-2",
+              "standard": "TypographyComp-standard-0-3-5",
+              "subtext": "TypographyComp-subtext-0-3-4",
+              "uppercase": "TypographyComp-uppercase-0-3-10",
+            }
+          }
+          color="#d50000"
+          textTransform="uppercase"
+          variant="distance"
+        >
+          <span
+            className="TypographyComp-distance-0-3-6 TypographyComp-uppercase-0-3-10 TypographyComp-bold-0-3-1"
+            style={
+              Object {
+                "color": "rgba(213, 0, 0, 1)",
+              }
+            }
+          >
+            Interrupted
+             x3
+          </span>
+        </TypographyComp>
+      </WithStyles(TypographyComp)>
+    </Typography>
+  </div>
+</Component>
+`;
+
+exports[`Storyshots Components/IconTextNotification Warning counter 1`] = `
+<Component
+  color="#d50000"
+  icon="warning"
+  text="Interrupted"
+>
+  <div
+    className="d-flex align-items-center"
+  >
+    <MUIcon
+      className="mr-2"
+      color="#d50000"
+      fontSize={37}
+      type="warning"
+    >
+      <WithStyles(MUIconComp)
+        className="mr-2"
+        color="#d50000"
+        fontSize={37}
+        innerRef={null}
+        jssContext={
+          Object {
+            "classNamePrefix": "",
+            "disableStylesGeneration": false,
+          }
+        }
+        theme={Object {}}
+        type="warning"
+      >
+        <MUIconComp
+          className="mr-2"
+          classes={
+            Object {
+              "root": "MUIconComp-root-0-3-35 MUIconComp-root-d43-0-3-155",
+            }
+          }
+          color="#d50000"
+          fontSize={37}
+          type="warning"
+        >
+          <i
+            className="MUIconComp-root-0-3-35 MUIconComp-root-d43-0-3-155 mr-2"
+          >
+            warning
+          </i>
+        </MUIconComp>
+      </WithStyles(MUIconComp)>
+    </MUIcon>
+    <Typography
+      bold={true}
+      color="#d50000"
+      textTransform="uppercase"
+      variant="distance"
+    >
+      <WithStyles(TypographyComp)
+        bold={true}
+        color="#d50000"
+        innerRef={null}
+        jssContext={
+          Object {
+            "classNamePrefix": "",
+            "disableStylesGeneration": false,
+          }
+        }
+        textTransform="uppercase"
+        theme={Object {}}
+        variant="distance"
+      >
+        <TypographyComp
+          bold={true}
+          classes={
+            Object {
+              "big": "TypographyComp-big-0-3-7",
+              "bold": "TypographyComp-bold-0-3-1",
+              "capitalize": "TypographyComp-capitalize-0-3-12",
+              "distance": "TypographyComp-distance-0-3-6",
+              "ellipsis": "TypographyComp-ellipsis-0-3-14",
+              "giant": "TypographyComp-giant-0-3-9",
+              "heading": "TypographyComp-heading-0-3-8",
+              "italic": "TypographyComp-italic-0-3-3",
+              "lowercase": "TypographyComp-lowercase-0-3-11",
+              "noWrap": "TypographyComp-noWrap-0-3-13",
+              "semiBold": "TypographyComp-semiBold-0-3-2",
+              "standard": "TypographyComp-standard-0-3-5",
+              "subtext": "TypographyComp-subtext-0-3-4",
+              "uppercase": "TypographyComp-uppercase-0-3-10",
+            }
+          }
+          color="#d50000"
+          textTransform="uppercase"
+          variant="distance"
+        >
+          <span
+            className="TypographyComp-distance-0-3-6 TypographyComp-uppercase-0-3-10 TypographyComp-bold-0-3-1"
+            style={
+              Object {
+                "color": "rgba(213, 0, 0, 1)",
+              }
+            }
+          >
+            Interrupted
+          </span>
+        </TypographyComp>
+      </WithStyles(TypographyComp)>
+    </Typography>
+  </div>
+</Component>
+`;

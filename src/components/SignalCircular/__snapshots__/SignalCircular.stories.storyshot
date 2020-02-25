@@ -1,0 +1,388 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/SignalCircular Color darkGrey 1`] = `
+<SignalCircular
+  color="darkGrey"
+  size="md"
+>
+  <WithStyles(SignalCircularComp)
+    color="darkGrey"
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    size="md"
+    theme={Object {}}
+  >
+    <SignalCircularComp
+      classes={
+        Object {
+          "darkGrey": "SignalCircularComp-darkGrey-0-3-264",
+          "green": "SignalCircularComp-green-0-3-262",
+          "lightGrey": "SignalCircularComp-lightGrey-0-3-263",
+          "md": "SignalCircularComp-md-0-3-258",
+          "orange": "SignalCircularComp-orange-0-3-260",
+          "red": "SignalCircularComp-red-0-3-259",
+          "root": "SignalCircularComp-root-0-3-255",
+          "sm": "SignalCircularComp-sm-0-3-257",
+          "xs": "SignalCircularComp-xs-0-3-256",
+          "yellow": "SignalCircularComp-yellow-0-3-261",
+        }
+      }
+      color="darkGrey"
+      size="md"
+    >
+      <div
+        className="SignalCircularComp-root-0-3-255 SignalCircularComp-darkGrey-0-3-264 SignalCircularComp-md-0-3-258"
+      />
+    </SignalCircularComp>
+  </WithStyles(SignalCircularComp)>
+</SignalCircular>
+`;
+
+exports[`Storyshots Components/SignalCircular Color green 1`] = `
+<SignalCircular
+  color="green"
+  size="md"
+>
+  <WithStyles(SignalCircularComp)
+    color="green"
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    size="md"
+    theme={Object {}}
+  >
+    <SignalCircularComp
+      classes={
+        Object {
+          "darkGrey": "SignalCircularComp-darkGrey-0-3-264",
+          "green": "SignalCircularComp-green-0-3-262",
+          "lightGrey": "SignalCircularComp-lightGrey-0-3-263",
+          "md": "SignalCircularComp-md-0-3-258",
+          "orange": "SignalCircularComp-orange-0-3-260",
+          "red": "SignalCircularComp-red-0-3-259",
+          "root": "SignalCircularComp-root-0-3-255",
+          "sm": "SignalCircularComp-sm-0-3-257",
+          "xs": "SignalCircularComp-xs-0-3-256",
+          "yellow": "SignalCircularComp-yellow-0-3-261",
+        }
+      }
+      color="green"
+      size="md"
+    >
+      <div
+        className="SignalCircularComp-root-0-3-255 SignalCircularComp-green-0-3-262 SignalCircularComp-md-0-3-258"
+      />
+    </SignalCircularComp>
+  </WithStyles(SignalCircularComp)>
+</SignalCircular>
+`;
+
+exports[`Storyshots Components/SignalCircular Color lightGrey 1`] = `
+<SignalCircular
+  color="lightGrey"
+  size="md"
+>
+  <WithStyles(SignalCircularComp)
+    color="lightGrey"
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    size="md"
+    theme={Object {}}
+  >
+    <SignalCircularComp
+      classes={
+        Object {
+          "darkGrey": "SignalCircularComp-darkGrey-0-3-264",
+          "green": "SignalCircularComp-green-0-3-262",
+          "lightGrey": "SignalCircularComp-lightGrey-0-3-263",
+          "md": "SignalCircularComp-md-0-3-258",
+          "orange": "SignalCircularComp-orange-0-3-260",
+          "red": "SignalCircularComp-red-0-3-259",
+          "root": "SignalCircularComp-root-0-3-255",
+          "sm": "SignalCircularComp-sm-0-3-257",
+          "xs": "SignalCircularComp-xs-0-3-256",
+          "yellow": "SignalCircularComp-yellow-0-3-261",
+        }
+      }
+      color="lightGrey"
+      size="md"
+    >
+      <div
+        className="SignalCircularComp-root-0-3-255 SignalCircularComp-lightGrey-0-3-263 SignalCircularComp-md-0-3-258"
+      />
+    </SignalCircularComp>
+  </WithStyles(SignalCircularComp)>
+</SignalCircular>
+`;
+
+exports[`Storyshots Components/SignalCircular Color orange 1`] = `
+<SignalCircular
+  color="orange"
+  size="md"
+>
+  <WithStyles(SignalCircularComp)
+    color="orange"
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    size="md"
+    theme={Object {}}
+  >
+    <SignalCircularComp
+      classes={
+        Object {
+          "darkGrey": "SignalCircularComp-darkGrey-0-3-264",
+          "green": "SignalCircularComp-green-0-3-262",
+          "lightGrey": "SignalCircularComp-lightGrey-0-3-263",
+          "md": "SignalCircularComp-md-0-3-258",
+          "orange": "SignalCircularComp-orange-0-3-260",
+          "red": "SignalCircularComp-red-0-3-259",
+          "root": "SignalCircularComp-root-0-3-255",
+          "sm": "SignalCircularComp-sm-0-3-257",
+          "xs": "SignalCircularComp-xs-0-3-256",
+          "yellow": "SignalCircularComp-yellow-0-3-261",
+        }
+      }
+      color="orange"
+      size="md"
+    >
+      <div
+        className="SignalCircularComp-root-0-3-255 SignalCircularComp-orange-0-3-260 SignalCircularComp-md-0-3-258"
+      />
+    </SignalCircularComp>
+  </WithStyles(SignalCircularComp)>
+</SignalCircular>
+`;
+
+exports[`Storyshots Components/SignalCircular Color red 1`] = `
+<SignalCircular
+  color="red"
+  size="md"
+>
+  <WithStyles(SignalCircularComp)
+    color="red"
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    size="md"
+    theme={Object {}}
+  >
+    <SignalCircularComp
+      classes={
+        Object {
+          "darkGrey": "SignalCircularComp-darkGrey-0-3-264",
+          "green": "SignalCircularComp-green-0-3-262",
+          "lightGrey": "SignalCircularComp-lightGrey-0-3-263",
+          "md": "SignalCircularComp-md-0-3-258",
+          "orange": "SignalCircularComp-orange-0-3-260",
+          "red": "SignalCircularComp-red-0-3-259",
+          "root": "SignalCircularComp-root-0-3-255",
+          "sm": "SignalCircularComp-sm-0-3-257",
+          "xs": "SignalCircularComp-xs-0-3-256",
+          "yellow": "SignalCircularComp-yellow-0-3-261",
+        }
+      }
+      color="red"
+      size="md"
+    >
+      <div
+        className="SignalCircularComp-root-0-3-255 SignalCircularComp-red-0-3-259 SignalCircularComp-md-0-3-258"
+      />
+    </SignalCircularComp>
+  </WithStyles(SignalCircularComp)>
+</SignalCircular>
+`;
+
+exports[`Storyshots Components/SignalCircular Color yellow 1`] = `
+<SignalCircular
+  color="yellow"
+  size="md"
+>
+  <WithStyles(SignalCircularComp)
+    color="yellow"
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    size="md"
+    theme={Object {}}
+  >
+    <SignalCircularComp
+      classes={
+        Object {
+          "darkGrey": "SignalCircularComp-darkGrey-0-3-264",
+          "green": "SignalCircularComp-green-0-3-262",
+          "lightGrey": "SignalCircularComp-lightGrey-0-3-263",
+          "md": "SignalCircularComp-md-0-3-258",
+          "orange": "SignalCircularComp-orange-0-3-260",
+          "red": "SignalCircularComp-red-0-3-259",
+          "root": "SignalCircularComp-root-0-3-255",
+          "sm": "SignalCircularComp-sm-0-3-257",
+          "xs": "SignalCircularComp-xs-0-3-256",
+          "yellow": "SignalCircularComp-yellow-0-3-261",
+        }
+      }
+      color="yellow"
+      size="md"
+    >
+      <div
+        className="SignalCircularComp-root-0-3-255 SignalCircularComp-yellow-0-3-261 SignalCircularComp-md-0-3-258"
+      />
+    </SignalCircularComp>
+  </WithStyles(SignalCircularComp)>
+</SignalCircular>
+`;
+
+exports[`Storyshots Components/SignalCircular Size md 1`] = `
+<SignalCircular
+  color="green"
+  size="md"
+>
+  <WithStyles(SignalCircularComp)
+    color="green"
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    size="md"
+    theme={Object {}}
+  >
+    <SignalCircularComp
+      classes={
+        Object {
+          "darkGrey": "SignalCircularComp-darkGrey-0-3-264",
+          "green": "SignalCircularComp-green-0-3-262",
+          "lightGrey": "SignalCircularComp-lightGrey-0-3-263",
+          "md": "SignalCircularComp-md-0-3-258",
+          "orange": "SignalCircularComp-orange-0-3-260",
+          "red": "SignalCircularComp-red-0-3-259",
+          "root": "SignalCircularComp-root-0-3-255",
+          "sm": "SignalCircularComp-sm-0-3-257",
+          "xs": "SignalCircularComp-xs-0-3-256",
+          "yellow": "SignalCircularComp-yellow-0-3-261",
+        }
+      }
+      color="green"
+      size="md"
+    >
+      <div
+        className="SignalCircularComp-root-0-3-255 SignalCircularComp-green-0-3-262 SignalCircularComp-md-0-3-258"
+      />
+    </SignalCircularComp>
+  </WithStyles(SignalCircularComp)>
+</SignalCircular>
+`;
+
+exports[`Storyshots Components/SignalCircular Size sm 1`] = `
+<SignalCircular
+  color="green"
+  size="sm"
+>
+  <WithStyles(SignalCircularComp)
+    color="green"
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    size="sm"
+    theme={Object {}}
+  >
+    <SignalCircularComp
+      classes={
+        Object {
+          "darkGrey": "SignalCircularComp-darkGrey-0-3-264",
+          "green": "SignalCircularComp-green-0-3-262",
+          "lightGrey": "SignalCircularComp-lightGrey-0-3-263",
+          "md": "SignalCircularComp-md-0-3-258",
+          "orange": "SignalCircularComp-orange-0-3-260",
+          "red": "SignalCircularComp-red-0-3-259",
+          "root": "SignalCircularComp-root-0-3-255",
+          "sm": "SignalCircularComp-sm-0-3-257",
+          "xs": "SignalCircularComp-xs-0-3-256",
+          "yellow": "SignalCircularComp-yellow-0-3-261",
+        }
+      }
+      color="green"
+      size="sm"
+    >
+      <div
+        className="SignalCircularComp-root-0-3-255 SignalCircularComp-green-0-3-262 SignalCircularComp-sm-0-3-257"
+      />
+    </SignalCircularComp>
+  </WithStyles(SignalCircularComp)>
+</SignalCircular>
+`;
+
+exports[`Storyshots Components/SignalCircular Size xs 1`] = `
+<SignalCircular
+  color="green"
+  size="xs"
+>
+  <WithStyles(SignalCircularComp)
+    color="green"
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    size="xs"
+    theme={Object {}}
+  >
+    <SignalCircularComp
+      classes={
+        Object {
+          "darkGrey": "SignalCircularComp-darkGrey-0-3-264",
+          "green": "SignalCircularComp-green-0-3-262",
+          "lightGrey": "SignalCircularComp-lightGrey-0-3-263",
+          "md": "SignalCircularComp-md-0-3-258",
+          "orange": "SignalCircularComp-orange-0-3-260",
+          "red": "SignalCircularComp-red-0-3-259",
+          "root": "SignalCircularComp-root-0-3-255",
+          "sm": "SignalCircularComp-sm-0-3-257",
+          "xs": "SignalCircularComp-xs-0-3-256",
+          "yellow": "SignalCircularComp-yellow-0-3-261",
+        }
+      }
+      color="green"
+      size="xs"
+    >
+      <div
+        className="SignalCircularComp-root-0-3-255 SignalCircularComp-green-0-3-262 SignalCircularComp-xs-0-3-256"
+      />
+    </SignalCircularComp>
+  </WithStyles(SignalCircularComp)>
+</SignalCircular>
+`;

@@ -9,7 +9,7 @@ const baseProps = {
   onChange: action('onChange')
 };
 
-storiesOf('Components|NumericKeypad.NumericKeypad', module)
+storiesOf('Components/NumericKeypad/NumericKeypad', module)
   .addDecorator(hostDecorator())
   .add('No initial value', () => <NumericKeypad {...baseProps} />)
   .add('defaultValue', () => <NumericKeypad {...baseProps} defaultValue={1500} />)

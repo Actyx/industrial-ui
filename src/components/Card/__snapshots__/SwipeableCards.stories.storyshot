@@ -1,0 +1,648 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Card/Swipeable Swipe anything 1`] = `
+<div
+  style={
+    Object {
+      "height": 300,
+      "padding": 50,
+      "width": 400,
+    }
+  }
+>
+  <h1>
+    Swipe anything
+  </h1>
+  <SwipeableCards
+    className="bg-dark"
+  >
+    <WithStyles(SwipeableCardsComp)
+      className="bg-dark"
+      innerRef={null}
+      jssContext={
+        Object {
+          "classNamePrefix": "",
+          "disableStylesGeneration": false,
+        }
+      }
+      theme={Object {}}
+    >
+      <SwipeableCardsComp
+        className="bg-dark"
+        classes={
+          Object {
+            "root": "SwipeableCardsComp-root-0-3-74",
+          }
+        }
+      >
+        <div
+          className="SwipeableCardsComp-root-0-3-74 bg-dark"
+        >
+          <ReactSwipableView
+            animateHeight={false}
+            animateTransitions={true}
+            axis="x"
+            disableLazyLoading={false}
+            disabled={false}
+            enableMouseEvents={true}
+            hysteresis={0.6}
+            ignoreNativeScroll={false}
+            index={0}
+            onChangeIndex={[Function]}
+            resistance={false}
+            springConfig={
+              Object {
+                "delay": "0s",
+                "duration": "0.35s",
+                "easeFunction": "cubic-bezier(0.15, 0.3, 0.25, 1)",
+              }
+            }
+            threshold={5}
+          >
+            <div
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseMove={[Function]}
+              onMouseUp={[Function]}
+              onScroll={[Function]}
+              onTouchEnd={[Function]}
+              onTouchStart={[Function]}
+              style={
+                Object {
+                  "overflowX": "hidden",
+                }
+              }
+            >
+              <div
+                className="react-swipeable-view-container"
+                style={
+                  Object {
+                    "WebkitFlexDirection": "row",
+                    "WebkitTransition": "all 0s ease 0s",
+                    "direction": "ltr",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "height": null,
+                    "transition": "all 0s ease 0s",
+                    "willChange": "transform",
+                  }
+                }
+              >
+                <div
+                  aria-hidden={false}
+                  data-swipeable="true"
+                  key=".0"
+                  style={
+                    Object {
+                      "WebkitFlexShrink": 0,
+                      "flexShrink": 0,
+                      "overflow": "auto",
+                      "width": "100%",
+                    }
+                  }
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": "#ffffff",
+                        "color": "#ffffff",
+                        "display": "flex",
+                        "minHeight": 100,
+                        "padding": 15,
+                        "width": 300,
+                      }
+                    }
+                  >
+                    <div
+                      style={
+                        Object {
+                          "backgroundColor": "#FEA900",
+                          "color": "#ffffff",
+                          "display": "flex",
+                          "minHeight": 100,
+                          "padding": 15,
+                          "width": 300,
+                        }
+                      }
+                    >
+                      1.1
+                    </div>
+                    <div
+                      style={
+                        Object {
+                          "backgroundColor": "#FEA900",
+                          "color": "#ffffff",
+                          "display": "flex",
+                          "marginLeft": 50,
+                          "minHeight": 100,
+                          "padding": 15,
+                          "width": 300,
+                        }
+                      }
+                    >
+                      1.2
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </ReactSwipableView>
+          <PaginationDots
+            dots={2}
+            index={0}
+            onChangeIndex={[Function]}
+          >
+            <WithStyles(PaginationDotsComp)
+              dots={2}
+              index={0}
+              innerRef={null}
+              jssContext={
+                Object {
+                  "classNamePrefix": "",
+                  "disableStylesGeneration": false,
+                }
+              }
+              onChangeIndex={[Function]}
+              theme={Object {}}
+            >
+              <PaginationDotsComp
+                classes={
+                  Object {
+                    "root": "PaginationDotsComp-root-0-3-76",
+                  }
+                }
+                dots={2}
+                index={0}
+                onChangeIndex={[Function]}
+              >
+                <div
+                  className="PaginationDotsComp-root-0-3-76"
+                >
+                  <PaginationDot
+                    active={true}
+                    key="0"
+                    onClick={[Function]}
+                  >
+                    <WithStyles(PaginationDotComp)
+                      active={true}
+                      innerRef={null}
+                      jssContext={
+                        Object {
+                          "classNamePrefix": "",
+                          "disableStylesGeneration": false,
+                        }
+                      }
+                      onClick={[Function]}
+                      theme={Object {}}
+                    >
+                      <PaginationDotComp
+                        active={true}
+                        classes={
+                          Object {
+                            "active": "PaginationDotComp-active-0-3-79",
+                            "dot": "PaginationDotComp-dot-0-3-78",
+                            "root": "PaginationDotComp-root-0-3-77",
+                          }
+                        }
+                        onClick={[Function]}
+                      >
+                        <button
+                          className="PaginationDotComp-root-0-3-77"
+                          onClick={[Function]}
+                        >
+                          <div
+                            className="PaginationDotComp-active-0-3-79 PaginationDotComp-dot-0-3-78"
+                          />
+                        </button>
+                      </PaginationDotComp>
+                    </WithStyles(PaginationDotComp)>
+                  </PaginationDot>
+                  <PaginationDot
+                    active={false}
+                    key="1"
+                    onClick={[Function]}
+                  >
+                    <WithStyles(PaginationDotComp)
+                      active={false}
+                      innerRef={null}
+                      jssContext={
+                        Object {
+                          "classNamePrefix": "",
+                          "disableStylesGeneration": false,
+                        }
+                      }
+                      onClick={[Function]}
+                      theme={Object {}}
+                    >
+                      <PaginationDotComp
+                        active={false}
+                        classes={
+                          Object {
+                            "active": "PaginationDotComp-active-0-3-79",
+                            "dot": "PaginationDotComp-dot-0-3-78",
+                            "root": "PaginationDotComp-root-0-3-77",
+                          }
+                        }
+                        onClick={[Function]}
+                      >
+                        <button
+                          className="PaginationDotComp-root-0-3-77"
+                          onClick={[Function]}
+                        >
+                          <div
+                            className="PaginationDotComp-dot-0-3-78"
+                          />
+                        </button>
+                      </PaginationDotComp>
+                    </WithStyles(PaginationDotComp)>
+                  </PaginationDot>
+                </div>
+              </PaginationDotsComp>
+            </WithStyles(PaginationDotsComp)>
+          </PaginationDots>
+        </div>
+      </SwipeableCardsComp>
+    </WithStyles(SwipeableCardsComp)>
+  </SwipeableCards>
+</div>
+`;
+
+exports[`Storyshots Components/Card/Swipeable Swipeable cards 1`] = `
+<div
+  style={
+    Object {
+      "width": "calc(510px * 2 + (3 * 1rem))",
+    }
+  }
+>
+  <SwipeableCards>
+    <WithStyles(SwipeableCardsComp)
+      innerRef={null}
+      jssContext={
+        Object {
+          "classNamePrefix": "",
+          "disableStylesGeneration": false,
+        }
+      }
+      theme={Object {}}
+    >
+      <SwipeableCardsComp
+        classes={
+          Object {
+            "root": "SwipeableCardsComp-root-0-3-74",
+          }
+        }
+      >
+        <div
+          className="SwipeableCardsComp-root-0-3-74"
+        >
+          <ReactSwipableView
+            animateHeight={false}
+            animateTransitions={true}
+            axis="x"
+            disableLazyLoading={false}
+            disabled={false}
+            enableMouseEvents={true}
+            hysteresis={0.6}
+            ignoreNativeScroll={false}
+            index={0}
+            onChangeIndex={[Function]}
+            resistance={false}
+            springConfig={
+              Object {
+                "delay": "0s",
+                "duration": "0.35s",
+                "easeFunction": "cubic-bezier(0.15, 0.3, 0.25, 1)",
+              }
+            }
+            threshold={5}
+          >
+            <div
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseMove={[Function]}
+              onMouseUp={[Function]}
+              onScroll={[Function]}
+              onTouchEnd={[Function]}
+              onTouchStart={[Function]}
+              style={
+                Object {
+                  "overflowX": "hidden",
+                }
+              }
+            >
+              <div
+                className="react-swipeable-view-container"
+                style={
+                  Object {
+                    "WebkitFlexDirection": "row",
+                    "WebkitTransition": "all 0s ease 0s",
+                    "direction": "ltr",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "height": null,
+                    "transition": "all 0s ease 0s",
+                    "willChange": "transform",
+                  }
+                }
+              >
+                <div
+                  aria-hidden={false}
+                  data-swipeable="true"
+                  key=".0"
+                  style={
+                    Object {
+                      "WebkitFlexShrink": 0,
+                      "flexShrink": 0,
+                      "overflow": "auto",
+                      "width": "100%",
+                    }
+                  }
+                >
+                  <SwipeableContainer>
+                    <WithStyles(SwipeableContainerComp)
+                      innerRef={null}
+                      jssContext={
+                        Object {
+                          "classNamePrefix": "",
+                          "disableStylesGeneration": false,
+                        }
+                      }
+                      theme={Object {}}
+                    >
+                      <SwipeableContainerComp
+                        classes={
+                          Object {
+                            "root": "SwipeableContainerComp-root-0-3-75",
+                          }
+                        }
+                      >
+                        <div
+                          className="SwipeableContainerComp-root-0-3-75"
+                        >
+                          <Card
+                            color="neutral"
+                            content="1.1"
+                            raised={true}
+                            size="md"
+                          >
+                            <WithStyles(CardComp)
+                              color="neutral"
+                              content="1.1"
+                              innerRef={null}
+                              jssContext={
+                                Object {
+                                  "classNamePrefix": "",
+                                  "disableStylesGeneration": false,
+                                }
+                              }
+                              raised={true}
+                              size="md"
+                              theme={Object {}}
+                            >
+                              <CardComp
+                                classes={
+                                  Object {
+                                    "action": "CardComp-action-0-3-73",
+                                    "content": "CardComp-content-0-3-72",
+                                    "header": "CardComp-header-0-3-71",
+                                    "md": "CardComp-md-0-3-67",
+                                    "neutral": "CardComp-neutral-0-3-69",
+                                    "raised": "CardComp-raised-0-3-68",
+                                    "red": "CardComp-red-0-3-70",
+                                    "root": "CardComp-root-0-3-66",
+                                  }
+                                }
+                                color="neutral"
+                                content="1.1"
+                                raised={true}
+                                size="md"
+                              >
+                                <div
+                                  className="CardComp-root-0-3-66 CardComp-raised-0-3-68 CardComp-md-0-3-67 CardComp-neutral-0-3-69"
+                                >
+                                  <div
+                                    className="CardComp-content-0-3-72"
+                                  >
+                                    1.1
+                                  </div>
+                                </div>
+                              </CardComp>
+                            </WithStyles(CardComp)>
+                          </Card>
+                          <Card
+                            color="neutral"
+                            content="1.2"
+                            raised={true}
+                            size="md"
+                          >
+                            <WithStyles(CardComp)
+                              color="neutral"
+                              content="1.2"
+                              innerRef={null}
+                              jssContext={
+                                Object {
+                                  "classNamePrefix": "",
+                                  "disableStylesGeneration": false,
+                                }
+                              }
+                              raised={true}
+                              size="md"
+                              theme={Object {}}
+                            >
+                              <CardComp
+                                classes={
+                                  Object {
+                                    "action": "CardComp-action-0-3-73",
+                                    "content": "CardComp-content-0-3-72",
+                                    "header": "CardComp-header-0-3-71",
+                                    "md": "CardComp-md-0-3-67",
+                                    "neutral": "CardComp-neutral-0-3-69",
+                                    "raised": "CardComp-raised-0-3-68",
+                                    "red": "CardComp-red-0-3-70",
+                                    "root": "CardComp-root-0-3-66",
+                                  }
+                                }
+                                color="neutral"
+                                content="1.2"
+                                raised={true}
+                                size="md"
+                              >
+                                <div
+                                  className="CardComp-root-0-3-66 CardComp-raised-0-3-68 CardComp-md-0-3-67 CardComp-neutral-0-3-69"
+                                >
+                                  <div
+                                    className="CardComp-content-0-3-72"
+                                  >
+                                    1.2
+                                  </div>
+                                </div>
+                              </CardComp>
+                            </WithStyles(CardComp)>
+                          </Card>
+                        </div>
+                      </SwipeableContainerComp>
+                    </WithStyles(SwipeableContainerComp)>
+                  </SwipeableContainer>
+                </div>
+              </div>
+            </div>
+          </ReactSwipableView>
+          <PaginationDots
+            dots={3}
+            index={0}
+            onChangeIndex={[Function]}
+          >
+            <WithStyles(PaginationDotsComp)
+              dots={3}
+              index={0}
+              innerRef={null}
+              jssContext={
+                Object {
+                  "classNamePrefix": "",
+                  "disableStylesGeneration": false,
+                }
+              }
+              onChangeIndex={[Function]}
+              theme={Object {}}
+            >
+              <PaginationDotsComp
+                classes={
+                  Object {
+                    "root": "PaginationDotsComp-root-0-3-76",
+                  }
+                }
+                dots={3}
+                index={0}
+                onChangeIndex={[Function]}
+              >
+                <div
+                  className="PaginationDotsComp-root-0-3-76"
+                >
+                  <PaginationDot
+                    active={true}
+                    key="0"
+                    onClick={[Function]}
+                  >
+                    <WithStyles(PaginationDotComp)
+                      active={true}
+                      innerRef={null}
+                      jssContext={
+                        Object {
+                          "classNamePrefix": "",
+                          "disableStylesGeneration": false,
+                        }
+                      }
+                      onClick={[Function]}
+                      theme={Object {}}
+                    >
+                      <PaginationDotComp
+                        active={true}
+                        classes={
+                          Object {
+                            "active": "PaginationDotComp-active-0-3-79",
+                            "dot": "PaginationDotComp-dot-0-3-78",
+                            "root": "PaginationDotComp-root-0-3-77",
+                          }
+                        }
+                        onClick={[Function]}
+                      >
+                        <button
+                          className="PaginationDotComp-root-0-3-77"
+                          onClick={[Function]}
+                        >
+                          <div
+                            className="PaginationDotComp-active-0-3-79 PaginationDotComp-dot-0-3-78"
+                          />
+                        </button>
+                      </PaginationDotComp>
+                    </WithStyles(PaginationDotComp)>
+                  </PaginationDot>
+                  <PaginationDot
+                    active={false}
+                    key="1"
+                    onClick={[Function]}
+                  >
+                    <WithStyles(PaginationDotComp)
+                      active={false}
+                      innerRef={null}
+                      jssContext={
+                        Object {
+                          "classNamePrefix": "",
+                          "disableStylesGeneration": false,
+                        }
+                      }
+                      onClick={[Function]}
+                      theme={Object {}}
+                    >
+                      <PaginationDotComp
+                        active={false}
+                        classes={
+                          Object {
+                            "active": "PaginationDotComp-active-0-3-79",
+                            "dot": "PaginationDotComp-dot-0-3-78",
+                            "root": "PaginationDotComp-root-0-3-77",
+                          }
+                        }
+                        onClick={[Function]}
+                      >
+                        <button
+                          className="PaginationDotComp-root-0-3-77"
+                          onClick={[Function]}
+                        >
+                          <div
+                            className="PaginationDotComp-dot-0-3-78"
+                          />
+                        </button>
+                      </PaginationDotComp>
+                    </WithStyles(PaginationDotComp)>
+                  </PaginationDot>
+                  <PaginationDot
+                    active={false}
+                    key="2"
+                    onClick={[Function]}
+                  >
+                    <WithStyles(PaginationDotComp)
+                      active={false}
+                      innerRef={null}
+                      jssContext={
+                        Object {
+                          "classNamePrefix": "",
+                          "disableStylesGeneration": false,
+                        }
+                      }
+                      onClick={[Function]}
+                      theme={Object {}}
+                    >
+                      <PaginationDotComp
+                        active={false}
+                        classes={
+                          Object {
+                            "active": "PaginationDotComp-active-0-3-79",
+                            "dot": "PaginationDotComp-dot-0-3-78",
+                            "root": "PaginationDotComp-root-0-3-77",
+                          }
+                        }
+                        onClick={[Function]}
+                      >
+                        <button
+                          className="PaginationDotComp-root-0-3-77"
+                          onClick={[Function]}
+                        >
+                          <div
+                            className="PaginationDotComp-dot-0-3-78"
+                          />
+                        </button>
+                      </PaginationDotComp>
+                    </WithStyles(PaginationDotComp)>
+                  </PaginationDot>
+                </div>
+              </PaginationDotsComp>
+            </WithStyles(PaginationDotsComp)>
+          </PaginationDots>
+        </div>
+      </SwipeableCardsComp>
+    </WithStyles(SwipeableCardsComp)>
+  </SwipeableCards>
+</div>
+`;

@@ -5,7 +5,7 @@ import { NetworkStatusIcon } from './NetworkStatusIcon';
 import { hostDecorator } from '../../utils';
 import { grey, red } from '../../colors';
 
-storiesOf('Components|NetworkStatusIcon', module)
+storiesOf('Components/NetworkStatusIcon', module)
   .addDecorator(
     hostDecorator({
       backgroundColor: grey[400],

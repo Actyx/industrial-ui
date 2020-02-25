@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Dialog/DialogHeader Base 1`] = `
+<DialogHeader
+  text="Title dialog"
+>
+  <div
+    className="d-flex justify-content-between"
+  >
+    <Typography
+      bold={true}
+      variant="big"
+    >
+      <WithStyles(TypographyComp)
+        bold={true}
+        innerRef={null}
+        jssContext={
+          Object {
+            "classNamePrefix": "",
+            "disableStylesGeneration": false,
+          }
+        }
+        theme={Object {}}
+        variant="big"
+      >
+        <TypographyComp
+          bold={true}
+          classes={
+            Object {
+              "big": "TypographyComp-big-0-3-7",
+              "bold": "TypographyComp-bold-0-3-1",
+              "capitalize": "TypographyComp-capitalize-0-3-12",
+              "distance": "TypographyComp-distance-0-3-6",
+              "ellipsis": "TypographyComp-ellipsis-0-3-14",
+              "giant": "TypographyComp-giant-0-3-9",
+              "heading": "TypographyComp-heading-0-3-8",
+              "italic": "TypographyComp-italic-0-3-3",
+              "lowercase": "TypographyComp-lowercase-0-3-11",
+              "noWrap": "TypographyComp-noWrap-0-3-13",
+              "semiBold": "TypographyComp-semiBold-0-3-2",
+              "standard": "TypographyComp-standard-0-3-5",
+              "subtext": "TypographyComp-subtext-0-3-4",
+              "uppercase": "TypographyComp-uppercase-0-3-10",
+            }
+          }
+          variant="big"
+        >
+          <span
+            className="TypographyComp-big-0-3-7 TypographyComp-bold-0-3-1"
+          >
+            Title dialog
+          </span>
+        </TypographyComp>
+      </WithStyles(TypographyComp)>
+    </Typography>
+  </div>
+</DialogHeader>
+`;
+
+exports[`Storyshots Components/Dialog/DialogHeader rightComponent 1`] = `
+<DialogHeader
+  rightComponent="content right"
+  text="Title dialog"
+>
+  <div
+    className="d-flex justify-content-between"
+  >
+    <Typography
+      bold={true}
+      variant="big"
+    >
+      <WithStyles(TypographyComp)
+        bold={true}
+        innerRef={null}
+        jssContext={
+          Object {
+            "classNamePrefix": "",
+            "disableStylesGeneration": false,
+          }
+        }
+        theme={Object {}}
+        variant="big"
+      >
+        <TypographyComp
+          bold={true}
+          classes={
+            Object {
+              "big": "TypographyComp-big-0-3-7",
+              "bold": "TypographyComp-bold-0-3-1",
+              "capitalize": "TypographyComp-capitalize-0-3-12",
+              "distance": "TypographyComp-distance-0-3-6",
+              "ellipsis": "TypographyComp-ellipsis-0-3-14",
+              "giant": "TypographyComp-giant-0-3-9",
+              "heading": "TypographyComp-heading-0-3-8",
+              "italic": "TypographyComp-italic-0-3-3",
+              "lowercase": "TypographyComp-lowercase-0-3-11",
+              "noWrap": "TypographyComp-noWrap-0-3-13",
+              "semiBold": "TypographyComp-semiBold-0-3-2",
+              "standard": "TypographyComp-standard-0-3-5",
+              "subtext": "TypographyComp-subtext-0-3-4",
+              "uppercase": "TypographyComp-uppercase-0-3-10",
+            }
+          }
+          variant="big"
+        >
+          <span
+            className="TypographyComp-big-0-3-7 TypographyComp-bold-0-3-1"
+          >
+            Title dialog
+          </span>
+        </TypographyComp>
+      </WithStyles(TypographyComp)>
+    </Typography>
+    <div>
+      content right
+    </div>
+  </div>
+</DialogHeader>
+`;

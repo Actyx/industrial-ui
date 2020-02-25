@@ -1,0 +1,2441 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/SimpleToolbar Center component 1`] = `
+<SimpleToolbar
+  centerComponent={
+    <div
+      style={
+        Object {
+          "display": "flex",
+          "flex": 1,
+          "justifyContent": "center",
+          "width": 300,
+        }
+      }
+    >
+      <ForwardRef
+        variant="distance"
+      >
+        Center Component
+      </ForwardRef>
+    </div>
+  }
+  leftIcon={
+    Object {
+      "icon": "close",
+      "onClick": [Function],
+    }
+  }
+  rightComponent={
+    Object {
+      "component": <ForwardRef
+        text="Confirm"
+      />,
+      "onClick": [Function],
+    }
+  }
+  title="Report an Interruption"
+  variant="light"
+>
+  <WithStyles(SimpleToolbarComp)
+    centerComponent={
+      <div
+        style={
+          Object {
+            "display": "flex",
+            "flex": 1,
+            "justifyContent": "center",
+            "width": 300,
+          }
+        }
+      >
+        <ForwardRef
+          variant="distance"
+        >
+          Center Component
+        </ForwardRef>
+      </div>
+    }
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    leftIcon={
+      Object {
+        "icon": "close",
+        "onClick": [Function],
+      }
+    }
+    rightComponent={
+      Object {
+        "component": <ForwardRef
+          text="Confirm"
+        />,
+        "onClick": [Function],
+      }
+    }
+    theme={Object {}}
+    title="Report an Interruption"
+    variant="light"
+  >
+    <SimpleToolbarComp
+      centerComponent={
+        <div
+          style={
+            Object {
+              "display": "flex",
+              "flex": 1,
+              "justifyContent": "center",
+              "width": 300,
+            }
+          }
+        >
+          <ForwardRef
+            variant="distance"
+          >
+            Center Component
+          </ForwardRef>
+        </div>
+      }
+      classes={
+        Object {
+          "button": "SimpleToolbarComp-button-0-3-281",
+          "darkBackground": "SimpleToolbarComp-darkBackground-0-3-277",
+          "darkForeground": "SimpleToolbarComp-darkForeground-0-3-278",
+          "icon": "SimpleToolbarComp-icon-0-3-279",
+          "lightBackground": "SimpleToolbarComp-lightBackground-0-3-275",
+          "lightForeground": "SimpleToolbarComp-lightForeground-0-3-276",
+          "rightComponent": "SimpleToolbarComp-rightComponent-0-3-280",
+          "root": "SimpleToolbarComp-root-0-3-274",
+          "title": "SimpleToolbarComp-title-0-3-282",
+        }
+      }
+      leftIcon={
+        Object {
+          "icon": "close",
+          "onClick": [Function],
+        }
+      }
+      rightComponent={
+        Object {
+          "component": <ForwardRef
+            text="Confirm"
+          />,
+          "onClick": [Function],
+        }
+      }
+      title="Report an Interruption"
+      variant="light"
+    >
+      <Toolbar
+        variant="light"
+      >
+        <WithStyles(ToolbarComp)
+          innerRef={null}
+          jssContext={
+            Object {
+              "classNamePrefix": "",
+              "disableStylesGeneration": false,
+            }
+          }
+          theme={Object {}}
+          variant="light"
+        >
+          <ToolbarComp
+            classes={
+              Object {
+                "dark": "ToolbarComp-dark-0-3-284",
+                "light": "ToolbarComp-light-0-3-285",
+                "root": "ToolbarComp-root-0-3-283",
+              }
+            }
+            variant="light"
+          >
+            <div
+              className="ToolbarComp-root-0-3-283 ToolbarComp-light-0-3-285"
+            >
+              <button
+                className="SimpleToolbarComp-button-0-3-281 SimpleToolbarComp-icon-0-3-279"
+                onClick={[Function]}
+                type="button"
+              >
+                <TouchRipple
+                  className="SimpleToolbarComp-icon-0-3-279"
+                >
+                  <WithStyles(TouchRippleComp)
+                    className="SimpleToolbarComp-icon-0-3-279"
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                  >
+                    <TouchRippleComp
+                      className="SimpleToolbarComp-icon-0-3-279"
+                      classes={
+                        Object {
+                          "disabled": "TouchRippleComp-disabled-0-3-34",
+                          "root": "TouchRippleComp-root-0-3-33",
+                        }
+                      }
+                    >
+                      <div
+                        className="SimpleToolbarComp-icon-0-3-279 TouchRippleComp-root-0-3-33"
+                      >
+                        <MUIcon
+                          color="#263238"
+                          fontSize={48}
+                          type="close"
+                        >
+                          <WithStyles(MUIconComp)
+                            color="#263238"
+                            fontSize={48}
+                            innerRef={null}
+                            jssContext={
+                              Object {
+                                "classNamePrefix": "",
+                                "disableStylesGeneration": false,
+                              }
+                            }
+                            theme={Object {}}
+                            type="close"
+                          >
+                            <MUIconComp
+                              classes={
+                                Object {
+                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d114-0-3-298",
+                                }
+                              }
+                              color="#263238"
+                              fontSize={48}
+                              type="close"
+                            >
+                              <i
+                                className="MUIconComp-root-0-3-35 MUIconComp-root-d114-0-3-298"
+                              >
+                                close
+                              </i>
+                            </MUIconComp>
+                          </WithStyles(MUIconComp)>
+                        </MUIcon>
+                      </div>
+                    </TouchRippleComp>
+                  </WithStyles(TouchRippleComp)>
+                </TouchRipple>
+              </button>
+              <div
+                className="SimpleToolbarComp-title-0-3-282"
+              >
+                <Typography
+                  color="#263238"
+                  variant="distance"
+                >
+                  <WithStyles(TypographyComp)
+                    color="#263238"
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                    variant="distance"
+                  >
+                    <TypographyComp
+                      classes={
+                        Object {
+                          "big": "TypographyComp-big-0-3-7",
+                          "bold": "TypographyComp-bold-0-3-1",
+                          "capitalize": "TypographyComp-capitalize-0-3-12",
+                          "distance": "TypographyComp-distance-0-3-6",
+                          "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                          "giant": "TypographyComp-giant-0-3-9",
+                          "heading": "TypographyComp-heading-0-3-8",
+                          "italic": "TypographyComp-italic-0-3-3",
+                          "lowercase": "TypographyComp-lowercase-0-3-11",
+                          "noWrap": "TypographyComp-noWrap-0-3-13",
+                          "semiBold": "TypographyComp-semiBold-0-3-2",
+                          "standard": "TypographyComp-standard-0-3-5",
+                          "subtext": "TypographyComp-subtext-0-3-4",
+                          "uppercase": "TypographyComp-uppercase-0-3-10",
+                        }
+                      }
+                      color="#263238"
+                      variant="distance"
+                    >
+                      <span
+                        className="TypographyComp-distance-0-3-6"
+                        style={
+                          Object {
+                            "color": "rgba(38, 50, 56, 1)",
+                          }
+                        }
+                      >
+                        Report an Interruption
+                      </span>
+                    </TypographyComp>
+                  </WithStyles(TypographyComp)>
+                </Typography>
+              </div>
+              <div
+                style={
+                  Object {
+                    "display": "flex",
+                    "flex": 1,
+                    "justifyContent": "center",
+                    "width": 300,
+                  }
+                }
+              >
+                <Typography
+                  variant="distance"
+                >
+                  <WithStyles(TypographyComp)
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                    variant="distance"
+                  >
+                    <TypographyComp
+                      classes={
+                        Object {
+                          "big": "TypographyComp-big-0-3-7",
+                          "bold": "TypographyComp-bold-0-3-1",
+                          "capitalize": "TypographyComp-capitalize-0-3-12",
+                          "distance": "TypographyComp-distance-0-3-6",
+                          "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                          "giant": "TypographyComp-giant-0-3-9",
+                          "heading": "TypographyComp-heading-0-3-8",
+                          "italic": "TypographyComp-italic-0-3-3",
+                          "lowercase": "TypographyComp-lowercase-0-3-11",
+                          "noWrap": "TypographyComp-noWrap-0-3-13",
+                          "semiBold": "TypographyComp-semiBold-0-3-2",
+                          "standard": "TypographyComp-standard-0-3-5",
+                          "subtext": "TypographyComp-subtext-0-3-4",
+                          "uppercase": "TypographyComp-uppercase-0-3-10",
+                        }
+                      }
+                      variant="distance"
+                    >
+                      <span
+                        className="TypographyComp-distance-0-3-6"
+                      >
+                        Center Component
+                      </span>
+                    </TypographyComp>
+                  </WithStyles(TypographyComp)>
+                </Typography>
+              </div>
+              <button
+                className="SimpleToolbarComp-button-0-3-281 SimpleToolbarComp-rightComponent-0-3-280"
+                onClick={[Function]}
+                type="submit"
+              >
+                <SimpleToolbarButton
+                  text="Confirm"
+                >
+                  <WithStyles(SimpleToolbarButtonComp)
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    text="Confirm"
+                    theme={Object {}}
+                  >
+                    <SimpleToolbarButtonComp
+                      classes={
+                        Object {
+                          "button": "SimpleToolbarButtonComp-button-0-3-296",
+                          "disabled": "SimpleToolbarButtonComp-disabled-0-3-297",
+                          "root": "SimpleToolbarButtonComp-root-0-3-295",
+                        }
+                      }
+                      text="Confirm"
+                    >
+                      <div
+                        className="SimpleToolbarButtonComp-root-0-3-295"
+                      >
+                        <TouchRipple
+                          className="SimpleToolbarButtonComp-button-0-3-296"
+                        >
+                          <WithStyles(TouchRippleComp)
+                            className="SimpleToolbarButtonComp-button-0-3-296"
+                            innerRef={null}
+                            jssContext={
+                              Object {
+                                "classNamePrefix": "",
+                                "disableStylesGeneration": false,
+                              }
+                            }
+                            theme={Object {}}
+                          >
+                            <TouchRippleComp
+                              className="SimpleToolbarButtonComp-button-0-3-296"
+                              classes={
+                                Object {
+                                  "disabled": "TouchRippleComp-disabled-0-3-34",
+                                  "root": "TouchRippleComp-root-0-3-33",
+                                }
+                              }
+                            >
+                              <div
+                                className="SimpleToolbarButtonComp-button-0-3-296 TouchRippleComp-root-0-3-33"
+                              >
+                                <Typography
+                                  bold={true}
+                                  color="#ffffff"
+                                  textTransform="uppercase"
+                                  variant="standard"
+                                >
+                                  <WithStyles(TypographyComp)
+                                    bold={true}
+                                    color="#ffffff"
+                                    innerRef={null}
+                                    jssContext={
+                                      Object {
+                                        "classNamePrefix": "",
+                                        "disableStylesGeneration": false,
+                                      }
+                                    }
+                                    textTransform="uppercase"
+                                    theme={Object {}}
+                                    variant="standard"
+                                  >
+                                    <TypographyComp
+                                      bold={true}
+                                      classes={
+                                        Object {
+                                          "big": "TypographyComp-big-0-3-7",
+                                          "bold": "TypographyComp-bold-0-3-1",
+                                          "capitalize": "TypographyComp-capitalize-0-3-12",
+                                          "distance": "TypographyComp-distance-0-3-6",
+                                          "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                                          "giant": "TypographyComp-giant-0-3-9",
+                                          "heading": "TypographyComp-heading-0-3-8",
+                                          "italic": "TypographyComp-italic-0-3-3",
+                                          "lowercase": "TypographyComp-lowercase-0-3-11",
+                                          "noWrap": "TypographyComp-noWrap-0-3-13",
+                                          "semiBold": "TypographyComp-semiBold-0-3-2",
+                                          "standard": "TypographyComp-standard-0-3-5",
+                                          "subtext": "TypographyComp-subtext-0-3-4",
+                                          "uppercase": "TypographyComp-uppercase-0-3-10",
+                                        }
+                                      }
+                                      color="#ffffff"
+                                      textTransform="uppercase"
+                                      variant="standard"
+                                    >
+                                      <span
+                                        className="TypographyComp-standard-0-3-5 TypographyComp-uppercase-0-3-10 TypographyComp-bold-0-3-1"
+                                        style={
+                                          Object {
+                                            "color": "rgba(255, 255, 255, 1)",
+                                          }
+                                        }
+                                      >
+                                        Confirm
+                                      </span>
+                                    </TypographyComp>
+                                  </WithStyles(TypographyComp)>
+                                </Typography>
+                              </div>
+                            </TouchRippleComp>
+                          </WithStyles(TouchRippleComp)>
+                        </TouchRipple>
+                      </div>
+                    </SimpleToolbarButtonComp>
+                  </WithStyles(SimpleToolbarButtonComp)>
+                </SimpleToolbarButton>
+              </button>
+            </div>
+          </ToolbarComp>
+        </WithStyles(ToolbarComp)>
+      </Toolbar>
+    </SimpleToolbarComp>
+  </WithStyles(SimpleToolbarComp)>
+</SimpleToolbar>
+`;
+
+exports[`Storyshots Components/SimpleToolbar Dark 1`] = `
+<SimpleToolbar
+  leftIcon={
+    Object {
+      "icon": "arrow_back",
+      "onClick": [Function],
+    }
+  }
+  title="Report an Interruption"
+  variant="dark"
+>
+  <WithStyles(SimpleToolbarComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    leftIcon={
+      Object {
+        "icon": "arrow_back",
+        "onClick": [Function],
+      }
+    }
+    theme={Object {}}
+    title="Report an Interruption"
+    variant="dark"
+  >
+    <SimpleToolbarComp
+      classes={
+        Object {
+          "button": "SimpleToolbarComp-button-0-3-281",
+          "darkBackground": "SimpleToolbarComp-darkBackground-0-3-277",
+          "darkForeground": "SimpleToolbarComp-darkForeground-0-3-278",
+          "icon": "SimpleToolbarComp-icon-0-3-279",
+          "lightBackground": "SimpleToolbarComp-lightBackground-0-3-275",
+          "lightForeground": "SimpleToolbarComp-lightForeground-0-3-276",
+          "rightComponent": "SimpleToolbarComp-rightComponent-0-3-280",
+          "root": "SimpleToolbarComp-root-0-3-274",
+          "title": "SimpleToolbarComp-title-0-3-282",
+        }
+      }
+      leftIcon={
+        Object {
+          "icon": "arrow_back",
+          "onClick": [Function],
+        }
+      }
+      title="Report an Interruption"
+      variant="dark"
+    >
+      <Toolbar
+        variant="dark"
+      >
+        <WithStyles(ToolbarComp)
+          innerRef={null}
+          jssContext={
+            Object {
+              "classNamePrefix": "",
+              "disableStylesGeneration": false,
+            }
+          }
+          theme={Object {}}
+          variant="dark"
+        >
+          <ToolbarComp
+            classes={
+              Object {
+                "dark": "ToolbarComp-dark-0-3-284",
+                "light": "ToolbarComp-light-0-3-285",
+                "root": "ToolbarComp-root-0-3-283",
+              }
+            }
+            variant="dark"
+          >
+            <div
+              className="ToolbarComp-root-0-3-283 ToolbarComp-dark-0-3-284"
+            >
+              <button
+                className="SimpleToolbarComp-button-0-3-281 SimpleToolbarComp-icon-0-3-279"
+                onClick={[Function]}
+                type="button"
+              >
+                <TouchRipple
+                  className="SimpleToolbarComp-icon-0-3-279"
+                >
+                  <WithStyles(TouchRippleComp)
+                    className="SimpleToolbarComp-icon-0-3-279"
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                  >
+                    <TouchRippleComp
+                      className="SimpleToolbarComp-icon-0-3-279"
+                      classes={
+                        Object {
+                          "disabled": "TouchRippleComp-disabled-0-3-34",
+                          "root": "TouchRippleComp-root-0-3-33",
+                        }
+                      }
+                    >
+                      <div
+                        className="SimpleToolbarComp-icon-0-3-279 TouchRippleComp-root-0-3-33"
+                      >
+                        <MUIcon
+                          color="#ffffff"
+                          fontSize={48}
+                          type="arrow_back"
+                        >
+                          <WithStyles(MUIconComp)
+                            color="#ffffff"
+                            fontSize={48}
+                            innerRef={null}
+                            jssContext={
+                              Object {
+                                "classNamePrefix": "",
+                                "disableStylesGeneration": false,
+                              }
+                            }
+                            theme={Object {}}
+                            type="arrow_back"
+                          >
+                            <MUIconComp
+                              classes={
+                                Object {
+                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d105-0-3-286",
+                                }
+                              }
+                              color="#ffffff"
+                              fontSize={48}
+                              type="arrow_back"
+                            >
+                              <i
+                                className="MUIconComp-root-0-3-35 MUIconComp-root-d105-0-3-286"
+                              >
+                                arrow_back
+                              </i>
+                            </MUIconComp>
+                          </WithStyles(MUIconComp)>
+                        </MUIcon>
+                      </div>
+                    </TouchRippleComp>
+                  </WithStyles(TouchRippleComp)>
+                </TouchRipple>
+              </button>
+              <div
+                className="SimpleToolbarComp-title-0-3-282"
+              >
+                <Typography
+                  color="#ffffff"
+                  variant="distance"
+                >
+                  <WithStyles(TypographyComp)
+                    color="#ffffff"
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                    variant="distance"
+                  >
+                    <TypographyComp
+                      classes={
+                        Object {
+                          "big": "TypographyComp-big-0-3-7",
+                          "bold": "TypographyComp-bold-0-3-1",
+                          "capitalize": "TypographyComp-capitalize-0-3-12",
+                          "distance": "TypographyComp-distance-0-3-6",
+                          "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                          "giant": "TypographyComp-giant-0-3-9",
+                          "heading": "TypographyComp-heading-0-3-8",
+                          "italic": "TypographyComp-italic-0-3-3",
+                          "lowercase": "TypographyComp-lowercase-0-3-11",
+                          "noWrap": "TypographyComp-noWrap-0-3-13",
+                          "semiBold": "TypographyComp-semiBold-0-3-2",
+                          "standard": "TypographyComp-standard-0-3-5",
+                          "subtext": "TypographyComp-subtext-0-3-4",
+                          "uppercase": "TypographyComp-uppercase-0-3-10",
+                        }
+                      }
+                      color="#ffffff"
+                      variant="distance"
+                    >
+                      <span
+                        className="TypographyComp-distance-0-3-6"
+                        style={
+                          Object {
+                            "color": "rgba(255, 255, 255, 1)",
+                          }
+                        }
+                      >
+                        Report an Interruption
+                      </span>
+                    </TypographyComp>
+                  </WithStyles(TypographyComp)>
+                </Typography>
+              </div>
+            </div>
+          </ToolbarComp>
+        </WithStyles(ToolbarComp)>
+      </Toolbar>
+    </SimpleToolbarComp>
+  </WithStyles(SimpleToolbarComp)>
+</SimpleToolbar>
+`;
+
+exports[`Storyshots Components/SimpleToolbar Dark right icon 1`] = `
+<SimpleToolbar
+  leftIcon={
+    Object {
+      "icon": "close",
+      "onClick": [Function],
+    }
+  }
+  rightIcon={
+    Object {
+      "icon": "arrow_forward",
+      "onClick": [Function],
+    }
+  }
+  title="Report an Interruption"
+  variant="dark"
+>
+  <WithStyles(SimpleToolbarComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    leftIcon={
+      Object {
+        "icon": "close",
+        "onClick": [Function],
+      }
+    }
+    rightIcon={
+      Object {
+        "icon": "arrow_forward",
+        "onClick": [Function],
+      }
+    }
+    theme={Object {}}
+    title="Report an Interruption"
+    variant="dark"
+  >
+    <SimpleToolbarComp
+      classes={
+        Object {
+          "button": "SimpleToolbarComp-button-0-3-281",
+          "darkBackground": "SimpleToolbarComp-darkBackground-0-3-277",
+          "darkForeground": "SimpleToolbarComp-darkForeground-0-3-278",
+          "icon": "SimpleToolbarComp-icon-0-3-279",
+          "lightBackground": "SimpleToolbarComp-lightBackground-0-3-275",
+          "lightForeground": "SimpleToolbarComp-lightForeground-0-3-276",
+          "rightComponent": "SimpleToolbarComp-rightComponent-0-3-280",
+          "root": "SimpleToolbarComp-root-0-3-274",
+          "title": "SimpleToolbarComp-title-0-3-282",
+        }
+      }
+      leftIcon={
+        Object {
+          "icon": "close",
+          "onClick": [Function],
+        }
+      }
+      rightIcon={
+        Object {
+          "icon": "arrow_forward",
+          "onClick": [Function],
+        }
+      }
+      title="Report an Interruption"
+      variant="dark"
+    >
+      <Toolbar
+        variant="dark"
+      >
+        <WithStyles(ToolbarComp)
+          innerRef={null}
+          jssContext={
+            Object {
+              "classNamePrefix": "",
+              "disableStylesGeneration": false,
+            }
+          }
+          theme={Object {}}
+          variant="dark"
+        >
+          <ToolbarComp
+            classes={
+              Object {
+                "dark": "ToolbarComp-dark-0-3-284",
+                "light": "ToolbarComp-light-0-3-285",
+                "root": "ToolbarComp-root-0-3-283",
+              }
+            }
+            variant="dark"
+          >
+            <div
+              className="ToolbarComp-root-0-3-283 ToolbarComp-dark-0-3-284"
+            >
+              <button
+                className="SimpleToolbarComp-button-0-3-281 SimpleToolbarComp-icon-0-3-279"
+                onClick={[Function]}
+                type="button"
+              >
+                <TouchRipple
+                  className="SimpleToolbarComp-icon-0-3-279"
+                >
+                  <WithStyles(TouchRippleComp)
+                    className="SimpleToolbarComp-icon-0-3-279"
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                  >
+                    <TouchRippleComp
+                      className="SimpleToolbarComp-icon-0-3-279"
+                      classes={
+                        Object {
+                          "disabled": "TouchRippleComp-disabled-0-3-34",
+                          "root": "TouchRippleComp-root-0-3-33",
+                        }
+                      }
+                    >
+                      <div
+                        className="SimpleToolbarComp-icon-0-3-279 TouchRippleComp-root-0-3-33"
+                      >
+                        <MUIcon
+                          color="#ffffff"
+                          fontSize={48}
+                          type="close"
+                        >
+                          <WithStyles(MUIconComp)
+                            color="#ffffff"
+                            fontSize={48}
+                            innerRef={null}
+                            jssContext={
+                              Object {
+                                "classNamePrefix": "",
+                                "disableStylesGeneration": false,
+                              }
+                            }
+                            theme={Object {}}
+                            type="close"
+                          >
+                            <MUIconComp
+                              classes={
+                                Object {
+                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d107-0-3-288",
+                                }
+                              }
+                              color="#ffffff"
+                              fontSize={48}
+                              type="close"
+                            >
+                              <i
+                                className="MUIconComp-root-0-3-35 MUIconComp-root-d107-0-3-288"
+                              >
+                                close
+                              </i>
+                            </MUIconComp>
+                          </WithStyles(MUIconComp)>
+                        </MUIcon>
+                      </div>
+                    </TouchRippleComp>
+                  </WithStyles(TouchRippleComp)>
+                </TouchRipple>
+              </button>
+              <div
+                className="SimpleToolbarComp-title-0-3-282"
+              >
+                <Typography
+                  color="#ffffff"
+                  variant="distance"
+                >
+                  <WithStyles(TypographyComp)
+                    color="#ffffff"
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                    variant="distance"
+                  >
+                    <TypographyComp
+                      classes={
+                        Object {
+                          "big": "TypographyComp-big-0-3-7",
+                          "bold": "TypographyComp-bold-0-3-1",
+                          "capitalize": "TypographyComp-capitalize-0-3-12",
+                          "distance": "TypographyComp-distance-0-3-6",
+                          "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                          "giant": "TypographyComp-giant-0-3-9",
+                          "heading": "TypographyComp-heading-0-3-8",
+                          "italic": "TypographyComp-italic-0-3-3",
+                          "lowercase": "TypographyComp-lowercase-0-3-11",
+                          "noWrap": "TypographyComp-noWrap-0-3-13",
+                          "semiBold": "TypographyComp-semiBold-0-3-2",
+                          "standard": "TypographyComp-standard-0-3-5",
+                          "subtext": "TypographyComp-subtext-0-3-4",
+                          "uppercase": "TypographyComp-uppercase-0-3-10",
+                        }
+                      }
+                      color="#ffffff"
+                      variant="distance"
+                    >
+                      <span
+                        className="TypographyComp-distance-0-3-6"
+                        style={
+                          Object {
+                            "color": "rgba(255, 255, 255, 1)",
+                          }
+                        }
+                      >
+                        Report an Interruption
+                      </span>
+                    </TypographyComp>
+                  </WithStyles(TypographyComp)>
+                </Typography>
+              </div>
+              <button
+                className="SimpleToolbarComp-button-0-3-281 SimpleToolbarComp-icon-0-3-279"
+                onClick={[Function]}
+                type="button"
+              >
+                <TouchRipple
+                  className="SimpleToolbarComp-icon-0-3-279"
+                >
+                  <WithStyles(TouchRippleComp)
+                    className="SimpleToolbarComp-icon-0-3-279"
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                  >
+                    <TouchRippleComp
+                      className="SimpleToolbarComp-icon-0-3-279"
+                      classes={
+                        Object {
+                          "disabled": "TouchRippleComp-disabled-0-3-34",
+                          "root": "TouchRippleComp-root-0-3-33",
+                        }
+                      }
+                    >
+                      <div
+                        className="SimpleToolbarComp-icon-0-3-279 TouchRippleComp-root-0-3-33"
+                      >
+                        <MUIcon
+                          color="#ffffff"
+                          fontSize={48}
+                          type="arrow_forward"
+                        >
+                          <WithStyles(MUIconComp)
+                            color="#ffffff"
+                            fontSize={48}
+                            innerRef={null}
+                            jssContext={
+                              Object {
+                                "classNamePrefix": "",
+                                "disableStylesGeneration": false,
+                              }
+                            }
+                            theme={Object {}}
+                            type="arrow_forward"
+                          >
+                            <MUIconComp
+                              classes={
+                                Object {
+                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d108-0-3-289",
+                                }
+                              }
+                              color="#ffffff"
+                              fontSize={48}
+                              type="arrow_forward"
+                            >
+                              <i
+                                className="MUIconComp-root-0-3-35 MUIconComp-root-d108-0-3-289"
+                              >
+                                arrow_forward
+                              </i>
+                            </MUIconComp>
+                          </WithStyles(MUIconComp)>
+                        </MUIcon>
+                      </div>
+                    </TouchRippleComp>
+                  </WithStyles(TouchRippleComp)>
+                </TouchRipple>
+              </button>
+            </div>
+          </ToolbarComp>
+        </WithStyles(ToolbarComp)>
+      </Toolbar>
+    </SimpleToolbarComp>
+  </WithStyles(SimpleToolbarComp)>
+</SimpleToolbar>
+`;
+
+exports[`Storyshots Components/SimpleToolbar Light 1`] = `
+<SimpleToolbar
+  leftIcon={
+    Object {
+      "icon": "arrow_back",
+      "onClick": [Function],
+    }
+  }
+  title="Report an Interruption"
+  variant="light"
+>
+  <WithStyles(SimpleToolbarComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    leftIcon={
+      Object {
+        "icon": "arrow_back",
+        "onClick": [Function],
+      }
+    }
+    theme={Object {}}
+    title="Report an Interruption"
+    variant="light"
+  >
+    <SimpleToolbarComp
+      classes={
+        Object {
+          "button": "SimpleToolbarComp-button-0-3-281",
+          "darkBackground": "SimpleToolbarComp-darkBackground-0-3-277",
+          "darkForeground": "SimpleToolbarComp-darkForeground-0-3-278",
+          "icon": "SimpleToolbarComp-icon-0-3-279",
+          "lightBackground": "SimpleToolbarComp-lightBackground-0-3-275",
+          "lightForeground": "SimpleToolbarComp-lightForeground-0-3-276",
+          "rightComponent": "SimpleToolbarComp-rightComponent-0-3-280",
+          "root": "SimpleToolbarComp-root-0-3-274",
+          "title": "SimpleToolbarComp-title-0-3-282",
+        }
+      }
+      leftIcon={
+        Object {
+          "icon": "arrow_back",
+          "onClick": [Function],
+        }
+      }
+      title="Report an Interruption"
+      variant="light"
+    >
+      <Toolbar
+        variant="light"
+      >
+        <WithStyles(ToolbarComp)
+          innerRef={null}
+          jssContext={
+            Object {
+              "classNamePrefix": "",
+              "disableStylesGeneration": false,
+            }
+          }
+          theme={Object {}}
+          variant="light"
+        >
+          <ToolbarComp
+            classes={
+              Object {
+                "dark": "ToolbarComp-dark-0-3-284",
+                "light": "ToolbarComp-light-0-3-285",
+                "root": "ToolbarComp-root-0-3-283",
+              }
+            }
+            variant="light"
+          >
+            <div
+              className="ToolbarComp-root-0-3-283 ToolbarComp-light-0-3-285"
+            >
+              <button
+                className="SimpleToolbarComp-button-0-3-281 SimpleToolbarComp-icon-0-3-279"
+                onClick={[Function]}
+                type="button"
+              >
+                <TouchRipple
+                  className="SimpleToolbarComp-icon-0-3-279"
+                >
+                  <WithStyles(TouchRippleComp)
+                    className="SimpleToolbarComp-icon-0-3-279"
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                  >
+                    <TouchRippleComp
+                      className="SimpleToolbarComp-icon-0-3-279"
+                      classes={
+                        Object {
+                          "disabled": "TouchRippleComp-disabled-0-3-34",
+                          "root": "TouchRippleComp-root-0-3-33",
+                        }
+                      }
+                    >
+                      <div
+                        className="SimpleToolbarComp-icon-0-3-279 TouchRippleComp-root-0-3-33"
+                      >
+                        <MUIcon
+                          color="#263238"
+                          fontSize={48}
+                          type="arrow_back"
+                        >
+                          <WithStyles(MUIconComp)
+                            color="#263238"
+                            fontSize={48}
+                            innerRef={null}
+                            jssContext={
+                              Object {
+                                "classNamePrefix": "",
+                                "disableStylesGeneration": false,
+                              }
+                            }
+                            theme={Object {}}
+                            type="arrow_back"
+                          >
+                            <MUIconComp
+                              classes={
+                                Object {
+                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d106-0-3-287",
+                                }
+                              }
+                              color="#263238"
+                              fontSize={48}
+                              type="arrow_back"
+                            >
+                              <i
+                                className="MUIconComp-root-0-3-35 MUIconComp-root-d106-0-3-287"
+                              >
+                                arrow_back
+                              </i>
+                            </MUIconComp>
+                          </WithStyles(MUIconComp)>
+                        </MUIcon>
+                      </div>
+                    </TouchRippleComp>
+                  </WithStyles(TouchRippleComp)>
+                </TouchRipple>
+              </button>
+              <div
+                className="SimpleToolbarComp-title-0-3-282"
+              >
+                <Typography
+                  color="#263238"
+                  variant="distance"
+                >
+                  <WithStyles(TypographyComp)
+                    color="#263238"
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                    variant="distance"
+                  >
+                    <TypographyComp
+                      classes={
+                        Object {
+                          "big": "TypographyComp-big-0-3-7",
+                          "bold": "TypographyComp-bold-0-3-1",
+                          "capitalize": "TypographyComp-capitalize-0-3-12",
+                          "distance": "TypographyComp-distance-0-3-6",
+                          "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                          "giant": "TypographyComp-giant-0-3-9",
+                          "heading": "TypographyComp-heading-0-3-8",
+                          "italic": "TypographyComp-italic-0-3-3",
+                          "lowercase": "TypographyComp-lowercase-0-3-11",
+                          "noWrap": "TypographyComp-noWrap-0-3-13",
+                          "semiBold": "TypographyComp-semiBold-0-3-2",
+                          "standard": "TypographyComp-standard-0-3-5",
+                          "subtext": "TypographyComp-subtext-0-3-4",
+                          "uppercase": "TypographyComp-uppercase-0-3-10",
+                        }
+                      }
+                      color="#263238"
+                      variant="distance"
+                    >
+                      <span
+                        className="TypographyComp-distance-0-3-6"
+                        style={
+                          Object {
+                            "color": "rgba(38, 50, 56, 1)",
+                          }
+                        }
+                      >
+                        Report an Interruption
+                      </span>
+                    </TypographyComp>
+                  </WithStyles(TypographyComp)>
+                </Typography>
+              </div>
+            </div>
+          </ToolbarComp>
+        </WithStyles(ToolbarComp)>
+      </Toolbar>
+    </SimpleToolbarComp>
+  </WithStyles(SimpleToolbarComp)>
+</SimpleToolbar>
+`;
+
+exports[`Storyshots Components/SimpleToolbar Light right 1`] = `
+<SimpleToolbar
+  leftIcon={
+    Object {
+      "icon": "close",
+      "onClick": [Function],
+    }
+  }
+  rightComponent={
+    Object {
+      "component": <ForwardRef
+        text="Confirm"
+      />,
+      "onClick": [Function],
+    }
+  }
+  title="Report an Interruption"
+  variant="light"
+>
+  <WithStyles(SimpleToolbarComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    leftIcon={
+      Object {
+        "icon": "close",
+        "onClick": [Function],
+      }
+    }
+    rightComponent={
+      Object {
+        "component": <ForwardRef
+          text="Confirm"
+        />,
+        "onClick": [Function],
+      }
+    }
+    theme={Object {}}
+    title="Report an Interruption"
+    variant="light"
+  >
+    <SimpleToolbarComp
+      classes={
+        Object {
+          "button": "SimpleToolbarComp-button-0-3-281",
+          "darkBackground": "SimpleToolbarComp-darkBackground-0-3-277",
+          "darkForeground": "SimpleToolbarComp-darkForeground-0-3-278",
+          "icon": "SimpleToolbarComp-icon-0-3-279",
+          "lightBackground": "SimpleToolbarComp-lightBackground-0-3-275",
+          "lightForeground": "SimpleToolbarComp-lightForeground-0-3-276",
+          "rightComponent": "SimpleToolbarComp-rightComponent-0-3-280",
+          "root": "SimpleToolbarComp-root-0-3-274",
+          "title": "SimpleToolbarComp-title-0-3-282",
+        }
+      }
+      leftIcon={
+        Object {
+          "icon": "close",
+          "onClick": [Function],
+        }
+      }
+      rightComponent={
+        Object {
+          "component": <ForwardRef
+            text="Confirm"
+          />,
+          "onClick": [Function],
+        }
+      }
+      title="Report an Interruption"
+      variant="light"
+    >
+      <Toolbar
+        variant="light"
+      >
+        <WithStyles(ToolbarComp)
+          innerRef={null}
+          jssContext={
+            Object {
+              "classNamePrefix": "",
+              "disableStylesGeneration": false,
+            }
+          }
+          theme={Object {}}
+          variant="light"
+        >
+          <ToolbarComp
+            classes={
+              Object {
+                "dark": "ToolbarComp-dark-0-3-284",
+                "light": "ToolbarComp-light-0-3-285",
+                "root": "ToolbarComp-root-0-3-283",
+              }
+            }
+            variant="light"
+          >
+            <div
+              className="ToolbarComp-root-0-3-283 ToolbarComp-light-0-3-285"
+            >
+              <button
+                className="SimpleToolbarComp-button-0-3-281 SimpleToolbarComp-icon-0-3-279"
+                onClick={[Function]}
+                type="button"
+              >
+                <TouchRipple
+                  className="SimpleToolbarComp-icon-0-3-279"
+                >
+                  <WithStyles(TouchRippleComp)
+                    className="SimpleToolbarComp-icon-0-3-279"
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                  >
+                    <TouchRippleComp
+                      className="SimpleToolbarComp-icon-0-3-279"
+                      classes={
+                        Object {
+                          "disabled": "TouchRippleComp-disabled-0-3-34",
+                          "root": "TouchRippleComp-root-0-3-33",
+                        }
+                      }
+                    >
+                      <div
+                        className="SimpleToolbarComp-icon-0-3-279 TouchRippleComp-root-0-3-33"
+                      >
+                        <MUIcon
+                          color="#263238"
+                          fontSize={48}
+                          type="close"
+                        >
+                          <WithStyles(MUIconComp)
+                            color="#263238"
+                            fontSize={48}
+                            innerRef={null}
+                            jssContext={
+                              Object {
+                                "classNamePrefix": "",
+                                "disableStylesGeneration": false,
+                              }
+                            }
+                            theme={Object {}}
+                            type="close"
+                          >
+                            <MUIconComp
+                              classes={
+                                Object {
+                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d113-0-3-294",
+                                }
+                              }
+                              color="#263238"
+                              fontSize={48}
+                              type="close"
+                            >
+                              <i
+                                className="MUIconComp-root-0-3-35 MUIconComp-root-d113-0-3-294"
+                              >
+                                close
+                              </i>
+                            </MUIconComp>
+                          </WithStyles(MUIconComp)>
+                        </MUIcon>
+                      </div>
+                    </TouchRippleComp>
+                  </WithStyles(TouchRippleComp)>
+                </TouchRipple>
+              </button>
+              <div
+                className="SimpleToolbarComp-title-0-3-282"
+              >
+                <Typography
+                  color="#263238"
+                  variant="distance"
+                >
+                  <WithStyles(TypographyComp)
+                    color="#263238"
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                    variant="distance"
+                  >
+                    <TypographyComp
+                      classes={
+                        Object {
+                          "big": "TypographyComp-big-0-3-7",
+                          "bold": "TypographyComp-bold-0-3-1",
+                          "capitalize": "TypographyComp-capitalize-0-3-12",
+                          "distance": "TypographyComp-distance-0-3-6",
+                          "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                          "giant": "TypographyComp-giant-0-3-9",
+                          "heading": "TypographyComp-heading-0-3-8",
+                          "italic": "TypographyComp-italic-0-3-3",
+                          "lowercase": "TypographyComp-lowercase-0-3-11",
+                          "noWrap": "TypographyComp-noWrap-0-3-13",
+                          "semiBold": "TypographyComp-semiBold-0-3-2",
+                          "standard": "TypographyComp-standard-0-3-5",
+                          "subtext": "TypographyComp-subtext-0-3-4",
+                          "uppercase": "TypographyComp-uppercase-0-3-10",
+                        }
+                      }
+                      color="#263238"
+                      variant="distance"
+                    >
+                      <span
+                        className="TypographyComp-distance-0-3-6"
+                        style={
+                          Object {
+                            "color": "rgba(38, 50, 56, 1)",
+                          }
+                        }
+                      >
+                        Report an Interruption
+                      </span>
+                    </TypographyComp>
+                  </WithStyles(TypographyComp)>
+                </Typography>
+              </div>
+              <button
+                className="SimpleToolbarComp-button-0-3-281 SimpleToolbarComp-rightComponent-0-3-280"
+                onClick={[Function]}
+                type="submit"
+              >
+                <SimpleToolbarButton
+                  text="Confirm"
+                >
+                  <WithStyles(SimpleToolbarButtonComp)
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    text="Confirm"
+                    theme={Object {}}
+                  >
+                    <SimpleToolbarButtonComp
+                      classes={
+                        Object {
+                          "button": "SimpleToolbarButtonComp-button-0-3-296",
+                          "disabled": "SimpleToolbarButtonComp-disabled-0-3-297",
+                          "root": "SimpleToolbarButtonComp-root-0-3-295",
+                        }
+                      }
+                      text="Confirm"
+                    >
+                      <div
+                        className="SimpleToolbarButtonComp-root-0-3-295"
+                      >
+                        <TouchRipple
+                          className="SimpleToolbarButtonComp-button-0-3-296"
+                        >
+                          <WithStyles(TouchRippleComp)
+                            className="SimpleToolbarButtonComp-button-0-3-296"
+                            innerRef={null}
+                            jssContext={
+                              Object {
+                                "classNamePrefix": "",
+                                "disableStylesGeneration": false,
+                              }
+                            }
+                            theme={Object {}}
+                          >
+                            <TouchRippleComp
+                              className="SimpleToolbarButtonComp-button-0-3-296"
+                              classes={
+                                Object {
+                                  "disabled": "TouchRippleComp-disabled-0-3-34",
+                                  "root": "TouchRippleComp-root-0-3-33",
+                                }
+                              }
+                            >
+                              <div
+                                className="SimpleToolbarButtonComp-button-0-3-296 TouchRippleComp-root-0-3-33"
+                              >
+                                <Typography
+                                  bold={true}
+                                  color="#ffffff"
+                                  textTransform="uppercase"
+                                  variant="standard"
+                                >
+                                  <WithStyles(TypographyComp)
+                                    bold={true}
+                                    color="#ffffff"
+                                    innerRef={null}
+                                    jssContext={
+                                      Object {
+                                        "classNamePrefix": "",
+                                        "disableStylesGeneration": false,
+                                      }
+                                    }
+                                    textTransform="uppercase"
+                                    theme={Object {}}
+                                    variant="standard"
+                                  >
+                                    <TypographyComp
+                                      bold={true}
+                                      classes={
+                                        Object {
+                                          "big": "TypographyComp-big-0-3-7",
+                                          "bold": "TypographyComp-bold-0-3-1",
+                                          "capitalize": "TypographyComp-capitalize-0-3-12",
+                                          "distance": "TypographyComp-distance-0-3-6",
+                                          "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                                          "giant": "TypographyComp-giant-0-3-9",
+                                          "heading": "TypographyComp-heading-0-3-8",
+                                          "italic": "TypographyComp-italic-0-3-3",
+                                          "lowercase": "TypographyComp-lowercase-0-3-11",
+                                          "noWrap": "TypographyComp-noWrap-0-3-13",
+                                          "semiBold": "TypographyComp-semiBold-0-3-2",
+                                          "standard": "TypographyComp-standard-0-3-5",
+                                          "subtext": "TypographyComp-subtext-0-3-4",
+                                          "uppercase": "TypographyComp-uppercase-0-3-10",
+                                        }
+                                      }
+                                      color="#ffffff"
+                                      textTransform="uppercase"
+                                      variant="standard"
+                                    >
+                                      <span
+                                        className="TypographyComp-standard-0-3-5 TypographyComp-uppercase-0-3-10 TypographyComp-bold-0-3-1"
+                                        style={
+                                          Object {
+                                            "color": "rgba(255, 255, 255, 1)",
+                                          }
+                                        }
+                                      >
+                                        Confirm
+                                      </span>
+                                    </TypographyComp>
+                                  </WithStyles(TypographyComp)>
+                                </Typography>
+                              </div>
+                            </TouchRippleComp>
+                          </WithStyles(TouchRippleComp)>
+                        </TouchRipple>
+                      </div>
+                    </SimpleToolbarButtonComp>
+                  </WithStyles(SimpleToolbarButtonComp)>
+                </SimpleToolbarButton>
+              </button>
+            </div>
+          </ToolbarComp>
+        </WithStyles(ToolbarComp)>
+      </Toolbar>
+    </SimpleToolbarComp>
+  </WithStyles(SimpleToolbarComp)>
+</SimpleToolbar>
+`;
+
+exports[`Storyshots Components/SimpleToolbar Light right button 1`] = `
+<SimpleToolbar
+  leftIcon={
+    Object {
+      "icon": "close",
+      "onClick": [Function],
+    }
+  }
+  rightIcon={
+    Object {
+      "icon": "arrow_forward",
+      "onClick": [Function],
+    }
+  }
+  title="Report an Interruption"
+  variant="light"
+>
+  <WithStyles(SimpleToolbarComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    leftIcon={
+      Object {
+        "icon": "close",
+        "onClick": [Function],
+      }
+    }
+    rightIcon={
+      Object {
+        "icon": "arrow_forward",
+        "onClick": [Function],
+      }
+    }
+    theme={Object {}}
+    title="Report an Interruption"
+    variant="light"
+  >
+    <SimpleToolbarComp
+      classes={
+        Object {
+          "button": "SimpleToolbarComp-button-0-3-281",
+          "darkBackground": "SimpleToolbarComp-darkBackground-0-3-277",
+          "darkForeground": "SimpleToolbarComp-darkForeground-0-3-278",
+          "icon": "SimpleToolbarComp-icon-0-3-279",
+          "lightBackground": "SimpleToolbarComp-lightBackground-0-3-275",
+          "lightForeground": "SimpleToolbarComp-lightForeground-0-3-276",
+          "rightComponent": "SimpleToolbarComp-rightComponent-0-3-280",
+          "root": "SimpleToolbarComp-root-0-3-274",
+          "title": "SimpleToolbarComp-title-0-3-282",
+        }
+      }
+      leftIcon={
+        Object {
+          "icon": "close",
+          "onClick": [Function],
+        }
+      }
+      rightIcon={
+        Object {
+          "icon": "arrow_forward",
+          "onClick": [Function],
+        }
+      }
+      title="Report an Interruption"
+      variant="light"
+    >
+      <Toolbar
+        variant="light"
+      >
+        <WithStyles(ToolbarComp)
+          innerRef={null}
+          jssContext={
+            Object {
+              "classNamePrefix": "",
+              "disableStylesGeneration": false,
+            }
+          }
+          theme={Object {}}
+          variant="light"
+        >
+          <ToolbarComp
+            classes={
+              Object {
+                "dark": "ToolbarComp-dark-0-3-284",
+                "light": "ToolbarComp-light-0-3-285",
+                "root": "ToolbarComp-root-0-3-283",
+              }
+            }
+            variant="light"
+          >
+            <div
+              className="ToolbarComp-root-0-3-283 ToolbarComp-light-0-3-285"
+            >
+              <button
+                className="SimpleToolbarComp-button-0-3-281 SimpleToolbarComp-icon-0-3-279"
+                onClick={[Function]}
+                type="button"
+              >
+                <TouchRipple
+                  className="SimpleToolbarComp-icon-0-3-279"
+                >
+                  <WithStyles(TouchRippleComp)
+                    className="SimpleToolbarComp-icon-0-3-279"
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                  >
+                    <TouchRippleComp
+                      className="SimpleToolbarComp-icon-0-3-279"
+                      classes={
+                        Object {
+                          "disabled": "TouchRippleComp-disabled-0-3-34",
+                          "root": "TouchRippleComp-root-0-3-33",
+                        }
+                      }
+                    >
+                      <div
+                        className="SimpleToolbarComp-icon-0-3-279 TouchRippleComp-root-0-3-33"
+                      >
+                        <MUIcon
+                          color="#263238"
+                          fontSize={48}
+                          type="close"
+                        >
+                          <WithStyles(MUIconComp)
+                            color="#263238"
+                            fontSize={48}
+                            innerRef={null}
+                            jssContext={
+                              Object {
+                                "classNamePrefix": "",
+                                "disableStylesGeneration": false,
+                              }
+                            }
+                            theme={Object {}}
+                            type="close"
+                          >
+                            <MUIconComp
+                              classes={
+                                Object {
+                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d111-0-3-292",
+                                }
+                              }
+                              color="#263238"
+                              fontSize={48}
+                              type="close"
+                            >
+                              <i
+                                className="MUIconComp-root-0-3-35 MUIconComp-root-d111-0-3-292"
+                              >
+                                close
+                              </i>
+                            </MUIconComp>
+                          </WithStyles(MUIconComp)>
+                        </MUIcon>
+                      </div>
+                    </TouchRippleComp>
+                  </WithStyles(TouchRippleComp)>
+                </TouchRipple>
+              </button>
+              <div
+                className="SimpleToolbarComp-title-0-3-282"
+              >
+                <Typography
+                  color="#263238"
+                  variant="distance"
+                >
+                  <WithStyles(TypographyComp)
+                    color="#263238"
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                    variant="distance"
+                  >
+                    <TypographyComp
+                      classes={
+                        Object {
+                          "big": "TypographyComp-big-0-3-7",
+                          "bold": "TypographyComp-bold-0-3-1",
+                          "capitalize": "TypographyComp-capitalize-0-3-12",
+                          "distance": "TypographyComp-distance-0-3-6",
+                          "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                          "giant": "TypographyComp-giant-0-3-9",
+                          "heading": "TypographyComp-heading-0-3-8",
+                          "italic": "TypographyComp-italic-0-3-3",
+                          "lowercase": "TypographyComp-lowercase-0-3-11",
+                          "noWrap": "TypographyComp-noWrap-0-3-13",
+                          "semiBold": "TypographyComp-semiBold-0-3-2",
+                          "standard": "TypographyComp-standard-0-3-5",
+                          "subtext": "TypographyComp-subtext-0-3-4",
+                          "uppercase": "TypographyComp-uppercase-0-3-10",
+                        }
+                      }
+                      color="#263238"
+                      variant="distance"
+                    >
+                      <span
+                        className="TypographyComp-distance-0-3-6"
+                        style={
+                          Object {
+                            "color": "rgba(38, 50, 56, 1)",
+                          }
+                        }
+                      >
+                        Report an Interruption
+                      </span>
+                    </TypographyComp>
+                  </WithStyles(TypographyComp)>
+                </Typography>
+              </div>
+              <button
+                className="SimpleToolbarComp-button-0-3-281 SimpleToolbarComp-icon-0-3-279"
+                onClick={[Function]}
+                type="button"
+              >
+                <TouchRipple
+                  className="SimpleToolbarComp-icon-0-3-279"
+                >
+                  <WithStyles(TouchRippleComp)
+                    className="SimpleToolbarComp-icon-0-3-279"
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                  >
+                    <TouchRippleComp
+                      className="SimpleToolbarComp-icon-0-3-279"
+                      classes={
+                        Object {
+                          "disabled": "TouchRippleComp-disabled-0-3-34",
+                          "root": "TouchRippleComp-root-0-3-33",
+                        }
+                      }
+                    >
+                      <div
+                        className="SimpleToolbarComp-icon-0-3-279 TouchRippleComp-root-0-3-33"
+                      >
+                        <MUIcon
+                          color="#263238"
+                          fontSize={48}
+                          type="arrow_forward"
+                        >
+                          <WithStyles(MUIconComp)
+                            color="#263238"
+                            fontSize={48}
+                            innerRef={null}
+                            jssContext={
+                              Object {
+                                "classNamePrefix": "",
+                                "disableStylesGeneration": false,
+                              }
+                            }
+                            theme={Object {}}
+                            type="arrow_forward"
+                          >
+                            <MUIconComp
+                              classes={
+                                Object {
+                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d112-0-3-293",
+                                }
+                              }
+                              color="#263238"
+                              fontSize={48}
+                              type="arrow_forward"
+                            >
+                              <i
+                                className="MUIconComp-root-0-3-35 MUIconComp-root-d112-0-3-293"
+                              >
+                                arrow_forward
+                              </i>
+                            </MUIconComp>
+                          </WithStyles(MUIconComp)>
+                        </MUIcon>
+                      </div>
+                    </TouchRippleComp>
+                  </WithStyles(TouchRippleComp)>
+                </TouchRipple>
+              </button>
+            </div>
+          </ToolbarComp>
+        </WithStyles(ToolbarComp)>
+      </Toolbar>
+    </SimpleToolbarComp>
+  </WithStyles(SimpleToolbarComp)>
+</SimpleToolbar>
+`;
+
+exports[`Storyshots Components/SimpleToolbar Light right icon 1`] = `
+<SimpleToolbar
+  leftIcon={
+    Object {
+      "icon": "close",
+      "onClick": [Function],
+    }
+  }
+  rightIcon={
+    Object {
+      "icon": "arrow_forward",
+      "onClick": [Function],
+    }
+  }
+  title="Report an Interruption"
+  variant="light"
+>
+  <WithStyles(SimpleToolbarComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    leftIcon={
+      Object {
+        "icon": "close",
+        "onClick": [Function],
+      }
+    }
+    rightIcon={
+      Object {
+        "icon": "arrow_forward",
+        "onClick": [Function],
+      }
+    }
+    theme={Object {}}
+    title="Report an Interruption"
+    variant="light"
+  >
+    <SimpleToolbarComp
+      classes={
+        Object {
+          "button": "SimpleToolbarComp-button-0-3-281",
+          "darkBackground": "SimpleToolbarComp-darkBackground-0-3-277",
+          "darkForeground": "SimpleToolbarComp-darkForeground-0-3-278",
+          "icon": "SimpleToolbarComp-icon-0-3-279",
+          "lightBackground": "SimpleToolbarComp-lightBackground-0-3-275",
+          "lightForeground": "SimpleToolbarComp-lightForeground-0-3-276",
+          "rightComponent": "SimpleToolbarComp-rightComponent-0-3-280",
+          "root": "SimpleToolbarComp-root-0-3-274",
+          "title": "SimpleToolbarComp-title-0-3-282",
+        }
+      }
+      leftIcon={
+        Object {
+          "icon": "close",
+          "onClick": [Function],
+        }
+      }
+      rightIcon={
+        Object {
+          "icon": "arrow_forward",
+          "onClick": [Function],
+        }
+      }
+      title="Report an Interruption"
+      variant="light"
+    >
+      <Toolbar
+        variant="light"
+      >
+        <WithStyles(ToolbarComp)
+          innerRef={null}
+          jssContext={
+            Object {
+              "classNamePrefix": "",
+              "disableStylesGeneration": false,
+            }
+          }
+          theme={Object {}}
+          variant="light"
+        >
+          <ToolbarComp
+            classes={
+              Object {
+                "dark": "ToolbarComp-dark-0-3-284",
+                "light": "ToolbarComp-light-0-3-285",
+                "root": "ToolbarComp-root-0-3-283",
+              }
+            }
+            variant="light"
+          >
+            <div
+              className="ToolbarComp-root-0-3-283 ToolbarComp-light-0-3-285"
+            >
+              <button
+                className="SimpleToolbarComp-button-0-3-281 SimpleToolbarComp-icon-0-3-279"
+                onClick={[Function]}
+                type="button"
+              >
+                <TouchRipple
+                  className="SimpleToolbarComp-icon-0-3-279"
+                >
+                  <WithStyles(TouchRippleComp)
+                    className="SimpleToolbarComp-icon-0-3-279"
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                  >
+                    <TouchRippleComp
+                      className="SimpleToolbarComp-icon-0-3-279"
+                      classes={
+                        Object {
+                          "disabled": "TouchRippleComp-disabled-0-3-34",
+                          "root": "TouchRippleComp-root-0-3-33",
+                        }
+                      }
+                    >
+                      <div
+                        className="SimpleToolbarComp-icon-0-3-279 TouchRippleComp-root-0-3-33"
+                      >
+                        <MUIcon
+                          color="#263238"
+                          fontSize={48}
+                          type="close"
+                        >
+                          <WithStyles(MUIconComp)
+                            color="#263238"
+                            fontSize={48}
+                            innerRef={null}
+                            jssContext={
+                              Object {
+                                "classNamePrefix": "",
+                                "disableStylesGeneration": false,
+                              }
+                            }
+                            theme={Object {}}
+                            type="close"
+                          >
+                            <MUIconComp
+                              classes={
+                                Object {
+                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d109-0-3-290",
+                                }
+                              }
+                              color="#263238"
+                              fontSize={48}
+                              type="close"
+                            >
+                              <i
+                                className="MUIconComp-root-0-3-35 MUIconComp-root-d109-0-3-290"
+                              >
+                                close
+                              </i>
+                            </MUIconComp>
+                          </WithStyles(MUIconComp)>
+                        </MUIcon>
+                      </div>
+                    </TouchRippleComp>
+                  </WithStyles(TouchRippleComp)>
+                </TouchRipple>
+              </button>
+              <div
+                className="SimpleToolbarComp-title-0-3-282"
+              >
+                <Typography
+                  color="#263238"
+                  variant="distance"
+                >
+                  <WithStyles(TypographyComp)
+                    color="#263238"
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                    variant="distance"
+                  >
+                    <TypographyComp
+                      classes={
+                        Object {
+                          "big": "TypographyComp-big-0-3-7",
+                          "bold": "TypographyComp-bold-0-3-1",
+                          "capitalize": "TypographyComp-capitalize-0-3-12",
+                          "distance": "TypographyComp-distance-0-3-6",
+                          "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                          "giant": "TypographyComp-giant-0-3-9",
+                          "heading": "TypographyComp-heading-0-3-8",
+                          "italic": "TypographyComp-italic-0-3-3",
+                          "lowercase": "TypographyComp-lowercase-0-3-11",
+                          "noWrap": "TypographyComp-noWrap-0-3-13",
+                          "semiBold": "TypographyComp-semiBold-0-3-2",
+                          "standard": "TypographyComp-standard-0-3-5",
+                          "subtext": "TypographyComp-subtext-0-3-4",
+                          "uppercase": "TypographyComp-uppercase-0-3-10",
+                        }
+                      }
+                      color="#263238"
+                      variant="distance"
+                    >
+                      <span
+                        className="TypographyComp-distance-0-3-6"
+                        style={
+                          Object {
+                            "color": "rgba(38, 50, 56, 1)",
+                          }
+                        }
+                      >
+                        Report an Interruption
+                      </span>
+                    </TypographyComp>
+                  </WithStyles(TypographyComp)>
+                </Typography>
+              </div>
+              <button
+                className="SimpleToolbarComp-button-0-3-281 SimpleToolbarComp-icon-0-3-279"
+                onClick={[Function]}
+                type="button"
+              >
+                <TouchRipple
+                  className="SimpleToolbarComp-icon-0-3-279"
+                >
+                  <WithStyles(TouchRippleComp)
+                    className="SimpleToolbarComp-icon-0-3-279"
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                  >
+                    <TouchRippleComp
+                      className="SimpleToolbarComp-icon-0-3-279"
+                      classes={
+                        Object {
+                          "disabled": "TouchRippleComp-disabled-0-3-34",
+                          "root": "TouchRippleComp-root-0-3-33",
+                        }
+                      }
+                    >
+                      <div
+                        className="SimpleToolbarComp-icon-0-3-279 TouchRippleComp-root-0-3-33"
+                      >
+                        <MUIcon
+                          color="#263238"
+                          fontSize={48}
+                          type="arrow_forward"
+                        >
+                          <WithStyles(MUIconComp)
+                            color="#263238"
+                            fontSize={48}
+                            innerRef={null}
+                            jssContext={
+                              Object {
+                                "classNamePrefix": "",
+                                "disableStylesGeneration": false,
+                              }
+                            }
+                            theme={Object {}}
+                            type="arrow_forward"
+                          >
+                            <MUIconComp
+                              classes={
+                                Object {
+                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d110-0-3-291",
+                                }
+                              }
+                              color="#263238"
+                              fontSize={48}
+                              type="arrow_forward"
+                            >
+                              <i
+                                className="MUIconComp-root-0-3-35 MUIconComp-root-d110-0-3-291"
+                              >
+                                arrow_forward
+                              </i>
+                            </MUIconComp>
+                          </WithStyles(MUIconComp)>
+                        </MUIcon>
+                      </div>
+                    </TouchRippleComp>
+                  </WithStyles(TouchRippleComp)>
+                </TouchRipple>
+              </button>
+            </div>
+          </ToolbarComp>
+        </WithStyles(ToolbarComp)>
+      </Toolbar>
+    </SimpleToolbarComp>
+  </WithStyles(SimpleToolbarComp)>
+</SimpleToolbar>
+`;
+
+exports[`Storyshots Components/SimpleToolbar Part SimpleToolbarButton button disabled 1`] = `
+<SimpleToolbarButton
+  disabled={true}
+  onClick={[Function]}
+  text="Confirm"
+>
+  <WithStyles(SimpleToolbarButtonComp)
+    disabled={true}
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onClick={[Function]}
+    text="Confirm"
+    theme={Object {}}
+  >
+    <SimpleToolbarButtonComp
+      classes={
+        Object {
+          "button": "SimpleToolbarButtonComp-button-0-3-296",
+          "disabled": "SimpleToolbarButtonComp-disabled-0-3-297",
+          "root": "SimpleToolbarButtonComp-root-0-3-295",
+        }
+      }
+      disabled={true}
+      onClick={[Function]}
+      text="Confirm"
+    >
+      <div
+        className="SimpleToolbarButtonComp-root-0-3-295"
+      >
+        <TouchRipple
+          className="SimpleToolbarButtonComp-button-0-3-296 SimpleToolbarButtonComp-disabled-0-3-297"
+          disabled={true}
+          onClick={[Function]}
+        >
+          <WithStyles(TouchRippleComp)
+            className="SimpleToolbarButtonComp-button-0-3-296 SimpleToolbarButtonComp-disabled-0-3-297"
+            disabled={true}
+            innerRef={null}
+            jssContext={
+              Object {
+                "classNamePrefix": "",
+                "disableStylesGeneration": false,
+              }
+            }
+            onClick={[Function]}
+            theme={Object {}}
+          >
+            <TouchRippleComp
+              className="SimpleToolbarButtonComp-button-0-3-296 SimpleToolbarButtonComp-disabled-0-3-297"
+              classes={
+                Object {
+                  "disabled": "TouchRippleComp-disabled-0-3-34",
+                  "root": "TouchRippleComp-root-0-3-33",
+                }
+              }
+              disabled={true}
+              onClick={[Function]}
+            >
+              <div
+                className="SimpleToolbarButtonComp-button-0-3-296 SimpleToolbarButtonComp-disabled-0-3-297 TouchRippleComp-disabled-0-3-34"
+              >
+                <Typography
+                  bold={true}
+                  color="#ffffff"
+                  textTransform="uppercase"
+                  variant="standard"
+                >
+                  <WithStyles(TypographyComp)
+                    bold={true}
+                    color="#ffffff"
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    textTransform="uppercase"
+                    theme={Object {}}
+                    variant="standard"
+                  >
+                    <TypographyComp
+                      bold={true}
+                      classes={
+                        Object {
+                          "big": "TypographyComp-big-0-3-7",
+                          "bold": "TypographyComp-bold-0-3-1",
+                          "capitalize": "TypographyComp-capitalize-0-3-12",
+                          "distance": "TypographyComp-distance-0-3-6",
+                          "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                          "giant": "TypographyComp-giant-0-3-9",
+                          "heading": "TypographyComp-heading-0-3-8",
+                          "italic": "TypographyComp-italic-0-3-3",
+                          "lowercase": "TypographyComp-lowercase-0-3-11",
+                          "noWrap": "TypographyComp-noWrap-0-3-13",
+                          "semiBold": "TypographyComp-semiBold-0-3-2",
+                          "standard": "TypographyComp-standard-0-3-5",
+                          "subtext": "TypographyComp-subtext-0-3-4",
+                          "uppercase": "TypographyComp-uppercase-0-3-10",
+                        }
+                      }
+                      color="#ffffff"
+                      textTransform="uppercase"
+                      variant="standard"
+                    >
+                      <span
+                        className="TypographyComp-standard-0-3-5 TypographyComp-uppercase-0-3-10 TypographyComp-bold-0-3-1"
+                        style={
+                          Object {
+                            "color": "rgba(255, 255, 255, 1)",
+                          }
+                        }
+                      >
+                        Confirm
+                      </span>
+                    </TypographyComp>
+                  </WithStyles(TypographyComp)>
+                </Typography>
+              </div>
+            </TouchRippleComp>
+          </WithStyles(TouchRippleComp)>
+        </TouchRipple>
+      </div>
+    </SimpleToolbarButtonComp>
+  </WithStyles(SimpleToolbarButtonComp)>
+</SimpleToolbarButton>
+`;
+
+exports[`Storyshots Components/SimpleToolbar Part SimpleToolbarButton button enabled 1`] = `
+<SimpleToolbarButton
+  onClick={[Function]}
+  text="Confirm"
+>
+  <WithStyles(SimpleToolbarButtonComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onClick={[Function]}
+    text="Confirm"
+    theme={Object {}}
+  >
+    <SimpleToolbarButtonComp
+      classes={
+        Object {
+          "button": "SimpleToolbarButtonComp-button-0-3-296",
+          "disabled": "SimpleToolbarButtonComp-disabled-0-3-297",
+          "root": "SimpleToolbarButtonComp-root-0-3-295",
+        }
+      }
+      onClick={[Function]}
+      text="Confirm"
+    >
+      <div
+        className="SimpleToolbarButtonComp-root-0-3-295"
+      >
+        <TouchRipple
+          className="SimpleToolbarButtonComp-button-0-3-296"
+          onClick={[Function]}
+        >
+          <WithStyles(TouchRippleComp)
+            className="SimpleToolbarButtonComp-button-0-3-296"
+            innerRef={null}
+            jssContext={
+              Object {
+                "classNamePrefix": "",
+                "disableStylesGeneration": false,
+              }
+            }
+            onClick={[Function]}
+            theme={Object {}}
+          >
+            <TouchRippleComp
+              className="SimpleToolbarButtonComp-button-0-3-296"
+              classes={
+                Object {
+                  "disabled": "TouchRippleComp-disabled-0-3-34",
+                  "root": "TouchRippleComp-root-0-3-33",
+                }
+              }
+              onClick={[Function]}
+            >
+              <div
+                className="SimpleToolbarButtonComp-button-0-3-296 TouchRippleComp-root-0-3-33"
+                onClick={[Function]}
+              >
+                <Typography
+                  bold={true}
+                  color="#ffffff"
+                  textTransform="uppercase"
+                  variant="standard"
+                >
+                  <WithStyles(TypographyComp)
+                    bold={true}
+                    color="#ffffff"
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    textTransform="uppercase"
+                    theme={Object {}}
+                    variant="standard"
+                  >
+                    <TypographyComp
+                      bold={true}
+                      classes={
+                        Object {
+                          "big": "TypographyComp-big-0-3-7",
+                          "bold": "TypographyComp-bold-0-3-1",
+                          "capitalize": "TypographyComp-capitalize-0-3-12",
+                          "distance": "TypographyComp-distance-0-3-6",
+                          "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                          "giant": "TypographyComp-giant-0-3-9",
+                          "heading": "TypographyComp-heading-0-3-8",
+                          "italic": "TypographyComp-italic-0-3-3",
+                          "lowercase": "TypographyComp-lowercase-0-3-11",
+                          "noWrap": "TypographyComp-noWrap-0-3-13",
+                          "semiBold": "TypographyComp-semiBold-0-3-2",
+                          "standard": "TypographyComp-standard-0-3-5",
+                          "subtext": "TypographyComp-subtext-0-3-4",
+                          "uppercase": "TypographyComp-uppercase-0-3-10",
+                        }
+                      }
+                      color="#ffffff"
+                      textTransform="uppercase"
+                      variant="standard"
+                    >
+                      <span
+                        className="TypographyComp-standard-0-3-5 TypographyComp-uppercase-0-3-10 TypographyComp-bold-0-3-1"
+                        style={
+                          Object {
+                            "color": "rgba(255, 255, 255, 1)",
+                          }
+                        }
+                      >
+                        Confirm
+                      </span>
+                    </TypographyComp>
+                  </WithStyles(TypographyComp)>
+                </Typography>
+              </div>
+            </TouchRippleComp>
+          </WithStyles(TouchRippleComp)>
+        </TouchRipple>
+      </div>
+    </SimpleToolbarButtonComp>
+  </WithStyles(SimpleToolbarButtonComp)>
+</SimpleToolbarButton>
+`;

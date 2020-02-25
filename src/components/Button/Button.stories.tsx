@@ -5,7 +5,7 @@ import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { Button } from './Button';
 
-storiesOf('Components|Button', module)
+storiesOf('Components/Button', module)
   .addDecorator(withKnobs)
   .addDecorator(hostDecorator())
   .add('Flat transparent text', () => (

@@ -1,0 +1,517 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Chevron Right-down animate 1`] = `
+<Animate
+  type="rightDown"
+>
+  <div>
+    <Chevron
+      animation={true}
+      down={false}
+      onSelect={[Function]}
+      type="rightDown"
+    >
+      <WithStyles(ChevronComp)
+        animation={true}
+        down={false}
+        innerRef={null}
+        jssContext={
+          Object {
+            "classNamePrefix": "",
+            "disableStylesGeneration": false,
+          }
+        }
+        onSelect={[Function]}
+        theme={Object {}}
+        type="rightDown"
+      >
+        <ChevronComp
+          animation={true}
+          classes={
+            Object {
+              "md": "ChevronComp-md-0-3-89",
+              "root": "ChevronComp-root-0-3-88",
+              "sm": "ChevronComp-sm-0-3-90",
+            }
+          }
+          down={false}
+          onSelect={[Function]}
+          type="rightDown"
+        >
+          <Transition
+            appear={false}
+            enter={true}
+            exit={true}
+            in={false}
+            mountOnEnter={false}
+            onEnter={[Function]}
+            onEntered={[Function]}
+            onEntering={[Function]}
+            onExit={[Function]}
+            onExited={[Function]}
+            onExiting={[Function]}
+            timeout={140}
+            unmountOnExit={false}
+          >
+            <div
+              className="ChevronComp-root-0-3-88 ChevronComp-md-0-3-89"
+              onClick={[Function]}
+              style={
+                Object {
+                  "transform": "rotate(90deg)",
+                  "transition": "transform 140ms",
+                }
+              }
+            >
+              <MUIcon
+                fontSize={45}
+                type="keyboard_arrow_up"
+              >
+                <WithStyles(MUIconComp)
+                  fontSize={45}
+                  innerRef={null}
+                  jssContext={
+                    Object {
+                      "classNamePrefix": "",
+                      "disableStylesGeneration": false,
+                    }
+                  }
+                  theme={Object {}}
+                  type="keyboard_arrow_up"
+                >
+                  <MUIconComp
+                    classes={
+                      Object {
+                        "root": "MUIconComp-root-0-3-35 MUIconComp-root-d30-0-3-94",
+                      }
+                    }
+                    fontSize={45}
+                    type="keyboard_arrow_up"
+                  >
+                    <i
+                      className="MUIconComp-root-0-3-35 MUIconComp-root-d30-0-3-94"
+                    >
+                      keyboard_arrow_up
+                    </i>
+                  </MUIconComp>
+                </WithStyles(MUIconComp)>
+              </MUIcon>
+            </div>
+          </Transition>
+        </ChevronComp>
+      </WithStyles(ChevronComp)>
+    </Chevron>
+    <div>
+      <label
+        htmlFor="enable-animation"
+      >
+        Enable animation:
+      </label>
+      <input
+        checked={true}
+        name="enable-animation"
+        onChange={[Function]}
+        style={
+          Object {
+            "marginLeft": 10,
+            "marginTop": 20,
+          }
+        }
+        type="checkbox"
+      />
+    </div>
+  </div>
+</Animate>
+`;
+
+exports[`Storyshots Components/Chevron Size md 1`] = `
+<Chevron
+  size="md"
+>
+  <WithStyles(ChevronComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    size="md"
+    theme={Object {}}
+  >
+    <ChevronComp
+      classes={
+        Object {
+          "md": "ChevronComp-md-0-3-89",
+          "root": "ChevronComp-root-0-3-88",
+          "sm": "ChevronComp-sm-0-3-90",
+        }
+      }
+      size="md"
+    >
+      <Transition
+        appear={false}
+        enter={true}
+        exit={true}
+        in={false}
+        mountOnEnter={false}
+        onEnter={[Function]}
+        onEntered={[Function]}
+        onEntering={[Function]}
+        onExit={[Function]}
+        onExited={[Function]}
+        onExiting={[Function]}
+        timeout={140}
+        unmountOnExit={false}
+      >
+        <div
+          className="ChevronComp-root-0-3-88 ChevronComp-md-0-3-89"
+          style={
+            Object {
+              "transform": "rotate(0deg)",
+              "transition": "transform 140ms",
+            }
+          }
+        >
+          <MUIcon
+            fontSize={45}
+            type="keyboard_arrow_up"
+          >
+            <WithStyles(MUIconComp)
+              fontSize={45}
+              innerRef={null}
+              jssContext={
+                Object {
+                  "classNamePrefix": "",
+                  "disableStylesGeneration": false,
+                }
+              }
+              theme={Object {}}
+              type="keyboard_arrow_up"
+            >
+              <MUIconComp
+                classes={
+                  Object {
+                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d28-0-3-92",
+                  }
+                }
+                fontSize={45}
+                type="keyboard_arrow_up"
+              >
+                <i
+                  className="MUIconComp-root-0-3-35 MUIconComp-root-d28-0-3-92"
+                >
+                  keyboard_arrow_up
+                </i>
+              </MUIconComp>
+            </WithStyles(MUIconComp)>
+          </MUIcon>
+        </div>
+      </Transition>
+    </ChevronComp>
+  </WithStyles(ChevronComp)>
+</Chevron>
+`;
+
+exports[`Storyshots Components/Chevron Size sm 1`] = `
+<Chevron
+  size="sm"
+>
+  <WithStyles(ChevronComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    size="sm"
+    theme={Object {}}
+  >
+    <ChevronComp
+      classes={
+        Object {
+          "md": "ChevronComp-md-0-3-89",
+          "root": "ChevronComp-root-0-3-88",
+          "sm": "ChevronComp-sm-0-3-90",
+        }
+      }
+      size="sm"
+    >
+      <Transition
+        appear={false}
+        enter={true}
+        exit={true}
+        in={false}
+        mountOnEnter={false}
+        onEnter={[Function]}
+        onEntered={[Function]}
+        onEntering={[Function]}
+        onExit={[Function]}
+        onExited={[Function]}
+        onExiting={[Function]}
+        timeout={140}
+        unmountOnExit={false}
+      >
+        <div
+          className="ChevronComp-root-0-3-88 ChevronComp-sm-0-3-90"
+          style={
+            Object {
+              "transform": "rotate(0deg)",
+              "transition": "transform 140ms",
+            }
+          }
+        >
+          <MUIcon
+            fontSize={35}
+            type="keyboard_arrow_up"
+          >
+            <WithStyles(MUIconComp)
+              fontSize={35}
+              innerRef={null}
+              jssContext={
+                Object {
+                  "classNamePrefix": "",
+                  "disableStylesGeneration": false,
+                }
+              }
+              theme={Object {}}
+              type="keyboard_arrow_up"
+            >
+              <MUIconComp
+                classes={
+                  Object {
+                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d27-0-3-91",
+                  }
+                }
+                fontSize={35}
+                type="keyboard_arrow_up"
+              >
+                <i
+                  className="MUIconComp-root-0-3-35 MUIconComp-root-d27-0-3-91"
+                >
+                  keyboard_arrow_up
+                </i>
+              </MUIconComp>
+            </WithStyles(MUIconComp)>
+          </MUIcon>
+        </div>
+      </Transition>
+    </ChevronComp>
+  </WithStyles(ChevronComp)>
+</Chevron>
+`;
+
+exports[`Storyshots Components/Chevron Up-down animate 1`] = `
+<Animate
+  type="upDown"
+>
+  <div>
+    <Chevron
+      animation={true}
+      down={false}
+      onSelect={[Function]}
+      type="upDown"
+    >
+      <WithStyles(ChevronComp)
+        animation={true}
+        down={false}
+        innerRef={null}
+        jssContext={
+          Object {
+            "classNamePrefix": "",
+            "disableStylesGeneration": false,
+          }
+        }
+        onSelect={[Function]}
+        theme={Object {}}
+        type="upDown"
+      >
+        <ChevronComp
+          animation={true}
+          classes={
+            Object {
+              "md": "ChevronComp-md-0-3-89",
+              "root": "ChevronComp-root-0-3-88",
+              "sm": "ChevronComp-sm-0-3-90",
+            }
+          }
+          down={false}
+          onSelect={[Function]}
+          type="upDown"
+        >
+          <Transition
+            appear={false}
+            enter={true}
+            exit={true}
+            in={false}
+            mountOnEnter={false}
+            onEnter={[Function]}
+            onEntered={[Function]}
+            onEntering={[Function]}
+            onExit={[Function]}
+            onExited={[Function]}
+            onExiting={[Function]}
+            timeout={140}
+            unmountOnExit={false}
+          >
+            <div
+              className="ChevronComp-root-0-3-88 ChevronComp-md-0-3-89"
+              onClick={[Function]}
+              style={
+                Object {
+                  "transform": "rotate(0deg)",
+                  "transition": "transform 140ms",
+                }
+              }
+            >
+              <MUIcon
+                fontSize={45}
+                type="keyboard_arrow_up"
+              >
+                <WithStyles(MUIconComp)
+                  fontSize={45}
+                  innerRef={null}
+                  jssContext={
+                    Object {
+                      "classNamePrefix": "",
+                      "disableStylesGeneration": false,
+                    }
+                  }
+                  theme={Object {}}
+                  type="keyboard_arrow_up"
+                >
+                  <MUIconComp
+                    classes={
+                      Object {
+                        "root": "MUIconComp-root-0-3-35 MUIconComp-root-d29-0-3-93",
+                      }
+                    }
+                    fontSize={45}
+                    type="keyboard_arrow_up"
+                  >
+                    <i
+                      className="MUIconComp-root-0-3-35 MUIconComp-root-d29-0-3-93"
+                    >
+                      keyboard_arrow_up
+                    </i>
+                  </MUIconComp>
+                </WithStyles(MUIconComp)>
+              </MUIcon>
+            </div>
+          </Transition>
+        </ChevronComp>
+      </WithStyles(ChevronComp)>
+    </Chevron>
+    <div>
+      <label
+        htmlFor="enable-animation"
+      >
+        Enable animation:
+      </label>
+      <input
+        checked={true}
+        name="enable-animation"
+        onChange={[Function]}
+        style={
+          Object {
+            "marginLeft": 10,
+            "marginTop": 20,
+          }
+        }
+        type="checkbox"
+      />
+    </div>
+  </div>
+</Animate>
+`;
+
+exports[`Storyshots Components/Chevron onSelect 1`] = `
+<Chevron
+  onSelect={[Function]}
+>
+  <WithStyles(ChevronComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onSelect={[Function]}
+    theme={Object {}}
+  >
+    <ChevronComp
+      classes={
+        Object {
+          "md": "ChevronComp-md-0-3-89",
+          "root": "ChevronComp-root-0-3-88",
+          "sm": "ChevronComp-sm-0-3-90",
+        }
+      }
+      onSelect={[Function]}
+    >
+      <Transition
+        appear={false}
+        enter={true}
+        exit={true}
+        in={false}
+        mountOnEnter={false}
+        onEnter={[Function]}
+        onEntered={[Function]}
+        onEntering={[Function]}
+        onExit={[Function]}
+        onExited={[Function]}
+        onExiting={[Function]}
+        timeout={140}
+        unmountOnExit={false}
+      >
+        <div
+          className="ChevronComp-root-0-3-88 ChevronComp-md-0-3-89"
+          onClick={[Function]}
+          style={
+            Object {
+              "transform": "rotate(0deg)",
+              "transition": "transform 140ms",
+            }
+          }
+        >
+          <MUIcon
+            fontSize={45}
+            type="keyboard_arrow_up"
+          >
+            <WithStyles(MUIconComp)
+              fontSize={45}
+              innerRef={null}
+              jssContext={
+                Object {
+                  "classNamePrefix": "",
+                  "disableStylesGeneration": false,
+                }
+              }
+              theme={Object {}}
+              type="keyboard_arrow_up"
+            >
+              <MUIconComp
+                classes={
+                  Object {
+                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d31-0-3-95",
+                  }
+                }
+                fontSize={45}
+                type="keyboard_arrow_up"
+              >
+                <i
+                  className="MUIconComp-root-0-3-35 MUIconComp-root-d31-0-3-95"
+                >
+                  keyboard_arrow_up
+                </i>
+              </MUIconComp>
+            </WithStyles(MUIconComp)>
+          </MUIcon>
+        </div>
+      </Transition>
+    </ChevronComp>
+  </WithStyles(ChevronComp)>
+</Chevron>
+`;

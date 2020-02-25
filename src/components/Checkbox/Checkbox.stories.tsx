@@ -13,7 +13,7 @@ const baseProps = {
   onClick: action('onChange')
 };
 
-storiesOf('Components|Checkbox', module)
+storiesOf('Components/Checkbox', module)
   .addDecorator(hostDecorator())
   .add('Indeterminate', () => <Checkbox {...baseProps} state={'indeterminate'} />)
   .add('Unchecked', () => <Checkbox {...baseProps} />)

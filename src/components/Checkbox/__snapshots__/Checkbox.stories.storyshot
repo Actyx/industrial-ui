@@ -1,0 +1,619 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Checkbox Checked 1`] = `
+<Component
+  color="neutral"
+  onClick={[Function]}
+  state="checked"
+>
+  <div
+    onClick={[Function]}
+    style={
+      Object {
+        "color": "rgba(33, 33, 33, 1)",
+      }
+    }
+  >
+    <TouchRipple>
+      <WithStyles(TouchRippleComp)
+        innerRef={null}
+        jssContext={
+          Object {
+            "classNamePrefix": "",
+            "disableStylesGeneration": false,
+          }
+        }
+        theme={Object {}}
+      >
+        <TouchRippleComp
+          classes={
+            Object {
+              "disabled": "TouchRippleComp-disabled-0-3-34",
+              "root": "TouchRippleComp-root-0-3-33",
+            }
+          }
+        >
+          <div
+            className="TouchRippleComp-root-0-3-33"
+          >
+            <MUIcon
+              fontSize={40}
+              type="check_box"
+            >
+              <WithStyles(MUIconComp)
+                fontSize={40}
+                innerRef={null}
+                jssContext={
+                  Object {
+                    "classNamePrefix": "",
+                    "disableStylesGeneration": false,
+                  }
+                }
+                theme={Object {}}
+                type="check_box"
+              >
+                <MUIconComp
+                  classes={
+                    Object {
+                      "root": "MUIconComp-root-0-3-35 MUIconComp-root-d21-0-3-82",
+                    }
+                  }
+                  fontSize={40}
+                  type="check_box"
+                >
+                  <i
+                    className="MUIconComp-root-0-3-35 MUIconComp-root-d21-0-3-82"
+                  >
+                    check_box
+                  </i>
+                </MUIconComp>
+              </WithStyles(MUIconComp)>
+            </MUIcon>
+          </div>
+        </TouchRippleComp>
+      </WithStyles(TouchRippleComp)>
+    </TouchRipple>
+  </div>
+</Component>
+`;
+
+exports[`Storyshots Components/Checkbox Disabled checked 1`] = `
+<Component
+  color="neutral"
+  disabled={true}
+  onClick={[Function]}
+  state="checked"
+>
+  <div
+    onClick={[Function]}
+    style={
+      Object {
+        "color": "rgba(33, 33, 33, 0.5)",
+      }
+    }
+  >
+    <TouchRipple>
+      <WithStyles(TouchRippleComp)
+        innerRef={null}
+        jssContext={
+          Object {
+            "classNamePrefix": "",
+            "disableStylesGeneration": false,
+          }
+        }
+        theme={Object {}}
+      >
+        <TouchRippleComp
+          classes={
+            Object {
+              "disabled": "TouchRippleComp-disabled-0-3-34",
+              "root": "TouchRippleComp-root-0-3-33",
+            }
+          }
+        >
+          <div
+            className="TouchRippleComp-root-0-3-33"
+          >
+            <MUIcon
+              fontSize={40}
+              type="check_box"
+            >
+              <WithStyles(MUIconComp)
+                fontSize={40}
+                innerRef={null}
+                jssContext={
+                  Object {
+                    "classNamePrefix": "",
+                    "disableStylesGeneration": false,
+                  }
+                }
+                theme={Object {}}
+                type="check_box"
+              >
+                <MUIconComp
+                  classes={
+                    Object {
+                      "root": "MUIconComp-root-0-3-35 MUIconComp-root-d22-0-3-83",
+                    }
+                  }
+                  fontSize={40}
+                  type="check_box"
+                >
+                  <i
+                    className="MUIconComp-root-0-3-35 MUIconComp-root-d22-0-3-83"
+                  >
+                    check_box
+                  </i>
+                </MUIconComp>
+              </WithStyles(MUIconComp)>
+            </MUIcon>
+          </div>
+        </TouchRippleComp>
+      </WithStyles(TouchRippleComp)>
+    </TouchRipple>
+  </div>
+</Component>
+`;
+
+exports[`Storyshots Components/Checkbox Indeterminate 1`] = `
+<Component
+  color="neutral"
+  onClick={[Function]}
+  state="indeterminate"
+>
+  <div
+    onClick={[Function]}
+    style={
+      Object {
+        "color": "rgba(33, 33, 33, 1)",
+      }
+    }
+  >
+    <TouchRipple>
+      <WithStyles(TouchRippleComp)
+        innerRef={null}
+        jssContext={
+          Object {
+            "classNamePrefix": "",
+            "disableStylesGeneration": false,
+          }
+        }
+        theme={Object {}}
+      >
+        <TouchRippleComp
+          classes={
+            Object {
+              "disabled": "TouchRippleComp-disabled-0-3-34",
+              "root": "TouchRippleComp-root-0-3-33",
+            }
+          }
+        >
+          <div
+            className="TouchRippleComp-root-0-3-33"
+          >
+            <MUIcon
+              fontSize={40}
+              type="indeterminate_check_box"
+            >
+              <WithStyles(MUIconComp)
+                fontSize={40}
+                innerRef={null}
+                jssContext={
+                  Object {
+                    "classNamePrefix": "",
+                    "disableStylesGeneration": false,
+                  }
+                }
+                theme={Object {}}
+                type="indeterminate_check_box"
+              >
+                <MUIconComp
+                  classes={
+                    Object {
+                      "root": "MUIconComp-root-0-3-35 MUIconComp-root-d19-0-3-80",
+                    }
+                  }
+                  fontSize={40}
+                  type="indeterminate_check_box"
+                >
+                  <i
+                    className="MUIconComp-root-0-3-35 MUIconComp-root-d19-0-3-80"
+                  >
+                    indeterminate_check_box
+                  </i>
+                </MUIconComp>
+              </WithStyles(MUIconComp)>
+            </MUIcon>
+          </div>
+        </TouchRippleComp>
+      </WithStyles(TouchRippleComp)>
+    </TouchRipple>
+  </div>
+</Component>
+`;
+
+exports[`Storyshots Components/Checkbox Primary checked 1`] = `
+<Component
+  color="primary"
+  onClick={[Function]}
+  state="checked"
+>
+  <div
+    onClick={[Function]}
+    style={
+      Object {
+        "color": "rgba(3, 169, 244, 1)",
+      }
+    }
+  >
+    <TouchRipple>
+      <WithStyles(TouchRippleComp)
+        innerRef={null}
+        jssContext={
+          Object {
+            "classNamePrefix": "",
+            "disableStylesGeneration": false,
+          }
+        }
+        theme={Object {}}
+      >
+        <TouchRippleComp
+          classes={
+            Object {
+              "disabled": "TouchRippleComp-disabled-0-3-34",
+              "root": "TouchRippleComp-root-0-3-33",
+            }
+          }
+        >
+          <div
+            className="TouchRippleComp-root-0-3-33"
+          >
+            <MUIcon
+              fontSize={40}
+              type="check_box"
+            >
+              <WithStyles(MUIconComp)
+                fontSize={40}
+                innerRef={null}
+                jssContext={
+                  Object {
+                    "classNamePrefix": "",
+                    "disableStylesGeneration": false,
+                  }
+                }
+                theme={Object {}}
+                type="check_box"
+              >
+                <MUIconComp
+                  classes={
+                    Object {
+                      "root": "MUIconComp-root-0-3-35 MUIconComp-root-d25-0-3-86",
+                    }
+                  }
+                  fontSize={40}
+                  type="check_box"
+                >
+                  <i
+                    className="MUIconComp-root-0-3-35 MUIconComp-root-d25-0-3-86"
+                  >
+                    check_box
+                  </i>
+                </MUIconComp>
+              </WithStyles(MUIconComp)>
+            </MUIcon>
+          </div>
+        </TouchRippleComp>
+      </WithStyles(TouchRippleComp)>
+    </TouchRipple>
+  </div>
+</Component>
+`;
+
+exports[`Storyshots Components/Checkbox Primary checked disabled 1`] = `
+<Component
+  color="primary"
+  disabled={true}
+  onClick={[Function]}
+  state="checked"
+>
+  <div
+    onClick={[Function]}
+    style={
+      Object {
+        "color": "rgba(3, 169, 244, 0.5)",
+      }
+    }
+  >
+    <TouchRipple>
+      <WithStyles(TouchRippleComp)
+        innerRef={null}
+        jssContext={
+          Object {
+            "classNamePrefix": "",
+            "disableStylesGeneration": false,
+          }
+        }
+        theme={Object {}}
+      >
+        <TouchRippleComp
+          classes={
+            Object {
+              "disabled": "TouchRippleComp-disabled-0-3-34",
+              "root": "TouchRippleComp-root-0-3-33",
+            }
+          }
+        >
+          <div
+            className="TouchRippleComp-root-0-3-33"
+          >
+            <MUIcon
+              fontSize={40}
+              type="check_box"
+            >
+              <WithStyles(MUIconComp)
+                fontSize={40}
+                innerRef={null}
+                jssContext={
+                  Object {
+                    "classNamePrefix": "",
+                    "disableStylesGeneration": false,
+                  }
+                }
+                theme={Object {}}
+                type="check_box"
+              >
+                <MUIconComp
+                  classes={
+                    Object {
+                      "root": "MUIconComp-root-0-3-35 MUIconComp-root-d26-0-3-87",
+                    }
+                  }
+                  fontSize={40}
+                  type="check_box"
+                >
+                  <i
+                    className="MUIconComp-root-0-3-35 MUIconComp-root-d26-0-3-87"
+                  >
+                    check_box
+                  </i>
+                </MUIconComp>
+              </WithStyles(MUIconComp)>
+            </MUIcon>
+          </div>
+        </TouchRippleComp>
+      </WithStyles(TouchRippleComp)>
+    </TouchRipple>
+  </div>
+</Component>
+`;
+
+exports[`Storyshots Components/Checkbox Primary indeterminate 1`] = `
+<Component
+  color="primary"
+  onClick={[Function]}
+  state="indeterminate"
+>
+  <div
+    onClick={[Function]}
+    style={
+      Object {
+        "color": "rgba(3, 169, 244, 1)",
+      }
+    }
+  >
+    <TouchRipple>
+      <WithStyles(TouchRippleComp)
+        innerRef={null}
+        jssContext={
+          Object {
+            "classNamePrefix": "",
+            "disableStylesGeneration": false,
+          }
+        }
+        theme={Object {}}
+      >
+        <TouchRippleComp
+          classes={
+            Object {
+              "disabled": "TouchRippleComp-disabled-0-3-34",
+              "root": "TouchRippleComp-root-0-3-33",
+            }
+          }
+        >
+          <div
+            className="TouchRippleComp-root-0-3-33"
+          >
+            <MUIcon
+              fontSize={40}
+              type="indeterminate_check_box"
+            >
+              <WithStyles(MUIconComp)
+                fontSize={40}
+                innerRef={null}
+                jssContext={
+                  Object {
+                    "classNamePrefix": "",
+                    "disableStylesGeneration": false,
+                  }
+                }
+                theme={Object {}}
+                type="indeterminate_check_box"
+              >
+                <MUIconComp
+                  classes={
+                    Object {
+                      "root": "MUIconComp-root-0-3-35 MUIconComp-root-d23-0-3-84",
+                    }
+                  }
+                  fontSize={40}
+                  type="indeterminate_check_box"
+                >
+                  <i
+                    className="MUIconComp-root-0-3-35 MUIconComp-root-d23-0-3-84"
+                  >
+                    indeterminate_check_box
+                  </i>
+                </MUIconComp>
+              </WithStyles(MUIconComp)>
+            </MUIcon>
+          </div>
+        </TouchRippleComp>
+      </WithStyles(TouchRippleComp)>
+    </TouchRipple>
+  </div>
+</Component>
+`;
+
+exports[`Storyshots Components/Checkbox Primary unchecked 1`] = `
+<Component
+  color="primary"
+  onClick={[Function]}
+  state="unchecked"
+>
+  <div
+    onClick={[Function]}
+    style={
+      Object {
+        "color": "rgba(3, 169, 244, 1)",
+      }
+    }
+  >
+    <TouchRipple>
+      <WithStyles(TouchRippleComp)
+        innerRef={null}
+        jssContext={
+          Object {
+            "classNamePrefix": "",
+            "disableStylesGeneration": false,
+          }
+        }
+        theme={Object {}}
+      >
+        <TouchRippleComp
+          classes={
+            Object {
+              "disabled": "TouchRippleComp-disabled-0-3-34",
+              "root": "TouchRippleComp-root-0-3-33",
+            }
+          }
+        >
+          <div
+            className="TouchRippleComp-root-0-3-33"
+          >
+            <MUIcon
+              fontSize={40}
+              type="check_box_outline_blank"
+            >
+              <WithStyles(MUIconComp)
+                fontSize={40}
+                innerRef={null}
+                jssContext={
+                  Object {
+                    "classNamePrefix": "",
+                    "disableStylesGeneration": false,
+                  }
+                }
+                theme={Object {}}
+                type="check_box_outline_blank"
+              >
+                <MUIconComp
+                  classes={
+                    Object {
+                      "root": "MUIconComp-root-0-3-35 MUIconComp-root-d24-0-3-85",
+                    }
+                  }
+                  fontSize={40}
+                  type="check_box_outline_blank"
+                >
+                  <i
+                    className="MUIconComp-root-0-3-35 MUIconComp-root-d24-0-3-85"
+                  >
+                    check_box_outline_blank
+                  </i>
+                </MUIconComp>
+              </WithStyles(MUIconComp)>
+            </MUIcon>
+          </div>
+        </TouchRippleComp>
+      </WithStyles(TouchRippleComp)>
+    </TouchRipple>
+  </div>
+</Component>
+`;
+
+exports[`Storyshots Components/Checkbox Unchecked 1`] = `
+<Component
+  color="neutral"
+  onClick={[Function]}
+  state="unchecked"
+>
+  <div
+    onClick={[Function]}
+    style={
+      Object {
+        "color": "rgba(33, 33, 33, 1)",
+      }
+    }
+  >
+    <TouchRipple>
+      <WithStyles(TouchRippleComp)
+        innerRef={null}
+        jssContext={
+          Object {
+            "classNamePrefix": "",
+            "disableStylesGeneration": false,
+          }
+        }
+        theme={Object {}}
+      >
+        <TouchRippleComp
+          classes={
+            Object {
+              "disabled": "TouchRippleComp-disabled-0-3-34",
+              "root": "TouchRippleComp-root-0-3-33",
+            }
+          }
+        >
+          <div
+            className="TouchRippleComp-root-0-3-33"
+          >
+            <MUIcon
+              fontSize={40}
+              type="check_box_outline_blank"
+            >
+              <WithStyles(MUIconComp)
+                fontSize={40}
+                innerRef={null}
+                jssContext={
+                  Object {
+                    "classNamePrefix": "",
+                    "disableStylesGeneration": false,
+                  }
+                }
+                theme={Object {}}
+                type="check_box_outline_blank"
+              >
+                <MUIconComp
+                  classes={
+                    Object {
+                      "root": "MUIconComp-root-0-3-35 MUIconComp-root-d20-0-3-81",
+                    }
+                  }
+                  fontSize={40}
+                  type="check_box_outline_blank"
+                >
+                  <i
+                    className="MUIconComp-root-0-3-35 MUIconComp-root-d20-0-3-81"
+                  >
+                    check_box_outline_blank
+                  </i>
+                </MUIconComp>
+              </WithStyles(MUIconComp)>
+            </MUIcon>
+          </div>
+        </TouchRippleComp>
+      </WithStyles(TouchRippleComp)>
+    </TouchRipple>
+  </div>
+</Component>
+`;
