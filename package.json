@@ -31,7 +31,7 @@
     "widgets"
   ],
   "scripts": {
-    "clear": "rimraf ./dist ./coverage",
+    "clean": "rimraf ./dist ./coverage",
     "tsc": "tsc",
     "tsc:watch": "tsc --watch --pretty",
     "build": "tsc -p ./tsconfig.prod.json",
