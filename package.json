@@ -1,5 +1,5 @@
 {
-  "name": "actyx-ui",
+  "name": "@actyx/actyx-ui",
   "version": "1.0.0-alpha.0",
   "private": true,
   "description": "Actyx UI - Simple, modular UI Components for Shop Floor Applications",
