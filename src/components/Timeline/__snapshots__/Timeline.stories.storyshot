@@ -96,8 +96,8 @@ exports[`Storyshots Components/Timeline Base 1`] = `
     <TimelineComp
       classes={
         Object {
-          "content": "TimelineComp-content-0-3-330",
-          "root": "TimelineComp-root-0-3-329",
+          "content": "TimelineComp-content-0-3-328",
+          "root": "TimelineComp-root-0-3-327",
         }
       }
       events={
@@ -142,10 +142,10 @@ exports[`Storyshots Components/Timeline Base 1`] = `
       scrollToLast={true}
     >
       <div
-        className="TimelineComp-root-0-3-329"
+        className="TimelineComp-root-0-3-327"
       >
         <div
-          className="TimelineComp-content-0-3-330"
+          className="TimelineComp-content-0-3-328"
         >
           <TimelineEvent
             content={
@@ -195,9 +195,9 @@ exports[`Storyshots Components/Timeline Base 1`] = `
               <TimelineEventComp
                 classes={
                   Object {
-                    "content": "TimelineEventComp-content-0-3-333",
-                    "root": "TimelineEventComp-root-0-3-331",
-                    "status": "TimelineEventComp-status-0-3-332",
+                    "content": "TimelineEventComp-content-0-3-331",
+                    "root": "TimelineEventComp-root-0-3-329",
+                    "status": "TimelineEventComp-status-0-3-330",
                   }
                 }
                 content={
@@ -218,11 +218,11 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                 }
               >
                 <div
-                  className="TimelineEventComp-root-0-3-331"
+                  className="TimelineEventComp-root-0-3-329"
                   id="0-[object Object]"
                 >
                   <div
-                    className="TimelineEventComp-status-0-3-332"
+                    className="TimelineEventComp-status-0-3-330"
                   >
                     <Status
                       arrangement="start"
@@ -244,20 +244,20 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                           arrangement="start"
                           classes={
                             Object {
-                              "circle": "StatusComp-circle-0-3-338",
-                              "circleWrapper": "StatusComp-circleWrapper-0-3-337",
-                              "line": "StatusComp-line-0-3-336",
-                              "lineWrapper": "StatusComp-lineWrapper-0-3-335",
-                              "root": "StatusComp-root-0-3-334",
+                              "circle": "StatusComp-circle-0-3-336",
+                              "circleWrapper": "StatusComp-circleWrapper-0-3-335",
+                              "line": "StatusComp-line-0-3-334",
+                              "lineWrapper": "StatusComp-lineWrapper-0-3-333",
+                              "root": "StatusComp-root-0-3-332",
                             }
                           }
                           color="#f57c00"
                         >
                           <div
-                            className="StatusComp-root-0-3-334"
+                            className="StatusComp-root-0-3-332"
                           >
                             <div
-                              className="StatusComp-lineWrapper-0-3-335"
+                              className="StatusComp-lineWrapper-0-3-333"
                               style={
                                 Object {
                                   "paddingTop": 8,
@@ -265,7 +265,7 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                               }
                             >
                               <div
-                                className="StatusComp-line-0-3-336"
+                                className="StatusComp-line-0-3-334"
                                 style={
                                   Object {
                                     "backgroundColor": "#f57c00",
@@ -274,10 +274,10 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                               />
                             </div>
                             <div
-                              className="StatusComp-circleWrapper-0-3-337"
+                              className="StatusComp-circleWrapper-0-3-335"
                             >
                               <div
-                                className="StatusComp-circle-0-3-338"
+                                className="StatusComp-circle-0-3-336"
                                 style={
                                   Object {
                                     "backgroundColor": "#f57c00",
@@ -291,7 +291,7 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                     </Status>
                   </div>
                   <div
-                    className="TimelineEventComp-content-0-3-333"
+                    className="TimelineEventComp-content-0-3-331"
                   >
                     <Content
                       dateFormatted={
@@ -322,8 +322,8 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                         <ContentComp
                           classes={
                             Object {
-                              "description": "ContentComp-description-0-3-340",
-                              "root": "ContentComp-root-0-3-339",
+                              "description": "ContentComp-description-0-3-338",
+                              "root": "ContentComp-root-0-3-337",
                             }
                           }
                           dateFormatted={
@@ -335,17 +335,17 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                           title="Improper or inadequate maintenance"
                         >
                           <div
-                            className="ContentComp-root-0-3-339"
+                            className="ContentComp-root-0-3-337"
                           >
                             <div>
                               <Typography
                                 bold={true}
-                                className="ContentComp-description-0-3-340"
+                                className="ContentComp-description-0-3-338"
                                 variant="distance"
                               >
                                 <WithStyles(TypographyComp)
                                   bold={true}
-                                  className="ContentComp-description-0-3-340"
+                                  className="ContentComp-description-0-3-338"
                                   innerRef={null}
                                   jssContext={
                                     Object {
@@ -358,7 +358,7 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                                 >
                                   <TypographyComp
                                     bold={true}
-                                    className="ContentComp-description-0-3-340"
+                                    className="ContentComp-description-0-3-338"
                                     classes={
                                       Object {
                                         "big": "TypographyComp-big-0-3-7",
@@ -380,7 +380,7 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                                     variant="distance"
                                   >
                                     <span
-                                      className="ContentComp-description-0-3-340 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
+                                      className="ContentComp-description-0-3-338 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
                                     >
                                       Improper or inadequate maintenance
                                     </span>
@@ -391,12 +391,12 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                             <div>
                               <Typography
                                 bold={true}
-                                className="ContentComp-description-0-3-340"
+                                className="ContentComp-description-0-3-338"
                                 variant="standard"
                               >
                                 <WithStyles(TypographyComp)
                                   bold={true}
-                                  className="ContentComp-description-0-3-340"
+                                  className="ContentComp-description-0-3-338"
                                   innerRef={null}
                                   jssContext={
                                     Object {
@@ -409,7 +409,7 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                                 >
                                   <TypographyComp
                                     bold={true}
-                                    className="ContentComp-description-0-3-340"
+                                    className="ContentComp-description-0-3-338"
                                     classes={
                                       Object {
                                         "big": "TypographyComp-big-0-3-7",
@@ -431,7 +431,7 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                                     variant="standard"
                                   >
                                     <span
-                                      className="ContentComp-description-0-3-340 TypographyComp-standard-0-3-5 TypographyComp-bold-0-3-1"
+                                      className="ContentComp-description-0-3-338 TypographyComp-standard-0-3-5 TypographyComp-bold-0-3-1"
                                     >
                                       2/22/2018, 10:55:26 AM
                                     </span>
@@ -441,11 +441,11 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                             </div>
                             <div>
                               <Typography
-                                className="ContentComp-description-0-3-340"
+                                className="ContentComp-description-0-3-338"
                                 variant="standard"
                               >
                                 <WithStyles(TypographyComp)
-                                  className="ContentComp-description-0-3-340"
+                                  className="ContentComp-description-0-3-338"
                                   innerRef={null}
                                   jssContext={
                                     Object {
@@ -457,7 +457,7 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                                   variant="standard"
                                 >
                                   <TypographyComp
-                                    className="ContentComp-description-0-3-340"
+                                    className="ContentComp-description-0-3-338"
                                     classes={
                                       Object {
                                         "big": "TypographyComp-big-0-3-7",
@@ -479,7 +479,7 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                                     variant="standard"
                                   >
                                     <span
-                                      className="ContentComp-description-0-3-340 TypographyComp-standard-0-3-5"
+                                      className="ContentComp-description-0-3-338 TypographyComp-standard-0-3-5"
                                     >
                                       Error in machine maintenance, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla varius felis fringilla felis volutpat volutpat. Nunc felis mi, placerat vitae posuere nec, condimentum in lectus.
                                     </span>
@@ -544,9 +544,9 @@ exports[`Storyshots Components/Timeline Base 1`] = `
               <TimelineEventComp
                 classes={
                   Object {
-                    "content": "TimelineEventComp-content-0-3-333",
-                    "root": "TimelineEventComp-root-0-3-331",
-                    "status": "TimelineEventComp-status-0-3-332",
+                    "content": "TimelineEventComp-content-0-3-331",
+                    "root": "TimelineEventComp-root-0-3-329",
+                    "status": "TimelineEventComp-status-0-3-330",
                   }
                 }
                 content={
@@ -567,11 +567,11 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                 }
               >
                 <div
-                  className="TimelineEventComp-root-0-3-331"
+                  className="TimelineEventComp-root-0-3-329"
                   id="1-[object Object]"
                 >
                   <div
-                    className="TimelineEventComp-status-0-3-332"
+                    className="TimelineEventComp-status-0-3-330"
                   >
                     <Status
                       arrangement="continue"
@@ -593,20 +593,20 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                           arrangement="continue"
                           classes={
                             Object {
-                              "circle": "StatusComp-circle-0-3-338",
-                              "circleWrapper": "StatusComp-circleWrapper-0-3-337",
-                              "line": "StatusComp-line-0-3-336",
-                              "lineWrapper": "StatusComp-lineWrapper-0-3-335",
-                              "root": "StatusComp-root-0-3-334",
+                              "circle": "StatusComp-circle-0-3-336",
+                              "circleWrapper": "StatusComp-circleWrapper-0-3-335",
+                              "line": "StatusComp-line-0-3-334",
+                              "lineWrapper": "StatusComp-lineWrapper-0-3-333",
+                              "root": "StatusComp-root-0-3-332",
                             }
                           }
                           color="#f57c00"
                         >
                           <div
-                            className="StatusComp-root-0-3-334"
+                            className="StatusComp-root-0-3-332"
                           >
                             <div
-                              className="StatusComp-lineWrapper-0-3-335"
+                              className="StatusComp-lineWrapper-0-3-333"
                               style={
                                 Object {
                                   "paddingTop": 0,
@@ -614,7 +614,7 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                               }
                             >
                               <div
-                                className="StatusComp-line-0-3-336"
+                                className="StatusComp-line-0-3-334"
                                 style={
                                   Object {
                                     "backgroundColor": "#f57c00",
@@ -623,10 +623,10 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                               />
                             </div>
                             <div
-                              className="StatusComp-circleWrapper-0-3-337"
+                              className="StatusComp-circleWrapper-0-3-335"
                             >
                               <div
-                                className="StatusComp-circle-0-3-338"
+                                className="StatusComp-circle-0-3-336"
                                 style={
                                   Object {
                                     "backgroundColor": "#f57c00",
@@ -640,7 +640,7 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                     </Status>
                   </div>
                   <div
-                    className="TimelineEventComp-content-0-3-333"
+                    className="TimelineEventComp-content-0-3-331"
                   >
                     <Content
                       dateFormatted={
@@ -671,8 +671,8 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                         <ContentComp
                           classes={
                             Object {
-                              "description": "ContentComp-description-0-3-340",
-                              "root": "ContentComp-root-0-3-339",
+                              "description": "ContentComp-description-0-3-338",
+                              "root": "ContentComp-root-0-3-337",
                             }
                           }
                           dateFormatted={
@@ -684,17 +684,17 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                           title="Assembly errors"
                         >
                           <div
-                            className="ContentComp-root-0-3-339"
+                            className="ContentComp-root-0-3-337"
                           >
                             <div>
                               <Typography
                                 bold={true}
-                                className="ContentComp-description-0-3-340"
+                                className="ContentComp-description-0-3-338"
                                 variant="distance"
                               >
                                 <WithStyles(TypographyComp)
                                   bold={true}
-                                  className="ContentComp-description-0-3-340"
+                                  className="ContentComp-description-0-3-338"
                                   innerRef={null}
                                   jssContext={
                                     Object {
@@ -707,7 +707,7 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                                 >
                                   <TypographyComp
                                     bold={true}
-                                    className="ContentComp-description-0-3-340"
+                                    className="ContentComp-description-0-3-338"
                                     classes={
                                       Object {
                                         "big": "TypographyComp-big-0-3-7",
@@ -729,7 +729,7 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                                     variant="distance"
                                   >
                                     <span
-                                      className="ContentComp-description-0-3-340 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
+                                      className="ContentComp-description-0-3-338 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
                                     >
                                       Assembly errors
                                     </span>
@@ -740,12 +740,12 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                             <div>
                               <Typography
                                 bold={true}
-                                className="ContentComp-description-0-3-340"
+                                className="ContentComp-description-0-3-338"
                                 variant="standard"
                               >
                                 <WithStyles(TypographyComp)
                                   bold={true}
-                                  className="ContentComp-description-0-3-340"
+                                  className="ContentComp-description-0-3-338"
                                   innerRef={null}
                                   jssContext={
                                     Object {
@@ -758,7 +758,7 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                                 >
                                   <TypographyComp
                                     bold={true}
-                                    className="ContentComp-description-0-3-340"
+                                    className="ContentComp-description-0-3-338"
                                     classes={
                                       Object {
                                         "big": "TypographyComp-big-0-3-7",
@@ -780,7 +780,7 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                                     variant="standard"
                                   >
                                     <span
-                                      className="ContentComp-description-0-3-340 TypographyComp-standard-0-3-5 TypographyComp-bold-0-3-1"
+                                      className="ContentComp-description-0-3-338 TypographyComp-standard-0-3-5 TypographyComp-bold-0-3-1"
                                     >
                                       2/22/2018, 11:55:26 AM
                                     </span>
@@ -790,11 +790,11 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                             </div>
                             <div>
                               <Typography
-                                className="ContentComp-description-0-3-340"
+                                className="ContentComp-description-0-3-338"
                                 variant="standard"
                               >
                                 <WithStyles(TypographyComp)
-                                  className="ContentComp-description-0-3-340"
+                                  className="ContentComp-description-0-3-338"
                                   innerRef={null}
                                   jssContext={
                                     Object {
@@ -806,7 +806,7 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                                   variant="standard"
                                 >
                                   <TypographyComp
-                                    className="ContentComp-description-0-3-340"
+                                    className="ContentComp-description-0-3-338"
                                     classes={
                                       Object {
                                         "big": "TypographyComp-big-0-3-7",
@@ -828,7 +828,7 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                                     variant="standard"
                                   >
                                     <span
-                                      className="ContentComp-description-0-3-340 TypographyComp-standard-0-3-5"
+                                      className="ContentComp-description-0-3-338 TypographyComp-standard-0-3-5"
                                     >
                                       Mechanical error on the assembly line, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla varius felis fringilla felis volutpat volutpat. Nunc felis mi, placerat vitae posuere nec, condimentum in lectus.
                                     </span>
@@ -893,9 +893,9 @@ exports[`Storyshots Components/Timeline Base 1`] = `
               <TimelineEventComp
                 classes={
                   Object {
-                    "content": "TimelineEventComp-content-0-3-333",
-                    "root": "TimelineEventComp-root-0-3-331",
-                    "status": "TimelineEventComp-status-0-3-332",
+                    "content": "TimelineEventComp-content-0-3-331",
+                    "root": "TimelineEventComp-root-0-3-329",
+                    "status": "TimelineEventComp-status-0-3-330",
                   }
                 }
                 content={
@@ -916,11 +916,11 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                 }
               >
                 <div
-                  className="TimelineEventComp-root-0-3-331"
+                  className="TimelineEventComp-root-0-3-329"
                   id="2-[object Object]"
                 >
                   <div
-                    className="TimelineEventComp-status-0-3-332"
+                    className="TimelineEventComp-status-0-3-330"
                   >
                     <Status
                       arrangement="end"
@@ -942,20 +942,20 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                           arrangement="end"
                           classes={
                             Object {
-                              "circle": "StatusComp-circle-0-3-338",
-                              "circleWrapper": "StatusComp-circleWrapper-0-3-337",
-                              "line": "StatusComp-line-0-3-336",
-                              "lineWrapper": "StatusComp-lineWrapper-0-3-335",
-                              "root": "StatusComp-root-0-3-334",
+                              "circle": "StatusComp-circle-0-3-336",
+                              "circleWrapper": "StatusComp-circleWrapper-0-3-335",
+                              "line": "StatusComp-line-0-3-334",
+                              "lineWrapper": "StatusComp-lineWrapper-0-3-333",
+                              "root": "StatusComp-root-0-3-332",
                             }
                           }
                           color="#f57c00"
                         >
                           <div
-                            className="StatusComp-root-0-3-334"
+                            className="StatusComp-root-0-3-332"
                           >
                             <div
-                              className="StatusComp-lineWrapper-0-3-335"
+                              className="StatusComp-lineWrapper-0-3-333"
                               style={
                                 Object {
                                   "height": 8,
@@ -964,7 +964,7 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                               }
                             >
                               <div
-                                className="StatusComp-line-0-3-336"
+                                className="StatusComp-line-0-3-334"
                                 style={
                                   Object {
                                     "backgroundColor": "#f57c00",
@@ -973,10 +973,10 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                               />
                             </div>
                             <div
-                              className="StatusComp-circleWrapper-0-3-337"
+                              className="StatusComp-circleWrapper-0-3-335"
                             >
                               <div
-                                className="StatusComp-circle-0-3-338"
+                                className="StatusComp-circle-0-3-336"
                                 style={
                                   Object {
                                     "backgroundColor": "#f57c00",
@@ -990,7 +990,7 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                     </Status>
                   </div>
                   <div
-                    className="TimelineEventComp-content-0-3-333"
+                    className="TimelineEventComp-content-0-3-331"
                   >
                     <Content
                       dateFormatted={
@@ -1021,8 +1021,8 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                         <ContentComp
                           classes={
                             Object {
-                              "description": "ContentComp-description-0-3-340",
-                              "root": "ContentComp-root-0-3-339",
+                              "description": "ContentComp-description-0-3-338",
+                              "root": "ContentComp-root-0-3-337",
                             }
                           }
                           dateFormatted={
@@ -1034,17 +1034,17 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                           title="Assembly errors"
                         >
                           <div
-                            className="ContentComp-root-0-3-339"
+                            className="ContentComp-root-0-3-337"
                           >
                             <div>
                               <Typography
                                 bold={true}
-                                className="ContentComp-description-0-3-340"
+                                className="ContentComp-description-0-3-338"
                                 variant="distance"
                               >
                                 <WithStyles(TypographyComp)
                                   bold={true}
-                                  className="ContentComp-description-0-3-340"
+                                  className="ContentComp-description-0-3-338"
                                   innerRef={null}
                                   jssContext={
                                     Object {
@@ -1057,7 +1057,7 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                                 >
                                   <TypographyComp
                                     bold={true}
-                                    className="ContentComp-description-0-3-340"
+                                    className="ContentComp-description-0-3-338"
                                     classes={
                                       Object {
                                         "big": "TypographyComp-big-0-3-7",
@@ -1079,7 +1079,7 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                                     variant="distance"
                                   >
                                     <span
-                                      className="ContentComp-description-0-3-340 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
+                                      className="ContentComp-description-0-3-338 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
                                     >
                                       Assembly errors
                                     </span>
@@ -1090,12 +1090,12 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                             <div>
                               <Typography
                                 bold={true}
-                                className="ContentComp-description-0-3-340"
+                                className="ContentComp-description-0-3-338"
                                 variant="standard"
                               >
                                 <WithStyles(TypographyComp)
                                   bold={true}
-                                  className="ContentComp-description-0-3-340"
+                                  className="ContentComp-description-0-3-338"
                                   innerRef={null}
                                   jssContext={
                                     Object {
@@ -1108,7 +1108,7 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                                 >
                                   <TypographyComp
                                     bold={true}
-                                    className="ContentComp-description-0-3-340"
+                                    className="ContentComp-description-0-3-338"
                                     classes={
                                       Object {
                                         "big": "TypographyComp-big-0-3-7",
@@ -1130,7 +1130,7 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                                     variant="standard"
                                   >
                                     <span
-                                      className="ContentComp-description-0-3-340 TypographyComp-standard-0-3-5 TypographyComp-bold-0-3-1"
+                                      className="ContentComp-description-0-3-338 TypographyComp-standard-0-3-5 TypographyComp-bold-0-3-1"
                                     >
                                       2/22/2018, 12:55:26 PM
                                     </span>
@@ -1140,11 +1140,11 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                             </div>
                             <div>
                               <Typography
-                                className="ContentComp-description-0-3-340"
+                                className="ContentComp-description-0-3-338"
                                 variant="standard"
                               >
                                 <WithStyles(TypographyComp)
-                                  className="ContentComp-description-0-3-340"
+                                  className="ContentComp-description-0-3-338"
                                   innerRef={null}
                                   jssContext={
                                     Object {
@@ -1156,7 +1156,7 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                                   variant="standard"
                                 >
                                   <TypographyComp
-                                    className="ContentComp-description-0-3-340"
+                                    className="ContentComp-description-0-3-338"
                                     classes={
                                       Object {
                                         "big": "TypographyComp-big-0-3-7",
@@ -1178,7 +1178,7 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                                     variant="standard"
                                   >
                                     <span
-                                      className="ContentComp-description-0-3-340 TypographyComp-standard-0-3-5"
+                                      className="ContentComp-description-0-3-338 TypographyComp-standard-0-3-5"
                                     >
                                       Calibration error on the assembly line.
                                     </span>
@@ -1243,9 +1243,9 @@ exports[`Storyshots Components/Timeline Base 1`] = `
               <TimelineEventComp
                 classes={
                   Object {
-                    "content": "TimelineEventComp-content-0-3-333",
-                    "root": "TimelineEventComp-root-0-3-331",
-                    "status": "TimelineEventComp-status-0-3-332",
+                    "content": "TimelineEventComp-content-0-3-331",
+                    "root": "TimelineEventComp-root-0-3-329",
+                    "status": "TimelineEventComp-status-0-3-330",
                   }
                 }
                 content={
@@ -1266,11 +1266,11 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                 }
               >
                 <div
-                  className="TimelineEventComp-root-0-3-331"
+                  className="TimelineEventComp-root-0-3-329"
                   id="3-[object Object]"
                 >
                   <div
-                    className="TimelineEventComp-status-0-3-332"
+                    className="TimelineEventComp-status-0-3-330"
                   >
                     <Status
                       arrangement="single"
@@ -1292,20 +1292,20 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                           arrangement="single"
                           classes={
                             Object {
-                              "circle": "StatusComp-circle-0-3-338",
-                              "circleWrapper": "StatusComp-circleWrapper-0-3-337",
-                              "line": "StatusComp-line-0-3-336",
-                              "lineWrapper": "StatusComp-lineWrapper-0-3-335",
-                              "root": "StatusComp-root-0-3-334",
+                              "circle": "StatusComp-circle-0-3-336",
+                              "circleWrapper": "StatusComp-circleWrapper-0-3-335",
+                              "line": "StatusComp-line-0-3-334",
+                              "lineWrapper": "StatusComp-lineWrapper-0-3-333",
+                              "root": "StatusComp-root-0-3-332",
                             }
                           }
                           color="#4caf50"
                         >
                           <div
-                            className="StatusComp-root-0-3-334"
+                            className="StatusComp-root-0-3-332"
                           >
                             <div
-                              className="StatusComp-lineWrapper-0-3-335"
+                              className="StatusComp-lineWrapper-0-3-333"
                               style={
                                 Object {
                                   "height": 0,
@@ -1313,7 +1313,7 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                               }
                             >
                               <div
-                                className="StatusComp-line-0-3-336"
+                                className="StatusComp-line-0-3-334"
                                 style={
                                   Object {
                                     "backgroundColor": "#4caf50",
@@ -1322,10 +1322,10 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                               />
                             </div>
                             <div
-                              className="StatusComp-circleWrapper-0-3-337"
+                              className="StatusComp-circleWrapper-0-3-335"
                             >
                               <div
-                                className="StatusComp-circle-0-3-338"
+                                className="StatusComp-circle-0-3-336"
                                 style={
                                   Object {
                                     "backgroundColor": "#4caf50",
@@ -1339,7 +1339,7 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                     </Status>
                   </div>
                   <div
-                    className="TimelineEventComp-content-0-3-333"
+                    className="TimelineEventComp-content-0-3-331"
                   >
                     <Content
                       dateFormatted={
@@ -1368,8 +1368,8 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                         <ContentComp
                           classes={
                             Object {
-                              "description": "ContentComp-description-0-3-340",
-                              "root": "ContentComp-root-0-3-339",
+                              "description": "ContentComp-description-0-3-338",
+                              "root": "ContentComp-root-0-3-337",
                             }
                           }
                           dateFormatted={
@@ -1380,17 +1380,17 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                           title="Resolved"
                         >
                           <div
-                            className="ContentComp-root-0-3-339"
+                            className="ContentComp-root-0-3-337"
                           >
                             <div>
                               <Typography
                                 bold={true}
-                                className="ContentComp-description-0-3-340"
+                                className="ContentComp-description-0-3-338"
                                 variant="distance"
                               >
                                 <WithStyles(TypographyComp)
                                   bold={true}
-                                  className="ContentComp-description-0-3-340"
+                                  className="ContentComp-description-0-3-338"
                                   innerRef={null}
                                   jssContext={
                                     Object {
@@ -1403,7 +1403,7 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                                 >
                                   <TypographyComp
                                     bold={true}
-                                    className="ContentComp-description-0-3-340"
+                                    className="ContentComp-description-0-3-338"
                                     classes={
                                       Object {
                                         "big": "TypographyComp-big-0-3-7",
@@ -1425,7 +1425,7 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                                     variant="distance"
                                   >
                                     <span
-                                      className="ContentComp-description-0-3-340 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
+                                      className="ContentComp-description-0-3-338 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
                                     >
                                       Resolved
                                     </span>
@@ -1436,12 +1436,12 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                             <div>
                               <Typography
                                 bold={true}
-                                className="ContentComp-description-0-3-340"
+                                className="ContentComp-description-0-3-338"
                                 variant="standard"
                               >
                                 <WithStyles(TypographyComp)
                                   bold={true}
-                                  className="ContentComp-description-0-3-340"
+                                  className="ContentComp-description-0-3-338"
                                   innerRef={null}
                                   jssContext={
                                     Object {
@@ -1454,7 +1454,7 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                                 >
                                   <TypographyComp
                                     bold={true}
-                                    className="ContentComp-description-0-3-340"
+                                    className="ContentComp-description-0-3-338"
                                     classes={
                                       Object {
                                         "big": "TypographyComp-big-0-3-7",
@@ -1476,7 +1476,7 @@ exports[`Storyshots Components/Timeline Base 1`] = `
                                     variant="standard"
                                   >
                                     <span
-                                      className="ContentComp-description-0-3-340 TypographyComp-standard-0-3-5 TypographyComp-bold-0-3-1"
+                                      className="ContentComp-description-0-3-338 TypographyComp-standard-0-3-5 TypographyComp-bold-0-3-1"
                                     >
                                       2/22/2018, 1:55:26 PM
                                     </span>
@@ -1681,8 +1681,8 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
     <TimelineComp
       classes={
         Object {
-          "content": "TimelineComp-content-0-3-330",
-          "root": "TimelineComp-root-0-3-329",
+          "content": "TimelineComp-content-0-3-328",
+          "root": "TimelineComp-root-0-3-327",
         }
       }
       events={
@@ -1769,10 +1769,10 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
       scrollToLast={true}
     >
       <div
-        className="TimelineComp-root-0-3-329"
+        className="TimelineComp-root-0-3-327"
       >
         <div
-          className="TimelineComp-content-0-3-330"
+          className="TimelineComp-content-0-3-328"
         >
           <TimelineEvent
             content={
@@ -1822,9 +1822,9 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
               <TimelineEventComp
                 classes={
                   Object {
-                    "content": "TimelineEventComp-content-0-3-333",
-                    "root": "TimelineEventComp-root-0-3-331",
-                    "status": "TimelineEventComp-status-0-3-332",
+                    "content": "TimelineEventComp-content-0-3-331",
+                    "root": "TimelineEventComp-root-0-3-329",
+                    "status": "TimelineEventComp-status-0-3-330",
                   }
                 }
                 content={
@@ -1845,11 +1845,11 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                 }
               >
                 <div
-                  className="TimelineEventComp-root-0-3-331"
+                  className="TimelineEventComp-root-0-3-329"
                   id="0-[object Object]"
                 >
                   <div
-                    className="TimelineEventComp-status-0-3-332"
+                    className="TimelineEventComp-status-0-3-330"
                   >
                     <Status
                       arrangement="start"
@@ -1871,20 +1871,20 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                           arrangement="start"
                           classes={
                             Object {
-                              "circle": "StatusComp-circle-0-3-338",
-                              "circleWrapper": "StatusComp-circleWrapper-0-3-337",
-                              "line": "StatusComp-line-0-3-336",
-                              "lineWrapper": "StatusComp-lineWrapper-0-3-335",
-                              "root": "StatusComp-root-0-3-334",
+                              "circle": "StatusComp-circle-0-3-336",
+                              "circleWrapper": "StatusComp-circleWrapper-0-3-335",
+                              "line": "StatusComp-line-0-3-334",
+                              "lineWrapper": "StatusComp-lineWrapper-0-3-333",
+                              "root": "StatusComp-root-0-3-332",
                             }
                           }
                           color="#f57c00"
                         >
                           <div
-                            className="StatusComp-root-0-3-334"
+                            className="StatusComp-root-0-3-332"
                           >
                             <div
-                              className="StatusComp-lineWrapper-0-3-335"
+                              className="StatusComp-lineWrapper-0-3-333"
                               style={
                                 Object {
                                   "paddingTop": 8,
@@ -1892,7 +1892,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                               }
                             >
                               <div
-                                className="StatusComp-line-0-3-336"
+                                className="StatusComp-line-0-3-334"
                                 style={
                                   Object {
                                     "backgroundColor": "#f57c00",
@@ -1901,10 +1901,10 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                               />
                             </div>
                             <div
-                              className="StatusComp-circleWrapper-0-3-337"
+                              className="StatusComp-circleWrapper-0-3-335"
                             >
                               <div
-                                className="StatusComp-circle-0-3-338"
+                                className="StatusComp-circle-0-3-336"
                                 style={
                                   Object {
                                     "backgroundColor": "#f57c00",
@@ -1918,7 +1918,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                     </Status>
                   </div>
                   <div
-                    className="TimelineEventComp-content-0-3-333"
+                    className="TimelineEventComp-content-0-3-331"
                   >
                     <Content
                       dateFormatted={
@@ -1949,8 +1949,8 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                         <ContentComp
                           classes={
                             Object {
-                              "description": "ContentComp-description-0-3-340",
-                              "root": "ContentComp-root-0-3-339",
+                              "description": "ContentComp-description-0-3-338",
+                              "root": "ContentComp-root-0-3-337",
                             }
                           }
                           dateFormatted={
@@ -1962,17 +1962,17 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                           title="Improper or inadequate maintenance"
                         >
                           <div
-                            className="ContentComp-root-0-3-339"
+                            className="ContentComp-root-0-3-337"
                           >
                             <div>
                               <Typography
                                 bold={true}
-                                className="ContentComp-description-0-3-340"
+                                className="ContentComp-description-0-3-338"
                                 variant="distance"
                               >
                                 <WithStyles(TypographyComp)
                                   bold={true}
-                                  className="ContentComp-description-0-3-340"
+                                  className="ContentComp-description-0-3-338"
                                   innerRef={null}
                                   jssContext={
                                     Object {
@@ -1985,7 +1985,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                 >
                                   <TypographyComp
                                     bold={true}
-                                    className="ContentComp-description-0-3-340"
+                                    className="ContentComp-description-0-3-338"
                                     classes={
                                       Object {
                                         "big": "TypographyComp-big-0-3-7",
@@ -2007,7 +2007,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                     variant="distance"
                                   >
                                     <span
-                                      className="ContentComp-description-0-3-340 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
+                                      className="ContentComp-description-0-3-338 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
                                     >
                                       Improper or inadequate maintenance
                                     </span>
@@ -2018,12 +2018,12 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                             <div>
                               <Typography
                                 bold={true}
-                                className="ContentComp-description-0-3-340"
+                                className="ContentComp-description-0-3-338"
                                 variant="standard"
                               >
                                 <WithStyles(TypographyComp)
                                   bold={true}
-                                  className="ContentComp-description-0-3-340"
+                                  className="ContentComp-description-0-3-338"
                                   innerRef={null}
                                   jssContext={
                                     Object {
@@ -2036,7 +2036,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                 >
                                   <TypographyComp
                                     bold={true}
-                                    className="ContentComp-description-0-3-340"
+                                    className="ContentComp-description-0-3-338"
                                     classes={
                                       Object {
                                         "big": "TypographyComp-big-0-3-7",
@@ -2058,7 +2058,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                     variant="standard"
                                   >
                                     <span
-                                      className="ContentComp-description-0-3-340 TypographyComp-standard-0-3-5 TypographyComp-bold-0-3-1"
+                                      className="ContentComp-description-0-3-338 TypographyComp-standard-0-3-5 TypographyComp-bold-0-3-1"
                                     >
                                       2/1/2018, 1:26:09 AM
                                     </span>
@@ -2068,11 +2068,11 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                             </div>
                             <div>
                               <Typography
-                                className="ContentComp-description-0-3-340"
+                                className="ContentComp-description-0-3-338"
                                 variant="standard"
                               >
                                 <WithStyles(TypographyComp)
-                                  className="ContentComp-description-0-3-340"
+                                  className="ContentComp-description-0-3-338"
                                   innerRef={null}
                                   jssContext={
                                     Object {
@@ -2084,7 +2084,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                   variant="standard"
                                 >
                                   <TypographyComp
-                                    className="ContentComp-description-0-3-340"
+                                    className="ContentComp-description-0-3-338"
                                     classes={
                                       Object {
                                         "big": "TypographyComp-big-0-3-7",
@@ -2106,7 +2106,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                     variant="standard"
                                   >
                                     <span
-                                      className="ContentComp-description-0-3-340 TypographyComp-standard-0-3-5"
+                                      className="ContentComp-description-0-3-338 TypographyComp-standard-0-3-5"
                                     >
                                       Error in machine maintenance, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla varius felis fringilla felis volutpat volutpat. Nunc felis mi, placerat vitae posuere nec, condimentum in lectus.
                                     </span>
@@ -2171,9 +2171,9 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
               <TimelineEventComp
                 classes={
                   Object {
-                    "content": "TimelineEventComp-content-0-3-333",
-                    "root": "TimelineEventComp-root-0-3-331",
-                    "status": "TimelineEventComp-status-0-3-332",
+                    "content": "TimelineEventComp-content-0-3-331",
+                    "root": "TimelineEventComp-root-0-3-329",
+                    "status": "TimelineEventComp-status-0-3-330",
                   }
                 }
                 content={
@@ -2194,11 +2194,11 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                 }
               >
                 <div
-                  className="TimelineEventComp-root-0-3-331"
+                  className="TimelineEventComp-root-0-3-329"
                   id="1-[object Object]"
                 >
                   <div
-                    className="TimelineEventComp-status-0-3-332"
+                    className="TimelineEventComp-status-0-3-330"
                   >
                     <Status
                       arrangement="continue"
@@ -2220,20 +2220,20 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                           arrangement="continue"
                           classes={
                             Object {
-                              "circle": "StatusComp-circle-0-3-338",
-                              "circleWrapper": "StatusComp-circleWrapper-0-3-337",
-                              "line": "StatusComp-line-0-3-336",
-                              "lineWrapper": "StatusComp-lineWrapper-0-3-335",
-                              "root": "StatusComp-root-0-3-334",
+                              "circle": "StatusComp-circle-0-3-336",
+                              "circleWrapper": "StatusComp-circleWrapper-0-3-335",
+                              "line": "StatusComp-line-0-3-334",
+                              "lineWrapper": "StatusComp-lineWrapper-0-3-333",
+                              "root": "StatusComp-root-0-3-332",
                             }
                           }
                           color="#f57c00"
                         >
                           <div
-                            className="StatusComp-root-0-3-334"
+                            className="StatusComp-root-0-3-332"
                           >
                             <div
-                              className="StatusComp-lineWrapper-0-3-335"
+                              className="StatusComp-lineWrapper-0-3-333"
                               style={
                                 Object {
                                   "paddingTop": 0,
@@ -2241,7 +2241,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                               }
                             >
                               <div
-                                className="StatusComp-line-0-3-336"
+                                className="StatusComp-line-0-3-334"
                                 style={
                                   Object {
                                     "backgroundColor": "#f57c00",
@@ -2250,10 +2250,10 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                               />
                             </div>
                             <div
-                              className="StatusComp-circleWrapper-0-3-337"
+                              className="StatusComp-circleWrapper-0-3-335"
                             >
                               <div
-                                className="StatusComp-circle-0-3-338"
+                                className="StatusComp-circle-0-3-336"
                                 style={
                                   Object {
                                     "backgroundColor": "#f57c00",
@@ -2267,7 +2267,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                     </Status>
                   </div>
                   <div
-                    className="TimelineEventComp-content-0-3-333"
+                    className="TimelineEventComp-content-0-3-331"
                   >
                     <Content
                       dateFormatted={
@@ -2298,8 +2298,8 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                         <ContentComp
                           classes={
                             Object {
-                              "description": "ContentComp-description-0-3-340",
-                              "root": "ContentComp-root-0-3-339",
+                              "description": "ContentComp-description-0-3-338",
+                              "root": "ContentComp-root-0-3-337",
                             }
                           }
                           dateFormatted={
@@ -2311,17 +2311,17 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                           title="Assembly errors"
                         >
                           <div
-                            className="ContentComp-root-0-3-339"
+                            className="ContentComp-root-0-3-337"
                           >
                             <div>
                               <Typography
                                 bold={true}
-                                className="ContentComp-description-0-3-340"
+                                className="ContentComp-description-0-3-338"
                                 variant="distance"
                               >
                                 <WithStyles(TypographyComp)
                                   bold={true}
-                                  className="ContentComp-description-0-3-340"
+                                  className="ContentComp-description-0-3-338"
                                   innerRef={null}
                                   jssContext={
                                     Object {
@@ -2334,7 +2334,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                 >
                                   <TypographyComp
                                     bold={true}
-                                    className="ContentComp-description-0-3-340"
+                                    className="ContentComp-description-0-3-338"
                                     classes={
                                       Object {
                                         "big": "TypographyComp-big-0-3-7",
@@ -2356,7 +2356,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                     variant="distance"
                                   >
                                     <span
-                                      className="ContentComp-description-0-3-340 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
+                                      className="ContentComp-description-0-3-338 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
                                     >
                                       Assembly errors
                                     </span>
@@ -2367,12 +2367,12 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                             <div>
                               <Typography
                                 bold={true}
-                                className="ContentComp-description-0-3-340"
+                                className="ContentComp-description-0-3-338"
                                 variant="standard"
                               >
                                 <WithStyles(TypographyComp)
                                   bold={true}
-                                  className="ContentComp-description-0-3-340"
+                                  className="ContentComp-description-0-3-338"
                                   innerRef={null}
                                   jssContext={
                                     Object {
@@ -2385,7 +2385,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                 >
                                   <TypographyComp
                                     bold={true}
-                                    className="ContentComp-description-0-3-340"
+                                    className="ContentComp-description-0-3-338"
                                     classes={
                                       Object {
                                         "big": "TypographyComp-big-0-3-7",
@@ -2407,7 +2407,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                     variant="standard"
                                   >
                                     <span
-                                      className="ContentComp-description-0-3-340 TypographyComp-standard-0-3-5 TypographyComp-bold-0-3-1"
+                                      className="ContentComp-description-0-3-338 TypographyComp-standard-0-3-5 TypographyComp-bold-0-3-1"
                                     >
                                       2/1/2018, 2:26:09 AM
                                     </span>
@@ -2417,11 +2417,11 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                             </div>
                             <div>
                               <Typography
-                                className="ContentComp-description-0-3-340"
+                                className="ContentComp-description-0-3-338"
                                 variant="standard"
                               >
                                 <WithStyles(TypographyComp)
-                                  className="ContentComp-description-0-3-340"
+                                  className="ContentComp-description-0-3-338"
                                   innerRef={null}
                                   jssContext={
                                     Object {
@@ -2433,7 +2433,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                   variant="standard"
                                 >
                                   <TypographyComp
-                                    className="ContentComp-description-0-3-340"
+                                    className="ContentComp-description-0-3-338"
                                     classes={
                                       Object {
                                         "big": "TypographyComp-big-0-3-7",
@@ -2455,7 +2455,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                     variant="standard"
                                   >
                                     <span
-                                      className="ContentComp-description-0-3-340 TypographyComp-standard-0-3-5"
+                                      className="ContentComp-description-0-3-338 TypographyComp-standard-0-3-5"
                                     >
                                       Mechanical error on the assembly line, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla varius felis fringilla felis volutpat volutpat. Nunc felis mi, placerat vitae posuere nec, condimentum in lectus.
                                     </span>
@@ -2520,9 +2520,9 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
               <TimelineEventComp
                 classes={
                   Object {
-                    "content": "TimelineEventComp-content-0-3-333",
-                    "root": "TimelineEventComp-root-0-3-331",
-                    "status": "TimelineEventComp-status-0-3-332",
+                    "content": "TimelineEventComp-content-0-3-331",
+                    "root": "TimelineEventComp-root-0-3-329",
+                    "status": "TimelineEventComp-status-0-3-330",
                   }
                 }
                 content={
@@ -2543,11 +2543,11 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                 }
               >
                 <div
-                  className="TimelineEventComp-root-0-3-331"
+                  className="TimelineEventComp-root-0-3-329"
                   id="2-[object Object]"
                 >
                   <div
-                    className="TimelineEventComp-status-0-3-332"
+                    className="TimelineEventComp-status-0-3-330"
                   >
                     <Status
                       arrangement="end"
@@ -2569,20 +2569,20 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                           arrangement="end"
                           classes={
                             Object {
-                              "circle": "StatusComp-circle-0-3-338",
-                              "circleWrapper": "StatusComp-circleWrapper-0-3-337",
-                              "line": "StatusComp-line-0-3-336",
-                              "lineWrapper": "StatusComp-lineWrapper-0-3-335",
-                              "root": "StatusComp-root-0-3-334",
+                              "circle": "StatusComp-circle-0-3-336",
+                              "circleWrapper": "StatusComp-circleWrapper-0-3-335",
+                              "line": "StatusComp-line-0-3-334",
+                              "lineWrapper": "StatusComp-lineWrapper-0-3-333",
+                              "root": "StatusComp-root-0-3-332",
                             }
                           }
                           color="#f57c00"
                         >
                           <div
-                            className="StatusComp-root-0-3-334"
+                            className="StatusComp-root-0-3-332"
                           >
                             <div
-                              className="StatusComp-lineWrapper-0-3-335"
+                              className="StatusComp-lineWrapper-0-3-333"
                               style={
                                 Object {
                                   "height": 8,
@@ -2591,7 +2591,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                               }
                             >
                               <div
-                                className="StatusComp-line-0-3-336"
+                                className="StatusComp-line-0-3-334"
                                 style={
                                   Object {
                                     "backgroundColor": "#f57c00",
@@ -2600,10 +2600,10 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                               />
                             </div>
                             <div
-                              className="StatusComp-circleWrapper-0-3-337"
+                              className="StatusComp-circleWrapper-0-3-335"
                             >
                               <div
-                                className="StatusComp-circle-0-3-338"
+                                className="StatusComp-circle-0-3-336"
                                 style={
                                   Object {
                                     "backgroundColor": "#f57c00",
@@ -2617,7 +2617,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                     </Status>
                   </div>
                   <div
-                    className="TimelineEventComp-content-0-3-333"
+                    className="TimelineEventComp-content-0-3-331"
                   >
                     <Content
                       dateFormatted={
@@ -2648,8 +2648,8 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                         <ContentComp
                           classes={
                             Object {
-                              "description": "ContentComp-description-0-3-340",
-                              "root": "ContentComp-root-0-3-339",
+                              "description": "ContentComp-description-0-3-338",
+                              "root": "ContentComp-root-0-3-337",
                             }
                           }
                           dateFormatted={
@@ -2661,17 +2661,17 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                           title="Assembly errors"
                         >
                           <div
-                            className="ContentComp-root-0-3-339"
+                            className="ContentComp-root-0-3-337"
                           >
                             <div>
                               <Typography
                                 bold={true}
-                                className="ContentComp-description-0-3-340"
+                                className="ContentComp-description-0-3-338"
                                 variant="distance"
                               >
                                 <WithStyles(TypographyComp)
                                   bold={true}
-                                  className="ContentComp-description-0-3-340"
+                                  className="ContentComp-description-0-3-338"
                                   innerRef={null}
                                   jssContext={
                                     Object {
@@ -2684,7 +2684,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                 >
                                   <TypographyComp
                                     bold={true}
-                                    className="ContentComp-description-0-3-340"
+                                    className="ContentComp-description-0-3-338"
                                     classes={
                                       Object {
                                         "big": "TypographyComp-big-0-3-7",
@@ -2706,7 +2706,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                     variant="distance"
                                   >
                                     <span
-                                      className="ContentComp-description-0-3-340 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
+                                      className="ContentComp-description-0-3-338 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
                                     >
                                       Assembly errors
                                     </span>
@@ -2717,12 +2717,12 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                             <div>
                               <Typography
                                 bold={true}
-                                className="ContentComp-description-0-3-340"
+                                className="ContentComp-description-0-3-338"
                                 variant="standard"
                               >
                                 <WithStyles(TypographyComp)
                                   bold={true}
-                                  className="ContentComp-description-0-3-340"
+                                  className="ContentComp-description-0-3-338"
                                   innerRef={null}
                                   jssContext={
                                     Object {
@@ -2735,7 +2735,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                 >
                                   <TypographyComp
                                     bold={true}
-                                    className="ContentComp-description-0-3-340"
+                                    className="ContentComp-description-0-3-338"
                                     classes={
                                       Object {
                                         "big": "TypographyComp-big-0-3-7",
@@ -2757,7 +2757,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                     variant="standard"
                                   >
                                     <span
-                                      className="ContentComp-description-0-3-340 TypographyComp-standard-0-3-5 TypographyComp-bold-0-3-1"
+                                      className="ContentComp-description-0-3-338 TypographyComp-standard-0-3-5 TypographyComp-bold-0-3-1"
                                     >
                                       2/1/2018, 3:26:09 AM
                                     </span>
@@ -2767,11 +2767,11 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                             </div>
                             <div>
                               <Typography
-                                className="ContentComp-description-0-3-340"
+                                className="ContentComp-description-0-3-338"
                                 variant="standard"
                               >
                                 <WithStyles(TypographyComp)
-                                  className="ContentComp-description-0-3-340"
+                                  className="ContentComp-description-0-3-338"
                                   innerRef={null}
                                   jssContext={
                                     Object {
@@ -2783,7 +2783,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                   variant="standard"
                                 >
                                   <TypographyComp
-                                    className="ContentComp-description-0-3-340"
+                                    className="ContentComp-description-0-3-338"
                                     classes={
                                       Object {
                                         "big": "TypographyComp-big-0-3-7",
@@ -2805,7 +2805,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                     variant="standard"
                                   >
                                     <span
-                                      className="ContentComp-description-0-3-340 TypographyComp-standard-0-3-5"
+                                      className="ContentComp-description-0-3-338 TypographyComp-standard-0-3-5"
                                     >
                                       Calibration error on the assembly line.
                                     </span>
@@ -2870,9 +2870,9 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
               <TimelineEventComp
                 classes={
                   Object {
-                    "content": "TimelineEventComp-content-0-3-333",
-                    "root": "TimelineEventComp-root-0-3-331",
-                    "status": "TimelineEventComp-status-0-3-332",
+                    "content": "TimelineEventComp-content-0-3-331",
+                    "root": "TimelineEventComp-root-0-3-329",
+                    "status": "TimelineEventComp-status-0-3-330",
                   }
                 }
                 content={
@@ -2893,11 +2893,11 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                 }
               >
                 <div
-                  className="TimelineEventComp-root-0-3-331"
+                  className="TimelineEventComp-root-0-3-329"
                   id="3-[object Object]"
                 >
                   <div
-                    className="TimelineEventComp-status-0-3-332"
+                    className="TimelineEventComp-status-0-3-330"
                   >
                     <Status
                       arrangement="single"
@@ -2919,20 +2919,20 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                           arrangement="single"
                           classes={
                             Object {
-                              "circle": "StatusComp-circle-0-3-338",
-                              "circleWrapper": "StatusComp-circleWrapper-0-3-337",
-                              "line": "StatusComp-line-0-3-336",
-                              "lineWrapper": "StatusComp-lineWrapper-0-3-335",
-                              "root": "StatusComp-root-0-3-334",
+                              "circle": "StatusComp-circle-0-3-336",
+                              "circleWrapper": "StatusComp-circleWrapper-0-3-335",
+                              "line": "StatusComp-line-0-3-334",
+                              "lineWrapper": "StatusComp-lineWrapper-0-3-333",
+                              "root": "StatusComp-root-0-3-332",
                             }
                           }
                           color="#4caf50"
                         >
                           <div
-                            className="StatusComp-root-0-3-334"
+                            className="StatusComp-root-0-3-332"
                           >
                             <div
-                              className="StatusComp-lineWrapper-0-3-335"
+                              className="StatusComp-lineWrapper-0-3-333"
                               style={
                                 Object {
                                   "height": 0,
@@ -2940,7 +2940,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                               }
                             >
                               <div
-                                className="StatusComp-line-0-3-336"
+                                className="StatusComp-line-0-3-334"
                                 style={
                                   Object {
                                     "backgroundColor": "#4caf50",
@@ -2949,10 +2949,10 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                               />
                             </div>
                             <div
-                              className="StatusComp-circleWrapper-0-3-337"
+                              className="StatusComp-circleWrapper-0-3-335"
                             >
                               <div
-                                className="StatusComp-circle-0-3-338"
+                                className="StatusComp-circle-0-3-336"
                                 style={
                                   Object {
                                     "backgroundColor": "#4caf50",
@@ -2966,7 +2966,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                     </Status>
                   </div>
                   <div
-                    className="TimelineEventComp-content-0-3-333"
+                    className="TimelineEventComp-content-0-3-331"
                   >
                     <Content
                       dateFormatted={
@@ -2995,8 +2995,8 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                         <ContentComp
                           classes={
                             Object {
-                              "description": "ContentComp-description-0-3-340",
-                              "root": "ContentComp-root-0-3-339",
+                              "description": "ContentComp-description-0-3-338",
+                              "root": "ContentComp-root-0-3-337",
                             }
                           }
                           dateFormatted={
@@ -3007,17 +3007,17 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                           title="Resolved"
                         >
                           <div
-                            className="ContentComp-root-0-3-339"
+                            className="ContentComp-root-0-3-337"
                           >
                             <div>
                               <Typography
                                 bold={true}
-                                className="ContentComp-description-0-3-340"
+                                className="ContentComp-description-0-3-338"
                                 variant="distance"
                               >
                                 <WithStyles(TypographyComp)
                                   bold={true}
-                                  className="ContentComp-description-0-3-340"
+                                  className="ContentComp-description-0-3-338"
                                   innerRef={null}
                                   jssContext={
                                     Object {
@@ -3030,7 +3030,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                 >
                                   <TypographyComp
                                     bold={true}
-                                    className="ContentComp-description-0-3-340"
+                                    className="ContentComp-description-0-3-338"
                                     classes={
                                       Object {
                                         "big": "TypographyComp-big-0-3-7",
@@ -3052,7 +3052,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                     variant="distance"
                                   >
                                     <span
-                                      className="ContentComp-description-0-3-340 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
+                                      className="ContentComp-description-0-3-338 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
                                     >
                                       Resolved
                                     </span>
@@ -3063,12 +3063,12 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                             <div>
                               <Typography
                                 bold={true}
-                                className="ContentComp-description-0-3-340"
+                                className="ContentComp-description-0-3-338"
                                 variant="standard"
                               >
                                 <WithStyles(TypographyComp)
                                   bold={true}
-                                  className="ContentComp-description-0-3-340"
+                                  className="ContentComp-description-0-3-338"
                                   innerRef={null}
                                   jssContext={
                                     Object {
@@ -3081,7 +3081,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                 >
                                   <TypographyComp
                                     bold={true}
-                                    className="ContentComp-description-0-3-340"
+                                    className="ContentComp-description-0-3-338"
                                     classes={
                                       Object {
                                         "big": "TypographyComp-big-0-3-7",
@@ -3103,7 +3103,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                     variant="standard"
                                   >
                                     <span
-                                      className="ContentComp-description-0-3-340 TypographyComp-standard-0-3-5 TypographyComp-bold-0-3-1"
+                                      className="ContentComp-description-0-3-338 TypographyComp-standard-0-3-5 TypographyComp-bold-0-3-1"
                                     >
                                       2/1/2018, 4:26:09 AM
                                     </span>
@@ -3169,9 +3169,9 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
               <TimelineEventComp
                 classes={
                   Object {
-                    "content": "TimelineEventComp-content-0-3-333",
-                    "root": "TimelineEventComp-root-0-3-331",
-                    "status": "TimelineEventComp-status-0-3-332",
+                    "content": "TimelineEventComp-content-0-3-331",
+                    "root": "TimelineEventComp-root-0-3-329",
+                    "status": "TimelineEventComp-status-0-3-330",
                   }
                 }
                 content={
@@ -3192,11 +3192,11 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                 }
               >
                 <div
-                  className="TimelineEventComp-root-0-3-331"
+                  className="TimelineEventComp-root-0-3-329"
                   id="4-[object Object]"
                 >
                   <div
-                    className="TimelineEventComp-status-0-3-332"
+                    className="TimelineEventComp-status-0-3-330"
                   >
                     <Status
                       arrangement="start"
@@ -3218,20 +3218,20 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                           arrangement="start"
                           classes={
                             Object {
-                              "circle": "StatusComp-circle-0-3-338",
-                              "circleWrapper": "StatusComp-circleWrapper-0-3-337",
-                              "line": "StatusComp-line-0-3-336",
-                              "lineWrapper": "StatusComp-lineWrapper-0-3-335",
-                              "root": "StatusComp-root-0-3-334",
+                              "circle": "StatusComp-circle-0-3-336",
+                              "circleWrapper": "StatusComp-circleWrapper-0-3-335",
+                              "line": "StatusComp-line-0-3-334",
+                              "lineWrapper": "StatusComp-lineWrapper-0-3-333",
+                              "root": "StatusComp-root-0-3-332",
                             }
                           }
                           color="#f57c00"
                         >
                           <div
-                            className="StatusComp-root-0-3-334"
+                            className="StatusComp-root-0-3-332"
                           >
                             <div
-                              className="StatusComp-lineWrapper-0-3-335"
+                              className="StatusComp-lineWrapper-0-3-333"
                               style={
                                 Object {
                                   "paddingTop": 8,
@@ -3239,7 +3239,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                               }
                             >
                               <div
-                                className="StatusComp-line-0-3-336"
+                                className="StatusComp-line-0-3-334"
                                 style={
                                   Object {
                                     "backgroundColor": "#f57c00",
@@ -3248,10 +3248,10 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                               />
                             </div>
                             <div
-                              className="StatusComp-circleWrapper-0-3-337"
+                              className="StatusComp-circleWrapper-0-3-335"
                             >
                               <div
-                                className="StatusComp-circle-0-3-338"
+                                className="StatusComp-circle-0-3-336"
                                 style={
                                   Object {
                                     "backgroundColor": "#f57c00",
@@ -3265,7 +3265,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                     </Status>
                   </div>
                   <div
-                    className="TimelineEventComp-content-0-3-333"
+                    className="TimelineEventComp-content-0-3-331"
                   >
                     <Content
                       dateFormatted={
@@ -3296,8 +3296,8 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                         <ContentComp
                           classes={
                             Object {
-                              "description": "ContentComp-description-0-3-340",
-                              "root": "ContentComp-root-0-3-339",
+                              "description": "ContentComp-description-0-3-338",
+                              "root": "ContentComp-root-0-3-337",
                             }
                           }
                           dateFormatted={
@@ -3309,17 +3309,17 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                           title="Improper or inadequate maintenance"
                         >
                           <div
-                            className="ContentComp-root-0-3-339"
+                            className="ContentComp-root-0-3-337"
                           >
                             <div>
                               <Typography
                                 bold={true}
-                                className="ContentComp-description-0-3-340"
+                                className="ContentComp-description-0-3-338"
                                 variant="distance"
                               >
                                 <WithStyles(TypographyComp)
                                   bold={true}
-                                  className="ContentComp-description-0-3-340"
+                                  className="ContentComp-description-0-3-338"
                                   innerRef={null}
                                   jssContext={
                                     Object {
@@ -3332,7 +3332,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                 >
                                   <TypographyComp
                                     bold={true}
-                                    className="ContentComp-description-0-3-340"
+                                    className="ContentComp-description-0-3-338"
                                     classes={
                                       Object {
                                         "big": "TypographyComp-big-0-3-7",
@@ -3354,7 +3354,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                     variant="distance"
                                   >
                                     <span
-                                      className="ContentComp-description-0-3-340 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
+                                      className="ContentComp-description-0-3-338 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
                                     >
                                       Improper or inadequate maintenance
                                     </span>
@@ -3365,12 +3365,12 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                             <div>
                               <Typography
                                 bold={true}
-                                className="ContentComp-description-0-3-340"
+                                className="ContentComp-description-0-3-338"
                                 variant="standard"
                               >
                                 <WithStyles(TypographyComp)
                                   bold={true}
-                                  className="ContentComp-description-0-3-340"
+                                  className="ContentComp-description-0-3-338"
                                   innerRef={null}
                                   jssContext={
                                     Object {
@@ -3383,7 +3383,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                 >
                                   <TypographyComp
                                     bold={true}
-                                    className="ContentComp-description-0-3-340"
+                                    className="ContentComp-description-0-3-338"
                                     classes={
                                       Object {
                                         "big": "TypographyComp-big-0-3-7",
@@ -3405,7 +3405,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                     variant="standard"
                                   >
                                     <span
-                                      className="ContentComp-description-0-3-340 TypographyComp-standard-0-3-5 TypographyComp-bold-0-3-1"
+                                      className="ContentComp-description-0-3-338 TypographyComp-standard-0-3-5 TypographyComp-bold-0-3-1"
                                     >
                                       2/1/2018, 5:26:09 AM
                                     </span>
@@ -3415,11 +3415,11 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                             </div>
                             <div>
                               <Typography
-                                className="ContentComp-description-0-3-340"
+                                className="ContentComp-description-0-3-338"
                                 variant="standard"
                               >
                                 <WithStyles(TypographyComp)
-                                  className="ContentComp-description-0-3-340"
+                                  className="ContentComp-description-0-3-338"
                                   innerRef={null}
                                   jssContext={
                                     Object {
@@ -3431,7 +3431,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                   variant="standard"
                                 >
                                   <TypographyComp
-                                    className="ContentComp-description-0-3-340"
+                                    className="ContentComp-description-0-3-338"
                                     classes={
                                       Object {
                                         "big": "TypographyComp-big-0-3-7",
@@ -3453,7 +3453,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                     variant="standard"
                                   >
                                     <span
-                                      className="ContentComp-description-0-3-340 TypographyComp-standard-0-3-5"
+                                      className="ContentComp-description-0-3-338 TypographyComp-standard-0-3-5"
                                     >
                                       Error in machine maintenance, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla varius felis fringilla felis volutpat volutpat. Nunc felis mi, placerat vitae posuere nec, condimentum in lectus.
                                     </span>
@@ -3518,9 +3518,9 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
               <TimelineEventComp
                 classes={
                   Object {
-                    "content": "TimelineEventComp-content-0-3-333",
-                    "root": "TimelineEventComp-root-0-3-331",
-                    "status": "TimelineEventComp-status-0-3-332",
+                    "content": "TimelineEventComp-content-0-3-331",
+                    "root": "TimelineEventComp-root-0-3-329",
+                    "status": "TimelineEventComp-status-0-3-330",
                   }
                 }
                 content={
@@ -3541,11 +3541,11 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                 }
               >
                 <div
-                  className="TimelineEventComp-root-0-3-331"
+                  className="TimelineEventComp-root-0-3-329"
                   id="5-[object Object]"
                 >
                   <div
-                    className="TimelineEventComp-status-0-3-332"
+                    className="TimelineEventComp-status-0-3-330"
                   >
                     <Status
                       arrangement="end"
@@ -3567,20 +3567,20 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                           arrangement="end"
                           classes={
                             Object {
-                              "circle": "StatusComp-circle-0-3-338",
-                              "circleWrapper": "StatusComp-circleWrapper-0-3-337",
-                              "line": "StatusComp-line-0-3-336",
-                              "lineWrapper": "StatusComp-lineWrapper-0-3-335",
-                              "root": "StatusComp-root-0-3-334",
+                              "circle": "StatusComp-circle-0-3-336",
+                              "circleWrapper": "StatusComp-circleWrapper-0-3-335",
+                              "line": "StatusComp-line-0-3-334",
+                              "lineWrapper": "StatusComp-lineWrapper-0-3-333",
+                              "root": "StatusComp-root-0-3-332",
                             }
                           }
                           color="#f57c00"
                         >
                           <div
-                            className="StatusComp-root-0-3-334"
+                            className="StatusComp-root-0-3-332"
                           >
                             <div
-                              className="StatusComp-lineWrapper-0-3-335"
+                              className="StatusComp-lineWrapper-0-3-333"
                               style={
                                 Object {
                                   "height": 8,
@@ -3589,7 +3589,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                               }
                             >
                               <div
-                                className="StatusComp-line-0-3-336"
+                                className="StatusComp-line-0-3-334"
                                 style={
                                   Object {
                                     "backgroundColor": "#f57c00",
@@ -3598,10 +3598,10 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                               />
                             </div>
                             <div
-                              className="StatusComp-circleWrapper-0-3-337"
+                              className="StatusComp-circleWrapper-0-3-335"
                             >
                               <div
-                                className="StatusComp-circle-0-3-338"
+                                className="StatusComp-circle-0-3-336"
                                 style={
                                   Object {
                                     "backgroundColor": "#f57c00",
@@ -3615,7 +3615,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                     </Status>
                   </div>
                   <div
-                    className="TimelineEventComp-content-0-3-333"
+                    className="TimelineEventComp-content-0-3-331"
                   >
                     <Content
                       dateFormatted={
@@ -3646,8 +3646,8 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                         <ContentComp
                           classes={
                             Object {
-                              "description": "ContentComp-description-0-3-340",
-                              "root": "ContentComp-root-0-3-339",
+                              "description": "ContentComp-description-0-3-338",
+                              "root": "ContentComp-root-0-3-337",
                             }
                           }
                           dateFormatted={
@@ -3659,17 +3659,17 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                           title="Assembly errors"
                         >
                           <div
-                            className="ContentComp-root-0-3-339"
+                            className="ContentComp-root-0-3-337"
                           >
                             <div>
                               <Typography
                                 bold={true}
-                                className="ContentComp-description-0-3-340"
+                                className="ContentComp-description-0-3-338"
                                 variant="distance"
                               >
                                 <WithStyles(TypographyComp)
                                   bold={true}
-                                  className="ContentComp-description-0-3-340"
+                                  className="ContentComp-description-0-3-338"
                                   innerRef={null}
                                   jssContext={
                                     Object {
@@ -3682,7 +3682,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                 >
                                   <TypographyComp
                                     bold={true}
-                                    className="ContentComp-description-0-3-340"
+                                    className="ContentComp-description-0-3-338"
                                     classes={
                                       Object {
                                         "big": "TypographyComp-big-0-3-7",
@@ -3704,7 +3704,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                     variant="distance"
                                   >
                                     <span
-                                      className="ContentComp-description-0-3-340 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
+                                      className="ContentComp-description-0-3-338 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
                                     >
                                       Assembly errors
                                     </span>
@@ -3715,12 +3715,12 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                             <div>
                               <Typography
                                 bold={true}
-                                className="ContentComp-description-0-3-340"
+                                className="ContentComp-description-0-3-338"
                                 variant="standard"
                               >
                                 <WithStyles(TypographyComp)
                                   bold={true}
-                                  className="ContentComp-description-0-3-340"
+                                  className="ContentComp-description-0-3-338"
                                   innerRef={null}
                                   jssContext={
                                     Object {
@@ -3733,7 +3733,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                 >
                                   <TypographyComp
                                     bold={true}
-                                    className="ContentComp-description-0-3-340"
+                                    className="ContentComp-description-0-3-338"
                                     classes={
                                       Object {
                                         "big": "TypographyComp-big-0-3-7",
@@ -3755,7 +3755,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                     variant="standard"
                                   >
                                     <span
-                                      className="ContentComp-description-0-3-340 TypographyComp-standard-0-3-5 TypographyComp-bold-0-3-1"
+                                      className="ContentComp-description-0-3-338 TypographyComp-standard-0-3-5 TypographyComp-bold-0-3-1"
                                     >
                                       2/1/2018, 6:26:09 AM
                                     </span>
@@ -3765,11 +3765,11 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                             </div>
                             <div>
                               <Typography
-                                className="ContentComp-description-0-3-340"
+                                className="ContentComp-description-0-3-338"
                                 variant="standard"
                               >
                                 <WithStyles(TypographyComp)
-                                  className="ContentComp-description-0-3-340"
+                                  className="ContentComp-description-0-3-338"
                                   innerRef={null}
                                   jssContext={
                                     Object {
@@ -3781,7 +3781,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                   variant="standard"
                                 >
                                   <TypographyComp
-                                    className="ContentComp-description-0-3-340"
+                                    className="ContentComp-description-0-3-338"
                                     classes={
                                       Object {
                                         "big": "TypographyComp-big-0-3-7",
@@ -3803,7 +3803,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                     variant="standard"
                                   >
                                     <span
-                                      className="ContentComp-description-0-3-340 TypographyComp-standard-0-3-5"
+                                      className="ContentComp-description-0-3-338 TypographyComp-standard-0-3-5"
                                     >
                                       Calibration error on the assembly line.
                                     </span>
@@ -3868,9 +3868,9 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
               <TimelineEventComp
                 classes={
                   Object {
-                    "content": "TimelineEventComp-content-0-3-333",
-                    "root": "TimelineEventComp-root-0-3-331",
-                    "status": "TimelineEventComp-status-0-3-332",
+                    "content": "TimelineEventComp-content-0-3-331",
+                    "root": "TimelineEventComp-root-0-3-329",
+                    "status": "TimelineEventComp-status-0-3-330",
                   }
                 }
                 content={
@@ -3891,11 +3891,11 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                 }
               >
                 <div
-                  className="TimelineEventComp-root-0-3-331"
+                  className="TimelineEventComp-root-0-3-329"
                   id="6-[object Object]"
                 >
                   <div
-                    className="TimelineEventComp-status-0-3-332"
+                    className="TimelineEventComp-status-0-3-330"
                   >
                     <Status
                       arrangement="single"
@@ -3917,20 +3917,20 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                           arrangement="single"
                           classes={
                             Object {
-                              "circle": "StatusComp-circle-0-3-338",
-                              "circleWrapper": "StatusComp-circleWrapper-0-3-337",
-                              "line": "StatusComp-line-0-3-336",
-                              "lineWrapper": "StatusComp-lineWrapper-0-3-335",
-                              "root": "StatusComp-root-0-3-334",
+                              "circle": "StatusComp-circle-0-3-336",
+                              "circleWrapper": "StatusComp-circleWrapper-0-3-335",
+                              "line": "StatusComp-line-0-3-334",
+                              "lineWrapper": "StatusComp-lineWrapper-0-3-333",
+                              "root": "StatusComp-root-0-3-332",
                             }
                           }
                           color="#4caf50"
                         >
                           <div
-                            className="StatusComp-root-0-3-334"
+                            className="StatusComp-root-0-3-332"
                           >
                             <div
-                              className="StatusComp-lineWrapper-0-3-335"
+                              className="StatusComp-lineWrapper-0-3-333"
                               style={
                                 Object {
                                   "height": 0,
@@ -3938,7 +3938,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                               }
                             >
                               <div
-                                className="StatusComp-line-0-3-336"
+                                className="StatusComp-line-0-3-334"
                                 style={
                                   Object {
                                     "backgroundColor": "#4caf50",
@@ -3947,10 +3947,10 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                               />
                             </div>
                             <div
-                              className="StatusComp-circleWrapper-0-3-337"
+                              className="StatusComp-circleWrapper-0-3-335"
                             >
                               <div
-                                className="StatusComp-circle-0-3-338"
+                                className="StatusComp-circle-0-3-336"
                                 style={
                                   Object {
                                     "backgroundColor": "#4caf50",
@@ -3964,7 +3964,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                     </Status>
                   </div>
                   <div
-                    className="TimelineEventComp-content-0-3-333"
+                    className="TimelineEventComp-content-0-3-331"
                   >
                     <Content
                       dateFormatted={
@@ -3993,8 +3993,8 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                         <ContentComp
                           classes={
                             Object {
-                              "description": "ContentComp-description-0-3-340",
-                              "root": "ContentComp-root-0-3-339",
+                              "description": "ContentComp-description-0-3-338",
+                              "root": "ContentComp-root-0-3-337",
                             }
                           }
                           dateFormatted={
@@ -4005,17 +4005,17 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                           title="Resolved"
                         >
                           <div
-                            className="ContentComp-root-0-3-339"
+                            className="ContentComp-root-0-3-337"
                           >
                             <div>
                               <Typography
                                 bold={true}
-                                className="ContentComp-description-0-3-340"
+                                className="ContentComp-description-0-3-338"
                                 variant="distance"
                               >
                                 <WithStyles(TypographyComp)
                                   bold={true}
-                                  className="ContentComp-description-0-3-340"
+                                  className="ContentComp-description-0-3-338"
                                   innerRef={null}
                                   jssContext={
                                     Object {
@@ -4028,7 +4028,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                 >
                                   <TypographyComp
                                     bold={true}
-                                    className="ContentComp-description-0-3-340"
+                                    className="ContentComp-description-0-3-338"
                                     classes={
                                       Object {
                                         "big": "TypographyComp-big-0-3-7",
@@ -4050,7 +4050,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                     variant="distance"
                                   >
                                     <span
-                                      className="ContentComp-description-0-3-340 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
+                                      className="ContentComp-description-0-3-338 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
                                     >
                                       Resolved
                                     </span>
@@ -4061,12 +4061,12 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                             <div>
                               <Typography
                                 bold={true}
-                                className="ContentComp-description-0-3-340"
+                                className="ContentComp-description-0-3-338"
                                 variant="standard"
                               >
                                 <WithStyles(TypographyComp)
                                   bold={true}
-                                  className="ContentComp-description-0-3-340"
+                                  className="ContentComp-description-0-3-338"
                                   innerRef={null}
                                   jssContext={
                                     Object {
@@ -4079,7 +4079,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                 >
                                   <TypographyComp
                                     bold={true}
-                                    className="ContentComp-description-0-3-340"
+                                    className="ContentComp-description-0-3-338"
                                     classes={
                                       Object {
                                         "big": "TypographyComp-big-0-3-7",
@@ -4101,7 +4101,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                     variant="standard"
                                   >
                                     <span
-                                      className="ContentComp-description-0-3-340 TypographyComp-standard-0-3-5 TypographyComp-bold-0-3-1"
+                                      className="ContentComp-description-0-3-338 TypographyComp-standard-0-3-5 TypographyComp-bold-0-3-1"
                                     >
                                       2/1/2018, 7:26:09 AM
                                     </span>
@@ -4167,9 +4167,9 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
               <TimelineEventComp
                 classes={
                   Object {
-                    "content": "TimelineEventComp-content-0-3-333",
-                    "root": "TimelineEventComp-root-0-3-331",
-                    "status": "TimelineEventComp-status-0-3-332",
+                    "content": "TimelineEventComp-content-0-3-331",
+                    "root": "TimelineEventComp-root-0-3-329",
+                    "status": "TimelineEventComp-status-0-3-330",
                   }
                 }
                 content={
@@ -4190,11 +4190,11 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                 }
               >
                 <div
-                  className="TimelineEventComp-root-0-3-331"
+                  className="TimelineEventComp-root-0-3-329"
                   id="7-[object Object]"
                 >
                   <div
-                    className="TimelineEventComp-status-0-3-332"
+                    className="TimelineEventComp-status-0-3-330"
                   >
                     <Status
                       arrangement="single"
@@ -4216,20 +4216,20 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                           arrangement="single"
                           classes={
                             Object {
-                              "circle": "StatusComp-circle-0-3-338",
-                              "circleWrapper": "StatusComp-circleWrapper-0-3-337",
-                              "line": "StatusComp-line-0-3-336",
-                              "lineWrapper": "StatusComp-lineWrapper-0-3-335",
-                              "root": "StatusComp-root-0-3-334",
+                              "circle": "StatusComp-circle-0-3-336",
+                              "circleWrapper": "StatusComp-circleWrapper-0-3-335",
+                              "line": "StatusComp-line-0-3-334",
+                              "lineWrapper": "StatusComp-lineWrapper-0-3-333",
+                              "root": "StatusComp-root-0-3-332",
                             }
                           }
                           color="#f57c00"
                         >
                           <div
-                            className="StatusComp-root-0-3-334"
+                            className="StatusComp-root-0-3-332"
                           >
                             <div
-                              className="StatusComp-lineWrapper-0-3-335"
+                              className="StatusComp-lineWrapper-0-3-333"
                               style={
                                 Object {
                                   "height": 0,
@@ -4237,7 +4237,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                               }
                             >
                               <div
-                                className="StatusComp-line-0-3-336"
+                                className="StatusComp-line-0-3-334"
                                 style={
                                   Object {
                                     "backgroundColor": "#f57c00",
@@ -4246,10 +4246,10 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                               />
                             </div>
                             <div
-                              className="StatusComp-circleWrapper-0-3-337"
+                              className="StatusComp-circleWrapper-0-3-335"
                             >
                               <div
-                                className="StatusComp-circle-0-3-338"
+                                className="StatusComp-circle-0-3-336"
                                 style={
                                   Object {
                                     "backgroundColor": "#f57c00",
@@ -4263,7 +4263,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                     </Status>
                   </div>
                   <div
-                    className="TimelineEventComp-content-0-3-333"
+                    className="TimelineEventComp-content-0-3-331"
                   >
                     <Content
                       dateFormatted={
@@ -4292,8 +4292,8 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                         <ContentComp
                           classes={
                             Object {
-                              "description": "ContentComp-description-0-3-340",
-                              "root": "ContentComp-root-0-3-339",
+                              "description": "ContentComp-description-0-3-338",
+                              "root": "ContentComp-root-0-3-337",
                             }
                           }
                           dateFormatted={
@@ -4304,17 +4304,17 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                           title="Assembly errors"
                         >
                           <div
-                            className="ContentComp-root-0-3-339"
+                            className="ContentComp-root-0-3-337"
                           >
                             <div>
                               <Typography
                                 bold={true}
-                                className="ContentComp-description-0-3-340"
+                                className="ContentComp-description-0-3-338"
                                 variant="distance"
                               >
                                 <WithStyles(TypographyComp)
                                   bold={true}
-                                  className="ContentComp-description-0-3-340"
+                                  className="ContentComp-description-0-3-338"
                                   innerRef={null}
                                   jssContext={
                                     Object {
@@ -4327,7 +4327,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                 >
                                   <TypographyComp
                                     bold={true}
-                                    className="ContentComp-description-0-3-340"
+                                    className="ContentComp-description-0-3-338"
                                     classes={
                                       Object {
                                         "big": "TypographyComp-big-0-3-7",
@@ -4349,7 +4349,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                     variant="distance"
                                   >
                                     <span
-                                      className="ContentComp-description-0-3-340 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
+                                      className="ContentComp-description-0-3-338 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
                                     >
                                       Assembly errors
                                     </span>
@@ -4360,12 +4360,12 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                             <div>
                               <Typography
                                 bold={true}
-                                className="ContentComp-description-0-3-340"
+                                className="ContentComp-description-0-3-338"
                                 variant="standard"
                               >
                                 <WithStyles(TypographyComp)
                                   bold={true}
-                                  className="ContentComp-description-0-3-340"
+                                  className="ContentComp-description-0-3-338"
                                   innerRef={null}
                                   jssContext={
                                     Object {
@@ -4378,7 +4378,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                 >
                                   <TypographyComp
                                     bold={true}
-                                    className="ContentComp-description-0-3-340"
+                                    className="ContentComp-description-0-3-338"
                                     classes={
                                       Object {
                                         "big": "TypographyComp-big-0-3-7",
@@ -4400,7 +4400,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                     variant="standard"
                                   >
                                     <span
-                                      className="ContentComp-description-0-3-340 TypographyComp-standard-0-3-5 TypographyComp-bold-0-3-1"
+                                      className="ContentComp-description-0-3-338 TypographyComp-standard-0-3-5 TypographyComp-bold-0-3-1"
                                     >
                                       2/1/2018, 8:26:09 AM
                                     </span>
@@ -4466,9 +4466,9 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
               <TimelineEventComp
                 classes={
                   Object {
-                    "content": "TimelineEventComp-content-0-3-333",
-                    "root": "TimelineEventComp-root-0-3-331",
-                    "status": "TimelineEventComp-status-0-3-332",
+                    "content": "TimelineEventComp-content-0-3-331",
+                    "root": "TimelineEventComp-root-0-3-329",
+                    "status": "TimelineEventComp-status-0-3-330",
                   }
                 }
                 content={
@@ -4489,11 +4489,11 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                 }
               >
                 <div
-                  className="TimelineEventComp-root-0-3-331"
+                  className="TimelineEventComp-root-0-3-329"
                   id="8-[object Object]"
                 >
                   <div
-                    className="TimelineEventComp-status-0-3-332"
+                    className="TimelineEventComp-status-0-3-330"
                   >
                     <Status
                       arrangement="single"
@@ -4515,20 +4515,20 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                           arrangement="single"
                           classes={
                             Object {
-                              "circle": "StatusComp-circle-0-3-338",
-                              "circleWrapper": "StatusComp-circleWrapper-0-3-337",
-                              "line": "StatusComp-line-0-3-336",
-                              "lineWrapper": "StatusComp-lineWrapper-0-3-335",
-                              "root": "StatusComp-root-0-3-334",
+                              "circle": "StatusComp-circle-0-3-336",
+                              "circleWrapper": "StatusComp-circleWrapper-0-3-335",
+                              "line": "StatusComp-line-0-3-334",
+                              "lineWrapper": "StatusComp-lineWrapper-0-3-333",
+                              "root": "StatusComp-root-0-3-332",
                             }
                           }
                           color="#4caf50"
                         >
                           <div
-                            className="StatusComp-root-0-3-334"
+                            className="StatusComp-root-0-3-332"
                           >
                             <div
-                              className="StatusComp-lineWrapper-0-3-335"
+                              className="StatusComp-lineWrapper-0-3-333"
                               style={
                                 Object {
                                   "height": 0,
@@ -4536,7 +4536,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                               }
                             >
                               <div
-                                className="StatusComp-line-0-3-336"
+                                className="StatusComp-line-0-3-334"
                                 style={
                                   Object {
                                     "backgroundColor": "#4caf50",
@@ -4545,10 +4545,10 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                               />
                             </div>
                             <div
-                              className="StatusComp-circleWrapper-0-3-337"
+                              className="StatusComp-circleWrapper-0-3-335"
                             >
                               <div
-                                className="StatusComp-circle-0-3-338"
+                                className="StatusComp-circle-0-3-336"
                                 style={
                                   Object {
                                     "backgroundColor": "#4caf50",
@@ -4562,7 +4562,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                     </Status>
                   </div>
                   <div
-                    className="TimelineEventComp-content-0-3-333"
+                    className="TimelineEventComp-content-0-3-331"
                   >
                     <Content
                       dateFormatted={
@@ -4591,8 +4591,8 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                         <ContentComp
                           classes={
                             Object {
-                              "description": "ContentComp-description-0-3-340",
-                              "root": "ContentComp-root-0-3-339",
+                              "description": "ContentComp-description-0-3-338",
+                              "root": "ContentComp-root-0-3-337",
                             }
                           }
                           dateFormatted={
@@ -4603,17 +4603,17 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                           title="Resolved"
                         >
                           <div
-                            className="ContentComp-root-0-3-339"
+                            className="ContentComp-root-0-3-337"
                           >
                             <div>
                               <Typography
                                 bold={true}
-                                className="ContentComp-description-0-3-340"
+                                className="ContentComp-description-0-3-338"
                                 variant="distance"
                               >
                                 <WithStyles(TypographyComp)
                                   bold={true}
-                                  className="ContentComp-description-0-3-340"
+                                  className="ContentComp-description-0-3-338"
                                   innerRef={null}
                                   jssContext={
                                     Object {
@@ -4626,7 +4626,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                 >
                                   <TypographyComp
                                     bold={true}
-                                    className="ContentComp-description-0-3-340"
+                                    className="ContentComp-description-0-3-338"
                                     classes={
                                       Object {
                                         "big": "TypographyComp-big-0-3-7",
@@ -4648,7 +4648,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                     variant="distance"
                                   >
                                     <span
-                                      className="ContentComp-description-0-3-340 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
+                                      className="ContentComp-description-0-3-338 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
                                     >
                                       Resolved
                                     </span>
@@ -4659,12 +4659,12 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                             <div>
                               <Typography
                                 bold={true}
-                                className="ContentComp-description-0-3-340"
+                                className="ContentComp-description-0-3-338"
                                 variant="standard"
                               >
                                 <WithStyles(TypographyComp)
                                   bold={true}
-                                  className="ContentComp-description-0-3-340"
+                                  className="ContentComp-description-0-3-338"
                                   innerRef={null}
                                   jssContext={
                                     Object {
@@ -4677,7 +4677,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                 >
                                   <TypographyComp
                                     bold={true}
-                                    className="ContentComp-description-0-3-340"
+                                    className="ContentComp-description-0-3-338"
                                     classes={
                                       Object {
                                         "big": "TypographyComp-big-0-3-7",
@@ -4699,7 +4699,7 @@ exports[`Storyshots Components/Timeline Intervals 1`] = `
                                     variant="standard"
                                   >
                                     <span
-                                      className="ContentComp-description-0-3-340 TypographyComp-standard-0-3-5 TypographyComp-bold-0-3-1"
+                                      className="ContentComp-description-0-3-338 TypographyComp-standard-0-3-5 TypographyComp-bold-0-3-1"
                                     >
                                       2/1/2018, 9:26:09 AM
                                     </span>
@@ -4752,8 +4752,8 @@ exports[`Storyshots Components/Timeline Part content base 1`] = `
     <ContentComp
       classes={
         Object {
-          "description": "ContentComp-description-0-3-340",
-          "root": "ContentComp-root-0-3-339",
+          "description": "ContentComp-description-0-3-338",
+          "root": "ContentComp-root-0-3-337",
         }
       }
       dateFormatted={
@@ -4764,17 +4764,17 @@ exports[`Storyshots Components/Timeline Part content base 1`] = `
       title="Misalignment"
     >
       <div
-        className="ContentComp-root-0-3-339"
+        className="ContentComp-root-0-3-337"
       >
         <div>
           <Typography
             bold={true}
-            className="ContentComp-description-0-3-340"
+            className="ContentComp-description-0-3-338"
             variant="distance"
           >
             <WithStyles(TypographyComp)
               bold={true}
-              className="ContentComp-description-0-3-340"
+              className="ContentComp-description-0-3-338"
               innerRef={null}
               jssContext={
                 Object {
@@ -4787,7 +4787,7 @@ exports[`Storyshots Components/Timeline Part content base 1`] = `
             >
               <TypographyComp
                 bold={true}
-                className="ContentComp-description-0-3-340"
+                className="ContentComp-description-0-3-338"
                 classes={
                   Object {
                     "big": "TypographyComp-big-0-3-7",
@@ -4809,7 +4809,7 @@ exports[`Storyshots Components/Timeline Part content base 1`] = `
                 variant="distance"
               >
                 <span
-                  className="ContentComp-description-0-3-340 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
+                  className="ContentComp-description-0-3-338 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
                 >
                   Misalignment
                 </span>
@@ -4820,12 +4820,12 @@ exports[`Storyshots Components/Timeline Part content base 1`] = `
         <div>
           <Typography
             bold={true}
-            className="ContentComp-description-0-3-340"
+            className="ContentComp-description-0-3-338"
             variant="standard"
           >
             <WithStyles(TypographyComp)
               bold={true}
-              className="ContentComp-description-0-3-340"
+              className="ContentComp-description-0-3-338"
               innerRef={null}
               jssContext={
                 Object {
@@ -4838,7 +4838,7 @@ exports[`Storyshots Components/Timeline Part content base 1`] = `
             >
               <TypographyComp
                 bold={true}
-                className="ContentComp-description-0-3-340"
+                className="ContentComp-description-0-3-338"
                 classes={
                   Object {
                     "big": "TypographyComp-big-0-3-7",
@@ -4860,7 +4860,7 @@ exports[`Storyshots Components/Timeline Part content base 1`] = `
                 variant="standard"
               >
                 <span
-                  className="ContentComp-description-0-3-340 TypographyComp-standard-0-3-5 TypographyComp-bold-0-3-1"
+                  className="ContentComp-description-0-3-338 TypographyComp-standard-0-3-5 TypographyComp-bold-0-3-1"
                 >
                   2/21/2018, 2:33:16 PM
                 </span>
@@ -4905,8 +4905,8 @@ exports[`Storyshots Components/Timeline Part content description 1`] = `
     <ContentComp
       classes={
         Object {
-          "description": "ContentComp-description-0-3-340",
-          "root": "ContentComp-root-0-3-339",
+          "description": "ContentComp-description-0-3-338",
+          "root": "ContentComp-root-0-3-337",
         }
       }
       dateFormatted={
@@ -4918,17 +4918,17 @@ exports[`Storyshots Components/Timeline Part content description 1`] = `
       title="Misalignment"
     >
       <div
-        className="ContentComp-root-0-3-339"
+        className="ContentComp-root-0-3-337"
       >
         <div>
           <Typography
             bold={true}
-            className="ContentComp-description-0-3-340"
+            className="ContentComp-description-0-3-338"
             variant="distance"
           >
             <WithStyles(TypographyComp)
               bold={true}
-              className="ContentComp-description-0-3-340"
+              className="ContentComp-description-0-3-338"
               innerRef={null}
               jssContext={
                 Object {
@@ -4941,7 +4941,7 @@ exports[`Storyshots Components/Timeline Part content description 1`] = `
             >
               <TypographyComp
                 bold={true}
-                className="ContentComp-description-0-3-340"
+                className="ContentComp-description-0-3-338"
                 classes={
                   Object {
                     "big": "TypographyComp-big-0-3-7",
@@ -4963,7 +4963,7 @@ exports[`Storyshots Components/Timeline Part content description 1`] = `
                 variant="distance"
               >
                 <span
-                  className="ContentComp-description-0-3-340 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
+                  className="ContentComp-description-0-3-338 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
                 >
                   Misalignment
                 </span>
@@ -4974,12 +4974,12 @@ exports[`Storyshots Components/Timeline Part content description 1`] = `
         <div>
           <Typography
             bold={true}
-            className="ContentComp-description-0-3-340"
+            className="ContentComp-description-0-3-338"
             variant="standard"
           >
             <WithStyles(TypographyComp)
               bold={true}
-              className="ContentComp-description-0-3-340"
+              className="ContentComp-description-0-3-338"
               innerRef={null}
               jssContext={
                 Object {
@@ -4992,7 +4992,7 @@ exports[`Storyshots Components/Timeline Part content description 1`] = `
             >
               <TypographyComp
                 bold={true}
-                className="ContentComp-description-0-3-340"
+                className="ContentComp-description-0-3-338"
                 classes={
                   Object {
                     "big": "TypographyComp-big-0-3-7",
@@ -5014,7 +5014,7 @@ exports[`Storyshots Components/Timeline Part content description 1`] = `
                 variant="standard"
               >
                 <span
-                  className="ContentComp-description-0-3-340 TypographyComp-standard-0-3-5 TypographyComp-bold-0-3-1"
+                  className="ContentComp-description-0-3-338 TypographyComp-standard-0-3-5 TypographyComp-bold-0-3-1"
                 >
                   2/21/2018, 2:33:16 PM
                 </span>
@@ -5024,11 +5024,11 @@ exports[`Storyshots Components/Timeline Part content description 1`] = `
         </div>
         <div>
           <Typography
-            className="ContentComp-description-0-3-340"
+            className="ContentComp-description-0-3-338"
             variant="standard"
           >
             <WithStyles(TypographyComp)
-              className="ContentComp-description-0-3-340"
+              className="ContentComp-description-0-3-338"
               innerRef={null}
               jssContext={
                 Object {
@@ -5040,7 +5040,7 @@ exports[`Storyshots Components/Timeline Part content description 1`] = `
               variant="standard"
             >
               <TypographyComp
-                className="ContentComp-description-0-3-340"
+                className="ContentComp-description-0-3-338"
                 classes={
                   Object {
                     "big": "TypographyComp-big-0-3-7",
@@ -5062,7 +5062,7 @@ exports[`Storyshots Components/Timeline Part content description 1`] = `
                 variant="standard"
               >
                 <span
-                  className="ContentComp-description-0-3-340 TypographyComp-standard-0-3-5"
+                  className="ContentComp-description-0-3-338 TypographyComp-standard-0-3-5"
                 >
                   Misalignment, continues the paper, exists when the centre lines of two neighbouring machines deviate from each other.
                 </span>
@@ -5124,9 +5124,9 @@ exports[`Storyshots Components/Timeline Part event continue 1`] = `
     <TimelineEventComp
       classes={
         Object {
-          "content": "TimelineEventComp-content-0-3-333",
-          "root": "TimelineEventComp-root-0-3-331",
-          "status": "TimelineEventComp-status-0-3-332",
+          "content": "TimelineEventComp-content-0-3-331",
+          "root": "TimelineEventComp-root-0-3-329",
+          "status": "TimelineEventComp-status-0-3-330",
         }
       }
       content={
@@ -5147,11 +5147,11 @@ exports[`Storyshots Components/Timeline Part event continue 1`] = `
       }
     >
       <div
-        className="TimelineEventComp-root-0-3-331"
+        className="TimelineEventComp-root-0-3-329"
         id="1"
       >
         <div
-          className="TimelineEventComp-status-0-3-332"
+          className="TimelineEventComp-status-0-3-330"
         >
           <Status
             arrangement="continue"
@@ -5173,20 +5173,20 @@ exports[`Storyshots Components/Timeline Part event continue 1`] = `
                 arrangement="continue"
                 classes={
                   Object {
-                    "circle": "StatusComp-circle-0-3-338",
-                    "circleWrapper": "StatusComp-circleWrapper-0-3-337",
-                    "line": "StatusComp-line-0-3-336",
-                    "lineWrapper": "StatusComp-lineWrapper-0-3-335",
-                    "root": "StatusComp-root-0-3-334",
+                    "circle": "StatusComp-circle-0-3-336",
+                    "circleWrapper": "StatusComp-circleWrapper-0-3-335",
+                    "line": "StatusComp-line-0-3-334",
+                    "lineWrapper": "StatusComp-lineWrapper-0-3-333",
+                    "root": "StatusComp-root-0-3-332",
                   }
                 }
                 color="#f57c00"
               >
                 <div
-                  className="StatusComp-root-0-3-334"
+                  className="StatusComp-root-0-3-332"
                 >
                   <div
-                    className="StatusComp-lineWrapper-0-3-335"
+                    className="StatusComp-lineWrapper-0-3-333"
                     style={
                       Object {
                         "paddingTop": 0,
@@ -5194,7 +5194,7 @@ exports[`Storyshots Components/Timeline Part event continue 1`] = `
                     }
                   >
                     <div
-                      className="StatusComp-line-0-3-336"
+                      className="StatusComp-line-0-3-334"
                       style={
                         Object {
                           "backgroundColor": "#f57c00",
@@ -5203,10 +5203,10 @@ exports[`Storyshots Components/Timeline Part event continue 1`] = `
                     />
                   </div>
                   <div
-                    className="StatusComp-circleWrapper-0-3-337"
+                    className="StatusComp-circleWrapper-0-3-335"
                   >
                     <div
-                      className="StatusComp-circle-0-3-338"
+                      className="StatusComp-circle-0-3-336"
                       style={
                         Object {
                           "backgroundColor": "#f57c00",
@@ -5220,7 +5220,7 @@ exports[`Storyshots Components/Timeline Part event continue 1`] = `
           </Status>
         </div>
         <div
-          className="TimelineEventComp-content-0-3-333"
+          className="TimelineEventComp-content-0-3-331"
         >
           <Content
             dateFormatted={
@@ -5251,8 +5251,8 @@ exports[`Storyshots Components/Timeline Part event continue 1`] = `
               <ContentComp
                 classes={
                   Object {
-                    "description": "ContentComp-description-0-3-340",
-                    "root": "ContentComp-root-0-3-339",
+                    "description": "ContentComp-description-0-3-338",
+                    "root": "ContentComp-root-0-3-337",
                   }
                 }
                 dateFormatted={
@@ -5264,17 +5264,17 @@ exports[`Storyshots Components/Timeline Part event continue 1`] = `
                 title="Misalignment"
               >
                 <div
-                  className="ContentComp-root-0-3-339"
+                  className="ContentComp-root-0-3-337"
                 >
                   <div>
                     <Typography
                       bold={true}
-                      className="ContentComp-description-0-3-340"
+                      className="ContentComp-description-0-3-338"
                       variant="distance"
                     >
                       <WithStyles(TypographyComp)
                         bold={true}
-                        className="ContentComp-description-0-3-340"
+                        className="ContentComp-description-0-3-338"
                         innerRef={null}
                         jssContext={
                           Object {
@@ -5287,7 +5287,7 @@ exports[`Storyshots Components/Timeline Part event continue 1`] = `
                       >
                         <TypographyComp
                           bold={true}
-                          className="ContentComp-description-0-3-340"
+                          className="ContentComp-description-0-3-338"
                           classes={
                             Object {
                               "big": "TypographyComp-big-0-3-7",
@@ -5309,7 +5309,7 @@ exports[`Storyshots Components/Timeline Part event continue 1`] = `
                           variant="distance"
                         >
                           <span
-                            className="ContentComp-description-0-3-340 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
+                            className="ContentComp-description-0-3-338 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
                           >
                             Misalignment
                           </span>
@@ -5320,12 +5320,12 @@ exports[`Storyshots Components/Timeline Part event continue 1`] = `
                   <div>
                     <Typography
                       bold={true}
-                      className="ContentComp-description-0-3-340"
+                      className="ContentComp-description-0-3-338"
                       variant="standard"
                     >
                       <WithStyles(TypographyComp)
                         bold={true}
-                        className="ContentComp-description-0-3-340"
+                        className="ContentComp-description-0-3-338"
                         innerRef={null}
                         jssContext={
                           Object {
@@ -5338,7 +5338,7 @@ exports[`Storyshots Components/Timeline Part event continue 1`] = `
                       >
                         <TypographyComp
                           bold={true}
-                          className="ContentComp-description-0-3-340"
+                          className="ContentComp-description-0-3-338"
                           classes={
                             Object {
                               "big": "TypographyComp-big-0-3-7",
@@ -5360,7 +5360,7 @@ exports[`Storyshots Components/Timeline Part event continue 1`] = `
                           variant="standard"
                         >
                           <span
-                            className="ContentComp-description-0-3-340 TypographyComp-standard-0-3-5 TypographyComp-bold-0-3-1"
+                            className="ContentComp-description-0-3-338 TypographyComp-standard-0-3-5 TypographyComp-bold-0-3-1"
                           >
                             2/21/2018, 2:33:16 PM
                           </span>
@@ -5370,11 +5370,11 @@ exports[`Storyshots Components/Timeline Part event continue 1`] = `
                   </div>
                   <div>
                     <Typography
-                      className="ContentComp-description-0-3-340"
+                      className="ContentComp-description-0-3-338"
                       variant="standard"
                     >
                       <WithStyles(TypographyComp)
-                        className="ContentComp-description-0-3-340"
+                        className="ContentComp-description-0-3-338"
                         innerRef={null}
                         jssContext={
                           Object {
@@ -5386,7 +5386,7 @@ exports[`Storyshots Components/Timeline Part event continue 1`] = `
                         variant="standard"
                       >
                         <TypographyComp
-                          className="ContentComp-description-0-3-340"
+                          className="ContentComp-description-0-3-338"
                           classes={
                             Object {
                               "big": "TypographyComp-big-0-3-7",
@@ -5408,7 +5408,7 @@ exports[`Storyshots Components/Timeline Part event continue 1`] = `
                           variant="standard"
                         >
                           <span
-                            className="ContentComp-description-0-3-340 TypographyComp-standard-0-3-5"
+                            className="ContentComp-description-0-3-338 TypographyComp-standard-0-3-5"
                           >
                             Misalignment, continues the paper, exists when the centre lines of two neighbouring machines deviate from each other.
                           </span>
@@ -5475,9 +5475,9 @@ exports[`Storyshots Components/Timeline Part event end 1`] = `
     <TimelineEventComp
       classes={
         Object {
-          "content": "TimelineEventComp-content-0-3-333",
-          "root": "TimelineEventComp-root-0-3-331",
-          "status": "TimelineEventComp-status-0-3-332",
+          "content": "TimelineEventComp-content-0-3-331",
+          "root": "TimelineEventComp-root-0-3-329",
+          "status": "TimelineEventComp-status-0-3-330",
         }
       }
       content={
@@ -5498,11 +5498,11 @@ exports[`Storyshots Components/Timeline Part event end 1`] = `
       }
     >
       <div
-        className="TimelineEventComp-root-0-3-331"
+        className="TimelineEventComp-root-0-3-329"
         id="1"
       >
         <div
-          className="TimelineEventComp-status-0-3-332"
+          className="TimelineEventComp-status-0-3-330"
         >
           <Status
             arrangement="end"
@@ -5524,20 +5524,20 @@ exports[`Storyshots Components/Timeline Part event end 1`] = `
                 arrangement="end"
                 classes={
                   Object {
-                    "circle": "StatusComp-circle-0-3-338",
-                    "circleWrapper": "StatusComp-circleWrapper-0-3-337",
-                    "line": "StatusComp-line-0-3-336",
-                    "lineWrapper": "StatusComp-lineWrapper-0-3-335",
-                    "root": "StatusComp-root-0-3-334",
+                    "circle": "StatusComp-circle-0-3-336",
+                    "circleWrapper": "StatusComp-circleWrapper-0-3-335",
+                    "line": "StatusComp-line-0-3-334",
+                    "lineWrapper": "StatusComp-lineWrapper-0-3-333",
+                    "root": "StatusComp-root-0-3-332",
                   }
                 }
                 color="#f57c00"
               >
                 <div
-                  className="StatusComp-root-0-3-334"
+                  className="StatusComp-root-0-3-332"
                 >
                   <div
-                    className="StatusComp-lineWrapper-0-3-335"
+                    className="StatusComp-lineWrapper-0-3-333"
                     style={
                       Object {
                         "height": 8,
@@ -5546,7 +5546,7 @@ exports[`Storyshots Components/Timeline Part event end 1`] = `
                     }
                   >
                     <div
-                      className="StatusComp-line-0-3-336"
+                      className="StatusComp-line-0-3-334"
                       style={
                         Object {
                           "backgroundColor": "#f57c00",
@@ -5555,10 +5555,10 @@ exports[`Storyshots Components/Timeline Part event end 1`] = `
                     />
                   </div>
                   <div
-                    className="StatusComp-circleWrapper-0-3-337"
+                    className="StatusComp-circleWrapper-0-3-335"
                   >
                     <div
-                      className="StatusComp-circle-0-3-338"
+                      className="StatusComp-circle-0-3-336"
                       style={
                         Object {
                           "backgroundColor": "#f57c00",
@@ -5572,7 +5572,7 @@ exports[`Storyshots Components/Timeline Part event end 1`] = `
           </Status>
         </div>
         <div
-          className="TimelineEventComp-content-0-3-333"
+          className="TimelineEventComp-content-0-3-331"
         >
           <Content
             dateFormatted={
@@ -5603,8 +5603,8 @@ exports[`Storyshots Components/Timeline Part event end 1`] = `
               <ContentComp
                 classes={
                   Object {
-                    "description": "ContentComp-description-0-3-340",
-                    "root": "ContentComp-root-0-3-339",
+                    "description": "ContentComp-description-0-3-338",
+                    "root": "ContentComp-root-0-3-337",
                   }
                 }
                 dateFormatted={
@@ -5616,17 +5616,17 @@ exports[`Storyshots Components/Timeline Part event end 1`] = `
                 title="Misalignment"
               >
                 <div
-                  className="ContentComp-root-0-3-339"
+                  className="ContentComp-root-0-3-337"
                 >
                   <div>
                     <Typography
                       bold={true}
-                      className="ContentComp-description-0-3-340"
+                      className="ContentComp-description-0-3-338"
                       variant="distance"
                     >
                       <WithStyles(TypographyComp)
                         bold={true}
-                        className="ContentComp-description-0-3-340"
+                        className="ContentComp-description-0-3-338"
                         innerRef={null}
                         jssContext={
                           Object {
@@ -5639,7 +5639,7 @@ exports[`Storyshots Components/Timeline Part event end 1`] = `
                       >
                         <TypographyComp
                           bold={true}
-                          className="ContentComp-description-0-3-340"
+                          className="ContentComp-description-0-3-338"
                           classes={
                             Object {
                               "big": "TypographyComp-big-0-3-7",
@@ -5661,7 +5661,7 @@ exports[`Storyshots Components/Timeline Part event end 1`] = `
                           variant="distance"
                         >
                           <span
-                            className="ContentComp-description-0-3-340 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
+                            className="ContentComp-description-0-3-338 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
                           >
                             Misalignment
                           </span>
@@ -5672,12 +5672,12 @@ exports[`Storyshots Components/Timeline Part event end 1`] = `
                   <div>
                     <Typography
                       bold={true}
-                      className="ContentComp-description-0-3-340"
+                      className="ContentComp-description-0-3-338"
                       variant="standard"
                     >
                       <WithStyles(TypographyComp)
                         bold={true}
-                        className="ContentComp-description-0-3-340"
+                        className="ContentComp-description-0-3-338"
                         innerRef={null}
                         jssContext={
                           Object {
@@ -5690,7 +5690,7 @@ exports[`Storyshots Components/Timeline Part event end 1`] = `
                       >
                         <TypographyComp
                           bold={true}
-                          className="ContentComp-description-0-3-340"
+                          className="ContentComp-description-0-3-338"
                           classes={
                             Object {
                               "big": "TypographyComp-big-0-3-7",
@@ -5712,7 +5712,7 @@ exports[`Storyshots Components/Timeline Part event end 1`] = `
                           variant="standard"
                         >
                           <span
-                            className="ContentComp-description-0-3-340 TypographyComp-standard-0-3-5 TypographyComp-bold-0-3-1"
+                            className="ContentComp-description-0-3-338 TypographyComp-standard-0-3-5 TypographyComp-bold-0-3-1"
                           >
                             2/21/2018, 2:33:16 PM
                           </span>
@@ -5722,11 +5722,11 @@ exports[`Storyshots Components/Timeline Part event end 1`] = `
                   </div>
                   <div>
                     <Typography
-                      className="ContentComp-description-0-3-340"
+                      className="ContentComp-description-0-3-338"
                       variant="standard"
                     >
                       <WithStyles(TypographyComp)
-                        className="ContentComp-description-0-3-340"
+                        className="ContentComp-description-0-3-338"
                         innerRef={null}
                         jssContext={
                           Object {
@@ -5738,7 +5738,7 @@ exports[`Storyshots Components/Timeline Part event end 1`] = `
                         variant="standard"
                       >
                         <TypographyComp
-                          className="ContentComp-description-0-3-340"
+                          className="ContentComp-description-0-3-338"
                           classes={
                             Object {
                               "big": "TypographyComp-big-0-3-7",
@@ -5760,7 +5760,7 @@ exports[`Storyshots Components/Timeline Part event end 1`] = `
                           variant="standard"
                         >
                           <span
-                            className="ContentComp-description-0-3-340 TypographyComp-standard-0-3-5"
+                            className="ContentComp-description-0-3-338 TypographyComp-standard-0-3-5"
                           >
                             Misalignment, continues the paper, exists when the centre lines of two neighbouring machines deviate from each other.
                           </span>
@@ -5825,9 +5825,9 @@ exports[`Storyshots Components/Timeline Part event single 1`] = `
     <TimelineEventComp
       classes={
         Object {
-          "content": "TimelineEventComp-content-0-3-333",
-          "root": "TimelineEventComp-root-0-3-331",
-          "status": "TimelineEventComp-status-0-3-332",
+          "content": "TimelineEventComp-content-0-3-331",
+          "root": "TimelineEventComp-root-0-3-329",
+          "status": "TimelineEventComp-status-0-3-330",
         }
       }
       content={
@@ -5847,11 +5847,11 @@ exports[`Storyshots Components/Timeline Part event single 1`] = `
       }
     >
       <div
-        className="TimelineEventComp-root-0-3-331"
+        className="TimelineEventComp-root-0-3-329"
         id="1"
       >
         <div
-          className="TimelineEventComp-status-0-3-332"
+          className="TimelineEventComp-status-0-3-330"
         >
           <Status
             arrangement="single"
@@ -5873,20 +5873,20 @@ exports[`Storyshots Components/Timeline Part event single 1`] = `
                 arrangement="single"
                 classes={
                   Object {
-                    "circle": "StatusComp-circle-0-3-338",
-                    "circleWrapper": "StatusComp-circleWrapper-0-3-337",
-                    "line": "StatusComp-line-0-3-336",
-                    "lineWrapper": "StatusComp-lineWrapper-0-3-335",
-                    "root": "StatusComp-root-0-3-334",
+                    "circle": "StatusComp-circle-0-3-336",
+                    "circleWrapper": "StatusComp-circleWrapper-0-3-335",
+                    "line": "StatusComp-line-0-3-334",
+                    "lineWrapper": "StatusComp-lineWrapper-0-3-333",
+                    "root": "StatusComp-root-0-3-332",
                   }
                 }
                 color="#4caf50"
               >
                 <div
-                  className="StatusComp-root-0-3-334"
+                  className="StatusComp-root-0-3-332"
                 >
                   <div
-                    className="StatusComp-lineWrapper-0-3-335"
+                    className="StatusComp-lineWrapper-0-3-333"
                     style={
                       Object {
                         "height": 0,
@@ -5894,7 +5894,7 @@ exports[`Storyshots Components/Timeline Part event single 1`] = `
                     }
                   >
                     <div
-                      className="StatusComp-line-0-3-336"
+                      className="StatusComp-line-0-3-334"
                       style={
                         Object {
                           "backgroundColor": "#4caf50",
@@ -5903,10 +5903,10 @@ exports[`Storyshots Components/Timeline Part event single 1`] = `
                     />
                   </div>
                   <div
-                    className="StatusComp-circleWrapper-0-3-337"
+                    className="StatusComp-circleWrapper-0-3-335"
                   >
                     <div
-                      className="StatusComp-circle-0-3-338"
+                      className="StatusComp-circle-0-3-336"
                       style={
                         Object {
                           "backgroundColor": "#4caf50",
@@ -5920,7 +5920,7 @@ exports[`Storyshots Components/Timeline Part event single 1`] = `
           </Status>
         </div>
         <div
-          className="TimelineEventComp-content-0-3-333"
+          className="TimelineEventComp-content-0-3-331"
         >
           <Content
             dateFormatted={
@@ -5949,8 +5949,8 @@ exports[`Storyshots Components/Timeline Part event single 1`] = `
               <ContentComp
                 classes={
                   Object {
-                    "description": "ContentComp-description-0-3-340",
-                    "root": "ContentComp-root-0-3-339",
+                    "description": "ContentComp-description-0-3-338",
+                    "root": "ContentComp-root-0-3-337",
                   }
                 }
                 dateFormatted={
@@ -5961,17 +5961,17 @@ exports[`Storyshots Components/Timeline Part event single 1`] = `
                 title="Resumed"
               >
                 <div
-                  className="ContentComp-root-0-3-339"
+                  className="ContentComp-root-0-3-337"
                 >
                   <div>
                     <Typography
                       bold={true}
-                      className="ContentComp-description-0-3-340"
+                      className="ContentComp-description-0-3-338"
                       variant="distance"
                     >
                       <WithStyles(TypographyComp)
                         bold={true}
-                        className="ContentComp-description-0-3-340"
+                        className="ContentComp-description-0-3-338"
                         innerRef={null}
                         jssContext={
                           Object {
@@ -5984,7 +5984,7 @@ exports[`Storyshots Components/Timeline Part event single 1`] = `
                       >
                         <TypographyComp
                           bold={true}
-                          className="ContentComp-description-0-3-340"
+                          className="ContentComp-description-0-3-338"
                           classes={
                             Object {
                               "big": "TypographyComp-big-0-3-7",
@@ -6006,7 +6006,7 @@ exports[`Storyshots Components/Timeline Part event single 1`] = `
                           variant="distance"
                         >
                           <span
-                            className="ContentComp-description-0-3-340 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
+                            className="ContentComp-description-0-3-338 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
                           >
                             Resumed
                           </span>
@@ -6017,12 +6017,12 @@ exports[`Storyshots Components/Timeline Part event single 1`] = `
                   <div>
                     <Typography
                       bold={true}
-                      className="ContentComp-description-0-3-340"
+                      className="ContentComp-description-0-3-338"
                       variant="standard"
                     >
                       <WithStyles(TypographyComp)
                         bold={true}
-                        className="ContentComp-description-0-3-340"
+                        className="ContentComp-description-0-3-338"
                         innerRef={null}
                         jssContext={
                           Object {
@@ -6035,7 +6035,7 @@ exports[`Storyshots Components/Timeline Part event single 1`] = `
                       >
                         <TypographyComp
                           bold={true}
-                          className="ContentComp-description-0-3-340"
+                          className="ContentComp-description-0-3-338"
                           classes={
                             Object {
                               "big": "TypographyComp-big-0-3-7",
@@ -6057,7 +6057,7 @@ exports[`Storyshots Components/Timeline Part event single 1`] = `
                           variant="standard"
                         >
                           <span
-                            className="ContentComp-description-0-3-340 TypographyComp-standard-0-3-5 TypographyComp-bold-0-3-1"
+                            className="ContentComp-description-0-3-338 TypographyComp-standard-0-3-5 TypographyComp-bold-0-3-1"
                           >
                             2/22/2018, 10:59:57 AM
                           </span>
@@ -6125,9 +6125,9 @@ exports[`Storyshots Components/Timeline Part event start 1`] = `
     <TimelineEventComp
       classes={
         Object {
-          "content": "TimelineEventComp-content-0-3-333",
-          "root": "TimelineEventComp-root-0-3-331",
-          "status": "TimelineEventComp-status-0-3-332",
+          "content": "TimelineEventComp-content-0-3-331",
+          "root": "TimelineEventComp-root-0-3-329",
+          "status": "TimelineEventComp-status-0-3-330",
         }
       }
       content={
@@ -6148,11 +6148,11 @@ exports[`Storyshots Components/Timeline Part event start 1`] = `
       }
     >
       <div
-        className="TimelineEventComp-root-0-3-331"
+        className="TimelineEventComp-root-0-3-329"
         id="1"
       >
         <div
-          className="TimelineEventComp-status-0-3-332"
+          className="TimelineEventComp-status-0-3-330"
         >
           <Status
             arrangement="start"
@@ -6174,20 +6174,20 @@ exports[`Storyshots Components/Timeline Part event start 1`] = `
                 arrangement="start"
                 classes={
                   Object {
-                    "circle": "StatusComp-circle-0-3-338",
-                    "circleWrapper": "StatusComp-circleWrapper-0-3-337",
-                    "line": "StatusComp-line-0-3-336",
-                    "lineWrapper": "StatusComp-lineWrapper-0-3-335",
-                    "root": "StatusComp-root-0-3-334",
+                    "circle": "StatusComp-circle-0-3-336",
+                    "circleWrapper": "StatusComp-circleWrapper-0-3-335",
+                    "line": "StatusComp-line-0-3-334",
+                    "lineWrapper": "StatusComp-lineWrapper-0-3-333",
+                    "root": "StatusComp-root-0-3-332",
                   }
                 }
                 color="#f57c00"
               >
                 <div
-                  className="StatusComp-root-0-3-334"
+                  className="StatusComp-root-0-3-332"
                 >
                   <div
-                    className="StatusComp-lineWrapper-0-3-335"
+                    className="StatusComp-lineWrapper-0-3-333"
                     style={
                       Object {
                         "paddingTop": 8,
@@ -6195,7 +6195,7 @@ exports[`Storyshots Components/Timeline Part event start 1`] = `
                     }
                   >
                     <div
-                      className="StatusComp-line-0-3-336"
+                      className="StatusComp-line-0-3-334"
                       style={
                         Object {
                           "backgroundColor": "#f57c00",
@@ -6204,10 +6204,10 @@ exports[`Storyshots Components/Timeline Part event start 1`] = `
                     />
                   </div>
                   <div
-                    className="StatusComp-circleWrapper-0-3-337"
+                    className="StatusComp-circleWrapper-0-3-335"
                   >
                     <div
-                      className="StatusComp-circle-0-3-338"
+                      className="StatusComp-circle-0-3-336"
                       style={
                         Object {
                           "backgroundColor": "#f57c00",
@@ -6221,7 +6221,7 @@ exports[`Storyshots Components/Timeline Part event start 1`] = `
           </Status>
         </div>
         <div
-          className="TimelineEventComp-content-0-3-333"
+          className="TimelineEventComp-content-0-3-331"
         >
           <Content
             dateFormatted={
@@ -6252,8 +6252,8 @@ exports[`Storyshots Components/Timeline Part event start 1`] = `
               <ContentComp
                 classes={
                   Object {
-                    "description": "ContentComp-description-0-3-340",
-                    "root": "ContentComp-root-0-3-339",
+                    "description": "ContentComp-description-0-3-338",
+                    "root": "ContentComp-root-0-3-337",
                   }
                 }
                 dateFormatted={
@@ -6265,17 +6265,17 @@ exports[`Storyshots Components/Timeline Part event start 1`] = `
                 title="Misalignment"
               >
                 <div
-                  className="ContentComp-root-0-3-339"
+                  className="ContentComp-root-0-3-337"
                 >
                   <div>
                     <Typography
                       bold={true}
-                      className="ContentComp-description-0-3-340"
+                      className="ContentComp-description-0-3-338"
                       variant="distance"
                     >
                       <WithStyles(TypographyComp)
                         bold={true}
-                        className="ContentComp-description-0-3-340"
+                        className="ContentComp-description-0-3-338"
                         innerRef={null}
                         jssContext={
                           Object {
@@ -6288,7 +6288,7 @@ exports[`Storyshots Components/Timeline Part event start 1`] = `
                       >
                         <TypographyComp
                           bold={true}
-                          className="ContentComp-description-0-3-340"
+                          className="ContentComp-description-0-3-338"
                           classes={
                             Object {
                               "big": "TypographyComp-big-0-3-7",
@@ -6310,7 +6310,7 @@ exports[`Storyshots Components/Timeline Part event start 1`] = `
                           variant="distance"
                         >
                           <span
-                            className="ContentComp-description-0-3-340 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
+                            className="ContentComp-description-0-3-338 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
                           >
                             Misalignment
                           </span>
@@ -6321,12 +6321,12 @@ exports[`Storyshots Components/Timeline Part event start 1`] = `
                   <div>
                     <Typography
                       bold={true}
-                      className="ContentComp-description-0-3-340"
+                      className="ContentComp-description-0-3-338"
                       variant="standard"
                     >
                       <WithStyles(TypographyComp)
                         bold={true}
-                        className="ContentComp-description-0-3-340"
+                        className="ContentComp-description-0-3-338"
                         innerRef={null}
                         jssContext={
                           Object {
@@ -6339,7 +6339,7 @@ exports[`Storyshots Components/Timeline Part event start 1`] = `
                       >
                         <TypographyComp
                           bold={true}
-                          className="ContentComp-description-0-3-340"
+                          className="ContentComp-description-0-3-338"
                           classes={
                             Object {
                               "big": "TypographyComp-big-0-3-7",
@@ -6361,7 +6361,7 @@ exports[`Storyshots Components/Timeline Part event start 1`] = `
                           variant="standard"
                         >
                           <span
-                            className="ContentComp-description-0-3-340 TypographyComp-standard-0-3-5 TypographyComp-bold-0-3-1"
+                            className="ContentComp-description-0-3-338 TypographyComp-standard-0-3-5 TypographyComp-bold-0-3-1"
                           >
                             2/21/2018, 2:33:16 PM
                           </span>
@@ -6371,11 +6371,11 @@ exports[`Storyshots Components/Timeline Part event start 1`] = `
                   </div>
                   <div>
                     <Typography
-                      className="ContentComp-description-0-3-340"
+                      className="ContentComp-description-0-3-338"
                       variant="standard"
                     >
                       <WithStyles(TypographyComp)
-                        className="ContentComp-description-0-3-340"
+                        className="ContentComp-description-0-3-338"
                         innerRef={null}
                         jssContext={
                           Object {
@@ -6387,7 +6387,7 @@ exports[`Storyshots Components/Timeline Part event start 1`] = `
                         variant="standard"
                       >
                         <TypographyComp
-                          className="ContentComp-description-0-3-340"
+                          className="ContentComp-description-0-3-338"
                           classes={
                             Object {
                               "big": "TypographyComp-big-0-3-7",
@@ -6409,7 +6409,7 @@ exports[`Storyshots Components/Timeline Part event start 1`] = `
                           variant="standard"
                         >
                           <span
-                            className="ContentComp-description-0-3-340 TypographyComp-standard-0-3-5"
+                            className="ContentComp-description-0-3-338 TypographyComp-standard-0-3-5"
                           >
                             Misalignment, continues the paper, exists when the centre lines of two neighbouring machines deviate from each other.
                           </span>
@@ -6449,20 +6449,20 @@ exports[`Storyshots Components/Timeline Part status end 1`] = `
       arrangement="end"
       classes={
         Object {
-          "circle": "StatusComp-circle-0-3-338",
-          "circleWrapper": "StatusComp-circleWrapper-0-3-337",
-          "line": "StatusComp-line-0-3-336",
-          "lineWrapper": "StatusComp-lineWrapper-0-3-335",
-          "root": "StatusComp-root-0-3-334",
+          "circle": "StatusComp-circle-0-3-336",
+          "circleWrapper": "StatusComp-circleWrapper-0-3-335",
+          "line": "StatusComp-line-0-3-334",
+          "lineWrapper": "StatusComp-lineWrapper-0-3-333",
+          "root": "StatusComp-root-0-3-332",
         }
       }
       color="#ff9800"
     >
       <div
-        className="StatusComp-root-0-3-334"
+        className="StatusComp-root-0-3-332"
       >
         <div
-          className="StatusComp-lineWrapper-0-3-335"
+          className="StatusComp-lineWrapper-0-3-333"
           style={
             Object {
               "height": 8,
@@ -6471,7 +6471,7 @@ exports[`Storyshots Components/Timeline Part status end 1`] = `
           }
         >
           <div
-            className="StatusComp-line-0-3-336"
+            className="StatusComp-line-0-3-334"
             style={
               Object {
                 "backgroundColor": "#ff9800",
@@ -6480,10 +6480,10 @@ exports[`Storyshots Components/Timeline Part status end 1`] = `
           />
         </div>
         <div
-          className="StatusComp-circleWrapper-0-3-337"
+          className="StatusComp-circleWrapper-0-3-335"
         >
           <div
-            className="StatusComp-circle-0-3-338"
+            className="StatusComp-circle-0-3-336"
             style={
               Object {
                 "backgroundColor": "#ff9800",
@@ -6518,20 +6518,20 @@ exports[`Storyshots Components/Timeline Part status middle 1`] = `
       arrangement="continue"
       classes={
         Object {
-          "circle": "StatusComp-circle-0-3-338",
-          "circleWrapper": "StatusComp-circleWrapper-0-3-337",
-          "line": "StatusComp-line-0-3-336",
-          "lineWrapper": "StatusComp-lineWrapper-0-3-335",
-          "root": "StatusComp-root-0-3-334",
+          "circle": "StatusComp-circle-0-3-336",
+          "circleWrapper": "StatusComp-circleWrapper-0-3-335",
+          "line": "StatusComp-line-0-3-334",
+          "lineWrapper": "StatusComp-lineWrapper-0-3-333",
+          "root": "StatusComp-root-0-3-332",
         }
       }
       color="#ff9800"
     >
       <div
-        className="StatusComp-root-0-3-334"
+        className="StatusComp-root-0-3-332"
       >
         <div
-          className="StatusComp-lineWrapper-0-3-335"
+          className="StatusComp-lineWrapper-0-3-333"
           style={
             Object {
               "paddingTop": 0,
@@ -6539,7 +6539,7 @@ exports[`Storyshots Components/Timeline Part status middle 1`] = `
           }
         >
           <div
-            className="StatusComp-line-0-3-336"
+            className="StatusComp-line-0-3-334"
             style={
               Object {
                 "backgroundColor": "#ff9800",
@@ -6548,10 +6548,10 @@ exports[`Storyshots Components/Timeline Part status middle 1`] = `
           />
         </div>
         <div
-          className="StatusComp-circleWrapper-0-3-337"
+          className="StatusComp-circleWrapper-0-3-335"
         >
           <div
-            className="StatusComp-circle-0-3-338"
+            className="StatusComp-circle-0-3-336"
             style={
               Object {
                 "backgroundColor": "#ff9800",
@@ -6586,20 +6586,20 @@ exports[`Storyshots Components/Timeline Part status single 1`] = `
       arrangement="single"
       classes={
         Object {
-          "circle": "StatusComp-circle-0-3-338",
-          "circleWrapper": "StatusComp-circleWrapper-0-3-337",
-          "line": "StatusComp-line-0-3-336",
-          "lineWrapper": "StatusComp-lineWrapper-0-3-335",
-          "root": "StatusComp-root-0-3-334",
+          "circle": "StatusComp-circle-0-3-336",
+          "circleWrapper": "StatusComp-circleWrapper-0-3-335",
+          "line": "StatusComp-line-0-3-334",
+          "lineWrapper": "StatusComp-lineWrapper-0-3-333",
+          "root": "StatusComp-root-0-3-332",
         }
       }
       color="#64dd17"
     >
       <div
-        className="StatusComp-root-0-3-334"
+        className="StatusComp-root-0-3-332"
       >
         <div
-          className="StatusComp-lineWrapper-0-3-335"
+          className="StatusComp-lineWrapper-0-3-333"
           style={
             Object {
               "height": 0,
@@ -6607,7 +6607,7 @@ exports[`Storyshots Components/Timeline Part status single 1`] = `
           }
         >
           <div
-            className="StatusComp-line-0-3-336"
+            className="StatusComp-line-0-3-334"
             style={
               Object {
                 "backgroundColor": "#64dd17",
@@ -6616,10 +6616,10 @@ exports[`Storyshots Components/Timeline Part status single 1`] = `
           />
         </div>
         <div
-          className="StatusComp-circleWrapper-0-3-337"
+          className="StatusComp-circleWrapper-0-3-335"
         >
           <div
-            className="StatusComp-circle-0-3-338"
+            className="StatusComp-circle-0-3-336"
             style={
               Object {
                 "backgroundColor": "#64dd17",
@@ -6654,20 +6654,20 @@ exports[`Storyshots Components/Timeline Part status start 1`] = `
       arrangement="start"
       classes={
         Object {
-          "circle": "StatusComp-circle-0-3-338",
-          "circleWrapper": "StatusComp-circleWrapper-0-3-337",
-          "line": "StatusComp-line-0-3-336",
-          "lineWrapper": "StatusComp-lineWrapper-0-3-335",
-          "root": "StatusComp-root-0-3-334",
+          "circle": "StatusComp-circle-0-3-336",
+          "circleWrapper": "StatusComp-circleWrapper-0-3-335",
+          "line": "StatusComp-line-0-3-334",
+          "lineWrapper": "StatusComp-lineWrapper-0-3-333",
+          "root": "StatusComp-root-0-3-332",
         }
       }
       color="#ff9800"
     >
       <div
-        className="StatusComp-root-0-3-334"
+        className="StatusComp-root-0-3-332"
       >
         <div
-          className="StatusComp-lineWrapper-0-3-335"
+          className="StatusComp-lineWrapper-0-3-333"
           style={
             Object {
               "paddingTop": 8,
@@ -6675,7 +6675,7 @@ exports[`Storyshots Components/Timeline Part status start 1`] = `
           }
         >
           <div
-            className="StatusComp-line-0-3-336"
+            className="StatusComp-line-0-3-334"
             style={
               Object {
                 "backgroundColor": "#ff9800",
@@ -6684,10 +6684,10 @@ exports[`Storyshots Components/Timeline Part status start 1`] = `
           />
         </div>
         <div
-          className="StatusComp-circleWrapper-0-3-337"
+          className="StatusComp-circleWrapper-0-3-335"
         >
           <div
-            className="StatusComp-circle-0-3-338"
+            className="StatusComp-circle-0-3-336"
             style={
               Object {
                 "backgroundColor": "#ff9800",

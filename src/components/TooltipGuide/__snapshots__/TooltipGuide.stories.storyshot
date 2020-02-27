@@ -18,29 +18,29 @@ exports[`Storyshots Components/TooltipGuide Base 1`] = `
     <TooltipGuideComp
       classes={
         Object {
-          "arch": "TooltipGuideComp-arch-0-3-352",
-          "archContainer": "TooltipGuideComp-archContainer-0-3-351",
-          "box": "TooltipGuideComp-box-0-3-349",
-          "boxShadow": "TooltipGuideComp-boxShadow-0-3-350",
-          "content": "TooltipGuideComp-content-0-3-355",
-          "icon": "TooltipGuideComp-icon-0-3-353",
-          "neutral": "TooltipGuideComp-neutral-0-3-354",
-          "root": "TooltipGuideComp-root-0-3-348",
+          "arch": "TooltipGuideComp-arch-0-3-350",
+          "archContainer": "TooltipGuideComp-archContainer-0-3-349",
+          "box": "TooltipGuideComp-box-0-3-347",
+          "boxShadow": "TooltipGuideComp-boxShadow-0-3-348",
+          "content": "TooltipGuideComp-content-0-3-353",
+          "icon": "TooltipGuideComp-icon-0-3-351",
+          "neutral": "TooltipGuideComp-neutral-0-3-352",
+          "root": "TooltipGuideComp-root-0-3-346",
         }
       }
       content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
     >
       <div
-        className="TooltipGuideComp-root-0-3-348"
+        className="TooltipGuideComp-root-0-3-346"
       >
         <div
-          className="TooltipGuideComp-archContainer-0-3-351"
+          className="TooltipGuideComp-archContainer-0-3-349"
         >
           <div
-            className="TooltipGuideComp-arch-0-3-352"
+            className="TooltipGuideComp-arch-0-3-350"
           />
           <div
-            className="TooltipGuideComp-icon-0-3-353 TooltipGuideComp-neutral-0-3-354"
+            className="TooltipGuideComp-icon-0-3-351 TooltipGuideComp-neutral-0-3-352"
           >
             <MUIcon
               fontSize={80}
@@ -61,14 +61,14 @@ exports[`Storyshots Components/TooltipGuide Base 1`] = `
                 <MUIconComp
                   classes={
                     Object {
-                      "root": "MUIconComp-root-0-3-35 MUIconComp-root-d118-0-3-356",
+                      "root": "MUIconComp-root-0-3-35 MUIconComp-root-d116-0-3-354",
                     }
                   }
                   fontSize={80}
                   type="info"
                 >
                   <i
-                    className="MUIconComp-root-0-3-35 MUIconComp-root-d118-0-3-356"
+                    className="MUIconComp-root-0-3-35 MUIconComp-root-d116-0-3-354"
                   >
                     info
                   </i>
@@ -78,10 +78,10 @@ exports[`Storyshots Components/TooltipGuide Base 1`] = `
           </div>
         </div>
         <div
-          className="TooltipGuideComp-box-0-3-349"
+          className="TooltipGuideComp-box-0-3-347"
         >
           <div
-            className="TooltipGuideComp-content-0-3-355"
+            className="TooltipGuideComp-content-0-3-353"
           >
             <Typography
               variant="standard"
@@ -129,7 +129,7 @@ exports[`Storyshots Components/TooltipGuide Base 1`] = `
           </div>
         </div>
         <div
-          className="TooltipGuideComp-boxShadow-0-3-350"
+          className="TooltipGuideComp-boxShadow-0-3-348"
         />
       </div>
     </TooltipGuideComp>

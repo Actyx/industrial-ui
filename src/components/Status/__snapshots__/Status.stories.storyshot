@@ -20,17 +20,17 @@ exports[`Storyshots Components/Status Ready 1`] = `
     <StatusComp
       classes={
         Object {
-          "ready": "StatusComp-ready-0-3-300",
-          "requested": "StatusComp-requested-0-3-302",
-          "root": "StatusComp-root-0-3-299",
-          "unknown": "StatusComp-unknown-0-3-301",
+          "ready": "StatusComp-ready-0-3-298",
+          "requested": "StatusComp-requested-0-3-300",
+          "root": "StatusComp-root-0-3-297",
+          "unknown": "StatusComp-unknown-0-3-299",
         }
       }
       message="Ready"
       variant="ready"
     >
       <div
-        className="StatusComp-root-0-3-299 StatusComp-ready-0-3-300"
+        className="StatusComp-root-0-3-297 StatusComp-ready-0-3-298"
       >
         <Typography
           bold={true}
@@ -107,17 +107,17 @@ exports[`Storyshots Components/Status Requested 1`] = `
     <StatusComp
       classes={
         Object {
-          "ready": "StatusComp-ready-0-3-300",
-          "requested": "StatusComp-requested-0-3-302",
-          "root": "StatusComp-root-0-3-299",
-          "unknown": "StatusComp-unknown-0-3-301",
+          "ready": "StatusComp-ready-0-3-298",
+          "requested": "StatusComp-requested-0-3-300",
+          "root": "StatusComp-root-0-3-297",
+          "unknown": "StatusComp-unknown-0-3-299",
         }
       }
       message="Requested"
       variant="requested"
     >
       <div
-        className="StatusComp-root-0-3-299 StatusComp-requested-0-3-302"
+        className="StatusComp-root-0-3-297 StatusComp-requested-0-3-300"
       >
         <Typography
           bold={true}
@@ -194,17 +194,17 @@ exports[`Storyshots Components/Status Unknown 1`] = `
     <StatusComp
       classes={
         Object {
-          "ready": "StatusComp-ready-0-3-300",
-          "requested": "StatusComp-requested-0-3-302",
-          "root": "StatusComp-root-0-3-299",
-          "unknown": "StatusComp-unknown-0-3-301",
+          "ready": "StatusComp-ready-0-3-298",
+          "requested": "StatusComp-requested-0-3-300",
+          "root": "StatusComp-root-0-3-297",
+          "unknown": "StatusComp-unknown-0-3-299",
         }
       }
       message="Unknown"
       variant="unknown"
     >
       <div
-        className="StatusComp-root-0-3-299 StatusComp-unknown-0-3-301"
+        className="StatusComp-root-0-3-297 StatusComp-unknown-0-3-299"
       >
         <Typography
           bold={true}
