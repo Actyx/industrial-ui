@@ -7,3 +7,11 @@ Actyx UI is a React UI toolkit built by [Actyx](https://www.actyx.com), a German
 Actyx UI provides buttons, tabs, cards, navigation, and many other components, all of which have designed and tested to maximize operators' user experience and productivity in industrial environments. The project is "battle-tested" and running in production for Actyx's customers in seven countries.
 
 Actyx UI is written entirely in TypeScript with predictable static types, making it easy to pick up and understand.
+
+## Installation
+
+Actyx UI is available as an [npm package](https://www.npmjs.com/package/@actyx/actyx-ui).
+
+```shell
+npm install @actyx/actyx-ui
+```
