@@ -136,7 +136,15 @@ const intervalsProps: {
 };
 
 storiesOf('Components/Timeline', module)
-  .addDecorator(hostDecorator({}))
+  .addDecorator(
+    hostDecorator({
+      position: 'absolute',
+      top: 0,
+      left: 0,
+      width: 600,
+      height: 600
+    })
+  )
   .add('Base', () => <Timeline {...baseProps} />)
   .add('Intervals', () => <Timeline {...intervalsProps} />)
   .add('Part event single', () => {
