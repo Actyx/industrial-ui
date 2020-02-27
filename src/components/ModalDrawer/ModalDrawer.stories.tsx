@@ -61,7 +61,12 @@ const baseProps = {
 };
 
 storiesOf('Components/ModalDrawer', module)
-  .addDecorator(hostDecorator({}))
+  .addDecorator(
+    hostDecorator({
+      width: 800,
+      height: 600
+    })
+  )
   .add('Open', () => {
     const props = { ...baseProps, open: true, headerIcon };
     return <ModalDrawer {...props} />;

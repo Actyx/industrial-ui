@@ -43,7 +43,9 @@
     "build-storybook": "build-storybook",
     "test": "TZ=UTC jest",
     "test:no-coverage": "TZ=UTC jest --coverage=false",
-    "test:watch": "TZ=UTC jest --coverage=false --watch"
+    "test:watch": "TZ=UTC jest --coverage=false --watch",
+    "test:visual": "loki test --port 9001",
+    "test:approve-visual": "loki approve"
   },
   "repository": {
     "type": "git",
@@ -86,35 +88,47 @@
     "@types/jest": "^25.1.2",
     "@types/lodash": "^4.14.149",
     "@types/node": "^13.7.1",
+    "@types/react": "^16.9.17",
     "@types/react-datepicker": "^2.11.0",
     "@types/react-dom": "^16.9.4",
     "@types/react-measure": "^2.0.6",
     "@types/react-swipeable-views": "^0.13.0",
     "@types/react-transition-group": "^4.2.3",
     "@types/react-window": "^1.8.1",
-    "@types/react": "^16.9.17",
     "@types/recompose": "^0.30.0",
     "@typescript-eslint/eslint-plugin": "^2.19.2",
     "@typescript-eslint/parser": "^2.19.2",
     "awesome-typescript-loader": "^5.2.1",
     "babel-loader": "^8.0.6",
     "csstype": "^2.6.9",
+    "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
     "enzyme-to-json": "^3.4.4",
-    "enzyme": "^3.11.0",
+    "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.9.0",
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.18.3",
-    "eslint": "^6.8.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^25.1.0",
+    "loki": "^0.20.1",
     "prettier": "^1.19.1",
     "react-docgen-typescript-loader": "^3.6.0",
     "rimraf": "^3.0.2",
     "source-map-loader": "^0.2.4",
     "ts-jest": "^25.2.0",
     "ts-loader": "^6.2.1",
-    "webpack-cli": "^3.3.11",
-    "webpack": "^4.41.6"
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "loki": {
+    "configurations": {
+      "chrome.laptop": {
+        "target": "chrome.docker",
+        "width": 1366,
+        "height": 768,
+        "deviceScaleFactor": 1,
+        "mobile": false
+      }
+    }
   }
 }
