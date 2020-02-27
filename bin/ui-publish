@@ -6,7 +6,7 @@
 # - Always enable two-factor authentication (2FA) for authorization and publication on npm.
 
 # Locations
-SRC_DIR="../src"
+PROJECT_DIR="../"
 NODE_MODULES_DIR="node_modules"
 NVM_DIR="$HOME/.nvm"
 
@@ -46,7 +46,7 @@ fi
 
 # Remove node_module dependencies
 echo "Cleaning..."
-cd $SRC_DIR
+cd $PROJECT_DIR
 if [ -d $NODE_MODULES_DIR ]; then
     echo "Deleting node_modules..."
     if rm -rf $NODE_MODULES_DIR; then
