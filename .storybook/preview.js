@@ -1,3 +1,4 @@
+require('loki/configure-react')
 /**
  * ES6 imports are not used because of sotryshots tests and jest not being able to load them.
  * It might be just a case of not good enough jest configuration.
