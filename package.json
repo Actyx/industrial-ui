@@ -1,6 +1,6 @@
 {
   "name": "@actyx/actyx-ui",
-  "version": "1.0.0-alpha.2",
+  "version": "1.0.0-alpha.3",
   "description": "Actyx UI - Simple, modular UI Components for Shop Floor Applications",
   "main": "./src/index.ts",
   "keywords": [
