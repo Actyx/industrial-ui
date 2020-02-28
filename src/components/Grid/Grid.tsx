@@ -27,7 +27,7 @@ const useStyles = createUseStyles({
   thead: {
     backgroundColor: theme.palette.common.white,
     '& tr': {
-      borderBottom: '1px solid #d6d6d6'
+      borderBottom: `1px solid ${theme.palette.grey[400]}`
     },
     '& tr > td': {
       padding: 10,
@@ -42,11 +42,11 @@ const useStyles = createUseStyles({
   },
   tbody: {
     '& tr:nth-of-type(odd)': {
-      backgroundColor: '#fafafa'
+      backgroundColor: theme.palette.grey[50]
     },
     '& tr': {
       cursor: 'pointer',
-      borderBottom: '1px solid #d6d6d6',
+      borderBottom: `1px solid ${theme.palette.grey[400]}`,
       fontSize: 20,
       height: 80
     },
