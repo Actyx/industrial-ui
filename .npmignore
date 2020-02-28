@@ -1,0 +1,17 @@
+*.json
+yarn.lock
+src
+coverage
+.prettierrc.json
+.travis.yml
+.vscode
+.nvmrc
+bin
+.idea
+*.iml
+tsconfig.json
+jest.config.js
+jest.setup.js
+.loki
+.storybook
+src/__tests__

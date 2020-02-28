@@ -30,7 +30,7 @@
     "widgets"
   ],
   "scripts": {
-    "clean": "rimraf ./dist ./coverage",
+    "clean": "rimraf ./lib ./coverage",
     "tsc": "tsc",
     "tsc:watch": "tsc --watch --pretty",
     "build": "tsc -p ./tsconfig.prod.json",
@@ -55,7 +55,7 @@
   "bugs": {
     "url": "https://github.com/Actyx/actyx-ui/issues"
   },
-  "homepage": "https://github.com/gibbok/actyx-ui-library#readme",
+  "homepage": "https://github.com/Actyx/actyx-ui#readme",
   "dependencies": {
     "classnames": "^2.2.6",
     "jss-preset-default": "^10.0.3",
