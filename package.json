@@ -35,7 +35,7 @@
     "tsc:watch": "tsc --watch --pretty",
     "build": "tsc -p ./tsconfig.prod.json",
     "build:watch": "npm run build -- --watch --pretty",
-    "build:prod": "npm run clean && npm run lint && npm run test && npm run build",
+    "build:prod": "npm run clean && npm run lint && npm run test && npm run build && cp -r src/assets lib/",
     "lint": "tsc & eslint './src/**/*.{js,ts,tsx}' & prettier './src/**/*.{js,ts,tsx}' --check",
     "lint:fix": "tsc & eslint './src/**/*.{js,ts,tsx}' --fix & prettier './src/**/*.{js,ts,tsx}' --write",
     "storybook": "start-storybook -p 6006",
