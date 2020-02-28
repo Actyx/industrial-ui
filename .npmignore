@@ -14,3 +14,4 @@ jest.config.js
 jest.setup.js
 .loki
 .storybook
+src/__tests__
