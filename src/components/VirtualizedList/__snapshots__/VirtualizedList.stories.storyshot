@@ -79,10 +79,10 @@ exports[`Storyshots Components/VirtualizedList Base 1`] = `
       measureRef={[Function]}
     >
       <div
-        className="ax-virtualized-list"
+        className="list-0-3-358"
       >
         <div
-          className="ax-virtualized-list-header"
+          className="listHeader-0-3-359"
         >
           <div
             style={
@@ -50195,10 +50195,10 @@ exports[`Storyshots Components/VirtualizedList Lots of data virtualized 1`] = `
       measureRef={[Function]}
     >
       <div
-        className="ax-virtualized-list"
+        className="list-0-3-358"
       >
         <div
-          className="ax-virtualized-list-header"
+          className="listHeader-0-3-359"
         >
           <div
             style={
@@ -50327,10 +50327,10 @@ exports[`Storyshots Components/VirtualizedList isRowSelected 1`] = `
       measureRef={[Function]}
     >
       <div
-        className="ax-virtualized-list"
+        className="list-0-3-358"
       >
         <div
-          className="ax-virtualized-list-header"
+          className="listHeader-0-3-359"
         >
           <div
             style={
@@ -50459,10 +50459,10 @@ exports[`Storyshots Components/VirtualizedList onRowSelect 1`] = `
       measureRef={[Function]}
     >
       <div
-        className="ax-virtualized-list"
+        className="list-0-3-358"
       >
         <div
-          className="ax-virtualized-list-header"
+          className="listHeader-0-3-359"
         >
           <div
             style={
@@ -50591,10 +50591,10 @@ exports[`Storyshots Components/VirtualizedList setRowClassName 1`] = `
       measureRef={[Function]}
     >
       <div
-        className="ax-virtualized-list"
+        className="list-0-3-358"
       >
         <div
-          className="ax-virtualized-list-header"
+          className="listHeader-0-3-359"
         >
           <div
             style={

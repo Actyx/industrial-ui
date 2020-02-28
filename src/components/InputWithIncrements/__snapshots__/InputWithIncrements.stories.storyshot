@@ -24,11 +24,11 @@ exports[`Storyshots Components/InputWithIncrements Base 1`] = `
     <InputWithIncrementsComp
       classes={
         Object {
-          "button": "InputWithIncrementsComp-button-0-3-161",
-          "buttons": "InputWithIncrementsComp-buttons-0-3-160",
-          "input": "InputWithIncrementsComp-input-0-3-162",
-          "inputs": "InputWithIncrementsComp-inputs-0-3-159",
-          "root": "InputWithIncrementsComp-root-0-3-158",
+          "button": "InputWithIncrementsComp-button-0-3-164",
+          "buttons": "InputWithIncrementsComp-buttons-0-3-163",
+          "input": "InputWithIncrementsComp-input-0-3-165",
+          "inputs": "InputWithIncrementsComp-inputs-0-3-162",
+          "root": "InputWithIncrementsComp-root-0-3-161",
         }
       }
       incrementMax={10}
@@ -37,15 +37,15 @@ exports[`Storyshots Components/InputWithIncrements Base 1`] = `
       onChange={[Function]}
     >
       <div
-        className="InputWithIncrementsComp-root-0-3-158"
+        className="InputWithIncrementsComp-root-0-3-161"
       >
         <div
-          className="InputWithIncrementsComp-inputs-0-3-159"
+          className="InputWithIncrementsComp-inputs-0-3-162"
         >
           <div>
             <Input
               blurOnEnter={true}
-              className="InputWithIncrementsComp-input-0-3-162"
+              className="InputWithIncrementsComp-input-0-3-165"
               error={false}
               fullWidth={true}
               onBlur={[Function]}
@@ -55,7 +55,7 @@ exports[`Storyshots Components/InputWithIncrements Base 1`] = `
             >
               <WithStyles(InputComp)
                 blurOnEnter={true}
-                className="InputWithIncrementsComp-input-0-3-162"
+                className="InputWithIncrementsComp-input-0-3-165"
                 error={false}
                 fullWidth={true}
                 innerRef={null}
@@ -73,7 +73,7 @@ exports[`Storyshots Components/InputWithIncrements Base 1`] = `
               >
                 <InputComp
                   blurOnEnter={true}
-                  className="InputWithIncrementsComp-input-0-3-162"
+                  className="InputWithIncrementsComp-input-0-3-165"
                   classes={
                     Object {
                       "error": "InputComp-error-0-3-107",
@@ -89,7 +89,7 @@ exports[`Storyshots Components/InputWithIncrements Base 1`] = `
                   value=""
                 >
                   <input
-                    className="InputWithIncrementsComp-input-0-3-162 InputComp-fullWidth-0-3-108 InputComp-root-0-3-106"
+                    className="InputWithIncrementsComp-input-0-3-165 InputComp-fullWidth-0-3-108 InputComp-root-0-3-106"
                     onBlur={[Function]}
                     onChange={[Function]}
                     onKeyDown={[Function]}
@@ -102,14 +102,14 @@ exports[`Storyshots Components/InputWithIncrements Base 1`] = `
           </div>
           <div>
             <Input
-              className="InputWithIncrementsComp-input-0-3-162"
+              className="InputWithIncrementsComp-input-0-3-165"
               fullWidth={true}
               readOnly={true}
               type="text"
               value=""
             >
               <WithStyles(InputComp)
-                className="InputWithIncrementsComp-input-0-3-162"
+                className="InputWithIncrementsComp-input-0-3-165"
                 fullWidth={true}
                 innerRef={null}
                 jssContext={
@@ -124,7 +124,7 @@ exports[`Storyshots Components/InputWithIncrements Base 1`] = `
                 value=""
               >
                 <InputComp
-                  className="InputWithIncrementsComp-input-0-3-162"
+                  className="InputWithIncrementsComp-input-0-3-165"
                   classes={
                     Object {
                       "error": "InputComp-error-0-3-107",
@@ -138,7 +138,7 @@ exports[`Storyshots Components/InputWithIncrements Base 1`] = `
                   value=""
                 >
                   <input
-                    className="InputWithIncrementsComp-input-0-3-162 InputComp-fullWidth-0-3-108 InputComp-root-0-3-106"
+                    className="InputWithIncrementsComp-input-0-3-165 InputComp-fullWidth-0-3-108 InputComp-root-0-3-106"
                     readOnly={true}
                     type="text"
                     value=""
@@ -149,16 +149,16 @@ exports[`Storyshots Components/InputWithIncrements Base 1`] = `
           </div>
         </div>
         <div
-          className="InputWithIncrementsComp-buttons-0-3-160"
+          className="InputWithIncrementsComp-buttons-0-3-163"
         >
           <ButtonCircular
-            className="InputWithIncrementsComp-button-0-3-161"
+            className="InputWithIncrementsComp-button-0-3-164"
             color="neutral"
             onSelect={[Function]}
             value="+1"
           >
             <WithStyles(ButtonCircularComp)
-              className="InputWithIncrementsComp-button-0-3-161"
+              className="InputWithIncrementsComp-button-0-3-164"
               color="neutral"
               innerRef={null}
               jssContext={
@@ -172,7 +172,7 @@ exports[`Storyshots Components/InputWithIncrements Base 1`] = `
               value="+1"
             >
               <ButtonCircularComp
-                className="InputWithIncrementsComp-button-0-3-161"
+                className="InputWithIncrementsComp-button-0-3-164"
                 classes={
                   Object {
                     "button": "ButtonCircularComp-button-0-3-53",
@@ -185,7 +185,7 @@ exports[`Storyshots Components/InputWithIncrements Base 1`] = `
                 value="+1"
               >
                 <div
-                  className="InputWithIncrementsComp-button-0-3-161 ButtonCircularComp-neutral-0-3-51"
+                  className="InputWithIncrementsComp-button-0-3-164 ButtonCircularComp-neutral-0-3-51"
                   onClick={[Function]}
                 >
                   <TouchRipple
@@ -269,13 +269,13 @@ exports[`Storyshots Components/InputWithIncrements Base 1`] = `
             </WithStyles(ButtonCircularComp)>
           </ButtonCircular>
           <ButtonCircular
-            className="InputWithIncrementsComp-button-0-3-161"
+            className="InputWithIncrementsComp-button-0-3-164"
             color="neutral"
             onSelect={[Function]}
             value="+5"
           >
             <WithStyles(ButtonCircularComp)
-              className="InputWithIncrementsComp-button-0-3-161"
+              className="InputWithIncrementsComp-button-0-3-164"
               color="neutral"
               innerRef={null}
               jssContext={
@@ -289,7 +289,7 @@ exports[`Storyshots Components/InputWithIncrements Base 1`] = `
               value="+5"
             >
               <ButtonCircularComp
-                className="InputWithIncrementsComp-button-0-3-161"
+                className="InputWithIncrementsComp-button-0-3-164"
                 classes={
                   Object {
                     "button": "ButtonCircularComp-button-0-3-53",
@@ -302,7 +302,7 @@ exports[`Storyshots Components/InputWithIncrements Base 1`] = `
                 value="+5"
               >
                 <div
-                  className="InputWithIncrementsComp-button-0-3-161 ButtonCircularComp-neutral-0-3-51"
+                  className="InputWithIncrementsComp-button-0-3-164 ButtonCircularComp-neutral-0-3-51"
                   onClick={[Function]}
                 >
                   <TouchRipple
@@ -386,13 +386,13 @@ exports[`Storyshots Components/InputWithIncrements Base 1`] = `
             </WithStyles(ButtonCircularComp)>
           </ButtonCircular>
           <ButtonCircular
-            className="InputWithIncrementsComp-button-0-3-161"
+            className="InputWithIncrementsComp-button-0-3-164"
             color="neutral"
             onSelect={[Function]}
             value="+10"
           >
             <WithStyles(ButtonCircularComp)
-              className="InputWithIncrementsComp-button-0-3-161"
+              className="InputWithIncrementsComp-button-0-3-164"
               color="neutral"
               innerRef={null}
               jssContext={
@@ -406,7 +406,7 @@ exports[`Storyshots Components/InputWithIncrements Base 1`] = `
               value="+10"
             >
               <ButtonCircularComp
-                className="InputWithIncrementsComp-button-0-3-161"
+                className="InputWithIncrementsComp-button-0-3-164"
                 classes={
                   Object {
                     "button": "ButtonCircularComp-button-0-3-53",
@@ -419,7 +419,7 @@ exports[`Storyshots Components/InputWithIncrements Base 1`] = `
                 value="+10"
               >
                 <div
-                  className="InputWithIncrementsComp-button-0-3-161 ButtonCircularComp-neutral-0-3-51"
+                  className="InputWithIncrementsComp-button-0-3-164 ButtonCircularComp-neutral-0-3-51"
                   onClick={[Function]}
                 >
                   <TouchRipple
@@ -536,11 +536,11 @@ exports[`Storyshots Components/InputWithIncrements Calculation delay 1`] = `
       calculationDelay={4000}
       classes={
         Object {
-          "button": "InputWithIncrementsComp-button-0-3-161",
-          "buttons": "InputWithIncrementsComp-buttons-0-3-160",
-          "input": "InputWithIncrementsComp-input-0-3-162",
-          "inputs": "InputWithIncrementsComp-inputs-0-3-159",
-          "root": "InputWithIncrementsComp-root-0-3-158",
+          "button": "InputWithIncrementsComp-button-0-3-164",
+          "buttons": "InputWithIncrementsComp-buttons-0-3-163",
+          "input": "InputWithIncrementsComp-input-0-3-165",
+          "inputs": "InputWithIncrementsComp-inputs-0-3-162",
+          "root": "InputWithIncrementsComp-root-0-3-161",
         }
       }
       incrementMax={100}
@@ -549,15 +549,15 @@ exports[`Storyshots Components/InputWithIncrements Calculation delay 1`] = `
       onChange={[Function]}
     >
       <div
-        className="InputWithIncrementsComp-root-0-3-158"
+        className="InputWithIncrementsComp-root-0-3-161"
       >
         <div
-          className="InputWithIncrementsComp-inputs-0-3-159"
+          className="InputWithIncrementsComp-inputs-0-3-162"
         >
           <div>
             <Input
               blurOnEnter={true}
-              className="InputWithIncrementsComp-input-0-3-162"
+              className="InputWithIncrementsComp-input-0-3-165"
               error={false}
               fullWidth={true}
               onBlur={[Function]}
@@ -567,7 +567,7 @@ exports[`Storyshots Components/InputWithIncrements Calculation delay 1`] = `
             >
               <WithStyles(InputComp)
                 blurOnEnter={true}
-                className="InputWithIncrementsComp-input-0-3-162"
+                className="InputWithIncrementsComp-input-0-3-165"
                 error={false}
                 fullWidth={true}
                 innerRef={null}
@@ -585,7 +585,7 @@ exports[`Storyshots Components/InputWithIncrements Calculation delay 1`] = `
               >
                 <InputComp
                   blurOnEnter={true}
-                  className="InputWithIncrementsComp-input-0-3-162"
+                  className="InputWithIncrementsComp-input-0-3-165"
                   classes={
                     Object {
                       "error": "InputComp-error-0-3-107",
@@ -601,7 +601,7 @@ exports[`Storyshots Components/InputWithIncrements Calculation delay 1`] = `
                   value=""
                 >
                   <input
-                    className="InputWithIncrementsComp-input-0-3-162 InputComp-fullWidth-0-3-108 InputComp-root-0-3-106"
+                    className="InputWithIncrementsComp-input-0-3-165 InputComp-fullWidth-0-3-108 InputComp-root-0-3-106"
                     onBlur={[Function]}
                     onChange={[Function]}
                     onKeyDown={[Function]}
@@ -614,14 +614,14 @@ exports[`Storyshots Components/InputWithIncrements Calculation delay 1`] = `
           </div>
           <div>
             <Input
-              className="InputWithIncrementsComp-input-0-3-162"
+              className="InputWithIncrementsComp-input-0-3-165"
               fullWidth={true}
               readOnly={true}
               type="text"
               value=""
             >
               <WithStyles(InputComp)
-                className="InputWithIncrementsComp-input-0-3-162"
+                className="InputWithIncrementsComp-input-0-3-165"
                 fullWidth={true}
                 innerRef={null}
                 jssContext={
@@ -636,7 +636,7 @@ exports[`Storyshots Components/InputWithIncrements Calculation delay 1`] = `
                 value=""
               >
                 <InputComp
-                  className="InputWithIncrementsComp-input-0-3-162"
+                  className="InputWithIncrementsComp-input-0-3-165"
                   classes={
                     Object {
                       "error": "InputComp-error-0-3-107",
@@ -650,7 +650,7 @@ exports[`Storyshots Components/InputWithIncrements Calculation delay 1`] = `
                   value=""
                 >
                   <input
-                    className="InputWithIncrementsComp-input-0-3-162 InputComp-fullWidth-0-3-108 InputComp-root-0-3-106"
+                    className="InputWithIncrementsComp-input-0-3-165 InputComp-fullWidth-0-3-108 InputComp-root-0-3-106"
                     readOnly={true}
                     type="text"
                     value=""
@@ -661,16 +661,16 @@ exports[`Storyshots Components/InputWithIncrements Calculation delay 1`] = `
           </div>
         </div>
         <div
-          className="InputWithIncrementsComp-buttons-0-3-160"
+          className="InputWithIncrementsComp-buttons-0-3-163"
         >
           <ButtonCircular
-            className="InputWithIncrementsComp-button-0-3-161"
+            className="InputWithIncrementsComp-button-0-3-164"
             color="neutral"
             onSelect={[Function]}
             value="+1"
           >
             <WithStyles(ButtonCircularComp)
-              className="InputWithIncrementsComp-button-0-3-161"
+              className="InputWithIncrementsComp-button-0-3-164"
               color="neutral"
               innerRef={null}
               jssContext={
@@ -684,7 +684,7 @@ exports[`Storyshots Components/InputWithIncrements Calculation delay 1`] = `
               value="+1"
             >
               <ButtonCircularComp
-                className="InputWithIncrementsComp-button-0-3-161"
+                className="InputWithIncrementsComp-button-0-3-164"
                 classes={
                   Object {
                     "button": "ButtonCircularComp-button-0-3-53",
@@ -697,7 +697,7 @@ exports[`Storyshots Components/InputWithIncrements Calculation delay 1`] = `
                 value="+1"
               >
                 <div
-                  className="InputWithIncrementsComp-button-0-3-161 ButtonCircularComp-neutral-0-3-51"
+                  className="InputWithIncrementsComp-button-0-3-164 ButtonCircularComp-neutral-0-3-51"
                   onClick={[Function]}
                 >
                   <TouchRipple
@@ -781,13 +781,13 @@ exports[`Storyshots Components/InputWithIncrements Calculation delay 1`] = `
             </WithStyles(ButtonCircularComp)>
           </ButtonCircular>
           <ButtonCircular
-            className="InputWithIncrementsComp-button-0-3-161"
+            className="InputWithIncrementsComp-button-0-3-164"
             color="neutral"
             onSelect={[Function]}
             value="+10"
           >
             <WithStyles(ButtonCircularComp)
-              className="InputWithIncrementsComp-button-0-3-161"
+              className="InputWithIncrementsComp-button-0-3-164"
               color="neutral"
               innerRef={null}
               jssContext={
@@ -801,7 +801,7 @@ exports[`Storyshots Components/InputWithIncrements Calculation delay 1`] = `
               value="+10"
             >
               <ButtonCircularComp
-                className="InputWithIncrementsComp-button-0-3-161"
+                className="InputWithIncrementsComp-button-0-3-164"
                 classes={
                   Object {
                     "button": "ButtonCircularComp-button-0-3-53",
@@ -814,7 +814,7 @@ exports[`Storyshots Components/InputWithIncrements Calculation delay 1`] = `
                 value="+10"
               >
                 <div
-                  className="InputWithIncrementsComp-button-0-3-161 ButtonCircularComp-neutral-0-3-51"
+                  className="InputWithIncrementsComp-button-0-3-164 ButtonCircularComp-neutral-0-3-51"
                   onClick={[Function]}
                 >
                   <TouchRipple
@@ -898,13 +898,13 @@ exports[`Storyshots Components/InputWithIncrements Calculation delay 1`] = `
             </WithStyles(ButtonCircularComp)>
           </ButtonCircular>
           <ButtonCircular
-            className="InputWithIncrementsComp-button-0-3-161"
+            className="InputWithIncrementsComp-button-0-3-164"
             color="neutral"
             onSelect={[Function]}
             value="+100"
           >
             <WithStyles(ButtonCircularComp)
-              className="InputWithIncrementsComp-button-0-3-161"
+              className="InputWithIncrementsComp-button-0-3-164"
               color="neutral"
               innerRef={null}
               jssContext={
@@ -918,7 +918,7 @@ exports[`Storyshots Components/InputWithIncrements Calculation delay 1`] = `
               value="+100"
             >
               <ButtonCircularComp
-                className="InputWithIncrementsComp-button-0-3-161"
+                className="InputWithIncrementsComp-button-0-3-164"
                 classes={
                   Object {
                     "button": "ButtonCircularComp-button-0-3-53",
@@ -931,7 +931,7 @@ exports[`Storyshots Components/InputWithIncrements Calculation delay 1`] = `
                 value="+100"
               >
                 <div
-                  className="InputWithIncrementsComp-button-0-3-161 ButtonCircularComp-neutral-0-3-51"
+                  className="InputWithIncrementsComp-button-0-3-164 ButtonCircularComp-neutral-0-3-51"
                   onClick={[Function]}
                 >
                   <TouchRipple
@@ -1047,11 +1047,11 @@ exports[`Storyshots Components/InputWithIncrements Default value 1`] = `
     <InputWithIncrementsComp
       classes={
         Object {
-          "button": "InputWithIncrementsComp-button-0-3-161",
-          "buttons": "InputWithIncrementsComp-buttons-0-3-160",
-          "input": "InputWithIncrementsComp-input-0-3-162",
-          "inputs": "InputWithIncrementsComp-inputs-0-3-159",
-          "root": "InputWithIncrementsComp-root-0-3-158",
+          "button": "InputWithIncrementsComp-button-0-3-164",
+          "buttons": "InputWithIncrementsComp-buttons-0-3-163",
+          "input": "InputWithIncrementsComp-input-0-3-165",
+          "inputs": "InputWithIncrementsComp-inputs-0-3-162",
+          "root": "InputWithIncrementsComp-root-0-3-161",
         }
       }
       defaultValue={20}
@@ -1061,15 +1061,15 @@ exports[`Storyshots Components/InputWithIncrements Default value 1`] = `
       onChange={[Function]}
     >
       <div
-        className="InputWithIncrementsComp-root-0-3-158"
+        className="InputWithIncrementsComp-root-0-3-161"
       >
         <div
-          className="InputWithIncrementsComp-inputs-0-3-159"
+          className="InputWithIncrementsComp-inputs-0-3-162"
         >
           <div>
             <Input
               blurOnEnter={true}
-              className="InputWithIncrementsComp-input-0-3-162"
+              className="InputWithIncrementsComp-input-0-3-165"
               error={false}
               fullWidth={true}
               onBlur={[Function]}
@@ -1079,7 +1079,7 @@ exports[`Storyshots Components/InputWithIncrements Default value 1`] = `
             >
               <WithStyles(InputComp)
                 blurOnEnter={true}
-                className="InputWithIncrementsComp-input-0-3-162"
+                className="InputWithIncrementsComp-input-0-3-165"
                 error={false}
                 fullWidth={true}
                 innerRef={null}
@@ -1097,7 +1097,7 @@ exports[`Storyshots Components/InputWithIncrements Default value 1`] = `
               >
                 <InputComp
                   blurOnEnter={true}
-                  className="InputWithIncrementsComp-input-0-3-162"
+                  className="InputWithIncrementsComp-input-0-3-165"
                   classes={
                     Object {
                       "error": "InputComp-error-0-3-107",
@@ -1113,7 +1113,7 @@ exports[`Storyshots Components/InputWithIncrements Default value 1`] = `
                   value="20"
                 >
                   <input
-                    className="InputWithIncrementsComp-input-0-3-162 InputComp-fullWidth-0-3-108 InputComp-root-0-3-106"
+                    className="InputWithIncrementsComp-input-0-3-165 InputComp-fullWidth-0-3-108 InputComp-root-0-3-106"
                     onBlur={[Function]}
                     onChange={[Function]}
                     onKeyDown={[Function]}
@@ -1126,14 +1126,14 @@ exports[`Storyshots Components/InputWithIncrements Default value 1`] = `
           </div>
           <div>
             <Input
-              className="InputWithIncrementsComp-input-0-3-162"
+              className="InputWithIncrementsComp-input-0-3-165"
               fullWidth={true}
               readOnly={true}
               type="text"
               value=""
             >
               <WithStyles(InputComp)
-                className="InputWithIncrementsComp-input-0-3-162"
+                className="InputWithIncrementsComp-input-0-3-165"
                 fullWidth={true}
                 innerRef={null}
                 jssContext={
@@ -1148,7 +1148,7 @@ exports[`Storyshots Components/InputWithIncrements Default value 1`] = `
                 value=""
               >
                 <InputComp
-                  className="InputWithIncrementsComp-input-0-3-162"
+                  className="InputWithIncrementsComp-input-0-3-165"
                   classes={
                     Object {
                       "error": "InputComp-error-0-3-107",
@@ -1162,7 +1162,7 @@ exports[`Storyshots Components/InputWithIncrements Default value 1`] = `
                   value=""
                 >
                   <input
-                    className="InputWithIncrementsComp-input-0-3-162 InputComp-fullWidth-0-3-108 InputComp-root-0-3-106"
+                    className="InputWithIncrementsComp-input-0-3-165 InputComp-fullWidth-0-3-108 InputComp-root-0-3-106"
                     readOnly={true}
                     type="text"
                     value=""
@@ -1173,16 +1173,16 @@ exports[`Storyshots Components/InputWithIncrements Default value 1`] = `
           </div>
         </div>
         <div
-          className="InputWithIncrementsComp-buttons-0-3-160"
+          className="InputWithIncrementsComp-buttons-0-3-163"
         >
           <ButtonCircular
-            className="InputWithIncrementsComp-button-0-3-161"
+            className="InputWithIncrementsComp-button-0-3-164"
             color="neutral"
             onSelect={[Function]}
             value="+1"
           >
             <WithStyles(ButtonCircularComp)
-              className="InputWithIncrementsComp-button-0-3-161"
+              className="InputWithIncrementsComp-button-0-3-164"
               color="neutral"
               innerRef={null}
               jssContext={
@@ -1196,7 +1196,7 @@ exports[`Storyshots Components/InputWithIncrements Default value 1`] = `
               value="+1"
             >
               <ButtonCircularComp
-                className="InputWithIncrementsComp-button-0-3-161"
+                className="InputWithIncrementsComp-button-0-3-164"
                 classes={
                   Object {
                     "button": "ButtonCircularComp-button-0-3-53",
@@ -1209,7 +1209,7 @@ exports[`Storyshots Components/InputWithIncrements Default value 1`] = `
                 value="+1"
               >
                 <div
-                  className="InputWithIncrementsComp-button-0-3-161 ButtonCircularComp-neutral-0-3-51"
+                  className="InputWithIncrementsComp-button-0-3-164 ButtonCircularComp-neutral-0-3-51"
                   onClick={[Function]}
                 >
                   <TouchRipple
@@ -1293,13 +1293,13 @@ exports[`Storyshots Components/InputWithIncrements Default value 1`] = `
             </WithStyles(ButtonCircularComp)>
           </ButtonCircular>
           <ButtonCircular
-            className="InputWithIncrementsComp-button-0-3-161"
+            className="InputWithIncrementsComp-button-0-3-164"
             color="neutral"
             onSelect={[Function]}
             value="+5"
           >
             <WithStyles(ButtonCircularComp)
-              className="InputWithIncrementsComp-button-0-3-161"
+              className="InputWithIncrementsComp-button-0-3-164"
               color="neutral"
               innerRef={null}
               jssContext={
@@ -1313,7 +1313,7 @@ exports[`Storyshots Components/InputWithIncrements Default value 1`] = `
               value="+5"
             >
               <ButtonCircularComp
-                className="InputWithIncrementsComp-button-0-3-161"
+                className="InputWithIncrementsComp-button-0-3-164"
                 classes={
                   Object {
                     "button": "ButtonCircularComp-button-0-3-53",
@@ -1326,7 +1326,7 @@ exports[`Storyshots Components/InputWithIncrements Default value 1`] = `
                 value="+5"
               >
                 <div
-                  className="InputWithIncrementsComp-button-0-3-161 ButtonCircularComp-neutral-0-3-51"
+                  className="InputWithIncrementsComp-button-0-3-164 ButtonCircularComp-neutral-0-3-51"
                   onClick={[Function]}
                 >
                   <TouchRipple
@@ -1410,13 +1410,13 @@ exports[`Storyshots Components/InputWithIncrements Default value 1`] = `
             </WithStyles(ButtonCircularComp)>
           </ButtonCircular>
           <ButtonCircular
-            className="InputWithIncrementsComp-button-0-3-161"
+            className="InputWithIncrementsComp-button-0-3-164"
             color="neutral"
             onSelect={[Function]}
             value="+10"
           >
             <WithStyles(ButtonCircularComp)
-              className="InputWithIncrementsComp-button-0-3-161"
+              className="InputWithIncrementsComp-button-0-3-164"
               color="neutral"
               innerRef={null}
               jssContext={
@@ -1430,7 +1430,7 @@ exports[`Storyshots Components/InputWithIncrements Default value 1`] = `
               value="+10"
             >
               <ButtonCircularComp
-                className="InputWithIncrementsComp-button-0-3-161"
+                className="InputWithIncrementsComp-button-0-3-164"
                 classes={
                   Object {
                     "button": "ButtonCircularComp-button-0-3-53",
@@ -1443,7 +1443,7 @@ exports[`Storyshots Components/InputWithIncrements Default value 1`] = `
                 value="+10"
               >
                 <div
-                  className="InputWithIncrementsComp-button-0-3-161 ButtonCircularComp-neutral-0-3-51"
+                  className="InputWithIncrementsComp-button-0-3-164 ButtonCircularComp-neutral-0-3-51"
                   onClick={[Function]}
                 >
                   <TouchRipple

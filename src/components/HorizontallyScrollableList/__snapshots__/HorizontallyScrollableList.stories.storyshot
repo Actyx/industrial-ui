@@ -84,9 +84,9 @@ exports[`Storyshots Components/HorizontallyScrollableList Base 1`] = `
     <HorizontallyScrollableListComp
       classes={
         Object {
-          "item": "HorizontallyScrollableListComp-item-0-3-153",
-          "itemContainer": "HorizontallyScrollableListComp-itemContainer-0-3-152",
-          "root": "HorizontallyScrollableListComp-root-0-3-151",
+          "item": "HorizontallyScrollableListComp-item-0-3-156",
+          "itemContainer": "HorizontallyScrollableListComp-itemContainer-0-3-155",
+          "root": "HorizontallyScrollableListComp-root-0-3-154",
         }
       }
       items={
@@ -125,7 +125,7 @@ exports[`Storyshots Components/HorizontallyScrollableList Base 1`] = `
       rows={3}
     >
       <div
-        className="HorizontallyScrollableListComp-root-0-3-151"
+        className="HorizontallyScrollableListComp-root-0-3-154"
       >
         <table>
           <tbody>
@@ -142,10 +142,10 @@ exports[`Storyshots Components/HorizontallyScrollableList Base 1`] = `
                 }
               >
                 <TouchRipple
-                  className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                  className="HorizontallyScrollableListComp-itemContainer-0-3-155"
                 >
                   <WithStyles(TouchRippleComp)
-                    className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                    className="HorizontallyScrollableListComp-itemContainer-0-3-155"
                     innerRef={null}
                     jssContext={
                       Object {
@@ -156,7 +156,7 @@ exports[`Storyshots Components/HorizontallyScrollableList Base 1`] = `
                     theme={Object {}}
                   >
                     <TouchRippleComp
-                      className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                      className="HorizontallyScrollableListComp-itemContainer-0-3-155"
                       classes={
                         Object {
                           "disabled": "TouchRippleComp-disabled-0-3-34",
@@ -165,10 +165,10 @@ exports[`Storyshots Components/HorizontallyScrollableList Base 1`] = `
                       }
                     >
                       <div
-                        className="HorizontallyScrollableListComp-itemContainer-0-3-152 TouchRippleComp-root-0-3-33"
+                        className="HorizontallyScrollableListComp-itemContainer-0-3-155 TouchRippleComp-root-0-3-33"
                       >
                         <div
-                          className="HorizontallyScrollableListComp-item-0-3-153"
+                          className="HorizontallyScrollableListComp-item-0-3-156"
                         >
                           <Typography
                             textTransform="uppercase"
@@ -232,10 +232,10 @@ exports[`Storyshots Components/HorizontallyScrollableList Base 1`] = `
                 }
               >
                 <TouchRipple
-                  className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                  className="HorizontallyScrollableListComp-itemContainer-0-3-155"
                 >
                   <WithStyles(TouchRippleComp)
-                    className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                    className="HorizontallyScrollableListComp-itemContainer-0-3-155"
                     innerRef={null}
                     jssContext={
                       Object {
@@ -246,7 +246,7 @@ exports[`Storyshots Components/HorizontallyScrollableList Base 1`] = `
                     theme={Object {}}
                   >
                     <TouchRippleComp
-                      className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                      className="HorizontallyScrollableListComp-itemContainer-0-3-155"
                       classes={
                         Object {
                           "disabled": "TouchRippleComp-disabled-0-3-34",
@@ -255,10 +255,10 @@ exports[`Storyshots Components/HorizontallyScrollableList Base 1`] = `
                       }
                     >
                       <div
-                        className="HorizontallyScrollableListComp-itemContainer-0-3-152 TouchRippleComp-root-0-3-33"
+                        className="HorizontallyScrollableListComp-itemContainer-0-3-155 TouchRippleComp-root-0-3-33"
                       >
                         <div
-                          className="HorizontallyScrollableListComp-item-0-3-153"
+                          className="HorizontallyScrollableListComp-item-0-3-156"
                         >
                           <Typography
                             textTransform="uppercase"
@@ -322,10 +322,10 @@ exports[`Storyshots Components/HorizontallyScrollableList Base 1`] = `
                 }
               >
                 <TouchRipple
-                  className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                  className="HorizontallyScrollableListComp-itemContainer-0-3-155"
                 >
                   <WithStyles(TouchRippleComp)
-                    className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                    className="HorizontallyScrollableListComp-itemContainer-0-3-155"
                     innerRef={null}
                     jssContext={
                       Object {
@@ -336,7 +336,7 @@ exports[`Storyshots Components/HorizontallyScrollableList Base 1`] = `
                     theme={Object {}}
                   >
                     <TouchRippleComp
-                      className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                      className="HorizontallyScrollableListComp-itemContainer-0-3-155"
                       classes={
                         Object {
                           "disabled": "TouchRippleComp-disabled-0-3-34",
@@ -345,10 +345,10 @@ exports[`Storyshots Components/HorizontallyScrollableList Base 1`] = `
                       }
                     >
                       <div
-                        className="HorizontallyScrollableListComp-itemContainer-0-3-152 TouchRippleComp-root-0-3-33"
+                        className="HorizontallyScrollableListComp-itemContainer-0-3-155 TouchRippleComp-root-0-3-33"
                       >
                         <div
-                          className="HorizontallyScrollableListComp-item-0-3-153"
+                          className="HorizontallyScrollableListComp-item-0-3-156"
                         >
                           <Typography
                             textTransform="uppercase"
@@ -416,10 +416,10 @@ exports[`Storyshots Components/HorizontallyScrollableList Base 1`] = `
                 }
               >
                 <TouchRipple
-                  className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                  className="HorizontallyScrollableListComp-itemContainer-0-3-155"
                 >
                   <WithStyles(TouchRippleComp)
-                    className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                    className="HorizontallyScrollableListComp-itemContainer-0-3-155"
                     innerRef={null}
                     jssContext={
                       Object {
@@ -430,7 +430,7 @@ exports[`Storyshots Components/HorizontallyScrollableList Base 1`] = `
                     theme={Object {}}
                   >
                     <TouchRippleComp
-                      className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                      className="HorizontallyScrollableListComp-itemContainer-0-3-155"
                       classes={
                         Object {
                           "disabled": "TouchRippleComp-disabled-0-3-34",
@@ -439,10 +439,10 @@ exports[`Storyshots Components/HorizontallyScrollableList Base 1`] = `
                       }
                     >
                       <div
-                        className="HorizontallyScrollableListComp-itemContainer-0-3-152 TouchRippleComp-root-0-3-33"
+                        className="HorizontallyScrollableListComp-itemContainer-0-3-155 TouchRippleComp-root-0-3-33"
                       >
                         <div
-                          className="HorizontallyScrollableListComp-item-0-3-153"
+                          className="HorizontallyScrollableListComp-item-0-3-156"
                         >
                           <Typography
                             textTransform="uppercase"
@@ -506,10 +506,10 @@ exports[`Storyshots Components/HorizontallyScrollableList Base 1`] = `
                 }
               >
                 <TouchRipple
-                  className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                  className="HorizontallyScrollableListComp-itemContainer-0-3-155"
                 >
                   <WithStyles(TouchRippleComp)
-                    className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                    className="HorizontallyScrollableListComp-itemContainer-0-3-155"
                     innerRef={null}
                     jssContext={
                       Object {
@@ -520,7 +520,7 @@ exports[`Storyshots Components/HorizontallyScrollableList Base 1`] = `
                     theme={Object {}}
                   >
                     <TouchRippleComp
-                      className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                      className="HorizontallyScrollableListComp-itemContainer-0-3-155"
                       classes={
                         Object {
                           "disabled": "TouchRippleComp-disabled-0-3-34",
@@ -529,10 +529,10 @@ exports[`Storyshots Components/HorizontallyScrollableList Base 1`] = `
                       }
                     >
                       <div
-                        className="HorizontallyScrollableListComp-itemContainer-0-3-152 TouchRippleComp-root-0-3-33"
+                        className="HorizontallyScrollableListComp-itemContainer-0-3-155 TouchRippleComp-root-0-3-33"
                       >
                         <div
-                          className="HorizontallyScrollableListComp-item-0-3-153"
+                          className="HorizontallyScrollableListComp-item-0-3-156"
                         >
                           <Typography
                             textTransform="uppercase"
@@ -608,10 +608,10 @@ exports[`Storyshots Components/HorizontallyScrollableList Base 1`] = `
                 }
               >
                 <TouchRipple
-                  className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                  className="HorizontallyScrollableListComp-itemContainer-0-3-155"
                 >
                   <WithStyles(TouchRippleComp)
-                    className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                    className="HorizontallyScrollableListComp-itemContainer-0-3-155"
                     innerRef={null}
                     jssContext={
                       Object {
@@ -622,7 +622,7 @@ exports[`Storyshots Components/HorizontallyScrollableList Base 1`] = `
                     theme={Object {}}
                   >
                     <TouchRippleComp
-                      className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                      className="HorizontallyScrollableListComp-itemContainer-0-3-155"
                       classes={
                         Object {
                           "disabled": "TouchRippleComp-disabled-0-3-34",
@@ -631,10 +631,10 @@ exports[`Storyshots Components/HorizontallyScrollableList Base 1`] = `
                       }
                     >
                       <div
-                        className="HorizontallyScrollableListComp-itemContainer-0-3-152 TouchRippleComp-root-0-3-33"
+                        className="HorizontallyScrollableListComp-itemContainer-0-3-155 TouchRippleComp-root-0-3-33"
                       >
                         <div
-                          className="HorizontallyScrollableListComp-item-0-3-153"
+                          className="HorizontallyScrollableListComp-item-0-3-156"
                         >
                           <Typography
                             textTransform="uppercase"
@@ -698,10 +698,10 @@ exports[`Storyshots Components/HorizontallyScrollableList Base 1`] = `
                 }
               >
                 <TouchRipple
-                  className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                  className="HorizontallyScrollableListComp-itemContainer-0-3-155"
                 >
                   <WithStyles(TouchRippleComp)
-                    className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                    className="HorizontallyScrollableListComp-itemContainer-0-3-155"
                     innerRef={null}
                     jssContext={
                       Object {
@@ -712,7 +712,7 @@ exports[`Storyshots Components/HorizontallyScrollableList Base 1`] = `
                     theme={Object {}}
                   >
                     <TouchRippleComp
-                      className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                      className="HorizontallyScrollableListComp-itemContainer-0-3-155"
                       classes={
                         Object {
                           "disabled": "TouchRippleComp-disabled-0-3-34",
@@ -721,10 +721,10 @@ exports[`Storyshots Components/HorizontallyScrollableList Base 1`] = `
                       }
                     >
                       <div
-                        className="HorizontallyScrollableListComp-itemContainer-0-3-152 TouchRippleComp-root-0-3-33"
+                        className="HorizontallyScrollableListComp-itemContainer-0-3-155 TouchRippleComp-root-0-3-33"
                       >
                         <div
-                          className="HorizontallyScrollableListComp-item-0-3-153"
+                          className="HorizontallyScrollableListComp-item-0-3-156"
                         >
                           <Typography
                             textTransform="uppercase"
@@ -847,9 +847,9 @@ exports[`Storyshots Components/HorizontallyScrollableList Long text 1`] = `
     <HorizontallyScrollableListComp
       classes={
         Object {
-          "item": "HorizontallyScrollableListComp-item-0-3-153",
-          "itemContainer": "HorizontallyScrollableListComp-itemContainer-0-3-152",
-          "root": "HorizontallyScrollableListComp-root-0-3-151",
+          "item": "HorizontallyScrollableListComp-item-0-3-156",
+          "itemContainer": "HorizontallyScrollableListComp-itemContainer-0-3-155",
+          "root": "HorizontallyScrollableListComp-root-0-3-154",
         }
       }
       items={
@@ -872,7 +872,7 @@ exports[`Storyshots Components/HorizontallyScrollableList Long text 1`] = `
       rows={2}
     >
       <div
-        className="HorizontallyScrollableListComp-root-0-3-151"
+        className="HorizontallyScrollableListComp-root-0-3-154"
       >
         <table>
           <tbody>
@@ -889,10 +889,10 @@ exports[`Storyshots Components/HorizontallyScrollableList Long text 1`] = `
                 }
               >
                 <TouchRipple
-                  className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                  className="HorizontallyScrollableListComp-itemContainer-0-3-155"
                 >
                   <WithStyles(TouchRippleComp)
-                    className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                    className="HorizontallyScrollableListComp-itemContainer-0-3-155"
                     innerRef={null}
                     jssContext={
                       Object {
@@ -903,7 +903,7 @@ exports[`Storyshots Components/HorizontallyScrollableList Long text 1`] = `
                     theme={Object {}}
                   >
                     <TouchRippleComp
-                      className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                      className="HorizontallyScrollableListComp-itemContainer-0-3-155"
                       classes={
                         Object {
                           "disabled": "TouchRippleComp-disabled-0-3-34",
@@ -912,10 +912,10 @@ exports[`Storyshots Components/HorizontallyScrollableList Long text 1`] = `
                       }
                     >
                       <div
-                        className="HorizontallyScrollableListComp-itemContainer-0-3-152 TouchRippleComp-root-0-3-33"
+                        className="HorizontallyScrollableListComp-itemContainer-0-3-155 TouchRippleComp-root-0-3-33"
                       >
                         <div
-                          className="HorizontallyScrollableListComp-item-0-3-153"
+                          className="HorizontallyScrollableListComp-item-0-3-156"
                         >
                           <Typography
                             textTransform="uppercase"
@@ -979,10 +979,10 @@ exports[`Storyshots Components/HorizontallyScrollableList Long text 1`] = `
                 }
               >
                 <TouchRipple
-                  className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                  className="HorizontallyScrollableListComp-itemContainer-0-3-155"
                 >
                   <WithStyles(TouchRippleComp)
-                    className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                    className="HorizontallyScrollableListComp-itemContainer-0-3-155"
                     innerRef={null}
                     jssContext={
                       Object {
@@ -993,7 +993,7 @@ exports[`Storyshots Components/HorizontallyScrollableList Long text 1`] = `
                     theme={Object {}}
                   >
                     <TouchRippleComp
-                      className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                      className="HorizontallyScrollableListComp-itemContainer-0-3-155"
                       classes={
                         Object {
                           "disabled": "TouchRippleComp-disabled-0-3-34",
@@ -1002,10 +1002,10 @@ exports[`Storyshots Components/HorizontallyScrollableList Long text 1`] = `
                       }
                     >
                       <div
-                        className="HorizontallyScrollableListComp-itemContainer-0-3-152 TouchRippleComp-root-0-3-33"
+                        className="HorizontallyScrollableListComp-itemContainer-0-3-155 TouchRippleComp-root-0-3-33"
                       >
                         <div
-                          className="HorizontallyScrollableListComp-item-0-3-153"
+                          className="HorizontallyScrollableListComp-item-0-3-156"
                         >
                           <Typography
                             textTransform="uppercase"
@@ -1073,10 +1073,10 @@ exports[`Storyshots Components/HorizontallyScrollableList Long text 1`] = `
                 }
               >
                 <TouchRipple
-                  className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                  className="HorizontallyScrollableListComp-itemContainer-0-3-155"
                 >
                   <WithStyles(TouchRippleComp)
-                    className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                    className="HorizontallyScrollableListComp-itemContainer-0-3-155"
                     innerRef={null}
                     jssContext={
                       Object {
@@ -1087,7 +1087,7 @@ exports[`Storyshots Components/HorizontallyScrollableList Long text 1`] = `
                     theme={Object {}}
                   >
                     <TouchRippleComp
-                      className="HorizontallyScrollableListComp-itemContainer-0-3-152"
+                      className="HorizontallyScrollableListComp-itemContainer-0-3-155"
                       classes={
                         Object {
                           "disabled": "TouchRippleComp-disabled-0-3-34",
@@ -1096,10 +1096,10 @@ exports[`Storyshots Components/HorizontallyScrollableList Long text 1`] = `
                       }
                     >
                       <div
-                        className="HorizontallyScrollableListComp-itemContainer-0-3-152 TouchRippleComp-root-0-3-33"
+                        className="HorizontallyScrollableListComp-itemContainer-0-3-155 TouchRippleComp-root-0-3-33"
                       >
                         <div
-                          className="HorizontallyScrollableListComp-item-0-3-153"
+                          className="HorizontallyScrollableListComp-item-0-3-156"
                         >
                           <Typography
                             textTransform="uppercase"

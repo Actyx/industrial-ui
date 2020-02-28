@@ -20,24 +20,24 @@ exports[`Storyshots Components/SignalNotification Long text 1`] = `
     <SignalNotificationComp
       classes={
         Object {
-          "content": "SignalNotificationComp-content-0-3-265",
-          "divider": "SignalNotificationComp-divider-0-3-264",
-          "icon": "SignalNotificationComp-icon-0-3-266",
-          "root": "SignalNotificationComp-root-0-3-263",
-          "text": "SignalNotificationComp-text-0-3-267",
+          "content": "SignalNotificationComp-content-0-3-268",
+          "divider": "SignalNotificationComp-divider-0-3-267",
+          "icon": "SignalNotificationComp-icon-0-3-269",
+          "root": "SignalNotificationComp-root-0-3-266",
+          "text": "SignalNotificationComp-text-0-3-270",
         }
       }
       icon="warning"
       text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
     >
       <div
-        className="SignalNotificationComp-root-0-3-263"
+        className="SignalNotificationComp-root-0-3-266"
       >
         <Divider
-          className="SignalNotificationComp-divider-0-3-264"
+          className="SignalNotificationComp-divider-0-3-267"
         >
           <WithStyles(DividerComp)
-            className="SignalNotificationComp-divider-0-3-264"
+            className="SignalNotificationComp-divider-0-3-267"
             innerRef={null}
             jssContext={
               Object {
@@ -48,7 +48,7 @@ exports[`Storyshots Components/SignalNotification Long text 1`] = `
             theme={Object {}}
           >
             <DividerComp
-              className="SignalNotificationComp-divider-0-3-264"
+              className="SignalNotificationComp-divider-0-3-267"
               classes={
                 Object {
                   "root": "DividerComp-root-0-3-128",
@@ -56,16 +56,16 @@ exports[`Storyshots Components/SignalNotification Long text 1`] = `
               }
             >
               <hr
-                className="DividerComp-root-0-3-128 SignalNotificationComp-divider-0-3-264"
+                className="DividerComp-root-0-3-128 SignalNotificationComp-divider-0-3-267"
               />
             </DividerComp>
           </WithStyles(DividerComp)>
         </Divider>
         <div
-          className="SignalNotificationComp-content-0-3-265"
+          className="SignalNotificationComp-content-0-3-268"
         >
           <div
-            className="SignalNotificationComp-icon-0-3-266"
+            className="SignalNotificationComp-icon-0-3-269"
           >
             <MUIcon
               color="#d50000"
@@ -88,7 +88,7 @@ exports[`Storyshots Components/SignalNotification Long text 1`] = `
                 <MUIconComp
                   classes={
                     Object {
-                      "root": "MUIconComp-root-0-3-35 MUIconComp-root-d102-0-3-269",
+                      "root": "MUIconComp-root-0-3-35 MUIconComp-root-d102-0-3-272",
                     }
                   }
                   color="#d50000"
@@ -96,7 +96,7 @@ exports[`Storyshots Components/SignalNotification Long text 1`] = `
                   type="warning"
                 >
                   <i
-                    className="MUIconComp-root-0-3-35 MUIconComp-root-d102-0-3-269"
+                    className="MUIconComp-root-0-3-35 MUIconComp-root-d102-0-3-272"
                   >
                     warning
                   </i>
@@ -105,7 +105,7 @@ exports[`Storyshots Components/SignalNotification Long text 1`] = `
             </MUIcon>
           </div>
           <div
-            className="SignalNotificationComp-text-0-3-267"
+            className="SignalNotificationComp-text-0-3-270"
           >
             <Typography
               variant="distance"
@@ -153,10 +153,10 @@ exports[`Storyshots Components/SignalNotification Long text 1`] = `
           </div>
         </div>
         <Divider
-          className="SignalNotificationComp-divider-0-3-264"
+          className="SignalNotificationComp-divider-0-3-267"
         >
           <WithStyles(DividerComp)
-            className="SignalNotificationComp-divider-0-3-264"
+            className="SignalNotificationComp-divider-0-3-267"
             innerRef={null}
             jssContext={
               Object {
@@ -167,7 +167,7 @@ exports[`Storyshots Components/SignalNotification Long text 1`] = `
             theme={Object {}}
           >
             <DividerComp
-              className="SignalNotificationComp-divider-0-3-264"
+              className="SignalNotificationComp-divider-0-3-267"
               classes={
                 Object {
                   "root": "DividerComp-root-0-3-128",
@@ -175,7 +175,7 @@ exports[`Storyshots Components/SignalNotification Long text 1`] = `
               }
             >
               <hr
-                className="DividerComp-root-0-3-128 SignalNotificationComp-divider-0-3-264"
+                className="DividerComp-root-0-3-128 SignalNotificationComp-divider-0-3-267"
               />
             </DividerComp>
           </WithStyles(DividerComp)>
@@ -206,24 +206,24 @@ exports[`Storyshots Components/SignalNotification Text 1`] = `
     <SignalNotificationComp
       classes={
         Object {
-          "content": "SignalNotificationComp-content-0-3-265",
-          "divider": "SignalNotificationComp-divider-0-3-264",
-          "icon": "SignalNotificationComp-icon-0-3-266",
-          "root": "SignalNotificationComp-root-0-3-263",
-          "text": "SignalNotificationComp-text-0-3-267",
+          "content": "SignalNotificationComp-content-0-3-268",
+          "divider": "SignalNotificationComp-divider-0-3-267",
+          "icon": "SignalNotificationComp-icon-0-3-269",
+          "root": "SignalNotificationComp-root-0-3-266",
+          "text": "SignalNotificationComp-text-0-3-270",
         }
       }
       icon="warning"
       text="Activity automatically interrupted"
     >
       <div
-        className="SignalNotificationComp-root-0-3-263"
+        className="SignalNotificationComp-root-0-3-266"
       >
         <Divider
-          className="SignalNotificationComp-divider-0-3-264"
+          className="SignalNotificationComp-divider-0-3-267"
         >
           <WithStyles(DividerComp)
-            className="SignalNotificationComp-divider-0-3-264"
+            className="SignalNotificationComp-divider-0-3-267"
             innerRef={null}
             jssContext={
               Object {
@@ -234,7 +234,7 @@ exports[`Storyshots Components/SignalNotification Text 1`] = `
             theme={Object {}}
           >
             <DividerComp
-              className="SignalNotificationComp-divider-0-3-264"
+              className="SignalNotificationComp-divider-0-3-267"
               classes={
                 Object {
                   "root": "DividerComp-root-0-3-128",
@@ -242,16 +242,16 @@ exports[`Storyshots Components/SignalNotification Text 1`] = `
               }
             >
               <hr
-                className="DividerComp-root-0-3-128 SignalNotificationComp-divider-0-3-264"
+                className="DividerComp-root-0-3-128 SignalNotificationComp-divider-0-3-267"
               />
             </DividerComp>
           </WithStyles(DividerComp)>
         </Divider>
         <div
-          className="SignalNotificationComp-content-0-3-265"
+          className="SignalNotificationComp-content-0-3-268"
         >
           <div
-            className="SignalNotificationComp-icon-0-3-266"
+            className="SignalNotificationComp-icon-0-3-269"
           >
             <MUIcon
               color="#d50000"
@@ -274,7 +274,7 @@ exports[`Storyshots Components/SignalNotification Text 1`] = `
                 <MUIconComp
                   classes={
                     Object {
-                      "root": "MUIconComp-root-0-3-35 MUIconComp-root-d101-0-3-268",
+                      "root": "MUIconComp-root-0-3-35 MUIconComp-root-d101-0-3-271",
                     }
                   }
                   color="#d50000"
@@ -282,7 +282,7 @@ exports[`Storyshots Components/SignalNotification Text 1`] = `
                   type="warning"
                 >
                   <i
-                    className="MUIconComp-root-0-3-35 MUIconComp-root-d101-0-3-268"
+                    className="MUIconComp-root-0-3-35 MUIconComp-root-d101-0-3-271"
                   >
                     warning
                   </i>
@@ -291,7 +291,7 @@ exports[`Storyshots Components/SignalNotification Text 1`] = `
             </MUIcon>
           </div>
           <div
-            className="SignalNotificationComp-text-0-3-267"
+            className="SignalNotificationComp-text-0-3-270"
           >
             <Typography
               variant="distance"
@@ -339,10 +339,10 @@ exports[`Storyshots Components/SignalNotification Text 1`] = `
           </div>
         </div>
         <Divider
-          className="SignalNotificationComp-divider-0-3-264"
+          className="SignalNotificationComp-divider-0-3-267"
         >
           <WithStyles(DividerComp)
-            className="SignalNotificationComp-divider-0-3-264"
+            className="SignalNotificationComp-divider-0-3-267"
             innerRef={null}
             jssContext={
               Object {
@@ -353,7 +353,7 @@ exports[`Storyshots Components/SignalNotification Text 1`] = `
             theme={Object {}}
           >
             <DividerComp
-              className="SignalNotificationComp-divider-0-3-264"
+              className="SignalNotificationComp-divider-0-3-267"
               classes={
                 Object {
                   "root": "DividerComp-root-0-3-128",
@@ -361,7 +361,7 @@ exports[`Storyshots Components/SignalNotification Text 1`] = `
               }
             >
               <hr
-                className="DividerComp-root-0-3-128 SignalNotificationComp-divider-0-3-264"
+                className="DividerComp-root-0-3-128 SignalNotificationComp-divider-0-3-267"
               />
             </DividerComp>
           </WithStyles(DividerComp)>
