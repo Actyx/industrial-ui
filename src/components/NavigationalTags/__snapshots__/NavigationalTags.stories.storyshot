@@ -50,9 +50,9 @@ exports[`Storyshots Components/NavigationalTags Base 1`] = `
     <NavigationalTagsComp
       classes={
         Object {
-          "bar": "NavigationalTagsComp-bar-0-3-212",
-          "content": "NavigationalTagsComp-content-0-3-211",
-          "root": "NavigationalTagsComp-root-0-3-210",
+          "bar": "NavigationalTagsComp-bar-0-3-215",
+          "content": "NavigationalTagsComp-content-0-3-214",
+          "root": "NavigationalTagsComp-root-0-3-213",
         }
       }
       onTagClose={[Function]}
@@ -74,13 +74,13 @@ exports[`Storyshots Components/NavigationalTags Base 1`] = `
       }
     >
       <div
-        className="NavigationalTagsComp-root-0-3-210"
+        className="NavigationalTagsComp-root-0-3-213"
       >
         <div
-          className="NavigationalTagsComp-bar-0-3-212"
+          className="NavigationalTagsComp-bar-0-3-215"
         />
         <div
-          className="NavigationalTagsComp-content-0-3-211"
+          className="NavigationalTagsComp-content-0-3-214"
         >
           <div
             key="0-tag0"
@@ -109,38 +109,38 @@ exports[`Storyshots Components/NavigationalTags Base 1`] = `
                 <TagComp
                   classes={
                     Object {
-                      "content": "TagComp-content-0-3-216",
-                      "icon": "TagComp-icon-0-3-217",
-                      "name": "TagComp-name-0-3-218",
-                      "root": "TagComp-root-0-3-213",
-                      "shape": "TagComp-shape-0-3-214",
-                      "shapeSeparator": "TagComp-shapeSeparator-0-3-215",
+                      "content": "TagComp-content-0-3-219",
+                      "icon": "TagComp-icon-0-3-220",
+                      "name": "TagComp-name-0-3-221",
+                      "root": "TagComp-root-0-3-216",
+                      "shape": "TagComp-shape-0-3-217",
+                      "shapeSeparator": "TagComp-shapeSeparator-0-3-218",
                     }
                   }
                   name="Tag name 0 information "
                   onClose={[Function]}
                 >
                   <div
-                    className="TagComp-root-0-3-213"
+                    className="TagComp-root-0-3-216"
                     onClick={[Function]}
                   >
                     <svg
                       viewBox="0 0 79.375 15.875"
                     >
                       <path
-                        className="TagComp-shapeSeparator-0-3-215"
+                        className="TagComp-shapeSeparator-0-3-218"
                         d="M0 0v15.875h74.083l2.646-3.969 2.646-3.969-2.646-3.968L74.083 0z"
                       />
                       <path
-                        className="TagComp-shape-0-3-214"
+                        className="TagComp-shape-0-3-217"
                         d="M0 0v15.875h73.554l2.646-3.969 2.646-3.969L76.2 3.97 73.554 0z"
                       />
                     </svg>
                     <div
-                      className="TagComp-content-0-3-216"
+                      className="TagComp-content-0-3-219"
                     >
                       <div
-                        className="TagComp-icon-0-3-217"
+                        className="TagComp-icon-0-3-220"
                       >
                         <MUIcon
                           fontSize={40}
@@ -161,14 +161,14 @@ exports[`Storyshots Components/NavigationalTags Base 1`] = `
                             <MUIconComp
                               classes={
                                 Object {
-                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d73-0-3-219",
+                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d73-0-3-222",
                                 }
                               }
                               fontSize={40}
                               type="close"
                             >
                               <i
-                                className="MUIconComp-root-0-3-35 MUIconComp-root-d73-0-3-219"
+                                className="MUIconComp-root-0-3-35 MUIconComp-root-d73-0-3-222"
                               >
                                 close
                               </i>
@@ -177,7 +177,7 @@ exports[`Storyshots Components/NavigationalTags Base 1`] = `
                         </MUIcon>
                       </div>
                       <div
-                        className="TagComp-name-0-3-218"
+                        className="TagComp-name-0-3-221"
                       >
                         <Typography
                           bold={true}
@@ -262,38 +262,38 @@ exports[`Storyshots Components/NavigationalTags Base 1`] = `
                 <TagComp
                   classes={
                     Object {
-                      "content": "TagComp-content-0-3-216",
-                      "icon": "TagComp-icon-0-3-217",
-                      "name": "TagComp-name-0-3-218",
-                      "root": "TagComp-root-0-3-213",
-                      "shape": "TagComp-shape-0-3-214",
-                      "shapeSeparator": "TagComp-shapeSeparator-0-3-215",
+                      "content": "TagComp-content-0-3-219",
+                      "icon": "TagComp-icon-0-3-220",
+                      "name": "TagComp-name-0-3-221",
+                      "root": "TagComp-root-0-3-216",
+                      "shape": "TagComp-shape-0-3-217",
+                      "shapeSeparator": "TagComp-shapeSeparator-0-3-218",
                     }
                   }
                   name="Tag name 1 information"
                   onClose={[Function]}
                 >
                   <div
-                    className="TagComp-root-0-3-213"
+                    className="TagComp-root-0-3-216"
                     onClick={[Function]}
                   >
                     <svg
                       viewBox="0 0 79.375 15.875"
                     >
                       <path
-                        className="TagComp-shapeSeparator-0-3-215"
+                        className="TagComp-shapeSeparator-0-3-218"
                         d="M0 0v15.875h74.083l2.646-3.969 2.646-3.969-2.646-3.968L74.083 0z"
                       />
                       <path
-                        className="TagComp-shape-0-3-214"
+                        className="TagComp-shape-0-3-217"
                         d="M0 0v15.875h73.554l2.646-3.969 2.646-3.969L76.2 3.97 73.554 0z"
                       />
                     </svg>
                     <div
-                      className="TagComp-content-0-3-216"
+                      className="TagComp-content-0-3-219"
                     >
                       <div
-                        className="TagComp-icon-0-3-217"
+                        className="TagComp-icon-0-3-220"
                       >
                         <MUIcon
                           fontSize={40}
@@ -314,14 +314,14 @@ exports[`Storyshots Components/NavigationalTags Base 1`] = `
                             <MUIconComp
                               classes={
                                 Object {
-                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d74-0-3-220",
+                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d74-0-3-223",
                                 }
                               }
                               fontSize={40}
                               type="close"
                             >
                               <i
-                                className="MUIconComp-root-0-3-35 MUIconComp-root-d74-0-3-220"
+                                className="MUIconComp-root-0-3-35 MUIconComp-root-d74-0-3-223"
                               >
                                 close
                               </i>
@@ -330,7 +330,7 @@ exports[`Storyshots Components/NavigationalTags Base 1`] = `
                         </MUIcon>
                       </div>
                       <div
-                        className="TagComp-name-0-3-218"
+                        className="TagComp-name-0-3-221"
                       >
                         <Typography
                           bold={true}
@@ -415,38 +415,38 @@ exports[`Storyshots Components/NavigationalTags Base 1`] = `
                 <TagComp
                   classes={
                     Object {
-                      "content": "TagComp-content-0-3-216",
-                      "icon": "TagComp-icon-0-3-217",
-                      "name": "TagComp-name-0-3-218",
-                      "root": "TagComp-root-0-3-213",
-                      "shape": "TagComp-shape-0-3-214",
-                      "shapeSeparator": "TagComp-shapeSeparator-0-3-215",
+                      "content": "TagComp-content-0-3-219",
+                      "icon": "TagComp-icon-0-3-220",
+                      "name": "TagComp-name-0-3-221",
+                      "root": "TagComp-root-0-3-216",
+                      "shape": "TagComp-shape-0-3-217",
+                      "shapeSeparator": "TagComp-shapeSeparator-0-3-218",
                     }
                   }
                   name="Tag name 2 information"
                   onClose={[Function]}
                 >
                   <div
-                    className="TagComp-root-0-3-213"
+                    className="TagComp-root-0-3-216"
                     onClick={[Function]}
                   >
                     <svg
                       viewBox="0 0 79.375 15.875"
                     >
                       <path
-                        className="TagComp-shapeSeparator-0-3-215"
+                        className="TagComp-shapeSeparator-0-3-218"
                         d="M0 0v15.875h74.083l2.646-3.969 2.646-3.969-2.646-3.968L74.083 0z"
                       />
                       <path
-                        className="TagComp-shape-0-3-214"
+                        className="TagComp-shape-0-3-217"
                         d="M0 0v15.875h73.554l2.646-3.969 2.646-3.969L76.2 3.97 73.554 0z"
                       />
                     </svg>
                     <div
-                      className="TagComp-content-0-3-216"
+                      className="TagComp-content-0-3-219"
                     >
                       <div
-                        className="TagComp-icon-0-3-217"
+                        className="TagComp-icon-0-3-220"
                       >
                         <MUIcon
                           fontSize={40}
@@ -467,14 +467,14 @@ exports[`Storyshots Components/NavigationalTags Base 1`] = `
                             <MUIconComp
                               classes={
                                 Object {
-                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d75-0-3-221",
+                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d75-0-3-224",
                                 }
                               }
                               fontSize={40}
                               type="close"
                             >
                               <i
-                                className="MUIconComp-root-0-3-35 MUIconComp-root-d75-0-3-221"
+                                className="MUIconComp-root-0-3-35 MUIconComp-root-d75-0-3-224"
                               >
                                 close
                               </i>
@@ -483,7 +483,7 @@ exports[`Storyshots Components/NavigationalTags Base 1`] = `
                         </MUIcon>
                       </div>
                       <div
-                        className="TagComp-name-0-3-218"
+                        className="TagComp-name-0-3-221"
                       >
                         <Typography
                           bold={true}
@@ -568,38 +568,38 @@ exports[`Storyshots Components/NavigationalTags Part Tag 1`] = `
     <TagComp
       classes={
         Object {
-          "content": "TagComp-content-0-3-216",
-          "icon": "TagComp-icon-0-3-217",
-          "name": "TagComp-name-0-3-218",
-          "root": "TagComp-root-0-3-213",
-          "shape": "TagComp-shape-0-3-214",
-          "shapeSeparator": "TagComp-shapeSeparator-0-3-215",
+          "content": "TagComp-content-0-3-219",
+          "icon": "TagComp-icon-0-3-220",
+          "name": "TagComp-name-0-3-221",
+          "root": "TagComp-root-0-3-216",
+          "shape": "TagComp-shape-0-3-217",
+          "shapeSeparator": "TagComp-shapeSeparator-0-3-218",
         }
       }
       name="Tag name information"
       onClose={[Function]}
     >
       <div
-        className="TagComp-root-0-3-213"
+        className="TagComp-root-0-3-216"
         onClick={[Function]}
       >
         <svg
           viewBox="0 0 79.375 15.875"
         >
           <path
-            className="TagComp-shapeSeparator-0-3-215"
+            className="TagComp-shapeSeparator-0-3-218"
             d="M0 0v15.875h74.083l2.646-3.969 2.646-3.969-2.646-3.968L74.083 0z"
           />
           <path
-            className="TagComp-shape-0-3-214"
+            className="TagComp-shape-0-3-217"
             d="M0 0v15.875h73.554l2.646-3.969 2.646-3.969L76.2 3.97 73.554 0z"
           />
         </svg>
         <div
-          className="TagComp-content-0-3-216"
+          className="TagComp-content-0-3-219"
         >
           <div
-            className="TagComp-icon-0-3-217"
+            className="TagComp-icon-0-3-220"
           >
             <MUIcon
               fontSize={40}
@@ -620,14 +620,14 @@ exports[`Storyshots Components/NavigationalTags Part Tag 1`] = `
                 <MUIconComp
                   classes={
                     Object {
-                      "root": "MUIconComp-root-0-3-35 MUIconComp-root-d76-0-3-222",
+                      "root": "MUIconComp-root-0-3-35 MUIconComp-root-d76-0-3-225",
                     }
                   }
                   fontSize={40}
                   type="close"
                 >
                   <i
-                    className="MUIconComp-root-0-3-35 MUIconComp-root-d76-0-3-222"
+                    className="MUIconComp-root-0-3-35 MUIconComp-root-d76-0-3-225"
                   >
                     close
                   </i>
@@ -636,7 +636,7 @@ exports[`Storyshots Components/NavigationalTags Part Tag 1`] = `
             </MUIcon>
           </div>
           <div
-            className="TagComp-name-0-3-218"
+            className="TagComp-name-0-3-221"
           >
             <Typography
               bold={true}

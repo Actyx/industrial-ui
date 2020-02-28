@@ -32,7 +32,7 @@ exports[`Storyshots Components/StatusCounters One counter 1`] = `
     <StatusCountersComp
       classes={
         Object {
-          "root": "StatusCountersComp-root-0-3-301",
+          "root": "StatusCountersComp-root-0-3-304",
         }
       }
       counters={
@@ -45,7 +45,7 @@ exports[`Storyshots Components/StatusCounters One counter 1`] = `
       }
     >
       <div
-        className="StatusCountersComp-root-0-3-301"
+        className="StatusCountersComp-root-0-3-304"
       >
         <StatusCounter
           counter={2}
@@ -67,17 +67,17 @@ exports[`Storyshots Components/StatusCounters One counter 1`] = `
             <StatusCounterComp
               classes={
                 Object {
-                  "ready": "StatusCounterComp-ready-0-3-303",
-                  "requested": "StatusCounterComp-requested-0-3-305",
-                  "root": "StatusCounterComp-root-0-3-302",
-                  "unknown": "StatusCounterComp-unknown-0-3-304",
+                  "ready": "StatusCounterComp-ready-0-3-306",
+                  "requested": "StatusCounterComp-requested-0-3-308",
+                  "root": "StatusCounterComp-root-0-3-305",
+                  "unknown": "StatusCounterComp-unknown-0-3-307",
                 }
               }
               counter={2}
               variant="ready"
             >
               <div
-                className="StatusCounterComp-root-0-3-302 StatusCounterComp-ready-0-3-303"
+                className="StatusCounterComp-root-0-3-305 StatusCounterComp-ready-0-3-306"
               >
                 <Typography
                   variant="subtext"
@@ -153,17 +153,17 @@ exports[`Storyshots Components/StatusCounters Part long 1`] = `
     <StatusCounterComp
       classes={
         Object {
-          "ready": "StatusCounterComp-ready-0-3-303",
-          "requested": "StatusCounterComp-requested-0-3-305",
-          "root": "StatusCounterComp-root-0-3-302",
-          "unknown": "StatusCounterComp-unknown-0-3-304",
+          "ready": "StatusCounterComp-ready-0-3-306",
+          "requested": "StatusCounterComp-requested-0-3-308",
+          "root": "StatusCounterComp-root-0-3-305",
+          "unknown": "StatusCounterComp-unknown-0-3-307",
         }
       }
       counter={43993487348734}
       variant="ready"
     >
       <div
-        className="StatusCounterComp-root-0-3-302 StatusCounterComp-ready-0-3-303"
+        className="StatusCounterComp-root-0-3-305 StatusCounterComp-ready-0-3-306"
       >
         <Typography
           variant="subtext"
@@ -235,17 +235,17 @@ exports[`Storyshots Components/StatusCounters Part ready 1`] = `
     <StatusCounterComp
       classes={
         Object {
-          "ready": "StatusCounterComp-ready-0-3-303",
-          "requested": "StatusCounterComp-requested-0-3-305",
-          "root": "StatusCounterComp-root-0-3-302",
-          "unknown": "StatusCounterComp-unknown-0-3-304",
+          "ready": "StatusCounterComp-ready-0-3-306",
+          "requested": "StatusCounterComp-requested-0-3-308",
+          "root": "StatusCounterComp-root-0-3-305",
+          "unknown": "StatusCounterComp-unknown-0-3-307",
         }
       }
       counter={1}
       variant="ready"
     >
       <div
-        className="StatusCounterComp-root-0-3-302 StatusCounterComp-ready-0-3-303"
+        className="StatusCounterComp-root-0-3-305 StatusCounterComp-ready-0-3-306"
       >
         <Typography
           variant="subtext"
@@ -317,17 +317,17 @@ exports[`Storyshots Components/StatusCounters Part requested 1`] = `
     <StatusCounterComp
       classes={
         Object {
-          "ready": "StatusCounterComp-ready-0-3-303",
-          "requested": "StatusCounterComp-requested-0-3-305",
-          "root": "StatusCounterComp-root-0-3-302",
-          "unknown": "StatusCounterComp-unknown-0-3-304",
+          "ready": "StatusCounterComp-ready-0-3-306",
+          "requested": "StatusCounterComp-requested-0-3-308",
+          "root": "StatusCounterComp-root-0-3-305",
+          "unknown": "StatusCounterComp-unknown-0-3-307",
         }
       }
       counter={22}
       variant="requested"
     >
       <div
-        className="StatusCounterComp-root-0-3-302 StatusCounterComp-requested-0-3-305"
+        className="StatusCounterComp-root-0-3-305 StatusCounterComp-requested-0-3-308"
       >
         <Typography
           variant="subtext"
@@ -399,17 +399,17 @@ exports[`Storyshots Components/StatusCounters Part unknown 1`] = `
     <StatusCounterComp
       classes={
         Object {
-          "ready": "StatusCounterComp-ready-0-3-303",
-          "requested": "StatusCounterComp-requested-0-3-305",
-          "root": "StatusCounterComp-root-0-3-302",
-          "unknown": "StatusCounterComp-unknown-0-3-304",
+          "ready": "StatusCounterComp-ready-0-3-306",
+          "requested": "StatusCounterComp-requested-0-3-308",
+          "root": "StatusCounterComp-root-0-3-305",
+          "unknown": "StatusCounterComp-unknown-0-3-307",
         }
       }
       counter={764}
       variant="unknown"
     >
       <div
-        className="StatusCounterComp-root-0-3-302 StatusCounterComp-unknown-0-3-304"
+        className="StatusCounterComp-root-0-3-305 StatusCounterComp-unknown-0-3-307"
       >
         <Typography
           variant="subtext"
@@ -509,7 +509,7 @@ exports[`Storyshots Components/StatusCounters Tree counters 1`] = `
     <StatusCountersComp
       classes={
         Object {
-          "root": "StatusCountersComp-root-0-3-301",
+          "root": "StatusCountersComp-root-0-3-304",
         }
       }
       counters={
@@ -530,7 +530,7 @@ exports[`Storyshots Components/StatusCounters Tree counters 1`] = `
       }
     >
       <div
-        className="StatusCountersComp-root-0-3-301"
+        className="StatusCountersComp-root-0-3-304"
       >
         <StatusCounter
           counter={2}
@@ -552,17 +552,17 @@ exports[`Storyshots Components/StatusCounters Tree counters 1`] = `
             <StatusCounterComp
               classes={
                 Object {
-                  "ready": "StatusCounterComp-ready-0-3-303",
-                  "requested": "StatusCounterComp-requested-0-3-305",
-                  "root": "StatusCounterComp-root-0-3-302",
-                  "unknown": "StatusCounterComp-unknown-0-3-304",
+                  "ready": "StatusCounterComp-ready-0-3-306",
+                  "requested": "StatusCounterComp-requested-0-3-308",
+                  "root": "StatusCounterComp-root-0-3-305",
+                  "unknown": "StatusCounterComp-unknown-0-3-307",
                 }
               }
               counter={2}
               variant="ready"
             >
               <div
-                className="StatusCounterComp-root-0-3-302 StatusCounterComp-ready-0-3-303"
+                className="StatusCounterComp-root-0-3-305 StatusCounterComp-ready-0-3-306"
               >
                 <Typography
                   variant="subtext"
@@ -632,17 +632,17 @@ exports[`Storyshots Components/StatusCounters Tree counters 1`] = `
             <StatusCounterComp
               classes={
                 Object {
-                  "ready": "StatusCounterComp-ready-0-3-303",
-                  "requested": "StatusCounterComp-requested-0-3-305",
-                  "root": "StatusCounterComp-root-0-3-302",
-                  "unknown": "StatusCounterComp-unknown-0-3-304",
+                  "ready": "StatusCounterComp-ready-0-3-306",
+                  "requested": "StatusCounterComp-requested-0-3-308",
+                  "root": "StatusCounterComp-root-0-3-305",
+                  "unknown": "StatusCounterComp-unknown-0-3-307",
                 }
               }
               counter={4}
               variant="unknown"
             >
               <div
-                className="StatusCounterComp-root-0-3-302 StatusCounterComp-unknown-0-3-304"
+                className="StatusCounterComp-root-0-3-305 StatusCounterComp-unknown-0-3-307"
               >
                 <Typography
                   variant="subtext"
@@ -712,17 +712,17 @@ exports[`Storyshots Components/StatusCounters Tree counters 1`] = `
             <StatusCounterComp
               classes={
                 Object {
-                  "ready": "StatusCounterComp-ready-0-3-303",
-                  "requested": "StatusCounterComp-requested-0-3-305",
-                  "root": "StatusCounterComp-root-0-3-302",
-                  "unknown": "StatusCounterComp-unknown-0-3-304",
+                  "ready": "StatusCounterComp-ready-0-3-306",
+                  "requested": "StatusCounterComp-requested-0-3-308",
+                  "root": "StatusCounterComp-root-0-3-305",
+                  "unknown": "StatusCounterComp-unknown-0-3-307",
                 }
               }
               counter={19}
               variant="requested"
             >
               <div
-                className="StatusCounterComp-root-0-3-302 StatusCounterComp-requested-0-3-305"
+                className="StatusCounterComp-root-0-3-305 StatusCounterComp-requested-0-3-308"
               >
                 <Typography
                   variant="subtext"
@@ -818,7 +818,7 @@ exports[`Storyshots Components/StatusCounters Two counters 1`] = `
     <StatusCountersComp
       classes={
         Object {
-          "root": "StatusCountersComp-root-0-3-301",
+          "root": "StatusCountersComp-root-0-3-304",
         }
       }
       counters={
@@ -835,7 +835,7 @@ exports[`Storyshots Components/StatusCounters Two counters 1`] = `
       }
     >
       <div
-        className="StatusCountersComp-root-0-3-301"
+        className="StatusCountersComp-root-0-3-304"
       >
         <StatusCounter
           counter={4}
@@ -857,17 +857,17 @@ exports[`Storyshots Components/StatusCounters Two counters 1`] = `
             <StatusCounterComp
               classes={
                 Object {
-                  "ready": "StatusCounterComp-ready-0-3-303",
-                  "requested": "StatusCounterComp-requested-0-3-305",
-                  "root": "StatusCounterComp-root-0-3-302",
-                  "unknown": "StatusCounterComp-unknown-0-3-304",
+                  "ready": "StatusCounterComp-ready-0-3-306",
+                  "requested": "StatusCounterComp-requested-0-3-308",
+                  "root": "StatusCounterComp-root-0-3-305",
+                  "unknown": "StatusCounterComp-unknown-0-3-307",
                 }
               }
               counter={4}
               variant="unknown"
             >
               <div
-                className="StatusCounterComp-root-0-3-302 StatusCounterComp-unknown-0-3-304"
+                className="StatusCounterComp-root-0-3-305 StatusCounterComp-unknown-0-3-307"
               >
                 <Typography
                   variant="subtext"
@@ -937,17 +937,17 @@ exports[`Storyshots Components/StatusCounters Two counters 1`] = `
             <StatusCounterComp
               classes={
                 Object {
-                  "ready": "StatusCounterComp-ready-0-3-303",
-                  "requested": "StatusCounterComp-requested-0-3-305",
-                  "root": "StatusCounterComp-root-0-3-302",
-                  "unknown": "StatusCounterComp-unknown-0-3-304",
+                  "ready": "StatusCounterComp-ready-0-3-306",
+                  "requested": "StatusCounterComp-requested-0-3-308",
+                  "root": "StatusCounterComp-root-0-3-305",
+                  "unknown": "StatusCounterComp-unknown-0-3-307",
                 }
               }
               counter={19}
               variant="requested"
             >
               <div
-                className="StatusCounterComp-root-0-3-302 StatusCounterComp-requested-0-3-305"
+                className="StatusCounterComp-root-0-3-305 StatusCounterComp-requested-0-3-308"
               >
                 <Typography
                   variant="subtext"

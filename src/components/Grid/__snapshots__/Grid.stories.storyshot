@@ -44,9 +44,11 @@ exports[`Storyshots Components/Grid Base 1`] = `
   renderRow={[Function]}
 >
   <table
-    className="ax-grid"
+    className="root-0-3-151"
   >
-    <thead>
+    <thead
+      className="thead-0-3-152"
+    >
       <tr>
         <td
           className="font-weight-bold"
@@ -68,7 +70,9 @@ exports[`Storyshots Components/Grid Base 1`] = `
         </td>
       </tr>
     </thead>
-    <tbody>
+    <tbody
+      className="tbody-0-3-153"
+    >
       <tr
         key="a"
       >
@@ -158,9 +162,11 @@ exports[`Storyshots Components/Grid isRowSelected 1`] = `
   renderRow={[Function]}
 >
   <table
-    className="ax-grid"
+    className="root-0-3-151"
   >
-    <thead>
+    <thead
+      className="thead-0-3-152"
+    >
       <tr>
         <td
           className="font-weight-bold"
@@ -182,7 +188,9 @@ exports[`Storyshots Components/Grid isRowSelected 1`] = `
         </td>
       </tr>
     </thead>
-    <tbody>
+    <tbody
+      className="tbody-0-3-153"
+    >
       <tr
         key="a"
       >
@@ -277,9 +285,11 @@ exports[`Storyshots Components/Grid onRowSelect 1`] = `
   renderRow={[Function]}
 >
   <table
-    className="ax-grid"
+    className="root-0-3-151"
   >
-    <thead>
+    <thead
+      className="thead-0-3-152"
+    >
       <tr>
         <td
           className="font-weight-bold"
@@ -301,7 +311,9 @@ exports[`Storyshots Components/Grid onRowSelect 1`] = `
         </td>
       </tr>
     </thead>
-    <tbody>
+    <tbody
+      className="tbody-0-3-153"
+    >
       <tr
         key="a"
         onClick={[Function]}
@@ -394,9 +406,11 @@ exports[`Storyshots Components/Grid setRowClassName 1`] = `
   setRowClassName={[Function]}
 >
   <table
-    className="ax-grid"
+    className="root-0-3-151"
   >
-    <thead>
+    <thead
+      className="thead-0-3-152"
+    >
       <tr>
         <td
           className="font-weight-bold"
@@ -418,7 +432,9 @@ exports[`Storyshots Components/Grid setRowClassName 1`] = `
         </td>
       </tr>
     </thead>
-    <tbody>
+    <tbody
+      className="tbody-0-3-153"
+    >
       <tr
         className=""
         key="a"
