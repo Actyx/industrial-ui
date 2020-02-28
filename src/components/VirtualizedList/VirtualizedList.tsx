@@ -90,6 +90,7 @@ export function VirtualizedList<T>({
     const datum = data[index];
 
     return (
+      //FIXME use for setRowClassName inline style
       <div
         key={getUniqKey(datum)}
         className={classNames(setRowClassName && setRowClassName(datum), {
