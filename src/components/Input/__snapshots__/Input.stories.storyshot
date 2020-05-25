@@ -568,6 +568,7 @@ exports[`Storyshots Components/Input readOnly 1`] = `
 
 exports[`Storyshots Components/Input value 1`] = `
 <Input
+  onChange={[Function]}
   type="text"
   value="Text"
 >
@@ -579,6 +580,7 @@ exports[`Storyshots Components/Input value 1`] = `
         "disableStylesGeneration": false,
       }
     }
+    onChange={[Function]}
     theme={Object {}}
     type="text"
     value="Text"
@@ -591,11 +593,13 @@ exports[`Storyshots Components/Input value 1`] = `
           "root": "InputComp-root-0-3-106",
         }
       }
+      onChange={[Function]}
       type="text"
       value="Text"
     >
       <input
         className="InputComp-root-0-3-106"
+        onChange={[Function]}
         type="text"
         value="Text"
       />
