@@ -49,12 +49,15 @@ const styles: StyleSheet<ClassKey, CompProps> = {
   content: {
     display: 'flex',
     '& > div': {
-      marginLeft: -5
+      marginLeft: -5,
+      backgroundColor: COLOR_TAG
+    },
+    '& > div:last-child': {
+      backgroundColor: 'transparent'
     }
   },
   bar: {
     position: 'absolute',
-    width: `calc(100% - ${20}px)`,
     height: '100%',
     backgroundColor: COLOR_TAG
   }

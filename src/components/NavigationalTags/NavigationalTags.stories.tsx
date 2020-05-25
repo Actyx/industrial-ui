@@ -1,16 +1,10 @@
 import { action } from '@storybook/addon-actions';
 import { storiesOf } from '@storybook/react';
-import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { NavigationalTags } from './NavigationalTags';
 import { Tag } from './Tag';
 
 storiesOf('Components/NavigationalTags', module)
-  .addDecorator(
-    hostDecorator({
-      width: 800
-    })
-  )
   .add('Base', () => (
     <NavigationalTags
       tags={[
