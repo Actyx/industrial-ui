@@ -373,6 +373,7 @@ exports[`Storyshots Components/TextArea placeholder 1`] = `
 
 exports[`Storyshots Components/TextArea readOnly 1`] = `
 <TextArea
+  onChange={[Function]}
   readOnly={true}
   value="Read only"
 >
@@ -384,6 +385,7 @@ exports[`Storyshots Components/TextArea readOnly 1`] = `
         "disableStylesGeneration": false,
       }
     }
+    onChange={[Function]}
     readOnly={true}
     theme={Object {}}
     value="Read only"
@@ -396,11 +398,13 @@ exports[`Storyshots Components/TextArea readOnly 1`] = `
           "root": "TextAreaComp-root-0-3-326",
         }
       }
+      onChange={[Function]}
       readOnly={true}
       value="Read only"
     >
       <textarea
         className="TextAreaComp-root-0-3-326"
+        onChange={[Function]}
         readOnly={true}
         value="Read only"
       />
@@ -411,6 +415,7 @@ exports[`Storyshots Components/TextArea readOnly 1`] = `
 
 exports[`Storyshots Components/TextArea value 1`] = `
 <TextArea
+  onChange={[Function]}
   value="Text"
 >
   <WithStyles(TextAreaComp)
@@ -421,6 +426,7 @@ exports[`Storyshots Components/TextArea value 1`] = `
         "disableStylesGeneration": false,
       }
     }
+    onChange={[Function]}
     theme={Object {}}
     value="Text"
   >
@@ -432,10 +438,12 @@ exports[`Storyshots Components/TextArea value 1`] = `
           "root": "TextAreaComp-root-0-3-326",
         }
       }
+      onChange={[Function]}
       value="Text"
     >
       <textarea
         className="TextAreaComp-root-0-3-326"
+        onChange={[Function]}
         value="Text"
       />
     </TextAreaComp>
