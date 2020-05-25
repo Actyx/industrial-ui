@@ -34,7 +34,7 @@ exports[`Storyshots Components/IconTextNotification Generic counter 1`] = `
           className="mr-2"
           classes={
             Object {
-              "root": "MUIconComp-root-0-3-35 MUIconComp-root-d44-0-3-159",
+              "root": "MUIconComp-root-0-3-35 MUIconComp-root-d44-0-3-158",
             }
           }
           color="#03a9f4"
@@ -42,7 +42,7 @@ exports[`Storyshots Components/IconTextNotification Generic counter 1`] = `
           type="info"
         >
           <i
-            className="MUIconComp-root-0-3-35 MUIconComp-root-d44-0-3-159 mr-2"
+            className="MUIconComp-root-0-3-35 MUIconComp-root-d44-0-3-158 mr-2"
           >
             info
           </i>
@@ -146,7 +146,7 @@ exports[`Storyshots Components/IconTextNotification Small size 1`] = `
           className="mr-2"
           classes={
             Object {
-              "root": "MUIconComp-root-0-3-35 MUIconComp-root-d45-0-3-160",
+              "root": "MUIconComp-root-0-3-35 MUIconComp-root-d45-0-3-159",
             }
           }
           color="#03a9f4"
@@ -154,7 +154,7 @@ exports[`Storyshots Components/IconTextNotification Small size 1`] = `
           type="info"
         >
           <i
-            className="MUIconComp-root-0-3-35 MUIconComp-root-d45-0-3-160 mr-2"
+            className="MUIconComp-root-0-3-35 MUIconComp-root-d45-0-3-159 mr-2"
           >
             info
           </i>
@@ -257,7 +257,7 @@ exports[`Storyshots Components/IconTextNotification Warning 1`] = `
           className="mr-2"
           classes={
             Object {
-              "root": "MUIconComp-root-0-3-35 MUIconComp-root-d42-0-3-157",
+              "root": "MUIconComp-root-0-3-35 MUIconComp-root-d42-0-3-156",
             }
           }
           color="#d50000"
@@ -265,7 +265,7 @@ exports[`Storyshots Components/IconTextNotification Warning 1`] = `
           type="warning"
         >
           <i
-            className="MUIconComp-root-0-3-35 MUIconComp-root-d42-0-3-157 mr-2"
+            className="MUIconComp-root-0-3-35 MUIconComp-root-d42-0-3-156 mr-2"
           >
             warning
           </i>
@@ -367,7 +367,7 @@ exports[`Storyshots Components/IconTextNotification Warning counter 1`] = `
           className="mr-2"
           classes={
             Object {
-              "root": "MUIconComp-root-0-3-35 MUIconComp-root-d43-0-3-158",
+              "root": "MUIconComp-root-0-3-35 MUIconComp-root-d43-0-3-157",
             }
           }
           color="#d50000"
@@ -375,7 +375,7 @@ exports[`Storyshots Components/IconTextNotification Warning counter 1`] = `
           type="warning"
         >
           <i
-            className="MUIconComp-root-0-3-35 MUIconComp-root-d43-0-3-158 mr-2"
+            className="MUIconComp-root-0-3-35 MUIconComp-root-d43-0-3-157 mr-2"
           >
             warning
           </i>

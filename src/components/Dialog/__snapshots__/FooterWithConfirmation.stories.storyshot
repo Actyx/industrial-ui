@@ -24,7 +24,7 @@ exports[`Storyshots Components/Dialog/FooterWithConfirmation Confirmation 1`] = 
     <Component
       classes={
         Object {
-          "root": "Component-root-0-3-127",
+          "root": "Component-root-0-3-126",
         }
       }
       confirmMessage="Confirm"
@@ -47,18 +47,18 @@ exports[`Storyshots Components/Dialog/FooterWithConfirmation Confirmation 1`] = 
             <DividerComp
               classes={
                 Object {
-                  "root": "DividerComp-root-0-3-128",
+                  "root": "DividerComp-root-0-3-127",
                 }
               }
             >
               <hr
-                className="DividerComp-root-0-3-128"
+                className="DividerComp-root-0-3-127"
               />
             </DividerComp>
           </WithStyles(DividerComp)>
         </Divider>
         <div
-          className="Component-root-0-3-127"
+          className="Component-root-0-3-126"
         >
           <Button
             color="transparent"
@@ -384,7 +384,7 @@ exports[`Storyshots Components/Dialog/FooterWithConfirmation Disable confirmatio
     <Component
       classes={
         Object {
-          "root": "Component-root-0-3-127",
+          "root": "Component-root-0-3-126",
         }
       }
       confirmMessage="Confirm"
@@ -407,18 +407,18 @@ exports[`Storyshots Components/Dialog/FooterWithConfirmation Disable confirmatio
             <DividerComp
               classes={
                 Object {
-                  "root": "DividerComp-root-0-3-128",
+                  "root": "DividerComp-root-0-3-127",
                 }
               }
             >
               <hr
-                className="DividerComp-root-0-3-128"
+                className="DividerComp-root-0-3-127"
               />
             </DividerComp>
           </WithStyles(DividerComp)>
         </Divider>
         <div
-          className="Component-root-0-3-127"
+          className="Component-root-0-3-126"
         >
           <Button
             color="transparent"

@@ -24,8 +24,8 @@ exports[`Storyshots Components/NumericKeypad/Keypad Confirm decimal 1`] = `
     <KeypadComp
       classes={
         Object {
-          "deleteButton": "KeypadComp-deleteButton-0-3-227",
-          "root": "KeypadComp-root-0-3-226",
+          "deleteButton": "KeypadComp-deleteButton-0-3-226",
+          "root": "KeypadComp-root-0-3-225",
         }
       }
       onDecimalSelect={[Function]}
@@ -34,7 +34,7 @@ exports[`Storyshots Components/NumericKeypad/Keypad Confirm decimal 1`] = `
       onNumberSelect={[Function]}
     >
       <div
-        className="KeypadComp-root-0-3-226"
+        className="KeypadComp-root-0-3-225"
       >
         <ButtonCircular
           color="neutral"
@@ -1416,14 +1416,14 @@ exports[`Storyshots Components/NumericKeypad/Keypad Confirm decimal 1`] = `
           </WithStyles(ButtonCircularComp)>
         </ButtonCircular>
         <ButtonCircular
-          className="KeypadComp-deleteButton-0-3-227"
+          className="KeypadComp-deleteButton-0-3-226"
           color="neutral"
           icon={true}
           onSelect={[Function]}
           value="backspace"
         >
           <WithStyles(ButtonCircularComp)
-            className="KeypadComp-deleteButton-0-3-227"
+            className="KeypadComp-deleteButton-0-3-226"
             color="neutral"
             icon={true}
             innerRef={null}
@@ -1438,7 +1438,7 @@ exports[`Storyshots Components/NumericKeypad/Keypad Confirm decimal 1`] = `
             value="backspace"
           >
             <ButtonCircularComp
-              className="KeypadComp-deleteButton-0-3-227"
+              className="KeypadComp-deleteButton-0-3-226"
               classes={
                 Object {
                   "button": "ButtonCircularComp-button-0-3-53",
@@ -1452,7 +1452,7 @@ exports[`Storyshots Components/NumericKeypad/Keypad Confirm decimal 1`] = `
               value="backspace"
             >
               <div
-                className="KeypadComp-deleteButton-0-3-227 ButtonCircularComp-neutral-0-3-51"
+                className="KeypadComp-deleteButton-0-3-226 ButtonCircularComp-neutral-0-3-51"
                 onClick={[Function]}
               >
                 <TouchRipple
@@ -1500,14 +1500,14 @@ exports[`Storyshots Components/NumericKeypad/Keypad Confirm decimal 1`] = `
                             <MUIconComp
                               classes={
                                 Object {
-                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d78-0-3-229",
+                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d78-0-3-228",
                                 }
                               }
                               fontSize={40}
                               type="backspace"
                             >
                               <i
-                                className="MUIconComp-root-0-3-35 MUIconComp-root-d78-0-3-229"
+                                className="MUIconComp-root-0-3-35 MUIconComp-root-d78-0-3-228"
                               >
                                 backspace
                               </i>
@@ -1550,8 +1550,8 @@ exports[`Storyshots Components/NumericKeypad/Keypad Confirm integer 1`] = `
     <KeypadComp
       classes={
         Object {
-          "deleteButton": "KeypadComp-deleteButton-0-3-227",
-          "root": "KeypadComp-root-0-3-226",
+          "deleteButton": "KeypadComp-deleteButton-0-3-226",
+          "root": "KeypadComp-root-0-3-225",
         }
       }
       onDeleteSelect={[Function]}
@@ -1559,7 +1559,7 @@ exports[`Storyshots Components/NumericKeypad/Keypad Confirm integer 1`] = `
       onNumberSelect={[Function]}
     >
       <div
-        className="KeypadComp-root-0-3-226"
+        className="KeypadComp-root-0-3-225"
       >
         <ButtonCircular
           color="neutral"
@@ -2828,14 +2828,14 @@ exports[`Storyshots Components/NumericKeypad/Keypad Confirm integer 1`] = `
           </WithStyles(ButtonCircularComp)>
         </ButtonCircular>
         <ButtonCircular
-          className="KeypadComp-deleteButton-0-3-227"
+          className="KeypadComp-deleteButton-0-3-226"
           color="neutral"
           icon={true}
           onSelect={[Function]}
           value="backspace"
         >
           <WithStyles(ButtonCircularComp)
-            className="KeypadComp-deleteButton-0-3-227"
+            className="KeypadComp-deleteButton-0-3-226"
             color="neutral"
             icon={true}
             innerRef={null}
@@ -2850,7 +2850,7 @@ exports[`Storyshots Components/NumericKeypad/Keypad Confirm integer 1`] = `
             value="backspace"
           >
             <ButtonCircularComp
-              className="KeypadComp-deleteButton-0-3-227"
+              className="KeypadComp-deleteButton-0-3-226"
               classes={
                 Object {
                   "button": "ButtonCircularComp-button-0-3-53",
@@ -2864,7 +2864,7 @@ exports[`Storyshots Components/NumericKeypad/Keypad Confirm integer 1`] = `
               value="backspace"
             >
               <div
-                className="KeypadComp-deleteButton-0-3-227 ButtonCircularComp-neutral-0-3-51"
+                className="KeypadComp-deleteButton-0-3-226 ButtonCircularComp-neutral-0-3-51"
                 onClick={[Function]}
               >
                 <TouchRipple
@@ -2912,14 +2912,14 @@ exports[`Storyshots Components/NumericKeypad/Keypad Confirm integer 1`] = `
                             <MUIconComp
                               classes={
                                 Object {
-                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d77-0-3-228",
+                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d77-0-3-227",
                                 }
                               }
                               fontSize={40}
                               type="backspace"
                             >
                               <i
-                                className="MUIconComp-root-0-3-35 MUIconComp-root-d77-0-3-228"
+                                className="MUIconComp-root-0-3-35 MUIconComp-root-d77-0-3-227"
                               >
                                 backspace
                               </i>
@@ -2964,8 +2964,8 @@ exports[`Storyshots Components/NumericKeypad/Keypad Confirm minus 1`] = `
     <KeypadComp
       classes={
         Object {
-          "deleteButton": "KeypadComp-deleteButton-0-3-227",
-          "root": "KeypadComp-root-0-3-226",
+          "deleteButton": "KeypadComp-deleteButton-0-3-226",
+          "root": "KeypadComp-root-0-3-225",
         }
       }
       onDecimalSelect={[Function]}
@@ -2974,7 +2974,7 @@ exports[`Storyshots Components/NumericKeypad/Keypad Confirm minus 1`] = `
       onNumberSelect={[Function]}
     >
       <div
-        className="KeypadComp-root-0-3-226"
+        className="KeypadComp-root-0-3-225"
       >
         <ButtonCircular
           color="neutral"
@@ -4356,14 +4356,14 @@ exports[`Storyshots Components/NumericKeypad/Keypad Confirm minus 1`] = `
           </WithStyles(ButtonCircularComp)>
         </ButtonCircular>
         <ButtonCircular
-          className="KeypadComp-deleteButton-0-3-227"
+          className="KeypadComp-deleteButton-0-3-226"
           color="neutral"
           icon={true}
           onSelect={[Function]}
           value="backspace"
         >
           <WithStyles(ButtonCircularComp)
-            className="KeypadComp-deleteButton-0-3-227"
+            className="KeypadComp-deleteButton-0-3-226"
             color="neutral"
             icon={true}
             innerRef={null}
@@ -4378,7 +4378,7 @@ exports[`Storyshots Components/NumericKeypad/Keypad Confirm minus 1`] = `
             value="backspace"
           >
             <ButtonCircularComp
-              className="KeypadComp-deleteButton-0-3-227"
+              className="KeypadComp-deleteButton-0-3-226"
               classes={
                 Object {
                   "button": "ButtonCircularComp-button-0-3-53",
@@ -4392,7 +4392,7 @@ exports[`Storyshots Components/NumericKeypad/Keypad Confirm minus 1`] = `
               value="backspace"
             >
               <div
-                className="KeypadComp-deleteButton-0-3-227 ButtonCircularComp-neutral-0-3-51"
+                className="KeypadComp-deleteButton-0-3-226 ButtonCircularComp-neutral-0-3-51"
                 onClick={[Function]}
               >
                 <TouchRipple
@@ -4440,14 +4440,14 @@ exports[`Storyshots Components/NumericKeypad/Keypad Confirm minus 1`] = `
                             <MUIconComp
                               classes={
                                 Object {
-                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d79-0-3-230",
+                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d79-0-3-229",
                                 }
                               }
                               fontSize={40}
                               type="backspace"
                             >
                               <i
-                                className="MUIconComp-root-0-3-35 MUIconComp-root-d79-0-3-230"
+                                className="MUIconComp-root-0-3-35 MUIconComp-root-d79-0-3-229"
                               >
                                 backspace
                               </i>
@@ -4492,8 +4492,8 @@ exports[`Storyshots Components/NumericKeypad/Keypad hideNegative 1`] = `
     <KeypadComp
       classes={
         Object {
-          "deleteButton": "KeypadComp-deleteButton-0-3-227",
-          "root": "KeypadComp-root-0-3-226",
+          "deleteButton": "KeypadComp-deleteButton-0-3-226",
+          "root": "KeypadComp-root-0-3-225",
         }
       }
       hideNegative={true}
@@ -4502,7 +4502,7 @@ exports[`Storyshots Components/NumericKeypad/Keypad hideNegative 1`] = `
       onNumberSelect={[Function]}
     >
       <div
-        className="KeypadComp-root-0-3-226"
+        className="KeypadComp-root-0-3-225"
       >
         <ButtonCircular
           color="neutral"
@@ -5658,14 +5658,14 @@ exports[`Storyshots Components/NumericKeypad/Keypad hideNegative 1`] = `
           </WithStyles(ButtonCircularComp)>
         </ButtonCircular>
         <ButtonCircular
-          className="KeypadComp-deleteButton-0-3-227"
+          className="KeypadComp-deleteButton-0-3-226"
           color="neutral"
           icon={true}
           onSelect={[Function]}
           value="backspace"
         >
           <WithStyles(ButtonCircularComp)
-            className="KeypadComp-deleteButton-0-3-227"
+            className="KeypadComp-deleteButton-0-3-226"
             color="neutral"
             icon={true}
             innerRef={null}
@@ -5680,7 +5680,7 @@ exports[`Storyshots Components/NumericKeypad/Keypad hideNegative 1`] = `
             value="backspace"
           >
             <ButtonCircularComp
-              className="KeypadComp-deleteButton-0-3-227"
+              className="KeypadComp-deleteButton-0-3-226"
               classes={
                 Object {
                   "button": "ButtonCircularComp-button-0-3-53",
@@ -5694,7 +5694,7 @@ exports[`Storyshots Components/NumericKeypad/Keypad hideNegative 1`] = `
               value="backspace"
             >
               <div
-                className="KeypadComp-deleteButton-0-3-227 ButtonCircularComp-neutral-0-3-51"
+                className="KeypadComp-deleteButton-0-3-226 ButtonCircularComp-neutral-0-3-51"
                 onClick={[Function]}
               >
                 <TouchRipple
@@ -5742,14 +5742,14 @@ exports[`Storyshots Components/NumericKeypad/Keypad hideNegative 1`] = `
                             <MUIconComp
                               classes={
                                 Object {
-                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d80-0-3-231",
+                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d80-0-3-230",
                                 }
                               }
                               fontSize={40}
                               type="backspace"
                             >
                               <i
-                                className="MUIconComp-root-0-3-35 MUIconComp-root-d80-0-3-231"
+                                className="MUIconComp-root-0-3-35 MUIconComp-root-d80-0-3-230"
                               >
                                 backspace
                               </i>

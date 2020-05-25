@@ -43,7 +43,7 @@
     "test": "TZ=UTC jest",
     "test:no-coverage": "TZ=UTC jest --coverage=false",
     "test:watch": "TZ=UTC jest --coverage=false --watch",
-    "test:visual": "loki test --port 9001",
+    "test:visual": "loki test --port 6006",
     "test:approve-visual": "loki approve"
   },
   "repository": {

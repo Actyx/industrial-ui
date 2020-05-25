@@ -36,12 +36,12 @@ exports[`Storyshots Components/Tabs Base 1`] = `
     <TabsComp
       classes={
         Object {
-          "active": "TabsComp-active-0-3-323",
-          "container": "TabsComp-container-0-3-326",
-          "header": "TabsComp-header-0-3-322",
-          "inactive": "TabsComp-inactive-0-3-324",
-          "root": "TabsComp-root-0-3-321",
-          "tab": "TabsComp-tab-0-3-325",
+          "active": "TabsComp-active-0-3-322",
+          "container": "TabsComp-container-0-3-325",
+          "header": "TabsComp-header-0-3-321",
+          "inactive": "TabsComp-inactive-0-3-323",
+          "root": "TabsComp-root-0-3-320",
+          "tab": "TabsComp-tab-0-3-324",
         }
       }
       onSelect={[Function]}
@@ -56,13 +56,13 @@ exports[`Storyshots Components/Tabs Base 1`] = `
       }
     >
       <div
-        className="TabsComp-root-0-3-321"
+        className="TabsComp-root-0-3-320"
       >
         <div
-          className="TabsComp-header-0-3-322"
+          className="TabsComp-header-0-3-321"
         >
           <div
-            className="TabsComp-tab-0-3-325 TabsComp-active-0-3-323"
+            className="TabsComp-tab-0-3-324 TabsComp-active-0-3-322"
             key="0"
             onClick={[Function]}
           >
@@ -129,7 +129,7 @@ exports[`Storyshots Components/Tabs Base 1`] = `
             </Typography>
           </div>
           <div
-            className="TabsComp-tab-0-3-325 TabsComp-inactive-0-3-324"
+            className="TabsComp-tab-0-3-324 TabsComp-inactive-0-3-323"
             key="1"
             onClick={[Function]}
           >
@@ -193,7 +193,7 @@ exports[`Storyshots Components/Tabs Base 1`] = `
           </div>
         </div>
         <div
-          className="TabsComp-container-0-3-326"
+          className="TabsComp-container-0-3-325"
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Ut labore et dolore magna aliqua. Lacus vel facilisis volutpat est. Sed faucibus turpis in eu mi bibendum neque egestas. Id eu nisl nunc mi ipsum faucibus vitae aliquet nec. Pharetra sit amet aliquam id diam maecenas ultricies mi. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque. Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Risus nec feugiat in fermentum posuere urna nec tincidunt praesent. Quis lectus nulla at volutpat diam. At consectetur lorem donec massa sapien faucibus. Aliquet nibh praesent tristique magna sit amet.
 

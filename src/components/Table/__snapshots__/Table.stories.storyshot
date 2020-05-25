@@ -15,17 +15,17 @@ exports[`Storyshots Components/Table Body 1`] = `
     <TableComp
       classes={
         Object {
-          "alternateColor": "TableComp-alternateColor-0-3-311",
-          "alternateColorDark": "TableComp-alternateColorDark-0-3-312",
-          "rowBorder": "TableComp-rowBorder-0-3-313",
-          "rowBorderDark": "TableComp-rowBorderDark-0-3-314",
-          "tableDark": "TableComp-tableDark-0-3-310",
-          "tableLight": "TableComp-tableLight-0-3-309",
+          "alternateColor": "TableComp-alternateColor-0-3-310",
+          "alternateColorDark": "TableComp-alternateColorDark-0-3-311",
+          "rowBorder": "TableComp-rowBorder-0-3-312",
+          "rowBorderDark": "TableComp-rowBorderDark-0-3-313",
+          "tableDark": "TableComp-tableDark-0-3-309",
+          "tableLight": "TableComp-tableLight-0-3-308",
         }
       }
     >
       <table
-        className="TableComp-tableLight-0-3-309 TableComp-rowBorder-0-3-313"
+        className="TableComp-tableLight-0-3-308 TableComp-rowBorder-0-3-312"
       >
         <TableBody>
           <WithStyles(TableBodyComp)
@@ -41,12 +41,12 @@ exports[`Storyshots Components/Table Body 1`] = `
             <TableBodyComp
               classes={
                 Object {
-                  "tableBody": "TableBodyComp-tableBody-0-3-315",
+                  "tableBody": "TableBodyComp-tableBody-0-3-314",
                 }
               }
             >
               <tbody
-                className="TableBodyComp-tableBody-0-3-315"
+                className="TableBodyComp-tableBody-0-3-314"
               >
                 <TableRow
                   active={false}
@@ -67,13 +67,13 @@ exports[`Storyshots Components/Table Body 1`] = `
                       active={false}
                       classes={
                         Object {
-                          "condensed": "TableRowComp-condensed-0-3-317",
-                          "tableRow": "TableRowComp-tableRow-0-3-316",
+                          "condensed": "TableRowComp-condensed-0-3-316",
+                          "tableRow": "TableRowComp-tableRow-0-3-315",
                         }
                       }
                     >
                       <tr
-                        className="TableRowComp-tableRow-0-3-316"
+                        className="TableRowComp-tableRow-0-3-315"
                         style={Object {}}
                       >
                         <TableCell
@@ -94,14 +94,14 @@ exports[`Storyshots Components/Table Body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -168,14 +168,14 @@ exports[`Storyshots Components/Table Body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -242,14 +242,14 @@ exports[`Storyshots Components/Table Body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -316,14 +316,14 @@ exports[`Storyshots Components/Table Body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={true}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318 TableCellComp-numeric-0-3-319"
+                                className="TableCellComp-tableCell-0-3-317 TableCellComp-numeric-0-3-318"
                               >
                                 <Typography
                                   variant="standard"
@@ -395,13 +395,13 @@ exports[`Storyshots Components/Table Body 1`] = `
                       active={true}
                       classes={
                         Object {
-                          "condensed": "TableRowComp-condensed-0-3-317",
-                          "tableRow": "TableRowComp-tableRow-0-3-316",
+                          "condensed": "TableRowComp-condensed-0-3-316",
+                          "tableRow": "TableRowComp-tableRow-0-3-315",
                         }
                       }
                     >
                       <tr
-                        className="TableRowComp-tableRow-0-3-316"
+                        className="TableRowComp-tableRow-0-3-315"
                         style={
                           Object {
                             "backgroundColor": "#81d4fa",
@@ -426,14 +426,14 @@ exports[`Storyshots Components/Table Body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -500,14 +500,14 @@ exports[`Storyshots Components/Table Body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -574,14 +574,14 @@ exports[`Storyshots Components/Table Body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -648,14 +648,14 @@ exports[`Storyshots Components/Table Body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={true}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318 TableCellComp-numeric-0-3-319"
+                                className="TableCellComp-tableCell-0-3-317 TableCellComp-numeric-0-3-318"
                               >
                                 <Typography
                                   variant="standard"
@@ -727,13 +727,13 @@ exports[`Storyshots Components/Table Body 1`] = `
                       active={false}
                       classes={
                         Object {
-                          "condensed": "TableRowComp-condensed-0-3-317",
-                          "tableRow": "TableRowComp-tableRow-0-3-316",
+                          "condensed": "TableRowComp-condensed-0-3-316",
+                          "tableRow": "TableRowComp-tableRow-0-3-315",
                         }
                       }
                     >
                       <tr
-                        className="TableRowComp-tableRow-0-3-316"
+                        className="TableRowComp-tableRow-0-3-315"
                         style={Object {}}
                       >
                         <TableCell
@@ -754,14 +754,14 @@ exports[`Storyshots Components/Table Body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -828,14 +828,14 @@ exports[`Storyshots Components/Table Body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -902,14 +902,14 @@ exports[`Storyshots Components/Table Body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -976,14 +976,14 @@ exports[`Storyshots Components/Table Body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={true}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318 TableCellComp-numeric-0-3-319"
+                                className="TableCellComp-tableCell-0-3-317 TableCellComp-numeric-0-3-318"
                               >
                                 <Typography
                                   variant="standard"
@@ -1055,13 +1055,13 @@ exports[`Storyshots Components/Table Body 1`] = `
                       active={false}
                       classes={
                         Object {
-                          "condensed": "TableRowComp-condensed-0-3-317",
-                          "tableRow": "TableRowComp-tableRow-0-3-316",
+                          "condensed": "TableRowComp-condensed-0-3-316",
+                          "tableRow": "TableRowComp-tableRow-0-3-315",
                         }
                       }
                     >
                       <tr
-                        className="TableRowComp-tableRow-0-3-316"
+                        className="TableRowComp-tableRow-0-3-315"
                         style={Object {}}
                       >
                         <TableCell
@@ -1082,14 +1082,14 @@ exports[`Storyshots Components/Table Body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -1156,14 +1156,14 @@ exports[`Storyshots Components/Table Body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -1230,14 +1230,14 @@ exports[`Storyshots Components/Table Body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -1304,14 +1304,14 @@ exports[`Storyshots Components/Table Body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={true}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318 TableCellComp-numeric-0-3-319"
+                                className="TableCellComp-tableCell-0-3-317 TableCellComp-numeric-0-3-318"
                               >
                                 <Typography
                                   variant="standard"
@@ -1383,13 +1383,13 @@ exports[`Storyshots Components/Table Body 1`] = `
                       active={false}
                       classes={
                         Object {
-                          "condensed": "TableRowComp-condensed-0-3-317",
-                          "tableRow": "TableRowComp-tableRow-0-3-316",
+                          "condensed": "TableRowComp-condensed-0-3-316",
+                          "tableRow": "TableRowComp-tableRow-0-3-315",
                         }
                       }
                     >
                       <tr
-                        className="TableRowComp-tableRow-0-3-316"
+                        className="TableRowComp-tableRow-0-3-315"
                         style={Object {}}
                       >
                         <TableCell
@@ -1410,14 +1410,14 @@ exports[`Storyshots Components/Table Body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -1484,14 +1484,14 @@ exports[`Storyshots Components/Table Body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -1558,14 +1558,14 @@ exports[`Storyshots Components/Table Body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -1632,14 +1632,14 @@ exports[`Storyshots Components/Table Body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={true}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318 TableCellComp-numeric-0-3-319"
+                                className="TableCellComp-tableCell-0-3-317 TableCellComp-numeric-0-3-318"
                               >
                                 <Typography
                                   variant="standard"
@@ -1711,13 +1711,13 @@ exports[`Storyshots Components/Table Body 1`] = `
                       active={false}
                       classes={
                         Object {
-                          "condensed": "TableRowComp-condensed-0-3-317",
-                          "tableRow": "TableRowComp-tableRow-0-3-316",
+                          "condensed": "TableRowComp-condensed-0-3-316",
+                          "tableRow": "TableRowComp-tableRow-0-3-315",
                         }
                       }
                     >
                       <tr
-                        className="TableRowComp-tableRow-0-3-316"
+                        className="TableRowComp-tableRow-0-3-315"
                         style={Object {}}
                       >
                         <TableCell
@@ -1738,14 +1738,14 @@ exports[`Storyshots Components/Table Body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -1812,14 +1812,14 @@ exports[`Storyshots Components/Table Body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -1886,14 +1886,14 @@ exports[`Storyshots Components/Table Body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -1960,14 +1960,14 @@ exports[`Storyshots Components/Table Body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={true}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318 TableCellComp-numeric-0-3-319"
+                                className="TableCellComp-tableCell-0-3-317 TableCellComp-numeric-0-3-318"
                               >
                                 <Typography
                                   variant="standard"
@@ -2049,17 +2049,17 @@ exports[`Storyshots Components/Table Header body 1`] = `
       alternateColor={true}
       classes={
         Object {
-          "alternateColor": "TableComp-alternateColor-0-3-311",
-          "alternateColorDark": "TableComp-alternateColorDark-0-3-312",
-          "rowBorder": "TableComp-rowBorder-0-3-313",
-          "rowBorderDark": "TableComp-rowBorderDark-0-3-314",
-          "tableDark": "TableComp-tableDark-0-3-310",
-          "tableLight": "TableComp-tableLight-0-3-309",
+          "alternateColor": "TableComp-alternateColor-0-3-310",
+          "alternateColorDark": "TableComp-alternateColorDark-0-3-311",
+          "rowBorder": "TableComp-rowBorder-0-3-312",
+          "rowBorderDark": "TableComp-rowBorderDark-0-3-313",
+          "tableDark": "TableComp-tableDark-0-3-309",
+          "tableLight": "TableComp-tableLight-0-3-308",
         }
       }
     >
       <table
-        className="TableComp-tableLight-0-3-309 TableComp-rowBorder-0-3-313 TableComp-alternateColor-0-3-311"
+        className="TableComp-tableLight-0-3-308 TableComp-rowBorder-0-3-312 TableComp-alternateColor-0-3-310"
       >
         <TableHeader>
           <WithStyles(TableHeaderComp)
@@ -2075,12 +2075,12 @@ exports[`Storyshots Components/Table Header body 1`] = `
             <TableHeaderComp
               classes={
                 Object {
-                  "thead": "TableHeaderComp-thead-0-3-320",
+                  "thead": "TableHeaderComp-thead-0-3-319",
                 }
               }
             >
               <thead
-                className="TableHeaderComp-thead-0-3-320"
+                className="TableHeaderComp-thead-0-3-319"
               >
                 <TableRow
                   active={false}
@@ -2101,13 +2101,13 @@ exports[`Storyshots Components/Table Header body 1`] = `
                       active={false}
                       classes={
                         Object {
-                          "condensed": "TableRowComp-condensed-0-3-317",
-                          "tableRow": "TableRowComp-tableRow-0-3-316",
+                          "condensed": "TableRowComp-condensed-0-3-316",
+                          "tableRow": "TableRowComp-tableRow-0-3-315",
                         }
                       }
                     >
                       <tr
-                        className="TableRowComp-tableRow-0-3-316"
+                        className="TableRowComp-tableRow-0-3-315"
                         style={Object {}}
                       >
                         <TableCell
@@ -2128,14 +2128,14 @@ exports[`Storyshots Components/Table Header body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="subtext"
@@ -2202,14 +2202,14 @@ exports[`Storyshots Components/Table Header body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="subtext"
@@ -2276,14 +2276,14 @@ exports[`Storyshots Components/Table Header body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="subtext"
@@ -2350,14 +2350,14 @@ exports[`Storyshots Components/Table Header body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={true}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318 TableCellComp-numeric-0-3-319"
+                                className="TableCellComp-tableCell-0-3-317 TableCellComp-numeric-0-3-318"
                               >
                                 <Typography
                                   variant="subtext"
@@ -2428,12 +2428,12 @@ exports[`Storyshots Components/Table Header body 1`] = `
             <TableBodyComp
               classes={
                 Object {
-                  "tableBody": "TableBodyComp-tableBody-0-3-315",
+                  "tableBody": "TableBodyComp-tableBody-0-3-314",
                 }
               }
             >
               <tbody
-                className="TableBodyComp-tableBody-0-3-315"
+                className="TableBodyComp-tableBody-0-3-314"
               >
                 <TableRow
                   active={false}
@@ -2454,13 +2454,13 @@ exports[`Storyshots Components/Table Header body 1`] = `
                       active={false}
                       classes={
                         Object {
-                          "condensed": "TableRowComp-condensed-0-3-317",
-                          "tableRow": "TableRowComp-tableRow-0-3-316",
+                          "condensed": "TableRowComp-condensed-0-3-316",
+                          "tableRow": "TableRowComp-tableRow-0-3-315",
                         }
                       }
                     >
                       <tr
-                        className="TableRowComp-tableRow-0-3-316"
+                        className="TableRowComp-tableRow-0-3-315"
                         style={Object {}}
                       >
                         <TableCell
@@ -2481,14 +2481,14 @@ exports[`Storyshots Components/Table Header body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -2555,14 +2555,14 @@ exports[`Storyshots Components/Table Header body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -2629,14 +2629,14 @@ exports[`Storyshots Components/Table Header body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -2703,14 +2703,14 @@ exports[`Storyshots Components/Table Header body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={true}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318 TableCellComp-numeric-0-3-319"
+                                className="TableCellComp-tableCell-0-3-317 TableCellComp-numeric-0-3-318"
                               >
                                 <Typography
                                   variant="standard"
@@ -2782,13 +2782,13 @@ exports[`Storyshots Components/Table Header body 1`] = `
                       active={true}
                       classes={
                         Object {
-                          "condensed": "TableRowComp-condensed-0-3-317",
-                          "tableRow": "TableRowComp-tableRow-0-3-316",
+                          "condensed": "TableRowComp-condensed-0-3-316",
+                          "tableRow": "TableRowComp-tableRow-0-3-315",
                         }
                       }
                     >
                       <tr
-                        className="TableRowComp-tableRow-0-3-316"
+                        className="TableRowComp-tableRow-0-3-315"
                         style={
                           Object {
                             "backgroundColor": "#81d4fa",
@@ -2813,14 +2813,14 @@ exports[`Storyshots Components/Table Header body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -2887,14 +2887,14 @@ exports[`Storyshots Components/Table Header body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -2961,14 +2961,14 @@ exports[`Storyshots Components/Table Header body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -3035,14 +3035,14 @@ exports[`Storyshots Components/Table Header body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={true}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318 TableCellComp-numeric-0-3-319"
+                                className="TableCellComp-tableCell-0-3-317 TableCellComp-numeric-0-3-318"
                               >
                                 <Typography
                                   variant="standard"
@@ -3114,13 +3114,13 @@ exports[`Storyshots Components/Table Header body 1`] = `
                       active={false}
                       classes={
                         Object {
-                          "condensed": "TableRowComp-condensed-0-3-317",
-                          "tableRow": "TableRowComp-tableRow-0-3-316",
+                          "condensed": "TableRowComp-condensed-0-3-316",
+                          "tableRow": "TableRowComp-tableRow-0-3-315",
                         }
                       }
                     >
                       <tr
-                        className="TableRowComp-tableRow-0-3-316"
+                        className="TableRowComp-tableRow-0-3-315"
                         style={Object {}}
                       >
                         <TableCell
@@ -3141,14 +3141,14 @@ exports[`Storyshots Components/Table Header body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -3215,14 +3215,14 @@ exports[`Storyshots Components/Table Header body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -3289,14 +3289,14 @@ exports[`Storyshots Components/Table Header body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -3363,14 +3363,14 @@ exports[`Storyshots Components/Table Header body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={true}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318 TableCellComp-numeric-0-3-319"
+                                className="TableCellComp-tableCell-0-3-317 TableCellComp-numeric-0-3-318"
                               >
                                 <Typography
                                   variant="standard"
@@ -3442,13 +3442,13 @@ exports[`Storyshots Components/Table Header body 1`] = `
                       active={false}
                       classes={
                         Object {
-                          "condensed": "TableRowComp-condensed-0-3-317",
-                          "tableRow": "TableRowComp-tableRow-0-3-316",
+                          "condensed": "TableRowComp-condensed-0-3-316",
+                          "tableRow": "TableRowComp-tableRow-0-3-315",
                         }
                       }
                     >
                       <tr
-                        className="TableRowComp-tableRow-0-3-316"
+                        className="TableRowComp-tableRow-0-3-315"
                         style={Object {}}
                       >
                         <TableCell
@@ -3469,14 +3469,14 @@ exports[`Storyshots Components/Table Header body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -3543,14 +3543,14 @@ exports[`Storyshots Components/Table Header body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -3617,14 +3617,14 @@ exports[`Storyshots Components/Table Header body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -3691,14 +3691,14 @@ exports[`Storyshots Components/Table Header body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={true}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318 TableCellComp-numeric-0-3-319"
+                                className="TableCellComp-tableCell-0-3-317 TableCellComp-numeric-0-3-318"
                               >
                                 <Typography
                                   variant="standard"
@@ -3770,13 +3770,13 @@ exports[`Storyshots Components/Table Header body 1`] = `
                       active={false}
                       classes={
                         Object {
-                          "condensed": "TableRowComp-condensed-0-3-317",
-                          "tableRow": "TableRowComp-tableRow-0-3-316",
+                          "condensed": "TableRowComp-condensed-0-3-316",
+                          "tableRow": "TableRowComp-tableRow-0-3-315",
                         }
                       }
                     >
                       <tr
-                        className="TableRowComp-tableRow-0-3-316"
+                        className="TableRowComp-tableRow-0-3-315"
                         style={Object {}}
                       >
                         <TableCell
@@ -3797,14 +3797,14 @@ exports[`Storyshots Components/Table Header body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -3871,14 +3871,14 @@ exports[`Storyshots Components/Table Header body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -3945,14 +3945,14 @@ exports[`Storyshots Components/Table Header body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -4019,14 +4019,14 @@ exports[`Storyshots Components/Table Header body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={true}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318 TableCellComp-numeric-0-3-319"
+                                className="TableCellComp-tableCell-0-3-317 TableCellComp-numeric-0-3-318"
                               >
                                 <Typography
                                   variant="standard"
@@ -4098,13 +4098,13 @@ exports[`Storyshots Components/Table Header body 1`] = `
                       active={false}
                       classes={
                         Object {
-                          "condensed": "TableRowComp-condensed-0-3-317",
-                          "tableRow": "TableRowComp-tableRow-0-3-316",
+                          "condensed": "TableRowComp-condensed-0-3-316",
+                          "tableRow": "TableRowComp-tableRow-0-3-315",
                         }
                       }
                     >
                       <tr
-                        className="TableRowComp-tableRow-0-3-316"
+                        className="TableRowComp-tableRow-0-3-315"
                         style={Object {}}
                       >
                         <TableCell
@@ -4125,14 +4125,14 @@ exports[`Storyshots Components/Table Header body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -4199,14 +4199,14 @@ exports[`Storyshots Components/Table Header body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -4273,14 +4273,14 @@ exports[`Storyshots Components/Table Header body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -4347,14 +4347,14 @@ exports[`Storyshots Components/Table Header body 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={true}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318 TableCellComp-numeric-0-3-319"
+                                className="TableCellComp-tableCell-0-3-317 TableCellComp-numeric-0-3-318"
                               >
                                 <Typography
                                   variant="standard"
@@ -4438,18 +4438,18 @@ exports[`Storyshots Components/Table Header body alternateColor dark 1`] = `
       alternateColor={true}
       classes={
         Object {
-          "alternateColor": "TableComp-alternateColor-0-3-311",
-          "alternateColorDark": "TableComp-alternateColorDark-0-3-312",
-          "rowBorder": "TableComp-rowBorder-0-3-313",
-          "rowBorderDark": "TableComp-rowBorderDark-0-3-314",
-          "tableDark": "TableComp-tableDark-0-3-310",
-          "tableLight": "TableComp-tableLight-0-3-309",
+          "alternateColor": "TableComp-alternateColor-0-3-310",
+          "alternateColorDark": "TableComp-alternateColorDark-0-3-311",
+          "rowBorder": "TableComp-rowBorder-0-3-312",
+          "rowBorderDark": "TableComp-rowBorderDark-0-3-313",
+          "tableDark": "TableComp-tableDark-0-3-309",
+          "tableLight": "TableComp-tableLight-0-3-308",
         }
       }
       dark={true}
     >
       <table
-        className="TableComp-tableDark-0-3-310 TableComp-rowBorderDark-0-3-314 TableComp-alternateColorDark-0-3-312"
+        className="TableComp-tableDark-0-3-309 TableComp-rowBorderDark-0-3-313 TableComp-alternateColorDark-0-3-311"
       >
         <TableHeader>
           <WithStyles(TableHeaderComp)
@@ -4465,12 +4465,12 @@ exports[`Storyshots Components/Table Header body alternateColor dark 1`] = `
             <TableHeaderComp
               classes={
                 Object {
-                  "thead": "TableHeaderComp-thead-0-3-320",
+                  "thead": "TableHeaderComp-thead-0-3-319",
                 }
               }
             >
               <thead
-                className="TableHeaderComp-thead-0-3-320"
+                className="TableHeaderComp-thead-0-3-319"
               >
                 <TableRow
                   active={false}
@@ -4491,13 +4491,13 @@ exports[`Storyshots Components/Table Header body alternateColor dark 1`] = `
                       active={false}
                       classes={
                         Object {
-                          "condensed": "TableRowComp-condensed-0-3-317",
-                          "tableRow": "TableRowComp-tableRow-0-3-316",
+                          "condensed": "TableRowComp-condensed-0-3-316",
+                          "tableRow": "TableRowComp-tableRow-0-3-315",
                         }
                       }
                     >
                       <tr
-                        className="TableRowComp-tableRow-0-3-316"
+                        className="TableRowComp-tableRow-0-3-315"
                         style={Object {}}
                       >
                         <TableCell
@@ -4518,14 +4518,14 @@ exports[`Storyshots Components/Table Header body alternateColor dark 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   color="#ffffff"
@@ -4600,14 +4600,14 @@ exports[`Storyshots Components/Table Header body alternateColor dark 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   color="#ffffff"
@@ -4682,14 +4682,14 @@ exports[`Storyshots Components/Table Header body alternateColor dark 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   color="#ffffff"
@@ -4764,14 +4764,14 @@ exports[`Storyshots Components/Table Header body alternateColor dark 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={true}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318 TableCellComp-numeric-0-3-319"
+                                className="TableCellComp-tableCell-0-3-317 TableCellComp-numeric-0-3-318"
                               >
                                 <Typography
                                   color="#ffffff"
@@ -4850,12 +4850,12 @@ exports[`Storyshots Components/Table Header body alternateColor dark 1`] = `
             <TableBodyComp
               classes={
                 Object {
-                  "tableBody": "TableBodyComp-tableBody-0-3-315",
+                  "tableBody": "TableBodyComp-tableBody-0-3-314",
                 }
               }
             >
               <tbody
-                className="TableBodyComp-tableBody-0-3-315"
+                className="TableBodyComp-tableBody-0-3-314"
               >
                 <TableRow
                   active={false}
@@ -4876,13 +4876,13 @@ exports[`Storyshots Components/Table Header body alternateColor dark 1`] = `
                       active={false}
                       classes={
                         Object {
-                          "condensed": "TableRowComp-condensed-0-3-317",
-                          "tableRow": "TableRowComp-tableRow-0-3-316",
+                          "condensed": "TableRowComp-condensed-0-3-316",
+                          "tableRow": "TableRowComp-tableRow-0-3-315",
                         }
                       }
                     >
                       <tr
-                        className="TableRowComp-tableRow-0-3-316"
+                        className="TableRowComp-tableRow-0-3-315"
                         style={Object {}}
                       >
                         <TableCell
@@ -4903,14 +4903,14 @@ exports[`Storyshots Components/Table Header body alternateColor dark 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   color="#ffffff"
@@ -4985,14 +4985,14 @@ exports[`Storyshots Components/Table Header body alternateColor dark 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   color="#ffffff"
@@ -5067,14 +5067,14 @@ exports[`Storyshots Components/Table Header body alternateColor dark 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   color="#ffffff"
@@ -5149,14 +5149,14 @@ exports[`Storyshots Components/Table Header body alternateColor dark 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={true}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318 TableCellComp-numeric-0-3-319"
+                                className="TableCellComp-tableCell-0-3-317 TableCellComp-numeric-0-3-318"
                               >
                                 <Typography
                                   color="#ffffff"
@@ -5236,13 +5236,13 @@ exports[`Storyshots Components/Table Header body alternateColor dark 1`] = `
                       active={true}
                       classes={
                         Object {
-                          "condensed": "TableRowComp-condensed-0-3-317",
-                          "tableRow": "TableRowComp-tableRow-0-3-316",
+                          "condensed": "TableRowComp-condensed-0-3-316",
+                          "tableRow": "TableRowComp-tableRow-0-3-315",
                         }
                       }
                     >
                       <tr
-                        className="TableRowComp-tableRow-0-3-316"
+                        className="TableRowComp-tableRow-0-3-315"
                         style={
                           Object {
                             "backgroundColor": "#81d4fa",
@@ -5267,14 +5267,14 @@ exports[`Storyshots Components/Table Header body alternateColor dark 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   color="#ffffff"
@@ -5349,14 +5349,14 @@ exports[`Storyshots Components/Table Header body alternateColor dark 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   color="#ffffff"
@@ -5431,14 +5431,14 @@ exports[`Storyshots Components/Table Header body alternateColor dark 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   color="#ffffff"
@@ -5513,14 +5513,14 @@ exports[`Storyshots Components/Table Header body alternateColor dark 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={true}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318 TableCellComp-numeric-0-3-319"
+                                className="TableCellComp-tableCell-0-3-317 TableCellComp-numeric-0-3-318"
                               >
                                 <Typography
                                   color="#ffffff"
@@ -5600,13 +5600,13 @@ exports[`Storyshots Components/Table Header body alternateColor dark 1`] = `
                       active={false}
                       classes={
                         Object {
-                          "condensed": "TableRowComp-condensed-0-3-317",
-                          "tableRow": "TableRowComp-tableRow-0-3-316",
+                          "condensed": "TableRowComp-condensed-0-3-316",
+                          "tableRow": "TableRowComp-tableRow-0-3-315",
                         }
                       }
                     >
                       <tr
-                        className="TableRowComp-tableRow-0-3-316"
+                        className="TableRowComp-tableRow-0-3-315"
                         style={Object {}}
                       >
                         <TableCell
@@ -5627,14 +5627,14 @@ exports[`Storyshots Components/Table Header body alternateColor dark 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   color="#ffffff"
@@ -5709,14 +5709,14 @@ exports[`Storyshots Components/Table Header body alternateColor dark 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   color="#ffffff"
@@ -5791,14 +5791,14 @@ exports[`Storyshots Components/Table Header body alternateColor dark 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   color="#ffffff"
@@ -5873,14 +5873,14 @@ exports[`Storyshots Components/Table Header body alternateColor dark 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={true}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318 TableCellComp-numeric-0-3-319"
+                                className="TableCellComp-tableCell-0-3-317 TableCellComp-numeric-0-3-318"
                               >
                                 <Typography
                                   color="#ffffff"
@@ -5960,13 +5960,13 @@ exports[`Storyshots Components/Table Header body alternateColor dark 1`] = `
                       active={false}
                       classes={
                         Object {
-                          "condensed": "TableRowComp-condensed-0-3-317",
-                          "tableRow": "TableRowComp-tableRow-0-3-316",
+                          "condensed": "TableRowComp-condensed-0-3-316",
+                          "tableRow": "TableRowComp-tableRow-0-3-315",
                         }
                       }
                     >
                       <tr
-                        className="TableRowComp-tableRow-0-3-316"
+                        className="TableRowComp-tableRow-0-3-315"
                         style={Object {}}
                       >
                         <TableCell
@@ -5987,14 +5987,14 @@ exports[`Storyshots Components/Table Header body alternateColor dark 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   color="#ffffff"
@@ -6069,14 +6069,14 @@ exports[`Storyshots Components/Table Header body alternateColor dark 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   color="#ffffff"
@@ -6151,14 +6151,14 @@ exports[`Storyshots Components/Table Header body alternateColor dark 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   color="#ffffff"
@@ -6233,14 +6233,14 @@ exports[`Storyshots Components/Table Header body alternateColor dark 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={true}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318 TableCellComp-numeric-0-3-319"
+                                className="TableCellComp-tableCell-0-3-317 TableCellComp-numeric-0-3-318"
                               >
                                 <Typography
                                   color="#ffffff"
@@ -6320,13 +6320,13 @@ exports[`Storyshots Components/Table Header body alternateColor dark 1`] = `
                       active={false}
                       classes={
                         Object {
-                          "condensed": "TableRowComp-condensed-0-3-317",
-                          "tableRow": "TableRowComp-tableRow-0-3-316",
+                          "condensed": "TableRowComp-condensed-0-3-316",
+                          "tableRow": "TableRowComp-tableRow-0-3-315",
                         }
                       }
                     >
                       <tr
-                        className="TableRowComp-tableRow-0-3-316"
+                        className="TableRowComp-tableRow-0-3-315"
                         style={Object {}}
                       >
                         <TableCell
@@ -6347,14 +6347,14 @@ exports[`Storyshots Components/Table Header body alternateColor dark 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   color="#ffffff"
@@ -6429,14 +6429,14 @@ exports[`Storyshots Components/Table Header body alternateColor dark 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   color="#ffffff"
@@ -6511,14 +6511,14 @@ exports[`Storyshots Components/Table Header body alternateColor dark 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   color="#ffffff"
@@ -6593,14 +6593,14 @@ exports[`Storyshots Components/Table Header body alternateColor dark 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={true}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318 TableCellComp-numeric-0-3-319"
+                                className="TableCellComp-tableCell-0-3-317 TableCellComp-numeric-0-3-318"
                               >
                                 <Typography
                                   color="#ffffff"
@@ -6680,13 +6680,13 @@ exports[`Storyshots Components/Table Header body alternateColor dark 1`] = `
                       active={false}
                       classes={
                         Object {
-                          "condensed": "TableRowComp-condensed-0-3-317",
-                          "tableRow": "TableRowComp-tableRow-0-3-316",
+                          "condensed": "TableRowComp-condensed-0-3-316",
+                          "tableRow": "TableRowComp-tableRow-0-3-315",
                         }
                       }
                     >
                       <tr
-                        className="TableRowComp-tableRow-0-3-316"
+                        className="TableRowComp-tableRow-0-3-315"
                         style={Object {}}
                       >
                         <TableCell
@@ -6707,14 +6707,14 @@ exports[`Storyshots Components/Table Header body alternateColor dark 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   color="#ffffff"
@@ -6789,14 +6789,14 @@ exports[`Storyshots Components/Table Header body alternateColor dark 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   color="#ffffff"
@@ -6871,14 +6871,14 @@ exports[`Storyshots Components/Table Header body alternateColor dark 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={false}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   color="#ffffff"
@@ -6953,14 +6953,14 @@ exports[`Storyshots Components/Table Header body alternateColor dark 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={true}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318 TableCellComp-numeric-0-3-319"
+                                className="TableCellComp-tableCell-0-3-317 TableCellComp-numeric-0-3-318"
                               >
                                 <Typography
                                   color="#ffffff"
@@ -7046,17 +7046,17 @@ exports[`Storyshots Components/Table Part TableBody base 1`] = `
     <TableComp
       classes={
         Object {
-          "alternateColor": "TableComp-alternateColor-0-3-311",
-          "alternateColorDark": "TableComp-alternateColorDark-0-3-312",
-          "rowBorder": "TableComp-rowBorder-0-3-313",
-          "rowBorderDark": "TableComp-rowBorderDark-0-3-314",
-          "tableDark": "TableComp-tableDark-0-3-310",
-          "tableLight": "TableComp-tableLight-0-3-309",
+          "alternateColor": "TableComp-alternateColor-0-3-310",
+          "alternateColorDark": "TableComp-alternateColorDark-0-3-311",
+          "rowBorder": "TableComp-rowBorder-0-3-312",
+          "rowBorderDark": "TableComp-rowBorderDark-0-3-313",
+          "tableDark": "TableComp-tableDark-0-3-309",
+          "tableLight": "TableComp-tableLight-0-3-308",
         }
       }
     >
       <table
-        className="TableComp-tableLight-0-3-309 TableComp-rowBorder-0-3-313"
+        className="TableComp-tableLight-0-3-308 TableComp-rowBorder-0-3-312"
       >
         <TableBody>
           <WithStyles(TableBodyComp)
@@ -7072,12 +7072,12 @@ exports[`Storyshots Components/Table Part TableBody base 1`] = `
             <TableBodyComp
               classes={
                 Object {
-                  "tableBody": "TableBodyComp-tableBody-0-3-315",
+                  "tableBody": "TableBodyComp-tableBody-0-3-314",
                 }
               }
             >
               <tbody
-                className="TableBodyComp-tableBody-0-3-315"
+                className="TableBodyComp-tableBody-0-3-314"
               >
                 <TableRow>
                   <WithStyles(TableRowComp)
@@ -7093,13 +7093,13 @@ exports[`Storyshots Components/Table Part TableBody base 1`] = `
                     <TableRowComp
                       classes={
                         Object {
-                          "condensed": "TableRowComp-condensed-0-3-317",
-                          "tableRow": "TableRowComp-tableRow-0-3-316",
+                          "condensed": "TableRowComp-condensed-0-3-316",
+                          "tableRow": "TableRowComp-tableRow-0-3-315",
                         }
                       }
                     >
                       <tr
-                        className="TableRowComp-tableRow-0-3-316"
+                        className="TableRowComp-tableRow-0-3-315"
                         style={Object {}}
                       >
                         <TableCell>
@@ -7116,13 +7116,13 @@ exports[`Storyshots Components/Table Part TableBody base 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -7185,13 +7185,13 @@ exports[`Storyshots Components/Table Part TableBody base 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -7254,13 +7254,13 @@ exports[`Storyshots Components/Table Part TableBody base 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -7326,14 +7326,14 @@ exports[`Storyshots Components/Table Part TableBody base 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={true}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318 TableCellComp-numeric-0-3-319"
+                                className="TableCellComp-tableCell-0-3-317 TableCellComp-numeric-0-3-318"
                               >
                                 <Typography
                                   variant="standard"
@@ -7411,17 +7411,17 @@ exports[`Storyshots Components/Table Part TableCell base 1`] = `
     <TableComp
       classes={
         Object {
-          "alternateColor": "TableComp-alternateColor-0-3-311",
-          "alternateColorDark": "TableComp-alternateColorDark-0-3-312",
-          "rowBorder": "TableComp-rowBorder-0-3-313",
-          "rowBorderDark": "TableComp-rowBorderDark-0-3-314",
-          "tableDark": "TableComp-tableDark-0-3-310",
-          "tableLight": "TableComp-tableLight-0-3-309",
+          "alternateColor": "TableComp-alternateColor-0-3-310",
+          "alternateColorDark": "TableComp-alternateColorDark-0-3-311",
+          "rowBorder": "TableComp-rowBorder-0-3-312",
+          "rowBorderDark": "TableComp-rowBorderDark-0-3-313",
+          "tableDark": "TableComp-tableDark-0-3-309",
+          "tableLight": "TableComp-tableLight-0-3-308",
         }
       }
     >
       <table
-        className="TableComp-tableLight-0-3-309 TableComp-rowBorder-0-3-313"
+        className="TableComp-tableLight-0-3-308 TableComp-rowBorder-0-3-312"
       >
         <TableBody>
           <WithStyles(TableBodyComp)
@@ -7437,12 +7437,12 @@ exports[`Storyshots Components/Table Part TableCell base 1`] = `
             <TableBodyComp
               classes={
                 Object {
-                  "tableBody": "TableBodyComp-tableBody-0-3-315",
+                  "tableBody": "TableBodyComp-tableBody-0-3-314",
                 }
               }
             >
               <tbody
-                className="TableBodyComp-tableBody-0-3-315"
+                className="TableBodyComp-tableBody-0-3-314"
               >
                 <TableRow>
                   <WithStyles(TableRowComp)
@@ -7458,13 +7458,13 @@ exports[`Storyshots Components/Table Part TableCell base 1`] = `
                     <TableRowComp
                       classes={
                         Object {
-                          "condensed": "TableRowComp-condensed-0-3-317",
-                          "tableRow": "TableRowComp-tableRow-0-3-316",
+                          "condensed": "TableRowComp-condensed-0-3-316",
+                          "tableRow": "TableRowComp-tableRow-0-3-315",
                         }
                       }
                     >
                       <tr
-                        className="TableRowComp-tableRow-0-3-316"
+                        className="TableRowComp-tableRow-0-3-315"
                         style={Object {}}
                       >
                         <TableCell>
@@ -7481,13 +7481,13 @@ exports[`Storyshots Components/Table Part TableCell base 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -7565,17 +7565,17 @@ exports[`Storyshots Components/Table Part TableCell cellType 1`] = `
     <TableComp
       classes={
         Object {
-          "alternateColor": "TableComp-alternateColor-0-3-311",
-          "alternateColorDark": "TableComp-alternateColorDark-0-3-312",
-          "rowBorder": "TableComp-rowBorder-0-3-313",
-          "rowBorderDark": "TableComp-rowBorderDark-0-3-314",
-          "tableDark": "TableComp-tableDark-0-3-310",
-          "tableLight": "TableComp-tableLight-0-3-309",
+          "alternateColor": "TableComp-alternateColor-0-3-310",
+          "alternateColorDark": "TableComp-alternateColorDark-0-3-311",
+          "rowBorder": "TableComp-rowBorder-0-3-312",
+          "rowBorderDark": "TableComp-rowBorderDark-0-3-313",
+          "tableDark": "TableComp-tableDark-0-3-309",
+          "tableLight": "TableComp-tableLight-0-3-308",
         }
       }
     >
       <table
-        className="TableComp-tableLight-0-3-309 TableComp-rowBorder-0-3-313"
+        className="TableComp-tableLight-0-3-308 TableComp-rowBorder-0-3-312"
       >
         <TableBody>
           <WithStyles(TableBodyComp)
@@ -7591,12 +7591,12 @@ exports[`Storyshots Components/Table Part TableCell cellType 1`] = `
             <TableBodyComp
               classes={
                 Object {
-                  "tableBody": "TableBodyComp-tableBody-0-3-315",
+                  "tableBody": "TableBodyComp-tableBody-0-3-314",
                 }
               }
             >
               <tbody
-                className="TableBodyComp-tableBody-0-3-315"
+                className="TableBodyComp-tableBody-0-3-314"
               >
                 <TableRow>
                   <WithStyles(TableRowComp)
@@ -7612,13 +7612,13 @@ exports[`Storyshots Components/Table Part TableCell cellType 1`] = `
                     <TableRowComp
                       classes={
                         Object {
-                          "condensed": "TableRowComp-condensed-0-3-317",
-                          "tableRow": "TableRowComp-tableRow-0-3-316",
+                          "condensed": "TableRowComp-condensed-0-3-316",
+                          "tableRow": "TableRowComp-tableRow-0-3-315",
                         }
                       }
                     >
                       <tr
-                        className="TableRowComp-tableRow-0-3-316"
+                        className="TableRowComp-tableRow-0-3-315"
                         style={Object {}}
                       >
                         <TableCell
@@ -7641,14 +7641,14 @@ exports[`Storyshots Components/Table Part TableCell cellType 1`] = `
                               cellType="cellType"
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={true}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318 TableCellComp-numeric-0-3-319"
+                                className="TableCellComp-tableCell-0-3-317 TableCellComp-numeric-0-3-318"
                                 data-celltype="cellType"
                               >
                                 <Typography
@@ -7727,17 +7727,17 @@ exports[`Storyshots Components/Table Part TableCell numeric 1`] = `
     <TableComp
       classes={
         Object {
-          "alternateColor": "TableComp-alternateColor-0-3-311",
-          "alternateColorDark": "TableComp-alternateColorDark-0-3-312",
-          "rowBorder": "TableComp-rowBorder-0-3-313",
-          "rowBorderDark": "TableComp-rowBorderDark-0-3-314",
-          "tableDark": "TableComp-tableDark-0-3-310",
-          "tableLight": "TableComp-tableLight-0-3-309",
+          "alternateColor": "TableComp-alternateColor-0-3-310",
+          "alternateColorDark": "TableComp-alternateColorDark-0-3-311",
+          "rowBorder": "TableComp-rowBorder-0-3-312",
+          "rowBorderDark": "TableComp-rowBorderDark-0-3-313",
+          "tableDark": "TableComp-tableDark-0-3-309",
+          "tableLight": "TableComp-tableLight-0-3-308",
         }
       }
     >
       <table
-        className="TableComp-tableLight-0-3-309 TableComp-rowBorder-0-3-313"
+        className="TableComp-tableLight-0-3-308 TableComp-rowBorder-0-3-312"
       >
         <TableBody>
           <WithStyles(TableBodyComp)
@@ -7753,12 +7753,12 @@ exports[`Storyshots Components/Table Part TableCell numeric 1`] = `
             <TableBodyComp
               classes={
                 Object {
-                  "tableBody": "TableBodyComp-tableBody-0-3-315",
+                  "tableBody": "TableBodyComp-tableBody-0-3-314",
                 }
               }
             >
               <tbody
-                className="TableBodyComp-tableBody-0-3-315"
+                className="TableBodyComp-tableBody-0-3-314"
               >
                 <TableRow>
                   <WithStyles(TableRowComp)
@@ -7774,13 +7774,13 @@ exports[`Storyshots Components/Table Part TableCell numeric 1`] = `
                     <TableRowComp
                       classes={
                         Object {
-                          "condensed": "TableRowComp-condensed-0-3-317",
-                          "tableRow": "TableRowComp-tableRow-0-3-316",
+                          "condensed": "TableRowComp-condensed-0-3-316",
+                          "tableRow": "TableRowComp-tableRow-0-3-315",
                         }
                       }
                     >
                       <tr
-                        className="TableRowComp-tableRow-0-3-316"
+                        className="TableRowComp-tableRow-0-3-315"
                         style={Object {}}
                       >
                         <TableCell
@@ -7800,14 +7800,14 @@ exports[`Storyshots Components/Table Part TableCell numeric 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={true}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318 TableCellComp-numeric-0-3-319"
+                                className="TableCellComp-tableCell-0-3-317 TableCellComp-numeric-0-3-318"
                               >
                                 <Typography
                                   variant="standard"
@@ -7885,17 +7885,17 @@ exports[`Storyshots Components/Table Part TableHeader base 1`] = `
     <TableComp
       classes={
         Object {
-          "alternateColor": "TableComp-alternateColor-0-3-311",
-          "alternateColorDark": "TableComp-alternateColorDark-0-3-312",
-          "rowBorder": "TableComp-rowBorder-0-3-313",
-          "rowBorderDark": "TableComp-rowBorderDark-0-3-314",
-          "tableDark": "TableComp-tableDark-0-3-310",
-          "tableLight": "TableComp-tableLight-0-3-309",
+          "alternateColor": "TableComp-alternateColor-0-3-310",
+          "alternateColorDark": "TableComp-alternateColorDark-0-3-311",
+          "rowBorder": "TableComp-rowBorder-0-3-312",
+          "rowBorderDark": "TableComp-rowBorderDark-0-3-313",
+          "tableDark": "TableComp-tableDark-0-3-309",
+          "tableLight": "TableComp-tableLight-0-3-308",
         }
       }
     >
       <table
-        className="TableComp-tableLight-0-3-309 TableComp-rowBorder-0-3-313"
+        className="TableComp-tableLight-0-3-308 TableComp-rowBorder-0-3-312"
       >
         <TableHeader>
           <WithStyles(TableHeaderComp)
@@ -7911,12 +7911,12 @@ exports[`Storyshots Components/Table Part TableHeader base 1`] = `
             <TableHeaderComp
               classes={
                 Object {
-                  "thead": "TableHeaderComp-thead-0-3-320",
+                  "thead": "TableHeaderComp-thead-0-3-319",
                 }
               }
             >
               <thead
-                className="TableHeaderComp-thead-0-3-320"
+                className="TableHeaderComp-thead-0-3-319"
               >
                 <TableRow>
                   <WithStyles(TableRowComp)
@@ -7932,13 +7932,13 @@ exports[`Storyshots Components/Table Part TableHeader base 1`] = `
                     <TableRowComp
                       classes={
                         Object {
-                          "condensed": "TableRowComp-condensed-0-3-317",
-                          "tableRow": "TableRowComp-tableRow-0-3-316",
+                          "condensed": "TableRowComp-condensed-0-3-316",
+                          "tableRow": "TableRowComp-tableRow-0-3-315",
                         }
                       }
                     >
                       <tr
-                        className="TableRowComp-tableRow-0-3-316"
+                        className="TableRowComp-tableRow-0-3-315"
                         style={Object {}}
                       >
                         <TableCell>
@@ -7955,13 +7955,13 @@ exports[`Storyshots Components/Table Part TableHeader base 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="subtext"
@@ -8024,13 +8024,13 @@ exports[`Storyshots Components/Table Part TableHeader base 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="subtext"
@@ -8093,13 +8093,13 @@ exports[`Storyshots Components/Table Part TableHeader base 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="subtext"
@@ -8165,14 +8165,14 @@ exports[`Storyshots Components/Table Part TableHeader base 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={true}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318 TableCellComp-numeric-0-3-319"
+                                className="TableCellComp-tableCell-0-3-317 TableCellComp-numeric-0-3-318"
                               >
                                 <Typography
                                   variant="subtext"
@@ -8250,17 +8250,17 @@ exports[`Storyshots Components/Table Part TableRow base 1`] = `
     <TableComp
       classes={
         Object {
-          "alternateColor": "TableComp-alternateColor-0-3-311",
-          "alternateColorDark": "TableComp-alternateColorDark-0-3-312",
-          "rowBorder": "TableComp-rowBorder-0-3-313",
-          "rowBorderDark": "TableComp-rowBorderDark-0-3-314",
-          "tableDark": "TableComp-tableDark-0-3-310",
-          "tableLight": "TableComp-tableLight-0-3-309",
+          "alternateColor": "TableComp-alternateColor-0-3-310",
+          "alternateColorDark": "TableComp-alternateColorDark-0-3-311",
+          "rowBorder": "TableComp-rowBorder-0-3-312",
+          "rowBorderDark": "TableComp-rowBorderDark-0-3-313",
+          "tableDark": "TableComp-tableDark-0-3-309",
+          "tableLight": "TableComp-tableLight-0-3-308",
         }
       }
     >
       <table
-        className="TableComp-tableLight-0-3-309 TableComp-rowBorder-0-3-313"
+        className="TableComp-tableLight-0-3-308 TableComp-rowBorder-0-3-312"
       >
         <TableBody>
           <WithStyles(TableBodyComp)
@@ -8276,12 +8276,12 @@ exports[`Storyshots Components/Table Part TableRow base 1`] = `
             <TableBodyComp
               classes={
                 Object {
-                  "tableBody": "TableBodyComp-tableBody-0-3-315",
+                  "tableBody": "TableBodyComp-tableBody-0-3-314",
                 }
               }
             >
               <tbody
-                className="TableBodyComp-tableBody-0-3-315"
+                className="TableBodyComp-tableBody-0-3-314"
               >
                 <TableRow>
                   <WithStyles(TableRowComp)
@@ -8297,13 +8297,13 @@ exports[`Storyshots Components/Table Part TableRow base 1`] = `
                     <TableRowComp
                       classes={
                         Object {
-                          "condensed": "TableRowComp-condensed-0-3-317",
-                          "tableRow": "TableRowComp-tableRow-0-3-316",
+                          "condensed": "TableRowComp-condensed-0-3-316",
+                          "tableRow": "TableRowComp-tableRow-0-3-315",
                         }
                       }
                     >
                       <tr
-                        className="TableRowComp-tableRow-0-3-316"
+                        className="TableRowComp-tableRow-0-3-315"
                         style={Object {}}
                       >
                         <TableCell>
@@ -8320,13 +8320,13 @@ exports[`Storyshots Components/Table Part TableRow base 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -8389,13 +8389,13 @@ exports[`Storyshots Components/Table Part TableRow base 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -8458,13 +8458,13 @@ exports[`Storyshots Components/Table Part TableRow base 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -8530,14 +8530,14 @@ exports[`Storyshots Components/Table Part TableRow base 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={true}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318 TableCellComp-numeric-0-3-319"
+                                className="TableCellComp-tableCell-0-3-317 TableCellComp-numeric-0-3-318"
                               >
                                 <Typography
                                   variant="standard"
@@ -8615,17 +8615,17 @@ exports[`Storyshots Components/Table Part TableRow onSelect 1`] = `
     <TableComp
       classes={
         Object {
-          "alternateColor": "TableComp-alternateColor-0-3-311",
-          "alternateColorDark": "TableComp-alternateColorDark-0-3-312",
-          "rowBorder": "TableComp-rowBorder-0-3-313",
-          "rowBorderDark": "TableComp-rowBorderDark-0-3-314",
-          "tableDark": "TableComp-tableDark-0-3-310",
-          "tableLight": "TableComp-tableLight-0-3-309",
+          "alternateColor": "TableComp-alternateColor-0-3-310",
+          "alternateColorDark": "TableComp-alternateColorDark-0-3-311",
+          "rowBorder": "TableComp-rowBorder-0-3-312",
+          "rowBorderDark": "TableComp-rowBorderDark-0-3-313",
+          "tableDark": "TableComp-tableDark-0-3-309",
+          "tableLight": "TableComp-tableLight-0-3-308",
         }
       }
     >
       <table
-        className="TableComp-tableLight-0-3-309 TableComp-rowBorder-0-3-313"
+        className="TableComp-tableLight-0-3-308 TableComp-rowBorder-0-3-312"
       >
         <TableBody>
           <WithStyles(TableBodyComp)
@@ -8641,12 +8641,12 @@ exports[`Storyshots Components/Table Part TableRow onSelect 1`] = `
             <TableBodyComp
               classes={
                 Object {
-                  "tableBody": "TableBodyComp-tableBody-0-3-315",
+                  "tableBody": "TableBodyComp-tableBody-0-3-314",
                 }
               }
             >
               <tbody
-                className="TableBodyComp-tableBody-0-3-315"
+                className="TableBodyComp-tableBody-0-3-314"
               >
                 <TableRow
                   onSelect={[Function]}
@@ -8665,14 +8665,14 @@ exports[`Storyshots Components/Table Part TableRow onSelect 1`] = `
                     <TableRowComp
                       classes={
                         Object {
-                          "condensed": "TableRowComp-condensed-0-3-317",
-                          "tableRow": "TableRowComp-tableRow-0-3-316",
+                          "condensed": "TableRowComp-condensed-0-3-316",
+                          "tableRow": "TableRowComp-tableRow-0-3-315",
                         }
                       }
                       onSelect={[Function]}
                     >
                       <tr
-                        className="TableRowComp-tableRow-0-3-316"
+                        className="TableRowComp-tableRow-0-3-315"
                         onClick={[Function]}
                         style={Object {}}
                       >
@@ -8690,13 +8690,13 @@ exports[`Storyshots Components/Table Part TableRow onSelect 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -8759,13 +8759,13 @@ exports[`Storyshots Components/Table Part TableRow onSelect 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -8828,13 +8828,13 @@ exports[`Storyshots Components/Table Part TableRow onSelect 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -8900,14 +8900,14 @@ exports[`Storyshots Components/Table Part TableRow onSelect 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={true}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318 TableCellComp-numeric-0-3-319"
+                                className="TableCellComp-tableCell-0-3-317 TableCellComp-numeric-0-3-318"
                               >
                                 <Typography
                                   variant="standard"
@@ -8985,17 +8985,17 @@ exports[`Storyshots Components/Table Part TableRow short 1`] = `
     <TableComp
       classes={
         Object {
-          "alternateColor": "TableComp-alternateColor-0-3-311",
-          "alternateColorDark": "TableComp-alternateColorDark-0-3-312",
-          "rowBorder": "TableComp-rowBorder-0-3-313",
-          "rowBorderDark": "TableComp-rowBorderDark-0-3-314",
-          "tableDark": "TableComp-tableDark-0-3-310",
-          "tableLight": "TableComp-tableLight-0-3-309",
+          "alternateColor": "TableComp-alternateColor-0-3-310",
+          "alternateColorDark": "TableComp-alternateColorDark-0-3-311",
+          "rowBorder": "TableComp-rowBorder-0-3-312",
+          "rowBorderDark": "TableComp-rowBorderDark-0-3-313",
+          "tableDark": "TableComp-tableDark-0-3-309",
+          "tableLight": "TableComp-tableLight-0-3-308",
         }
       }
     >
       <table
-        className="TableComp-tableLight-0-3-309 TableComp-rowBorder-0-3-313"
+        className="TableComp-tableLight-0-3-308 TableComp-rowBorder-0-3-312"
       >
         <TableBody>
           <WithStyles(TableBodyComp)
@@ -9011,12 +9011,12 @@ exports[`Storyshots Components/Table Part TableRow short 1`] = `
             <TableBodyComp
               classes={
                 Object {
-                  "tableBody": "TableBodyComp-tableBody-0-3-315",
+                  "tableBody": "TableBodyComp-tableBody-0-3-314",
                 }
               }
             >
               <tbody
-                className="TableBodyComp-tableBody-0-3-315"
+                className="TableBodyComp-tableBody-0-3-314"
               >
                 <TableRow
                   condensed={true}
@@ -9035,14 +9035,14 @@ exports[`Storyshots Components/Table Part TableRow short 1`] = `
                     <TableRowComp
                       classes={
                         Object {
-                          "condensed": "TableRowComp-condensed-0-3-317",
-                          "tableRow": "TableRowComp-tableRow-0-3-316",
+                          "condensed": "TableRowComp-condensed-0-3-316",
+                          "tableRow": "TableRowComp-tableRow-0-3-315",
                         }
                       }
                       condensed={true}
                     >
                       <tr
-                        className="TableRowComp-condensed-0-3-317"
+                        className="TableRowComp-condensed-0-3-316"
                         style={Object {}}
                       >
                         <TableCell>
@@ -9059,13 +9059,13 @@ exports[`Storyshots Components/Table Part TableRow short 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -9128,13 +9128,13 @@ exports[`Storyshots Components/Table Part TableRow short 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -9197,13 +9197,13 @@ exports[`Storyshots Components/Table Part TableRow short 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318"
+                                className="TableCellComp-tableCell-0-3-317"
                               >
                                 <Typography
                                   variant="standard"
@@ -9269,14 +9269,14 @@ exports[`Storyshots Components/Table Part TableRow short 1`] = `
                             <TableCellComp
                               classes={
                                 Object {
-                                  "numeric": "TableCellComp-numeric-0-3-319",
-                                  "tableCell": "TableCellComp-tableCell-0-3-318",
+                                  "numeric": "TableCellComp-numeric-0-3-318",
+                                  "tableCell": "TableCellComp-tableCell-0-3-317",
                                 }
                               }
                               numeric={true}
                             >
                               <td
-                                className="TableCellComp-tableCell-0-3-318 TableCellComp-numeric-0-3-319"
+                                className="TableCellComp-tableCell-0-3-317 TableCellComp-numeric-0-3-318"
                               >
                                 <Typography
                                   variant="standard"

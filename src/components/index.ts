@@ -8,7 +8,6 @@ export * from './Checkbox';
 export * from './Chevron';
 export * from './CircularProgress';
 export * from './ClearableInput';
-export * from './DatePicker';
 export * from './Dialog';
 export * from './Divider';
 export * from './FloatingActionButton';

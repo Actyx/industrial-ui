@@ -20,7 +20,7 @@ exports[`Storyshots Components/Scrim Base 1`] = `
     <ScrimComp
       classes={
         Object {
-          "root": "ScrimComp-root-0-3-126",
+          "root": "ScrimComp-root-0-3-125",
         }
       }
       onClose={[Function]}
@@ -42,7 +42,7 @@ exports[`Storyshots Components/Scrim Base 1`] = `
         unmountOnExit={false}
       >
         <div
-          className="ScrimComp-root-0-3-126"
+          className="ScrimComp-root-0-3-125"
           onClick={[Function]}
           style={
             Object {

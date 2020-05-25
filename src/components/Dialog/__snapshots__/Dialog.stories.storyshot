@@ -36,15 +36,15 @@ exports[`Storyshots Components/Dialog/Dialog Size header top right 1`] = `
     <DialogComp
       classes={
         Object {
-          "dialog": "DialogComp-dialog-0-3-114",
-          "footer": "DialogComp-footer-0-3-116",
-          "header": "DialogComp-header-0-3-115",
-          "md": "DialogComp-md-0-3-119",
-          "sm": "DialogComp-sm-0-3-118",
-          "xl": "DialogComp-xl-0-3-120",
-          "xlw": "DialogComp-xlw-0-3-121",
-          "xs": "DialogComp-xs-0-3-117",
-          "xxl": "DialogComp-xxl-0-3-122",
+          "dialog": "DialogComp-dialog-0-3-113",
+          "footer": "DialogComp-footer-0-3-115",
+          "header": "DialogComp-header-0-3-114",
+          "md": "DialogComp-md-0-3-118",
+          "sm": "DialogComp-sm-0-3-117",
+          "xl": "DialogComp-xl-0-3-119",
+          "xlw": "DialogComp-xlw-0-3-120",
+          "xs": "DialogComp-xs-0-3-116",
+          "xxl": "DialogComp-xxl-0-3-121",
         }
       }
       content="content"
@@ -59,18 +59,18 @@ exports[`Storyshots Components/Dialog/Dialog Size header top right 1`] = `
       size="xl"
     >
       <FluidDialog
-        className="DialogComp-dialog-0-3-114 DialogComp-xl-0-3-120"
+        className="DialogComp-dialog-0-3-113 DialogComp-xl-0-3-119"
         content="content"
         footer={
           <div
-            className="DialogComp-footer-0-3-116"
+            className="DialogComp-footer-0-3-115"
           >
             action
           </div>
         }
         header={
           <div
-            className="DialogComp-header-0-3-115"
+            className="DialogComp-header-0-3-114"
           >
             <DialogHeader
               rightComponent="some conttent here"
@@ -81,18 +81,18 @@ exports[`Storyshots Components/Dialog/Dialog Size header top right 1`] = `
         onClose={[Function]}
       >
         <WithStyles(FluidDialogComp)
-          className="DialogComp-dialog-0-3-114 DialogComp-xl-0-3-120"
+          className="DialogComp-dialog-0-3-113 DialogComp-xl-0-3-119"
           content="content"
           footer={
             <div
-              className="DialogComp-footer-0-3-116"
+              className="DialogComp-footer-0-3-115"
             >
               action
             </div>
           }
           header={
             <div
-              className="DialogComp-header-0-3-115"
+              className="DialogComp-header-0-3-114"
             >
               <DialogHeader
                 rightComponent="some conttent here"
@@ -111,25 +111,25 @@ exports[`Storyshots Components/Dialog/Dialog Size header top right 1`] = `
           theme={Object {}}
         >
           <FluidDialogComp
-            className="DialogComp-dialog-0-3-114 DialogComp-xl-0-3-120"
+            className="DialogComp-dialog-0-3-113 DialogComp-xl-0-3-119"
             classes={
               Object {
-                "container": "FluidDialogComp-container-0-3-124",
-                "content": "FluidDialogComp-content-0-3-125",
-                "root": "FluidDialogComp-root-0-3-123",
+                "container": "FluidDialogComp-container-0-3-123",
+                "content": "FluidDialogComp-content-0-3-124",
+                "root": "FluidDialogComp-root-0-3-122",
               }
             }
             content="content"
             footer={
               <div
-                className="DialogComp-footer-0-3-116"
+                className="DialogComp-footer-0-3-115"
               >
                 action
               </div>
             }
             header={
               <div
-                className="DialogComp-header-0-3-115"
+                className="DialogComp-header-0-3-114"
               >
                 <DialogHeader
                   rightComponent="some conttent here"
@@ -140,7 +140,7 @@ exports[`Storyshots Components/Dialog/Dialog Size header top right 1`] = `
             onClose={[Function]}
           >
             <div
-              className="FluidDialogComp-root-0-3-123"
+              className="FluidDialogComp-root-0-3-122"
             >
               <Scrim
                 onClose={[Function]}
@@ -161,7 +161,7 @@ exports[`Storyshots Components/Dialog/Dialog Size header top right 1`] = `
                   <ScrimComp
                     classes={
                       Object {
-                        "root": "ScrimComp-root-0-3-126",
+                        "root": "ScrimComp-root-0-3-125",
                       }
                     }
                     onClose={[Function]}
@@ -183,7 +183,7 @@ exports[`Storyshots Components/Dialog/Dialog Size header top right 1`] = `
                       unmountOnExit={false}
                     >
                       <div
-                        className="ScrimComp-root-0-3-126"
+                        className="ScrimComp-root-0-3-125"
                         onClick={[Function]}
                         style={
                           Object {
@@ -197,11 +197,11 @@ exports[`Storyshots Components/Dialog/Dialog Size header top right 1`] = `
                 </WithStyles(ScrimComp)>
               </Scrim>
               <div
-                className="FluidDialogComp-container-0-3-124 DialogComp-dialog-0-3-114 DialogComp-xl-0-3-120"
+                className="FluidDialogComp-container-0-3-123 DialogComp-dialog-0-3-113 DialogComp-xl-0-3-119"
               >
                 <div>
                   <div
-                    className="DialogComp-header-0-3-115"
+                    className="DialogComp-header-0-3-114"
                   >
                     <DialogHeader
                       rightComponent="some conttent here"
@@ -264,13 +264,13 @@ exports[`Storyshots Components/Dialog/Dialog Size header top right 1`] = `
                   </div>
                 </div>
                 <div
-                  className="FluidDialogComp-content-0-3-125"
+                  className="FluidDialogComp-content-0-3-124"
                 >
                   content
                 </div>
                 <div>
                   <div
-                    className="DialogComp-footer-0-3-116"
+                    className="DialogComp-footer-0-3-115"
                   >
                     action
                   </div>
@@ -311,15 +311,15 @@ exports[`Storyshots Components/Dialog/Dialog Size md header 1`] = `
     <DialogComp
       classes={
         Object {
-          "dialog": "DialogComp-dialog-0-3-114",
-          "footer": "DialogComp-footer-0-3-116",
-          "header": "DialogComp-header-0-3-115",
-          "md": "DialogComp-md-0-3-119",
-          "sm": "DialogComp-sm-0-3-118",
-          "xl": "DialogComp-xl-0-3-120",
-          "xlw": "DialogComp-xlw-0-3-121",
-          "xs": "DialogComp-xs-0-3-117",
-          "xxl": "DialogComp-xxl-0-3-122",
+          "dialog": "DialogComp-dialog-0-3-113",
+          "footer": "DialogComp-footer-0-3-115",
+          "header": "DialogComp-header-0-3-114",
+          "md": "DialogComp-md-0-3-118",
+          "sm": "DialogComp-sm-0-3-117",
+          "xl": "DialogComp-xl-0-3-119",
+          "xlw": "DialogComp-xlw-0-3-120",
+          "xs": "DialogComp-xs-0-3-116",
+          "xxl": "DialogComp-xxl-0-3-121",
         }
       }
       content="content"
@@ -329,18 +329,18 @@ exports[`Storyshots Components/Dialog/Dialog Size md header 1`] = `
       size="md"
     >
       <FluidDialog
-        className="DialogComp-dialog-0-3-114 DialogComp-md-0-3-119"
+        className="DialogComp-dialog-0-3-113 DialogComp-md-0-3-118"
         content="content"
         footer={
           <div
-            className="DialogComp-footer-0-3-116"
+            className="DialogComp-footer-0-3-115"
           >
             action
           </div>
         }
         header={
           <div
-            className="DialogComp-header-0-3-115"
+            className="DialogComp-header-0-3-114"
           >
             Custom header
           </div>
@@ -348,18 +348,18 @@ exports[`Storyshots Components/Dialog/Dialog Size md header 1`] = `
         onClose={[Function]}
       >
         <WithStyles(FluidDialogComp)
-          className="DialogComp-dialog-0-3-114 DialogComp-md-0-3-119"
+          className="DialogComp-dialog-0-3-113 DialogComp-md-0-3-118"
           content="content"
           footer={
             <div
-              className="DialogComp-footer-0-3-116"
+              className="DialogComp-footer-0-3-115"
             >
               action
             </div>
           }
           header={
             <div
-              className="DialogComp-header-0-3-115"
+              className="DialogComp-header-0-3-114"
             >
               Custom header
             </div>
@@ -375,25 +375,25 @@ exports[`Storyshots Components/Dialog/Dialog Size md header 1`] = `
           theme={Object {}}
         >
           <FluidDialogComp
-            className="DialogComp-dialog-0-3-114 DialogComp-md-0-3-119"
+            className="DialogComp-dialog-0-3-113 DialogComp-md-0-3-118"
             classes={
               Object {
-                "container": "FluidDialogComp-container-0-3-124",
-                "content": "FluidDialogComp-content-0-3-125",
-                "root": "FluidDialogComp-root-0-3-123",
+                "container": "FluidDialogComp-container-0-3-123",
+                "content": "FluidDialogComp-content-0-3-124",
+                "root": "FluidDialogComp-root-0-3-122",
               }
             }
             content="content"
             footer={
               <div
-                className="DialogComp-footer-0-3-116"
+                className="DialogComp-footer-0-3-115"
               >
                 action
               </div>
             }
             header={
               <div
-                className="DialogComp-header-0-3-115"
+                className="DialogComp-header-0-3-114"
               >
                 Custom header
               </div>
@@ -401,7 +401,7 @@ exports[`Storyshots Components/Dialog/Dialog Size md header 1`] = `
             onClose={[Function]}
           >
             <div
-              className="FluidDialogComp-root-0-3-123"
+              className="FluidDialogComp-root-0-3-122"
             >
               <Scrim
                 onClose={[Function]}
@@ -422,7 +422,7 @@ exports[`Storyshots Components/Dialog/Dialog Size md header 1`] = `
                   <ScrimComp
                     classes={
                       Object {
-                        "root": "ScrimComp-root-0-3-126",
+                        "root": "ScrimComp-root-0-3-125",
                       }
                     }
                     onClose={[Function]}
@@ -444,7 +444,7 @@ exports[`Storyshots Components/Dialog/Dialog Size md header 1`] = `
                       unmountOnExit={false}
                     >
                       <div
-                        className="ScrimComp-root-0-3-126"
+                        className="ScrimComp-root-0-3-125"
                         onClick={[Function]}
                         style={
                           Object {
@@ -458,23 +458,23 @@ exports[`Storyshots Components/Dialog/Dialog Size md header 1`] = `
                 </WithStyles(ScrimComp)>
               </Scrim>
               <div
-                className="FluidDialogComp-container-0-3-124 DialogComp-dialog-0-3-114 DialogComp-md-0-3-119"
+                className="FluidDialogComp-container-0-3-123 DialogComp-dialog-0-3-113 DialogComp-md-0-3-118"
               >
                 <div>
                   <div
-                    className="DialogComp-header-0-3-115"
+                    className="DialogComp-header-0-3-114"
                   >
                     Custom header
                   </div>
                 </div>
                 <div
-                  className="FluidDialogComp-content-0-3-125"
+                  className="FluidDialogComp-content-0-3-124"
                 >
                   content
                 </div>
                 <div>
                   <div
-                    className="DialogComp-footer-0-3-116"
+                    className="DialogComp-footer-0-3-115"
                   >
                     action
                   </div>
@@ -517,15 +517,15 @@ exports[`Storyshots Components/Dialog/Dialog Size md title 1`] = `
     <DialogComp
       classes={
         Object {
-          "dialog": "DialogComp-dialog-0-3-114",
-          "footer": "DialogComp-footer-0-3-116",
-          "header": "DialogComp-header-0-3-115",
-          "md": "DialogComp-md-0-3-119",
-          "sm": "DialogComp-sm-0-3-118",
-          "xl": "DialogComp-xl-0-3-120",
-          "xlw": "DialogComp-xlw-0-3-121",
-          "xs": "DialogComp-xs-0-3-117",
-          "xxl": "DialogComp-xxl-0-3-122",
+          "dialog": "DialogComp-dialog-0-3-113",
+          "footer": "DialogComp-footer-0-3-115",
+          "header": "DialogComp-header-0-3-114",
+          "md": "DialogComp-md-0-3-118",
+          "sm": "DialogComp-sm-0-3-117",
+          "xl": "DialogComp-xl-0-3-119",
+          "xlw": "DialogComp-xlw-0-3-120",
+          "xs": "DialogComp-xs-0-3-116",
+          "xxl": "DialogComp-xxl-0-3-121",
         }
       }
       content="content"
@@ -536,18 +536,18 @@ exports[`Storyshots Components/Dialog/Dialog Size md title 1`] = `
       title="Title dialog"
     >
       <FluidDialog
-        className="DialogComp-dialog-0-3-114 DialogComp-md-0-3-119"
+        className="DialogComp-dialog-0-3-113 DialogComp-md-0-3-118"
         content="content"
         footer={
           <div
-            className="DialogComp-footer-0-3-116"
+            className="DialogComp-footer-0-3-115"
           >
             action
           </div>
         }
         header={
           <div
-            className="DialogComp-header-0-3-115"
+            className="DialogComp-header-0-3-114"
           >
             header
           </div>
@@ -555,18 +555,18 @@ exports[`Storyshots Components/Dialog/Dialog Size md title 1`] = `
         onClose={[Function]}
       >
         <WithStyles(FluidDialogComp)
-          className="DialogComp-dialog-0-3-114 DialogComp-md-0-3-119"
+          className="DialogComp-dialog-0-3-113 DialogComp-md-0-3-118"
           content="content"
           footer={
             <div
-              className="DialogComp-footer-0-3-116"
+              className="DialogComp-footer-0-3-115"
             >
               action
             </div>
           }
           header={
             <div
-              className="DialogComp-header-0-3-115"
+              className="DialogComp-header-0-3-114"
             >
               header
             </div>
@@ -582,25 +582,25 @@ exports[`Storyshots Components/Dialog/Dialog Size md title 1`] = `
           theme={Object {}}
         >
           <FluidDialogComp
-            className="DialogComp-dialog-0-3-114 DialogComp-md-0-3-119"
+            className="DialogComp-dialog-0-3-113 DialogComp-md-0-3-118"
             classes={
               Object {
-                "container": "FluidDialogComp-container-0-3-124",
-                "content": "FluidDialogComp-content-0-3-125",
-                "root": "FluidDialogComp-root-0-3-123",
+                "container": "FluidDialogComp-container-0-3-123",
+                "content": "FluidDialogComp-content-0-3-124",
+                "root": "FluidDialogComp-root-0-3-122",
               }
             }
             content="content"
             footer={
               <div
-                className="DialogComp-footer-0-3-116"
+                className="DialogComp-footer-0-3-115"
               >
                 action
               </div>
             }
             header={
               <div
-                className="DialogComp-header-0-3-115"
+                className="DialogComp-header-0-3-114"
               >
                 header
               </div>
@@ -608,7 +608,7 @@ exports[`Storyshots Components/Dialog/Dialog Size md title 1`] = `
             onClose={[Function]}
           >
             <div
-              className="FluidDialogComp-root-0-3-123"
+              className="FluidDialogComp-root-0-3-122"
             >
               <Scrim
                 onClose={[Function]}
@@ -629,7 +629,7 @@ exports[`Storyshots Components/Dialog/Dialog Size md title 1`] = `
                   <ScrimComp
                     classes={
                       Object {
-                        "root": "ScrimComp-root-0-3-126",
+                        "root": "ScrimComp-root-0-3-125",
                       }
                     }
                     onClose={[Function]}
@@ -651,7 +651,7 @@ exports[`Storyshots Components/Dialog/Dialog Size md title 1`] = `
                       unmountOnExit={false}
                     >
                       <div
-                        className="ScrimComp-root-0-3-126"
+                        className="ScrimComp-root-0-3-125"
                         onClick={[Function]}
                         style={
                           Object {
@@ -665,23 +665,23 @@ exports[`Storyshots Components/Dialog/Dialog Size md title 1`] = `
                 </WithStyles(ScrimComp)>
               </Scrim>
               <div
-                className="FluidDialogComp-container-0-3-124 DialogComp-dialog-0-3-114 DialogComp-md-0-3-119"
+                className="FluidDialogComp-container-0-3-123 DialogComp-dialog-0-3-113 DialogComp-md-0-3-118"
               >
                 <div>
                   <div
-                    className="DialogComp-header-0-3-115"
+                    className="DialogComp-header-0-3-114"
                   >
                     header
                   </div>
                 </div>
                 <div
-                  className="FluidDialogComp-content-0-3-125"
+                  className="FluidDialogComp-content-0-3-124"
                 >
                   content
                 </div>
                 <div>
                   <div
-                    className="DialogComp-footer-0-3-116"
+                    className="DialogComp-footer-0-3-115"
                   >
                     action
                   </div>
@@ -722,15 +722,15 @@ exports[`Storyshots Components/Dialog/Dialog Size sm 1`] = `
     <DialogComp
       classes={
         Object {
-          "dialog": "DialogComp-dialog-0-3-114",
-          "footer": "DialogComp-footer-0-3-116",
-          "header": "DialogComp-header-0-3-115",
-          "md": "DialogComp-md-0-3-119",
-          "sm": "DialogComp-sm-0-3-118",
-          "xl": "DialogComp-xl-0-3-120",
-          "xlw": "DialogComp-xlw-0-3-121",
-          "xs": "DialogComp-xs-0-3-117",
-          "xxl": "DialogComp-xxl-0-3-122",
+          "dialog": "DialogComp-dialog-0-3-113",
+          "footer": "DialogComp-footer-0-3-115",
+          "header": "DialogComp-header-0-3-114",
+          "md": "DialogComp-md-0-3-118",
+          "sm": "DialogComp-sm-0-3-117",
+          "xl": "DialogComp-xl-0-3-119",
+          "xlw": "DialogComp-xlw-0-3-120",
+          "xs": "DialogComp-xs-0-3-116",
+          "xxl": "DialogComp-xxl-0-3-121",
         }
       }
       content="content"
@@ -740,18 +740,18 @@ exports[`Storyshots Components/Dialog/Dialog Size sm 1`] = `
       size="sm"
     >
       <FluidDialog
-        className="DialogComp-dialog-0-3-114 DialogComp-sm-0-3-118"
+        className="DialogComp-dialog-0-3-113 DialogComp-sm-0-3-117"
         content="content"
         footer={
           <div
-            className="DialogComp-footer-0-3-116"
+            className="DialogComp-footer-0-3-115"
           >
             action
           </div>
         }
         header={
           <div
-            className="DialogComp-header-0-3-115"
+            className="DialogComp-header-0-3-114"
           >
             header
           </div>
@@ -759,18 +759,18 @@ exports[`Storyshots Components/Dialog/Dialog Size sm 1`] = `
         onClose={[Function]}
       >
         <WithStyles(FluidDialogComp)
-          className="DialogComp-dialog-0-3-114 DialogComp-sm-0-3-118"
+          className="DialogComp-dialog-0-3-113 DialogComp-sm-0-3-117"
           content="content"
           footer={
             <div
-              className="DialogComp-footer-0-3-116"
+              className="DialogComp-footer-0-3-115"
             >
               action
             </div>
           }
           header={
             <div
-              className="DialogComp-header-0-3-115"
+              className="DialogComp-header-0-3-114"
             >
               header
             </div>
@@ -786,25 +786,25 @@ exports[`Storyshots Components/Dialog/Dialog Size sm 1`] = `
           theme={Object {}}
         >
           <FluidDialogComp
-            className="DialogComp-dialog-0-3-114 DialogComp-sm-0-3-118"
+            className="DialogComp-dialog-0-3-113 DialogComp-sm-0-3-117"
             classes={
               Object {
-                "container": "FluidDialogComp-container-0-3-124",
-                "content": "FluidDialogComp-content-0-3-125",
-                "root": "FluidDialogComp-root-0-3-123",
+                "container": "FluidDialogComp-container-0-3-123",
+                "content": "FluidDialogComp-content-0-3-124",
+                "root": "FluidDialogComp-root-0-3-122",
               }
             }
             content="content"
             footer={
               <div
-                className="DialogComp-footer-0-3-116"
+                className="DialogComp-footer-0-3-115"
               >
                 action
               </div>
             }
             header={
               <div
-                className="DialogComp-header-0-3-115"
+                className="DialogComp-header-0-3-114"
               >
                 header
               </div>
@@ -812,7 +812,7 @@ exports[`Storyshots Components/Dialog/Dialog Size sm 1`] = `
             onClose={[Function]}
           >
             <div
-              className="FluidDialogComp-root-0-3-123"
+              className="FluidDialogComp-root-0-3-122"
             >
               <Scrim
                 onClose={[Function]}
@@ -833,7 +833,7 @@ exports[`Storyshots Components/Dialog/Dialog Size sm 1`] = `
                   <ScrimComp
                     classes={
                       Object {
-                        "root": "ScrimComp-root-0-3-126",
+                        "root": "ScrimComp-root-0-3-125",
                       }
                     }
                     onClose={[Function]}
@@ -855,7 +855,7 @@ exports[`Storyshots Components/Dialog/Dialog Size sm 1`] = `
                       unmountOnExit={false}
                     >
                       <div
-                        className="ScrimComp-root-0-3-126"
+                        className="ScrimComp-root-0-3-125"
                         onClick={[Function]}
                         style={
                           Object {
@@ -869,23 +869,23 @@ exports[`Storyshots Components/Dialog/Dialog Size sm 1`] = `
                 </WithStyles(ScrimComp)>
               </Scrim>
               <div
-                className="FluidDialogComp-container-0-3-124 DialogComp-dialog-0-3-114 DialogComp-sm-0-3-118"
+                className="FluidDialogComp-container-0-3-123 DialogComp-dialog-0-3-113 DialogComp-sm-0-3-117"
               >
                 <div>
                   <div
-                    className="DialogComp-header-0-3-115"
+                    className="DialogComp-header-0-3-114"
                   >
                     header
                   </div>
                 </div>
                 <div
-                  className="FluidDialogComp-content-0-3-125"
+                  className="FluidDialogComp-content-0-3-124"
                 >
                   content
                 </div>
                 <div>
                   <div
-                    className="DialogComp-footer-0-3-116"
+                    className="DialogComp-footer-0-3-115"
                   >
                     action
                   </div>
@@ -926,15 +926,15 @@ exports[`Storyshots Components/Dialog/Dialog Size xl 1`] = `
     <DialogComp
       classes={
         Object {
-          "dialog": "DialogComp-dialog-0-3-114",
-          "footer": "DialogComp-footer-0-3-116",
-          "header": "DialogComp-header-0-3-115",
-          "md": "DialogComp-md-0-3-119",
-          "sm": "DialogComp-sm-0-3-118",
-          "xl": "DialogComp-xl-0-3-120",
-          "xlw": "DialogComp-xlw-0-3-121",
-          "xs": "DialogComp-xs-0-3-117",
-          "xxl": "DialogComp-xxl-0-3-122",
+          "dialog": "DialogComp-dialog-0-3-113",
+          "footer": "DialogComp-footer-0-3-115",
+          "header": "DialogComp-header-0-3-114",
+          "md": "DialogComp-md-0-3-118",
+          "sm": "DialogComp-sm-0-3-117",
+          "xl": "DialogComp-xl-0-3-119",
+          "xlw": "DialogComp-xlw-0-3-120",
+          "xs": "DialogComp-xs-0-3-116",
+          "xxl": "DialogComp-xxl-0-3-121",
         }
       }
       content="content"
@@ -944,18 +944,18 @@ exports[`Storyshots Components/Dialog/Dialog Size xl 1`] = `
       size="xl"
     >
       <FluidDialog
-        className="DialogComp-dialog-0-3-114 DialogComp-xl-0-3-120"
+        className="DialogComp-dialog-0-3-113 DialogComp-xl-0-3-119"
         content="content"
         footer={
           <div
-            className="DialogComp-footer-0-3-116"
+            className="DialogComp-footer-0-3-115"
           >
             action
           </div>
         }
         header={
           <div
-            className="DialogComp-header-0-3-115"
+            className="DialogComp-header-0-3-114"
           >
             header
           </div>
@@ -963,18 +963,18 @@ exports[`Storyshots Components/Dialog/Dialog Size xl 1`] = `
         onClose={[Function]}
       >
         <WithStyles(FluidDialogComp)
-          className="DialogComp-dialog-0-3-114 DialogComp-xl-0-3-120"
+          className="DialogComp-dialog-0-3-113 DialogComp-xl-0-3-119"
           content="content"
           footer={
             <div
-              className="DialogComp-footer-0-3-116"
+              className="DialogComp-footer-0-3-115"
             >
               action
             </div>
           }
           header={
             <div
-              className="DialogComp-header-0-3-115"
+              className="DialogComp-header-0-3-114"
             >
               header
             </div>
@@ -990,25 +990,25 @@ exports[`Storyshots Components/Dialog/Dialog Size xl 1`] = `
           theme={Object {}}
         >
           <FluidDialogComp
-            className="DialogComp-dialog-0-3-114 DialogComp-xl-0-3-120"
+            className="DialogComp-dialog-0-3-113 DialogComp-xl-0-3-119"
             classes={
               Object {
-                "container": "FluidDialogComp-container-0-3-124",
-                "content": "FluidDialogComp-content-0-3-125",
-                "root": "FluidDialogComp-root-0-3-123",
+                "container": "FluidDialogComp-container-0-3-123",
+                "content": "FluidDialogComp-content-0-3-124",
+                "root": "FluidDialogComp-root-0-3-122",
               }
             }
             content="content"
             footer={
               <div
-                className="DialogComp-footer-0-3-116"
+                className="DialogComp-footer-0-3-115"
               >
                 action
               </div>
             }
             header={
               <div
-                className="DialogComp-header-0-3-115"
+                className="DialogComp-header-0-3-114"
               >
                 header
               </div>
@@ -1016,7 +1016,7 @@ exports[`Storyshots Components/Dialog/Dialog Size xl 1`] = `
             onClose={[Function]}
           >
             <div
-              className="FluidDialogComp-root-0-3-123"
+              className="FluidDialogComp-root-0-3-122"
             >
               <Scrim
                 onClose={[Function]}
@@ -1037,7 +1037,7 @@ exports[`Storyshots Components/Dialog/Dialog Size xl 1`] = `
                   <ScrimComp
                     classes={
                       Object {
-                        "root": "ScrimComp-root-0-3-126",
+                        "root": "ScrimComp-root-0-3-125",
                       }
                     }
                     onClose={[Function]}
@@ -1059,7 +1059,7 @@ exports[`Storyshots Components/Dialog/Dialog Size xl 1`] = `
                       unmountOnExit={false}
                     >
                       <div
-                        className="ScrimComp-root-0-3-126"
+                        className="ScrimComp-root-0-3-125"
                         onClick={[Function]}
                         style={
                           Object {
@@ -1073,23 +1073,23 @@ exports[`Storyshots Components/Dialog/Dialog Size xl 1`] = `
                 </WithStyles(ScrimComp)>
               </Scrim>
               <div
-                className="FluidDialogComp-container-0-3-124 DialogComp-dialog-0-3-114 DialogComp-xl-0-3-120"
+                className="FluidDialogComp-container-0-3-123 DialogComp-dialog-0-3-113 DialogComp-xl-0-3-119"
               >
                 <div>
                   <div
-                    className="DialogComp-header-0-3-115"
+                    className="DialogComp-header-0-3-114"
                   >
                     header
                   </div>
                 </div>
                 <div
-                  className="FluidDialogComp-content-0-3-125"
+                  className="FluidDialogComp-content-0-3-124"
                 >
                   content
                 </div>
                 <div>
                   <div
-                    className="DialogComp-footer-0-3-116"
+                    className="DialogComp-footer-0-3-115"
                   >
                     action
                   </div>
@@ -1130,15 +1130,15 @@ exports[`Storyshots Components/Dialog/Dialog Size xlw 1`] = `
     <DialogComp
       classes={
         Object {
-          "dialog": "DialogComp-dialog-0-3-114",
-          "footer": "DialogComp-footer-0-3-116",
-          "header": "DialogComp-header-0-3-115",
-          "md": "DialogComp-md-0-3-119",
-          "sm": "DialogComp-sm-0-3-118",
-          "xl": "DialogComp-xl-0-3-120",
-          "xlw": "DialogComp-xlw-0-3-121",
-          "xs": "DialogComp-xs-0-3-117",
-          "xxl": "DialogComp-xxl-0-3-122",
+          "dialog": "DialogComp-dialog-0-3-113",
+          "footer": "DialogComp-footer-0-3-115",
+          "header": "DialogComp-header-0-3-114",
+          "md": "DialogComp-md-0-3-118",
+          "sm": "DialogComp-sm-0-3-117",
+          "xl": "DialogComp-xl-0-3-119",
+          "xlw": "DialogComp-xlw-0-3-120",
+          "xs": "DialogComp-xs-0-3-116",
+          "xxl": "DialogComp-xxl-0-3-121",
         }
       }
       content="content"
@@ -1148,18 +1148,18 @@ exports[`Storyshots Components/Dialog/Dialog Size xlw 1`] = `
       size="xlw"
     >
       <FluidDialog
-        className="DialogComp-dialog-0-3-114 DialogComp-xlw-0-3-121"
+        className="DialogComp-dialog-0-3-113 DialogComp-xlw-0-3-120"
         content="content"
         footer={
           <div
-            className="DialogComp-footer-0-3-116"
+            className="DialogComp-footer-0-3-115"
           >
             action
           </div>
         }
         header={
           <div
-            className="DialogComp-header-0-3-115"
+            className="DialogComp-header-0-3-114"
           >
             header
           </div>
@@ -1167,18 +1167,18 @@ exports[`Storyshots Components/Dialog/Dialog Size xlw 1`] = `
         onClose={[Function]}
       >
         <WithStyles(FluidDialogComp)
-          className="DialogComp-dialog-0-3-114 DialogComp-xlw-0-3-121"
+          className="DialogComp-dialog-0-3-113 DialogComp-xlw-0-3-120"
           content="content"
           footer={
             <div
-              className="DialogComp-footer-0-3-116"
+              className="DialogComp-footer-0-3-115"
             >
               action
             </div>
           }
           header={
             <div
-              className="DialogComp-header-0-3-115"
+              className="DialogComp-header-0-3-114"
             >
               header
             </div>
@@ -1194,25 +1194,25 @@ exports[`Storyshots Components/Dialog/Dialog Size xlw 1`] = `
           theme={Object {}}
         >
           <FluidDialogComp
-            className="DialogComp-dialog-0-3-114 DialogComp-xlw-0-3-121"
+            className="DialogComp-dialog-0-3-113 DialogComp-xlw-0-3-120"
             classes={
               Object {
-                "container": "FluidDialogComp-container-0-3-124",
-                "content": "FluidDialogComp-content-0-3-125",
-                "root": "FluidDialogComp-root-0-3-123",
+                "container": "FluidDialogComp-container-0-3-123",
+                "content": "FluidDialogComp-content-0-3-124",
+                "root": "FluidDialogComp-root-0-3-122",
               }
             }
             content="content"
             footer={
               <div
-                className="DialogComp-footer-0-3-116"
+                className="DialogComp-footer-0-3-115"
               >
                 action
               </div>
             }
             header={
               <div
-                className="DialogComp-header-0-3-115"
+                className="DialogComp-header-0-3-114"
               >
                 header
               </div>
@@ -1220,7 +1220,7 @@ exports[`Storyshots Components/Dialog/Dialog Size xlw 1`] = `
             onClose={[Function]}
           >
             <div
-              className="FluidDialogComp-root-0-3-123"
+              className="FluidDialogComp-root-0-3-122"
             >
               <Scrim
                 onClose={[Function]}
@@ -1241,7 +1241,7 @@ exports[`Storyshots Components/Dialog/Dialog Size xlw 1`] = `
                   <ScrimComp
                     classes={
                       Object {
-                        "root": "ScrimComp-root-0-3-126",
+                        "root": "ScrimComp-root-0-3-125",
                       }
                     }
                     onClose={[Function]}
@@ -1263,7 +1263,7 @@ exports[`Storyshots Components/Dialog/Dialog Size xlw 1`] = `
                       unmountOnExit={false}
                     >
                       <div
-                        className="ScrimComp-root-0-3-126"
+                        className="ScrimComp-root-0-3-125"
                         onClick={[Function]}
                         style={
                           Object {
@@ -1277,23 +1277,23 @@ exports[`Storyshots Components/Dialog/Dialog Size xlw 1`] = `
                 </WithStyles(ScrimComp)>
               </Scrim>
               <div
-                className="FluidDialogComp-container-0-3-124 DialogComp-dialog-0-3-114 DialogComp-xlw-0-3-121"
+                className="FluidDialogComp-container-0-3-123 DialogComp-dialog-0-3-113 DialogComp-xlw-0-3-120"
               >
                 <div>
                   <div
-                    className="DialogComp-header-0-3-115"
+                    className="DialogComp-header-0-3-114"
                   >
                     header
                   </div>
                 </div>
                 <div
-                  className="FluidDialogComp-content-0-3-125"
+                  className="FluidDialogComp-content-0-3-124"
                 >
                   content
                 </div>
                 <div>
                   <div
-                    className="DialogComp-footer-0-3-116"
+                    className="DialogComp-footer-0-3-115"
                   >
                     action
                   </div>
@@ -1334,15 +1334,15 @@ exports[`Storyshots Components/Dialog/Dialog Size xs 1`] = `
     <DialogComp
       classes={
         Object {
-          "dialog": "DialogComp-dialog-0-3-114",
-          "footer": "DialogComp-footer-0-3-116",
-          "header": "DialogComp-header-0-3-115",
-          "md": "DialogComp-md-0-3-119",
-          "sm": "DialogComp-sm-0-3-118",
-          "xl": "DialogComp-xl-0-3-120",
-          "xlw": "DialogComp-xlw-0-3-121",
-          "xs": "DialogComp-xs-0-3-117",
-          "xxl": "DialogComp-xxl-0-3-122",
+          "dialog": "DialogComp-dialog-0-3-113",
+          "footer": "DialogComp-footer-0-3-115",
+          "header": "DialogComp-header-0-3-114",
+          "md": "DialogComp-md-0-3-118",
+          "sm": "DialogComp-sm-0-3-117",
+          "xl": "DialogComp-xl-0-3-119",
+          "xlw": "DialogComp-xlw-0-3-120",
+          "xs": "DialogComp-xs-0-3-116",
+          "xxl": "DialogComp-xxl-0-3-121",
         }
       }
       content="content"
@@ -1352,18 +1352,18 @@ exports[`Storyshots Components/Dialog/Dialog Size xs 1`] = `
       size="xs"
     >
       <FluidDialog
-        className="DialogComp-dialog-0-3-114 DialogComp-xs-0-3-117"
+        className="DialogComp-dialog-0-3-113 DialogComp-xs-0-3-116"
         content="content"
         footer={
           <div
-            className="DialogComp-footer-0-3-116"
+            className="DialogComp-footer-0-3-115"
           >
             action
           </div>
         }
         header={
           <div
-            className="DialogComp-header-0-3-115"
+            className="DialogComp-header-0-3-114"
           >
             header
           </div>
@@ -1371,18 +1371,18 @@ exports[`Storyshots Components/Dialog/Dialog Size xs 1`] = `
         onClose={[Function]}
       >
         <WithStyles(FluidDialogComp)
-          className="DialogComp-dialog-0-3-114 DialogComp-xs-0-3-117"
+          className="DialogComp-dialog-0-3-113 DialogComp-xs-0-3-116"
           content="content"
           footer={
             <div
-              className="DialogComp-footer-0-3-116"
+              className="DialogComp-footer-0-3-115"
             >
               action
             </div>
           }
           header={
             <div
-              className="DialogComp-header-0-3-115"
+              className="DialogComp-header-0-3-114"
             >
               header
             </div>
@@ -1398,25 +1398,25 @@ exports[`Storyshots Components/Dialog/Dialog Size xs 1`] = `
           theme={Object {}}
         >
           <FluidDialogComp
-            className="DialogComp-dialog-0-3-114 DialogComp-xs-0-3-117"
+            className="DialogComp-dialog-0-3-113 DialogComp-xs-0-3-116"
             classes={
               Object {
-                "container": "FluidDialogComp-container-0-3-124",
-                "content": "FluidDialogComp-content-0-3-125",
-                "root": "FluidDialogComp-root-0-3-123",
+                "container": "FluidDialogComp-container-0-3-123",
+                "content": "FluidDialogComp-content-0-3-124",
+                "root": "FluidDialogComp-root-0-3-122",
               }
             }
             content="content"
             footer={
               <div
-                className="DialogComp-footer-0-3-116"
+                className="DialogComp-footer-0-3-115"
               >
                 action
               </div>
             }
             header={
               <div
-                className="DialogComp-header-0-3-115"
+                className="DialogComp-header-0-3-114"
               >
                 header
               </div>
@@ -1424,7 +1424,7 @@ exports[`Storyshots Components/Dialog/Dialog Size xs 1`] = `
             onClose={[Function]}
           >
             <div
-              className="FluidDialogComp-root-0-3-123"
+              className="FluidDialogComp-root-0-3-122"
             >
               <Scrim
                 onClose={[Function]}
@@ -1445,7 +1445,7 @@ exports[`Storyshots Components/Dialog/Dialog Size xs 1`] = `
                   <ScrimComp
                     classes={
                       Object {
-                        "root": "ScrimComp-root-0-3-126",
+                        "root": "ScrimComp-root-0-3-125",
                       }
                     }
                     onClose={[Function]}
@@ -1467,7 +1467,7 @@ exports[`Storyshots Components/Dialog/Dialog Size xs 1`] = `
                       unmountOnExit={false}
                     >
                       <div
-                        className="ScrimComp-root-0-3-126"
+                        className="ScrimComp-root-0-3-125"
                         onClick={[Function]}
                         style={
                           Object {
@@ -1481,23 +1481,23 @@ exports[`Storyshots Components/Dialog/Dialog Size xs 1`] = `
                 </WithStyles(ScrimComp)>
               </Scrim>
               <div
-                className="FluidDialogComp-container-0-3-124 DialogComp-dialog-0-3-114 DialogComp-xs-0-3-117"
+                className="FluidDialogComp-container-0-3-123 DialogComp-dialog-0-3-113 DialogComp-xs-0-3-116"
               >
                 <div>
                   <div
-                    className="DialogComp-header-0-3-115"
+                    className="DialogComp-header-0-3-114"
                   >
                     header
                   </div>
                 </div>
                 <div
-                  className="FluidDialogComp-content-0-3-125"
+                  className="FluidDialogComp-content-0-3-124"
                 >
                   content
                 </div>
                 <div>
                   <div
-                    className="DialogComp-footer-0-3-116"
+                    className="DialogComp-footer-0-3-115"
                   >
                     action
                   </div>
@@ -1538,15 +1538,15 @@ exports[`Storyshots Components/Dialog/Dialog Size xxl 1`] = `
     <DialogComp
       classes={
         Object {
-          "dialog": "DialogComp-dialog-0-3-114",
-          "footer": "DialogComp-footer-0-3-116",
-          "header": "DialogComp-header-0-3-115",
-          "md": "DialogComp-md-0-3-119",
-          "sm": "DialogComp-sm-0-3-118",
-          "xl": "DialogComp-xl-0-3-120",
-          "xlw": "DialogComp-xlw-0-3-121",
-          "xs": "DialogComp-xs-0-3-117",
-          "xxl": "DialogComp-xxl-0-3-122",
+          "dialog": "DialogComp-dialog-0-3-113",
+          "footer": "DialogComp-footer-0-3-115",
+          "header": "DialogComp-header-0-3-114",
+          "md": "DialogComp-md-0-3-118",
+          "sm": "DialogComp-sm-0-3-117",
+          "xl": "DialogComp-xl-0-3-119",
+          "xlw": "DialogComp-xlw-0-3-120",
+          "xs": "DialogComp-xs-0-3-116",
+          "xxl": "DialogComp-xxl-0-3-121",
         }
       }
       content="content"
@@ -1556,18 +1556,18 @@ exports[`Storyshots Components/Dialog/Dialog Size xxl 1`] = `
       size="xxl"
     >
       <FluidDialog
-        className="DialogComp-dialog-0-3-114 DialogComp-xxl-0-3-122"
+        className="DialogComp-dialog-0-3-113 DialogComp-xxl-0-3-121"
         content="content"
         footer={
           <div
-            className="DialogComp-footer-0-3-116"
+            className="DialogComp-footer-0-3-115"
           >
             action
           </div>
         }
         header={
           <div
-            className="DialogComp-header-0-3-115"
+            className="DialogComp-header-0-3-114"
           >
             header
           </div>
@@ -1575,18 +1575,18 @@ exports[`Storyshots Components/Dialog/Dialog Size xxl 1`] = `
         onClose={[Function]}
       >
         <WithStyles(FluidDialogComp)
-          className="DialogComp-dialog-0-3-114 DialogComp-xxl-0-3-122"
+          className="DialogComp-dialog-0-3-113 DialogComp-xxl-0-3-121"
           content="content"
           footer={
             <div
-              className="DialogComp-footer-0-3-116"
+              className="DialogComp-footer-0-3-115"
             >
               action
             </div>
           }
           header={
             <div
-              className="DialogComp-header-0-3-115"
+              className="DialogComp-header-0-3-114"
             >
               header
             </div>
@@ -1602,25 +1602,25 @@ exports[`Storyshots Components/Dialog/Dialog Size xxl 1`] = `
           theme={Object {}}
         >
           <FluidDialogComp
-            className="DialogComp-dialog-0-3-114 DialogComp-xxl-0-3-122"
+            className="DialogComp-dialog-0-3-113 DialogComp-xxl-0-3-121"
             classes={
               Object {
-                "container": "FluidDialogComp-container-0-3-124",
-                "content": "FluidDialogComp-content-0-3-125",
-                "root": "FluidDialogComp-root-0-3-123",
+                "container": "FluidDialogComp-container-0-3-123",
+                "content": "FluidDialogComp-content-0-3-124",
+                "root": "FluidDialogComp-root-0-3-122",
               }
             }
             content="content"
             footer={
               <div
-                className="DialogComp-footer-0-3-116"
+                className="DialogComp-footer-0-3-115"
               >
                 action
               </div>
             }
             header={
               <div
-                className="DialogComp-header-0-3-115"
+                className="DialogComp-header-0-3-114"
               >
                 header
               </div>
@@ -1628,7 +1628,7 @@ exports[`Storyshots Components/Dialog/Dialog Size xxl 1`] = `
             onClose={[Function]}
           >
             <div
-              className="FluidDialogComp-root-0-3-123"
+              className="FluidDialogComp-root-0-3-122"
             >
               <Scrim
                 onClose={[Function]}
@@ -1649,7 +1649,7 @@ exports[`Storyshots Components/Dialog/Dialog Size xxl 1`] = `
                   <ScrimComp
                     classes={
                       Object {
-                        "root": "ScrimComp-root-0-3-126",
+                        "root": "ScrimComp-root-0-3-125",
                       }
                     }
                     onClose={[Function]}
@@ -1671,7 +1671,7 @@ exports[`Storyshots Components/Dialog/Dialog Size xxl 1`] = `
                       unmountOnExit={false}
                     >
                       <div
-                        className="ScrimComp-root-0-3-126"
+                        className="ScrimComp-root-0-3-125"
                         onClick={[Function]}
                         style={
                           Object {
@@ -1685,23 +1685,23 @@ exports[`Storyshots Components/Dialog/Dialog Size xxl 1`] = `
                 </WithStyles(ScrimComp)>
               </Scrim>
               <div
-                className="FluidDialogComp-container-0-3-124 DialogComp-dialog-0-3-114 DialogComp-xxl-0-3-122"
+                className="FluidDialogComp-container-0-3-123 DialogComp-dialog-0-3-113 DialogComp-xxl-0-3-121"
               >
                 <div>
                   <div
-                    className="DialogComp-header-0-3-115"
+                    className="DialogComp-header-0-3-114"
                   >
                     header
                   </div>
                 </div>
                 <div
-                  className="FluidDialogComp-content-0-3-125"
+                  className="FluidDialogComp-content-0-3-124"
                 >
                   content
                 </div>
                 <div>
                   <div
-                    className="DialogComp-footer-0-3-116"
+                    className="DialogComp-footer-0-3-115"
                   >
                     action
                   </div>
@@ -1762,15 +1762,15 @@ exports[`Storyshots Components/Dialog/Dialog With FooterWithConfirmation 1`] = `
     <DialogComp
       classes={
         Object {
-          "dialog": "DialogComp-dialog-0-3-114",
-          "footer": "DialogComp-footer-0-3-116",
-          "header": "DialogComp-header-0-3-115",
-          "md": "DialogComp-md-0-3-119",
-          "sm": "DialogComp-sm-0-3-118",
-          "xl": "DialogComp-xl-0-3-120",
-          "xlw": "DialogComp-xlw-0-3-121",
-          "xs": "DialogComp-xs-0-3-117",
-          "xxl": "DialogComp-xxl-0-3-122",
+          "dialog": "DialogComp-dialog-0-3-113",
+          "footer": "DialogComp-footer-0-3-115",
+          "header": "DialogComp-header-0-3-114",
+          "md": "DialogComp-md-0-3-118",
+          "sm": "DialogComp-sm-0-3-117",
+          "xl": "DialogComp-xl-0-3-119",
+          "xlw": "DialogComp-xlw-0-3-120",
+          "xs": "DialogComp-xs-0-3-116",
+          "xxl": "DialogComp-xxl-0-3-121",
         }
       }
       content="content"
@@ -1790,11 +1790,11 @@ exports[`Storyshots Components/Dialog/Dialog With FooterWithConfirmation 1`] = `
       size="xlw"
     >
       <FluidDialog
-        className="DialogComp-dialog-0-3-114 DialogComp-xlw-0-3-121"
+        className="DialogComp-dialog-0-3-113 DialogComp-xlw-0-3-120"
         content="content"
         footer={
           <div
-            className="DialogComp-footer-0-3-116"
+            className="DialogComp-footer-0-3-115"
           >
             <ForwardRef
               confirmMessage="Confirm"
@@ -1805,7 +1805,7 @@ exports[`Storyshots Components/Dialog/Dialog With FooterWithConfirmation 1`] = `
         }
         header={
           <div
-            className="DialogComp-header-0-3-115"
+            className="DialogComp-header-0-3-114"
           >
             <DialogHeader
               text="Title dialog"
@@ -1815,11 +1815,11 @@ exports[`Storyshots Components/Dialog/Dialog With FooterWithConfirmation 1`] = `
         onClose={[Function]}
       >
         <WithStyles(FluidDialogComp)
-          className="DialogComp-dialog-0-3-114 DialogComp-xlw-0-3-121"
+          className="DialogComp-dialog-0-3-113 DialogComp-xlw-0-3-120"
           content="content"
           footer={
             <div
-              className="DialogComp-footer-0-3-116"
+              className="DialogComp-footer-0-3-115"
             >
               <ForwardRef
                 confirmMessage="Confirm"
@@ -1830,7 +1830,7 @@ exports[`Storyshots Components/Dialog/Dialog With FooterWithConfirmation 1`] = `
           }
           header={
             <div
-              className="DialogComp-header-0-3-115"
+              className="DialogComp-header-0-3-114"
             >
               <DialogHeader
                 text="Title dialog"
@@ -1848,18 +1848,18 @@ exports[`Storyshots Components/Dialog/Dialog With FooterWithConfirmation 1`] = `
           theme={Object {}}
         >
           <FluidDialogComp
-            className="DialogComp-dialog-0-3-114 DialogComp-xlw-0-3-121"
+            className="DialogComp-dialog-0-3-113 DialogComp-xlw-0-3-120"
             classes={
               Object {
-                "container": "FluidDialogComp-container-0-3-124",
-                "content": "FluidDialogComp-content-0-3-125",
-                "root": "FluidDialogComp-root-0-3-123",
+                "container": "FluidDialogComp-container-0-3-123",
+                "content": "FluidDialogComp-content-0-3-124",
+                "root": "FluidDialogComp-root-0-3-122",
               }
             }
             content="content"
             footer={
               <div
-                className="DialogComp-footer-0-3-116"
+                className="DialogComp-footer-0-3-115"
               >
                 <ForwardRef
                   confirmMessage="Confirm"
@@ -1870,7 +1870,7 @@ exports[`Storyshots Components/Dialog/Dialog With FooterWithConfirmation 1`] = `
             }
             header={
               <div
-                className="DialogComp-header-0-3-115"
+                className="DialogComp-header-0-3-114"
               >
                 <DialogHeader
                   text="Title dialog"
@@ -1880,7 +1880,7 @@ exports[`Storyshots Components/Dialog/Dialog With FooterWithConfirmation 1`] = `
             onClose={[Function]}
           >
             <div
-              className="FluidDialogComp-root-0-3-123"
+              className="FluidDialogComp-root-0-3-122"
             >
               <Scrim
                 onClose={[Function]}
@@ -1901,7 +1901,7 @@ exports[`Storyshots Components/Dialog/Dialog With FooterWithConfirmation 1`] = `
                   <ScrimComp
                     classes={
                       Object {
-                        "root": "ScrimComp-root-0-3-126",
+                        "root": "ScrimComp-root-0-3-125",
                       }
                     }
                     onClose={[Function]}
@@ -1923,7 +1923,7 @@ exports[`Storyshots Components/Dialog/Dialog With FooterWithConfirmation 1`] = `
                       unmountOnExit={false}
                     >
                       <div
-                        className="ScrimComp-root-0-3-126"
+                        className="ScrimComp-root-0-3-125"
                         onClick={[Function]}
                         style={
                           Object {
@@ -1937,11 +1937,11 @@ exports[`Storyshots Components/Dialog/Dialog With FooterWithConfirmation 1`] = `
                 </WithStyles(ScrimComp)>
               </Scrim>
               <div
-                className="FluidDialogComp-container-0-3-124 DialogComp-dialog-0-3-114 DialogComp-xlw-0-3-121"
+                className="FluidDialogComp-container-0-3-123 DialogComp-dialog-0-3-113 DialogComp-xlw-0-3-120"
               >
                 <div>
                   <div
-                    className="DialogComp-header-0-3-115"
+                    className="DialogComp-header-0-3-114"
                   >
                     <DialogHeader
                       text="Title dialog"
@@ -2000,13 +2000,13 @@ exports[`Storyshots Components/Dialog/Dialog With FooterWithConfirmation 1`] = `
                   </div>
                 </div>
                 <div
-                  className="FluidDialogComp-content-0-3-125"
+                  className="FluidDialogComp-content-0-3-124"
                 >
                   content
                 </div>
                 <div>
                   <div
-                    className="DialogComp-footer-0-3-116"
+                    className="DialogComp-footer-0-3-115"
                   >
                     <FooterWithConfirmation
                       confirmMessage="Confirm"
@@ -2029,7 +2029,7 @@ exports[`Storyshots Components/Dialog/Dialog With FooterWithConfirmation 1`] = `
                         <Component
                           classes={
                             Object {
-                              "root": "Component-root-0-3-127",
+                              "root": "Component-root-0-3-126",
                             }
                           }
                           confirmMessage="Confirm"
@@ -2051,18 +2051,18 @@ exports[`Storyshots Components/Dialog/Dialog With FooterWithConfirmation 1`] = `
                                 <DividerComp
                                   classes={
                                     Object {
-                                      "root": "DividerComp-root-0-3-128",
+                                      "root": "DividerComp-root-0-3-127",
                                     }
                                   }
                                 >
                                   <hr
-                                    className="DividerComp-root-0-3-128"
+                                    className="DividerComp-root-0-3-127"
                                   />
                                 </DividerComp>
                               </WithStyles(DividerComp)>
                             </Divider>
                             <div
-                              className="Component-root-0-3-127"
+                              className="Component-root-0-3-126"
                             >
                               <Button
                                 color="transparent"
@@ -2434,15 +2434,15 @@ exports[`Storyshots Components/Dialog/Dialog With FooterWithDoubleConfirmation 1
       <DialogComp
         classes={
           Object {
-            "dialog": "DialogComp-dialog-0-3-114",
-            "footer": "DialogComp-footer-0-3-116",
-            "header": "DialogComp-header-0-3-115",
-            "md": "DialogComp-md-0-3-119",
-            "sm": "DialogComp-sm-0-3-118",
-            "xl": "DialogComp-xl-0-3-120",
-            "xlw": "DialogComp-xlw-0-3-121",
-            "xs": "DialogComp-xs-0-3-117",
-            "xxl": "DialogComp-xxl-0-3-122",
+            "dialog": "DialogComp-dialog-0-3-113",
+            "footer": "DialogComp-footer-0-3-115",
+            "header": "DialogComp-header-0-3-114",
+            "md": "DialogComp-md-0-3-118",
+            "sm": "DialogComp-sm-0-3-117",
+            "xl": "DialogComp-xl-0-3-119",
+            "xlw": "DialogComp-xlw-0-3-120",
+            "xs": "DialogComp-xs-0-3-116",
+            "xxl": "DialogComp-xxl-0-3-121",
           }
         }
         content="content"
@@ -2470,11 +2470,11 @@ exports[`Storyshots Components/Dialog/Dialog With FooterWithDoubleConfirmation 1
         size="xlw"
       >
         <FluidDialog
-          className="DialogComp-dialog-0-3-114 DialogComp-xlw-0-3-121"
+          className="DialogComp-dialog-0-3-113 DialogComp-xlw-0-3-120"
           content="content"
           footer={
             <div
-              className="DialogComp-footer-0-3-116"
+              className="DialogComp-footer-0-3-115"
             >
               <ForwardRef
                 cancelMessage="Cancel"
@@ -2493,7 +2493,7 @@ exports[`Storyshots Components/Dialog/Dialog With FooterWithDoubleConfirmation 1
           }
           header={
             <div
-              className="DialogComp-header-0-3-115"
+              className="DialogComp-header-0-3-114"
             >
               <DialogHeader
                 text="Title dialog"
@@ -2503,11 +2503,11 @@ exports[`Storyshots Components/Dialog/Dialog With FooterWithDoubleConfirmation 1
           onClose={[Function]}
         >
           <WithStyles(FluidDialogComp)
-            className="DialogComp-dialog-0-3-114 DialogComp-xlw-0-3-121"
+            className="DialogComp-dialog-0-3-113 DialogComp-xlw-0-3-120"
             content="content"
             footer={
               <div
-                className="DialogComp-footer-0-3-116"
+                className="DialogComp-footer-0-3-115"
               >
                 <ForwardRef
                   cancelMessage="Cancel"
@@ -2526,7 +2526,7 @@ exports[`Storyshots Components/Dialog/Dialog With FooterWithDoubleConfirmation 1
             }
             header={
               <div
-                className="DialogComp-header-0-3-115"
+                className="DialogComp-header-0-3-114"
               >
                 <DialogHeader
                   text="Title dialog"
@@ -2544,18 +2544,18 @@ exports[`Storyshots Components/Dialog/Dialog With FooterWithDoubleConfirmation 1
             theme={Object {}}
           >
             <FluidDialogComp
-              className="DialogComp-dialog-0-3-114 DialogComp-xlw-0-3-121"
+              className="DialogComp-dialog-0-3-113 DialogComp-xlw-0-3-120"
               classes={
                 Object {
-                  "container": "FluidDialogComp-container-0-3-124",
-                  "content": "FluidDialogComp-content-0-3-125",
-                  "root": "FluidDialogComp-root-0-3-123",
+                  "container": "FluidDialogComp-container-0-3-123",
+                  "content": "FluidDialogComp-content-0-3-124",
+                  "root": "FluidDialogComp-root-0-3-122",
                 }
               }
               content="content"
               footer={
                 <div
-                  className="DialogComp-footer-0-3-116"
+                  className="DialogComp-footer-0-3-115"
                 >
                   <ForwardRef
                     cancelMessage="Cancel"
@@ -2574,7 +2574,7 @@ exports[`Storyshots Components/Dialog/Dialog With FooterWithDoubleConfirmation 1
               }
               header={
                 <div
-                  className="DialogComp-header-0-3-115"
+                  className="DialogComp-header-0-3-114"
                 >
                   <DialogHeader
                     text="Title dialog"
@@ -2584,7 +2584,7 @@ exports[`Storyshots Components/Dialog/Dialog With FooterWithDoubleConfirmation 1
               onClose={[Function]}
             >
               <div
-                className="FluidDialogComp-root-0-3-123"
+                className="FluidDialogComp-root-0-3-122"
               >
                 <Scrim
                   onClose={[Function]}
@@ -2605,7 +2605,7 @@ exports[`Storyshots Components/Dialog/Dialog With FooterWithDoubleConfirmation 1
                     <ScrimComp
                       classes={
                         Object {
-                          "root": "ScrimComp-root-0-3-126",
+                          "root": "ScrimComp-root-0-3-125",
                         }
                       }
                       onClose={[Function]}
@@ -2627,7 +2627,7 @@ exports[`Storyshots Components/Dialog/Dialog With FooterWithDoubleConfirmation 1
                         unmountOnExit={false}
                       >
                         <div
-                          className="ScrimComp-root-0-3-126"
+                          className="ScrimComp-root-0-3-125"
                           onClick={[Function]}
                           style={
                             Object {
@@ -2641,11 +2641,11 @@ exports[`Storyshots Components/Dialog/Dialog With FooterWithDoubleConfirmation 1
                   </WithStyles(ScrimComp)>
                 </Scrim>
                 <div
-                  className="FluidDialogComp-container-0-3-124 DialogComp-dialog-0-3-114 DialogComp-xlw-0-3-121"
+                  className="FluidDialogComp-container-0-3-123 DialogComp-dialog-0-3-113 DialogComp-xlw-0-3-120"
                 >
                   <div>
                     <div
-                      className="DialogComp-header-0-3-115"
+                      className="DialogComp-header-0-3-114"
                     >
                       <DialogHeader
                         text="Title dialog"
@@ -2704,13 +2704,13 @@ exports[`Storyshots Components/Dialog/Dialog With FooterWithDoubleConfirmation 1
                     </div>
                   </div>
                   <div
-                    className="FluidDialogComp-content-0-3-125"
+                    className="FluidDialogComp-content-0-3-124"
                   >
                     content
                   </div>
                   <div>
                     <div
-                      className="DialogComp-footer-0-3-116"
+                      className="DialogComp-footer-0-3-115"
                     >
                       <FooterWithDoubleConfirmation
                         cancelMessage="Cancel"
@@ -2750,10 +2750,10 @@ exports[`Storyshots Components/Dialog/Dialog With FooterWithDoubleConfirmation 1
                             cancelMessage="Cancel"
                             classes={
                               Object {
-                                "confirm": "FooterWithDoubleConfirmationComp-confirm-0-3-131",
-                                "confirmation": "FooterWithDoubleConfirmationComp-confirmation-0-3-132",
-                                "content": "FooterWithDoubleConfirmationComp-content-0-3-130",
-                                "root": "FooterWithDoubleConfirmationComp-root-0-3-129",
+                                "confirm": "FooterWithDoubleConfirmationComp-confirm-0-3-130",
+                                "confirmation": "FooterWithDoubleConfirmationComp-confirmation-0-3-131",
+                                "content": "FooterWithDoubleConfirmationComp-content-0-3-129",
+                                "root": "FooterWithDoubleConfirmationComp-root-0-3-128",
                               }
                             }
                             confirmMessage="Comfirm"
@@ -2768,7 +2768,7 @@ exports[`Storyshots Components/Dialog/Dialog With FooterWithDoubleConfirmation 1
                             yesMessage="Yes"
                           >
                             <div
-                              className="FooterWithDoubleConfirmationComp-root-0-3-129"
+                              className="FooterWithDoubleConfirmationComp-root-0-3-128"
                             >
                               <Transition
                                 appear={false}
@@ -2786,7 +2786,7 @@ exports[`Storyshots Components/Dialog/Dialog With FooterWithDoubleConfirmation 1
                                 unmountOnExit={false}
                               >
                                 <div
-                                  className="FooterWithDoubleConfirmationComp-content-0-3-130"
+                                  className="FooterWithDoubleConfirmationComp-content-0-3-129"
                                   style={
                                     Object {
                                       "transition": "transform 150ms ease-in-out",
@@ -2794,7 +2794,7 @@ exports[`Storyshots Components/Dialog/Dialog With FooterWithDoubleConfirmation 1
                                   }
                                 >
                                   <div
-                                    className="FooterWithDoubleConfirmationComp-confirm-0-3-131"
+                                    className="FooterWithDoubleConfirmationComp-confirm-0-3-130"
                                   >
                                     <Button
                                       color="transparent"
@@ -3091,7 +3091,7 @@ exports[`Storyshots Components/Dialog/Dialog With FooterWithDoubleConfirmation 1
                                     </Button>
                                   </div>
                                   <div
-                                    className="FooterWithDoubleConfirmationComp-confirmation-0-3-132"
+                                    className="FooterWithDoubleConfirmationComp-confirmation-0-3-131"
                                   >
                                     <Typography
                                       bold={true}
