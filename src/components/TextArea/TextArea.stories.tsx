@@ -4,14 +4,16 @@ import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { TextArea } from './TextArea';
 
+const actionChange = action('onChange');
+
 storiesOf('Components/TextArea', module)
   .addDecorator(hostDecorator())
   .add('Text', () => <TextArea />)
   .add('autoFocus', () => <TextArea autoFocus />)
   .add('fullWidth', () => <TextArea fullWidth />)
   .add('maxLength', () => <TextArea maxLength={3} />)
-  .add('readOnly', () => <TextArea value="Read only" readOnly />)
-  .add('value', () => <TextArea value="Text" />)
+  .add('readOnly', () => <TextArea value="Read only" readOnly onChange={actionChange} />)
+  .add('value', () => <TextArea value="Text" onChange={actionChange} />)
   .add('placeholder', () => <TextArea placeholder="Placeholder" />)
   .add('disabled', () => <TextArea value="Text" disabled />)
   .add('blurOnEnter', () => <TextArea blurOnEnter />)
