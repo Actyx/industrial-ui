@@ -26,13 +26,13 @@ exports[`Storyshots Components/FloatingActionButton Disabled 1`] = `
     <FloatingActionButtonComp
       classes={
         Object {
-          "disabled": "FloatingActionButtonComp-disabled-0-3-139",
-          "md": "FloatingActionButtonComp-md-0-3-136",
-          "neutral": "FloatingActionButtonComp-neutral-0-3-133",
-          "primary": "FloatingActionButtonComp-primary-0-3-134",
-          "secondary": "FloatingActionButtonComp-secondary-0-3-135",
-          "sm": "FloatingActionButtonComp-sm-0-3-138",
-          "xl": "FloatingActionButtonComp-xl-0-3-137",
+          "disabled": "FloatingActionButtonComp-disabled-0-3-138",
+          "md": "FloatingActionButtonComp-md-0-3-135",
+          "neutral": "FloatingActionButtonComp-neutral-0-3-132",
+          "primary": "FloatingActionButtonComp-primary-0-3-133",
+          "secondary": "FloatingActionButtonComp-secondary-0-3-134",
+          "sm": "FloatingActionButtonComp-sm-0-3-137",
+          "xl": "FloatingActionButtonComp-xl-0-3-136",
         }
       }
       color="primary"
@@ -42,7 +42,7 @@ exports[`Storyshots Components/FloatingActionButton Disabled 1`] = `
       size="xl"
     >
       <div
-        className="FloatingActionButtonComp-xl-0-3-137 FloatingActionButtonComp-primary-0-3-134 FloatingActionButtonComp-disabled-0-3-139"
+        className="FloatingActionButtonComp-xl-0-3-136 FloatingActionButtonComp-primary-0-3-133 FloatingActionButtonComp-disabled-0-3-138"
       >
         <div>
           <MUIcon
@@ -64,14 +64,14 @@ exports[`Storyshots Components/FloatingActionButton Disabled 1`] = `
               <MUIconComp
                 classes={
                   Object {
-                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d39-0-3-143",
+                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d39-0-3-142",
                   }
                 }
                 fontSize={80}
                 type="close"
               >
                 <i
-                  className="MUIconComp-root-0-3-35 MUIconComp-root-d39-0-3-143"
+                  className="MUIconComp-root-0-3-35 MUIconComp-root-d39-0-3-142"
                 >
                   close
                 </i>
@@ -109,13 +109,13 @@ exports[`Storyshots Components/FloatingActionButton Neutral 1`] = `
     <FloatingActionButtonComp
       classes={
         Object {
-          "disabled": "FloatingActionButtonComp-disabled-0-3-139",
-          "md": "FloatingActionButtonComp-md-0-3-136",
-          "neutral": "FloatingActionButtonComp-neutral-0-3-133",
-          "primary": "FloatingActionButtonComp-primary-0-3-134",
-          "secondary": "FloatingActionButtonComp-secondary-0-3-135",
-          "sm": "FloatingActionButtonComp-sm-0-3-138",
-          "xl": "FloatingActionButtonComp-xl-0-3-137",
+          "disabled": "FloatingActionButtonComp-disabled-0-3-138",
+          "md": "FloatingActionButtonComp-md-0-3-135",
+          "neutral": "FloatingActionButtonComp-neutral-0-3-132",
+          "primary": "FloatingActionButtonComp-primary-0-3-133",
+          "secondary": "FloatingActionButtonComp-secondary-0-3-134",
+          "sm": "FloatingActionButtonComp-sm-0-3-137",
+          "xl": "FloatingActionButtonComp-xl-0-3-136",
         }
       }
       color="neutral"
@@ -124,7 +124,7 @@ exports[`Storyshots Components/FloatingActionButton Neutral 1`] = `
       size="sm"
     >
       <div
-        className="FloatingActionButtonComp-sm-0-3-138 FloatingActionButtonComp-neutral-0-3-133"
+        className="FloatingActionButtonComp-sm-0-3-137 FloatingActionButtonComp-neutral-0-3-132"
         onClick={[Function]}
       >
         <TouchRipple>
@@ -168,14 +168,14 @@ exports[`Storyshots Components/FloatingActionButton Neutral 1`] = `
                     <MUIconComp
                       classes={
                         Object {
-                          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d40-0-3-144",
+                          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d40-0-3-143",
                         }
                       }
                       fontSize={40}
                       type="close"
                     >
                       <i
-                        className="MUIconComp-root-0-3-35 MUIconComp-root-d40-0-3-144"
+                        className="MUIconComp-root-0-3-35 MUIconComp-root-d40-0-3-143"
                       >
                         close
                       </i>
@@ -216,13 +216,13 @@ exports[`Storyshots Components/FloatingActionButton Secondary 1`] = `
     <FloatingActionButtonComp
       classes={
         Object {
-          "disabled": "FloatingActionButtonComp-disabled-0-3-139",
-          "md": "FloatingActionButtonComp-md-0-3-136",
-          "neutral": "FloatingActionButtonComp-neutral-0-3-133",
-          "primary": "FloatingActionButtonComp-primary-0-3-134",
-          "secondary": "FloatingActionButtonComp-secondary-0-3-135",
-          "sm": "FloatingActionButtonComp-sm-0-3-138",
-          "xl": "FloatingActionButtonComp-xl-0-3-137",
+          "disabled": "FloatingActionButtonComp-disabled-0-3-138",
+          "md": "FloatingActionButtonComp-md-0-3-135",
+          "neutral": "FloatingActionButtonComp-neutral-0-3-132",
+          "primary": "FloatingActionButtonComp-primary-0-3-133",
+          "secondary": "FloatingActionButtonComp-secondary-0-3-134",
+          "sm": "FloatingActionButtonComp-sm-0-3-137",
+          "xl": "FloatingActionButtonComp-xl-0-3-136",
         }
       }
       color="secondary"
@@ -231,7 +231,7 @@ exports[`Storyshots Components/FloatingActionButton Secondary 1`] = `
       size="sm"
     >
       <div
-        className="FloatingActionButtonComp-sm-0-3-138 FloatingActionButtonComp-secondary-0-3-135"
+        className="FloatingActionButtonComp-sm-0-3-137 FloatingActionButtonComp-secondary-0-3-134"
         onClick={[Function]}
       >
         <TouchRipple>
@@ -275,14 +275,14 @@ exports[`Storyshots Components/FloatingActionButton Secondary 1`] = `
                     <MUIconComp
                       classes={
                         Object {
-                          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d41-0-3-145",
+                          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d41-0-3-144",
                         }
                       }
                       fontSize={40}
                       type="close"
                     >
                       <i
-                        className="MUIconComp-root-0-3-35 MUIconComp-root-d41-0-3-145"
+                        className="MUIconComp-root-0-3-35 MUIconComp-root-d41-0-3-144"
                       >
                         close
                       </i>
@@ -323,13 +323,13 @@ exports[`Storyshots Components/FloatingActionButton Size md 1`] = `
     <FloatingActionButtonComp
       classes={
         Object {
-          "disabled": "FloatingActionButtonComp-disabled-0-3-139",
-          "md": "FloatingActionButtonComp-md-0-3-136",
-          "neutral": "FloatingActionButtonComp-neutral-0-3-133",
-          "primary": "FloatingActionButtonComp-primary-0-3-134",
-          "secondary": "FloatingActionButtonComp-secondary-0-3-135",
-          "sm": "FloatingActionButtonComp-sm-0-3-138",
-          "xl": "FloatingActionButtonComp-xl-0-3-137",
+          "disabled": "FloatingActionButtonComp-disabled-0-3-138",
+          "md": "FloatingActionButtonComp-md-0-3-135",
+          "neutral": "FloatingActionButtonComp-neutral-0-3-132",
+          "primary": "FloatingActionButtonComp-primary-0-3-133",
+          "secondary": "FloatingActionButtonComp-secondary-0-3-134",
+          "sm": "FloatingActionButtonComp-sm-0-3-137",
+          "xl": "FloatingActionButtonComp-xl-0-3-136",
         }
       }
       color="primary"
@@ -338,7 +338,7 @@ exports[`Storyshots Components/FloatingActionButton Size md 1`] = `
       size="md"
     >
       <div
-        className="FloatingActionButtonComp-md-0-3-136 FloatingActionButtonComp-primary-0-3-134"
+        className="FloatingActionButtonComp-md-0-3-135 FloatingActionButtonComp-primary-0-3-133"
         onClick={[Function]}
       >
         <TouchRipple>
@@ -382,14 +382,14 @@ exports[`Storyshots Components/FloatingActionButton Size md 1`] = `
                     <MUIconComp
                       classes={
                         Object {
-                          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d37-0-3-141",
+                          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d37-0-3-140",
                         }
                       }
                       fontSize={50}
                       type="close"
                     >
                       <i
-                        className="MUIconComp-root-0-3-35 MUIconComp-root-d37-0-3-141"
+                        className="MUIconComp-root-0-3-35 MUIconComp-root-d37-0-3-140"
                       >
                         close
                       </i>
@@ -430,13 +430,13 @@ exports[`Storyshots Components/FloatingActionButton Size sm 1`] = `
     <FloatingActionButtonComp
       classes={
         Object {
-          "disabled": "FloatingActionButtonComp-disabled-0-3-139",
-          "md": "FloatingActionButtonComp-md-0-3-136",
-          "neutral": "FloatingActionButtonComp-neutral-0-3-133",
-          "primary": "FloatingActionButtonComp-primary-0-3-134",
-          "secondary": "FloatingActionButtonComp-secondary-0-3-135",
-          "sm": "FloatingActionButtonComp-sm-0-3-138",
-          "xl": "FloatingActionButtonComp-xl-0-3-137",
+          "disabled": "FloatingActionButtonComp-disabled-0-3-138",
+          "md": "FloatingActionButtonComp-md-0-3-135",
+          "neutral": "FloatingActionButtonComp-neutral-0-3-132",
+          "primary": "FloatingActionButtonComp-primary-0-3-133",
+          "secondary": "FloatingActionButtonComp-secondary-0-3-134",
+          "sm": "FloatingActionButtonComp-sm-0-3-137",
+          "xl": "FloatingActionButtonComp-xl-0-3-136",
         }
       }
       color="primary"
@@ -445,7 +445,7 @@ exports[`Storyshots Components/FloatingActionButton Size sm 1`] = `
       size="sm"
     >
       <div
-        className="FloatingActionButtonComp-sm-0-3-138 FloatingActionButtonComp-primary-0-3-134"
+        className="FloatingActionButtonComp-sm-0-3-137 FloatingActionButtonComp-primary-0-3-133"
         onClick={[Function]}
       >
         <TouchRipple>
@@ -489,14 +489,14 @@ exports[`Storyshots Components/FloatingActionButton Size sm 1`] = `
                     <MUIconComp
                       classes={
                         Object {
-                          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d36-0-3-140",
+                          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d36-0-3-139",
                         }
                       }
                       fontSize={40}
                       type="close"
                     >
                       <i
-                        className="MUIconComp-root-0-3-35 MUIconComp-root-d36-0-3-140"
+                        className="MUIconComp-root-0-3-35 MUIconComp-root-d36-0-3-139"
                       >
                         close
                       </i>
@@ -537,13 +537,13 @@ exports[`Storyshots Components/FloatingActionButton Size xl 1`] = `
     <FloatingActionButtonComp
       classes={
         Object {
-          "disabled": "FloatingActionButtonComp-disabled-0-3-139",
-          "md": "FloatingActionButtonComp-md-0-3-136",
-          "neutral": "FloatingActionButtonComp-neutral-0-3-133",
-          "primary": "FloatingActionButtonComp-primary-0-3-134",
-          "secondary": "FloatingActionButtonComp-secondary-0-3-135",
-          "sm": "FloatingActionButtonComp-sm-0-3-138",
-          "xl": "FloatingActionButtonComp-xl-0-3-137",
+          "disabled": "FloatingActionButtonComp-disabled-0-3-138",
+          "md": "FloatingActionButtonComp-md-0-3-135",
+          "neutral": "FloatingActionButtonComp-neutral-0-3-132",
+          "primary": "FloatingActionButtonComp-primary-0-3-133",
+          "secondary": "FloatingActionButtonComp-secondary-0-3-134",
+          "sm": "FloatingActionButtonComp-sm-0-3-137",
+          "xl": "FloatingActionButtonComp-xl-0-3-136",
         }
       }
       color="primary"
@@ -552,7 +552,7 @@ exports[`Storyshots Components/FloatingActionButton Size xl 1`] = `
       size="xl"
     >
       <div
-        className="FloatingActionButtonComp-xl-0-3-137 FloatingActionButtonComp-primary-0-3-134"
+        className="FloatingActionButtonComp-xl-0-3-136 FloatingActionButtonComp-primary-0-3-133"
         onClick={[Function]}
       >
         <TouchRipple>
@@ -596,14 +596,14 @@ exports[`Storyshots Components/FloatingActionButton Size xl 1`] = `
                     <MUIconComp
                       classes={
                         Object {
-                          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d38-0-3-142",
+                          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d38-0-3-141",
                         }
                       }
                       fontSize={80}
                       type="close"
                     >
                       <i
-                        className="MUIconComp-root-0-3-35 MUIconComp-root-d38-0-3-142"
+                        className="MUIconComp-root-0-3-35 MUIconComp-root-d38-0-3-141"
                       >
                         close
                       </i>

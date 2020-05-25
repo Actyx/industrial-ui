@@ -20,16 +20,16 @@ exports[`Storyshots Components/Dialog/FluidDialog Base 1`] = `
     <FluidDialogComp
       classes={
         Object {
-          "container": "FluidDialogComp-container-0-3-124",
-          "content": "FluidDialogComp-content-0-3-125",
-          "root": "FluidDialogComp-root-0-3-123",
+          "container": "FluidDialogComp-container-0-3-123",
+          "content": "FluidDialogComp-content-0-3-124",
+          "root": "FluidDialogComp-root-0-3-122",
         }
       }
       content="content"
       onClose={[Function]}
     >
       <div
-        className="FluidDialogComp-root-0-3-123"
+        className="FluidDialogComp-root-0-3-122"
       >
         <Scrim
           onClose={[Function]}
@@ -50,7 +50,7 @@ exports[`Storyshots Components/Dialog/FluidDialog Base 1`] = `
             <ScrimComp
               classes={
                 Object {
-                  "root": "ScrimComp-root-0-3-126",
+                  "root": "ScrimComp-root-0-3-125",
                 }
               }
               onClose={[Function]}
@@ -72,7 +72,7 @@ exports[`Storyshots Components/Dialog/FluidDialog Base 1`] = `
                 unmountOnExit={false}
               >
                 <div
-                  className="ScrimComp-root-0-3-126"
+                  className="ScrimComp-root-0-3-125"
                   onClick={[Function]}
                   style={
                     Object {
@@ -86,11 +86,11 @@ exports[`Storyshots Components/Dialog/FluidDialog Base 1`] = `
           </WithStyles(ScrimComp)>
         </Scrim>
         <div
-          className="FluidDialogComp-container-0-3-124"
+          className="FluidDialogComp-container-0-3-123"
         >
           <div />
           <div
-            className="FluidDialogComp-content-0-3-125"
+            className="FluidDialogComp-content-0-3-124"
           >
             content
           </div>
@@ -122,16 +122,16 @@ exports[`Storyshots Components/Dialog/FluidDialog Long content 1`] = `
     <FluidDialogComp
       classes={
         Object {
-          "container": "FluidDialogComp-container-0-3-124",
-          "content": "FluidDialogComp-content-0-3-125",
-          "root": "FluidDialogComp-root-0-3-123",
+          "container": "FluidDialogComp-container-0-3-123",
+          "content": "FluidDialogComp-content-0-3-124",
+          "root": "FluidDialogComp-root-0-3-122",
         }
       }
       content=" very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content"
       onClose={[Function]}
     >
       <div
-        className="FluidDialogComp-root-0-3-123"
+        className="FluidDialogComp-root-0-3-122"
       >
         <Scrim
           onClose={[Function]}
@@ -152,7 +152,7 @@ exports[`Storyshots Components/Dialog/FluidDialog Long content 1`] = `
             <ScrimComp
               classes={
                 Object {
-                  "root": "ScrimComp-root-0-3-126",
+                  "root": "ScrimComp-root-0-3-125",
                 }
               }
               onClose={[Function]}
@@ -174,7 +174,7 @@ exports[`Storyshots Components/Dialog/FluidDialog Long content 1`] = `
                 unmountOnExit={false}
               >
                 <div
-                  className="ScrimComp-root-0-3-126"
+                  className="ScrimComp-root-0-3-125"
                   onClick={[Function]}
                   style={
                     Object {
@@ -188,11 +188,11 @@ exports[`Storyshots Components/Dialog/FluidDialog Long content 1`] = `
           </WithStyles(ScrimComp)>
         </Scrim>
         <div
-          className="FluidDialogComp-container-0-3-124"
+          className="FluidDialogComp-container-0-3-123"
         >
           <div />
           <div
-            className="FluidDialogComp-content-0-3-125"
+            className="FluidDialogComp-content-0-3-124"
           >
              very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content
           </div>
@@ -228,9 +228,9 @@ exports[`Storyshots Components/Dialog/FluidDialog Long content with header and f
     <FluidDialogComp
       classes={
         Object {
-          "container": "FluidDialogComp-container-0-3-124",
-          "content": "FluidDialogComp-content-0-3-125",
-          "root": "FluidDialogComp-root-0-3-123",
+          "container": "FluidDialogComp-container-0-3-123",
+          "content": "FluidDialogComp-content-0-3-124",
+          "root": "FluidDialogComp-root-0-3-122",
         }
       }
       content=" very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content"
@@ -239,7 +239,7 @@ exports[`Storyshots Components/Dialog/FluidDialog Long content with header and f
       onClose={[Function]}
     >
       <div
-        className="FluidDialogComp-root-0-3-123"
+        className="FluidDialogComp-root-0-3-122"
       >
         <Scrim
           onClose={[Function]}
@@ -260,7 +260,7 @@ exports[`Storyshots Components/Dialog/FluidDialog Long content with header and f
             <ScrimComp
               classes={
                 Object {
-                  "root": "ScrimComp-root-0-3-126",
+                  "root": "ScrimComp-root-0-3-125",
                 }
               }
               onClose={[Function]}
@@ -282,7 +282,7 @@ exports[`Storyshots Components/Dialog/FluidDialog Long content with header and f
                 unmountOnExit={false}
               >
                 <div
-                  className="ScrimComp-root-0-3-126"
+                  className="ScrimComp-root-0-3-125"
                   onClick={[Function]}
                   style={
                     Object {
@@ -296,13 +296,13 @@ exports[`Storyshots Components/Dialog/FluidDialog Long content with header and f
           </WithStyles(ScrimComp)>
         </Scrim>
         <div
-          className="FluidDialogComp-container-0-3-124"
+          className="FluidDialogComp-container-0-3-123"
         >
           <div>
             header
           </div>
           <div
-            className="FluidDialogComp-content-0-3-125"
+            className="FluidDialogComp-content-0-3-124"
           >
              very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content very long content
           </div>

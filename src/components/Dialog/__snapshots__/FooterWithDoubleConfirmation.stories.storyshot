@@ -40,10 +40,10 @@ exports[`Storyshots Components/Dialog/FooterWithDoubleConfirmation Animation 1`]
         cancelMessage="Cancel"
         classes={
           Object {
-            "confirm": "FooterWithDoubleConfirmationComp-confirm-0-3-131",
-            "confirmation": "FooterWithDoubleConfirmationComp-confirmation-0-3-132",
-            "content": "FooterWithDoubleConfirmationComp-content-0-3-130",
-            "root": "FooterWithDoubleConfirmationComp-root-0-3-129",
+            "confirm": "FooterWithDoubleConfirmationComp-confirm-0-3-130",
+            "confirmation": "FooterWithDoubleConfirmationComp-confirmation-0-3-131",
+            "content": "FooterWithDoubleConfirmationComp-content-0-3-129",
+            "root": "FooterWithDoubleConfirmationComp-root-0-3-128",
           }
         }
         confirmMessage="Confirm"
@@ -58,7 +58,7 @@ exports[`Storyshots Components/Dialog/FooterWithDoubleConfirmation Animation 1`]
         yesMessage="Yes"
       >
         <div
-          className="FooterWithDoubleConfirmationComp-root-0-3-129"
+          className="FooterWithDoubleConfirmationComp-root-0-3-128"
         >
           <Transition
             appear={false}
@@ -76,7 +76,7 @@ exports[`Storyshots Components/Dialog/FooterWithDoubleConfirmation Animation 1`]
             unmountOnExit={false}
           >
             <div
-              className="FooterWithDoubleConfirmationComp-content-0-3-130"
+              className="FooterWithDoubleConfirmationComp-content-0-3-129"
               style={
                 Object {
                   "transition": "transform 150ms ease-in-out",
@@ -84,7 +84,7 @@ exports[`Storyshots Components/Dialog/FooterWithDoubleConfirmation Animation 1`]
               }
             >
               <div
-                className="FooterWithDoubleConfirmationComp-confirm-0-3-131"
+                className="FooterWithDoubleConfirmationComp-confirm-0-3-130"
               >
                 <Button
                   color="transparent"
@@ -381,7 +381,7 @@ exports[`Storyshots Components/Dialog/FooterWithDoubleConfirmation Animation 1`]
                 </Button>
               </div>
               <div
-                className="FooterWithDoubleConfirmationComp-confirmation-0-3-132"
+                className="FooterWithDoubleConfirmationComp-confirmation-0-3-131"
               >
                 <Typography
                   bold={true}
@@ -768,10 +768,10 @@ exports[`Storyshots Components/Dialog/FooterWithDoubleConfirmation Confirm no va
       cancelMessage="Cancel"
       classes={
         Object {
-          "confirm": "FooterWithDoubleConfirmationComp-confirm-0-3-131",
-          "confirmation": "FooterWithDoubleConfirmationComp-confirmation-0-3-132",
-          "content": "FooterWithDoubleConfirmationComp-content-0-3-130",
-          "root": "FooterWithDoubleConfirmationComp-root-0-3-129",
+          "confirm": "FooterWithDoubleConfirmationComp-confirm-0-3-130",
+          "confirmation": "FooterWithDoubleConfirmationComp-confirmation-0-3-131",
+          "content": "FooterWithDoubleConfirmationComp-content-0-3-129",
+          "root": "FooterWithDoubleConfirmationComp-root-0-3-128",
         }
       }
       confirmMessage="Confirm"
@@ -786,7 +786,7 @@ exports[`Storyshots Components/Dialog/FooterWithDoubleConfirmation Confirm no va
       yesMessage="Yes"
     >
       <div
-        className="FooterWithDoubleConfirmationComp-root-0-3-129"
+        className="FooterWithDoubleConfirmationComp-root-0-3-128"
       >
         <Transition
           appear={false}
@@ -804,7 +804,7 @@ exports[`Storyshots Components/Dialog/FooterWithDoubleConfirmation Confirm no va
           unmountOnExit={false}
         >
           <div
-            className="FooterWithDoubleConfirmationComp-content-0-3-130"
+            className="FooterWithDoubleConfirmationComp-content-0-3-129"
             style={
               Object {
                 "transition": "transform 150ms ease-in-out",
@@ -812,7 +812,7 @@ exports[`Storyshots Components/Dialog/FooterWithDoubleConfirmation Confirm no va
             }
           >
             <div
-              className="FooterWithDoubleConfirmationComp-confirm-0-3-131"
+              className="FooterWithDoubleConfirmationComp-confirm-0-3-130"
             >
               <Button
                 color="transparent"
@@ -1108,7 +1108,7 @@ exports[`Storyshots Components/Dialog/FooterWithDoubleConfirmation Confirm no va
               </Button>
             </div>
             <div
-              className="FooterWithDoubleConfirmationComp-confirmation-0-3-132"
+              className="FooterWithDoubleConfirmationComp-confirmation-0-3-131"
             >
               <Typography
                 bold={true}
@@ -1494,10 +1494,10 @@ exports[`Storyshots Components/Dialog/FooterWithDoubleConfirmation Confirm valid
       cancelMessage="Cancel"
       classes={
         Object {
-          "confirm": "FooterWithDoubleConfirmationComp-confirm-0-3-131",
-          "confirmation": "FooterWithDoubleConfirmationComp-confirmation-0-3-132",
-          "content": "FooterWithDoubleConfirmationComp-content-0-3-130",
-          "root": "FooterWithDoubleConfirmationComp-root-0-3-129",
+          "confirm": "FooterWithDoubleConfirmationComp-confirm-0-3-130",
+          "confirmation": "FooterWithDoubleConfirmationComp-confirmation-0-3-131",
+          "content": "FooterWithDoubleConfirmationComp-content-0-3-129",
+          "root": "FooterWithDoubleConfirmationComp-root-0-3-128",
         }
       }
       confirmMessage="Confirm"
@@ -1512,7 +1512,7 @@ exports[`Storyshots Components/Dialog/FooterWithDoubleConfirmation Confirm valid
       yesMessage="Yes"
     >
       <div
-        className="FooterWithDoubleConfirmationComp-root-0-3-129"
+        className="FooterWithDoubleConfirmationComp-root-0-3-128"
       >
         <Transition
           appear={false}
@@ -1530,7 +1530,7 @@ exports[`Storyshots Components/Dialog/FooterWithDoubleConfirmation Confirm valid
           unmountOnExit={false}
         >
           <div
-            className="FooterWithDoubleConfirmationComp-content-0-3-130"
+            className="FooterWithDoubleConfirmationComp-content-0-3-129"
             style={
               Object {
                 "transition": "transform 150ms ease-in-out",
@@ -1538,7 +1538,7 @@ exports[`Storyshots Components/Dialog/FooterWithDoubleConfirmation Confirm valid
             }
           >
             <div
-              className="FooterWithDoubleConfirmationComp-confirm-0-3-131"
+              className="FooterWithDoubleConfirmationComp-confirm-0-3-130"
             >
               <Button
                 color="transparent"
@@ -1835,7 +1835,7 @@ exports[`Storyshots Components/Dialog/FooterWithDoubleConfirmation Confirm valid
               </Button>
             </div>
             <div
-              className="FooterWithDoubleConfirmationComp-confirmation-0-3-132"
+              className="FooterWithDoubleConfirmationComp-confirmation-0-3-131"
             >
               <Typography
                 bold={true}
@@ -2221,10 +2221,10 @@ exports[`Storyshots Components/Dialog/FooterWithDoubleConfirmation Mode confirma
       cancelMessage="Cancel"
       classes={
         Object {
-          "confirm": "FooterWithDoubleConfirmationComp-confirm-0-3-131",
-          "confirmation": "FooterWithDoubleConfirmationComp-confirmation-0-3-132",
-          "content": "FooterWithDoubleConfirmationComp-content-0-3-130",
-          "root": "FooterWithDoubleConfirmationComp-root-0-3-129",
+          "confirm": "FooterWithDoubleConfirmationComp-confirm-0-3-130",
+          "confirmation": "FooterWithDoubleConfirmationComp-confirmation-0-3-131",
+          "content": "FooterWithDoubleConfirmationComp-content-0-3-129",
+          "root": "FooterWithDoubleConfirmationComp-root-0-3-128",
         }
       }
       confirmMessage="Confirm"
@@ -2239,7 +2239,7 @@ exports[`Storyshots Components/Dialog/FooterWithDoubleConfirmation Mode confirma
       yesMessage="Yes"
     >
       <div
-        className="FooterWithDoubleConfirmationComp-root-0-3-129"
+        className="FooterWithDoubleConfirmationComp-root-0-3-128"
       >
         <Transition
           appear={false}
@@ -2257,7 +2257,7 @@ exports[`Storyshots Components/Dialog/FooterWithDoubleConfirmation Mode confirma
           unmountOnExit={false}
         >
           <div
-            className="FooterWithDoubleConfirmationComp-content-0-3-130"
+            className="FooterWithDoubleConfirmationComp-content-0-3-129"
             style={
               Object {
                 "transform": "translateY(-85px)",
@@ -2266,7 +2266,7 @@ exports[`Storyshots Components/Dialog/FooterWithDoubleConfirmation Mode confirma
             }
           >
             <div
-              className="FooterWithDoubleConfirmationComp-confirm-0-3-131"
+              className="FooterWithDoubleConfirmationComp-confirm-0-3-130"
             >
               <Button
                 color="transparent"
@@ -2562,7 +2562,7 @@ exports[`Storyshots Components/Dialog/FooterWithDoubleConfirmation Mode confirma
               </Button>
             </div>
             <div
-              className="FooterWithDoubleConfirmationComp-confirmation-0-3-132"
+              className="FooterWithDoubleConfirmationComp-confirmation-0-3-131"
             >
               <Typography
                 bold={true}
@@ -2945,10 +2945,10 @@ exports[`Storyshots Components/Dialog/FooterWithDoubleConfirmation no cancelMess
     <FooterWithDoubleConfirmationComp
       classes={
         Object {
-          "confirm": "FooterWithDoubleConfirmationComp-confirm-0-3-131",
-          "confirmation": "FooterWithDoubleConfirmationComp-confirmation-0-3-132",
-          "content": "FooterWithDoubleConfirmationComp-content-0-3-130",
-          "root": "FooterWithDoubleConfirmationComp-root-0-3-129",
+          "confirm": "FooterWithDoubleConfirmationComp-confirm-0-3-130",
+          "confirmation": "FooterWithDoubleConfirmationComp-confirmation-0-3-131",
+          "content": "FooterWithDoubleConfirmationComp-content-0-3-129",
+          "root": "FooterWithDoubleConfirmationComp-root-0-3-128",
         }
       }
       confirmMessage="Confirm"
@@ -2963,7 +2963,7 @@ exports[`Storyshots Components/Dialog/FooterWithDoubleConfirmation no cancelMess
       yesMessage="Yes"
     >
       <div
-        className="FooterWithDoubleConfirmationComp-root-0-3-129"
+        className="FooterWithDoubleConfirmationComp-root-0-3-128"
       >
         <Transition
           appear={false}
@@ -2981,7 +2981,7 @@ exports[`Storyshots Components/Dialog/FooterWithDoubleConfirmation no cancelMess
           unmountOnExit={false}
         >
           <div
-            className="FooterWithDoubleConfirmationComp-content-0-3-130"
+            className="FooterWithDoubleConfirmationComp-content-0-3-129"
             style={
               Object {
                 "transition": "transform 150ms ease-in-out",
@@ -2989,7 +2989,7 @@ exports[`Storyshots Components/Dialog/FooterWithDoubleConfirmation no cancelMess
             }
           >
             <div
-              className="FooterWithDoubleConfirmationComp-confirm-0-3-131"
+              className="FooterWithDoubleConfirmationComp-confirm-0-3-130"
             >
               <div />
               <Button
@@ -3141,7 +3141,7 @@ exports[`Storyshots Components/Dialog/FooterWithDoubleConfirmation no cancelMess
               </Button>
             </div>
             <div
-              className="FooterWithDoubleConfirmationComp-confirmation-0-3-132"
+              className="FooterWithDoubleConfirmationComp-confirmation-0-3-131"
             >
               <Typography
                 bold={true}

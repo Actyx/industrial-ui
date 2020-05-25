@@ -44,10 +44,10 @@ exports[`Storyshots Components/Grid Base 1`] = `
   renderRow={[Function]}
 >
   <table
-    className="root-0-3-151"
+    className="root-0-3-150"
   >
     <thead
-      className="thead-0-3-152"
+      className="thead-0-3-151"
     >
       <tr>
         <td
@@ -71,7 +71,7 @@ exports[`Storyshots Components/Grid Base 1`] = `
       </tr>
     </thead>
     <tbody
-      className="tbody-0-3-153"
+      className="tbody-0-3-152"
     >
       <tr
         key="a"
@@ -162,10 +162,10 @@ exports[`Storyshots Components/Grid isRowSelected 1`] = `
   renderRow={[Function]}
 >
   <table
-    className="root-0-3-151"
+    className="root-0-3-150"
   >
     <thead
-      className="thead-0-3-152"
+      className="thead-0-3-151"
     >
       <tr>
         <td
@@ -189,7 +189,7 @@ exports[`Storyshots Components/Grid isRowSelected 1`] = `
       </tr>
     </thead>
     <tbody
-      className="tbody-0-3-153"
+      className="tbody-0-3-152"
     >
       <tr
         key="a"
@@ -285,10 +285,10 @@ exports[`Storyshots Components/Grid onRowSelect 1`] = `
   renderRow={[Function]}
 >
   <table
-    className="root-0-3-151"
+    className="root-0-3-150"
   >
     <thead
-      className="thead-0-3-152"
+      className="thead-0-3-151"
     >
       <tr>
         <td
@@ -312,7 +312,7 @@ exports[`Storyshots Components/Grid onRowSelect 1`] = `
       </tr>
     </thead>
     <tbody
-      className="tbody-0-3-153"
+      className="tbody-0-3-152"
     >
       <tr
         key="a"
@@ -406,10 +406,10 @@ exports[`Storyshots Components/Grid setRowClassName 1`] = `
   setRowClassName={[Function]}
 >
   <table
-    className="root-0-3-151"
+    className="root-0-3-150"
   >
     <thead
-      className="thead-0-3-152"
+      className="thead-0-3-151"
     >
       <tr>
         <td
@@ -433,7 +433,7 @@ exports[`Storyshots Components/Grid setRowClassName 1`] = `
       </tr>
     </thead>
     <tbody
-      className="tbody-0-3-153"
+      className="tbody-0-3-152"
     >
       <tr
         className=""
