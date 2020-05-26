@@ -11,6 +11,8 @@ exports[`Storyshots Components/Checkbox Checked 1`] = `
     style={
       Object {
         "color": "rgba(33, 33, 33, 1)",
+        "height": 40,
+        "width": 40,
       }
     }
   >
@@ -89,6 +91,8 @@ exports[`Storyshots Components/Checkbox Disabled checked 1`] = `
     style={
       Object {
         "color": "rgba(33, 33, 33, 0.5)",
+        "height": 40,
+        "width": 40,
       }
     }
   >
@@ -166,6 +170,8 @@ exports[`Storyshots Components/Checkbox Indeterminate 1`] = `
     style={
       Object {
         "color": "rgba(33, 33, 33, 1)",
+        "height": 40,
+        "width": 40,
       }
     }
   >
@@ -243,6 +249,8 @@ exports[`Storyshots Components/Checkbox Primary checked 1`] = `
     style={
       Object {
         "color": "rgba(3, 169, 244, 1)",
+        "height": 40,
+        "width": 40,
       }
     }
   >
@@ -321,6 +329,8 @@ exports[`Storyshots Components/Checkbox Primary checked disabled 1`] = `
     style={
       Object {
         "color": "rgba(3, 169, 244, 0.5)",
+        "height": 40,
+        "width": 40,
       }
     }
   >
@@ -398,6 +408,8 @@ exports[`Storyshots Components/Checkbox Primary indeterminate 1`] = `
     style={
       Object {
         "color": "rgba(3, 169, 244, 1)",
+        "height": 40,
+        "width": 40,
       }
     }
   >
@@ -475,6 +487,8 @@ exports[`Storyshots Components/Checkbox Primary unchecked 1`] = `
     style={
       Object {
         "color": "rgba(3, 169, 244, 1)",
+        "height": 40,
+        "width": 40,
       }
     }
   >
@@ -552,6 +566,8 @@ exports[`Storyshots Components/Checkbox Unchecked 1`] = `
     style={
       Object {
         "color": "rgba(33, 33, 33, 1)",
+        "height": 40,
+        "width": 40,
       }
     }
   >
