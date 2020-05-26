@@ -3,17 +3,18 @@
   "ignore": [
     "README.md",
     ".*",
+    ".git",
+    ".loki",
+    "bin/",
+    "lib/",
+    "coverage/",
+    "add-license-text",
     "jest.config.js",
     "jest.setup.js",
-    "add-license-text",
-    "*.snap",
-    "lib/",
-    ".git",
-    "coverage/",
+    "**/*webpack.config.js",
     "**/*.storyshot",
-    ".gitignore",
-    "**/*.webpack.config.js",
-    ".loki"
+    "**/*.snap",
+    "./src/assets/"
   ],
   "licenseFormats": {
     "ts": {
