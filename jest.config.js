@@ -7,8 +7,9 @@ module.exports = {
   setupFiles: ['<rootDir>./jest.setup.js'],
   collectCoverage: true,
   collectCoverageFrom: ['**/*.{ts,tsx}', '!**/*.{stories.tsx}', '!**/*.d.ts'],
-  coveragePathIgnorePatterns: ['/node_modules/'],
+  coveragePathIgnorePatterns: ['<rootDir>/node_modules/'],
   coverageDirectory: '<rootDir>/coverage',
+  modulePathIgnorePatterns: ['<rootDir>/lib'],
   coverageThreshold: {
     global: {
       statements: 92,
