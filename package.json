@@ -48,7 +48,9 @@
     "test:visual": "loki test --port 6006",
     "test:approve-visual": "loki approve",
     "license:add": "license-check-and-add add -f add-license-config.json",
-    "license:check": "license-check-and-add check -f add-license-config.json"
+    "license:check": "license-check-and-add check -f add-license-config.json",
+    "license:check:dep": "license-checker --production --onlyAllow 'MIT; MIT OR X11; BSD; ISC; Apache-2.0;'",
+    "license:check:dep:summary": "npm run license:check:dep -- --summary"
   },
   "repository": {
     "type": "git",
@@ -113,6 +115,7 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^25.1.0",
     "license-check-and-add": "^3.0.4",
+    "license-checker": "^25.0.1",
     "loki": "^0.20.1",
     "prettier": "^1.19.1",
     "react-docgen-typescript-loader": "^3.6.0",
