@@ -18,15 +18,15 @@ exports[`Storyshots Components/Toolbar Variant dark content 1`] = `
     <ToolbarComp
       classes={
         Object {
-          "dark": "ToolbarComp-dark-0-3-284",
-          "light": "ToolbarComp-light-0-3-285",
-          "root": "ToolbarComp-root-0-3-283",
+          "dark": "ToolbarComp-dark-0-3-288",
+          "light": "ToolbarComp-light-0-3-289",
+          "root": "ToolbarComp-root-0-3-287",
         }
       }
       variant="dark"
     >
       <div
-        className="ToolbarComp-root-0-3-283 ToolbarComp-dark-0-3-284"
+        className="ToolbarComp-root-0-3-287 ToolbarComp-dark-0-3-288"
       >
         <Typography
           color="#ffffff"
@@ -103,15 +103,15 @@ exports[`Storyshots Components/Toolbar Variant light content 1`] = `
     <ToolbarComp
       classes={
         Object {
-          "dark": "ToolbarComp-dark-0-3-284",
-          "light": "ToolbarComp-light-0-3-285",
-          "root": "ToolbarComp-root-0-3-283",
+          "dark": "ToolbarComp-dark-0-3-288",
+          "light": "ToolbarComp-light-0-3-289",
+          "root": "ToolbarComp-root-0-3-287",
         }
       }
       variant="light"
     >
       <div
-        className="ToolbarComp-root-0-3-283 ToolbarComp-light-0-3-285"
+        className="ToolbarComp-root-0-3-287 ToolbarComp-light-0-3-289"
       >
         <Typography
           variant="distance"
@@ -180,15 +180,15 @@ exports[`Storyshots Components/Toolbar Variant light content/icons 1`] = `
     <ToolbarComp
       classes={
         Object {
-          "dark": "ToolbarComp-dark-0-3-284",
-          "light": "ToolbarComp-light-0-3-285",
-          "root": "ToolbarComp-root-0-3-283",
+          "dark": "ToolbarComp-dark-0-3-288",
+          "light": "ToolbarComp-light-0-3-289",
+          "root": "ToolbarComp-root-0-3-287",
         }
       }
       variant="light"
     >
       <div
-        className="ToolbarComp-root-0-3-283 ToolbarComp-light-0-3-285"
+        className="ToolbarComp-root-0-3-287 ToolbarComp-light-0-3-289"
       >
         <Button
           color="transparent"
@@ -296,14 +296,14 @@ exports[`Storyshots Components/Toolbar Variant light content/icons 1`] = `
                               <MUIconComp
                                 classes={
                                   Object {
-                                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d113-0-3-345",
+                                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d116-0-3-349",
                                   }
                                 }
                                 fontSize={40}
                                 type="rotate_left"
                               >
                                 <i
-                                  className="MUIconComp-root-0-3-35 MUIconComp-root-d113-0-3-345"
+                                  className="MUIconComp-root-0-3-35 MUIconComp-root-d116-0-3-349"
                                 >
                                   rotate_left
                                 </i>
@@ -425,14 +425,14 @@ exports[`Storyshots Components/Toolbar Variant light content/icons 1`] = `
                               <MUIconComp
                                 classes={
                                   Object {
-                                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d114-0-3-346",
+                                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d117-0-3-350",
                                   }
                                 }
                                 fontSize={40}
                                 type="rotate_right"
                               >
                                 <i
-                                  className="MUIconComp-root-0-3-35 MUIconComp-root-d114-0-3-346"
+                                  className="MUIconComp-root-0-3-35 MUIconComp-root-d117-0-3-350"
                                 >
                                   rotate_right
                                 </i>
@@ -554,14 +554,14 @@ exports[`Storyshots Components/Toolbar Variant light content/icons 1`] = `
                               <MUIconComp
                                 classes={
                                   Object {
-                                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d115-0-3-347",
+                                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d118-0-3-351",
                                   }
                                 }
                                 fontSize={40}
                                 type="refresh"
                               >
                                 <i
-                                  className="MUIconComp-root-0-3-35 MUIconComp-root-d115-0-3-347"
+                                  className="MUIconComp-root-0-3-35 MUIconComp-root-d118-0-3-351"
                                 >
                                   refresh
                                 </i>

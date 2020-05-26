@@ -102,15 +102,15 @@ exports[`Storyshots Components/SimpleToolbar Center component 1`] = `
       }
       classes={
         Object {
-          "button": "SimpleToolbarComp-button-0-3-281",
-          "darkBackground": "SimpleToolbarComp-darkBackground-0-3-277",
-          "darkForeground": "SimpleToolbarComp-darkForeground-0-3-278",
-          "icon": "SimpleToolbarComp-icon-0-3-279",
-          "lightBackground": "SimpleToolbarComp-lightBackground-0-3-275",
-          "lightForeground": "SimpleToolbarComp-lightForeground-0-3-276",
-          "rightComponent": "SimpleToolbarComp-rightComponent-0-3-280",
-          "root": "SimpleToolbarComp-root-0-3-274",
-          "title": "SimpleToolbarComp-title-0-3-282",
+          "button": "SimpleToolbarComp-button-0-3-285",
+          "darkBackground": "SimpleToolbarComp-darkBackground-0-3-281",
+          "darkForeground": "SimpleToolbarComp-darkForeground-0-3-282",
+          "icon": "SimpleToolbarComp-icon-0-3-283",
+          "lightBackground": "SimpleToolbarComp-lightBackground-0-3-279",
+          "lightForeground": "SimpleToolbarComp-lightForeground-0-3-280",
+          "rightComponent": "SimpleToolbarComp-rightComponent-0-3-284",
+          "root": "SimpleToolbarComp-root-0-3-278",
+          "title": "SimpleToolbarComp-title-0-3-286",
         }
       }
       leftIcon={
@@ -147,26 +147,26 @@ exports[`Storyshots Components/SimpleToolbar Center component 1`] = `
           <ToolbarComp
             classes={
               Object {
-                "dark": "ToolbarComp-dark-0-3-284",
-                "light": "ToolbarComp-light-0-3-285",
-                "root": "ToolbarComp-root-0-3-283",
+                "dark": "ToolbarComp-dark-0-3-288",
+                "light": "ToolbarComp-light-0-3-289",
+                "root": "ToolbarComp-root-0-3-287",
               }
             }
             variant="light"
           >
             <div
-              className="ToolbarComp-root-0-3-283 ToolbarComp-light-0-3-285"
+              className="ToolbarComp-root-0-3-287 ToolbarComp-light-0-3-289"
             >
               <button
-                className="SimpleToolbarComp-button-0-3-281 SimpleToolbarComp-icon-0-3-279"
+                className="SimpleToolbarComp-button-0-3-285 SimpleToolbarComp-icon-0-3-283"
                 onClick={[Function]}
                 type="button"
               >
                 <TouchRipple
-                  className="SimpleToolbarComp-icon-0-3-279"
+                  className="SimpleToolbarComp-icon-0-3-283"
                 >
                   <WithStyles(TouchRippleComp)
-                    className="SimpleToolbarComp-icon-0-3-279"
+                    className="SimpleToolbarComp-icon-0-3-283"
                     innerRef={null}
                     jssContext={
                       Object {
@@ -177,7 +177,7 @@ exports[`Storyshots Components/SimpleToolbar Center component 1`] = `
                     theme={Object {}}
                   >
                     <TouchRippleComp
-                      className="SimpleToolbarComp-icon-0-3-279"
+                      className="SimpleToolbarComp-icon-0-3-283"
                       classes={
                         Object {
                           "disabled": "TouchRippleComp-disabled-0-3-34",
@@ -186,7 +186,7 @@ exports[`Storyshots Components/SimpleToolbar Center component 1`] = `
                       }
                     >
                       <div
-                        className="SimpleToolbarComp-icon-0-3-279 TouchRippleComp-root-0-3-33"
+                        className="SimpleToolbarComp-icon-0-3-283 TouchRippleComp-root-0-3-33"
                       >
                         <MUIcon
                           color="#263238"
@@ -209,7 +209,7 @@ exports[`Storyshots Components/SimpleToolbar Center component 1`] = `
                             <MUIconComp
                               classes={
                                 Object {
-                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d112-0-3-298",
+                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d115-0-3-302",
                                 }
                               }
                               color="#263238"
@@ -217,7 +217,7 @@ exports[`Storyshots Components/SimpleToolbar Center component 1`] = `
                               type="close"
                             >
                               <i
-                                className="MUIconComp-root-0-3-35 MUIconComp-root-d112-0-3-298"
+                                className="MUIconComp-root-0-3-35 MUIconComp-root-d115-0-3-302"
                               >
                                 close
                               </i>
@@ -230,7 +230,7 @@ exports[`Storyshots Components/SimpleToolbar Center component 1`] = `
                 </TouchRipple>
               </button>
               <div
-                className="SimpleToolbarComp-title-0-3-282"
+                className="SimpleToolbarComp-title-0-3-286"
               >
                 <Typography
                   color="#263238"
@@ -339,7 +339,7 @@ exports[`Storyshots Components/SimpleToolbar Center component 1`] = `
                 </Typography>
               </div>
               <button
-                className="SimpleToolbarComp-button-0-3-281 SimpleToolbarComp-rightComponent-0-3-280"
+                className="SimpleToolbarComp-button-0-3-285 SimpleToolbarComp-rightComponent-0-3-284"
                 onClick={[Function]}
                 type="submit"
               >
@@ -360,21 +360,21 @@ exports[`Storyshots Components/SimpleToolbar Center component 1`] = `
                     <SimpleToolbarButtonComp
                       classes={
                         Object {
-                          "button": "SimpleToolbarButtonComp-button-0-3-296",
-                          "disabled": "SimpleToolbarButtonComp-disabled-0-3-297",
-                          "root": "SimpleToolbarButtonComp-root-0-3-295",
+                          "button": "SimpleToolbarButtonComp-button-0-3-300",
+                          "disabled": "SimpleToolbarButtonComp-disabled-0-3-301",
+                          "root": "SimpleToolbarButtonComp-root-0-3-299",
                         }
                       }
                       text="Confirm"
                     >
                       <div
-                        className="SimpleToolbarButtonComp-root-0-3-295"
+                        className="SimpleToolbarButtonComp-root-0-3-299"
                       >
                         <TouchRipple
-                          className="SimpleToolbarButtonComp-button-0-3-296"
+                          className="SimpleToolbarButtonComp-button-0-3-300"
                         >
                           <WithStyles(TouchRippleComp)
-                            className="SimpleToolbarButtonComp-button-0-3-296"
+                            className="SimpleToolbarButtonComp-button-0-3-300"
                             innerRef={null}
                             jssContext={
                               Object {
@@ -385,7 +385,7 @@ exports[`Storyshots Components/SimpleToolbar Center component 1`] = `
                             theme={Object {}}
                           >
                             <TouchRippleComp
-                              className="SimpleToolbarButtonComp-button-0-3-296"
+                              className="SimpleToolbarButtonComp-button-0-3-300"
                               classes={
                                 Object {
                                   "disabled": "TouchRippleComp-disabled-0-3-34",
@@ -394,7 +394,7 @@ exports[`Storyshots Components/SimpleToolbar Center component 1`] = `
                               }
                             >
                               <div
-                                className="SimpleToolbarButtonComp-button-0-3-296 TouchRippleComp-root-0-3-33"
+                                className="SimpleToolbarButtonComp-button-0-3-300 TouchRippleComp-root-0-3-33"
                               >
                                 <Typography
                                   bold={true}
@@ -503,15 +503,15 @@ exports[`Storyshots Components/SimpleToolbar Dark 1`] = `
     <SimpleToolbarComp
       classes={
         Object {
-          "button": "SimpleToolbarComp-button-0-3-281",
-          "darkBackground": "SimpleToolbarComp-darkBackground-0-3-277",
-          "darkForeground": "SimpleToolbarComp-darkForeground-0-3-278",
-          "icon": "SimpleToolbarComp-icon-0-3-279",
-          "lightBackground": "SimpleToolbarComp-lightBackground-0-3-275",
-          "lightForeground": "SimpleToolbarComp-lightForeground-0-3-276",
-          "rightComponent": "SimpleToolbarComp-rightComponent-0-3-280",
-          "root": "SimpleToolbarComp-root-0-3-274",
-          "title": "SimpleToolbarComp-title-0-3-282",
+          "button": "SimpleToolbarComp-button-0-3-285",
+          "darkBackground": "SimpleToolbarComp-darkBackground-0-3-281",
+          "darkForeground": "SimpleToolbarComp-darkForeground-0-3-282",
+          "icon": "SimpleToolbarComp-icon-0-3-283",
+          "lightBackground": "SimpleToolbarComp-lightBackground-0-3-279",
+          "lightForeground": "SimpleToolbarComp-lightForeground-0-3-280",
+          "rightComponent": "SimpleToolbarComp-rightComponent-0-3-284",
+          "root": "SimpleToolbarComp-root-0-3-278",
+          "title": "SimpleToolbarComp-title-0-3-286",
         }
       }
       leftIcon={
@@ -540,26 +540,26 @@ exports[`Storyshots Components/SimpleToolbar Dark 1`] = `
           <ToolbarComp
             classes={
               Object {
-                "dark": "ToolbarComp-dark-0-3-284",
-                "light": "ToolbarComp-light-0-3-285",
-                "root": "ToolbarComp-root-0-3-283",
+                "dark": "ToolbarComp-dark-0-3-288",
+                "light": "ToolbarComp-light-0-3-289",
+                "root": "ToolbarComp-root-0-3-287",
               }
             }
             variant="dark"
           >
             <div
-              className="ToolbarComp-root-0-3-283 ToolbarComp-dark-0-3-284"
+              className="ToolbarComp-root-0-3-287 ToolbarComp-dark-0-3-288"
             >
               <button
-                className="SimpleToolbarComp-button-0-3-281 SimpleToolbarComp-icon-0-3-279"
+                className="SimpleToolbarComp-button-0-3-285 SimpleToolbarComp-icon-0-3-283"
                 onClick={[Function]}
                 type="button"
               >
                 <TouchRipple
-                  className="SimpleToolbarComp-icon-0-3-279"
+                  className="SimpleToolbarComp-icon-0-3-283"
                 >
                   <WithStyles(TouchRippleComp)
-                    className="SimpleToolbarComp-icon-0-3-279"
+                    className="SimpleToolbarComp-icon-0-3-283"
                     innerRef={null}
                     jssContext={
                       Object {
@@ -570,7 +570,7 @@ exports[`Storyshots Components/SimpleToolbar Dark 1`] = `
                     theme={Object {}}
                   >
                     <TouchRippleComp
-                      className="SimpleToolbarComp-icon-0-3-279"
+                      className="SimpleToolbarComp-icon-0-3-283"
                       classes={
                         Object {
                           "disabled": "TouchRippleComp-disabled-0-3-34",
@@ -579,7 +579,7 @@ exports[`Storyshots Components/SimpleToolbar Dark 1`] = `
                       }
                     >
                       <div
-                        className="SimpleToolbarComp-icon-0-3-279 TouchRippleComp-root-0-3-33"
+                        className="SimpleToolbarComp-icon-0-3-283 TouchRippleComp-root-0-3-33"
                       >
                         <MUIcon
                           color="#ffffff"
@@ -602,7 +602,7 @@ exports[`Storyshots Components/SimpleToolbar Dark 1`] = `
                             <MUIconComp
                               classes={
                                 Object {
-                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d103-0-3-286",
+                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d106-0-3-290",
                                 }
                               }
                               color="#ffffff"
@@ -610,7 +610,7 @@ exports[`Storyshots Components/SimpleToolbar Dark 1`] = `
                               type="arrow_back"
                             >
                               <i
-                                className="MUIconComp-root-0-3-35 MUIconComp-root-d103-0-3-286"
+                                className="MUIconComp-root-0-3-35 MUIconComp-root-d106-0-3-290"
                               >
                                 arrow_back
                               </i>
@@ -623,7 +623,7 @@ exports[`Storyshots Components/SimpleToolbar Dark 1`] = `
                 </TouchRipple>
               </button>
               <div
-                className="SimpleToolbarComp-title-0-3-282"
+                className="SimpleToolbarComp-title-0-3-286"
               >
                 <Typography
                   color="#ffffff"
@@ -730,15 +730,15 @@ exports[`Storyshots Components/SimpleToolbar Dark right icon 1`] = `
     <SimpleToolbarComp
       classes={
         Object {
-          "button": "SimpleToolbarComp-button-0-3-281",
-          "darkBackground": "SimpleToolbarComp-darkBackground-0-3-277",
-          "darkForeground": "SimpleToolbarComp-darkForeground-0-3-278",
-          "icon": "SimpleToolbarComp-icon-0-3-279",
-          "lightBackground": "SimpleToolbarComp-lightBackground-0-3-275",
-          "lightForeground": "SimpleToolbarComp-lightForeground-0-3-276",
-          "rightComponent": "SimpleToolbarComp-rightComponent-0-3-280",
-          "root": "SimpleToolbarComp-root-0-3-274",
-          "title": "SimpleToolbarComp-title-0-3-282",
+          "button": "SimpleToolbarComp-button-0-3-285",
+          "darkBackground": "SimpleToolbarComp-darkBackground-0-3-281",
+          "darkForeground": "SimpleToolbarComp-darkForeground-0-3-282",
+          "icon": "SimpleToolbarComp-icon-0-3-283",
+          "lightBackground": "SimpleToolbarComp-lightBackground-0-3-279",
+          "lightForeground": "SimpleToolbarComp-lightForeground-0-3-280",
+          "rightComponent": "SimpleToolbarComp-rightComponent-0-3-284",
+          "root": "SimpleToolbarComp-root-0-3-278",
+          "title": "SimpleToolbarComp-title-0-3-286",
         }
       }
       leftIcon={
@@ -773,26 +773,26 @@ exports[`Storyshots Components/SimpleToolbar Dark right icon 1`] = `
           <ToolbarComp
             classes={
               Object {
-                "dark": "ToolbarComp-dark-0-3-284",
-                "light": "ToolbarComp-light-0-3-285",
-                "root": "ToolbarComp-root-0-3-283",
+                "dark": "ToolbarComp-dark-0-3-288",
+                "light": "ToolbarComp-light-0-3-289",
+                "root": "ToolbarComp-root-0-3-287",
               }
             }
             variant="dark"
           >
             <div
-              className="ToolbarComp-root-0-3-283 ToolbarComp-dark-0-3-284"
+              className="ToolbarComp-root-0-3-287 ToolbarComp-dark-0-3-288"
             >
               <button
-                className="SimpleToolbarComp-button-0-3-281 SimpleToolbarComp-icon-0-3-279"
+                className="SimpleToolbarComp-button-0-3-285 SimpleToolbarComp-icon-0-3-283"
                 onClick={[Function]}
                 type="button"
               >
                 <TouchRipple
-                  className="SimpleToolbarComp-icon-0-3-279"
+                  className="SimpleToolbarComp-icon-0-3-283"
                 >
                   <WithStyles(TouchRippleComp)
-                    className="SimpleToolbarComp-icon-0-3-279"
+                    className="SimpleToolbarComp-icon-0-3-283"
                     innerRef={null}
                     jssContext={
                       Object {
@@ -803,7 +803,7 @@ exports[`Storyshots Components/SimpleToolbar Dark right icon 1`] = `
                     theme={Object {}}
                   >
                     <TouchRippleComp
-                      className="SimpleToolbarComp-icon-0-3-279"
+                      className="SimpleToolbarComp-icon-0-3-283"
                       classes={
                         Object {
                           "disabled": "TouchRippleComp-disabled-0-3-34",
@@ -812,7 +812,7 @@ exports[`Storyshots Components/SimpleToolbar Dark right icon 1`] = `
                       }
                     >
                       <div
-                        className="SimpleToolbarComp-icon-0-3-279 TouchRippleComp-root-0-3-33"
+                        className="SimpleToolbarComp-icon-0-3-283 TouchRippleComp-root-0-3-33"
                       >
                         <MUIcon
                           color="#ffffff"
@@ -835,7 +835,7 @@ exports[`Storyshots Components/SimpleToolbar Dark right icon 1`] = `
                             <MUIconComp
                               classes={
                                 Object {
-                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d105-0-3-288",
+                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d108-0-3-292",
                                 }
                               }
                               color="#ffffff"
@@ -843,7 +843,7 @@ exports[`Storyshots Components/SimpleToolbar Dark right icon 1`] = `
                               type="close"
                             >
                               <i
-                                className="MUIconComp-root-0-3-35 MUIconComp-root-d105-0-3-288"
+                                className="MUIconComp-root-0-3-35 MUIconComp-root-d108-0-3-292"
                               >
                                 close
                               </i>
@@ -856,7 +856,7 @@ exports[`Storyshots Components/SimpleToolbar Dark right icon 1`] = `
                 </TouchRipple>
               </button>
               <div
-                className="SimpleToolbarComp-title-0-3-282"
+                className="SimpleToolbarComp-title-0-3-286"
               >
                 <Typography
                   color="#ffffff"
@@ -911,15 +911,15 @@ exports[`Storyshots Components/SimpleToolbar Dark right icon 1`] = `
                 </Typography>
               </div>
               <button
-                className="SimpleToolbarComp-button-0-3-281 SimpleToolbarComp-icon-0-3-279"
+                className="SimpleToolbarComp-button-0-3-285 SimpleToolbarComp-icon-0-3-283"
                 onClick={[Function]}
                 type="button"
               >
                 <TouchRipple
-                  className="SimpleToolbarComp-icon-0-3-279"
+                  className="SimpleToolbarComp-icon-0-3-283"
                 >
                   <WithStyles(TouchRippleComp)
-                    className="SimpleToolbarComp-icon-0-3-279"
+                    className="SimpleToolbarComp-icon-0-3-283"
                     innerRef={null}
                     jssContext={
                       Object {
@@ -930,7 +930,7 @@ exports[`Storyshots Components/SimpleToolbar Dark right icon 1`] = `
                     theme={Object {}}
                   >
                     <TouchRippleComp
-                      className="SimpleToolbarComp-icon-0-3-279"
+                      className="SimpleToolbarComp-icon-0-3-283"
                       classes={
                         Object {
                           "disabled": "TouchRippleComp-disabled-0-3-34",
@@ -939,7 +939,7 @@ exports[`Storyshots Components/SimpleToolbar Dark right icon 1`] = `
                       }
                     >
                       <div
-                        className="SimpleToolbarComp-icon-0-3-279 TouchRippleComp-root-0-3-33"
+                        className="SimpleToolbarComp-icon-0-3-283 TouchRippleComp-root-0-3-33"
                       >
                         <MUIcon
                           color="#ffffff"
@@ -962,7 +962,7 @@ exports[`Storyshots Components/SimpleToolbar Dark right icon 1`] = `
                             <MUIconComp
                               classes={
                                 Object {
-                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d106-0-3-289",
+                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d109-0-3-293",
                                 }
                               }
                               color="#ffffff"
@@ -970,7 +970,7 @@ exports[`Storyshots Components/SimpleToolbar Dark right icon 1`] = `
                               type="arrow_forward"
                             >
                               <i
-                                className="MUIconComp-root-0-3-35 MUIconComp-root-d106-0-3-289"
+                                className="MUIconComp-root-0-3-35 MUIconComp-root-d109-0-3-293"
                               >
                                 arrow_forward
                               </i>
@@ -1023,15 +1023,15 @@ exports[`Storyshots Components/SimpleToolbar Light 1`] = `
     <SimpleToolbarComp
       classes={
         Object {
-          "button": "SimpleToolbarComp-button-0-3-281",
-          "darkBackground": "SimpleToolbarComp-darkBackground-0-3-277",
-          "darkForeground": "SimpleToolbarComp-darkForeground-0-3-278",
-          "icon": "SimpleToolbarComp-icon-0-3-279",
-          "lightBackground": "SimpleToolbarComp-lightBackground-0-3-275",
-          "lightForeground": "SimpleToolbarComp-lightForeground-0-3-276",
-          "rightComponent": "SimpleToolbarComp-rightComponent-0-3-280",
-          "root": "SimpleToolbarComp-root-0-3-274",
-          "title": "SimpleToolbarComp-title-0-3-282",
+          "button": "SimpleToolbarComp-button-0-3-285",
+          "darkBackground": "SimpleToolbarComp-darkBackground-0-3-281",
+          "darkForeground": "SimpleToolbarComp-darkForeground-0-3-282",
+          "icon": "SimpleToolbarComp-icon-0-3-283",
+          "lightBackground": "SimpleToolbarComp-lightBackground-0-3-279",
+          "lightForeground": "SimpleToolbarComp-lightForeground-0-3-280",
+          "rightComponent": "SimpleToolbarComp-rightComponent-0-3-284",
+          "root": "SimpleToolbarComp-root-0-3-278",
+          "title": "SimpleToolbarComp-title-0-3-286",
         }
       }
       leftIcon={
@@ -1060,26 +1060,26 @@ exports[`Storyshots Components/SimpleToolbar Light 1`] = `
           <ToolbarComp
             classes={
               Object {
-                "dark": "ToolbarComp-dark-0-3-284",
-                "light": "ToolbarComp-light-0-3-285",
-                "root": "ToolbarComp-root-0-3-283",
+                "dark": "ToolbarComp-dark-0-3-288",
+                "light": "ToolbarComp-light-0-3-289",
+                "root": "ToolbarComp-root-0-3-287",
               }
             }
             variant="light"
           >
             <div
-              className="ToolbarComp-root-0-3-283 ToolbarComp-light-0-3-285"
+              className="ToolbarComp-root-0-3-287 ToolbarComp-light-0-3-289"
             >
               <button
-                className="SimpleToolbarComp-button-0-3-281 SimpleToolbarComp-icon-0-3-279"
+                className="SimpleToolbarComp-button-0-3-285 SimpleToolbarComp-icon-0-3-283"
                 onClick={[Function]}
                 type="button"
               >
                 <TouchRipple
-                  className="SimpleToolbarComp-icon-0-3-279"
+                  className="SimpleToolbarComp-icon-0-3-283"
                 >
                   <WithStyles(TouchRippleComp)
-                    className="SimpleToolbarComp-icon-0-3-279"
+                    className="SimpleToolbarComp-icon-0-3-283"
                     innerRef={null}
                     jssContext={
                       Object {
@@ -1090,7 +1090,7 @@ exports[`Storyshots Components/SimpleToolbar Light 1`] = `
                     theme={Object {}}
                   >
                     <TouchRippleComp
-                      className="SimpleToolbarComp-icon-0-3-279"
+                      className="SimpleToolbarComp-icon-0-3-283"
                       classes={
                         Object {
                           "disabled": "TouchRippleComp-disabled-0-3-34",
@@ -1099,7 +1099,7 @@ exports[`Storyshots Components/SimpleToolbar Light 1`] = `
                       }
                     >
                       <div
-                        className="SimpleToolbarComp-icon-0-3-279 TouchRippleComp-root-0-3-33"
+                        className="SimpleToolbarComp-icon-0-3-283 TouchRippleComp-root-0-3-33"
                       >
                         <MUIcon
                           color="#263238"
@@ -1122,7 +1122,7 @@ exports[`Storyshots Components/SimpleToolbar Light 1`] = `
                             <MUIconComp
                               classes={
                                 Object {
-                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d104-0-3-287",
+                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d107-0-3-291",
                                 }
                               }
                               color="#263238"
@@ -1130,7 +1130,7 @@ exports[`Storyshots Components/SimpleToolbar Light 1`] = `
                               type="arrow_back"
                             >
                               <i
-                                className="MUIconComp-root-0-3-35 MUIconComp-root-d104-0-3-287"
+                                className="MUIconComp-root-0-3-35 MUIconComp-root-d107-0-3-291"
                               >
                                 arrow_back
                               </i>
@@ -1143,7 +1143,7 @@ exports[`Storyshots Components/SimpleToolbar Light 1`] = `
                 </TouchRipple>
               </button>
               <div
-                className="SimpleToolbarComp-title-0-3-282"
+                className="SimpleToolbarComp-title-0-3-286"
               >
                 <Typography
                   color="#263238"
@@ -1254,15 +1254,15 @@ exports[`Storyshots Components/SimpleToolbar Light right 1`] = `
     <SimpleToolbarComp
       classes={
         Object {
-          "button": "SimpleToolbarComp-button-0-3-281",
-          "darkBackground": "SimpleToolbarComp-darkBackground-0-3-277",
-          "darkForeground": "SimpleToolbarComp-darkForeground-0-3-278",
-          "icon": "SimpleToolbarComp-icon-0-3-279",
-          "lightBackground": "SimpleToolbarComp-lightBackground-0-3-275",
-          "lightForeground": "SimpleToolbarComp-lightForeground-0-3-276",
-          "rightComponent": "SimpleToolbarComp-rightComponent-0-3-280",
-          "root": "SimpleToolbarComp-root-0-3-274",
-          "title": "SimpleToolbarComp-title-0-3-282",
+          "button": "SimpleToolbarComp-button-0-3-285",
+          "darkBackground": "SimpleToolbarComp-darkBackground-0-3-281",
+          "darkForeground": "SimpleToolbarComp-darkForeground-0-3-282",
+          "icon": "SimpleToolbarComp-icon-0-3-283",
+          "lightBackground": "SimpleToolbarComp-lightBackground-0-3-279",
+          "lightForeground": "SimpleToolbarComp-lightForeground-0-3-280",
+          "rightComponent": "SimpleToolbarComp-rightComponent-0-3-284",
+          "root": "SimpleToolbarComp-root-0-3-278",
+          "title": "SimpleToolbarComp-title-0-3-286",
         }
       }
       leftIcon={
@@ -1299,26 +1299,26 @@ exports[`Storyshots Components/SimpleToolbar Light right 1`] = `
           <ToolbarComp
             classes={
               Object {
-                "dark": "ToolbarComp-dark-0-3-284",
-                "light": "ToolbarComp-light-0-3-285",
-                "root": "ToolbarComp-root-0-3-283",
+                "dark": "ToolbarComp-dark-0-3-288",
+                "light": "ToolbarComp-light-0-3-289",
+                "root": "ToolbarComp-root-0-3-287",
               }
             }
             variant="light"
           >
             <div
-              className="ToolbarComp-root-0-3-283 ToolbarComp-light-0-3-285"
+              className="ToolbarComp-root-0-3-287 ToolbarComp-light-0-3-289"
             >
               <button
-                className="SimpleToolbarComp-button-0-3-281 SimpleToolbarComp-icon-0-3-279"
+                className="SimpleToolbarComp-button-0-3-285 SimpleToolbarComp-icon-0-3-283"
                 onClick={[Function]}
                 type="button"
               >
                 <TouchRipple
-                  className="SimpleToolbarComp-icon-0-3-279"
+                  className="SimpleToolbarComp-icon-0-3-283"
                 >
                   <WithStyles(TouchRippleComp)
-                    className="SimpleToolbarComp-icon-0-3-279"
+                    className="SimpleToolbarComp-icon-0-3-283"
                     innerRef={null}
                     jssContext={
                       Object {
@@ -1329,7 +1329,7 @@ exports[`Storyshots Components/SimpleToolbar Light right 1`] = `
                     theme={Object {}}
                   >
                     <TouchRippleComp
-                      className="SimpleToolbarComp-icon-0-3-279"
+                      className="SimpleToolbarComp-icon-0-3-283"
                       classes={
                         Object {
                           "disabled": "TouchRippleComp-disabled-0-3-34",
@@ -1338,7 +1338,7 @@ exports[`Storyshots Components/SimpleToolbar Light right 1`] = `
                       }
                     >
                       <div
-                        className="SimpleToolbarComp-icon-0-3-279 TouchRippleComp-root-0-3-33"
+                        className="SimpleToolbarComp-icon-0-3-283 TouchRippleComp-root-0-3-33"
                       >
                         <MUIcon
                           color="#263238"
@@ -1361,7 +1361,7 @@ exports[`Storyshots Components/SimpleToolbar Light right 1`] = `
                             <MUIconComp
                               classes={
                                 Object {
-                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d111-0-3-294",
+                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d114-0-3-298",
                                 }
                               }
                               color="#263238"
@@ -1369,7 +1369,7 @@ exports[`Storyshots Components/SimpleToolbar Light right 1`] = `
                               type="close"
                             >
                               <i
-                                className="MUIconComp-root-0-3-35 MUIconComp-root-d111-0-3-294"
+                                className="MUIconComp-root-0-3-35 MUIconComp-root-d114-0-3-298"
                               >
                                 close
                               </i>
@@ -1382,7 +1382,7 @@ exports[`Storyshots Components/SimpleToolbar Light right 1`] = `
                 </TouchRipple>
               </button>
               <div
-                className="SimpleToolbarComp-title-0-3-282"
+                className="SimpleToolbarComp-title-0-3-286"
               >
                 <Typography
                   color="#263238"
@@ -1437,7 +1437,7 @@ exports[`Storyshots Components/SimpleToolbar Light right 1`] = `
                 </Typography>
               </div>
               <button
-                className="SimpleToolbarComp-button-0-3-281 SimpleToolbarComp-rightComponent-0-3-280"
+                className="SimpleToolbarComp-button-0-3-285 SimpleToolbarComp-rightComponent-0-3-284"
                 onClick={[Function]}
                 type="submit"
               >
@@ -1458,21 +1458,21 @@ exports[`Storyshots Components/SimpleToolbar Light right 1`] = `
                     <SimpleToolbarButtonComp
                       classes={
                         Object {
-                          "button": "SimpleToolbarButtonComp-button-0-3-296",
-                          "disabled": "SimpleToolbarButtonComp-disabled-0-3-297",
-                          "root": "SimpleToolbarButtonComp-root-0-3-295",
+                          "button": "SimpleToolbarButtonComp-button-0-3-300",
+                          "disabled": "SimpleToolbarButtonComp-disabled-0-3-301",
+                          "root": "SimpleToolbarButtonComp-root-0-3-299",
                         }
                       }
                       text="Confirm"
                     >
                       <div
-                        className="SimpleToolbarButtonComp-root-0-3-295"
+                        className="SimpleToolbarButtonComp-root-0-3-299"
                       >
                         <TouchRipple
-                          className="SimpleToolbarButtonComp-button-0-3-296"
+                          className="SimpleToolbarButtonComp-button-0-3-300"
                         >
                           <WithStyles(TouchRippleComp)
-                            className="SimpleToolbarButtonComp-button-0-3-296"
+                            className="SimpleToolbarButtonComp-button-0-3-300"
                             innerRef={null}
                             jssContext={
                               Object {
@@ -1483,7 +1483,7 @@ exports[`Storyshots Components/SimpleToolbar Light right 1`] = `
                             theme={Object {}}
                           >
                             <TouchRippleComp
-                              className="SimpleToolbarButtonComp-button-0-3-296"
+                              className="SimpleToolbarButtonComp-button-0-3-300"
                               classes={
                                 Object {
                                   "disabled": "TouchRippleComp-disabled-0-3-34",
@@ -1492,7 +1492,7 @@ exports[`Storyshots Components/SimpleToolbar Light right 1`] = `
                               }
                             >
                               <div
-                                className="SimpleToolbarButtonComp-button-0-3-296 TouchRippleComp-root-0-3-33"
+                                className="SimpleToolbarButtonComp-button-0-3-300 TouchRippleComp-root-0-3-33"
                               >
                                 <Typography
                                   bold={true}
@@ -1613,15 +1613,15 @@ exports[`Storyshots Components/SimpleToolbar Light right button 1`] = `
     <SimpleToolbarComp
       classes={
         Object {
-          "button": "SimpleToolbarComp-button-0-3-281",
-          "darkBackground": "SimpleToolbarComp-darkBackground-0-3-277",
-          "darkForeground": "SimpleToolbarComp-darkForeground-0-3-278",
-          "icon": "SimpleToolbarComp-icon-0-3-279",
-          "lightBackground": "SimpleToolbarComp-lightBackground-0-3-275",
-          "lightForeground": "SimpleToolbarComp-lightForeground-0-3-276",
-          "rightComponent": "SimpleToolbarComp-rightComponent-0-3-280",
-          "root": "SimpleToolbarComp-root-0-3-274",
-          "title": "SimpleToolbarComp-title-0-3-282",
+          "button": "SimpleToolbarComp-button-0-3-285",
+          "darkBackground": "SimpleToolbarComp-darkBackground-0-3-281",
+          "darkForeground": "SimpleToolbarComp-darkForeground-0-3-282",
+          "icon": "SimpleToolbarComp-icon-0-3-283",
+          "lightBackground": "SimpleToolbarComp-lightBackground-0-3-279",
+          "lightForeground": "SimpleToolbarComp-lightForeground-0-3-280",
+          "rightComponent": "SimpleToolbarComp-rightComponent-0-3-284",
+          "root": "SimpleToolbarComp-root-0-3-278",
+          "title": "SimpleToolbarComp-title-0-3-286",
         }
       }
       leftIcon={
@@ -1656,26 +1656,26 @@ exports[`Storyshots Components/SimpleToolbar Light right button 1`] = `
           <ToolbarComp
             classes={
               Object {
-                "dark": "ToolbarComp-dark-0-3-284",
-                "light": "ToolbarComp-light-0-3-285",
-                "root": "ToolbarComp-root-0-3-283",
+                "dark": "ToolbarComp-dark-0-3-288",
+                "light": "ToolbarComp-light-0-3-289",
+                "root": "ToolbarComp-root-0-3-287",
               }
             }
             variant="light"
           >
             <div
-              className="ToolbarComp-root-0-3-283 ToolbarComp-light-0-3-285"
+              className="ToolbarComp-root-0-3-287 ToolbarComp-light-0-3-289"
             >
               <button
-                className="SimpleToolbarComp-button-0-3-281 SimpleToolbarComp-icon-0-3-279"
+                className="SimpleToolbarComp-button-0-3-285 SimpleToolbarComp-icon-0-3-283"
                 onClick={[Function]}
                 type="button"
               >
                 <TouchRipple
-                  className="SimpleToolbarComp-icon-0-3-279"
+                  className="SimpleToolbarComp-icon-0-3-283"
                 >
                   <WithStyles(TouchRippleComp)
-                    className="SimpleToolbarComp-icon-0-3-279"
+                    className="SimpleToolbarComp-icon-0-3-283"
                     innerRef={null}
                     jssContext={
                       Object {
@@ -1686,7 +1686,7 @@ exports[`Storyshots Components/SimpleToolbar Light right button 1`] = `
                     theme={Object {}}
                   >
                     <TouchRippleComp
-                      className="SimpleToolbarComp-icon-0-3-279"
+                      className="SimpleToolbarComp-icon-0-3-283"
                       classes={
                         Object {
                           "disabled": "TouchRippleComp-disabled-0-3-34",
@@ -1695,7 +1695,7 @@ exports[`Storyshots Components/SimpleToolbar Light right button 1`] = `
                       }
                     >
                       <div
-                        className="SimpleToolbarComp-icon-0-3-279 TouchRippleComp-root-0-3-33"
+                        className="SimpleToolbarComp-icon-0-3-283 TouchRippleComp-root-0-3-33"
                       >
                         <MUIcon
                           color="#263238"
@@ -1718,7 +1718,7 @@ exports[`Storyshots Components/SimpleToolbar Light right button 1`] = `
                             <MUIconComp
                               classes={
                                 Object {
-                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d109-0-3-292",
+                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d112-0-3-296",
                                 }
                               }
                               color="#263238"
@@ -1726,7 +1726,7 @@ exports[`Storyshots Components/SimpleToolbar Light right button 1`] = `
                               type="close"
                             >
                               <i
-                                className="MUIconComp-root-0-3-35 MUIconComp-root-d109-0-3-292"
+                                className="MUIconComp-root-0-3-35 MUIconComp-root-d112-0-3-296"
                               >
                                 close
                               </i>
@@ -1739,7 +1739,7 @@ exports[`Storyshots Components/SimpleToolbar Light right button 1`] = `
                 </TouchRipple>
               </button>
               <div
-                className="SimpleToolbarComp-title-0-3-282"
+                className="SimpleToolbarComp-title-0-3-286"
               >
                 <Typography
                   color="#263238"
@@ -1794,15 +1794,15 @@ exports[`Storyshots Components/SimpleToolbar Light right button 1`] = `
                 </Typography>
               </div>
               <button
-                className="SimpleToolbarComp-button-0-3-281 SimpleToolbarComp-icon-0-3-279"
+                className="SimpleToolbarComp-button-0-3-285 SimpleToolbarComp-icon-0-3-283"
                 onClick={[Function]}
                 type="button"
               >
                 <TouchRipple
-                  className="SimpleToolbarComp-icon-0-3-279"
+                  className="SimpleToolbarComp-icon-0-3-283"
                 >
                   <WithStyles(TouchRippleComp)
-                    className="SimpleToolbarComp-icon-0-3-279"
+                    className="SimpleToolbarComp-icon-0-3-283"
                     innerRef={null}
                     jssContext={
                       Object {
@@ -1813,7 +1813,7 @@ exports[`Storyshots Components/SimpleToolbar Light right button 1`] = `
                     theme={Object {}}
                   >
                     <TouchRippleComp
-                      className="SimpleToolbarComp-icon-0-3-279"
+                      className="SimpleToolbarComp-icon-0-3-283"
                       classes={
                         Object {
                           "disabled": "TouchRippleComp-disabled-0-3-34",
@@ -1822,7 +1822,7 @@ exports[`Storyshots Components/SimpleToolbar Light right button 1`] = `
                       }
                     >
                       <div
-                        className="SimpleToolbarComp-icon-0-3-279 TouchRippleComp-root-0-3-33"
+                        className="SimpleToolbarComp-icon-0-3-283 TouchRippleComp-root-0-3-33"
                       >
                         <MUIcon
                           color="#263238"
@@ -1845,7 +1845,7 @@ exports[`Storyshots Components/SimpleToolbar Light right button 1`] = `
                             <MUIconComp
                               classes={
                                 Object {
-                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d110-0-3-293",
+                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d113-0-3-297",
                                 }
                               }
                               color="#263238"
@@ -1853,7 +1853,7 @@ exports[`Storyshots Components/SimpleToolbar Light right button 1`] = `
                               type="arrow_forward"
                             >
                               <i
-                                className="MUIconComp-root-0-3-35 MUIconComp-root-d110-0-3-293"
+                                className="MUIconComp-root-0-3-35 MUIconComp-root-d113-0-3-297"
                               >
                                 arrow_forward
                               </i>
@@ -1918,15 +1918,15 @@ exports[`Storyshots Components/SimpleToolbar Light right icon 1`] = `
     <SimpleToolbarComp
       classes={
         Object {
-          "button": "SimpleToolbarComp-button-0-3-281",
-          "darkBackground": "SimpleToolbarComp-darkBackground-0-3-277",
-          "darkForeground": "SimpleToolbarComp-darkForeground-0-3-278",
-          "icon": "SimpleToolbarComp-icon-0-3-279",
-          "lightBackground": "SimpleToolbarComp-lightBackground-0-3-275",
-          "lightForeground": "SimpleToolbarComp-lightForeground-0-3-276",
-          "rightComponent": "SimpleToolbarComp-rightComponent-0-3-280",
-          "root": "SimpleToolbarComp-root-0-3-274",
-          "title": "SimpleToolbarComp-title-0-3-282",
+          "button": "SimpleToolbarComp-button-0-3-285",
+          "darkBackground": "SimpleToolbarComp-darkBackground-0-3-281",
+          "darkForeground": "SimpleToolbarComp-darkForeground-0-3-282",
+          "icon": "SimpleToolbarComp-icon-0-3-283",
+          "lightBackground": "SimpleToolbarComp-lightBackground-0-3-279",
+          "lightForeground": "SimpleToolbarComp-lightForeground-0-3-280",
+          "rightComponent": "SimpleToolbarComp-rightComponent-0-3-284",
+          "root": "SimpleToolbarComp-root-0-3-278",
+          "title": "SimpleToolbarComp-title-0-3-286",
         }
       }
       leftIcon={
@@ -1961,26 +1961,26 @@ exports[`Storyshots Components/SimpleToolbar Light right icon 1`] = `
           <ToolbarComp
             classes={
               Object {
-                "dark": "ToolbarComp-dark-0-3-284",
-                "light": "ToolbarComp-light-0-3-285",
-                "root": "ToolbarComp-root-0-3-283",
+                "dark": "ToolbarComp-dark-0-3-288",
+                "light": "ToolbarComp-light-0-3-289",
+                "root": "ToolbarComp-root-0-3-287",
               }
             }
             variant="light"
           >
             <div
-              className="ToolbarComp-root-0-3-283 ToolbarComp-light-0-3-285"
+              className="ToolbarComp-root-0-3-287 ToolbarComp-light-0-3-289"
             >
               <button
-                className="SimpleToolbarComp-button-0-3-281 SimpleToolbarComp-icon-0-3-279"
+                className="SimpleToolbarComp-button-0-3-285 SimpleToolbarComp-icon-0-3-283"
                 onClick={[Function]}
                 type="button"
               >
                 <TouchRipple
-                  className="SimpleToolbarComp-icon-0-3-279"
+                  className="SimpleToolbarComp-icon-0-3-283"
                 >
                   <WithStyles(TouchRippleComp)
-                    className="SimpleToolbarComp-icon-0-3-279"
+                    className="SimpleToolbarComp-icon-0-3-283"
                     innerRef={null}
                     jssContext={
                       Object {
@@ -1991,7 +1991,7 @@ exports[`Storyshots Components/SimpleToolbar Light right icon 1`] = `
                     theme={Object {}}
                   >
                     <TouchRippleComp
-                      className="SimpleToolbarComp-icon-0-3-279"
+                      className="SimpleToolbarComp-icon-0-3-283"
                       classes={
                         Object {
                           "disabled": "TouchRippleComp-disabled-0-3-34",
@@ -2000,7 +2000,7 @@ exports[`Storyshots Components/SimpleToolbar Light right icon 1`] = `
                       }
                     >
                       <div
-                        className="SimpleToolbarComp-icon-0-3-279 TouchRippleComp-root-0-3-33"
+                        className="SimpleToolbarComp-icon-0-3-283 TouchRippleComp-root-0-3-33"
                       >
                         <MUIcon
                           color="#263238"
@@ -2023,7 +2023,7 @@ exports[`Storyshots Components/SimpleToolbar Light right icon 1`] = `
                             <MUIconComp
                               classes={
                                 Object {
-                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d107-0-3-290",
+                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d110-0-3-294",
                                 }
                               }
                               color="#263238"
@@ -2031,7 +2031,7 @@ exports[`Storyshots Components/SimpleToolbar Light right icon 1`] = `
                               type="close"
                             >
                               <i
-                                className="MUIconComp-root-0-3-35 MUIconComp-root-d107-0-3-290"
+                                className="MUIconComp-root-0-3-35 MUIconComp-root-d110-0-3-294"
                               >
                                 close
                               </i>
@@ -2044,7 +2044,7 @@ exports[`Storyshots Components/SimpleToolbar Light right icon 1`] = `
                 </TouchRipple>
               </button>
               <div
-                className="SimpleToolbarComp-title-0-3-282"
+                className="SimpleToolbarComp-title-0-3-286"
               >
                 <Typography
                   color="#263238"
@@ -2099,15 +2099,15 @@ exports[`Storyshots Components/SimpleToolbar Light right icon 1`] = `
                 </Typography>
               </div>
               <button
-                className="SimpleToolbarComp-button-0-3-281 SimpleToolbarComp-icon-0-3-279"
+                className="SimpleToolbarComp-button-0-3-285 SimpleToolbarComp-icon-0-3-283"
                 onClick={[Function]}
                 type="button"
               >
                 <TouchRipple
-                  className="SimpleToolbarComp-icon-0-3-279"
+                  className="SimpleToolbarComp-icon-0-3-283"
                 >
                   <WithStyles(TouchRippleComp)
-                    className="SimpleToolbarComp-icon-0-3-279"
+                    className="SimpleToolbarComp-icon-0-3-283"
                     innerRef={null}
                     jssContext={
                       Object {
@@ -2118,7 +2118,7 @@ exports[`Storyshots Components/SimpleToolbar Light right icon 1`] = `
                     theme={Object {}}
                   >
                     <TouchRippleComp
-                      className="SimpleToolbarComp-icon-0-3-279"
+                      className="SimpleToolbarComp-icon-0-3-283"
                       classes={
                         Object {
                           "disabled": "TouchRippleComp-disabled-0-3-34",
@@ -2127,7 +2127,7 @@ exports[`Storyshots Components/SimpleToolbar Light right icon 1`] = `
                       }
                     >
                       <div
-                        className="SimpleToolbarComp-icon-0-3-279 TouchRippleComp-root-0-3-33"
+                        className="SimpleToolbarComp-icon-0-3-283 TouchRippleComp-root-0-3-33"
                       >
                         <MUIcon
                           color="#263238"
@@ -2150,7 +2150,7 @@ exports[`Storyshots Components/SimpleToolbar Light right icon 1`] = `
                             <MUIconComp
                               classes={
                                 Object {
-                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d108-0-3-291",
+                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d111-0-3-295",
                                 }
                               }
                               color="#263238"
@@ -2158,7 +2158,7 @@ exports[`Storyshots Components/SimpleToolbar Light right icon 1`] = `
                               type="arrow_forward"
                             >
                               <i
-                                className="MUIconComp-root-0-3-35 MUIconComp-root-d108-0-3-291"
+                                className="MUIconComp-root-0-3-35 MUIconComp-root-d111-0-3-295"
                               >
                                 arrow_forward
                               </i>
@@ -2201,9 +2201,9 @@ exports[`Storyshots Components/SimpleToolbar Part SimpleToolbarButton button dis
     <SimpleToolbarButtonComp
       classes={
         Object {
-          "button": "SimpleToolbarButtonComp-button-0-3-296",
-          "disabled": "SimpleToolbarButtonComp-disabled-0-3-297",
-          "root": "SimpleToolbarButtonComp-root-0-3-295",
+          "button": "SimpleToolbarButtonComp-button-0-3-300",
+          "disabled": "SimpleToolbarButtonComp-disabled-0-3-301",
+          "root": "SimpleToolbarButtonComp-root-0-3-299",
         }
       }
       disabled={true}
@@ -2211,15 +2211,15 @@ exports[`Storyshots Components/SimpleToolbar Part SimpleToolbarButton button dis
       text="Confirm"
     >
       <div
-        className="SimpleToolbarButtonComp-root-0-3-295"
+        className="SimpleToolbarButtonComp-root-0-3-299"
       >
         <TouchRipple
-          className="SimpleToolbarButtonComp-button-0-3-296 SimpleToolbarButtonComp-disabled-0-3-297"
+          className="SimpleToolbarButtonComp-button-0-3-300 SimpleToolbarButtonComp-disabled-0-3-301"
           disabled={true}
           onClick={[Function]}
         >
           <WithStyles(TouchRippleComp)
-            className="SimpleToolbarButtonComp-button-0-3-296 SimpleToolbarButtonComp-disabled-0-3-297"
+            className="SimpleToolbarButtonComp-button-0-3-300 SimpleToolbarButtonComp-disabled-0-3-301"
             disabled={true}
             innerRef={null}
             jssContext={
@@ -2232,7 +2232,7 @@ exports[`Storyshots Components/SimpleToolbar Part SimpleToolbarButton button dis
             theme={Object {}}
           >
             <TouchRippleComp
-              className="SimpleToolbarButtonComp-button-0-3-296 SimpleToolbarButtonComp-disabled-0-3-297"
+              className="SimpleToolbarButtonComp-button-0-3-300 SimpleToolbarButtonComp-disabled-0-3-301"
               classes={
                 Object {
                   "disabled": "TouchRippleComp-disabled-0-3-34",
@@ -2243,7 +2243,7 @@ exports[`Storyshots Components/SimpleToolbar Part SimpleToolbarButton button dis
               onClick={[Function]}
             >
               <div
-                className="SimpleToolbarButtonComp-button-0-3-296 SimpleToolbarButtonComp-disabled-0-3-297 TouchRippleComp-disabled-0-3-34"
+                className="SimpleToolbarButtonComp-button-0-3-300 SimpleToolbarButtonComp-disabled-0-3-301 TouchRippleComp-disabled-0-3-34"
               >
                 <Typography
                   bold={true}
@@ -2332,23 +2332,23 @@ exports[`Storyshots Components/SimpleToolbar Part SimpleToolbarButton button ena
     <SimpleToolbarButtonComp
       classes={
         Object {
-          "button": "SimpleToolbarButtonComp-button-0-3-296",
-          "disabled": "SimpleToolbarButtonComp-disabled-0-3-297",
-          "root": "SimpleToolbarButtonComp-root-0-3-295",
+          "button": "SimpleToolbarButtonComp-button-0-3-300",
+          "disabled": "SimpleToolbarButtonComp-disabled-0-3-301",
+          "root": "SimpleToolbarButtonComp-root-0-3-299",
         }
       }
       onClick={[Function]}
       text="Confirm"
     >
       <div
-        className="SimpleToolbarButtonComp-root-0-3-295"
+        className="SimpleToolbarButtonComp-root-0-3-299"
       >
         <TouchRipple
-          className="SimpleToolbarButtonComp-button-0-3-296"
+          className="SimpleToolbarButtonComp-button-0-3-300"
           onClick={[Function]}
         >
           <WithStyles(TouchRippleComp)
-            className="SimpleToolbarButtonComp-button-0-3-296"
+            className="SimpleToolbarButtonComp-button-0-3-300"
             innerRef={null}
             jssContext={
               Object {
@@ -2360,7 +2360,7 @@ exports[`Storyshots Components/SimpleToolbar Part SimpleToolbarButton button ena
             theme={Object {}}
           >
             <TouchRippleComp
-              className="SimpleToolbarButtonComp-button-0-3-296"
+              className="SimpleToolbarButtonComp-button-0-3-300"
               classes={
                 Object {
                   "disabled": "TouchRippleComp-disabled-0-3-34",
@@ -2370,7 +2370,7 @@ exports[`Storyshots Components/SimpleToolbar Part SimpleToolbarButton button ena
               onClick={[Function]}
             >
               <div
-                className="SimpleToolbarButtonComp-button-0-3-296 TouchRippleComp-root-0-3-33"
+                className="SimpleToolbarButtonComp-button-0-3-300 TouchRippleComp-root-0-3-33"
                 onClick={[Function]}
               >
                 <Typography

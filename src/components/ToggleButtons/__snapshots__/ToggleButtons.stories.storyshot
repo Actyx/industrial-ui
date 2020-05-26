@@ -80,10 +80,10 @@ exports[`Storyshots Components/ToggleButtons Base 1`] = `
     <ToggleButtons
       classes={
         Object {
-          "container": "ToggleButtons-container-0-3-342",
-          "item": "ToggleButtons-item-0-3-343",
-          "root": "ToggleButtons-root-0-3-341",
-          "selectedItem": "ToggleButtons-selectedItem-0-3-344",
+          "container": "ToggleButtons-container-0-3-346",
+          "item": "ToggleButtons-item-0-3-347",
+          "root": "ToggleButtons-root-0-3-345",
+          "selectedItem": "ToggleButtons-selectedItem-0-3-348",
         }
       }
       items={
@@ -120,27 +120,27 @@ exports[`Storyshots Components/ToggleButtons Base 1`] = `
       onToggle={[Function]}
     >
       <div
-        className="ToggleButtons-root-0-3-341"
+        className="ToggleButtons-root-0-3-345"
       >
         <div
-          className="ToggleButtons-container-0-3-342"
+          className="ToggleButtons-container-0-3-346"
         >
           <div
-            className="ToggleButtons-item-0-3-343"
+            className="ToggleButtons-item-0-3-347"
             key="first"
             onClick={[Function]}
           >
             First
           </div>
           <div
-            className="ToggleButtons-item-0-3-343"
+            className="ToggleButtons-item-0-3-347"
             key="second"
             onClick={[Function]}
           >
             Second longer item
           </div>
           <div
-            className="ToggleButtons-item-0-3-343"
+            className="ToggleButtons-item-0-3-347"
             key="third"
             onClick={[Function]}
           >
@@ -340,10 +340,10 @@ exports[`Storyshots Components/ToggleButtons initToggledItemId 1`] = `
     <ToggleButtons
       classes={
         Object {
-          "container": "ToggleButtons-container-0-3-342",
-          "item": "ToggleButtons-item-0-3-343",
-          "root": "ToggleButtons-root-0-3-341",
-          "selectedItem": "ToggleButtons-selectedItem-0-3-344",
+          "container": "ToggleButtons-container-0-3-346",
+          "item": "ToggleButtons-item-0-3-347",
+          "root": "ToggleButtons-root-0-3-345",
+          "selectedItem": "ToggleButtons-selectedItem-0-3-348",
         }
       }
       initToggledItemId="third"
@@ -381,27 +381,27 @@ exports[`Storyshots Components/ToggleButtons initToggledItemId 1`] = `
       onToggle={[Function]}
     >
       <div
-        className="ToggleButtons-root-0-3-341"
+        className="ToggleButtons-root-0-3-345"
       >
         <div
-          className="ToggleButtons-container-0-3-342"
+          className="ToggleButtons-container-0-3-346"
         >
           <div
-            className="ToggleButtons-item-0-3-343"
+            className="ToggleButtons-item-0-3-347"
             key="first"
             onClick={[Function]}
           >
             First
           </div>
           <div
-            className="ToggleButtons-item-0-3-343"
+            className="ToggleButtons-item-0-3-347"
             key="second"
             onClick={[Function]}
           >
             Second longer item
           </div>
           <div
-            className="ToggleButtons-item-0-3-343 ToggleButtons-selectedItem-0-3-344"
+            className="ToggleButtons-item-0-3-347 ToggleButtons-selectedItem-0-3-348"
             key="third"
             onClick={[Function]}
           >
@@ -583,10 +583,10 @@ exports[`Storyshots Components/ToggleButtons items 1`] = `
     <ToggleButtons
       classes={
         Object {
-          "container": "ToggleButtons-container-0-3-342",
-          "item": "ToggleButtons-item-0-3-343",
-          "root": "ToggleButtons-root-0-3-341",
-          "selectedItem": "ToggleButtons-selectedItem-0-3-344",
+          "container": "ToggleButtons-container-0-3-346",
+          "item": "ToggleButtons-item-0-3-347",
+          "root": "ToggleButtons-root-0-3-345",
+          "selectedItem": "ToggleButtons-selectedItem-0-3-348",
         }
       }
       items={
@@ -615,13 +615,13 @@ exports[`Storyshots Components/ToggleButtons items 1`] = `
       onToggle={[Function]}
     >
       <div
-        className="ToggleButtons-root-0-3-341"
+        className="ToggleButtons-root-0-3-345"
       >
         <div
-          className="ToggleButtons-container-0-3-342"
+          className="ToggleButtons-container-0-3-346"
         >
           <div
-            className="ToggleButtons-item-0-3-343"
+            className="ToggleButtons-item-0-3-347"
             key="third"
             onClick={[Function]}
           >
