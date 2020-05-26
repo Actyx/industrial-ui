@@ -1,6 +1,8 @@
 {
   "name": "@actyx/actyx-ui",
   "version": "1.0.0-alpha.4",
+  "author": "Actyx AG",
+  "license": "Apache-2.0",
   "description": "Actyx UI - Simple, modular UI Components for Shop Floor Applications",
   "main": "./src/index.ts",
   "keywords": [
@@ -52,8 +54,6 @@
     "type": "git",
     "url": "git+https://github.com/Actyx/actyx-ui.git"
   },
-  "author": "Actyx AG",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Actyx/actyx-ui/issues"
   },
