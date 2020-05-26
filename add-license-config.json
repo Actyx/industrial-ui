@@ -1,0 +1,35 @@
+{
+  "license": "add-license-text",
+  "ignore": [
+    "README.md",
+    ".*",
+    ".git",
+    ".loki",
+    "bin/",
+    "lib/",
+    "coverage/",
+    "add-license-text",
+    "jest.config.js",
+    "jest.setup.js",
+    "**/*webpack.config.js",
+    "**/*.storyshot",
+    "**/*.snap",
+    "./src/assets/"
+  ],
+  "licenseFormats": {
+    "ts": {
+      "prepend": "/*",
+      "eachLine": {
+        "prepend": " * "
+      },
+      "append": " */"
+    }
+  },
+  "defaultFormat": {
+    "prepend": "/*",
+    "eachLine": {
+      "prepend": " * "
+    },
+    "append": " */"
+  }
+}
