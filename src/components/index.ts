@@ -34,6 +34,7 @@ export * from './SignalNotification';
 export * from './SignalStatus';
 export * from './SimpleToolbar';
 export * from './Status';
+export * from './StatusCounter';
 export * from './Table';
 export * from './Tabs';
 export * from './TextArea';
