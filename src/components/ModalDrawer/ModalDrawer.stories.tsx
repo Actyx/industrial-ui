@@ -1,12 +1,12 @@
 /*
  * Copyright 2020 Actyx AG
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *     http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -20,6 +20,7 @@ import * as React from 'react';
 import { ModalDrawer } from './ModalDrawer';
 import { Header } from './Header';
 import { ListItem, List } from './List';
+import { MUIcon } from '../MUIcon';
 
 const headerMain = 'Workstation 005 - Machine Cleaning';
 
@@ -34,7 +35,7 @@ const headerIcon = (
       justifyContent: 'center'
     }}
   >
-    X
+    <MUIcon fontSize={35} type="close" />
   </div>
 );
 
