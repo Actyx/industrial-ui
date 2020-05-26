@@ -15,14 +15,14 @@ exports[`Storyshots Components/TextArea Text 1`] = `
     <TextAreaComp
       classes={
         Object {
-          "error": "TextAreaComp-error-0-3-328",
-          "fullWidth": "TextAreaComp-fullWidth-0-3-327",
-          "root": "TextAreaComp-root-0-3-326",
+          "error": "TextAreaComp-error-0-3-332",
+          "fullWidth": "TextAreaComp-fullWidth-0-3-331",
+          "root": "TextAreaComp-root-0-3-330",
         }
       }
     >
       <textarea
-        className="TextAreaComp-root-0-3-326"
+        className="TextAreaComp-root-0-3-330"
       />
     </TextAreaComp>
   </WithStyles(TextAreaComp)>
@@ -48,15 +48,15 @@ exports[`Storyshots Components/TextArea autoFocus 1`] = `
       autoFocus={true}
       classes={
         Object {
-          "error": "TextAreaComp-error-0-3-328",
-          "fullWidth": "TextAreaComp-fullWidth-0-3-327",
-          "root": "TextAreaComp-root-0-3-326",
+          "error": "TextAreaComp-error-0-3-332",
+          "fullWidth": "TextAreaComp-fullWidth-0-3-331",
+          "root": "TextAreaComp-root-0-3-330",
         }
       }
     >
       <textarea
         autoFocus={true}
-        className="TextAreaComp-root-0-3-326"
+        className="TextAreaComp-root-0-3-330"
       />
     </TextAreaComp>
   </WithStyles(TextAreaComp)>
@@ -82,14 +82,14 @@ exports[`Storyshots Components/TextArea blurOnEnter 1`] = `
       blurOnEnter={true}
       classes={
         Object {
-          "error": "TextAreaComp-error-0-3-328",
-          "fullWidth": "TextAreaComp-fullWidth-0-3-327",
-          "root": "TextAreaComp-root-0-3-326",
+          "error": "TextAreaComp-error-0-3-332",
+          "fullWidth": "TextAreaComp-fullWidth-0-3-331",
+          "root": "TextAreaComp-root-0-3-330",
         }
       }
     >
       <textarea
-        className="TextAreaComp-root-0-3-326"
+        className="TextAreaComp-root-0-3-330"
         onKeyDown={[Function]}
       />
     </TextAreaComp>
@@ -117,16 +117,16 @@ exports[`Storyshots Components/TextArea disabled 1`] = `
     <TextAreaComp
       classes={
         Object {
-          "error": "TextAreaComp-error-0-3-328",
-          "fullWidth": "TextAreaComp-fullWidth-0-3-327",
-          "root": "TextAreaComp-root-0-3-326",
+          "error": "TextAreaComp-error-0-3-332",
+          "fullWidth": "TextAreaComp-fullWidth-0-3-331",
+          "root": "TextAreaComp-root-0-3-330",
         }
       }
       disabled={true}
       value="Text"
     >
       <textarea
-        className="TextAreaComp-root-0-3-326"
+        className="TextAreaComp-root-0-3-330"
         disabled={true}
         value="Text"
       />
@@ -153,15 +153,15 @@ exports[`Storyshots Components/TextArea error 1`] = `
     <TextAreaComp
       classes={
         Object {
-          "error": "TextAreaComp-error-0-3-328",
-          "fullWidth": "TextAreaComp-fullWidth-0-3-327",
-          "root": "TextAreaComp-root-0-3-326",
+          "error": "TextAreaComp-error-0-3-332",
+          "fullWidth": "TextAreaComp-fullWidth-0-3-331",
+          "root": "TextAreaComp-root-0-3-330",
         }
       }
       error={true}
     >
       <textarea
-        className="TextAreaComp-root-0-3-326 TextAreaComp-error-0-3-328"
+        className="TextAreaComp-root-0-3-330 TextAreaComp-error-0-3-332"
       />
     </TextAreaComp>
   </WithStyles(TextAreaComp)>
@@ -186,15 +186,15 @@ exports[`Storyshots Components/TextArea fullWidth 1`] = `
     <TextAreaComp
       classes={
         Object {
-          "error": "TextAreaComp-error-0-3-328",
-          "fullWidth": "TextAreaComp-fullWidth-0-3-327",
-          "root": "TextAreaComp-root-0-3-326",
+          "error": "TextAreaComp-error-0-3-332",
+          "fullWidth": "TextAreaComp-fullWidth-0-3-331",
+          "root": "TextAreaComp-root-0-3-330",
         }
       }
       fullWidth={true}
     >
       <textarea
-        className="TextAreaComp-root-0-3-326 TextAreaComp-fullWidth-0-3-327"
+        className="TextAreaComp-root-0-3-330 TextAreaComp-fullWidth-0-3-331"
       />
     </TextAreaComp>
   </WithStyles(TextAreaComp)>
@@ -219,15 +219,15 @@ exports[`Storyshots Components/TextArea maxLength 1`] = `
     <TextAreaComp
       classes={
         Object {
-          "error": "TextAreaComp-error-0-3-328",
-          "fullWidth": "TextAreaComp-fullWidth-0-3-327",
-          "root": "TextAreaComp-root-0-3-326",
+          "error": "TextAreaComp-error-0-3-332",
+          "fullWidth": "TextAreaComp-fullWidth-0-3-331",
+          "root": "TextAreaComp-root-0-3-330",
         }
       }
       maxLength={3}
     >
       <textarea
-        className="TextAreaComp-root-0-3-326"
+        className="TextAreaComp-root-0-3-330"
         maxLength={3}
       />
     </TextAreaComp>
@@ -253,15 +253,15 @@ exports[`Storyshots Components/TextArea onBlur 1`] = `
     <TextAreaComp
       classes={
         Object {
-          "error": "TextAreaComp-error-0-3-328",
-          "fullWidth": "TextAreaComp-fullWidth-0-3-327",
-          "root": "TextAreaComp-root-0-3-326",
+          "error": "TextAreaComp-error-0-3-332",
+          "fullWidth": "TextAreaComp-fullWidth-0-3-331",
+          "root": "TextAreaComp-root-0-3-330",
         }
       }
       onBlur={[Function]}
     >
       <textarea
-        className="TextAreaComp-root-0-3-326"
+        className="TextAreaComp-root-0-3-330"
         onBlur={[Function]}
       />
     </TextAreaComp>
@@ -287,15 +287,15 @@ exports[`Storyshots Components/TextArea onChange 1`] = `
     <TextAreaComp
       classes={
         Object {
-          "error": "TextAreaComp-error-0-3-328",
-          "fullWidth": "TextAreaComp-fullWidth-0-3-327",
-          "root": "TextAreaComp-root-0-3-326",
+          "error": "TextAreaComp-error-0-3-332",
+          "fullWidth": "TextAreaComp-fullWidth-0-3-331",
+          "root": "TextAreaComp-root-0-3-330",
         }
       }
       onChange={[Function]}
     >
       <textarea
-        className="TextAreaComp-root-0-3-326"
+        className="TextAreaComp-root-0-3-330"
         onChange={[Function]}
       />
     </TextAreaComp>
@@ -321,15 +321,15 @@ exports[`Storyshots Components/TextArea onFocus 1`] = `
     <TextAreaComp
       classes={
         Object {
-          "error": "TextAreaComp-error-0-3-328",
-          "fullWidth": "TextAreaComp-fullWidth-0-3-327",
-          "root": "TextAreaComp-root-0-3-326",
+          "error": "TextAreaComp-error-0-3-332",
+          "fullWidth": "TextAreaComp-fullWidth-0-3-331",
+          "root": "TextAreaComp-root-0-3-330",
         }
       }
       onFocus={[Function]}
     >
       <textarea
-        className="TextAreaComp-root-0-3-326"
+        className="TextAreaComp-root-0-3-330"
         onFocus={[Function]}
       />
     </TextAreaComp>
@@ -355,15 +355,15 @@ exports[`Storyshots Components/TextArea placeholder 1`] = `
     <TextAreaComp
       classes={
         Object {
-          "error": "TextAreaComp-error-0-3-328",
-          "fullWidth": "TextAreaComp-fullWidth-0-3-327",
-          "root": "TextAreaComp-root-0-3-326",
+          "error": "TextAreaComp-error-0-3-332",
+          "fullWidth": "TextAreaComp-fullWidth-0-3-331",
+          "root": "TextAreaComp-root-0-3-330",
         }
       }
       placeholder="Placeholder"
     >
       <textarea
-        className="TextAreaComp-root-0-3-326"
+        className="TextAreaComp-root-0-3-330"
         placeholder="Placeholder"
       />
     </TextAreaComp>
@@ -393,9 +393,9 @@ exports[`Storyshots Components/TextArea readOnly 1`] = `
     <TextAreaComp
       classes={
         Object {
-          "error": "TextAreaComp-error-0-3-328",
-          "fullWidth": "TextAreaComp-fullWidth-0-3-327",
-          "root": "TextAreaComp-root-0-3-326",
+          "error": "TextAreaComp-error-0-3-332",
+          "fullWidth": "TextAreaComp-fullWidth-0-3-331",
+          "root": "TextAreaComp-root-0-3-330",
         }
       }
       onChange={[Function]}
@@ -403,7 +403,7 @@ exports[`Storyshots Components/TextArea readOnly 1`] = `
       value="Read only"
     >
       <textarea
-        className="TextAreaComp-root-0-3-326"
+        className="TextAreaComp-root-0-3-330"
         onChange={[Function]}
         readOnly={true}
         value="Read only"
@@ -433,16 +433,16 @@ exports[`Storyshots Components/TextArea value 1`] = `
     <TextAreaComp
       classes={
         Object {
-          "error": "TextAreaComp-error-0-3-328",
-          "fullWidth": "TextAreaComp-fullWidth-0-3-327",
-          "root": "TextAreaComp-root-0-3-326",
+          "error": "TextAreaComp-error-0-3-332",
+          "fullWidth": "TextAreaComp-fullWidth-0-3-331",
+          "root": "TextAreaComp-root-0-3-330",
         }
       }
       onChange={[Function]}
       value="Text"
     >
       <textarea
-        className="TextAreaComp-root-0-3-326"
+        className="TextAreaComp-root-0-3-330"
         onChange={[Function]}
         value="Text"
       />

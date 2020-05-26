@@ -24,8 +24,8 @@ exports[`Storyshots Components/Search Base 1`] = `
     <SearchComp
       classes={
         Object {
-          "icon": "SearchComp-icon-0-3-250",
-          "root": "SearchComp-root-0-3-249",
+          "icon": "SearchComp-icon-0-3-254",
+          "root": "SearchComp-root-0-3-253",
         }
       }
       onBlur={[Function]}
@@ -34,7 +34,7 @@ exports[`Storyshots Components/Search Base 1`] = `
       value=""
     >
       <div
-        className="SearchComp-root-0-3-249"
+        className="SearchComp-root-0-3-253"
       >
         <input
           onBlur={[Function]}
@@ -44,7 +44,7 @@ exports[`Storyshots Components/Search Base 1`] = `
           value=""
         />
         <div
-          className="SearchComp-icon-0-3-250"
+          className="SearchComp-icon-0-3-254"
         >
           <MUIcon
             fontSize={48}
@@ -65,14 +65,14 @@ exports[`Storyshots Components/Search Base 1`] = `
               <MUIconComp
                 classes={
                   Object {
-                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d97-0-3-251",
+                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d100-0-3-255",
                   }
                 }
                 fontSize={48}
                 type="search"
               >
                 <i
-                  className="MUIconComp-root-0-3-35 MUIconComp-root-d97-0-3-251"
+                  className="MUIconComp-root-0-3-35 MUIconComp-root-d100-0-3-255"
                 >
                   search
                 </i>
@@ -113,8 +113,8 @@ exports[`Storyshots Components/Search Wrapper 1`] = `
       <SearchComp
         classes={
           Object {
-            "icon": "SearchComp-icon-0-3-250",
-            "root": "SearchComp-root-0-3-249",
+            "icon": "SearchComp-icon-0-3-254",
+            "root": "SearchComp-root-0-3-253",
           }
         }
         onBlur={[Function]}
@@ -124,7 +124,7 @@ exports[`Storyshots Components/Search Wrapper 1`] = `
         value=""
       >
         <div
-          className="SearchComp-root-0-3-249"
+          className="SearchComp-root-0-3-253"
         >
           <input
             onBlur={[Function]}
@@ -135,7 +135,7 @@ exports[`Storyshots Components/Search Wrapper 1`] = `
             value=""
           />
           <div
-            className="SearchComp-icon-0-3-250"
+            className="SearchComp-icon-0-3-254"
           >
             <MUIcon
               fontSize={48}
@@ -156,14 +156,14 @@ exports[`Storyshots Components/Search Wrapper 1`] = `
                 <MUIconComp
                   classes={
                     Object {
-                      "root": "MUIconComp-root-0-3-35 MUIconComp-root-d100-0-3-254",
+                      "root": "MUIconComp-root-0-3-35 MUIconComp-root-d103-0-3-258",
                     }
                   }
                   fontSize={48}
                   type="search"
                 >
                   <i
-                    className="MUIconComp-root-0-3-35 MUIconComp-root-d100-0-3-254"
+                    className="MUIconComp-root-0-3-35 MUIconComp-root-d103-0-3-258"
                   >
                     search
                   </i>
@@ -204,8 +204,8 @@ exports[`Storyshots Components/Search placeholder 1`] = `
     <SearchComp
       classes={
         Object {
-          "icon": "SearchComp-icon-0-3-250",
-          "root": "SearchComp-root-0-3-249",
+          "icon": "SearchComp-icon-0-3-254",
+          "root": "SearchComp-root-0-3-253",
         }
       }
       onBlur={[Function]}
@@ -215,7 +215,7 @@ exports[`Storyshots Components/Search placeholder 1`] = `
       value=""
     >
       <div
-        className="SearchComp-root-0-3-249"
+        className="SearchComp-root-0-3-253"
       >
         <input
           onBlur={[Function]}
@@ -226,7 +226,7 @@ exports[`Storyshots Components/Search placeholder 1`] = `
           value=""
         />
         <div
-          className="SearchComp-icon-0-3-250"
+          className="SearchComp-icon-0-3-254"
         >
           <MUIcon
             fontSize={48}
@@ -247,14 +247,14 @@ exports[`Storyshots Components/Search placeholder 1`] = `
               <MUIconComp
                 classes={
                   Object {
-                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d99-0-3-253",
+                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d102-0-3-257",
                   }
                 }
                 fontSize={48}
                 type="search"
               >
                 <i
-                  className="MUIconComp-root-0-3-35 MUIconComp-root-d99-0-3-253"
+                  className="MUIconComp-root-0-3-35 MUIconComp-root-d102-0-3-257"
                 >
                   search
                 </i>
@@ -292,8 +292,8 @@ exports[`Storyshots Components/Search value 1`] = `
     <SearchComp
       classes={
         Object {
-          "icon": "SearchComp-icon-0-3-250",
-          "root": "SearchComp-root-0-3-249",
+          "icon": "SearchComp-icon-0-3-254",
+          "root": "SearchComp-root-0-3-253",
         }
       }
       onBlur={[Function]}
@@ -302,7 +302,7 @@ exports[`Storyshots Components/Search value 1`] = `
       value="Abc"
     >
       <div
-        className="SearchComp-root-0-3-249"
+        className="SearchComp-root-0-3-253"
       >
         <input
           onBlur={[Function]}
@@ -312,7 +312,7 @@ exports[`Storyshots Components/Search value 1`] = `
           value="Abc"
         />
         <div
-          className="SearchComp-icon-0-3-250"
+          className="SearchComp-icon-0-3-254"
         >
           <MUIcon
             fontSize={48}
@@ -333,14 +333,14 @@ exports[`Storyshots Components/Search value 1`] = `
               <MUIconComp
                 classes={
                   Object {
-                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d98-0-3-252",
+                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d101-0-3-256",
                   }
                 }
                 fontSize={48}
                 type="search"
               >
                 <i
-                  className="MUIconComp-root-0-3-35 MUIconComp-root-d98-0-3-252"
+                  className="MUIconComp-root-0-3-35 MUIconComp-root-d101-0-3-256"
                 >
                   search
                 </i>

@@ -16,7 +16,10 @@ exports[`Storyshots Components/ModalDrawer Close 1`] = `
         }
       }
     >
-      X
+      <ForwardRef
+        fontSize={35}
+        type="close"
+      />
     </div>
   }
   headerMain="Workstation 005 - Machine Cleaning"
@@ -69,7 +72,10 @@ exports[`Storyshots Components/ModalDrawer Close 1`] = `
           }
         }
       >
-        X
+        <ForwardRef
+          fontSize={35}
+          type="close"
+        />
       </div>
     }
     headerMain="Workstation 005 - Machine Cleaning"
@@ -118,6 +124,7 @@ exports[`Storyshots Components/ModalDrawer Close 1`] = `
     <ModalDrawerComp
       classes={
         Object {
+          "divider": "ModalDrawerComp-divider-0-3-188",
           "drawer": "ModalDrawerComp-drawer-0-3-186",
           "listSub": "ModalDrawerComp-listSub-0-3-187",
           "root": "ModalDrawerComp-root-0-3-185",
@@ -137,7 +144,10 @@ exports[`Storyshots Components/ModalDrawer Close 1`] = `
             }
           }
         >
-          X
+          <ForwardRef
+            fontSize={35}
+            type="close"
+          />
         </div>
       }
       headerMain="Workstation 005 - Machine Cleaning"
@@ -275,7 +285,10 @@ exports[`Storyshots Components/ModalDrawer Close 1`] = `
                     }
                   }
                 >
-                  X
+                  <ForwardRef
+                    fontSize={35}
+                    type="close"
+                  />
                 </div>
               }
               main="Workstation 005 - Machine Cleaning"
@@ -294,7 +307,10 @@ exports[`Storyshots Components/ModalDrawer Close 1`] = `
                       }
                     }
                   >
-                    X
+                    <ForwardRef
+                      fontSize={35}
+                      type="close"
+                    />
                   </div>
                 }
                 innerRef={null}
@@ -310,8 +326,8 @@ exports[`Storyshots Components/ModalDrawer Close 1`] = `
                 <HeaderComp
                   classes={
                     Object {
-                      "main": "HeaderComp-main-0-3-189",
-                      "root": "HeaderComp-root-0-3-188",
+                      "main": "HeaderComp-main-0-3-190",
+                      "root": "HeaderComp-root-0-3-189",
                     }
                   }
                   icon={
@@ -327,16 +343,19 @@ exports[`Storyshots Components/ModalDrawer Close 1`] = `
                         }
                       }
                     >
-                      X
+                      <ForwardRef
+                        fontSize={35}
+                        type="close"
+                      />
                     </div>
                   }
                   main="Workstation 005 - Machine Cleaning"
                 >
                   <div
-                    className="HeaderComp-root-0-3-188"
+                    className="HeaderComp-root-0-3-189"
                   >
                     <div
-                      className="HeaderComp-main-0-3-189"
+                      className="HeaderComp-main-0-3-190"
                     >
                       <Typography
                         bold={true}
@@ -397,7 +416,39 @@ exports[`Storyshots Components/ModalDrawer Close 1`] = `
                         }
                       }
                     >
-                      X
+                      <MUIcon
+                        fontSize={35}
+                        type="close"
+                      >
+                        <WithStyles(MUIconComp)
+                          fontSize={35}
+                          innerRef={null}
+                          jssContext={
+                            Object {
+                              "classNamePrefix": "",
+                              "disableStylesGeneration": false,
+                            }
+                          }
+                          theme={Object {}}
+                          type="close"
+                        >
+                          <MUIconComp
+                            classes={
+                              Object {
+                                "root": "MUIconComp-root-0-3-35 MUIconComp-root-d56-0-3-196",
+                              }
+                            }
+                            fontSize={35}
+                            type="close"
+                          >
+                            <i
+                              className="MUIconComp-root-0-3-35 MUIconComp-root-d56-0-3-196"
+                            >
+                              close
+                            </i>
+                          </MUIconComp>
+                        </WithStyles(MUIconComp)>
+                      </MUIcon>
                     </div>
                   </div>
                 </HeaderComp>
@@ -586,14 +637,14 @@ exports[`Storyshots Components/ModalDrawer Close 1`] = `
                                           <MUIconComp
                                             classes={
                                               Object {
-                                                "root": "MUIconComp-root-0-3-35 MUIconComp-root-d55-0-3-194",
+                                                "root": "MUIconComp-root-0-3-35 MUIconComp-root-d57-0-3-197",
                                               }
                                             }
                                             fontSize={40}
                                             type="assignment"
                                           >
                                             <i
-                                              className="MUIconComp-root-0-3-35 MUIconComp-root-d55-0-3-194"
+                                              className="MUIconComp-root-0-3-35 MUIconComp-root-d57-0-3-197"
                                             >
                                               assignment
                                             </i>
@@ -772,14 +823,14 @@ exports[`Storyshots Components/ModalDrawer Close 1`] = `
                                           <MUIconComp
                                             classes={
                                               Object {
-                                                "root": "MUIconComp-root-0-3-35 MUIconComp-root-d56-0-3-195",
+                                                "root": "MUIconComp-root-0-3-35 MUIconComp-root-d58-0-3-198",
                                               }
                                             }
                                             fontSize={40}
                                             type="insert_drive_file"
                                           >
                                             <i
-                                              className="MUIconComp-root-0-3-35 MUIconComp-root-d56-0-3-195"
+                                              className="MUIconComp-root-0-3-35 MUIconComp-root-d58-0-3-198"
                                             >
                                               insert_drive_file
                                             </i>
@@ -855,8 +906,11 @@ exports[`Storyshots Components/ModalDrawer Close 1`] = `
             <div
               className="ModalDrawerComp-listSub-0-3-187"
             >
-              <Divider>
+              <Divider
+                className="ModalDrawerComp-divider-0-3-188"
+              >
                 <WithStyles(DividerComp)
+                  className="ModalDrawerComp-divider-0-3-188"
                   innerRef={null}
                   jssContext={
                     Object {
@@ -867,6 +921,7 @@ exports[`Storyshots Components/ModalDrawer Close 1`] = `
                   theme={Object {}}
                 >
                   <DividerComp
+                    className="ModalDrawerComp-divider-0-3-188"
                     classes={
                       Object {
                         "root": "DividerComp-root-0-3-127",
@@ -874,7 +929,7 @@ exports[`Storyshots Components/ModalDrawer Close 1`] = `
                     }
                   >
                     <hr
-                      className="DividerComp-root-0-3-127"
+                      className="DividerComp-root-0-3-127 ModalDrawerComp-divider-0-3-188"
                     />
                   </DividerComp>
                 </WithStyles(DividerComp)>
@@ -1062,14 +1117,14 @@ exports[`Storyshots Components/ModalDrawer Close 1`] = `
                                             <MUIconComp
                                               classes={
                                                 Object {
-                                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d57-0-3-196",
+                                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d59-0-3-199",
                                                 }
                                               }
                                               fontSize={40}
                                               type="lock"
                                             >
                                               <i
-                                                className="MUIconComp-root-0-3-35 MUIconComp-root-d57-0-3-196"
+                                                className="MUIconComp-root-0-3-35 MUIconComp-root-d59-0-3-199"
                                               >
                                                 lock
                                               </i>
@@ -1248,14 +1303,14 @@ exports[`Storyshots Components/ModalDrawer Close 1`] = `
                                             <MUIconComp
                                               classes={
                                                 Object {
-                                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d58-0-3-197",
+                                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d60-0-3-200",
                                                 }
                                               }
                                               fontSize={40}
                                               type="exit_to_app"
                                             >
                                               <i
-                                                className="MUIconComp-root-0-3-35 MUIconComp-root-d58-0-3-197"
+                                                className="MUIconComp-root-0-3-35 MUIconComp-root-d60-0-3-200"
                                               >
                                                 exit_to_app
                                               </i>
@@ -1423,6 +1478,7 @@ exports[`Storyshots Components/ModalDrawer No header icon 1`] = `
     <ModalDrawerComp
       classes={
         Object {
+          "divider": "ModalDrawerComp-divider-0-3-188",
           "drawer": "ModalDrawerComp-drawer-0-3-186",
           "listSub": "ModalDrawerComp-listSub-0-3-187",
           "root": "ModalDrawerComp-root-0-3-185",
@@ -1567,17 +1623,17 @@ exports[`Storyshots Components/ModalDrawer No header icon 1`] = `
                 <HeaderComp
                   classes={
                     Object {
-                      "main": "HeaderComp-main-0-3-189",
-                      "root": "HeaderComp-root-0-3-188",
+                      "main": "HeaderComp-main-0-3-190",
+                      "root": "HeaderComp-root-0-3-189",
                     }
                   }
                   main="Workstation 005 - Machine Cleaning"
                 >
                   <div
-                    className="HeaderComp-root-0-3-188"
+                    className="HeaderComp-root-0-3-189"
                   >
                     <div
-                      className="HeaderComp-main-0-3-189"
+                      className="HeaderComp-main-0-3-190"
                     >
                       <Typography
                         bold={true}
@@ -1813,14 +1869,14 @@ exports[`Storyshots Components/ModalDrawer No header icon 1`] = `
                                           <MUIconComp
                                             classes={
                                               Object {
-                                                "root": "MUIconComp-root-0-3-35 MUIconComp-root-d59-0-3-198",
+                                                "root": "MUIconComp-root-0-3-35 MUIconComp-root-d61-0-3-201",
                                               }
                                             }
                                             fontSize={40}
                                             type="assignment"
                                           >
                                             <i
-                                              className="MUIconComp-root-0-3-35 MUIconComp-root-d59-0-3-198"
+                                              className="MUIconComp-root-0-3-35 MUIconComp-root-d61-0-3-201"
                                             >
                                               assignment
                                             </i>
@@ -1999,14 +2055,14 @@ exports[`Storyshots Components/ModalDrawer No header icon 1`] = `
                                           <MUIconComp
                                             classes={
                                               Object {
-                                                "root": "MUIconComp-root-0-3-35 MUIconComp-root-d60-0-3-199",
+                                                "root": "MUIconComp-root-0-3-35 MUIconComp-root-d62-0-3-202",
                                               }
                                             }
                                             fontSize={40}
                                             type="insert_drive_file"
                                           >
                                             <i
-                                              className="MUIconComp-root-0-3-35 MUIconComp-root-d60-0-3-199"
+                                              className="MUIconComp-root-0-3-35 MUIconComp-root-d62-0-3-202"
                                             >
                                               insert_drive_file
                                             </i>
@@ -2082,8 +2138,11 @@ exports[`Storyshots Components/ModalDrawer No header icon 1`] = `
             <div
               className="ModalDrawerComp-listSub-0-3-187"
             >
-              <Divider>
+              <Divider
+                className="ModalDrawerComp-divider-0-3-188"
+              >
                 <WithStyles(DividerComp)
+                  className="ModalDrawerComp-divider-0-3-188"
                   innerRef={null}
                   jssContext={
                     Object {
@@ -2094,6 +2153,7 @@ exports[`Storyshots Components/ModalDrawer No header icon 1`] = `
                   theme={Object {}}
                 >
                   <DividerComp
+                    className="ModalDrawerComp-divider-0-3-188"
                     classes={
                       Object {
                         "root": "DividerComp-root-0-3-127",
@@ -2101,7 +2161,7 @@ exports[`Storyshots Components/ModalDrawer No header icon 1`] = `
                     }
                   >
                     <hr
-                      className="DividerComp-root-0-3-127"
+                      className="DividerComp-root-0-3-127 ModalDrawerComp-divider-0-3-188"
                     />
                   </DividerComp>
                 </WithStyles(DividerComp)>
@@ -2289,14 +2349,14 @@ exports[`Storyshots Components/ModalDrawer No header icon 1`] = `
                                             <MUIconComp
                                               classes={
                                                 Object {
-                                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d61-0-3-200",
+                                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d63-0-3-203",
                                                 }
                                               }
                                               fontSize={40}
                                               type="lock"
                                             >
                                               <i
-                                                className="MUIconComp-root-0-3-35 MUIconComp-root-d61-0-3-200"
+                                                className="MUIconComp-root-0-3-35 MUIconComp-root-d63-0-3-203"
                                               >
                                                 lock
                                               </i>
@@ -2475,14 +2535,14 @@ exports[`Storyshots Components/ModalDrawer No header icon 1`] = `
                                             <MUIconComp
                                               classes={
                                                 Object {
-                                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d62-0-3-201",
+                                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d64-0-3-204",
                                                 }
                                               }
                                               fontSize={40}
                                               type="exit_to_app"
                                             >
                                               <i
-                                                className="MUIconComp-root-0-3-35 MUIconComp-root-d62-0-3-201"
+                                                className="MUIconComp-root-0-3-35 MUIconComp-root-d64-0-3-204"
                                               >
                                                 exit_to_app
                                               </i>
@@ -2580,7 +2640,10 @@ exports[`Storyshots Components/ModalDrawer Open 1`] = `
         }
       }
     >
-      X
+      <ForwardRef
+        fontSize={35}
+        type="close"
+      />
     </div>
   }
   headerMain="Workstation 005 - Machine Cleaning"
@@ -2633,7 +2696,10 @@ exports[`Storyshots Components/ModalDrawer Open 1`] = `
           }
         }
       >
-        X
+        <ForwardRef
+          fontSize={35}
+          type="close"
+        />
       </div>
     }
     headerMain="Workstation 005 - Machine Cleaning"
@@ -2682,6 +2748,7 @@ exports[`Storyshots Components/ModalDrawer Open 1`] = `
     <ModalDrawerComp
       classes={
         Object {
+          "divider": "ModalDrawerComp-divider-0-3-188",
           "drawer": "ModalDrawerComp-drawer-0-3-186",
           "listSub": "ModalDrawerComp-listSub-0-3-187",
           "root": "ModalDrawerComp-root-0-3-185",
@@ -2701,7 +2768,10 @@ exports[`Storyshots Components/ModalDrawer Open 1`] = `
             }
           }
         >
-          X
+          <ForwardRef
+            fontSize={35}
+            type="close"
+          />
         </div>
       }
       headerMain="Workstation 005 - Machine Cleaning"
@@ -2839,7 +2909,10 @@ exports[`Storyshots Components/ModalDrawer Open 1`] = `
                     }
                   }
                 >
-                  X
+                  <ForwardRef
+                    fontSize={35}
+                    type="close"
+                  />
                 </div>
               }
               main="Workstation 005 - Machine Cleaning"
@@ -2858,7 +2931,10 @@ exports[`Storyshots Components/ModalDrawer Open 1`] = `
                       }
                     }
                   >
-                    X
+                    <ForwardRef
+                      fontSize={35}
+                      type="close"
+                    />
                   </div>
                 }
                 innerRef={null}
@@ -2874,8 +2950,8 @@ exports[`Storyshots Components/ModalDrawer Open 1`] = `
                 <HeaderComp
                   classes={
                     Object {
-                      "main": "HeaderComp-main-0-3-189",
-                      "root": "HeaderComp-root-0-3-188",
+                      "main": "HeaderComp-main-0-3-190",
+                      "root": "HeaderComp-root-0-3-189",
                     }
                   }
                   icon={
@@ -2891,16 +2967,19 @@ exports[`Storyshots Components/ModalDrawer Open 1`] = `
                         }
                       }
                     >
-                      X
+                      <ForwardRef
+                        fontSize={35}
+                        type="close"
+                      />
                     </div>
                   }
                   main="Workstation 005 - Machine Cleaning"
                 >
                   <div
-                    className="HeaderComp-root-0-3-188"
+                    className="HeaderComp-root-0-3-189"
                   >
                     <div
-                      className="HeaderComp-main-0-3-189"
+                      className="HeaderComp-main-0-3-190"
                     >
                       <Typography
                         bold={true}
@@ -2961,7 +3040,39 @@ exports[`Storyshots Components/ModalDrawer Open 1`] = `
                         }
                       }
                     >
-                      X
+                      <MUIcon
+                        fontSize={35}
+                        type="close"
+                      >
+                        <WithStyles(MUIconComp)
+                          fontSize={35}
+                          innerRef={null}
+                          jssContext={
+                            Object {
+                              "classNamePrefix": "",
+                              "disableStylesGeneration": false,
+                            }
+                          }
+                          theme={Object {}}
+                          type="close"
+                        >
+                          <MUIconComp
+                            classes={
+                              Object {
+                                "root": "MUIconComp-root-0-3-35 MUIconComp-root-d51-0-3-191",
+                              }
+                            }
+                            fontSize={35}
+                            type="close"
+                          >
+                            <i
+                              className="MUIconComp-root-0-3-35 MUIconComp-root-d51-0-3-191"
+                            >
+                              close
+                            </i>
+                          </MUIconComp>
+                        </WithStyles(MUIconComp)>
+                      </MUIcon>
                     </div>
                   </div>
                 </HeaderComp>
@@ -3150,14 +3261,14 @@ exports[`Storyshots Components/ModalDrawer Open 1`] = `
                                           <MUIconComp
                                             classes={
                                               Object {
-                                                "root": "MUIconComp-root-0-3-35 MUIconComp-root-d51-0-3-190",
+                                                "root": "MUIconComp-root-0-3-35 MUIconComp-root-d52-0-3-192",
                                               }
                                             }
                                             fontSize={40}
                                             type="assignment"
                                           >
                                             <i
-                                              className="MUIconComp-root-0-3-35 MUIconComp-root-d51-0-3-190"
+                                              className="MUIconComp-root-0-3-35 MUIconComp-root-d52-0-3-192"
                                             >
                                               assignment
                                             </i>
@@ -3336,14 +3447,14 @@ exports[`Storyshots Components/ModalDrawer Open 1`] = `
                                           <MUIconComp
                                             classes={
                                               Object {
-                                                "root": "MUIconComp-root-0-3-35 MUIconComp-root-d52-0-3-191",
+                                                "root": "MUIconComp-root-0-3-35 MUIconComp-root-d53-0-3-193",
                                               }
                                             }
                                             fontSize={40}
                                             type="insert_drive_file"
                                           >
                                             <i
-                                              className="MUIconComp-root-0-3-35 MUIconComp-root-d52-0-3-191"
+                                              className="MUIconComp-root-0-3-35 MUIconComp-root-d53-0-3-193"
                                             >
                                               insert_drive_file
                                             </i>
@@ -3419,8 +3530,11 @@ exports[`Storyshots Components/ModalDrawer Open 1`] = `
             <div
               className="ModalDrawerComp-listSub-0-3-187"
             >
-              <Divider>
+              <Divider
+                className="ModalDrawerComp-divider-0-3-188"
+              >
                 <WithStyles(DividerComp)
+                  className="ModalDrawerComp-divider-0-3-188"
                   innerRef={null}
                   jssContext={
                     Object {
@@ -3431,6 +3545,7 @@ exports[`Storyshots Components/ModalDrawer Open 1`] = `
                   theme={Object {}}
                 >
                   <DividerComp
+                    className="ModalDrawerComp-divider-0-3-188"
                     classes={
                       Object {
                         "root": "DividerComp-root-0-3-127",
@@ -3438,7 +3553,7 @@ exports[`Storyshots Components/ModalDrawer Open 1`] = `
                     }
                   >
                     <hr
-                      className="DividerComp-root-0-3-127"
+                      className="DividerComp-root-0-3-127 ModalDrawerComp-divider-0-3-188"
                     />
                   </DividerComp>
                 </WithStyles(DividerComp)>
@@ -3626,14 +3741,14 @@ exports[`Storyshots Components/ModalDrawer Open 1`] = `
                                             <MUIconComp
                                               classes={
                                                 Object {
-                                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d53-0-3-192",
+                                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d54-0-3-194",
                                                 }
                                               }
                                               fontSize={40}
                                               type="lock"
                                             >
                                               <i
-                                                className="MUIconComp-root-0-3-35 MUIconComp-root-d53-0-3-192"
+                                                className="MUIconComp-root-0-3-35 MUIconComp-root-d54-0-3-194"
                                               >
                                                 lock
                                               </i>
@@ -3812,14 +3927,14 @@ exports[`Storyshots Components/ModalDrawer Open 1`] = `
                                             <MUIconComp
                                               classes={
                                                 Object {
-                                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d54-0-3-193",
+                                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d55-0-3-195",
                                                 }
                                               }
                                               fontSize={40}
                                               type="exit_to_app"
                                             >
                                               <i
-                                                className="MUIconComp-root-0-3-35 MUIconComp-root-d54-0-3-193"
+                                                className="MUIconComp-root-0-3-35 MUIconComp-root-d55-0-3-195"
                                               >
                                                 exit_to_app
                                               </i>
@@ -4035,6 +4150,7 @@ exports[`Storyshots Components/ModalDrawer Overflow 1`] = `
     <ModalDrawerComp
       classes={
         Object {
+          "divider": "ModalDrawerComp-divider-0-3-188",
           "drawer": "ModalDrawerComp-drawer-0-3-186",
           "listSub": "ModalDrawerComp-listSub-0-3-187",
           "root": "ModalDrawerComp-root-0-3-185",
@@ -4203,17 +4319,17 @@ exports[`Storyshots Components/ModalDrawer Overflow 1`] = `
                 <HeaderComp
                   classes={
                     Object {
-                      "main": "HeaderComp-main-0-3-189",
-                      "root": "HeaderComp-root-0-3-188",
+                      "main": "HeaderComp-main-0-3-190",
+                      "root": "HeaderComp-root-0-3-189",
                     }
                   }
                   main="Workstation 005 - Machine Cleaning"
                 >
                   <div
-                    className="HeaderComp-root-0-3-188"
+                    className="HeaderComp-root-0-3-189"
                   >
                     <div
-                      className="HeaderComp-main-0-3-189"
+                      className="HeaderComp-main-0-3-190"
                     >
                       <Typography
                         bold={true}
@@ -4521,14 +4637,14 @@ exports[`Storyshots Components/ModalDrawer Overflow 1`] = `
                                           <MUIconComp
                                             classes={
                                               Object {
-                                                "root": "MUIconComp-root-0-3-35 MUIconComp-root-d63-0-3-202",
+                                                "root": "MUIconComp-root-0-3-35 MUIconComp-root-d65-0-3-205",
                                               }
                                             }
                                             fontSize={40}
                                             type="assignment"
                                           >
                                             <i
-                                              className="MUIconComp-root-0-3-35 MUIconComp-root-d63-0-3-202"
+                                              className="MUIconComp-root-0-3-35 MUIconComp-root-d65-0-3-205"
                                             >
                                               assignment
                                             </i>
@@ -4707,14 +4823,14 @@ exports[`Storyshots Components/ModalDrawer Overflow 1`] = `
                                           <MUIconComp
                                             classes={
                                               Object {
-                                                "root": "MUIconComp-root-0-3-35 MUIconComp-root-d64-0-3-203",
+                                                "root": "MUIconComp-root-0-3-35 MUIconComp-root-d66-0-3-206",
                                               }
                                             }
                                             fontSize={40}
                                             type="insert_drive_file"
                                           >
                                             <i
-                                              className="MUIconComp-root-0-3-35 MUIconComp-root-d64-0-3-203"
+                                              className="MUIconComp-root-0-3-35 MUIconComp-root-d66-0-3-206"
                                             >
                                               insert_drive_file
                                             </i>
@@ -4893,14 +5009,14 @@ exports[`Storyshots Components/ModalDrawer Overflow 1`] = `
                                           <MUIconComp
                                             classes={
                                               Object {
-                                                "root": "MUIconComp-root-0-3-35 MUIconComp-root-d65-0-3-204",
+                                                "root": "MUIconComp-root-0-3-35 MUIconComp-root-d67-0-3-207",
                                               }
                                             }
                                             fontSize={40}
                                             type="assignment"
                                           >
                                             <i
-                                              className="MUIconComp-root-0-3-35 MUIconComp-root-d65-0-3-204"
+                                              className="MUIconComp-root-0-3-35 MUIconComp-root-d67-0-3-207"
                                             >
                                               assignment
                                             </i>
@@ -5079,14 +5195,14 @@ exports[`Storyshots Components/ModalDrawer Overflow 1`] = `
                                           <MUIconComp
                                             classes={
                                               Object {
-                                                "root": "MUIconComp-root-0-3-35 MUIconComp-root-d66-0-3-205",
+                                                "root": "MUIconComp-root-0-3-35 MUIconComp-root-d68-0-3-208",
                                               }
                                             }
                                             fontSize={40}
                                             type="insert_drive_file"
                                           >
                                             <i
-                                              className="MUIconComp-root-0-3-35 MUIconComp-root-d66-0-3-205"
+                                              className="MUIconComp-root-0-3-35 MUIconComp-root-d68-0-3-208"
                                             >
                                               insert_drive_file
                                             </i>
@@ -5265,14 +5381,14 @@ exports[`Storyshots Components/ModalDrawer Overflow 1`] = `
                                           <MUIconComp
                                             classes={
                                               Object {
-                                                "root": "MUIconComp-root-0-3-35 MUIconComp-root-d67-0-3-206",
+                                                "root": "MUIconComp-root-0-3-35 MUIconComp-root-d69-0-3-209",
                                               }
                                             }
                                             fontSize={40}
                                             type="assignment"
                                           >
                                             <i
-                                              className="MUIconComp-root-0-3-35 MUIconComp-root-d67-0-3-206"
+                                              className="MUIconComp-root-0-3-35 MUIconComp-root-d69-0-3-209"
                                             >
                                               assignment
                                             </i>
@@ -5451,14 +5567,14 @@ exports[`Storyshots Components/ModalDrawer Overflow 1`] = `
                                           <MUIconComp
                                             classes={
                                               Object {
-                                                "root": "MUIconComp-root-0-3-35 MUIconComp-root-d68-0-3-207",
+                                                "root": "MUIconComp-root-0-3-35 MUIconComp-root-d70-0-3-210",
                                               }
                                             }
                                             fontSize={40}
                                             type="insert_drive_file"
                                           >
                                             <i
-                                              className="MUIconComp-root-0-3-35 MUIconComp-root-d68-0-3-207"
+                                              className="MUIconComp-root-0-3-35 MUIconComp-root-d70-0-3-210"
                                             >
                                               insert_drive_file
                                             </i>
@@ -5534,8 +5650,11 @@ exports[`Storyshots Components/ModalDrawer Overflow 1`] = `
             <div
               className="ModalDrawerComp-listSub-0-3-187"
             >
-              <Divider>
+              <Divider
+                className="ModalDrawerComp-divider-0-3-188"
+              >
                 <WithStyles(DividerComp)
+                  className="ModalDrawerComp-divider-0-3-188"
                   innerRef={null}
                   jssContext={
                     Object {
@@ -5546,6 +5665,7 @@ exports[`Storyshots Components/ModalDrawer Overflow 1`] = `
                   theme={Object {}}
                 >
                   <DividerComp
+                    className="ModalDrawerComp-divider-0-3-188"
                     classes={
                       Object {
                         "root": "DividerComp-root-0-3-127",
@@ -5553,7 +5673,7 @@ exports[`Storyshots Components/ModalDrawer Overflow 1`] = `
                     }
                   >
                     <hr
-                      className="DividerComp-root-0-3-127"
+                      className="DividerComp-root-0-3-127 ModalDrawerComp-divider-0-3-188"
                     />
                   </DividerComp>
                 </WithStyles(DividerComp)>
@@ -5741,14 +5861,14 @@ exports[`Storyshots Components/ModalDrawer Overflow 1`] = `
                                             <MUIconComp
                                               classes={
                                                 Object {
-                                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d69-0-3-208",
+                                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d71-0-3-211",
                                                 }
                                               }
                                               fontSize={40}
                                               type="lock"
                                             >
                                               <i
-                                                className="MUIconComp-root-0-3-35 MUIconComp-root-d69-0-3-208"
+                                                className="MUIconComp-root-0-3-35 MUIconComp-root-d71-0-3-211"
                                               >
                                                 lock
                                               </i>
@@ -5927,14 +6047,14 @@ exports[`Storyshots Components/ModalDrawer Overflow 1`] = `
                                             <MUIconComp
                                               classes={
                                                 Object {
-                                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d70-0-3-209",
+                                                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d72-0-3-212",
                                                 }
                                               }
                                               fontSize={40}
                                               type="exit_to_app"
                                             >
                                               <i
-                                                className="MUIconComp-root-0-3-35 MUIconComp-root-d70-0-3-209"
+                                                className="MUIconComp-root-0-3-35 MUIconComp-root-d72-0-3-212"
                                               >
                                                 exit_to_app
                                               </i>
@@ -6036,18 +6156,18 @@ exports[`Storyshots Components/ModalDrawer Part Header 1`] = `
     <HeaderComp
       classes={
         Object {
-          "main": "HeaderComp-main-0-3-189",
-          "root": "HeaderComp-root-0-3-188",
+          "main": "HeaderComp-main-0-3-190",
+          "root": "HeaderComp-root-0-3-189",
         }
       }
       icon="x"
       main="Workstation 005 - Machine Cleaning"
     >
       <div
-        className="HeaderComp-root-0-3-188"
+        className="HeaderComp-root-0-3-189"
       >
         <div
-          className="HeaderComp-main-0-3-189"
+          className="HeaderComp-main-0-3-190"
         >
           <Typography
             bold={true}
@@ -6118,7 +6238,10 @@ exports[`Storyshots Components/ModalDrawer Part Header icon 1`] = `
         }
       }
     >
-      X
+      <ForwardRef
+        fontSize={35}
+        type="close"
+      />
     </div>
   }
   main="Workstation 005 - Machine Cleaning"
@@ -6137,7 +6260,10 @@ exports[`Storyshots Components/ModalDrawer Part Header icon 1`] = `
           }
         }
       >
-        X
+        <ForwardRef
+          fontSize={35}
+          type="close"
+        />
       </div>
     }
     innerRef={null}
@@ -6153,8 +6279,8 @@ exports[`Storyshots Components/ModalDrawer Part Header icon 1`] = `
     <HeaderComp
       classes={
         Object {
-          "main": "HeaderComp-main-0-3-189",
-          "root": "HeaderComp-root-0-3-188",
+          "main": "HeaderComp-main-0-3-190",
+          "root": "HeaderComp-root-0-3-189",
         }
       }
       icon={
@@ -6170,16 +6296,19 @@ exports[`Storyshots Components/ModalDrawer Part Header icon 1`] = `
             }
           }
         >
-          X
+          <ForwardRef
+            fontSize={35}
+            type="close"
+          />
         </div>
       }
       main="Workstation 005 - Machine Cleaning"
     >
       <div
-        className="HeaderComp-root-0-3-188"
+        className="HeaderComp-root-0-3-189"
       >
         <div
-          className="HeaderComp-main-0-3-189"
+          className="HeaderComp-main-0-3-190"
         >
           <Typography
             bold={true}
@@ -6240,7 +6369,39 @@ exports[`Storyshots Components/ModalDrawer Part Header icon 1`] = `
             }
           }
         >
-          X
+          <MUIcon
+            fontSize={35}
+            type="close"
+          >
+            <WithStyles(MUIconComp)
+              fontSize={35}
+              innerRef={null}
+              jssContext={
+                Object {
+                  "classNamePrefix": "",
+                  "disableStylesGeneration": false,
+                }
+              }
+              theme={Object {}}
+              type="close"
+            >
+              <MUIconComp
+                classes={
+                  Object {
+                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d73-0-3-213",
+                  }
+                }
+                fontSize={35}
+                type="close"
+              >
+                <i
+                  className="MUIconComp-root-0-3-35 MUIconComp-root-d73-0-3-213"
+                >
+                  close
+                </i>
+              </MUIconComp>
+            </WithStyles(MUIconComp)>
+          </MUIcon>
         </div>
       </div>
     </HeaderComp>
@@ -6432,14 +6593,14 @@ exports[`Storyshots Components/ModalDrawer Part List 1`] = `
                               <MUIconComp
                                 classes={
                                   Object {
-                                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d71-0-3-210",
+                                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d74-0-3-214",
                                   }
                                 }
                                 fontSize={40}
                                 type="assignment"
                               >
                                 <i
-                                  className="MUIconComp-root-0-3-35 MUIconComp-root-d71-0-3-210"
+                                  className="MUIconComp-root-0-3-35 MUIconComp-root-d74-0-3-214"
                                 >
                                   assignment
                                 </i>
@@ -6618,14 +6779,14 @@ exports[`Storyshots Components/ModalDrawer Part List 1`] = `
                               <MUIconComp
                                 classes={
                                   Object {
-                                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d72-0-3-211",
+                                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d75-0-3-215",
                                   }
                                 }
                                 fontSize={40}
                                 type="insert_drive_file"
                               >
                                 <i
-                                  className="MUIconComp-root-0-3-35 MUIconComp-root-d72-0-3-211"
+                                  className="MUIconComp-root-0-3-35 MUIconComp-root-d75-0-3-215"
                                 >
                                   insert_drive_file
                                 </i>
