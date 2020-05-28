@@ -119,6 +119,7 @@
     "loki": "^0.20.1",
     "prettier": "^1.19.1",
     "react-docgen-typescript-loader": "^3.7.2",
+    "react-docgen-typescript-webpack-plugin": "^1.1.0",
     "rimraf": "^3.0.2",
     "sloc": "^0.2.1",
     "source-map-loader": "^0.2.4",
