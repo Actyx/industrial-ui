@@ -19,6 +19,7 @@ import * as React from 'react';
 import { BatteryIcon } from './BatteryIcon';
 
 storiesOf('Components/BatteryIcon', module)
+  .addParameters({ component: BatteryIcon })
   .addDecorator(
     hostDecorator({
       height: 100,
