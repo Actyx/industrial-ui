@@ -21,6 +21,7 @@ import { PaginationDots } from './PaginationDots';
 import { grey } from '../../colors';
 
 storiesOf('Components/PaginationDots', module)
+  .addParameters({ component: PaginationDots })
   .addDecorator(
     hostDecorator({
       position: 'absolute',

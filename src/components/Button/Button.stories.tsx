@@ -21,6 +21,7 @@ import * as React from 'react';
 import { Button } from './Button';
 
 storiesOf('Components/Button', module)
+  .addParameters({ component: Button })
   .addDecorator(withKnobs)
   .addDecorator(hostDecorator())
   .add('Flat transparent text', () => (

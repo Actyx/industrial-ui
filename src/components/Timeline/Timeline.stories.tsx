@@ -151,6 +151,7 @@ const intervalsProps: {
 };
 
 storiesOf('Components/Timeline', module)
+  .addParameters({ component: Timeline })
   .addDecorator(
     hostDecorator({
       position: 'absolute',

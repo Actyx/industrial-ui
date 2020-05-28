@@ -77,6 +77,7 @@ const baseProps = {
 };
 
 storiesOf('Components/ModalDrawer', module)
+  .addParameters({ component: ModalDrawer })
   .addDecorator(
     hostDecorator({
       width: 800,

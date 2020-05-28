@@ -19,6 +19,7 @@ import * as React from 'react';
 import { Divider } from './Divider';
 
 storiesOf('Components/Divider', module)
+  .addParameters({ component: Divider })
   .addDecorator(
     hostDecorator({
       paddingTop: 20,

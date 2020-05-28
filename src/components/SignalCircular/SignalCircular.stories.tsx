@@ -19,6 +19,7 @@ import * as React from 'react';
 import { SignalCircular } from './SignalCircular';
 
 storiesOf('Components/SignalCircular', module)
+  .addParameters({ component: SignalCircular })
   .addDecorator(hostDecorator())
   .add('Size xs', () => <SignalCircular color="green" size="xs" />)
   .add('Size sm', () => <SignalCircular color="green" size="sm" />)

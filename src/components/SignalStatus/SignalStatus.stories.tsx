@@ -19,6 +19,7 @@ import * as React from 'react';
 import { SignalStatus } from './SignalStatus';
 
 storiesOf('Components/SignalStatus', module)
+  .addParameters({ component: SignalStatus })
   .addDecorator(hostDecorator({}))
   .add('Running', () => <SignalStatus status="running" />)
   .add('Interrupted', () => <SignalStatus status="interrupted" />)

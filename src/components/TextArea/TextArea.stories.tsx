@@ -22,6 +22,7 @@ import { TextArea } from './TextArea';
 const actionChange = action('onChange');
 
 storiesOf('Components/TextArea', module)
+  .addParameters({ component: TextArea })
   .addDecorator(hostDecorator())
   .add('Text', () => <TextArea />)
   .add('autoFocus', () => <TextArea autoFocus />)

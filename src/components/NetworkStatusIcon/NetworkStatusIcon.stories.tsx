@@ -21,6 +21,7 @@ import { hostDecorator } from '../../utils';
 import { grey, red } from '../../colors';
 
 storiesOf('Components/NetworkStatusIcon', module)
+  .addParameters({ component: NetworkStatusIcon })
   .addDecorator(
     hostDecorator({
       backgroundColor: grey[400],

@@ -22,6 +22,7 @@ import { SimpleToolbar } from './SimpleToolbar';
 import { SimpleToolbarButton } from './SimpleToolbarButton';
 
 storiesOf('Components/SimpleToolbar', module)
+  .addParameters({ component: SimpleToolbar })
   .addDecorator(
     hostDecorator({
       width: '100%'

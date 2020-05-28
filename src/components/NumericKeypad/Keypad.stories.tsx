@@ -26,6 +26,7 @@ const baseProps = {
 };
 
 storiesOf('Components/NumericKeypad/Keypad', module)
+  .addParameters({ component: Keypad })
   .addDecorator(hostDecorator())
   .add('Confirm integer', () => <Keypad {...baseProps} />)
   .add('Confirm decimal', () => (

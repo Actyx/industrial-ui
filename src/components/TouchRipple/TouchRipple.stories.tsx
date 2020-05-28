@@ -23,6 +23,7 @@ const baseProps = {
   onClick: action('onClick')
 };
 storiesOf('Components/TouchRipple', module)
+  .addParameters({ component: TouchRipple })
   .addDecorator(
     hostDecorator({
       width: 200

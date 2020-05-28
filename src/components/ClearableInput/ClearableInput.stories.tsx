@@ -25,6 +25,7 @@ const baseProps = {
 };
 
 storiesOf('Components/ClearableInput', module)
+  .addParameters({ component: ClearableInput })
   .addDecorator(hostDecorator())
   .add('No value', () => <ClearableInput value="" {...baseProps} />)
   .add('Value', () => <ClearableInput value="100" {...baseProps} />)

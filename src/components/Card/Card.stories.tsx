@@ -29,6 +29,7 @@ const baseProps = {
 };
 
 storiesOf('Components/Card/Card', module)
+  .addParameters({ component: Card })
   .addDecorator(hostDecorator({}))
   .add('Raised', () => <Card {...baseProps} />)
   .add('Action', () => {

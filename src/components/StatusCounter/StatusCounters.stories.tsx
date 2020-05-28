@@ -27,6 +27,7 @@ const ex2 = [unknown, requested];
 const ex3 = [ready, unknown, requested];
 
 storiesOf('Components/StatusCounters', module)
+  .addParameters({ component: StatusCounters })
   .addDecorator(hostDecorator())
   .add('One counter', () => <StatusCounters counters={ex1} />)
   .add('Two counters', () => <StatusCounters counters={ex2} />)

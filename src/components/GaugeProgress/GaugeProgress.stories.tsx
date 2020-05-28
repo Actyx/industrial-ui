@@ -24,6 +24,7 @@ const baseProps = {
 };
 
 storiesOf('Components/GaugeProgress', module)
+  .addParameters({ component: GaugeProgress })
   .addDecorator(hostDecorator({}))
   .add('Value 50%', () => <GaugeProgress {...baseProps} value={50} />)
   .add('Value 75%', () => <GaugeProgress {...baseProps} value={75} />)

@@ -20,6 +20,7 @@ import * as React from 'react';
 import { FloatingActionButton } from './FloatingActionButton';
 
 storiesOf('Components/FloatingActionButton', module)
+  .addParameters({ component: FloatingActionButton })
   .addDecorator(hostDecorator())
   .add('Size sm', () => (
     <FloatingActionButton size="sm" icon="close" color="primary" onClick={action('onClick')} />

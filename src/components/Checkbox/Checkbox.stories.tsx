@@ -28,6 +28,7 @@ const baseProps = {
 };
 
 storiesOf('Components/Checkbox', module)
+  .addParameters({ component: Checkbox })
   .add('Indeterminate', () => <Checkbox {...baseProps} state={'indeterminate'} />)
   .add('Unchecked', () => <Checkbox {...baseProps} />)
   .add('Checked', () => <Checkbox {...baseProps} state={'checked'} />)

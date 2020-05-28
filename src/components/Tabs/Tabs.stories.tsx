@@ -20,6 +20,7 @@ import * as React from 'react';
 import { Tabs } from './Tabs';
 
 storiesOf('Components/Tabs', module)
+  .addParameters({ component: Tabs })
   .addDecorator(hostDecorator({}))
   .add('Base', () => (
     <Tabs
