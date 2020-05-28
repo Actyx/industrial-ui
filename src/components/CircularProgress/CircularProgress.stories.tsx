@@ -20,6 +20,7 @@ import { CircularProgress } from './CircularProgress';
 import { common, red } from '../../colors';
 
 storiesOf('Components/CircularProgress', module)
+  .addParameters({ component: CircularProgress })
   .addDecorator(hostDecorator())
   .add('Variant sm', () => <CircularProgress size="sm" />)
   .add('Variant md', () => <CircularProgress size="md" />)

@@ -20,6 +20,7 @@ import * as React from 'react';
 import { PaginationDot } from './PaginationDot';
 
 storiesOf('Components/PaginationDot', module)
+  .addParameters({ component: PaginationDot })
   .addDecorator(hostDecorator({}))
   .add('Active', () => <PaginationDot active onClick={action('onClick')} />)
   .add('No active', () => <PaginationDot onClick={action('onClick')} />);

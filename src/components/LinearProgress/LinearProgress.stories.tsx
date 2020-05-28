@@ -20,6 +20,7 @@ import * as React from 'react';
 import { LinearProgress } from './LinearProgress';
 
 storiesOf('Components/LinearProgress', module)
+  .addParameters({ component: LinearProgress })
   .addDecorator(hostDecorator({}))
   .add('Size xs', () => <LinearProgress size="xs" color="green" value={20} />)
   .add('Size md', () => (

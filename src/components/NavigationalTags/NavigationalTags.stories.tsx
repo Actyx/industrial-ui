@@ -20,6 +20,7 @@ import { NavigationalTags } from './NavigationalTags';
 import { Tag } from './Tag';
 
 storiesOf('Components/NavigationalTags', module)
+  .addParameters({ component: NavigationalTags })
   .add('Base', () => (
     <NavigationalTags
       tags={[

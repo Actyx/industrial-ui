@@ -40,6 +40,7 @@ const Animate = ({ type }: { type: ChevronType }) => {
 };
 
 storiesOf('Components/Chevron', module)
+  .addParameters({ component: Chevron })
   .addDecorator(hostDecorator())
   .add('Size sm', () => <Chevron size="sm" />)
   .add('Size md', () => <Chevron size="md" />)

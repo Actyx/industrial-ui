@@ -26,6 +26,7 @@ const mkProps = (text: string, icon = 'warning') => ({
 });
 
 storiesOf('Components/SignalNotification', module)
+  .addParameters({ component: SignalNotification })
   .addDecorator(
     hostDecorator({
       width: 500

@@ -20,6 +20,7 @@ import { MUIcon } from './MUIcon';
 import { lightBlue } from '../../colors';
 
 storiesOf('Components/MUIcon', module)
+  .addParameters({ component: MUIcon })
   .addDecorator(hostDecorator())
   .add('Base', () => <MUIcon type={'face'} />)
   .add('fontSize', () => <MUIcon type={'face'} fontSize={48} />)

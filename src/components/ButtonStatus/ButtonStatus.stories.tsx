@@ -25,6 +25,7 @@ const baseProps = {
 };
 
 storiesOf('Components/ButtonStatus', module)
+  .addParameters({ component: ButtonStatus })
   .addDecorator(hostDecorator())
 
   .add('Selected icon', () => {

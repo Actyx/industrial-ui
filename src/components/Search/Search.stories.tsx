@@ -46,6 +46,7 @@ class SearchWrapper extends React.Component<{}, { searchTerm: string }> {
 }
 
 storiesOf('Components/Search', module)
+  .addParameters({ component: Search })
   .addDecorator(hostDecorator())
   .add('Base', () => {
     const props = { ...baseProps };

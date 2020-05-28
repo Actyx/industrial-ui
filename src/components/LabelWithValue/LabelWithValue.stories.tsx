@@ -19,5 +19,6 @@ import * as React from 'react';
 import { LabelWithValue } from './LabelWithValue';
 
 storiesOf('Components/LabelWithValue', module)
+  .addParameters({ component: LabelWithValue })
   .addDecorator(hostDecorator())
   .add('Base', () => <LabelWithValue label="sample label" value="sample value" />);

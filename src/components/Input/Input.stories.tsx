@@ -20,6 +20,7 @@ import * as React from 'react';
 import { Input } from './Input';
 
 storiesOf('Components/Input', module)
+  .addParameters({ component: Input })
   .addDecorator(hostDecorator())
   .add('Type number', () => <Input type="number" />)
   .add('Type text', () => <Input type="text" />)

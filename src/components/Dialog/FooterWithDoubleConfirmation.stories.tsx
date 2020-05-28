@@ -56,6 +56,7 @@ class AnimationWrapper extends React.Component<{}, { mode: FooterWithDoubleConfi
 }
 
 storiesOf('Components/Dialog/FooterWithDoubleConfirmation', module)
+  .addParameters({ component: FooterWithDoubleConfirmation })
   .addDecorator(hostDecorator({}))
   .add('Confirm no valid', () => <FooterWithDoubleConfirmation {...baseProps} mode={'normal'} />)
   .add('Confirm valid', () => <FooterWithDoubleConfirmation {...baseProps} mode={'normal'} valid />)

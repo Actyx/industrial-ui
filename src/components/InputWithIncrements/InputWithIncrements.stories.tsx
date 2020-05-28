@@ -27,6 +27,7 @@ const baseProps = {
 };
 
 storiesOf('Components/InputWithIncrements', module)
+  .addParameters({ component: InputWithIncrements })
   .addDecorator(
     hostDecorator({
       width: 600

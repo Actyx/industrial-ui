@@ -19,6 +19,7 @@ import * as React from 'react';
 import { Status } from './Status';
 
 storiesOf('Components/Status', module)
+  .addParameters({ component: Status })
   .addDecorator(hostDecorator())
   .add('Ready', () => <Status variant="ready" message="Ready" />)
   .add('Unknown', () => <Status variant="unknown" message="Unknown" />)

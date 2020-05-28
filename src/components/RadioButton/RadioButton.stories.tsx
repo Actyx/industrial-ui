@@ -20,6 +20,7 @@ import * as React from 'react';
 import { RadioButton } from './RadioButton';
 
 storiesOf('Components/RadioButton', module)
+  .addParameters({ component: RadioButton })
   .addDecorator(hostDecorator())
   .add('Unchecked', () => (
     <RadioButton checked={false} color="neutral" onChange={action('onChange')} />

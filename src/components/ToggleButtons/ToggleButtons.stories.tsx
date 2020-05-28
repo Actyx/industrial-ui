@@ -51,6 +51,7 @@ const baseProps = {
 };
 
 storiesOf('Components/ToggleButtons', module)
+  .addParameters({ component: ToggleButtons })
   .addDecorator(hostDecorator())
   .add('Base', () => <ToggleButtons {...baseProps} />)
   .add('items', () => <ToggleButtons {...baseProps} items={[items[2]]} />)

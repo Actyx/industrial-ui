@@ -20,6 +20,7 @@ import * as React from 'react';
 import { Scrim } from './Scrim';
 
 storiesOf('Components/Scrim', module)
+  .addParameters({ component: Scrim })
   .addDecorator(
     hostDecorator({
       width: '100%',

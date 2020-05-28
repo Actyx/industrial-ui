@@ -19,6 +19,7 @@ import * as React from 'react';
 import { LoadingBar } from './LoadingBar';
 
 storiesOf('Components/LoadingBar', module)
+  .addParameters({ component: LoadingBar })
   .addDecorator(hostDecorator({}))
   .add('Base', () => <LoadingBar />)
   .add('Fixed width', () => (

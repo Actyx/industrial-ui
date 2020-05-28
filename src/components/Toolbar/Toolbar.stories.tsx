@@ -25,6 +25,7 @@ import { common } from '../../colors';
 const onClick = action('onClick');
 
 storiesOf('Components/Toolbar', module)
+  .addParameters({ component: Toolbar })
   .addDecorator(hostDecorator({}))
   .add('Variant light content', () => (
     <Toolbar variant="light">

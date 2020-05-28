@@ -20,6 +20,7 @@ import * as React from 'react';
 import { HorizontallyScrollableList } from './HorizontallyScrollableList';
 
 storiesOf('Components/HorizontallyScrollableList', module)
+  .addParameters({ component: HorizontallyScrollableList })
   .addDecorator(
     hostDecorator({
       width: 500,

@@ -19,5 +19,6 @@ import * as React from 'react';
 import { TooltipGuide } from './TooltipGuide';
 
 storiesOf('Components/TooltipGuide', module)
+  .addParameters({ component: TooltipGuide })
   .addDecorator(hostDecorator({}))
   .add('Base', () => <TooltipGuide content={LoremIpsumShort} />);
