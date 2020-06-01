@@ -25,8 +25,8 @@ export type CheckboxColor = 'neutral' | 'primary';
 export type CheckboxState = 'indeterminate' | 'checked' | 'unchecked';
 
 type Props = Readonly<{
-  state: CheckboxState;
-  color?: CheckboxColor;
+  state: 'indeterminate' | 'checked' | 'unchecked';
+  color?: 'neutral' | 'primary';
   disabled?: boolean;
   onClick?: () => void;
 }>;
