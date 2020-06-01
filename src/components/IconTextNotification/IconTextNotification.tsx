@@ -38,7 +38,7 @@ export const IconTextNotificationComp = ({
   counter
 }: Props) => (
   <div className={classes.root}>
-    <MUIcon type={icon} fontSize={smallSize ? 28 : 37} color={color} className="mr-2" />
+    <MUIcon className={classes.icon} type={icon} fontSize={smallSize ? 28 : 37} color={color} />
     <Typography
       variant={smallSize ? 'standard' : 'distance'}
       color={color}
@@ -51,12 +51,15 @@ export const IconTextNotificationComp = ({
   </div>
 );
 
-type ClassKey = 'root';
+type ClassKey = 'root' | 'icon';
 
 const styles: StyleSheet<ClassKey, CompProps> = {
   root: {
     display: 'flex',
-    verticalAlign: 'center'
+    alignItems: 'center'
+  },
+  icon: {
+    marginRight: 10
   }
 };
 

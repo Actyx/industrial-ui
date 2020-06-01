@@ -18,7 +18,7 @@ import { theme } from '../../theme';
 import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { IconTextNotification } from './IconTextNotification';
-import { red } from '../../colors';
+import { red, green, blue } from '../../colors';
 
 storiesOf('Components/IconTextNotification', module)
   .addParameters({ component: IconTextNotification })
@@ -30,18 +30,13 @@ storiesOf('Components/IconTextNotification', module)
     <IconTextNotification icon="warning" text="Interrupted" color={red.A700} />
   ))
   .add('Generic counter', () => (
-    <IconTextNotification
-      icon="info"
-      text="Generic text"
-      color={theme.palette.primary.main}
-      counter={17}
-    />
+    <IconTextNotification icon="info" text="Generic text" color={blue[700]} counter={17} />
   ))
   .add('Small size', () => (
     <IconTextNotification
       icon="info"
       text="Generic text"
-      color={theme.palette.primary.main}
+      color={green[700]}
       counter={17}
       smallSize
     />
