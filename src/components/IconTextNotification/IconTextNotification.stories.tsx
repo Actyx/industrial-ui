@@ -14,7 +14,6 @@
  * limitations under the License.
  */
 import { storiesOf } from '@storybook/react';
-import { theme } from '../../theme';
 import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { IconTextNotification } from './IconTextNotification';
