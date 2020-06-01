@@ -22,7 +22,6 @@ import { compose, setDisplayName } from 'recompose';
 export type CardColor = 'neutral' | 'red';
 
 type CompProps = Readonly<{
-  size: 'md';
   color: 'neutral' | 'red';
   raised: boolean;
   header?: React.ReactNode;
@@ -32,12 +31,12 @@ type CompProps = Readonly<{
 
 type Props = WithStyles<ClassKey> & CompProps;
 
-const CardComp = ({ classes, raised, size, color, header, content, action }: Props) => (
+const CardComp = ({ classes, raised, color, header, content, action }: Props) => (
   <div
     className={classNames(
       classes.root,
       raised ? classes.raised : undefined,
-      classes[size],
+      classes.md,
       classes[color]
     )}
   >

@@ -27,16 +27,16 @@ storiesOf('Components/Card/Swipeable', module)
     <div style={{ width: `calc(${510}px * 2 + (3 * 1rem))` }}>
       <SwipeableCards>
         <SwipeableContainer>
-          <Card size="md" color="neutral" raised content={'1.1'} />
-          <Card size="md" color="neutral" raised content={'1.2'} />
+          <Card color="neutral" raised content={'1.1'} />
+          <Card color="neutral" raised content={'1.2'} />
         </SwipeableContainer>
         <SwipeableContainer>
-          <Card size="md" color="neutral" raised content={'2.1'} />
-          <Card size="md" color="neutral" raised content={'2.2'} />
+          <Card color="neutral" raised content={'2.1'} />
+          <Card color="neutral" raised content={'2.2'} />
         </SwipeableContainer>
         <SwipeableContainer>
-          <Card size="md" color="neutral" raised content={'3.1'} />
-          <Card size="md" color="neutral" raised content={'3.2'} />
+          <Card color="neutral" raised content={'3.1'} />
+          <Card color="neutral" raised content={'3.2'} />
         </SwipeableContainer>
       </SwipeableCards>
     </div>
