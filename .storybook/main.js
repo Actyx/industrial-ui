@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 module.exports = {
-  stories: ['../src/**/*.stories.(tsx|mdx)'],
+  stories: ['../src/**/*.stories.(tsx)'],
   addons: [
     '@storybook/addon-actions/register',
     '@storybook/addon-knobs/register',
