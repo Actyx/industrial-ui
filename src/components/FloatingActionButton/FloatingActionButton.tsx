@@ -21,14 +21,10 @@ import { compose, setDisplayName } from 'recompose';
 import { MUIcon } from '../MUIcon';
 import { TouchRipple } from '../TouchRipple/TouchRipple';
 
-export type FloatingActionButtonSize = 'sm' | 'md' | 'xl';
-
-export type FloatingActionButtonColor = 'primary' | 'secondary' | 'neutral';
-
 type CompProps = Readonly<{
   className?: string;
-  size: FloatingActionButtonSize;
-  color: FloatingActionButtonColor;
+  size: 'sm' | 'md' | 'xl';
+  color: 'primary' | 'secondary' | 'neutral';
   icon: string;
   disabled?: boolean;
   onClick: () => void;
