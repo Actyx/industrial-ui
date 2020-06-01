@@ -29,4 +29,23 @@ storiesOf('Components/Tabs', module)
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet ornare est. Fusce eget
       urna imperdiet, fringilla leo vel, euismod augue.
     </Tabs>
-  ));
+  ))
+  .add('Statefull', () => {
+    const style: React.CSSProperties = { height: 250 };
+
+    const content = {
+      0: <div style={style}>Some content for Description</div>,
+      1: <div style={style}>Some content for Documents</div>
+    };
+
+    function Statefull() {
+      const [tabOpen, setTabOpen] = React.useState<number>(0);
+      return (
+        <Tabs tabs={['Description', 'Documents']} selected={tabOpen} onSelect={x => setTabOpen(x)}>
+          {content[tabOpen]}
+        </Tabs>
+      );
+    }
+
+    return <Statefull />;
+  });
