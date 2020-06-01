@@ -19,13 +19,11 @@ import * as React from 'react';
 import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 
-export type CardSize = 'md';
-
 export type CardColor = 'neutral' | 'red';
 
 type CompProps = Readonly<{
-  size: CardSize;
-  color: CardColor;
+  size: 'md';
+  color: 'neutral' | 'red';
   raised: boolean;
   header?: React.ReactNode;
   content: React.ReactNode;
