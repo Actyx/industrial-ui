@@ -24,20 +24,11 @@ storiesOf('Components/NavigationalTags', module)
   .add('Base', () => (
     <NavigationalTags
       tags={[
-        {
-          id: 'tag0',
-          name: 'Tag name 0 information '
-        },
-        {
-          id: 'tag1',
-          name: 'Tag name 1 information'
-        },
-        {
-          id: 'tag2',
-          name: 'Tag name 2 information'
-        }
+        { id: 'tag0', name: 'Tag 0' },
+        { id: 'tag1', name: 'Tag 1' },
+        { id: 'tag2', name: 'Tag 2' }
       ]}
       onTagClose={action('onTagClose')}
     />
   ))
-  .add('Part Tag', () => <Tag name="Tag name information" onClose={action('onClick')} />);
+  .add('Part Tag', () => <Tag name="Tag with information" onClose={action('onClick')} />);
