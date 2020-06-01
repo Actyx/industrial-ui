@@ -19,18 +19,37 @@ import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { Keypad } from './Keypad';
 
-const baseProps = {
-  onNumberSelect: action('onNumberSelect'),
-  onMinusSelect: action('onMinusSelect'),
-  onDeleteSelect: action('onDeleteSelect')
-};
-
 storiesOf('Components/NumericKeypad/Keypad', module)
   .addParameters({ component: Keypad })
   .addDecorator(hostDecorator())
-  .add('Confirm integer', () => <Keypad {...baseProps} />)
-  .add('Confirm decimal', () => (
-    <Keypad {...baseProps} onDecimalSelect={action('onDecimalSelect')} />
+  .add('Confirm integer', () => (
+    <Keypad
+      onNumberSelect={action('onNumberSelect')}
+      onMinusSelect={action('onMinusSelect')}
+      onDeleteSelect={action('onDeleteSelect')}
+    />
   ))
-  .add('Confirm minus', () => <Keypad {...baseProps} onDecimalSelect={action('onMinusSelect')} />)
-  .add('hideNegative', () => <Keypad {...baseProps} hideNegative />);
+  .add('Confirm decimal', () => (
+    <Keypad
+      onNumberSelect={action('onNumberSelect')}
+      onMinusSelect={action('onMinusSelect')}
+      onDeleteSelect={action('onDeleteSelect')}
+      onDecimalSelect={action('onDecimalSelect')}
+    />
+  ))
+  .add('Confirm minus', () => (
+    <Keypad
+      onNumberSelect={action('onNumberSelect')}
+      onMinusSelect={action('onMinusSelect')}
+      onDeleteSelect={action('onDeleteSelect')}
+      onDecimalSelect={action('onMinusSelect')}
+    />
+  ))
+  .add('hideNegative', () => (
+    <Keypad
+      onNumberSelect={action('onNumberSelect')}
+      onMinusSelect={action('onMinusSelect')}
+      onDeleteSelect={action('onDeleteSelect')}
+      hideNegative
+    />
+  ));

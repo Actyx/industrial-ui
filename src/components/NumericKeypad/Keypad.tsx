@@ -19,17 +19,15 @@ import { compose, setDisplayName } from 'recompose';
 import { ButtonCircular } from '../ButtonCircular/ButtonCircular';
 import { range } from '../../utils';
 
-type OnNumberSelect = (value: number) => void;
-
 type CompProps = Readonly<{
   hideNegative?: boolean;
-  onNumberSelect: OnNumberSelect;
+  onNumberSelect: (value: number) => void;
   onDeleteSelect: () => void;
   onMinusSelect: () => void;
   onDecimalSelect?: () => void;
 }>;
 
-const renderButtonForNumber = (value: number, cb: OnNumberSelect) => (
+const renderButtonForNumber = (value: number, cb: (value: number) => void) => (
   <ButtonCircular color="neutral" key={value} value={value} onSelect={() => cb(value)} />
 );
 
