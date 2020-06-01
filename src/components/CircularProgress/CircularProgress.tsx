@@ -22,7 +22,7 @@ import { compose, setDisplayName } from 'recompose';
 export type CircularProgressSize = 'sm' | 'md';
 
 type CompProps = Readonly<{
-  size: CircularProgressSize;
+  size: 'sm' | 'md';
   colorIndicator?: string;
   colorTrack?: string;
   className?: string;
