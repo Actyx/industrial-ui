@@ -17,20 +17,19 @@
 import * as React from 'react';
 import { theme } from '../../theme';
 
-export type NetworkStatusIconStatus = 'connected' | 'partiallyConnected' | 'disconnected';
-
 const SIZE = 48;
 
-export type NetworkStatusIconVariant = 'light' | 'dark';
-
 type Props = Readonly<{
-  networkStatus: NetworkStatusIconStatus;
-  variant: NetworkStatusIconVariant;
+  networkStatus: 'connected' | 'partiallyConnected' | 'disconnected';
+  variant: 'light' | 'dark';
   color?: string;
   onSelect?: () => void;
 }>;
 
-const renderIcons = (networkStatus: NetworkStatusIconStatus, fillColor: string) => {
+const renderIcons = (
+  networkStatus: 'connected' | 'partiallyConnected' | 'disconnected',
+  fillColor: string
+) => {
   const icons = {
     connected: (
       <path

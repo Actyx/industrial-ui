@@ -16,7 +16,7 @@
 import { storiesOf } from '@storybook/react';
 import { hostDecorator } from '../../utils';
 import * as React from 'react';
-import { Typography, TypographyVariant } from '../Typography';
+import { Typography } from '../Typography';
 import { Table } from './Table';
 import { TableBody } from './TableBody';
 import { TableCell } from './TableCell';
@@ -26,6 +26,8 @@ import { action } from '@storybook/addon-actions';
 import { common, grey } from '../../colors';
 
 const COLOR_WHITE = common.white;
+
+type TypographyVariant = 'subtext' | 'standard' | 'distance' | 'big' | 'heading' | 'giant';
 
 const content = (
   <>
