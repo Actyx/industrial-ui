@@ -19,16 +19,12 @@ import * as React from 'react';
 import { compose, setDisplayName } from 'recompose';
 import injectSheet, { WithStyles, StyleSheet } from 'react-jss';
 
-export type TypographyTextTransform = 'uppercase' | 'lowercase' | 'capitalize';
-
-export type TypographyVariant = 'subtext' | 'standard' | 'distance' | 'big' | 'heading' | 'giant';
-
 type BaseProps = Readonly<{
   className?: string;
   color?: string;
-  variant: TypographyVariant;
+  variant: 'subtext' | 'standard' | 'distance' | 'big' | 'heading' | 'giant';
   italic?: boolean;
-  textTransform?: TypographyTextTransform;
+  textTransform?: 'uppercase' | 'lowercase' | 'capitalize';
   children: React.ReactNode;
   disabled?: boolean;
   noWrap?: boolean;
@@ -53,8 +49,15 @@ type ClassKey =
   | 'italic'
   | 'noWrap'
   | 'ellipsis'
-  | TypographyVariant
-  | TypographyTextTransform;
+  | 'subtext'
+  | 'standard'
+  | 'distance'
+  | 'big'
+  | 'heading'
+  | 'giant'
+  | 'uppercase'
+  | 'lowercase'
+  | 'capitalize';
 
 type Props = WithStyles<ClassKey> & CompProps;
 
