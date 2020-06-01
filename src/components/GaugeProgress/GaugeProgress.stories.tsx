@@ -18,31 +18,25 @@ import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { GaugeProgress } from './GaugeProgress';
 
-const baseProps = {
-  value: 60,
-  color: 'green' as 'green'
-};
-
 storiesOf('Components/GaugeProgress', module)
   .addParameters({ component: GaugeProgress })
   .addDecorator(hostDecorator({}))
-  .add('Value 50%', () => <GaugeProgress {...baseProps} value={50} />)
-  .add('Value 75%', () => <GaugeProgress {...baseProps} value={75} />)
-  .add('Value 100%', () => <GaugeProgress {...baseProps} value={100} />)
-  .add('Value 150%', () => <GaugeProgress {...baseProps} value={150} />)
-  .add('Color blue', () => <GaugeProgress {...baseProps} color="blue" />)
-  .add('Color green', () => <GaugeProgress {...baseProps} />)
-  .add('Butt', () => <GaugeProgress {...baseProps} lineCap="butt" />)
-  .add('Round', () => <GaugeProgress {...baseProps} lineCap="round" />)
+  .add('Value 50%', () => <GaugeProgress color="green" value={50} />)
+  .add('Value 75%', () => <GaugeProgress color="green" value={75} />)
+  .add('Value 100%', () => <GaugeProgress color="green" value={100} />)
+  .add('Value 150%', () => <GaugeProgress color="green" value={150} />)
+  .add('Color blue', () => <GaugeProgress color="blue" value={60} />)
+  .add('Color green', () => <GaugeProgress color="green" value={60} />)
+  .add('Butt', () => <GaugeProgress color="green" lineCap="butt" value={60} />)
+  .add('Round', () => <GaugeProgress color="green" lineCap="round" value={60} />)
   .add('Resize', () => (
     <div style={{ width: 500, height: 500 }}>
-      <GaugeProgress {...baseProps} lineCap="round" width="100%" height="100%" />
+      <GaugeProgress color="green" lineCap="round" width="100%" height="100%" value={60} />
     </div>
   ))
   .add('Dynamic', () => {
-    const DEFAULT_VALUE = 50;
-    const Wrapper = () => {
-      const [value, setValue] = React.useState<number>(DEFAULT_VALUE);
+    const Statefull = () => {
+      const [value, setValue] = React.useState<number>(50);
       return (
         <div>
           <GaugeProgress color="green" value={value} />
@@ -55,5 +49,5 @@ storiesOf('Components/GaugeProgress', module)
         </div>
       );
     };
-    return <Wrapper />;
+    return <Statefull />;
   });
