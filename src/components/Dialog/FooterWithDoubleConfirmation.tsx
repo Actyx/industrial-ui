@@ -20,11 +20,9 @@ import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { Transition } from 'react-transition-group';
 import { compose, setDisplayName } from 'recompose';
 
-export type FooterWithDoubleConfirmationMode = 'normal' | 'confirmation';
-
 type CompProps = Readonly<{
   valid: boolean;
-  mode: FooterWithDoubleConfirmationMode;
+  mode: 'normal' | 'confirmation';
   cancelMessage?: React.ReactNode;
   confirmMessage: React.ReactNode;
   yesMessage: React.ReactNode;
