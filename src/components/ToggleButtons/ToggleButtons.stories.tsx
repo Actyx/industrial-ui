@@ -20,39 +20,50 @@ import * as React from 'react';
 import { Typography } from '../Typography';
 import { ToggleButtons } from './ToggleButtons';
 
-const items = [
-  {
-    id: 'first',
-    label: 'First'
-  },
-  {
-    id: 'second',
-    label: 'Second longer item'
-  },
-  {
-    id: 'third',
-    label: (
-      <>
-        <Typography variant="standard" bold color="inherit">
-          PCS
-        </Typography>
-        &nbsp;
-        <Typography variant="subtext" color="inherit">
-          (output)
-        </Typography>
-      </>
-    )
-  }
-];
-
-const baseProps = {
-  items,
-  onToggle: action('onToggle')
-};
-
 storiesOf('Components/ToggleButtons', module)
   .addParameters({ component: ToggleButtons })
   .addDecorator(hostDecorator())
-  .add('Base', () => <ToggleButtons {...baseProps} />)
-  .add('items', () => <ToggleButtons {...baseProps} items={[items[2]]} />)
-  .add('initToggledItemId', () => <ToggleButtons {...baseProps} initToggledItemId="third" />);
+  .add('Base', () => (
+    <ToggleButtons
+      onToggle={action('onToggle')}
+      items={[
+        { id: 'first', label: 'First' },
+        { id: 'second', label: 'Second longer item' },
+        { id: 'third', label: 'Third' }
+      ]}
+    />
+  ))
+  .add('items', () => (
+    <ToggleButtons
+      onToggle={action('onToggle')}
+      items={[
+        { id: 'first', label: 'First' },
+        { id: 'second', label: 'Second longer item' },
+        {
+          id: 'third',
+          label: (
+            <>
+              <Typography variant="standard" bold color="inherit">
+                PCS
+              </Typography>
+              &nbsp;
+              <Typography variant="subtext" color="inherit">
+                (output)
+              </Typography>
+            </>
+          )
+        }
+      ]}
+    />
+  ))
+  .add('initToggledItemId', () => (
+    <ToggleButtons
+      onToggle={action('onToggle')}
+      items={[
+        { id: 'first', label: 'First' },
+        { id: 'second', label: 'Second longer item' },
+        { id: 'third', label: 'Third' }
+      ]}
+      initToggledItemId="third"
+    />
+  ));
