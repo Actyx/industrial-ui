@@ -22,7 +22,6 @@ import { ButtonStatus } from './ButtonStatus';
 storiesOf('Components/ButtonStatus', module)
   .addParameters({ component: ButtonStatus })
   .addDecorator(hostDecorator())
-
   .add('Selected icon', () => (
     <ButtonStatus text="Platform 1" selected icon="person" onSelect={action('onSelect')} />
   ))
