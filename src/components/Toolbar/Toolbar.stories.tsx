@@ -22,8 +22,6 @@ import { Typography } from '../Typography';
 import { Button } from '../Button';
 import { common } from '../../colors';
 
-const onClick = action('onClick');
-
 storiesOf('Components/Toolbar', module)
   .addParameters({ component: Toolbar })
   .addDecorator(hostDecorator({}))
@@ -34,9 +32,9 @@ storiesOf('Components/Toolbar', module)
   ))
   .add('Variant light content/icons', () => (
     <Toolbar variant="light">
-      <Button variant="flat" color="transparent" icon="rotate_left" onClick={onClick} />
-      <Button variant="flat" color="transparent" icon="rotate_right" onClick={onClick} />
-      <Button variant="flat" color="transparent" icon="refresh" onClick={onClick} />
+      <Button variant="flat" color="transparent" icon="rotate_left" onClick={action('onClick')} />
+      <Button variant="flat" color="transparent" icon="rotate_right" onClick={action('onClick')} />
+      <Button variant="flat" color="transparent" icon="refresh" onClick={action('onClick')} />
     </Toolbar>
   ))
   .add('Variant dark content', () => (
