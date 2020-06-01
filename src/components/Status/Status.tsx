@@ -23,7 +23,7 @@ import { compose, setDisplayName } from 'recompose';
 export type StatusVariant = 'ready' | 'unknown' | 'requested';
 
 type CompProps = Readonly<{
-  variant: StatusVariant;
+  variant: 'ready' | 'unknown' | 'requested';
   message: string;
 }>;
 
@@ -37,7 +37,7 @@ const StatusComp = ({ classes, variant: status }: Props) => (
   </div>
 );
 
-type ClassKey = 'root' | StatusVariant;
+type ClassKey = 'root' | 'ready' | 'unknown' | 'requested';
 
 const styles: StyleSheet<ClassKey, CompProps> = {
   root: {
