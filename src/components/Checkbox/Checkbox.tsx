@@ -49,9 +49,9 @@ export const Checkbox = ({ state, color, disabled, onClick }: Props) => {
           disabled ? 0.5 : 1
         )
       }}
-      onClick={onClick}
+      onClick={disabled ? undefined : onClick}
     >
-      <TouchRipple>
+      <TouchRipple disabled={disabled}>
         <MUIcon fontSize={SIZE} type={iconType} />
       </TouchRipple>
     </div>
