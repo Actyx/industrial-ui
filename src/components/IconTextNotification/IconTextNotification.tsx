@@ -16,8 +16,10 @@
 import { MUIcon } from '../MUIcon';
 import * as React from 'react';
 import { Typography } from '../Typography';
+import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
+import { compose, setDisplayName } from 'recompose';
 
-type Props = Readonly<{
+type CompProps = Readonly<{
   icon: string;
   text: React.ReactNode;
   color: string;
@@ -25,8 +27,17 @@ type Props = Readonly<{
   counter?: number;
 }>;
 
-export const IconTextNotification = ({ icon, text, color, smallSize = false, counter }: Props) => (
-  <div className="d-flex align-items-center">
+type Props = WithStyles & CompProps;
+
+export const IconTextNotificationComp = ({
+  classes,
+  icon,
+  text,
+  color,
+  smallSize = false,
+  counter
+}: Props) => (
+  <div className={classes.root}>
     <MUIcon type={icon} fontSize={smallSize ? 28 : 37} color={color} className="mr-2" />
     <Typography
       variant={smallSize ? 'standard' : 'distance'}
@@ -39,3 +50,17 @@ export const IconTextNotification = ({ icon, text, color, smallSize = false, cou
     </Typography>
   </div>
 );
+
+type ClassKey = 'root';
+
+const styles: StyleSheet<ClassKey, CompProps> = {
+  root: {
+    display: 'flex',
+    verticalAlign: 'center'
+  }
+};
+
+export const IconTextNotification = compose<Props, CompProps>(
+  setDisplayName('IconTextNotification'),
+  injectSheet(styles)
+)(IconTextNotificationComp);
