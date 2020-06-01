@@ -31,6 +31,6 @@ storiesOf('Components/SignalNotification', module)
   .add('Long text', () => (
     <SignalNotification
       icon="warning"
-      text="Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+      text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet ornare est. Fusce eget urna imperdiet, fringilla leo vel, euismod augue."
     />
   ));
