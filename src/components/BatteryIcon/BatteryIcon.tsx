@@ -25,7 +25,7 @@ type Props = Readonly<{
   className?: string;
   level: number;
   charging?: boolean;
-  variant?: BatteryIconVariant;
+  variant?: 'light' | 'dark';
   counter?: boolean;
 }>;
 
