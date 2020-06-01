@@ -21,12 +21,10 @@ import { compose, setDisplayName } from 'recompose';
 import { TouchRipple } from '../TouchRipple';
 import { MUIcon } from '../MUIcon';
 
-export type RadioButtonColor = 'neutral' | 'primary';
-
 type CompProps = Readonly<{
   className?: string;
   checked: boolean;
-  color?: RadioButtonColor;
+  color?: 'neutral' | 'primary';
   disabled?: boolean;
   onChange?: () => void;
 }>;
@@ -44,9 +42,9 @@ const RadioButtonComp = ({ classes, className, checked, color, disabled, onChang
         disabled ? 0.5 : 1
       )
     }}
-    onClick={onChange}
+    onClick={disabled ? undefined : onChange}
   >
-    <TouchRipple>
+    <TouchRipple disabled={disabled}>
       <MUIcon fontSize={40} type={checked ? 'radio_button_checked' : 'radio_button_unchecked'} />
     </TouchRipple>
   </div>
