@@ -27,8 +27,8 @@ export type ChevronType = 'upDown' | 'rightDown';
 
 type CompProps = Readonly<{
   className?: string;
-  size?: ChevronSize;
-  type?: ChevronType;
+  size?: 'md' | 'sm';
+  type?: 'upDown' | 'rightDown';
   down?: boolean;
   animation?: boolean;
   onSelect?: (ev: React.MouseEvent<HTMLElement>) => void;
