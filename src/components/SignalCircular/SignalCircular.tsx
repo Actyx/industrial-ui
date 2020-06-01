@@ -19,14 +19,10 @@ import * as React from 'react';
 import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 
-export type SignalCircularColor = 'red' | 'orange' | 'yellow' | 'green' | 'lightGrey' | 'darkGrey';
-
-export type SignalCircularSize = 'xs' | 'sm' | 'md';
-
 type CompProps = Readonly<{
   className?: string;
-  color: SignalCircularColor;
-  size: SignalCircularSize;
+  color: 'red' | 'orange' | 'yellow' | 'green' | 'lightGrey' | 'darkGrey';
+  size: 'xs' | 'sm' | 'md';
 }>;
 
 type Props = WithStyles<ClassKey> & CompProps;
