@@ -113,6 +113,10 @@ const styles: StyleSheet<ClassKey> = {
   }
 };
 
+/**
+ * Timeline represents a period, on which important events are marked.
+ * A possible use case is a production line event log.
+ */
 export const Timeline = compose<Props, CompProps>(
   setDisplayName('Timeline'),
   injectSheet(styles)
