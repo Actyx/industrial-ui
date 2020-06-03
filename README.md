@@ -46,6 +46,7 @@ By clicking on the "Docs" tab you can access description, code samples and prope
 | Script | Description  |
 |---|---|
 | `npm run clean` | Clean lib and coverage folders |
+| `npm run check` | Perform all checks |
 | `npm run tsc` | Run TypeScript check |
 | `npm run tsc:watch` | Run TypeScript check watch mode |
 | `npm run build` | Build project |
