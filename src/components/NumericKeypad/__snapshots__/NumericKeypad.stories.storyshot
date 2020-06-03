@@ -5,9 +5,7 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad No initial value 1`] 
   onChange={[Function]}
 >
   <div>
-    <div
-      className="mb-4"
-    >
+    <div>
       <ClearableInput
         disabledNativeKeyboard={true}
         onClearRequested={[Function]}
@@ -1525,9 +1523,7 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad decimal 1`] = `
   onChange={[Function]}
 >
   <div>
-    <div
-      className="mb-4"
-    >
+    <div>
       <ClearableInput
         disabledNativeKeyboard={true}
         onClearRequested={[Function]}
@@ -3161,9 +3157,7 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad defaultValue 1`] = `
   onChange={[Function]}
 >
   <div>
-    <div
-      className="mb-4"
-    >
+    <div>
       <ClearableInput
         disabledNativeKeyboard={true}
         onClearRequested={[Function]}
@@ -6136,9 +6130,7 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad hideNegative 1`] = `
   onChange={[Function]}
 >
   <div>
-    <div
-      className="mb-4"
-    >
+    <div>
       <ClearableInput
         disabledNativeKeyboard={true}
         onClearRequested={[Function]}
@@ -7581,9 +7573,7 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad invalid 1`] = `
   onChange={[Function]}
 >
   <div>
-    <div
-      className="mb-4"
-    >
+    <div>
       <ClearableInput
         disabledNativeKeyboard={true}
         error={true}

@@ -4,9 +4,7 @@ exports[`Storyshots Components/Dialog/DialogHeader Base 1`] = `
 <DialogHeader
   text="Title dialog"
 >
-  <div
-    className="d-flex justify-content-between"
-  >
+  <div>
     <Typography
       bold={true}
       variant="big"
@@ -62,9 +60,7 @@ exports[`Storyshots Components/Dialog/DialogHeader rightComponent 1`] = `
   rightComponent="content right"
   text="Title dialog"
 >
-  <div
-    className="d-flex justify-content-between"
-  >
+  <div>
     <Typography
       bold={true}
       variant="big"

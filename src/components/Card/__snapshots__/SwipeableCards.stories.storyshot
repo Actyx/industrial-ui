@@ -13,11 +13,8 @@ exports[`Storyshots Components/Card/Swipeable Swipe anything 1`] = `
   <h1>
     Swipe anything
   </h1>
-  <SwipeableCards
-    className="bg-dark"
-  >
+  <SwipeableCards>
     <WithStyles(SwipeableCardsComp)
-      className="bg-dark"
       innerRef={null}
       jssContext={
         Object {
@@ -28,7 +25,6 @@ exports[`Storyshots Components/Card/Swipeable Swipe anything 1`] = `
       theme={Object {}}
     >
       <SwipeableCardsComp
-        className="bg-dark"
         classes={
           Object {
             "root": "SwipeableCardsComp-root-0-3-74",
@@ -36,7 +32,7 @@ exports[`Storyshots Components/Card/Swipeable Swipe anything 1`] = `
         }
       >
         <div
-          className="SwipeableCardsComp-root-0-3-74 bg-dark"
+          className="SwipeableCardsComp-root-0-3-74"
         >
           <ReactSwipableView
             animateHeight={false}
