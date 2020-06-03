@@ -24,8 +24,8 @@ exports[`Storyshots Components/Search Base 1`] = `
     <SearchComp
       classes={
         Object {
-          "icon": "SearchComp-icon-0-3-254",
-          "root": "SearchComp-root-0-3-253",
+          "icon": "SearchComp-icon-0-3-255",
+          "root": "SearchComp-root-0-3-254",
         }
       }
       onBlur={[Function]}
@@ -34,7 +34,7 @@ exports[`Storyshots Components/Search Base 1`] = `
       value=""
     >
       <div
-        className="SearchComp-root-0-3-253"
+        className="SearchComp-root-0-3-254"
       >
         <input
           onBlur={[Function]}
@@ -44,7 +44,7 @@ exports[`Storyshots Components/Search Base 1`] = `
           value=""
         />
         <div
-          className="SearchComp-icon-0-3-254"
+          className="SearchComp-icon-0-3-255"
         >
           <MUIcon
             fontSize={48}
@@ -65,14 +65,14 @@ exports[`Storyshots Components/Search Base 1`] = `
               <MUIconComp
                 classes={
                   Object {
-                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d100-0-3-255",
+                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d99-0-3-256",
                   }
                 }
                 fontSize={48}
                 type="search"
               >
                 <i
-                  className="MUIconComp-root-0-3-35 MUIconComp-root-d100-0-3-255"
+                  className="MUIconComp-root-0-3-35 MUIconComp-root-d99-0-3-256"
                 >
                   search
                 </i>
@@ -86,13 +86,12 @@ exports[`Storyshots Components/Search Base 1`] = `
 </Search>
 `;
 
-exports[`Storyshots Components/Search Wrapper 1`] = `
-<SearchWrapper>
+exports[`Storyshots Components/Search Statefull 1`] = `
+<Statefull>
   <Search
     onBlur={[Function]}
     onChange={[Function]}
     onFocus={[Function]}
-    placeholder="Search for article group"
     value=""
   >
     <WithStyles(SearchComp)
@@ -106,36 +105,33 @@ exports[`Storyshots Components/Search Wrapper 1`] = `
       onBlur={[Function]}
       onChange={[Function]}
       onFocus={[Function]}
-      placeholder="Search for article group"
       theme={Object {}}
       value=""
     >
       <SearchComp
         classes={
           Object {
-            "icon": "SearchComp-icon-0-3-254",
-            "root": "SearchComp-root-0-3-253",
+            "icon": "SearchComp-icon-0-3-255",
+            "root": "SearchComp-root-0-3-254",
           }
         }
         onBlur={[Function]}
         onChange={[Function]}
         onFocus={[Function]}
-        placeholder="Search for article group"
         value=""
       >
         <div
-          className="SearchComp-root-0-3-253"
+          className="SearchComp-root-0-3-254"
         >
           <input
             onBlur={[Function]}
             onChange={[Function]}
             onFocus={[Function]}
-            placeholder="Search for article group"
             type="text"
             value=""
           />
           <div
-            className="SearchComp-icon-0-3-254"
+            className="SearchComp-icon-0-3-255"
           >
             <MUIcon
               fontSize={48}
@@ -156,14 +152,14 @@ exports[`Storyshots Components/Search Wrapper 1`] = `
                 <MUIconComp
                   classes={
                     Object {
-                      "root": "MUIconComp-root-0-3-35 MUIconComp-root-d103-0-3-258",
+                      "root": "MUIconComp-root-0-3-35 MUIconComp-root-d102-0-3-259",
                     }
                   }
                   fontSize={48}
                   type="search"
                 >
                   <i
-                    className="MUIconComp-root-0-3-35 MUIconComp-root-d103-0-3-258"
+                    className="MUIconComp-root-0-3-35 MUIconComp-root-d102-0-3-259"
                   >
                     search
                   </i>
@@ -175,7 +171,7 @@ exports[`Storyshots Components/Search Wrapper 1`] = `
       </SearchComp>
     </WithStyles(SearchComp)>
   </Search>
-</SearchWrapper>
+</Statefull>
 `;
 
 exports[`Storyshots Components/Search placeholder 1`] = `
@@ -204,8 +200,8 @@ exports[`Storyshots Components/Search placeholder 1`] = `
     <SearchComp
       classes={
         Object {
-          "icon": "SearchComp-icon-0-3-254",
-          "root": "SearchComp-root-0-3-253",
+          "icon": "SearchComp-icon-0-3-255",
+          "root": "SearchComp-root-0-3-254",
         }
       }
       onBlur={[Function]}
@@ -215,7 +211,7 @@ exports[`Storyshots Components/Search placeholder 1`] = `
       value=""
     >
       <div
-        className="SearchComp-root-0-3-253"
+        className="SearchComp-root-0-3-254"
       >
         <input
           onBlur={[Function]}
@@ -226,7 +222,7 @@ exports[`Storyshots Components/Search placeholder 1`] = `
           value=""
         />
         <div
-          className="SearchComp-icon-0-3-254"
+          className="SearchComp-icon-0-3-255"
         >
           <MUIcon
             fontSize={48}
@@ -247,14 +243,14 @@ exports[`Storyshots Components/Search placeholder 1`] = `
               <MUIconComp
                 classes={
                   Object {
-                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d102-0-3-257",
+                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d101-0-3-258",
                   }
                 }
                 fontSize={48}
                 type="search"
               >
                 <i
-                  className="MUIconComp-root-0-3-35 MUIconComp-root-d102-0-3-257"
+                  className="MUIconComp-root-0-3-35 MUIconComp-root-d101-0-3-258"
                 >
                   search
                 </i>
@@ -273,7 +269,7 @@ exports[`Storyshots Components/Search value 1`] = `
   onBlur={[Function]}
   onChange={[Function]}
   onFocus={[Function]}
-  value="Abc"
+  value=""
 >
   <WithStyles(SearchComp)
     innerRef={null}
@@ -287,32 +283,32 @@ exports[`Storyshots Components/Search value 1`] = `
     onChange={[Function]}
     onFocus={[Function]}
     theme={Object {}}
-    value="Abc"
+    value=""
   >
     <SearchComp
       classes={
         Object {
-          "icon": "SearchComp-icon-0-3-254",
-          "root": "SearchComp-root-0-3-253",
+          "icon": "SearchComp-icon-0-3-255",
+          "root": "SearchComp-root-0-3-254",
         }
       }
       onBlur={[Function]}
       onChange={[Function]}
       onFocus={[Function]}
-      value="Abc"
+      value=""
     >
       <div
-        className="SearchComp-root-0-3-253"
+        className="SearchComp-root-0-3-254"
       >
         <input
           onBlur={[Function]}
           onChange={[Function]}
           onFocus={[Function]}
           type="text"
-          value="Abc"
+          value=""
         />
         <div
-          className="SearchComp-icon-0-3-254"
+          className="SearchComp-icon-0-3-255"
         >
           <MUIcon
             fontSize={48}
@@ -333,14 +329,14 @@ exports[`Storyshots Components/Search value 1`] = `
               <MUIconComp
                 classes={
                   Object {
-                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d101-0-3-256",
+                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d100-0-3-257",
                   }
                 }
                 fontSize={48}
                 type="search"
               >
                 <i
-                  className="MUIconComp-root-0-3-35 MUIconComp-root-d101-0-3-256"
+                  className="MUIconComp-root-0-3-35 MUIconComp-root-d100-0-3-257"
                 >
                   search
                 </i>

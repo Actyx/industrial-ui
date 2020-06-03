@@ -17,15 +17,12 @@ import * as React from 'react';
 import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 import { StatusCounter } from './StatusCounter';
-import { StatusVariant } from '../Status';
-
-export type StatusCountersCounter = {
-  variant: StatusVariant;
-  counter: number;
-};
 
 type CompProps = Readonly<{
-  counters: ReadonlyArray<StatusCountersCounter>;
+  counters: ReadonlyArray<{
+    variant: 'ready' | 'unknown' | 'requested';
+    counter: number;
+  }>;
 }>;
 
 type Props = WithStyles<ClassKey> & CompProps;

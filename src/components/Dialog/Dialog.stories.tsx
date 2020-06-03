@@ -18,93 +18,108 @@ import { storiesOf } from '@storybook/react';
 import * as React from 'react';
 import { Dialog } from './Dialog';
 import { DialogHeader } from './DialogHeader';
-import { title } from './DialogHeader.stories';
 import { FooterWithConfirmation } from './FooterWithConfirmation';
 import { FooterWithDoubleConfirmation } from './FooterWithDoubleConfirmation';
-
-const baseProps = {
-  size: 'md' as 'md',
-  header: 'header',
-  content: 'content',
-  footer: 'action',
-  onClose: action('onClose')
-};
-
-const DialogFooterWithDoubleConfirmation = ({}) => {
-  const [isConfirmed, setIsConfirmed] = React.useState<boolean>(false);
-  const props = {
-    ...baseProps,
-    size: 'xlw' as 'xlw',
-    header: <DialogHeader text="Title dialog" />,
-    footer: (
-      <FooterWithDoubleConfirmation
-        valid={true}
-        mode={isConfirmed === true ? 'confirmation' : 'normal'}
-        cancelMessage="Cancel"
-        confirmMessage="Comfirm"
-        yesMessage="Yes"
-        noMessage="No"
-        message="Are you sure?"
-        onSelectNo={action('onSelectNo')}
-        onSelectYes={action('onSelectYes')}
-        onCancel={action('onCancel')}
-        onConfirm={() => setIsConfirmed(true)}
-      />
-    )
-  };
-  return <Dialog {...props} />;
-};
+import { hostDecorator } from '../../utils';
 
 storiesOf('Components/Dialog/Dialog', module)
-  .add('Size md title', () => {
-    const props = { ...baseProps, title };
-    return <Dialog {...props} />;
-  })
-  .add('Size md header', () => {
-    const props = { ...baseProps, header: 'Custom header' };
-    return <Dialog {...props} />;
-  })
-  .add('Size xs', () => {
-    const props = { ...baseProps, size: 'xs' as 'xs' };
-    return <Dialog {...props} />;
-  })
-  .add('Size sm', () => {
-    const props = { ...baseProps, size: 'sm' as 'sm' };
-    return <Dialog {...props} />;
-  })
-  .add('Size xl', () => {
-    const props = { ...baseProps, size: 'xl' as 'xl' };
-    return <Dialog {...props} />;
-  })
-  .add('Size xlw', () => {
-    const props = { ...baseProps, size: 'xlw' as 'xlw' };
-    return <Dialog {...props} />;
-  })
-  .add('Size xxl', () => {
-    const props = { ...baseProps, size: 'xxl' as 'xxl' };
-    return <Dialog {...props} />;
-  })
-  .add('Size header top right', () => {
-    const props = {
-      ...baseProps,
-      size: 'xl' as 'xl',
-      header: <DialogHeader text="Header" rightComponent={'some conttent here'} />
-    };
-    return <Dialog {...props} />;
-  })
-  .add('With FooterWithConfirmation', () => {
-    const props = {
-      ...baseProps,
-      size: 'xlw' as 'xlw',
-      header: <DialogHeader text="Title dialog" />,
-      footer: (
+  .addParameters({ component: Dialog })
+  .addDecorator(
+    hostDecorator({
+      width: 900,
+      height: 900
+    })
+  )
+  .add('Size md', () => (
+    <Dialog
+      header="header"
+      content="content"
+      footer="action"
+      onClose={action('onClose')}
+      size="md"
+    />
+  ))
+  .add('Size md header', () => (
+    <Dialog
+      size="md"
+      header="Custom header"
+      content="content"
+      footer="action"
+      onClose={action('onClose')}
+    />
+  ))
+  .add('Size xs', () => (
+    <Dialog content="content" footer="action" onClose={action('onClose')} size="xs" />
+  ))
+  .add('Size sm', () => (
+    <Dialog content="content" footer="action" onClose={action('onClose')} size="sm" />
+  ))
+  .add('Size xl', () => (
+    <Dialog content="content" footer="action" onClose={action('onClose')} size="xl" />
+  ))
+  .add('Size xlw', () => (
+    <Dialog content="content" footer="action" onClose={action('onClose')} size="xlw" />
+  ))
+  .add('Size xxl', () => (
+    <Dialog
+      header="header"
+      content="content"
+      footer="action"
+      onClose={action('onClose')}
+      size="xxl"
+    />
+  ))
+  .add('Size header top right', () => (
+    <Dialog
+      content="content"
+      footer="action"
+      onClose={action('onClose')}
+      header={<DialogHeader text="Header" rightComponent="some content here" />}
+      size="xl"
+    />
+  ))
+  .add('With FooterWithConfirmation', () => (
+    <Dialog
+      content="content"
+      onClose={action('onClose')}
+      size="xl"
+      header={<DialogHeader text="Title dialog" />}
+      footer={
         <FooterWithConfirmation
           confirmMessage="Confirm"
           onCancel={action('onCancel')}
           onConfirm={action('onConfirm')}
         />
-      )
-    };
-    return <Dialog {...props} />;
-  })
-  .add('With FooterWithDoubleConfirmation', () => <DialogFooterWithDoubleConfirmation />);
+      }
+    />
+  ))
+  .add('With FooterWithDoubleConfirmation', () => {
+    function DialogFooterWithDoubleConfirmation() {
+      const [isConfirmed, setIsConfirmed] = React.useState<boolean>(false);
+      return (
+        <Dialog
+          content="content"
+          onClose={action('onClose')}
+          size="xlw"
+          header={<DialogHeader text="Title dialog" />}
+          footer={
+            <FooterWithDoubleConfirmation
+              valid={true}
+              mode={isConfirmed === true ? 'confirmation' : 'normal'}
+              cancelMessage="Cancel"
+              confirmMessage="Comfirm"
+              yesMessage="Yes"
+              noMessage="No"
+              message="Are you sure?"
+              onSelectNo={action('onSelectNo')}
+              onSelectYes={action('onSelectYes')}
+              onCancel={action('onCancel')}
+              onConfirm={() => setIsConfirmed(true)}
+            />
+          }
+        />
+      );
+    }
+
+    return <DialogFooterWithDoubleConfirmation />;
+  });

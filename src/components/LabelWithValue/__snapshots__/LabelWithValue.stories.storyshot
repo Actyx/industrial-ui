@@ -20,8 +20,8 @@ exports[`Storyshots Components/LabelWithValue Base 1`] = `
     <LabelWithValueComp
       classes={
         Object {
-          "label": "LabelWithValueComp-label-0-3-165",
-          "value": "LabelWithValueComp-value-0-3-166",
+          "label": "LabelWithValueComp-label-0-3-171",
+          "value": "LabelWithValueComp-value-0-3-172",
         }
       }
       label="sample label"
@@ -29,12 +29,12 @@ exports[`Storyshots Components/LabelWithValue Base 1`] = `
     >
       <div>
         <div
-          className="LabelWithValueComp-label-0-3-165"
+          className="LabelWithValueComp-label-0-3-171"
         >
           sample label
         </div>
         <div
-          className="LabelWithValueComp-value-0-3-166"
+          className="LabelWithValueComp-value-0-3-172"
         >
           sample value
         </div>

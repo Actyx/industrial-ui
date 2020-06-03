@@ -1,6 +1,63 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Components/Scrim Base 1`] = `
+exports[`Storyshots Components/Scrim Close 1`] = `
+<Scrim
+  onClose={[Function]}
+  open={false}
+>
+  <WithStyles(ScrimComp)
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onClose={[Function]}
+    open={false}
+    theme={Object {}}
+  >
+    <ScrimComp
+      classes={
+        Object {
+          "root": "ScrimComp-root-0-3-129",
+        }
+      }
+      onClose={[Function]}
+      open={false}
+    >
+      <Transition
+        appear={false}
+        enter={true}
+        exit={true}
+        in={false}
+        mountOnEnter={false}
+        onEnter={[Function]}
+        onEntered={[Function]}
+        onEntering={[Function]}
+        onExit={[Function]}
+        onExited={[Function]}
+        onExiting={[Function]}
+        timeout={150}
+        unmountOnExit={false}
+      >
+        <div
+          className="ScrimComp-root-0-3-129"
+          onClick={[Function]}
+          style={
+            Object {
+              "opacity": 0,
+              "transition": "opacity 150ms",
+            }
+          }
+        />
+      </Transition>
+    </ScrimComp>
+  </WithStyles(ScrimComp)>
+</Scrim>
+`;
+
+exports[`Storyshots Components/Scrim Open 1`] = `
 <Scrim
   onClose={[Function]}
   open={true}
@@ -20,7 +77,7 @@ exports[`Storyshots Components/Scrim Base 1`] = `
     <ScrimComp
       classes={
         Object {
-          "root": "ScrimComp-root-0-3-125",
+          "root": "ScrimComp-root-0-3-129",
         }
       }
       onClose={[Function]}
@@ -42,7 +99,7 @@ exports[`Storyshots Components/Scrim Base 1`] = `
         unmountOnExit={false}
       >
         <div
-          className="ScrimComp-root-0-3-125"
+          className="ScrimComp-root-0-3-129"
           onClick={[Function]}
           style={
             Object {

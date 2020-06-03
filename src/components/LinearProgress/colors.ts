@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 import { theme } from '../../theme';
-import { LinearProgressColor } from './LinearProgress';
+import { LinearProgressColor } from './utility';
 
 const dark: { [color: string]: string } = {
   green: theme.palette.success.main,

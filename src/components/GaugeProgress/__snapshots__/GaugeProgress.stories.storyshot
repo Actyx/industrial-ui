@@ -22,11 +22,11 @@ exports[`Storyshots Components/GaugeProgress Butt 1`] = `
     <GaugeProgressComp
       classes={
         Object {
-          "blue": "GaugeProgressComp-blue-0-3-147",
-          "green": "GaugeProgressComp-green-0-3-148",
-          "root": "GaugeProgressComp-root-0-3-145",
-          "text": "GaugeProgressComp-text-0-3-149",
-          "track": "GaugeProgressComp-track-0-3-146",
+          "blue": "GaugeProgressComp-blue-0-3-151",
+          "green": "GaugeProgressComp-green-0-3-152",
+          "root": "GaugeProgressComp-root-0-3-149",
+          "text": "GaugeProgressComp-text-0-3-153",
+          "track": "GaugeProgressComp-track-0-3-150",
         }
       }
       color="green"
@@ -34,14 +34,14 @@ exports[`Storyshots Components/GaugeProgress Butt 1`] = `
       value={60}
     >
       <svg
-        className="GaugeProgressComp-root-0-3-145"
+        className="GaugeProgressComp-root-0-3-149"
         height="120px"
         viewBox="0 0 120 120"
         width="120px"
       >
         <g>
           <circle
-            className="GaugeProgressComp-track-0-3-146"
+            className="GaugeProgressComp-track-0-3-150"
             cx="60"
             cy="60"
             fill="none"
@@ -49,7 +49,7 @@ exports[`Storyshots Components/GaugeProgress Butt 1`] = `
             strokeWidth="12"
           />
           <circle
-            className="GaugeProgressComp-green-0-3-148"
+            className="GaugeProgressComp-green-0-3-152"
             cx="60"
             cy="60"
             fill="none"
@@ -64,7 +64,7 @@ exports[`Storyshots Components/GaugeProgress Butt 1`] = `
             }
           />
           <text
-            className="GaugeProgressComp-text-0-3-149"
+            className="GaugeProgressComp-text-0-3-153"
             x="50%"
             y="-48%"
           >
@@ -97,25 +97,25 @@ exports[`Storyshots Components/GaugeProgress Color blue 1`] = `
     <GaugeProgressComp
       classes={
         Object {
-          "blue": "GaugeProgressComp-blue-0-3-147",
-          "green": "GaugeProgressComp-green-0-3-148",
-          "root": "GaugeProgressComp-root-0-3-145",
-          "text": "GaugeProgressComp-text-0-3-149",
-          "track": "GaugeProgressComp-track-0-3-146",
+          "blue": "GaugeProgressComp-blue-0-3-151",
+          "green": "GaugeProgressComp-green-0-3-152",
+          "root": "GaugeProgressComp-root-0-3-149",
+          "text": "GaugeProgressComp-text-0-3-153",
+          "track": "GaugeProgressComp-track-0-3-150",
         }
       }
       color="blue"
       value={60}
     >
       <svg
-        className="GaugeProgressComp-root-0-3-145"
+        className="GaugeProgressComp-root-0-3-149"
         height="120px"
         viewBox="0 0 120 120"
         width="120px"
       >
         <g>
           <circle
-            className="GaugeProgressComp-track-0-3-146"
+            className="GaugeProgressComp-track-0-3-150"
             cx="60"
             cy="60"
             fill="none"
@@ -123,7 +123,7 @@ exports[`Storyshots Components/GaugeProgress Color blue 1`] = `
             strokeWidth="12"
           />
           <circle
-            className="GaugeProgressComp-blue-0-3-147"
+            className="GaugeProgressComp-blue-0-3-151"
             cx="60"
             cy="60"
             fill="none"
@@ -138,7 +138,7 @@ exports[`Storyshots Components/GaugeProgress Color blue 1`] = `
             }
           />
           <text
-            className="GaugeProgressComp-text-0-3-149"
+            className="GaugeProgressComp-text-0-3-153"
             x="50%"
             y="-48%"
           >
@@ -171,25 +171,25 @@ exports[`Storyshots Components/GaugeProgress Color green 1`] = `
     <GaugeProgressComp
       classes={
         Object {
-          "blue": "GaugeProgressComp-blue-0-3-147",
-          "green": "GaugeProgressComp-green-0-3-148",
-          "root": "GaugeProgressComp-root-0-3-145",
-          "text": "GaugeProgressComp-text-0-3-149",
-          "track": "GaugeProgressComp-track-0-3-146",
+          "blue": "GaugeProgressComp-blue-0-3-151",
+          "green": "GaugeProgressComp-green-0-3-152",
+          "root": "GaugeProgressComp-root-0-3-149",
+          "text": "GaugeProgressComp-text-0-3-153",
+          "track": "GaugeProgressComp-track-0-3-150",
         }
       }
       color="green"
       value={60}
     >
       <svg
-        className="GaugeProgressComp-root-0-3-145"
+        className="GaugeProgressComp-root-0-3-149"
         height="120px"
         viewBox="0 0 120 120"
         width="120px"
       >
         <g>
           <circle
-            className="GaugeProgressComp-track-0-3-146"
+            className="GaugeProgressComp-track-0-3-150"
             cx="60"
             cy="60"
             fill="none"
@@ -197,7 +197,7 @@ exports[`Storyshots Components/GaugeProgress Color green 1`] = `
             strokeWidth="12"
           />
           <circle
-            className="GaugeProgressComp-green-0-3-148"
+            className="GaugeProgressComp-green-0-3-152"
             cx="60"
             cy="60"
             fill="none"
@@ -212,7 +212,7 @@ exports[`Storyshots Components/GaugeProgress Color green 1`] = `
             }
           />
           <text
-            className="GaugeProgressComp-text-0-3-149"
+            className="GaugeProgressComp-text-0-3-153"
             x="50%"
             y="-48%"
           >
@@ -226,7 +226,7 @@ exports[`Storyshots Components/GaugeProgress Color green 1`] = `
 `;
 
 exports[`Storyshots Components/GaugeProgress Dynamic 1`] = `
-<Wrapper>
+<Statefull>
   <div>
     <GaugeProgress
       color="green"
@@ -247,25 +247,25 @@ exports[`Storyshots Components/GaugeProgress Dynamic 1`] = `
         <GaugeProgressComp
           classes={
             Object {
-              "blue": "GaugeProgressComp-blue-0-3-147",
-              "green": "GaugeProgressComp-green-0-3-148",
-              "root": "GaugeProgressComp-root-0-3-145",
-              "text": "GaugeProgressComp-text-0-3-149",
-              "track": "GaugeProgressComp-track-0-3-146",
+              "blue": "GaugeProgressComp-blue-0-3-151",
+              "green": "GaugeProgressComp-green-0-3-152",
+              "root": "GaugeProgressComp-root-0-3-149",
+              "text": "GaugeProgressComp-text-0-3-153",
+              "track": "GaugeProgressComp-track-0-3-150",
             }
           }
           color="green"
           value={50}
         >
           <svg
-            className="GaugeProgressComp-root-0-3-145"
+            className="GaugeProgressComp-root-0-3-149"
             height="120px"
             viewBox="0 0 120 120"
             width="120px"
           >
             <g>
               <circle
-                className="GaugeProgressComp-track-0-3-146"
+                className="GaugeProgressComp-track-0-3-150"
                 cx="60"
                 cy="60"
                 fill="none"
@@ -273,7 +273,7 @@ exports[`Storyshots Components/GaugeProgress Dynamic 1`] = `
                 strokeWidth="12"
               />
               <circle
-                className="GaugeProgressComp-green-0-3-148"
+                className="GaugeProgressComp-green-0-3-152"
                 cx="60"
                 cy="60"
                 fill="none"
@@ -288,7 +288,7 @@ exports[`Storyshots Components/GaugeProgress Dynamic 1`] = `
                 }
               />
               <text
-                className="GaugeProgressComp-text-0-3-149"
+                className="GaugeProgressComp-text-0-3-153"
                 x="50%"
                 y="-48%"
               >
@@ -310,7 +310,7 @@ exports[`Storyshots Components/GaugeProgress Dynamic 1`] = `
       value={50}
     />
   </div>
-</Wrapper>
+</Statefull>
 `;
 
 exports[`Storyshots Components/GaugeProgress Resize 1`] = `
@@ -347,11 +347,11 @@ exports[`Storyshots Components/GaugeProgress Resize 1`] = `
       <GaugeProgressComp
         classes={
           Object {
-            "blue": "GaugeProgressComp-blue-0-3-147",
-            "green": "GaugeProgressComp-green-0-3-148",
-            "root": "GaugeProgressComp-root-0-3-145",
-            "text": "GaugeProgressComp-text-0-3-149",
-            "track": "GaugeProgressComp-track-0-3-146",
+            "blue": "GaugeProgressComp-blue-0-3-151",
+            "green": "GaugeProgressComp-green-0-3-152",
+            "root": "GaugeProgressComp-root-0-3-149",
+            "text": "GaugeProgressComp-text-0-3-153",
+            "track": "GaugeProgressComp-track-0-3-150",
           }
         }
         color="green"
@@ -361,14 +361,14 @@ exports[`Storyshots Components/GaugeProgress Resize 1`] = `
         width="100%"
       >
         <svg
-          className="GaugeProgressComp-root-0-3-145"
+          className="GaugeProgressComp-root-0-3-149"
           height="100%"
           viewBox="0 0 120 120"
           width="100%"
         >
           <g>
             <circle
-              className="GaugeProgressComp-track-0-3-146"
+              className="GaugeProgressComp-track-0-3-150"
               cx="60"
               cy="60"
               fill="none"
@@ -376,7 +376,7 @@ exports[`Storyshots Components/GaugeProgress Resize 1`] = `
               strokeWidth="12"
             />
             <circle
-              className="GaugeProgressComp-green-0-3-148"
+              className="GaugeProgressComp-green-0-3-152"
               cx="60"
               cy="60"
               fill="none"
@@ -391,7 +391,7 @@ exports[`Storyshots Components/GaugeProgress Resize 1`] = `
               }
             />
             <text
-              className="GaugeProgressComp-text-0-3-149"
+              className="GaugeProgressComp-text-0-3-153"
               x="50%"
               y="-48%"
             >
@@ -427,11 +427,11 @@ exports[`Storyshots Components/GaugeProgress Round 1`] = `
     <GaugeProgressComp
       classes={
         Object {
-          "blue": "GaugeProgressComp-blue-0-3-147",
-          "green": "GaugeProgressComp-green-0-3-148",
-          "root": "GaugeProgressComp-root-0-3-145",
-          "text": "GaugeProgressComp-text-0-3-149",
-          "track": "GaugeProgressComp-track-0-3-146",
+          "blue": "GaugeProgressComp-blue-0-3-151",
+          "green": "GaugeProgressComp-green-0-3-152",
+          "root": "GaugeProgressComp-root-0-3-149",
+          "text": "GaugeProgressComp-text-0-3-153",
+          "track": "GaugeProgressComp-track-0-3-150",
         }
       }
       color="green"
@@ -439,14 +439,14 @@ exports[`Storyshots Components/GaugeProgress Round 1`] = `
       value={60}
     >
       <svg
-        className="GaugeProgressComp-root-0-3-145"
+        className="GaugeProgressComp-root-0-3-149"
         height="120px"
         viewBox="0 0 120 120"
         width="120px"
       >
         <g>
           <circle
-            className="GaugeProgressComp-track-0-3-146"
+            className="GaugeProgressComp-track-0-3-150"
             cx="60"
             cy="60"
             fill="none"
@@ -454,7 +454,7 @@ exports[`Storyshots Components/GaugeProgress Round 1`] = `
             strokeWidth="12"
           />
           <circle
-            className="GaugeProgressComp-green-0-3-148"
+            className="GaugeProgressComp-green-0-3-152"
             cx="60"
             cy="60"
             fill="none"
@@ -469,7 +469,7 @@ exports[`Storyshots Components/GaugeProgress Round 1`] = `
             }
           />
           <text
-            className="GaugeProgressComp-text-0-3-149"
+            className="GaugeProgressComp-text-0-3-153"
             x="50%"
             y="-48%"
           >
@@ -502,25 +502,25 @@ exports[`Storyshots Components/GaugeProgress Value 50% 1`] = `
     <GaugeProgressComp
       classes={
         Object {
-          "blue": "GaugeProgressComp-blue-0-3-147",
-          "green": "GaugeProgressComp-green-0-3-148",
-          "root": "GaugeProgressComp-root-0-3-145",
-          "text": "GaugeProgressComp-text-0-3-149",
-          "track": "GaugeProgressComp-track-0-3-146",
+          "blue": "GaugeProgressComp-blue-0-3-151",
+          "green": "GaugeProgressComp-green-0-3-152",
+          "root": "GaugeProgressComp-root-0-3-149",
+          "text": "GaugeProgressComp-text-0-3-153",
+          "track": "GaugeProgressComp-track-0-3-150",
         }
       }
       color="green"
       value={50}
     >
       <svg
-        className="GaugeProgressComp-root-0-3-145"
+        className="GaugeProgressComp-root-0-3-149"
         height="120px"
         viewBox="0 0 120 120"
         width="120px"
       >
         <g>
           <circle
-            className="GaugeProgressComp-track-0-3-146"
+            className="GaugeProgressComp-track-0-3-150"
             cx="60"
             cy="60"
             fill="none"
@@ -528,7 +528,7 @@ exports[`Storyshots Components/GaugeProgress Value 50% 1`] = `
             strokeWidth="12"
           />
           <circle
-            className="GaugeProgressComp-green-0-3-148"
+            className="GaugeProgressComp-green-0-3-152"
             cx="60"
             cy="60"
             fill="none"
@@ -543,7 +543,7 @@ exports[`Storyshots Components/GaugeProgress Value 50% 1`] = `
             }
           />
           <text
-            className="GaugeProgressComp-text-0-3-149"
+            className="GaugeProgressComp-text-0-3-153"
             x="50%"
             y="-48%"
           >
@@ -576,25 +576,25 @@ exports[`Storyshots Components/GaugeProgress Value 75% 1`] = `
     <GaugeProgressComp
       classes={
         Object {
-          "blue": "GaugeProgressComp-blue-0-3-147",
-          "green": "GaugeProgressComp-green-0-3-148",
-          "root": "GaugeProgressComp-root-0-3-145",
-          "text": "GaugeProgressComp-text-0-3-149",
-          "track": "GaugeProgressComp-track-0-3-146",
+          "blue": "GaugeProgressComp-blue-0-3-151",
+          "green": "GaugeProgressComp-green-0-3-152",
+          "root": "GaugeProgressComp-root-0-3-149",
+          "text": "GaugeProgressComp-text-0-3-153",
+          "track": "GaugeProgressComp-track-0-3-150",
         }
       }
       color="green"
       value={75}
     >
       <svg
-        className="GaugeProgressComp-root-0-3-145"
+        className="GaugeProgressComp-root-0-3-149"
         height="120px"
         viewBox="0 0 120 120"
         width="120px"
       >
         <g>
           <circle
-            className="GaugeProgressComp-track-0-3-146"
+            className="GaugeProgressComp-track-0-3-150"
             cx="60"
             cy="60"
             fill="none"
@@ -602,7 +602,7 @@ exports[`Storyshots Components/GaugeProgress Value 75% 1`] = `
             strokeWidth="12"
           />
           <circle
-            className="GaugeProgressComp-green-0-3-148"
+            className="GaugeProgressComp-green-0-3-152"
             cx="60"
             cy="60"
             fill="none"
@@ -617,7 +617,7 @@ exports[`Storyshots Components/GaugeProgress Value 75% 1`] = `
             }
           />
           <text
-            className="GaugeProgressComp-text-0-3-149"
+            className="GaugeProgressComp-text-0-3-153"
             x="50%"
             y="-48%"
           >
@@ -650,25 +650,25 @@ exports[`Storyshots Components/GaugeProgress Value 100% 1`] = `
     <GaugeProgressComp
       classes={
         Object {
-          "blue": "GaugeProgressComp-blue-0-3-147",
-          "green": "GaugeProgressComp-green-0-3-148",
-          "root": "GaugeProgressComp-root-0-3-145",
-          "text": "GaugeProgressComp-text-0-3-149",
-          "track": "GaugeProgressComp-track-0-3-146",
+          "blue": "GaugeProgressComp-blue-0-3-151",
+          "green": "GaugeProgressComp-green-0-3-152",
+          "root": "GaugeProgressComp-root-0-3-149",
+          "text": "GaugeProgressComp-text-0-3-153",
+          "track": "GaugeProgressComp-track-0-3-150",
         }
       }
       color="green"
       value={100}
     >
       <svg
-        className="GaugeProgressComp-root-0-3-145"
+        className="GaugeProgressComp-root-0-3-149"
         height="120px"
         viewBox="0 0 120 120"
         width="120px"
       >
         <g>
           <circle
-            className="GaugeProgressComp-track-0-3-146"
+            className="GaugeProgressComp-track-0-3-150"
             cx="60"
             cy="60"
             fill="none"
@@ -676,7 +676,7 @@ exports[`Storyshots Components/GaugeProgress Value 100% 1`] = `
             strokeWidth="12"
           />
           <circle
-            className="GaugeProgressComp-green-0-3-148"
+            className="GaugeProgressComp-green-0-3-152"
             cx="60"
             cy="60"
             fill="none"
@@ -691,7 +691,7 @@ exports[`Storyshots Components/GaugeProgress Value 100% 1`] = `
             }
           />
           <text
-            className="GaugeProgressComp-text-0-3-149"
+            className="GaugeProgressComp-text-0-3-153"
             x="50%"
             y="-48%"
           >
@@ -724,25 +724,25 @@ exports[`Storyshots Components/GaugeProgress Value 150% 1`] = `
     <GaugeProgressComp
       classes={
         Object {
-          "blue": "GaugeProgressComp-blue-0-3-147",
-          "green": "GaugeProgressComp-green-0-3-148",
-          "root": "GaugeProgressComp-root-0-3-145",
-          "text": "GaugeProgressComp-text-0-3-149",
-          "track": "GaugeProgressComp-track-0-3-146",
+          "blue": "GaugeProgressComp-blue-0-3-151",
+          "green": "GaugeProgressComp-green-0-3-152",
+          "root": "GaugeProgressComp-root-0-3-149",
+          "text": "GaugeProgressComp-text-0-3-153",
+          "track": "GaugeProgressComp-track-0-3-150",
         }
       }
       color="green"
       value={150}
     >
       <svg
-        className="GaugeProgressComp-root-0-3-145"
+        className="GaugeProgressComp-root-0-3-149"
         height="120px"
         viewBox="0 0 120 120"
         width="120px"
       >
         <g>
           <circle
-            className="GaugeProgressComp-track-0-3-146"
+            className="GaugeProgressComp-track-0-3-150"
             cx="60"
             cy="60"
             fill="none"
@@ -750,7 +750,7 @@ exports[`Storyshots Components/GaugeProgress Value 150% 1`] = `
             strokeWidth="12"
           />
           <circle
-            className="GaugeProgressComp-green-0-3-148"
+            className="GaugeProgressComp-green-0-3-152"
             cx="60"
             cy="60"
             fill="none"
@@ -765,7 +765,7 @@ exports[`Storyshots Components/GaugeProgress Value 150% 1`] = `
             }
           />
           <text
-            className="GaugeProgressComp-text-0-3-149"
+            className="GaugeProgressComp-text-0-3-153"
             x="50%"
             y="-48%"
           >

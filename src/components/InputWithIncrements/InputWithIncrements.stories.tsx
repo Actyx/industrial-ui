@@ -19,13 +19,6 @@ import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { InputWithIncrements } from './InputWithIncrements';
 
-const baseProps = {
-  onChange: action('onChange'),
-  incrementMin: 1,
-  incrementMed: 5,
-  incrementMax: 10
-};
-
 storiesOf('Components/InputWithIncrements', module)
   .addParameters({ component: InputWithIncrements })
   .addDecorator(
@@ -33,24 +26,29 @@ storiesOf('Components/InputWithIncrements', module)
       width: 600
     })
   )
-  .add('Base', () => {
-    const props = { ...baseProps };
-    return <InputWithIncrements {...props} />;
-  })
-  .add('Default value', () => {
-    const props = {
-      ...baseProps,
-      defaultValue: 20
-    };
-    return <InputWithIncrements {...props} />;
-  })
-  .add('Calculation delay', () => {
-    const props = {
-      ...baseProps,
-      incrementMin: 1,
-      incrementMed: 10,
-      incrementMax: 100,
-      calculationDelay: 4000
-    };
-    return <InputWithIncrements {...props} />;
-  });
+  .add('Base', () => (
+    <InputWithIncrements
+      incrementMin={1}
+      incrementMed={5}
+      incrementMax={10}
+      onChange={action('onChange')}
+    />
+  ))
+  .add('Default value', () => (
+    <InputWithIncrements
+      incrementMin={1}
+      incrementMed={5}
+      incrementMax={10}
+      defaultValue={20}
+      onChange={action('onChange')}
+    />
+  ))
+  .add('Calculation delay', () => (
+    <InputWithIncrements
+      incrementMin={1}
+      incrementMed={10}
+      incrementMax={100}
+      calculationDelay={4000}
+      onChange={action('onChange')}
+    />
+  ));

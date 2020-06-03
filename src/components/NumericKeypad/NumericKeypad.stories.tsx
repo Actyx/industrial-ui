@@ -19,17 +19,16 @@ import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { NumericKeypad } from './NumericKeypad';
 
-const baseProps = {
-  clear: false,
-  onChange: action('onChange')
-};
-
 storiesOf('Components/NumericKeypad/NumericKeypad', module)
   .addParameters({ component: NumericKeypad })
   .addDecorator(hostDecorator())
-  .add('No initial value', () => <NumericKeypad {...baseProps} />)
-  .add('defaultValue', () => <NumericKeypad {...baseProps} defaultValue={1500} />)
-  .add('decimal', () => <NumericKeypad {...baseProps} decimal />)
-  .add('invalid', () => <NumericKeypad {...baseProps} defaultValue={0} invalid />)
-  .add('hideInput', () => <NumericKeypad {...baseProps} hideInput defaultValue={1500} />)
-  .add('hideNegative', () => <NumericKeypad {...baseProps} hideNegative defaultValue={1500} />);
+  .add('No initial value', () => <NumericKeypad onChange={action('onChange')} />)
+  .add('defaultValue', () => <NumericKeypad onChange={action('onChange')} defaultValue={1500} />)
+  .add('decimal', () => <NumericKeypad onChange={action('onChange')} decimal />)
+  .add('invalid', () => <NumericKeypad onChange={action('onChange')} defaultValue={0} invalid />)
+  .add('hideInput', () => (
+    <NumericKeypad onChange={action('onChange')} hideInput defaultValue={1500} />
+  ))
+  .add('hideNegative', () => (
+    <NumericKeypad onChange={action('onChange')} hideNegative defaultValue={1500} />
+  ));

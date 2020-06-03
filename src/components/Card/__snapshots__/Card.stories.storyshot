@@ -4,7 +4,7 @@ exports[`Storyshots Components/Card/Card Action 1`] = `
 <Card
   action="action"
   color="neutral"
-  content="content"
+  content="Some content"
   header={
     <ForwardRef
       variant="distance"
@@ -13,12 +13,11 @@ exports[`Storyshots Components/Card/Card Action 1`] = `
     </ForwardRef>
   }
   raised={false}
-  size="md"
 >
   <WithStyles(CardComp)
     action="action"
     color="neutral"
-    content="content"
+    content="Some content"
     header={
       <ForwardRef
         variant="distance"
@@ -34,7 +33,6 @@ exports[`Storyshots Components/Card/Card Action 1`] = `
       }
     }
     raised={false}
-    size="md"
     theme={Object {}}
   >
     <CardComp
@@ -52,7 +50,7 @@ exports[`Storyshots Components/Card/Card Action 1`] = `
         }
       }
       color="neutral"
-      content="content"
+      content="Some content"
       header={
         <ForwardRef
           variant="distance"
@@ -61,7 +59,6 @@ exports[`Storyshots Components/Card/Card Action 1`] = `
         </ForwardRef>
       }
       raised={false}
-      size="md"
     >
       <div
         className="CardComp-root-0-3-66 CardComp-md-0-3-67 CardComp-neutral-0-3-69"
@@ -116,7 +113,7 @@ exports[`Storyshots Components/Card/Card Action 1`] = `
         <div
           className="CardComp-content-0-3-72"
         >
-          content
+          Some content
         </div>
         <div
           className="CardComp-action-0-3-73"
@@ -129,10 +126,246 @@ exports[`Storyshots Components/Card/Card Action 1`] = `
 </Card>
 `;
 
-exports[`Storyshots Components/Card/Card Color red 1`] = `
+exports[`Storyshots Components/Card/Card Flat 1`] = `
+<Card
+  color="neutral"
+  content="Some content"
+  header={
+    <ForwardRef
+      variant="distance"
+    >
+      Title card
+    </ForwardRef>
+  }
+  raised={false}
+>
+  <WithStyles(CardComp)
+    color="neutral"
+    content="Some content"
+    header={
+      <ForwardRef
+        variant="distance"
+      >
+        Title card
+      </ForwardRef>
+    }
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    raised={false}
+    theme={Object {}}
+  >
+    <CardComp
+      classes={
+        Object {
+          "action": "CardComp-action-0-3-73",
+          "content": "CardComp-content-0-3-72",
+          "header": "CardComp-header-0-3-71",
+          "md": "CardComp-md-0-3-67",
+          "neutral": "CardComp-neutral-0-3-69",
+          "raised": "CardComp-raised-0-3-68",
+          "red": "CardComp-red-0-3-70",
+          "root": "CardComp-root-0-3-66",
+        }
+      }
+      color="neutral"
+      content="Some content"
+      header={
+        <ForwardRef
+          variant="distance"
+        >
+          Title card
+        </ForwardRef>
+      }
+      raised={false}
+    >
+      <div
+        className="CardComp-root-0-3-66 CardComp-md-0-3-67 CardComp-neutral-0-3-69"
+      >
+        <div
+          className="CardComp-header-0-3-71"
+        >
+          <Typography
+            variant="distance"
+          >
+            <WithStyles(TypographyComp)
+              innerRef={null}
+              jssContext={
+                Object {
+                  "classNamePrefix": "",
+                  "disableStylesGeneration": false,
+                }
+              }
+              theme={Object {}}
+              variant="distance"
+            >
+              <TypographyComp
+                classes={
+                  Object {
+                    "big": "TypographyComp-big-0-3-7",
+                    "bold": "TypographyComp-bold-0-3-1",
+                    "capitalize": "TypographyComp-capitalize-0-3-12",
+                    "distance": "TypographyComp-distance-0-3-6",
+                    "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                    "giant": "TypographyComp-giant-0-3-9",
+                    "heading": "TypographyComp-heading-0-3-8",
+                    "italic": "TypographyComp-italic-0-3-3",
+                    "lowercase": "TypographyComp-lowercase-0-3-11",
+                    "noWrap": "TypographyComp-noWrap-0-3-13",
+                    "semiBold": "TypographyComp-semiBold-0-3-2",
+                    "standard": "TypographyComp-standard-0-3-5",
+                    "subtext": "TypographyComp-subtext-0-3-4",
+                    "uppercase": "TypographyComp-uppercase-0-3-10",
+                  }
+                }
+                variant="distance"
+              >
+                <span
+                  className="TypographyComp-distance-0-3-6"
+                >
+                  Title card
+                </span>
+              </TypographyComp>
+            </WithStyles(TypographyComp)>
+          </Typography>
+        </div>
+        <div
+          className="CardComp-content-0-3-72"
+        >
+          Some content
+        </div>
+      </div>
+    </CardComp>
+  </WithStyles(CardComp)>
+</Card>
+`;
+
+exports[`Storyshots Components/Card/Card Raised 1`] = `
+<Card
+  color="neutral"
+  content="Some content"
+  header={
+    <ForwardRef
+      variant="distance"
+    >
+      Title card
+    </ForwardRef>
+  }
+  raised={true}
+>
+  <WithStyles(CardComp)
+    color="neutral"
+    content="Some content"
+    header={
+      <ForwardRef
+        variant="distance"
+      >
+        Title card
+      </ForwardRef>
+    }
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    raised={true}
+    theme={Object {}}
+  >
+    <CardComp
+      classes={
+        Object {
+          "action": "CardComp-action-0-3-73",
+          "content": "CardComp-content-0-3-72",
+          "header": "CardComp-header-0-3-71",
+          "md": "CardComp-md-0-3-67",
+          "neutral": "CardComp-neutral-0-3-69",
+          "raised": "CardComp-raised-0-3-68",
+          "red": "CardComp-red-0-3-70",
+          "root": "CardComp-root-0-3-66",
+        }
+      }
+      color="neutral"
+      content="Some content"
+      header={
+        <ForwardRef
+          variant="distance"
+        >
+          Title card
+        </ForwardRef>
+      }
+      raised={true}
+    >
+      <div
+        className="CardComp-root-0-3-66 CardComp-raised-0-3-68 CardComp-md-0-3-67 CardComp-neutral-0-3-69"
+      >
+        <div
+          className="CardComp-header-0-3-71"
+        >
+          <Typography
+            variant="distance"
+          >
+            <WithStyles(TypographyComp)
+              innerRef={null}
+              jssContext={
+                Object {
+                  "classNamePrefix": "",
+                  "disableStylesGeneration": false,
+                }
+              }
+              theme={Object {}}
+              variant="distance"
+            >
+              <TypographyComp
+                classes={
+                  Object {
+                    "big": "TypographyComp-big-0-3-7",
+                    "bold": "TypographyComp-bold-0-3-1",
+                    "capitalize": "TypographyComp-capitalize-0-3-12",
+                    "distance": "TypographyComp-distance-0-3-6",
+                    "ellipsis": "TypographyComp-ellipsis-0-3-14",
+                    "giant": "TypographyComp-giant-0-3-9",
+                    "heading": "TypographyComp-heading-0-3-8",
+                    "italic": "TypographyComp-italic-0-3-3",
+                    "lowercase": "TypographyComp-lowercase-0-3-11",
+                    "noWrap": "TypographyComp-noWrap-0-3-13",
+                    "semiBold": "TypographyComp-semiBold-0-3-2",
+                    "standard": "TypographyComp-standard-0-3-5",
+                    "subtext": "TypographyComp-subtext-0-3-4",
+                    "uppercase": "TypographyComp-uppercase-0-3-10",
+                  }
+                }
+                variant="distance"
+              >
+                <span
+                  className="TypographyComp-distance-0-3-6"
+                >
+                  Title card
+                </span>
+              </TypographyComp>
+            </WithStyles(TypographyComp)>
+          </Typography>
+        </div>
+        <div
+          className="CardComp-content-0-3-72"
+        >
+          Some content
+        </div>
+      </div>
+    </CardComp>
+  </WithStyles(CardComp)>
+</Card>
+`;
+
+exports[`Storyshots Components/Card/Card Red color 1`] = `
 <Card
   color="red"
-  content="content"
+  content="Some content"
   header={
     <ForwardRef
       color="#ffffff"
@@ -142,11 +375,10 @@ exports[`Storyshots Components/Card/Card Color red 1`] = `
     </ForwardRef>
   }
   raised={true}
-  size="md"
 >
   <WithStyles(CardComp)
     color="red"
-    content="content"
+    content="Some content"
     header={
       <ForwardRef
         color="#ffffff"
@@ -163,7 +395,6 @@ exports[`Storyshots Components/Card/Card Color red 1`] = `
       }
     }
     raised={true}
-    size="md"
     theme={Object {}}
   >
     <CardComp
@@ -180,7 +411,7 @@ exports[`Storyshots Components/Card/Card Color red 1`] = `
         }
       }
       color="red"
-      content="content"
+      content="Some content"
       header={
         <ForwardRef
           color="#ffffff"
@@ -190,7 +421,6 @@ exports[`Storyshots Components/Card/Card Color red 1`] = `
         </ForwardRef>
       }
       raised={true}
-      size="md"
     >
       <div
         className="CardComp-root-0-3-66 CardComp-raised-0-3-68 CardComp-md-0-3-67 CardComp-red-0-3-70"
@@ -253,249 +483,7 @@ exports[`Storyshots Components/Card/Card Color red 1`] = `
         <div
           className="CardComp-content-0-3-72"
         >
-          content
-        </div>
-      </div>
-    </CardComp>
-  </WithStyles(CardComp)>
-</Card>
-`;
-
-exports[`Storyshots Components/Card/Card Flat 1`] = `
-<Card
-  color="neutral"
-  content="content"
-  header={
-    <ForwardRef
-      variant="distance"
-    >
-      Title card
-    </ForwardRef>
-  }
-  raised={false}
-  size="md"
->
-  <WithStyles(CardComp)
-    color="neutral"
-    content="content"
-    header={
-      <ForwardRef
-        variant="distance"
-      >
-        Title card
-      </ForwardRef>
-    }
-    innerRef={null}
-    jssContext={
-      Object {
-        "classNamePrefix": "",
-        "disableStylesGeneration": false,
-      }
-    }
-    raised={false}
-    size="md"
-    theme={Object {}}
-  >
-    <CardComp
-      classes={
-        Object {
-          "action": "CardComp-action-0-3-73",
-          "content": "CardComp-content-0-3-72",
-          "header": "CardComp-header-0-3-71",
-          "md": "CardComp-md-0-3-67",
-          "neutral": "CardComp-neutral-0-3-69",
-          "raised": "CardComp-raised-0-3-68",
-          "red": "CardComp-red-0-3-70",
-          "root": "CardComp-root-0-3-66",
-        }
-      }
-      color="neutral"
-      content="content"
-      header={
-        <ForwardRef
-          variant="distance"
-        >
-          Title card
-        </ForwardRef>
-      }
-      raised={false}
-      size="md"
-    >
-      <div
-        className="CardComp-root-0-3-66 CardComp-md-0-3-67 CardComp-neutral-0-3-69"
-      >
-        <div
-          className="CardComp-header-0-3-71"
-        >
-          <Typography
-            variant="distance"
-          >
-            <WithStyles(TypographyComp)
-              innerRef={null}
-              jssContext={
-                Object {
-                  "classNamePrefix": "",
-                  "disableStylesGeneration": false,
-                }
-              }
-              theme={Object {}}
-              variant="distance"
-            >
-              <TypographyComp
-                classes={
-                  Object {
-                    "big": "TypographyComp-big-0-3-7",
-                    "bold": "TypographyComp-bold-0-3-1",
-                    "capitalize": "TypographyComp-capitalize-0-3-12",
-                    "distance": "TypographyComp-distance-0-3-6",
-                    "ellipsis": "TypographyComp-ellipsis-0-3-14",
-                    "giant": "TypographyComp-giant-0-3-9",
-                    "heading": "TypographyComp-heading-0-3-8",
-                    "italic": "TypographyComp-italic-0-3-3",
-                    "lowercase": "TypographyComp-lowercase-0-3-11",
-                    "noWrap": "TypographyComp-noWrap-0-3-13",
-                    "semiBold": "TypographyComp-semiBold-0-3-2",
-                    "standard": "TypographyComp-standard-0-3-5",
-                    "subtext": "TypographyComp-subtext-0-3-4",
-                    "uppercase": "TypographyComp-uppercase-0-3-10",
-                  }
-                }
-                variant="distance"
-              >
-                <span
-                  className="TypographyComp-distance-0-3-6"
-                >
-                  Title card
-                </span>
-              </TypographyComp>
-            </WithStyles(TypographyComp)>
-          </Typography>
-        </div>
-        <div
-          className="CardComp-content-0-3-72"
-        >
-          content
-        </div>
-      </div>
-    </CardComp>
-  </WithStyles(CardComp)>
-</Card>
-`;
-
-exports[`Storyshots Components/Card/Card Raised 1`] = `
-<Card
-  color="neutral"
-  content="content"
-  header={
-    <ForwardRef
-      variant="distance"
-    >
-      Title card
-    </ForwardRef>
-  }
-  raised={true}
-  size="md"
->
-  <WithStyles(CardComp)
-    color="neutral"
-    content="content"
-    header={
-      <ForwardRef
-        variant="distance"
-      >
-        Title card
-      </ForwardRef>
-    }
-    innerRef={null}
-    jssContext={
-      Object {
-        "classNamePrefix": "",
-        "disableStylesGeneration": false,
-      }
-    }
-    raised={true}
-    size="md"
-    theme={Object {}}
-  >
-    <CardComp
-      classes={
-        Object {
-          "action": "CardComp-action-0-3-73",
-          "content": "CardComp-content-0-3-72",
-          "header": "CardComp-header-0-3-71",
-          "md": "CardComp-md-0-3-67",
-          "neutral": "CardComp-neutral-0-3-69",
-          "raised": "CardComp-raised-0-3-68",
-          "red": "CardComp-red-0-3-70",
-          "root": "CardComp-root-0-3-66",
-        }
-      }
-      color="neutral"
-      content="content"
-      header={
-        <ForwardRef
-          variant="distance"
-        >
-          Title card
-        </ForwardRef>
-      }
-      raised={true}
-      size="md"
-    >
-      <div
-        className="CardComp-root-0-3-66 CardComp-raised-0-3-68 CardComp-md-0-3-67 CardComp-neutral-0-3-69"
-      >
-        <div
-          className="CardComp-header-0-3-71"
-        >
-          <Typography
-            variant="distance"
-          >
-            <WithStyles(TypographyComp)
-              innerRef={null}
-              jssContext={
-                Object {
-                  "classNamePrefix": "",
-                  "disableStylesGeneration": false,
-                }
-              }
-              theme={Object {}}
-              variant="distance"
-            >
-              <TypographyComp
-                classes={
-                  Object {
-                    "big": "TypographyComp-big-0-3-7",
-                    "bold": "TypographyComp-bold-0-3-1",
-                    "capitalize": "TypographyComp-capitalize-0-3-12",
-                    "distance": "TypographyComp-distance-0-3-6",
-                    "ellipsis": "TypographyComp-ellipsis-0-3-14",
-                    "giant": "TypographyComp-giant-0-3-9",
-                    "heading": "TypographyComp-heading-0-3-8",
-                    "italic": "TypographyComp-italic-0-3-3",
-                    "lowercase": "TypographyComp-lowercase-0-3-11",
-                    "noWrap": "TypographyComp-noWrap-0-3-13",
-                    "semiBold": "TypographyComp-semiBold-0-3-2",
-                    "standard": "TypographyComp-standard-0-3-5",
-                    "subtext": "TypographyComp-subtext-0-3-4",
-                    "uppercase": "TypographyComp-uppercase-0-3-10",
-                  }
-                }
-                variant="distance"
-              >
-                <span
-                  className="TypographyComp-distance-0-3-6"
-                >
-                  Title card
-                </span>
-              </TypographyComp>
-            </WithStyles(TypographyComp)>
-          </Typography>
-        </div>
-        <div
-          className="CardComp-content-0-3-72"
-        >
-          content
+          Some content
         </div>
       </div>
     </CardComp>

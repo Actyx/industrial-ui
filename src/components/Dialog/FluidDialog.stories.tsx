@@ -17,12 +17,23 @@ import { action } from '@storybook/addon-actions';
 import { storiesOf } from '@storybook/react';
 import * as React from 'react';
 import { FluidDialog } from './FluidDialog';
-import { range } from '../../utils';
+import { range, hostDecorator } from '../../utils';
 
-const longContent = range(0, 100).reduce(acc => acc + ' very long content', '');
+const longContent = range(0, 15).reduce(
+  acc =>
+    acc +
+    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur placerat tempus finibus. Donec non mi ante.',
+  ''
+);
 
 storiesOf('Components/Dialog/FluidDialog', module)
   .addParameters({ component: FluidDialog })
+  .addDecorator(
+    hostDecorator({
+      height: 800,
+      width: 800
+    })
+  )
   .add('Base', () => <FluidDialog onClose={action('onClose')} content={'content'} />)
   .add('Long content', () => <FluidDialog onClose={action('onClose')} content={longContent} />)
   .add('Long content with header and footer', () => (

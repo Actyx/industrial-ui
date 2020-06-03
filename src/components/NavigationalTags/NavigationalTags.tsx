@@ -18,14 +18,12 @@ import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 import { COLOR_TAG, Tag as NavigationalTagsTag } from './Tag';
 
-export type NavigationalTagsTag = Readonly<{
-  id: string;
-  name: string;
-  onClose?: () => void;
-}>;
-
 type CompProps = Readonly<{
-  tags: ReadonlyArray<NavigationalTagsTag>;
+  tags: ReadonlyArray<{
+    id: string;
+    name: string;
+    onClose?: () => void;
+  }>;
   onTagClose?: (tagId: string) => void;
 }>;
 

@@ -23,8 +23,9 @@ storiesOf('Components/Scrim', module)
   .addParameters({ component: Scrim })
   .addDecorator(
     hostDecorator({
-      width: '100%',
-      height: '100%'
+      width: 500,
+      height: 500
     })
   )
-  .add('Base', () => <Scrim open onClose={action('onClick')} />);
+  .add('Open', () => <Scrim open onClose={action('onClick')} />)
+  .add('Close', () => <Scrim open={false} onClose={action('onClick')} />);

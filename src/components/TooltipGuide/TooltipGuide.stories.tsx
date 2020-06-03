@@ -14,11 +14,13 @@
  * limitations under the License.
  */
 import { storiesOf } from '@storybook/react';
-import { hostDecorator, LoremIpsumShort } from '../../utils';
+import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { TooltipGuide } from './TooltipGuide';
 
 storiesOf('Components/TooltipGuide', module)
   .addParameters({ component: TooltipGuide })
   .addDecorator(hostDecorator({}))
-  .add('Base', () => <TooltipGuide content={LoremIpsumShort} />);
+  .add('Base', () => (
+    <TooltipGuide content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet ornare est." />
+  ));

@@ -15,57 +15,90 @@
  */
 import { action } from '@storybook/addon-actions';
 import { storiesOf } from '@storybook/react';
-import { hostDecorator } from '../../utils';
 import * as React from 'react';
-import {
-  FooterWithDoubleConfirmation,
-  FooterWithDoubleConfirmationMode
-} from './FooterWithDoubleConfirmation';
-
-const baseProps = {
-  valid: false,
-  mode: 'Normal' as 'Normal',
-  cancelMessage: 'Cancel',
-  confirmMessage: 'Confirm',
-  yesMessage: 'Yes',
-  noMessage: 'No',
-  message: 'Message',
-  onSelectYes: action('onSelectYes'),
-  onSelectNo: action('onSelectNo'),
-  onConfirm: action('onConfirm'),
-  onCancel: action('onCancel')
-};
-
-class AnimationWrapper extends React.Component<{}, { mode: FooterWithDoubleConfirmationMode }> {
-  state: { mode: FooterWithDoubleConfirmationMode } = {
-    mode: 'normal'
-  };
-  render(): React.ReactNode {
-    const { mode } = this.state;
-    return (
-      <FooterWithDoubleConfirmation
-        {...baseProps}
-        valid
-        mode={mode}
-        onSelectYes={action('onSelectYes')}
-        onSelectNo={() => this.setState({ mode: 'normal' })}
-        onConfirm={() => this.setState({ mode: 'confirmation' })}
-      />
-    );
-  }
-}
+import { FooterWithDoubleConfirmation } from './FooterWithDoubleConfirmation';
 
 storiesOf('Components/Dialog/FooterWithDoubleConfirmation', module)
   .addParameters({ component: FooterWithDoubleConfirmation })
-  .addDecorator(hostDecorator({}))
-  .add('Confirm no valid', () => <FooterWithDoubleConfirmation {...baseProps} mode={'normal'} />)
-  .add('Confirm valid', () => <FooterWithDoubleConfirmation {...baseProps} mode={'normal'} valid />)
-  .add('no cancelMessage', () => (
-    <FooterWithDoubleConfirmation {...baseProps} mode={'normal'} cancelMessage={undefined} />
+  .add('Confirm no valid', () => (
+    <FooterWithDoubleConfirmation
+      mode="normal"
+      valid={false}
+      cancelMessage="Cancel"
+      confirmMessage="Confirm"
+      yesMessage="Yes"
+      noMessage="No"
+      message="Message"
+      onSelectYes={action('onSelectYes')}
+      onSelectNo={action('onSelectNo')}
+      onConfirm={action('onConfirm')}
+      onCancel={action('onCancel')}
+    />
+  ))
+  .add('Confirm valid', () => (
+    <FooterWithDoubleConfirmation
+      mode="normal"
+      valid
+      cancelMessage="Cancel"
+      confirmMessage="Confirm"
+      yesMessage="Yes"
+      noMessage="No"
+      message="Message"
+      onSelectYes={action('onSelectYes')}
+      onSelectNo={action('onSelectNo')}
+      onConfirm={action('onConfirm')}
+      onCancel={action('onCancel')}
+    />
+  ))
+  .add('No cancelMessage', () => (
+    <FooterWithDoubleConfirmation
+      mode="normal"
+      valid={false}
+      confirmMessage="Confirm"
+      yesMessage="Yes"
+      noMessage="No"
+      message="Message"
+      onSelectYes={action('onSelectYes')}
+      onSelectNo={action('onSelectNo')}
+      onConfirm={action('onConfirm')}
+      onCancel={action('onCancel')}
+      cancelMessage={undefined}
+    />
   ))
   .add('Mode confirmation', () => (
-    <FooterWithDoubleConfirmation {...baseProps} mode={'confirmation'} />
+    <FooterWithDoubleConfirmation
+      mode={'confirmation'}
+      valid={false}
+      cancelMessage="Cancel"
+      confirmMessage="Confirm"
+      yesMessage="Yes"
+      noMessage="No"
+      message="Message"
+      onSelectYes={action('onSelectYes')}
+      onSelectNo={action('onSelectNo')}
+      onConfirm={action('onConfirm')}
+      onCancel={action('onCancel')}
+    />
   ))
-  .add('Animation', () => {
-    return <AnimationWrapper />;
+  .add('Statefull', () => {
+    function Statefull() {
+      const [mode, setMode] = React.useState<'normal' | 'confirmation'>('normal');
+      return (
+        <FooterWithDoubleConfirmation
+          mode={mode}
+          cancelMessage="Cancel"
+          confirmMessage="Confirm"
+          yesMessage="Yes"
+          noMessage="No"
+          message="Message"
+          onCancel={action('onCancel')}
+          valid
+          onSelectYes={action('onSelectYes')}
+          onSelectNo={() => setMode('normal')}
+          onConfirm={() => setMode('confirmation')}
+        />
+      );
+    }
+
+    return <Statefull />;
   });

@@ -15,19 +15,37 @@
  */
 import { action } from '@storybook/addon-actions';
 import { storiesOf } from '@storybook/react';
-import { hostDecorator, LoremIpsum } from '../../utils';
 import * as React from 'react';
 import { Tabs } from './Tabs';
 
 storiesOf('Components/Tabs', module)
   .addParameters({ component: Tabs })
-  .addDecorator(hostDecorator({}))
   .add('Base', () => (
     <Tabs
       tabs={[<strong key="xxx">Description</strong>, 'Documents']}
       selected={0}
       onSelect={action('onSelect')}
     >
-      {LoremIpsum}
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet ornare est. Fusce eget
+      urna imperdiet, fringilla leo vel, euismod augue.
     </Tabs>
-  ));
+  ))
+  .add('Statefull', () => {
+    const style: React.CSSProperties = { height: 250 };
+
+    const content = {
+      0: <div style={style}>Some content for Description</div>,
+      1: <div style={style}>Some content for Documents</div>
+    };
+
+    function Statefull() {
+      const [tabOpen, setTabOpen] = React.useState<number>(0);
+      return (
+        <Tabs tabs={['Description', 'Documents']} selected={tabOpen} onSelect={x => setTabOpen(x)}>
+          {content[tabOpen]}
+        </Tabs>
+      );
+    }
+
+    return <Statefull />;
+  });

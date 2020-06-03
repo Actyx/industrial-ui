@@ -2,7 +2,6 @@
 
 exports[`Storyshots Components/NumericKeypad/NumericKeypad No initial value 1`] = `
 <NumericKeypad
-  clear={false}
   onChange={[Function]}
 >
   <div>
@@ -30,12 +29,12 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad No initial value 1`] 
           <ClearableInputComp
             classes={
               Object {
-                "icon": "ClearableInputComp-icon-0-3-105",
-                "input": "ClearableInputComp-input-0-3-101",
-                "longInput": "ClearableInputComp-longInput-0-3-102",
-                "root": "ClearableInputComp-root-0-3-100",
-                "searchField": "ClearableInputComp-searchField-0-3-103",
-                "searchFieldBorders": "ClearableInputComp-searchFieldBorders-0-3-104",
+                "icon": "ClearableInputComp-icon-0-3-109",
+                "input": "ClearableInputComp-input-0-3-105",
+                "longInput": "ClearableInputComp-longInput-0-3-106",
+                "root": "ClearableInputComp-root-0-3-104",
+                "searchField": "ClearableInputComp-searchField-0-3-107",
+                "searchFieldBorders": "ClearableInputComp-searchFieldBorders-0-3-108",
               }
             }
             disabledNativeKeyboard={true}
@@ -43,14 +42,14 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad No initial value 1`] 
             value=""
           >
             <div
-              className="ClearableInputComp-root-0-3-100"
+              className="ClearableInputComp-root-0-3-104"
             >
               <div
-                className="ClearableInputComp-input-0-3-101"
+                className="ClearableInputComp-input-0-3-105"
               >
                 <Input
                   blurOnEnter={true}
-                  className="ClearableInputComp-input-0-3-101"
+                  className="ClearableInputComp-input-0-3-105"
                   disabled={true}
                   fullWidth={true}
                   type="text"
@@ -58,7 +57,7 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad No initial value 1`] 
                 >
                   <WithStyles(InputComp)
                     blurOnEnter={true}
-                    className="ClearableInputComp-input-0-3-101"
+                    className="ClearableInputComp-input-0-3-105"
                     disabled={true}
                     fullWidth={true}
                     innerRef={null}
@@ -74,12 +73,12 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad No initial value 1`] 
                   >
                     <InputComp
                       blurOnEnter={true}
-                      className="ClearableInputComp-input-0-3-101"
+                      className="ClearableInputComp-input-0-3-105"
                       classes={
                         Object {
-                          "error": "InputComp-error-0-3-107",
-                          "fullWidth": "InputComp-fullWidth-0-3-108",
-                          "root": "InputComp-root-0-3-106",
+                          "error": "InputComp-error-0-3-111",
+                          "fullWidth": "InputComp-fullWidth-0-3-112",
+                          "root": "InputComp-root-0-3-110",
                         }
                       }
                       disabled={true}
@@ -88,7 +87,7 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad No initial value 1`] 
                       value=""
                     >
                       <input
-                        className="ClearableInputComp-input-0-3-101 InputComp-fullWidth-0-3-108 InputComp-root-0-3-106"
+                        className="ClearableInputComp-input-0-3-105 InputComp-fullWidth-0-3-112 InputComp-root-0-3-110"
                         disabled={true}
                         onKeyDown={[Function]}
                         type="text"
@@ -99,7 +98,7 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad No initial value 1`] 
                 </Input>
               </div>
               <div
-                className="ClearableInputComp-icon-0-3-105"
+                className="ClearableInputComp-icon-0-3-109"
                 onClick={[Function]}
               />
             </div>
@@ -128,8 +127,8 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad No initial value 1`] 
         <KeypadComp
           classes={
             Object {
-              "deleteButton": "KeypadComp-deleteButton-0-3-230",
-              "root": "KeypadComp-root-0-3-229",
+              "deleteButton": "KeypadComp-deleteButton-0-3-231",
+              "root": "KeypadComp-root-0-3-230",
             }
           }
           onDeleteSelect={[Function]}
@@ -137,7 +136,7 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad No initial value 1`] 
           onNumberSelect={[Function]}
         >
           <div
-            className="KeypadComp-root-0-3-229"
+            className="KeypadComp-root-0-3-230"
           >
             <ButtonCircular
               color="neutral"
@@ -1406,14 +1405,14 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad No initial value 1`] 
               </WithStyles(ButtonCircularComp)>
             </ButtonCircular>
             <ButtonCircular
-              className="KeypadComp-deleteButton-0-3-230"
+              className="KeypadComp-deleteButton-0-3-231"
               color="neutral"
               icon={true}
               onSelect={[Function]}
               value="backspace"
             >
               <WithStyles(ButtonCircularComp)
-                className="KeypadComp-deleteButton-0-3-230"
+                className="KeypadComp-deleteButton-0-3-231"
                 color="neutral"
                 icon={true}
                 innerRef={null}
@@ -1428,7 +1427,7 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad No initial value 1`] 
                 value="backspace"
               >
                 <ButtonCircularComp
-                  className="KeypadComp-deleteButton-0-3-230"
+                  className="KeypadComp-deleteButton-0-3-231"
                   classes={
                     Object {
                       "button": "ButtonCircularComp-button-0-3-53",
@@ -1442,7 +1441,7 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad No initial value 1`] 
                   value="backspace"
                 >
                   <div
-                    className="KeypadComp-deleteButton-0-3-230 ButtonCircularComp-neutral-0-3-51"
+                    className="KeypadComp-deleteButton-0-3-231 ButtonCircularComp-neutral-0-3-51"
                     onClick={[Function]}
                   >
                     <TouchRipple
@@ -1490,14 +1489,14 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad No initial value 1`] 
                                 <MUIconComp
                                   classes={
                                     Object {
-                                      "root": "MUIconComp-root-0-3-35 MUIconComp-root-d84-0-3-235",
+                                      "root": "MUIconComp-root-0-3-35 MUIconComp-root-d83-0-3-236",
                                     }
                                   }
                                   fontSize={40}
                                   type="backspace"
                                 >
                                   <i
-                                    className="MUIconComp-root-0-3-35 MUIconComp-root-d84-0-3-235"
+                                    className="MUIconComp-root-0-3-35 MUIconComp-root-d83-0-3-236"
                                   >
                                     backspace
                                   </i>
@@ -1522,7 +1521,6 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad No initial value 1`] 
 
 exports[`Storyshots Components/NumericKeypad/NumericKeypad decimal 1`] = `
 <NumericKeypad
-  clear={false}
   decimal={true}
   onChange={[Function]}
 >
@@ -1551,12 +1549,12 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad decimal 1`] = `
           <ClearableInputComp
             classes={
               Object {
-                "icon": "ClearableInputComp-icon-0-3-105",
-                "input": "ClearableInputComp-input-0-3-101",
-                "longInput": "ClearableInputComp-longInput-0-3-102",
-                "root": "ClearableInputComp-root-0-3-100",
-                "searchField": "ClearableInputComp-searchField-0-3-103",
-                "searchFieldBorders": "ClearableInputComp-searchFieldBorders-0-3-104",
+                "icon": "ClearableInputComp-icon-0-3-109",
+                "input": "ClearableInputComp-input-0-3-105",
+                "longInput": "ClearableInputComp-longInput-0-3-106",
+                "root": "ClearableInputComp-root-0-3-104",
+                "searchField": "ClearableInputComp-searchField-0-3-107",
+                "searchFieldBorders": "ClearableInputComp-searchFieldBorders-0-3-108",
               }
             }
             disabledNativeKeyboard={true}
@@ -1564,14 +1562,14 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad decimal 1`] = `
             value=""
           >
             <div
-              className="ClearableInputComp-root-0-3-100"
+              className="ClearableInputComp-root-0-3-104"
             >
               <div
-                className="ClearableInputComp-input-0-3-101"
+                className="ClearableInputComp-input-0-3-105"
               >
                 <Input
                   blurOnEnter={true}
-                  className="ClearableInputComp-input-0-3-101"
+                  className="ClearableInputComp-input-0-3-105"
                   disabled={true}
                   fullWidth={true}
                   type="text"
@@ -1579,7 +1577,7 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad decimal 1`] = `
                 >
                   <WithStyles(InputComp)
                     blurOnEnter={true}
-                    className="ClearableInputComp-input-0-3-101"
+                    className="ClearableInputComp-input-0-3-105"
                     disabled={true}
                     fullWidth={true}
                     innerRef={null}
@@ -1595,12 +1593,12 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad decimal 1`] = `
                   >
                     <InputComp
                       blurOnEnter={true}
-                      className="ClearableInputComp-input-0-3-101"
+                      className="ClearableInputComp-input-0-3-105"
                       classes={
                         Object {
-                          "error": "InputComp-error-0-3-107",
-                          "fullWidth": "InputComp-fullWidth-0-3-108",
-                          "root": "InputComp-root-0-3-106",
+                          "error": "InputComp-error-0-3-111",
+                          "fullWidth": "InputComp-fullWidth-0-3-112",
+                          "root": "InputComp-root-0-3-110",
                         }
                       }
                       disabled={true}
@@ -1609,7 +1607,7 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad decimal 1`] = `
                       value=""
                     >
                       <input
-                        className="ClearableInputComp-input-0-3-101 InputComp-fullWidth-0-3-108 InputComp-root-0-3-106"
+                        className="ClearableInputComp-input-0-3-105 InputComp-fullWidth-0-3-112 InputComp-root-0-3-110"
                         disabled={true}
                         onKeyDown={[Function]}
                         type="text"
@@ -1620,7 +1618,7 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad decimal 1`] = `
                 </Input>
               </div>
               <div
-                className="ClearableInputComp-icon-0-3-105"
+                className="ClearableInputComp-icon-0-3-109"
                 onClick={[Function]}
               />
             </div>
@@ -1651,8 +1649,8 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad decimal 1`] = `
         <KeypadComp
           classes={
             Object {
-              "deleteButton": "KeypadComp-deleteButton-0-3-230",
-              "root": "KeypadComp-root-0-3-229",
+              "deleteButton": "KeypadComp-deleteButton-0-3-231",
+              "root": "KeypadComp-root-0-3-230",
             }
           }
           onDecimalSelect={[Function]}
@@ -1661,7 +1659,7 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad decimal 1`] = `
           onNumberSelect={[Function]}
         >
           <div
-            className="KeypadComp-root-0-3-229"
+            className="KeypadComp-root-0-3-230"
           >
             <ButtonCircular
               color="neutral"
@@ -3043,14 +3041,14 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad decimal 1`] = `
               </WithStyles(ButtonCircularComp)>
             </ButtonCircular>
             <ButtonCircular
-              className="KeypadComp-deleteButton-0-3-230"
+              className="KeypadComp-deleteButton-0-3-231"
               color="neutral"
               icon={true}
               onSelect={[Function]}
               value="backspace"
             >
               <WithStyles(ButtonCircularComp)
-                className="KeypadComp-deleteButton-0-3-230"
+                className="KeypadComp-deleteButton-0-3-231"
                 color="neutral"
                 icon={true}
                 innerRef={null}
@@ -3065,7 +3063,7 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad decimal 1`] = `
                 value="backspace"
               >
                 <ButtonCircularComp
-                  className="KeypadComp-deleteButton-0-3-230"
+                  className="KeypadComp-deleteButton-0-3-231"
                   classes={
                     Object {
                       "button": "ButtonCircularComp-button-0-3-53",
@@ -3079,7 +3077,7 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad decimal 1`] = `
                   value="backspace"
                 >
                   <div
-                    className="KeypadComp-deleteButton-0-3-230 ButtonCircularComp-neutral-0-3-51"
+                    className="KeypadComp-deleteButton-0-3-231 ButtonCircularComp-neutral-0-3-51"
                     onClick={[Function]}
                   >
                     <TouchRipple
@@ -3127,14 +3125,14 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad decimal 1`] = `
                                 <MUIconComp
                                   classes={
                                     Object {
-                                      "root": "MUIconComp-root-0-3-35 MUIconComp-root-d87-0-3-238",
+                                      "root": "MUIconComp-root-0-3-35 MUIconComp-root-d86-0-3-239",
                                     }
                                   }
                                   fontSize={40}
                                   type="backspace"
                                 >
                                   <i
-                                    className="MUIconComp-root-0-3-35 MUIconComp-root-d87-0-3-238"
+                                    className="MUIconComp-root-0-3-35 MUIconComp-root-d86-0-3-239"
                                   >
                                     backspace
                                   </i>
@@ -3159,7 +3157,6 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad decimal 1`] = `
 
 exports[`Storyshots Components/NumericKeypad/NumericKeypad defaultValue 1`] = `
 <NumericKeypad
-  clear={false}
   defaultValue={1500}
   onChange={[Function]}
 >
@@ -3188,12 +3185,12 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad defaultValue 1`] = `
           <ClearableInputComp
             classes={
               Object {
-                "icon": "ClearableInputComp-icon-0-3-105",
-                "input": "ClearableInputComp-input-0-3-101",
-                "longInput": "ClearableInputComp-longInput-0-3-102",
-                "root": "ClearableInputComp-root-0-3-100",
-                "searchField": "ClearableInputComp-searchField-0-3-103",
-                "searchFieldBorders": "ClearableInputComp-searchFieldBorders-0-3-104",
+                "icon": "ClearableInputComp-icon-0-3-109",
+                "input": "ClearableInputComp-input-0-3-105",
+                "longInput": "ClearableInputComp-longInput-0-3-106",
+                "root": "ClearableInputComp-root-0-3-104",
+                "searchField": "ClearableInputComp-searchField-0-3-107",
+                "searchFieldBorders": "ClearableInputComp-searchFieldBorders-0-3-108",
               }
             }
             disabledNativeKeyboard={true}
@@ -3201,14 +3198,14 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad defaultValue 1`] = `
             value="1500"
           >
             <div
-              className="ClearableInputComp-root-0-3-100"
+              className="ClearableInputComp-root-0-3-104"
             >
               <div
-                className="ClearableInputComp-input-0-3-101"
+                className="ClearableInputComp-input-0-3-105"
               >
                 <Input
                   blurOnEnter={true}
-                  className="ClearableInputComp-input-0-3-101"
+                  className="ClearableInputComp-input-0-3-105"
                   disabled={true}
                   fullWidth={true}
                   type="text"
@@ -3216,7 +3213,7 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad defaultValue 1`] = `
                 >
                   <WithStyles(InputComp)
                     blurOnEnter={true}
-                    className="ClearableInputComp-input-0-3-101"
+                    className="ClearableInputComp-input-0-3-105"
                     disabled={true}
                     fullWidth={true}
                     innerRef={null}
@@ -3232,12 +3229,12 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad defaultValue 1`] = `
                   >
                     <InputComp
                       blurOnEnter={true}
-                      className="ClearableInputComp-input-0-3-101"
+                      className="ClearableInputComp-input-0-3-105"
                       classes={
                         Object {
-                          "error": "InputComp-error-0-3-107",
-                          "fullWidth": "InputComp-fullWidth-0-3-108",
-                          "root": "InputComp-root-0-3-106",
+                          "error": "InputComp-error-0-3-111",
+                          "fullWidth": "InputComp-fullWidth-0-3-112",
+                          "root": "InputComp-root-0-3-110",
                         }
                       }
                       disabled={true}
@@ -3246,7 +3243,7 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad defaultValue 1`] = `
                       value="1500"
                     >
                       <input
-                        className="ClearableInputComp-input-0-3-101 InputComp-fullWidth-0-3-108 InputComp-root-0-3-106"
+                        className="ClearableInputComp-input-0-3-105 InputComp-fullWidth-0-3-112 InputComp-root-0-3-110"
                         disabled={true}
                         onKeyDown={[Function]}
                         type="text"
@@ -3257,7 +3254,7 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad defaultValue 1`] = `
                 </Input>
               </div>
               <div
-                className="ClearableInputComp-icon-0-3-105"
+                className="ClearableInputComp-icon-0-3-109"
                 onClick={[Function]}
               >
                 <MUIcon
@@ -3279,14 +3276,14 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad defaultValue 1`] = `
                     <MUIconComp
                       classes={
                         Object {
-                          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d85-0-3-236",
+                          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d84-0-3-237",
                         }
                       }
                       fontSize={40}
                       type="close"
                     >
                       <i
-                        className="MUIconComp-root-0-3-35 MUIconComp-root-d85-0-3-236"
+                        className="MUIconComp-root-0-3-35 MUIconComp-root-d84-0-3-237"
                       >
                         close
                       </i>
@@ -3320,8 +3317,8 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad defaultValue 1`] = `
         <KeypadComp
           classes={
             Object {
-              "deleteButton": "KeypadComp-deleteButton-0-3-230",
-              "root": "KeypadComp-root-0-3-229",
+              "deleteButton": "KeypadComp-deleteButton-0-3-231",
+              "root": "KeypadComp-root-0-3-230",
             }
           }
           onDeleteSelect={[Function]}
@@ -3329,7 +3326,7 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad defaultValue 1`] = `
           onNumberSelect={[Function]}
         >
           <div
-            className="KeypadComp-root-0-3-229"
+            className="KeypadComp-root-0-3-230"
           >
             <ButtonCircular
               color="neutral"
@@ -4598,14 +4595,14 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad defaultValue 1`] = `
               </WithStyles(ButtonCircularComp)>
             </ButtonCircular>
             <ButtonCircular
-              className="KeypadComp-deleteButton-0-3-230"
+              className="KeypadComp-deleteButton-0-3-231"
               color="neutral"
               icon={true}
               onSelect={[Function]}
               value="backspace"
             >
               <WithStyles(ButtonCircularComp)
-                className="KeypadComp-deleteButton-0-3-230"
+                className="KeypadComp-deleteButton-0-3-231"
                 color="neutral"
                 icon={true}
                 innerRef={null}
@@ -4620,7 +4617,7 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad defaultValue 1`] = `
                 value="backspace"
               >
                 <ButtonCircularComp
-                  className="KeypadComp-deleteButton-0-3-230"
+                  className="KeypadComp-deleteButton-0-3-231"
                   classes={
                     Object {
                       "button": "ButtonCircularComp-button-0-3-53",
@@ -4634,7 +4631,7 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad defaultValue 1`] = `
                   value="backspace"
                 >
                   <div
-                    className="KeypadComp-deleteButton-0-3-230 ButtonCircularComp-neutral-0-3-51"
+                    className="KeypadComp-deleteButton-0-3-231 ButtonCircularComp-neutral-0-3-51"
                     onClick={[Function]}
                   >
                     <TouchRipple
@@ -4682,14 +4679,14 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad defaultValue 1`] = `
                                 <MUIconComp
                                   classes={
                                     Object {
-                                      "root": "MUIconComp-root-0-3-35 MUIconComp-root-d86-0-3-237",
+                                      "root": "MUIconComp-root-0-3-35 MUIconComp-root-d85-0-3-238",
                                     }
                                   }
                                   fontSize={40}
                                   type="backspace"
                                 >
                                   <i
-                                    className="MUIconComp-root-0-3-35 MUIconComp-root-d86-0-3-237"
+                                    className="MUIconComp-root-0-3-35 MUIconComp-root-d85-0-3-238"
                                   >
                                     backspace
                                   </i>
@@ -4714,7 +4711,6 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad defaultValue 1`] = `
 
 exports[`Storyshots Components/NumericKeypad/NumericKeypad hideInput 1`] = `
 <NumericKeypad
-  clear={false}
   defaultValue={1500}
   hideInput={true}
   onChange={[Function]}
@@ -4741,8 +4737,8 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad hideInput 1`] = `
         <KeypadComp
           classes={
             Object {
-              "deleteButton": "KeypadComp-deleteButton-0-3-230",
-              "root": "KeypadComp-root-0-3-229",
+              "deleteButton": "KeypadComp-deleteButton-0-3-231",
+              "root": "KeypadComp-root-0-3-230",
             }
           }
           onDeleteSelect={[Function]}
@@ -4750,7 +4746,7 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad hideInput 1`] = `
           onNumberSelect={[Function]}
         >
           <div
-            className="KeypadComp-root-0-3-229"
+            className="KeypadComp-root-0-3-230"
           >
             <ButtonCircular
               color="neutral"
@@ -6019,14 +6015,14 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad hideInput 1`] = `
               </WithStyles(ButtonCircularComp)>
             </ButtonCircular>
             <ButtonCircular
-              className="KeypadComp-deleteButton-0-3-230"
+              className="KeypadComp-deleteButton-0-3-231"
               color="neutral"
               icon={true}
               onSelect={[Function]}
               value="backspace"
             >
               <WithStyles(ButtonCircularComp)
-                className="KeypadComp-deleteButton-0-3-230"
+                className="KeypadComp-deleteButton-0-3-231"
                 color="neutral"
                 icon={true}
                 innerRef={null}
@@ -6041,7 +6037,7 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad hideInput 1`] = `
                 value="backspace"
               >
                 <ButtonCircularComp
-                  className="KeypadComp-deleteButton-0-3-230"
+                  className="KeypadComp-deleteButton-0-3-231"
                   classes={
                     Object {
                       "button": "ButtonCircularComp-button-0-3-53",
@@ -6055,7 +6051,7 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad hideInput 1`] = `
                   value="backspace"
                 >
                   <div
-                    className="KeypadComp-deleteButton-0-3-230 ButtonCircularComp-neutral-0-3-51"
+                    className="KeypadComp-deleteButton-0-3-231 ButtonCircularComp-neutral-0-3-51"
                     onClick={[Function]}
                   >
                     <TouchRipple
@@ -6103,14 +6099,14 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad hideInput 1`] = `
                                 <MUIconComp
                                   classes={
                                     Object {
-                                      "root": "MUIconComp-root-0-3-35 MUIconComp-root-d90-0-3-241",
+                                      "root": "MUIconComp-root-0-3-35 MUIconComp-root-d89-0-3-242",
                                     }
                                   }
                                   fontSize={40}
                                   type="backspace"
                                 >
                                   <i
-                                    className="MUIconComp-root-0-3-35 MUIconComp-root-d90-0-3-241"
+                                    className="MUIconComp-root-0-3-35 MUIconComp-root-d89-0-3-242"
                                   >
                                     backspace
                                   </i>
@@ -6135,7 +6131,6 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad hideInput 1`] = `
 
 exports[`Storyshots Components/NumericKeypad/NumericKeypad hideNegative 1`] = `
 <NumericKeypad
-  clear={false}
   defaultValue={1500}
   hideNegative={true}
   onChange={[Function]}
@@ -6165,12 +6160,12 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad hideNegative 1`] = `
           <ClearableInputComp
             classes={
               Object {
-                "icon": "ClearableInputComp-icon-0-3-105",
-                "input": "ClearableInputComp-input-0-3-101",
-                "longInput": "ClearableInputComp-longInput-0-3-102",
-                "root": "ClearableInputComp-root-0-3-100",
-                "searchField": "ClearableInputComp-searchField-0-3-103",
-                "searchFieldBorders": "ClearableInputComp-searchFieldBorders-0-3-104",
+                "icon": "ClearableInputComp-icon-0-3-109",
+                "input": "ClearableInputComp-input-0-3-105",
+                "longInput": "ClearableInputComp-longInput-0-3-106",
+                "root": "ClearableInputComp-root-0-3-104",
+                "searchField": "ClearableInputComp-searchField-0-3-107",
+                "searchFieldBorders": "ClearableInputComp-searchFieldBorders-0-3-108",
               }
             }
             disabledNativeKeyboard={true}
@@ -6178,14 +6173,14 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad hideNegative 1`] = `
             value="1500"
           >
             <div
-              className="ClearableInputComp-root-0-3-100"
+              className="ClearableInputComp-root-0-3-104"
             >
               <div
-                className="ClearableInputComp-input-0-3-101"
+                className="ClearableInputComp-input-0-3-105"
               >
                 <Input
                   blurOnEnter={true}
-                  className="ClearableInputComp-input-0-3-101"
+                  className="ClearableInputComp-input-0-3-105"
                   disabled={true}
                   fullWidth={true}
                   type="text"
@@ -6193,7 +6188,7 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad hideNegative 1`] = `
                 >
                   <WithStyles(InputComp)
                     blurOnEnter={true}
-                    className="ClearableInputComp-input-0-3-101"
+                    className="ClearableInputComp-input-0-3-105"
                     disabled={true}
                     fullWidth={true}
                     innerRef={null}
@@ -6209,12 +6204,12 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad hideNegative 1`] = `
                   >
                     <InputComp
                       blurOnEnter={true}
-                      className="ClearableInputComp-input-0-3-101"
+                      className="ClearableInputComp-input-0-3-105"
                       classes={
                         Object {
-                          "error": "InputComp-error-0-3-107",
-                          "fullWidth": "InputComp-fullWidth-0-3-108",
-                          "root": "InputComp-root-0-3-106",
+                          "error": "InputComp-error-0-3-111",
+                          "fullWidth": "InputComp-fullWidth-0-3-112",
+                          "root": "InputComp-root-0-3-110",
                         }
                       }
                       disabled={true}
@@ -6223,7 +6218,7 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad hideNegative 1`] = `
                       value="1500"
                     >
                       <input
-                        className="ClearableInputComp-input-0-3-101 InputComp-fullWidth-0-3-108 InputComp-root-0-3-106"
+                        className="ClearableInputComp-input-0-3-105 InputComp-fullWidth-0-3-112 InputComp-root-0-3-110"
                         disabled={true}
                         onKeyDown={[Function]}
                         type="text"
@@ -6234,7 +6229,7 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad hideNegative 1`] = `
                 </Input>
               </div>
               <div
-                className="ClearableInputComp-icon-0-3-105"
+                className="ClearableInputComp-icon-0-3-109"
                 onClick={[Function]}
               >
                 <MUIcon
@@ -6256,14 +6251,14 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad hideNegative 1`] = `
                     <MUIconComp
                       classes={
                         Object {
-                          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d91-0-3-242",
+                          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d90-0-3-243",
                         }
                       }
                       fontSize={40}
                       type="close"
                     >
                       <i
-                        className="MUIconComp-root-0-3-35 MUIconComp-root-d91-0-3-242"
+                        className="MUIconComp-root-0-3-35 MUIconComp-root-d90-0-3-243"
                       >
                         close
                       </i>
@@ -6299,8 +6294,8 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad hideNegative 1`] = `
         <KeypadComp
           classes={
             Object {
-              "deleteButton": "KeypadComp-deleteButton-0-3-230",
-              "root": "KeypadComp-root-0-3-229",
+              "deleteButton": "KeypadComp-deleteButton-0-3-231",
+              "root": "KeypadComp-root-0-3-230",
             }
           }
           hideNegative={true}
@@ -6309,7 +6304,7 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad hideNegative 1`] = `
           onNumberSelect={[Function]}
         >
           <div
-            className="KeypadComp-root-0-3-229"
+            className="KeypadComp-root-0-3-230"
           >
             <ButtonCircular
               color="neutral"
@@ -7465,14 +7460,14 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad hideNegative 1`] = `
               </WithStyles(ButtonCircularComp)>
             </ButtonCircular>
             <ButtonCircular
-              className="KeypadComp-deleteButton-0-3-230"
+              className="KeypadComp-deleteButton-0-3-231"
               color="neutral"
               icon={true}
               onSelect={[Function]}
               value="backspace"
             >
               <WithStyles(ButtonCircularComp)
-                className="KeypadComp-deleteButton-0-3-230"
+                className="KeypadComp-deleteButton-0-3-231"
                 color="neutral"
                 icon={true}
                 innerRef={null}
@@ -7487,7 +7482,7 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad hideNegative 1`] = `
                 value="backspace"
               >
                 <ButtonCircularComp
-                  className="KeypadComp-deleteButton-0-3-230"
+                  className="KeypadComp-deleteButton-0-3-231"
                   classes={
                     Object {
                       "button": "ButtonCircularComp-button-0-3-53",
@@ -7501,7 +7496,7 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad hideNegative 1`] = `
                   value="backspace"
                 >
                   <div
-                    className="KeypadComp-deleteButton-0-3-230 ButtonCircularComp-neutral-0-3-51"
+                    className="KeypadComp-deleteButton-0-3-231 ButtonCircularComp-neutral-0-3-51"
                     onClick={[Function]}
                   >
                     <TouchRipple
@@ -7549,14 +7544,14 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad hideNegative 1`] = `
                                 <MUIconComp
                                   classes={
                                     Object {
-                                      "root": "MUIconComp-root-0-3-35 MUIconComp-root-d92-0-3-243",
+                                      "root": "MUIconComp-root-0-3-35 MUIconComp-root-d91-0-3-244",
                                     }
                                   }
                                   fontSize={40}
                                   type="backspace"
                                 >
                                   <i
-                                    className="MUIconComp-root-0-3-35 MUIconComp-root-d92-0-3-243"
+                                    className="MUIconComp-root-0-3-35 MUIconComp-root-d91-0-3-244"
                                   >
                                     backspace
                                   </i>
@@ -7581,7 +7576,6 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad hideNegative 1`] = `
 
 exports[`Storyshots Components/NumericKeypad/NumericKeypad invalid 1`] = `
 <NumericKeypad
-  clear={false}
   defaultValue={0}
   invalid={true}
   onChange={[Function]}
@@ -7613,12 +7607,12 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad invalid 1`] = `
           <ClearableInputComp
             classes={
               Object {
-                "icon": "ClearableInputComp-icon-0-3-105",
-                "input": "ClearableInputComp-input-0-3-101",
-                "longInput": "ClearableInputComp-longInput-0-3-102",
-                "root": "ClearableInputComp-root-0-3-100",
-                "searchField": "ClearableInputComp-searchField-0-3-103",
-                "searchFieldBorders": "ClearableInputComp-searchFieldBorders-0-3-104",
+                "icon": "ClearableInputComp-icon-0-3-109",
+                "input": "ClearableInputComp-input-0-3-105",
+                "longInput": "ClearableInputComp-longInput-0-3-106",
+                "root": "ClearableInputComp-root-0-3-104",
+                "searchField": "ClearableInputComp-searchField-0-3-107",
+                "searchFieldBorders": "ClearableInputComp-searchFieldBorders-0-3-108",
               }
             }
             disabledNativeKeyboard={true}
@@ -7627,14 +7621,14 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad invalid 1`] = `
             value="0"
           >
             <div
-              className="ClearableInputComp-root-0-3-100"
+              className="ClearableInputComp-root-0-3-104"
             >
               <div
-                className="ClearableInputComp-input-0-3-101"
+                className="ClearableInputComp-input-0-3-105"
               >
                 <Input
                   blurOnEnter={true}
-                  className="ClearableInputComp-input-0-3-101"
+                  className="ClearableInputComp-input-0-3-105"
                   disabled={true}
                   error={true}
                   fullWidth={true}
@@ -7643,7 +7637,7 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad invalid 1`] = `
                 >
                   <WithStyles(InputComp)
                     blurOnEnter={true}
-                    className="ClearableInputComp-input-0-3-101"
+                    className="ClearableInputComp-input-0-3-105"
                     disabled={true}
                     error={true}
                     fullWidth={true}
@@ -7660,12 +7654,12 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad invalid 1`] = `
                   >
                     <InputComp
                       blurOnEnter={true}
-                      className="ClearableInputComp-input-0-3-101"
+                      className="ClearableInputComp-input-0-3-105"
                       classes={
                         Object {
-                          "error": "InputComp-error-0-3-107",
-                          "fullWidth": "InputComp-fullWidth-0-3-108",
-                          "root": "InputComp-root-0-3-106",
+                          "error": "InputComp-error-0-3-111",
+                          "fullWidth": "InputComp-fullWidth-0-3-112",
+                          "root": "InputComp-root-0-3-110",
                         }
                       }
                       disabled={true}
@@ -7675,7 +7669,7 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad invalid 1`] = `
                       value="0"
                     >
                       <input
-                        className="ClearableInputComp-input-0-3-101 InputComp-fullWidth-0-3-108 InputComp-error-0-3-107"
+                        className="ClearableInputComp-input-0-3-105 InputComp-fullWidth-0-3-112 InputComp-error-0-3-111"
                         disabled={true}
                         onKeyDown={[Function]}
                         type="text"
@@ -7686,7 +7680,7 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad invalid 1`] = `
                 </Input>
               </div>
               <div
-                className="ClearableInputComp-icon-0-3-105"
+                className="ClearableInputComp-icon-0-3-109"
                 onClick={[Function]}
               >
                 <MUIcon
@@ -7708,14 +7702,14 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad invalid 1`] = `
                     <MUIconComp
                       classes={
                         Object {
-                          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d88-0-3-239",
+                          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d87-0-3-240",
                         }
                       }
                       fontSize={40}
                       type="close"
                     >
                       <i
-                        className="MUIconComp-root-0-3-35 MUIconComp-root-d88-0-3-239"
+                        className="MUIconComp-root-0-3-35 MUIconComp-root-d87-0-3-240"
                       >
                         close
                       </i>
@@ -7749,8 +7743,8 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad invalid 1`] = `
         <KeypadComp
           classes={
             Object {
-              "deleteButton": "KeypadComp-deleteButton-0-3-230",
-              "root": "KeypadComp-root-0-3-229",
+              "deleteButton": "KeypadComp-deleteButton-0-3-231",
+              "root": "KeypadComp-root-0-3-230",
             }
           }
           onDeleteSelect={[Function]}
@@ -7758,7 +7752,7 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad invalid 1`] = `
           onNumberSelect={[Function]}
         >
           <div
-            className="KeypadComp-root-0-3-229"
+            className="KeypadComp-root-0-3-230"
           >
             <ButtonCircular
               color="neutral"
@@ -9027,14 +9021,14 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad invalid 1`] = `
               </WithStyles(ButtonCircularComp)>
             </ButtonCircular>
             <ButtonCircular
-              className="KeypadComp-deleteButton-0-3-230"
+              className="KeypadComp-deleteButton-0-3-231"
               color="neutral"
               icon={true}
               onSelect={[Function]}
               value="backspace"
             >
               <WithStyles(ButtonCircularComp)
-                className="KeypadComp-deleteButton-0-3-230"
+                className="KeypadComp-deleteButton-0-3-231"
                 color="neutral"
                 icon={true}
                 innerRef={null}
@@ -9049,7 +9043,7 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad invalid 1`] = `
                 value="backspace"
               >
                 <ButtonCircularComp
-                  className="KeypadComp-deleteButton-0-3-230"
+                  className="KeypadComp-deleteButton-0-3-231"
                   classes={
                     Object {
                       "button": "ButtonCircularComp-button-0-3-53",
@@ -9063,7 +9057,7 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad invalid 1`] = `
                   value="backspace"
                 >
                   <div
-                    className="KeypadComp-deleteButton-0-3-230 ButtonCircularComp-neutral-0-3-51"
+                    className="KeypadComp-deleteButton-0-3-231 ButtonCircularComp-neutral-0-3-51"
                     onClick={[Function]}
                   >
                     <TouchRipple
@@ -9111,14 +9105,14 @@ exports[`Storyshots Components/NumericKeypad/NumericKeypad invalid 1`] = `
                                 <MUIconComp
                                   classes={
                                     Object {
-                                      "root": "MUIconComp-root-0-3-35 MUIconComp-root-d89-0-3-240",
+                                      "root": "MUIconComp-root-0-3-35 MUIconComp-root-d88-0-3-241",
                                     }
                                   }
                                   fontSize={40}
                                   type="backspace"
                                 >
                                   <i
-                                    className="MUIconComp-root-0-3-35 MUIconComp-root-d89-0-3-240"
+                                    className="MUIconComp-root-0-3-35 MUIconComp-root-d88-0-3-241"
                                   >
                                     backspace
                                   </i>

@@ -25,8 +25,8 @@ export type CheckboxColor = 'neutral' | 'primary';
 export type CheckboxState = 'indeterminate' | 'checked' | 'unchecked';
 
 type Props = Readonly<{
-  state: CheckboxState;
-  color?: CheckboxColor;
+  state: 'indeterminate' | 'checked' | 'unchecked';
+  color?: 'neutral' | 'primary';
   disabled?: boolean;
   onClick?: () => void;
 }>;
@@ -49,9 +49,9 @@ export const Checkbox = ({ state, color, disabled, onClick }: Props) => {
           disabled ? 0.5 : 1
         )
       }}
-      onClick={onClick}
+      onClick={disabled ? undefined : onClick}
     >
-      <TouchRipple>
+      <TouchRipple disabled={disabled}>
         <MUIcon fontSize={SIZE} type={iconType} />
       </TouchRipple>
     </div>

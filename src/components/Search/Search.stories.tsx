@@ -19,45 +19,45 @@ import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { Search } from './Search';
 
-const baseProps = {
-  value: '',
-  onFocus: action('onFocus'),
-  onBlur: action('onBlur'),
-  onChange: action('onChange')
-};
-
-const placeholder = 'Search for article group';
-
-class SearchWrapper extends React.Component<{}, { searchTerm: string }> {
-  state = {
-    searchTerm: ''
-  };
-
-  handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    this.setState({ searchTerm: e.target.value });
-    baseProps.onChange(e);
-  };
-
-  render(): React.ReactNode {
-    const { searchTerm } = this.state;
-    const props = { ...baseProps, value: searchTerm, placeholder, onChange: this.handleChange };
-    return <Search {...props} />;
-  }
-}
-
 storiesOf('Components/Search', module)
   .addParameters({ component: Search })
   .addDecorator(hostDecorator())
-  .add('Base', () => {
-    const props = { ...baseProps };
-    return <Search {...props} />;
-  })
-  .add('value', () => {
-    const props = { ...baseProps, value: 'Abc' };
-    return <Search {...props} />;
-  })
-  .add('placeholder', () => {
-    const props = { ...baseProps, placeholder };
-    return <Search {...props} />;
-  })
-  .add('Wrapper', () => <SearchWrapper />);
+  .add('Base', () => (
+    <Search
+      value=""
+      onFocus={action('onFocus')}
+      onBlur={action('onBlur')}
+      onChange={action('onChange')}
+    />
+  ))
+  .add('value', () => (
+    <Search
+      value=""
+      onFocus={action('onFocus')}
+      onBlur={action('onBlur')}
+      onChange={action('onChange')}
+    />
+  ))
+  .add('placeholder', () => (
+    <Search
+      value=""
+      onFocus={action('onFocus')}
+      onBlur={action('onBlur')}
+      onChange={action('onChange')}
+      placeholder="Search for article group"
+    />
+  ))
+  .add('Statefull', () => {
+    function Statefull() {
+      const [value, setValue] = React.useState<string>('');
+      return (
+        <Search
+          value={value}
+          onFocus={action('onFocus')}
+          onBlur={action('onBlur')}
+          onChange={e => setValue(e.target.value)}
+        />
+      );
+    }
+    return <Statefull />;
+  });

@@ -19,17 +19,22 @@ import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { FooterWithConfirmation } from './FooterWithConfirmation';
 
-const baseProps = {
-  disableConfirm: false,
-  confirmMessage: 'Confirm',
-  onConfirm: action('onConfirm'),
-  onCancel: action('onCancel')
-};
-
 storiesOf('Components/Dialog/FooterWithConfirmation', module)
   .addParameters({ component: FooterWithConfirmation })
   .addDecorator(hostDecorator({}))
-  .add('Confirmation', () => <FooterWithConfirmation {...baseProps} />)
+  .add('Confirmation', () => (
+    <FooterWithConfirmation
+      disableConfirm={false}
+      confirmMessage="Confirm"
+      onConfirm={action('onConfirm')}
+      onCancel={action('onCancel')}
+    />
+  ))
   .add('Disable confirmation', () => (
-    <FooterWithConfirmation {...baseProps} confirmMessage="Confirm" disableConfirm />
+    <FooterWithConfirmation
+      disableConfirm
+      confirmMessage="Confirm"
+      onConfirm={action('onConfirm')}
+      onCancel={action('onCancel')}
+    />
   ));

@@ -14,22 +14,7 @@ exports[`Storyshots Components/ToggleButtons Base 1`] = `
       },
       Object {
         "id": "third",
-        "label": <React.Fragment>
-          <ForwardRef
-            bold={true}
-            color="inherit"
-            variant="standard"
-          >
-            PCS
-          </ForwardRef>
-           
-          <ForwardRef
-            color="inherit"
-            variant="subtext"
-          >
-            (output)
-          </ForwardRef>
-        </React.Fragment>,
+        "label": "Third",
       },
     ]
   }
@@ -49,22 +34,7 @@ exports[`Storyshots Components/ToggleButtons Base 1`] = `
         },
         Object {
           "id": "third",
-          "label": <React.Fragment>
-            <ForwardRef
-              bold={true}
-              color="inherit"
-              variant="standard"
-            >
-              PCS
-            </ForwardRef>
-             
-            <ForwardRef
-              color="inherit"
-              variant="subtext"
-            >
-              (output)
-            </ForwardRef>
-          </React.Fragment>,
+          "label": "Third",
         },
       ]
     }
@@ -80,10 +50,10 @@ exports[`Storyshots Components/ToggleButtons Base 1`] = `
     <ToggleButtons
       classes={
         Object {
-          "container": "ToggleButtons-container-0-3-346",
-          "item": "ToggleButtons-item-0-3-347",
-          "root": "ToggleButtons-root-0-3-345",
-          "selectedItem": "ToggleButtons-selectedItem-0-3-348",
+          "container": "ToggleButtons-container-0-3-347",
+          "item": "ToggleButtons-item-0-3-348",
+          "root": "ToggleButtons-root-0-3-346",
+          "selectedItem": "ToggleButtons-selectedItem-0-3-349",
         }
       }
       items={
@@ -98,158 +68,38 @@ exports[`Storyshots Components/ToggleButtons Base 1`] = `
           },
           Object {
             "id": "third",
-            "label": <React.Fragment>
-              <ForwardRef
-                bold={true}
-                color="inherit"
-                variant="standard"
-              >
-                PCS
-              </ForwardRef>
-               
-              <ForwardRef
-                color="inherit"
-                variant="subtext"
-              >
-                (output)
-              </ForwardRef>
-            </React.Fragment>,
+            "label": "Third",
           },
         ]
       }
       onToggle={[Function]}
     >
       <div
-        className="ToggleButtons-root-0-3-345"
+        className="ToggleButtons-root-0-3-346"
       >
         <div
-          className="ToggleButtons-container-0-3-346"
+          className="ToggleButtons-container-0-3-347"
         >
           <div
-            className="ToggleButtons-item-0-3-347"
+            className="ToggleButtons-item-0-3-348"
             key="first"
             onClick={[Function]}
           >
             First
           </div>
           <div
-            className="ToggleButtons-item-0-3-347"
+            className="ToggleButtons-item-0-3-348"
             key="second"
             onClick={[Function]}
           >
             Second longer item
           </div>
           <div
-            className="ToggleButtons-item-0-3-347"
+            className="ToggleButtons-item-0-3-348"
             key="third"
             onClick={[Function]}
           >
-            <Typography
-              bold={true}
-              color="inherit"
-              variant="standard"
-            >
-              <WithStyles(TypographyComp)
-                bold={true}
-                color="inherit"
-                innerRef={null}
-                jssContext={
-                  Object {
-                    "classNamePrefix": "",
-                    "disableStylesGeneration": false,
-                  }
-                }
-                theme={Object {}}
-                variant="standard"
-              >
-                <TypographyComp
-                  bold={true}
-                  classes={
-                    Object {
-                      "big": "TypographyComp-big-0-3-7",
-                      "bold": "TypographyComp-bold-0-3-1",
-                      "capitalize": "TypographyComp-capitalize-0-3-12",
-                      "distance": "TypographyComp-distance-0-3-6",
-                      "ellipsis": "TypographyComp-ellipsis-0-3-14",
-                      "giant": "TypographyComp-giant-0-3-9",
-                      "heading": "TypographyComp-heading-0-3-8",
-                      "italic": "TypographyComp-italic-0-3-3",
-                      "lowercase": "TypographyComp-lowercase-0-3-11",
-                      "noWrap": "TypographyComp-noWrap-0-3-13",
-                      "semiBold": "TypographyComp-semiBold-0-3-2",
-                      "standard": "TypographyComp-standard-0-3-5",
-                      "subtext": "TypographyComp-subtext-0-3-4",
-                      "uppercase": "TypographyComp-uppercase-0-3-10",
-                    }
-                  }
-                  color="inherit"
-                  variant="standard"
-                >
-                  <span
-                    className="TypographyComp-standard-0-3-5 TypographyComp-bold-0-3-1"
-                    style={
-                      Object {
-                        "color": "inherit",
-                      }
-                    }
-                  >
-                    PCS
-                  </span>
-                </TypographyComp>
-              </WithStyles(TypographyComp)>
-            </Typography>
-             
-            <Typography
-              color="inherit"
-              variant="subtext"
-            >
-              <WithStyles(TypographyComp)
-                color="inherit"
-                innerRef={null}
-                jssContext={
-                  Object {
-                    "classNamePrefix": "",
-                    "disableStylesGeneration": false,
-                  }
-                }
-                theme={Object {}}
-                variant="subtext"
-              >
-                <TypographyComp
-                  classes={
-                    Object {
-                      "big": "TypographyComp-big-0-3-7",
-                      "bold": "TypographyComp-bold-0-3-1",
-                      "capitalize": "TypographyComp-capitalize-0-3-12",
-                      "distance": "TypographyComp-distance-0-3-6",
-                      "ellipsis": "TypographyComp-ellipsis-0-3-14",
-                      "giant": "TypographyComp-giant-0-3-9",
-                      "heading": "TypographyComp-heading-0-3-8",
-                      "italic": "TypographyComp-italic-0-3-3",
-                      "lowercase": "TypographyComp-lowercase-0-3-11",
-                      "noWrap": "TypographyComp-noWrap-0-3-13",
-                      "semiBold": "TypographyComp-semiBold-0-3-2",
-                      "standard": "TypographyComp-standard-0-3-5",
-                      "subtext": "TypographyComp-subtext-0-3-4",
-                      "uppercase": "TypographyComp-uppercase-0-3-10",
-                    }
-                  }
-                  color="inherit"
-                  variant="subtext"
-                >
-                  <span
-                    className="TypographyComp-subtext-0-3-4"
-                    style={
-                      Object {
-                        "color": "inherit",
-                      }
-                    }
-                  >
-                    (output)
-                  </span>
-                </TypographyComp>
-              </WithStyles(TypographyComp)>
-            </Typography>
+            Third
           </div>
         </div>
       </div>
@@ -261,6 +111,116 @@ exports[`Storyshots Components/ToggleButtons Base 1`] = `
 exports[`Storyshots Components/ToggleButtons initToggledItemId 1`] = `
 <JssContextSubscriber(ToggleButtons)
   initToggledItemId="third"
+  items={
+    Array [
+      Object {
+        "id": "first",
+        "label": "First",
+      },
+      Object {
+        "id": "second",
+        "label": "Second longer item",
+      },
+      Object {
+        "id": "third",
+        "label": "Third",
+      },
+    ]
+  }
+  onToggle={[Function]}
+>
+  <WithStyles(ToggleButtons)
+    initToggledItemId="third"
+    innerRef={null}
+    items={
+      Array [
+        Object {
+          "id": "first",
+          "label": "First",
+        },
+        Object {
+          "id": "second",
+          "label": "Second longer item",
+        },
+        Object {
+          "id": "third",
+          "label": "Third",
+        },
+      ]
+    }
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onToggle={[Function]}
+    theme={Object {}}
+  >
+    <ToggleButtons
+      classes={
+        Object {
+          "container": "ToggleButtons-container-0-3-347",
+          "item": "ToggleButtons-item-0-3-348",
+          "root": "ToggleButtons-root-0-3-346",
+          "selectedItem": "ToggleButtons-selectedItem-0-3-349",
+        }
+      }
+      initToggledItemId="third"
+      items={
+        Array [
+          Object {
+            "id": "first",
+            "label": "First",
+          },
+          Object {
+            "id": "second",
+            "label": "Second longer item",
+          },
+          Object {
+            "id": "third",
+            "label": "Third",
+          },
+        ]
+      }
+      onToggle={[Function]}
+    >
+      <div
+        className="ToggleButtons-root-0-3-346"
+      >
+        <div
+          className="ToggleButtons-container-0-3-347"
+        >
+          <div
+            className="ToggleButtons-item-0-3-348"
+            key="first"
+            onClick={[Function]}
+          >
+            First
+          </div>
+          <div
+            className="ToggleButtons-item-0-3-348"
+            key="second"
+            onClick={[Function]}
+          >
+            Second longer item
+          </div>
+          <div
+            className="ToggleButtons-item-0-3-348 ToggleButtons-selectedItem-0-3-349"
+            key="third"
+            onClick={[Function]}
+          >
+            Third
+          </div>
+        </div>
+      </div>
+    </ToggleButtons>
+  </WithStyles(ToggleButtons)>
+</JssContextSubscriber(ToggleButtons)>
+`;
+
+exports[`Storyshots Components/ToggleButtons items 1`] = `
+<JssContextSubscriber(ToggleButtons)
   items={
     Array [
       Object {
@@ -295,7 +255,6 @@ exports[`Storyshots Components/ToggleButtons initToggledItemId 1`] = `
   onToggle={[Function]}
 >
   <WithStyles(ToggleButtons)
-    initToggledItemId="third"
     innerRef={null}
     items={
       Array [
@@ -340,13 +299,12 @@ exports[`Storyshots Components/ToggleButtons initToggledItemId 1`] = `
     <ToggleButtons
       classes={
         Object {
-          "container": "ToggleButtons-container-0-3-346",
-          "item": "ToggleButtons-item-0-3-347",
-          "root": "ToggleButtons-root-0-3-345",
-          "selectedItem": "ToggleButtons-selectedItem-0-3-348",
+          "container": "ToggleButtons-container-0-3-347",
+          "item": "ToggleButtons-item-0-3-348",
+          "root": "ToggleButtons-root-0-3-346",
+          "selectedItem": "ToggleButtons-selectedItem-0-3-349",
         }
       }
-      initToggledItemId="third"
       items={
         Array [
           Object {
@@ -381,247 +339,27 @@ exports[`Storyshots Components/ToggleButtons initToggledItemId 1`] = `
       onToggle={[Function]}
     >
       <div
-        className="ToggleButtons-root-0-3-345"
+        className="ToggleButtons-root-0-3-346"
       >
         <div
-          className="ToggleButtons-container-0-3-346"
+          className="ToggleButtons-container-0-3-347"
         >
           <div
-            className="ToggleButtons-item-0-3-347"
+            className="ToggleButtons-item-0-3-348"
             key="first"
             onClick={[Function]}
           >
             First
           </div>
           <div
-            className="ToggleButtons-item-0-3-347"
+            className="ToggleButtons-item-0-3-348"
             key="second"
             onClick={[Function]}
           >
             Second longer item
           </div>
           <div
-            className="ToggleButtons-item-0-3-347 ToggleButtons-selectedItem-0-3-348"
-            key="third"
-            onClick={[Function]}
-          >
-            <Typography
-              bold={true}
-              color="inherit"
-              variant="standard"
-            >
-              <WithStyles(TypographyComp)
-                bold={true}
-                color="inherit"
-                innerRef={null}
-                jssContext={
-                  Object {
-                    "classNamePrefix": "",
-                    "disableStylesGeneration": false,
-                  }
-                }
-                theme={Object {}}
-                variant="standard"
-              >
-                <TypographyComp
-                  bold={true}
-                  classes={
-                    Object {
-                      "big": "TypographyComp-big-0-3-7",
-                      "bold": "TypographyComp-bold-0-3-1",
-                      "capitalize": "TypographyComp-capitalize-0-3-12",
-                      "distance": "TypographyComp-distance-0-3-6",
-                      "ellipsis": "TypographyComp-ellipsis-0-3-14",
-                      "giant": "TypographyComp-giant-0-3-9",
-                      "heading": "TypographyComp-heading-0-3-8",
-                      "italic": "TypographyComp-italic-0-3-3",
-                      "lowercase": "TypographyComp-lowercase-0-3-11",
-                      "noWrap": "TypographyComp-noWrap-0-3-13",
-                      "semiBold": "TypographyComp-semiBold-0-3-2",
-                      "standard": "TypographyComp-standard-0-3-5",
-                      "subtext": "TypographyComp-subtext-0-3-4",
-                      "uppercase": "TypographyComp-uppercase-0-3-10",
-                    }
-                  }
-                  color="inherit"
-                  variant="standard"
-                >
-                  <span
-                    className="TypographyComp-standard-0-3-5 TypographyComp-bold-0-3-1"
-                    style={
-                      Object {
-                        "color": "inherit",
-                      }
-                    }
-                  >
-                    PCS
-                  </span>
-                </TypographyComp>
-              </WithStyles(TypographyComp)>
-            </Typography>
-             
-            <Typography
-              color="inherit"
-              variant="subtext"
-            >
-              <WithStyles(TypographyComp)
-                color="inherit"
-                innerRef={null}
-                jssContext={
-                  Object {
-                    "classNamePrefix": "",
-                    "disableStylesGeneration": false,
-                  }
-                }
-                theme={Object {}}
-                variant="subtext"
-              >
-                <TypographyComp
-                  classes={
-                    Object {
-                      "big": "TypographyComp-big-0-3-7",
-                      "bold": "TypographyComp-bold-0-3-1",
-                      "capitalize": "TypographyComp-capitalize-0-3-12",
-                      "distance": "TypographyComp-distance-0-3-6",
-                      "ellipsis": "TypographyComp-ellipsis-0-3-14",
-                      "giant": "TypographyComp-giant-0-3-9",
-                      "heading": "TypographyComp-heading-0-3-8",
-                      "italic": "TypographyComp-italic-0-3-3",
-                      "lowercase": "TypographyComp-lowercase-0-3-11",
-                      "noWrap": "TypographyComp-noWrap-0-3-13",
-                      "semiBold": "TypographyComp-semiBold-0-3-2",
-                      "standard": "TypographyComp-standard-0-3-5",
-                      "subtext": "TypographyComp-subtext-0-3-4",
-                      "uppercase": "TypographyComp-uppercase-0-3-10",
-                    }
-                  }
-                  color="inherit"
-                  variant="subtext"
-                >
-                  <span
-                    className="TypographyComp-subtext-0-3-4"
-                    style={
-                      Object {
-                        "color": "inherit",
-                      }
-                    }
-                  >
-                    (output)
-                  </span>
-                </TypographyComp>
-              </WithStyles(TypographyComp)>
-            </Typography>
-          </div>
-        </div>
-      </div>
-    </ToggleButtons>
-  </WithStyles(ToggleButtons)>
-</JssContextSubscriber(ToggleButtons)>
-`;
-
-exports[`Storyshots Components/ToggleButtons items 1`] = `
-<JssContextSubscriber(ToggleButtons)
-  items={
-    Array [
-      Object {
-        "id": "third",
-        "label": <React.Fragment>
-          <ForwardRef
-            bold={true}
-            color="inherit"
-            variant="standard"
-          >
-            PCS
-          </ForwardRef>
-           
-          <ForwardRef
-            color="inherit"
-            variant="subtext"
-          >
-            (output)
-          </ForwardRef>
-        </React.Fragment>,
-      },
-    ]
-  }
-  onToggle={[Function]}
->
-  <WithStyles(ToggleButtons)
-    innerRef={null}
-    items={
-      Array [
-        Object {
-          "id": "third",
-          "label": <React.Fragment>
-            <ForwardRef
-              bold={true}
-              color="inherit"
-              variant="standard"
-            >
-              PCS
-            </ForwardRef>
-             
-            <ForwardRef
-              color="inherit"
-              variant="subtext"
-            >
-              (output)
-            </ForwardRef>
-          </React.Fragment>,
-        },
-      ]
-    }
-    jssContext={
-      Object {
-        "classNamePrefix": "",
-        "disableStylesGeneration": false,
-      }
-    }
-    onToggle={[Function]}
-    theme={Object {}}
-  >
-    <ToggleButtons
-      classes={
-        Object {
-          "container": "ToggleButtons-container-0-3-346",
-          "item": "ToggleButtons-item-0-3-347",
-          "root": "ToggleButtons-root-0-3-345",
-          "selectedItem": "ToggleButtons-selectedItem-0-3-348",
-        }
-      }
-      items={
-        Array [
-          Object {
-            "id": "third",
-            "label": <React.Fragment>
-              <ForwardRef
-                bold={true}
-                color="inherit"
-                variant="standard"
-              >
-                PCS
-              </ForwardRef>
-               
-              <ForwardRef
-                color="inherit"
-                variant="subtext"
-              >
-                (output)
-              </ForwardRef>
-            </React.Fragment>,
-          },
-        ]
-      }
-      onToggle={[Function]}
-    >
-      <div
-        className="ToggleButtons-root-0-3-345"
-      >
-        <div
-          className="ToggleButtons-container-0-3-346"
-        >
-          <div
-            className="ToggleButtons-item-0-3-347"
+            className="ToggleButtons-item-0-3-348"
             key="third"
             onClick={[Function]}
           >

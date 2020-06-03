@@ -15,12 +15,12 @@ exports[`Storyshots Components/Divider Base 1`] = `
     <DividerComp
       classes={
         Object {
-          "root": "DividerComp-root-0-3-127",
+          "root": "DividerComp-root-0-3-131",
         }
       }
     >
       <hr
-        className="DividerComp-root-0-3-127"
+        className="DividerComp-root-0-3-131"
       />
     </DividerComp>
   </WithStyles(DividerComp)>

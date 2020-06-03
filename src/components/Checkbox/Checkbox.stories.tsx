@@ -16,28 +16,41 @@
 import { action } from '@storybook/addon-actions';
 import { storiesOf } from '@storybook/react';
 import * as React from 'react';
-import { CheckboxState, CheckboxColor, Checkbox } from './Checkbox';
-
-const state: CheckboxState = 'unchecked';
-const color: CheckboxColor = 'neutral';
-
-const baseProps = {
-  state,
-  color,
-  onClick: action('onChange')
-};
+import { Checkbox } from './Checkbox';
 
 storiesOf('Components/Checkbox', module)
   .addParameters({ component: Checkbox })
-  .add('Indeterminate', () => <Checkbox {...baseProps} state={'indeterminate'} />)
-  .add('Unchecked', () => <Checkbox {...baseProps} />)
-  .add('Checked', () => <Checkbox {...baseProps} state={'checked'} />)
-  .add('Disabled checked', () => <Checkbox {...baseProps} state="checked" disabled />)
-  .add('Primary indeterminate', () => (
-    <Checkbox {...baseProps} color="primary" state="indeterminate" />
+  .add('Indeterminate', () => (
+    <Checkbox state="indeterminate" color="neutral" onClick={action('onClick')} />
   ))
-  .add('Primary unchecked', () => <Checkbox {...baseProps} color="primary" state="unchecked" />)
-  .add('Primary checked', () => <Checkbox {...baseProps} color="primary" state="checked" />)
+  .add('Unchecked', () => (
+    <Checkbox state="unchecked" color="neutral" onClick={action('onClick')} />
+  ))
+  .add('Checked', () => <Checkbox state="checked" color="neutral" onClick={action('onClick')} />)
+  .add('Disabled checked', () => (
+    <Checkbox state="checked" disabled color="neutral" onClick={action('onClick')} />
+  ))
+  .add('Disabled unchecked', () => (
+    <Checkbox state="unchecked" disabled color="neutral" onClick={action('onClick')} />
+  ))
+  .add('Disabled indeterminate', () => (
+    <Checkbox state="indeterminate" disabled color="neutral" onClick={action('onClick')} />
+  ))
+  .add('Primary indeterminate', () => (
+    <Checkbox color="primary" state="indeterminate" onClick={action('onClick')} />
+  ))
+  .add('Primary unchecked', () => (
+    <Checkbox color="primary" state="unchecked" onClick={action('onClick')} />
+  ))
+  .add('Primary checked', () => (
+    <Checkbox color="primary" state="checked" onClick={action('onClick')} />
+  ))
   .add('Primary checked disabled', () => (
-    <Checkbox {...baseProps} color="primary" state="checked" disabled />
+    <Checkbox color="primary" state="checked" disabled onClick={action('onClick')} />
+  ))
+  .add('Primary checked undisabled', () => (
+    <Checkbox color="primary" state="unchecked" disabled onClick={action('onClick')} />
+  ))
+  .add('Primary checked indeterminate', () => (
+    <Checkbox color="primary" state="indeterminate" disabled onClick={action('onClick')} />
   ));

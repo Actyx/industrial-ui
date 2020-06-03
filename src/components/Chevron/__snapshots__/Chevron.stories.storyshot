@@ -29,9 +29,9 @@ exports[`Storyshots Components/Chevron Right-down animate 1`] = `
           animation={true}
           classes={
             Object {
-              "md": "ChevronComp-md-0-3-89",
-              "root": "ChevronComp-root-0-3-88",
-              "sm": "ChevronComp-sm-0-3-90",
+              "md": "ChevronComp-md-0-3-93",
+              "root": "ChevronComp-root-0-3-92",
+              "sm": "ChevronComp-sm-0-3-94",
             }
           }
           down={false}
@@ -54,7 +54,7 @@ exports[`Storyshots Components/Chevron Right-down animate 1`] = `
             unmountOnExit={false}
           >
             <div
-              className="ChevronComp-root-0-3-88 ChevronComp-md-0-3-89"
+              className="ChevronComp-root-0-3-92 ChevronComp-md-0-3-93"
               onClick={[Function]}
               style={
                 Object {
@@ -82,14 +82,14 @@ exports[`Storyshots Components/Chevron Right-down animate 1`] = `
                   <MUIconComp
                     classes={
                       Object {
-                        "root": "MUIconComp-root-0-3-35 MUIconComp-root-d30-0-3-94",
+                        "root": "MUIconComp-root-0-3-35 MUIconComp-root-d34-0-3-98",
                       }
                     }
                     fontSize={45}
                     type="keyboard_arrow_up"
                   >
                     <i
-                      className="MUIconComp-root-0-3-35 MUIconComp-root-d30-0-3-94"
+                      className="MUIconComp-root-0-3-35 MUIconComp-root-d34-0-3-98"
                     >
                       keyboard_arrow_up
                     </i>
@@ -142,9 +142,9 @@ exports[`Storyshots Components/Chevron Size md 1`] = `
     <ChevronComp
       classes={
         Object {
-          "md": "ChevronComp-md-0-3-89",
-          "root": "ChevronComp-root-0-3-88",
-          "sm": "ChevronComp-sm-0-3-90",
+          "md": "ChevronComp-md-0-3-93",
+          "root": "ChevronComp-root-0-3-92",
+          "sm": "ChevronComp-sm-0-3-94",
         }
       }
       size="md"
@@ -165,7 +165,7 @@ exports[`Storyshots Components/Chevron Size md 1`] = `
         unmountOnExit={false}
       >
         <div
-          className="ChevronComp-root-0-3-88 ChevronComp-md-0-3-89"
+          className="ChevronComp-root-0-3-92 ChevronComp-md-0-3-93"
           style={
             Object {
               "transform": "rotate(0deg)",
@@ -192,14 +192,14 @@ exports[`Storyshots Components/Chevron Size md 1`] = `
               <MUIconComp
                 classes={
                   Object {
-                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d28-0-3-92",
+                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d32-0-3-96",
                   }
                 }
                 fontSize={45}
                 type="keyboard_arrow_up"
               >
                 <i
-                  className="MUIconComp-root-0-3-35 MUIconComp-root-d28-0-3-92"
+                  className="MUIconComp-root-0-3-35 MUIconComp-root-d32-0-3-96"
                 >
                   keyboard_arrow_up
                 </i>
@@ -231,9 +231,9 @@ exports[`Storyshots Components/Chevron Size sm 1`] = `
     <ChevronComp
       classes={
         Object {
-          "md": "ChevronComp-md-0-3-89",
-          "root": "ChevronComp-root-0-3-88",
-          "sm": "ChevronComp-sm-0-3-90",
+          "md": "ChevronComp-md-0-3-93",
+          "root": "ChevronComp-root-0-3-92",
+          "sm": "ChevronComp-sm-0-3-94",
         }
       }
       size="sm"
@@ -254,7 +254,7 @@ exports[`Storyshots Components/Chevron Size sm 1`] = `
         unmountOnExit={false}
       >
         <div
-          className="ChevronComp-root-0-3-88 ChevronComp-sm-0-3-90"
+          className="ChevronComp-root-0-3-92 ChevronComp-sm-0-3-94"
           style={
             Object {
               "transform": "rotate(0deg)",
@@ -281,14 +281,14 @@ exports[`Storyshots Components/Chevron Size sm 1`] = `
               <MUIconComp
                 classes={
                   Object {
-                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d27-0-3-91",
+                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d31-0-3-95",
                   }
                 }
                 fontSize={35}
                 type="keyboard_arrow_up"
               >
                 <i
-                  className="MUIconComp-root-0-3-35 MUIconComp-root-d27-0-3-91"
+                  className="MUIconComp-root-0-3-35 MUIconComp-root-d31-0-3-95"
                 >
                   keyboard_arrow_up
                 </i>
@@ -331,9 +331,9 @@ exports[`Storyshots Components/Chevron Up-down animate 1`] = `
           animation={true}
           classes={
             Object {
-              "md": "ChevronComp-md-0-3-89",
-              "root": "ChevronComp-root-0-3-88",
-              "sm": "ChevronComp-sm-0-3-90",
+              "md": "ChevronComp-md-0-3-93",
+              "root": "ChevronComp-root-0-3-92",
+              "sm": "ChevronComp-sm-0-3-94",
             }
           }
           down={false}
@@ -356,7 +356,7 @@ exports[`Storyshots Components/Chevron Up-down animate 1`] = `
             unmountOnExit={false}
           >
             <div
-              className="ChevronComp-root-0-3-88 ChevronComp-md-0-3-89"
+              className="ChevronComp-root-0-3-92 ChevronComp-md-0-3-93"
               onClick={[Function]}
               style={
                 Object {
@@ -384,14 +384,14 @@ exports[`Storyshots Components/Chevron Up-down animate 1`] = `
                   <MUIconComp
                     classes={
                       Object {
-                        "root": "MUIconComp-root-0-3-35 MUIconComp-root-d29-0-3-93",
+                        "root": "MUIconComp-root-0-3-35 MUIconComp-root-d33-0-3-97",
                       }
                     }
                     fontSize={45}
                     type="keyboard_arrow_up"
                   >
                     <i
-                      className="MUIconComp-root-0-3-35 MUIconComp-root-d29-0-3-93"
+                      className="MUIconComp-root-0-3-35 MUIconComp-root-d33-0-3-97"
                     >
                       keyboard_arrow_up
                     </i>
@@ -444,9 +444,9 @@ exports[`Storyshots Components/Chevron onSelect 1`] = `
     <ChevronComp
       classes={
         Object {
-          "md": "ChevronComp-md-0-3-89",
-          "root": "ChevronComp-root-0-3-88",
-          "sm": "ChevronComp-sm-0-3-90",
+          "md": "ChevronComp-md-0-3-93",
+          "root": "ChevronComp-root-0-3-92",
+          "sm": "ChevronComp-sm-0-3-94",
         }
       }
       onSelect={[Function]}
@@ -467,7 +467,7 @@ exports[`Storyshots Components/Chevron onSelect 1`] = `
         unmountOnExit={false}
       >
         <div
-          className="ChevronComp-root-0-3-88 ChevronComp-md-0-3-89"
+          className="ChevronComp-root-0-3-92 ChevronComp-md-0-3-93"
           onClick={[Function]}
           style={
             Object {
@@ -495,14 +495,14 @@ exports[`Storyshots Components/Chevron onSelect 1`] = `
               <MUIconComp
                 classes={
                   Object {
-                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d31-0-3-95",
+                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d35-0-3-99",
                   }
                 }
                 fontSize={45}
                 type="keyboard_arrow_up"
               >
                 <i
-                  className="MUIconComp-root-0-3-35 MUIconComp-root-d31-0-3-95"
+                  className="MUIconComp-root-0-3-35 MUIconComp-root-d35-0-3-99"
                 >
                   keyboard_arrow_up
                 </i>

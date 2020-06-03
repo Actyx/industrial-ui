@@ -36,8 +36,8 @@ export type ButtonColor =
 
 type CompProps = Readonly<{
   className?: string;
-  variant: ButtonVariant;
-  color: ButtonColor;
+  variant: 'flat' | 'raised';
+  color: 'primary' | 'grey' | 'neutral' | 'transparent' | 'green' | 'orange' | 'yellow' | 'red';
   icon?: string;
   text?: React.ReactNode;
   disabled?: boolean;

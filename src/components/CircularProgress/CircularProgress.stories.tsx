@@ -17,13 +17,13 @@ import { storiesOf } from '@storybook/react';
 import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { CircularProgress } from './CircularProgress';
-import { common, red } from '../../colors';
+import { green } from '../../colors';
 
 storiesOf('Components/CircularProgress', module)
   .addParameters({ component: CircularProgress })
   .addDecorator(hostDecorator())
   .add('Variant sm', () => <CircularProgress size="sm" />)
   .add('Variant md', () => <CircularProgress size="md" />)
-  .add('Color', () => (
-    <CircularProgress size="md" colorIndicator={red[500]} colorTrack={common.black} />
+  .add('Custom color', () => (
+    <CircularProgress size="md" colorIndicator={green[500]} colorTrack={green[100]} />
   ));

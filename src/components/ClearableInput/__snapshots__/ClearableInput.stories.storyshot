@@ -24,12 +24,12 @@ exports[`Storyshots Components/ClearableInput Empty value forSearch 1`] = `
     <ClearableInputComp
       classes={
         Object {
-          "icon": "ClearableInputComp-icon-0-3-105",
-          "input": "ClearableInputComp-input-0-3-101",
-          "longInput": "ClearableInputComp-longInput-0-3-102",
-          "root": "ClearableInputComp-root-0-3-100",
-          "searchField": "ClearableInputComp-searchField-0-3-103",
-          "searchFieldBorders": "ClearableInputComp-searchFieldBorders-0-3-104",
+          "icon": "ClearableInputComp-icon-0-3-109",
+          "input": "ClearableInputComp-input-0-3-105",
+          "longInput": "ClearableInputComp-longInput-0-3-106",
+          "root": "ClearableInputComp-root-0-3-104",
+          "searchField": "ClearableInputComp-searchField-0-3-107",
+          "searchFieldBorders": "ClearableInputComp-searchFieldBorders-0-3-108",
         }
       }
       forSearch={true}
@@ -38,14 +38,14 @@ exports[`Storyshots Components/ClearableInput Empty value forSearch 1`] = `
       value=""
     >
       <div
-        className="ClearableInputComp-root-0-3-100 ClearableInputComp-searchFieldBorders-0-3-104"
+        className="ClearableInputComp-root-0-3-104 ClearableInputComp-searchFieldBorders-0-3-108"
       >
         <div
-          className="ClearableInputComp-input-0-3-101"
+          className="ClearableInputComp-input-0-3-105"
         >
           <Input
             blurOnEnter={true}
-            className="ClearableInputComp-input-0-3-101 ClearableInputComp-searchField-0-3-103"
+            className="ClearableInputComp-input-0-3-105 ClearableInputComp-searchField-0-3-107"
             disabled={false}
             fullWidth={true}
             onChange={[Function]}
@@ -54,7 +54,7 @@ exports[`Storyshots Components/ClearableInput Empty value forSearch 1`] = `
           >
             <WithStyles(InputComp)
               blurOnEnter={true}
-              className="ClearableInputComp-input-0-3-101 ClearableInputComp-searchField-0-3-103"
+              className="ClearableInputComp-input-0-3-105 ClearableInputComp-searchField-0-3-107"
               disabled={false}
               fullWidth={true}
               innerRef={null}
@@ -71,12 +71,12 @@ exports[`Storyshots Components/ClearableInput Empty value forSearch 1`] = `
             >
               <InputComp
                 blurOnEnter={true}
-                className="ClearableInputComp-input-0-3-101 ClearableInputComp-searchField-0-3-103"
+                className="ClearableInputComp-input-0-3-105 ClearableInputComp-searchField-0-3-107"
                 classes={
                   Object {
-                    "error": "InputComp-error-0-3-107",
-                    "fullWidth": "InputComp-fullWidth-0-3-108",
-                    "root": "InputComp-root-0-3-106",
+                    "error": "InputComp-error-0-3-111",
+                    "fullWidth": "InputComp-fullWidth-0-3-112",
+                    "root": "InputComp-root-0-3-110",
                   }
                 }
                 disabled={false}
@@ -86,7 +86,7 @@ exports[`Storyshots Components/ClearableInput Empty value forSearch 1`] = `
                 value=""
               >
                 <input
-                  className="ClearableInputComp-input-0-3-101 ClearableInputComp-searchField-0-3-103 InputComp-fullWidth-0-3-108 InputComp-root-0-3-106"
+                  className="ClearableInputComp-input-0-3-105 ClearableInputComp-searchField-0-3-107 InputComp-fullWidth-0-3-112 InputComp-root-0-3-110"
                   disabled={false}
                   onChange={[Function]}
                   onKeyDown={[Function]}
@@ -98,7 +98,7 @@ exports[`Storyshots Components/ClearableInput Empty value forSearch 1`] = `
           </Input>
         </div>
         <div
-          className="ClearableInputComp-icon-0-3-105"
+          className="ClearableInputComp-icon-0-3-109"
           onClick={[Function]}
         >
           <MUIcon
@@ -122,7 +122,7 @@ exports[`Storyshots Components/ClearableInput Empty value forSearch 1`] = `
               <MUIconComp
                 classes={
                   Object {
-                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d34-0-3-111",
+                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d38-0-3-115",
                   }
                 }
                 color="#616161"
@@ -130,7 +130,7 @@ exports[`Storyshots Components/ClearableInput Empty value forSearch 1`] = `
                 type="search"
               >
                 <i
-                  className="MUIconComp-root-0-3-35 MUIconComp-root-d34-0-3-111"
+                  className="MUIconComp-root-0-3-35 MUIconComp-root-d38-0-3-115"
                 >
                   search
                 </i>
@@ -145,7 +145,7 @@ exports[`Storyshots Components/ClearableInput Empty value forSearch 1`] = `
 `;
 
 exports[`Storyshots Components/ClearableInput Interactable 1`] = `
-<Comp>
+<Statefull>
   <ClearableInput
     onChange={[Function]}
     onClearRequested={[Function]}
@@ -167,12 +167,12 @@ exports[`Storyshots Components/ClearableInput Interactable 1`] = `
       <ClearableInputComp
         classes={
           Object {
-            "icon": "ClearableInputComp-icon-0-3-105",
-            "input": "ClearableInputComp-input-0-3-101",
-            "longInput": "ClearableInputComp-longInput-0-3-102",
-            "root": "ClearableInputComp-root-0-3-100",
-            "searchField": "ClearableInputComp-searchField-0-3-103",
-            "searchFieldBorders": "ClearableInputComp-searchFieldBorders-0-3-104",
+            "icon": "ClearableInputComp-icon-0-3-109",
+            "input": "ClearableInputComp-input-0-3-105",
+            "longInput": "ClearableInputComp-longInput-0-3-106",
+            "root": "ClearableInputComp-root-0-3-104",
+            "searchField": "ClearableInputComp-searchField-0-3-107",
+            "searchFieldBorders": "ClearableInputComp-searchFieldBorders-0-3-108",
           }
         }
         onChange={[Function]}
@@ -180,14 +180,14 @@ exports[`Storyshots Components/ClearableInput Interactable 1`] = `
         value=""
       >
         <div
-          className="ClearableInputComp-root-0-3-100"
+          className="ClearableInputComp-root-0-3-104"
         >
           <div
-            className="ClearableInputComp-input-0-3-101"
+            className="ClearableInputComp-input-0-3-105"
           >
             <Input
               blurOnEnter={true}
-              className="ClearableInputComp-input-0-3-101"
+              className="ClearableInputComp-input-0-3-105"
               disabled={false}
               fullWidth={true}
               onChange={[Function]}
@@ -196,7 +196,7 @@ exports[`Storyshots Components/ClearableInput Interactable 1`] = `
             >
               <WithStyles(InputComp)
                 blurOnEnter={true}
-                className="ClearableInputComp-input-0-3-101"
+                className="ClearableInputComp-input-0-3-105"
                 disabled={false}
                 fullWidth={true}
                 innerRef={null}
@@ -213,12 +213,12 @@ exports[`Storyshots Components/ClearableInput Interactable 1`] = `
               >
                 <InputComp
                   blurOnEnter={true}
-                  className="ClearableInputComp-input-0-3-101"
+                  className="ClearableInputComp-input-0-3-105"
                   classes={
                     Object {
-                      "error": "InputComp-error-0-3-107",
-                      "fullWidth": "InputComp-fullWidth-0-3-108",
-                      "root": "InputComp-root-0-3-106",
+                      "error": "InputComp-error-0-3-111",
+                      "fullWidth": "InputComp-fullWidth-0-3-112",
+                      "root": "InputComp-root-0-3-110",
                     }
                   }
                   disabled={false}
@@ -228,7 +228,7 @@ exports[`Storyshots Components/ClearableInput Interactable 1`] = `
                   value=""
                 >
                   <input
-                    className="ClearableInputComp-input-0-3-101 InputComp-fullWidth-0-3-108 InputComp-root-0-3-106"
+                    className="ClearableInputComp-input-0-3-105 InputComp-fullWidth-0-3-112 InputComp-root-0-3-110"
                     disabled={false}
                     onChange={[Function]}
                     onKeyDown={[Function]}
@@ -240,18 +240,18 @@ exports[`Storyshots Components/ClearableInput Interactable 1`] = `
             </Input>
           </div>
           <div
-            className="ClearableInputComp-icon-0-3-105"
+            className="ClearableInputComp-icon-0-3-109"
             onClick={[Function]}
           />
         </div>
       </ClearableInputComp>
     </WithStyles(ClearableInputComp)>
   </ClearableInput>
-</Comp>
+</Statefull>
 `;
 
 exports[`Storyshots Components/ClearableInput Interactable long forSearch 1`] = `
-<Comp>
+<Statefull>
   <ClearableInput
     forSearch={true}
     long={true}
@@ -277,12 +277,12 @@ exports[`Storyshots Components/ClearableInput Interactable long forSearch 1`] = 
       <ClearableInputComp
         classes={
           Object {
-            "icon": "ClearableInputComp-icon-0-3-105",
-            "input": "ClearableInputComp-input-0-3-101",
-            "longInput": "ClearableInputComp-longInput-0-3-102",
-            "root": "ClearableInputComp-root-0-3-100",
-            "searchField": "ClearableInputComp-searchField-0-3-103",
-            "searchFieldBorders": "ClearableInputComp-searchFieldBorders-0-3-104",
+            "icon": "ClearableInputComp-icon-0-3-109",
+            "input": "ClearableInputComp-input-0-3-105",
+            "longInput": "ClearableInputComp-longInput-0-3-106",
+            "root": "ClearableInputComp-root-0-3-104",
+            "searchField": "ClearableInputComp-searchField-0-3-107",
+            "searchFieldBorders": "ClearableInputComp-searchFieldBorders-0-3-108",
           }
         }
         forSearch={true}
@@ -292,14 +292,14 @@ exports[`Storyshots Components/ClearableInput Interactable long forSearch 1`] = 
         value=""
       >
         <div
-          className="ClearableInputComp-root-0-3-100 ClearableInputComp-searchFieldBorders-0-3-104"
+          className="ClearableInputComp-root-0-3-104 ClearableInputComp-searchFieldBorders-0-3-108"
         >
           <div
-            className="ClearableInputComp-input-0-3-101"
+            className="ClearableInputComp-input-0-3-105"
           >
             <Input
               blurOnEnter={true}
-              className="ClearableInputComp-input-0-3-101 ClearableInputComp-longInput-0-3-102 ClearableInputComp-searchField-0-3-103"
+              className="ClearableInputComp-input-0-3-105 ClearableInputComp-longInput-0-3-106 ClearableInputComp-searchField-0-3-107"
               disabled={false}
               fullWidth={true}
               onChange={[Function]}
@@ -308,7 +308,7 @@ exports[`Storyshots Components/ClearableInput Interactable long forSearch 1`] = 
             >
               <WithStyles(InputComp)
                 blurOnEnter={true}
-                className="ClearableInputComp-input-0-3-101 ClearableInputComp-longInput-0-3-102 ClearableInputComp-searchField-0-3-103"
+                className="ClearableInputComp-input-0-3-105 ClearableInputComp-longInput-0-3-106 ClearableInputComp-searchField-0-3-107"
                 disabled={false}
                 fullWidth={true}
                 innerRef={null}
@@ -325,12 +325,12 @@ exports[`Storyshots Components/ClearableInput Interactable long forSearch 1`] = 
               >
                 <InputComp
                   blurOnEnter={true}
-                  className="ClearableInputComp-input-0-3-101 ClearableInputComp-longInput-0-3-102 ClearableInputComp-searchField-0-3-103"
+                  className="ClearableInputComp-input-0-3-105 ClearableInputComp-longInput-0-3-106 ClearableInputComp-searchField-0-3-107"
                   classes={
                     Object {
-                      "error": "InputComp-error-0-3-107",
-                      "fullWidth": "InputComp-fullWidth-0-3-108",
-                      "root": "InputComp-root-0-3-106",
+                      "error": "InputComp-error-0-3-111",
+                      "fullWidth": "InputComp-fullWidth-0-3-112",
+                      "root": "InputComp-root-0-3-110",
                     }
                   }
                   disabled={false}
@@ -340,7 +340,7 @@ exports[`Storyshots Components/ClearableInput Interactable long forSearch 1`] = 
                   value=""
                 >
                   <input
-                    className="ClearableInputComp-input-0-3-101 ClearableInputComp-longInput-0-3-102 ClearableInputComp-searchField-0-3-103 InputComp-fullWidth-0-3-108 InputComp-root-0-3-106"
+                    className="ClearableInputComp-input-0-3-105 ClearableInputComp-longInput-0-3-106 ClearableInputComp-searchField-0-3-107 InputComp-fullWidth-0-3-112 InputComp-root-0-3-110"
                     disabled={false}
                     onChange={[Function]}
                     onKeyDown={[Function]}
@@ -352,7 +352,7 @@ exports[`Storyshots Components/ClearableInput Interactable long forSearch 1`] = 
             </Input>
           </div>
           <div
-            className="ClearableInputComp-icon-0-3-105"
+            className="ClearableInputComp-icon-0-3-109"
             onClick={[Function]}
           >
             <MUIcon
@@ -376,7 +376,7 @@ exports[`Storyshots Components/ClearableInput Interactable long forSearch 1`] = 
                 <MUIconComp
                   classes={
                     Object {
-                      "root": "MUIconComp-root-0-3-35 MUIconComp-root-d35-0-3-112",
+                      "root": "MUIconComp-root-0-3-35 MUIconComp-root-d39-0-3-116",
                     }
                   }
                   color="#616161"
@@ -384,7 +384,7 @@ exports[`Storyshots Components/ClearableInput Interactable long forSearch 1`] = 
                   type="search"
                 >
                   <i
-                    className="MUIconComp-root-0-3-35 MUIconComp-root-d35-0-3-112"
+                    className="MUIconComp-root-0-3-35 MUIconComp-root-d39-0-3-116"
                   >
                     search
                   </i>
@@ -396,7 +396,7 @@ exports[`Storyshots Components/ClearableInput Interactable long forSearch 1`] = 
       </ClearableInputComp>
     </WithStyles(ClearableInputComp)>
   </ClearableInput>
-</Comp>
+</Statefull>
 `;
 
 exports[`Storyshots Components/ClearableInput Long 1`] = `
@@ -423,12 +423,12 @@ exports[`Storyshots Components/ClearableInput Long 1`] = `
     <ClearableInputComp
       classes={
         Object {
-          "icon": "ClearableInputComp-icon-0-3-105",
-          "input": "ClearableInputComp-input-0-3-101",
-          "longInput": "ClearableInputComp-longInput-0-3-102",
-          "root": "ClearableInputComp-root-0-3-100",
-          "searchField": "ClearableInputComp-searchField-0-3-103",
-          "searchFieldBorders": "ClearableInputComp-searchFieldBorders-0-3-104",
+          "icon": "ClearableInputComp-icon-0-3-109",
+          "input": "ClearableInputComp-input-0-3-105",
+          "longInput": "ClearableInputComp-longInput-0-3-106",
+          "root": "ClearableInputComp-root-0-3-104",
+          "searchField": "ClearableInputComp-searchField-0-3-107",
+          "searchFieldBorders": "ClearableInputComp-searchFieldBorders-0-3-108",
         }
       }
       long={true}
@@ -437,14 +437,14 @@ exports[`Storyshots Components/ClearableInput Long 1`] = `
       value="100"
     >
       <div
-        className="ClearableInputComp-root-0-3-100"
+        className="ClearableInputComp-root-0-3-104"
       >
         <div
-          className="ClearableInputComp-input-0-3-101"
+          className="ClearableInputComp-input-0-3-105"
         >
           <Input
             blurOnEnter={true}
-            className="ClearableInputComp-input-0-3-101 ClearableInputComp-longInput-0-3-102"
+            className="ClearableInputComp-input-0-3-105 ClearableInputComp-longInput-0-3-106"
             disabled={false}
             fullWidth={true}
             onChange={[Function]}
@@ -453,7 +453,7 @@ exports[`Storyshots Components/ClearableInput Long 1`] = `
           >
             <WithStyles(InputComp)
               blurOnEnter={true}
-              className="ClearableInputComp-input-0-3-101 ClearableInputComp-longInput-0-3-102"
+              className="ClearableInputComp-input-0-3-105 ClearableInputComp-longInput-0-3-106"
               disabled={false}
               fullWidth={true}
               innerRef={null}
@@ -470,12 +470,12 @@ exports[`Storyshots Components/ClearableInput Long 1`] = `
             >
               <InputComp
                 blurOnEnter={true}
-                className="ClearableInputComp-input-0-3-101 ClearableInputComp-longInput-0-3-102"
+                className="ClearableInputComp-input-0-3-105 ClearableInputComp-longInput-0-3-106"
                 classes={
                   Object {
-                    "error": "InputComp-error-0-3-107",
-                    "fullWidth": "InputComp-fullWidth-0-3-108",
-                    "root": "InputComp-root-0-3-106",
+                    "error": "InputComp-error-0-3-111",
+                    "fullWidth": "InputComp-fullWidth-0-3-112",
+                    "root": "InputComp-root-0-3-110",
                   }
                 }
                 disabled={false}
@@ -485,7 +485,7 @@ exports[`Storyshots Components/ClearableInput Long 1`] = `
                 value="100"
               >
                 <input
-                  className="ClearableInputComp-input-0-3-101 ClearableInputComp-longInput-0-3-102 InputComp-fullWidth-0-3-108 InputComp-root-0-3-106"
+                  className="ClearableInputComp-input-0-3-105 ClearableInputComp-longInput-0-3-106 InputComp-fullWidth-0-3-112 InputComp-root-0-3-110"
                   disabled={false}
                   onChange={[Function]}
                   onKeyDown={[Function]}
@@ -497,7 +497,7 @@ exports[`Storyshots Components/ClearableInput Long 1`] = `
           </Input>
         </div>
         <div
-          className="ClearableInputComp-icon-0-3-105"
+          className="ClearableInputComp-icon-0-3-109"
           onClick={[Function]}
         >
           <MUIcon
@@ -519,14 +519,14 @@ exports[`Storyshots Components/ClearableInput Long 1`] = `
               <MUIconComp
                 classes={
                   Object {
-                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d33-0-3-110",
+                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d37-0-3-114",
                   }
                 }
                 fontSize={40}
                 type="close"
               >
                 <i
-                  className="MUIconComp-root-0-3-35 MUIconComp-root-d33-0-3-110"
+                  className="MUIconComp-root-0-3-35 MUIconComp-root-d37-0-3-114"
                 >
                   close
                 </i>
@@ -562,12 +562,12 @@ exports[`Storyshots Components/ClearableInput No value 1`] = `
     <ClearableInputComp
       classes={
         Object {
-          "icon": "ClearableInputComp-icon-0-3-105",
-          "input": "ClearableInputComp-input-0-3-101",
-          "longInput": "ClearableInputComp-longInput-0-3-102",
-          "root": "ClearableInputComp-root-0-3-100",
-          "searchField": "ClearableInputComp-searchField-0-3-103",
-          "searchFieldBorders": "ClearableInputComp-searchFieldBorders-0-3-104",
+          "icon": "ClearableInputComp-icon-0-3-109",
+          "input": "ClearableInputComp-input-0-3-105",
+          "longInput": "ClearableInputComp-longInput-0-3-106",
+          "root": "ClearableInputComp-root-0-3-104",
+          "searchField": "ClearableInputComp-searchField-0-3-107",
+          "searchFieldBorders": "ClearableInputComp-searchFieldBorders-0-3-108",
         }
       }
       onChange={[Function]}
@@ -575,14 +575,14 @@ exports[`Storyshots Components/ClearableInput No value 1`] = `
       value=""
     >
       <div
-        className="ClearableInputComp-root-0-3-100"
+        className="ClearableInputComp-root-0-3-104"
       >
         <div
-          className="ClearableInputComp-input-0-3-101"
+          className="ClearableInputComp-input-0-3-105"
         >
           <Input
             blurOnEnter={true}
-            className="ClearableInputComp-input-0-3-101"
+            className="ClearableInputComp-input-0-3-105"
             disabled={false}
             fullWidth={true}
             onChange={[Function]}
@@ -591,7 +591,7 @@ exports[`Storyshots Components/ClearableInput No value 1`] = `
           >
             <WithStyles(InputComp)
               blurOnEnter={true}
-              className="ClearableInputComp-input-0-3-101"
+              className="ClearableInputComp-input-0-3-105"
               disabled={false}
               fullWidth={true}
               innerRef={null}
@@ -608,12 +608,12 @@ exports[`Storyshots Components/ClearableInput No value 1`] = `
             >
               <InputComp
                 blurOnEnter={true}
-                className="ClearableInputComp-input-0-3-101"
+                className="ClearableInputComp-input-0-3-105"
                 classes={
                   Object {
-                    "error": "InputComp-error-0-3-107",
-                    "fullWidth": "InputComp-fullWidth-0-3-108",
-                    "root": "InputComp-root-0-3-106",
+                    "error": "InputComp-error-0-3-111",
+                    "fullWidth": "InputComp-fullWidth-0-3-112",
+                    "root": "InputComp-root-0-3-110",
                   }
                 }
                 disabled={false}
@@ -623,7 +623,7 @@ exports[`Storyshots Components/ClearableInput No value 1`] = `
                 value=""
               >
                 <input
-                  className="ClearableInputComp-input-0-3-101 InputComp-fullWidth-0-3-108 InputComp-root-0-3-106"
+                  className="ClearableInputComp-input-0-3-105 InputComp-fullWidth-0-3-112 InputComp-root-0-3-110"
                   disabled={false}
                   onChange={[Function]}
                   onKeyDown={[Function]}
@@ -635,7 +635,7 @@ exports[`Storyshots Components/ClearableInput No value 1`] = `
           </Input>
         </div>
         <div
-          className="ClearableInputComp-icon-0-3-105"
+          className="ClearableInputComp-icon-0-3-109"
           onClick={[Function]}
         />
       </div>
@@ -666,12 +666,12 @@ exports[`Storyshots Components/ClearableInput Value 1`] = `
     <ClearableInputComp
       classes={
         Object {
-          "icon": "ClearableInputComp-icon-0-3-105",
-          "input": "ClearableInputComp-input-0-3-101",
-          "longInput": "ClearableInputComp-longInput-0-3-102",
-          "root": "ClearableInputComp-root-0-3-100",
-          "searchField": "ClearableInputComp-searchField-0-3-103",
-          "searchFieldBorders": "ClearableInputComp-searchFieldBorders-0-3-104",
+          "icon": "ClearableInputComp-icon-0-3-109",
+          "input": "ClearableInputComp-input-0-3-105",
+          "longInput": "ClearableInputComp-longInput-0-3-106",
+          "root": "ClearableInputComp-root-0-3-104",
+          "searchField": "ClearableInputComp-searchField-0-3-107",
+          "searchFieldBorders": "ClearableInputComp-searchFieldBorders-0-3-108",
         }
       }
       onChange={[Function]}
@@ -679,14 +679,14 @@ exports[`Storyshots Components/ClearableInput Value 1`] = `
       value="100"
     >
       <div
-        className="ClearableInputComp-root-0-3-100"
+        className="ClearableInputComp-root-0-3-104"
       >
         <div
-          className="ClearableInputComp-input-0-3-101"
+          className="ClearableInputComp-input-0-3-105"
         >
           <Input
             blurOnEnter={true}
-            className="ClearableInputComp-input-0-3-101"
+            className="ClearableInputComp-input-0-3-105"
             disabled={false}
             fullWidth={true}
             onChange={[Function]}
@@ -695,7 +695,7 @@ exports[`Storyshots Components/ClearableInput Value 1`] = `
           >
             <WithStyles(InputComp)
               blurOnEnter={true}
-              className="ClearableInputComp-input-0-3-101"
+              className="ClearableInputComp-input-0-3-105"
               disabled={false}
               fullWidth={true}
               innerRef={null}
@@ -712,12 +712,12 @@ exports[`Storyshots Components/ClearableInput Value 1`] = `
             >
               <InputComp
                 blurOnEnter={true}
-                className="ClearableInputComp-input-0-3-101"
+                className="ClearableInputComp-input-0-3-105"
                 classes={
                   Object {
-                    "error": "InputComp-error-0-3-107",
-                    "fullWidth": "InputComp-fullWidth-0-3-108",
-                    "root": "InputComp-root-0-3-106",
+                    "error": "InputComp-error-0-3-111",
+                    "fullWidth": "InputComp-fullWidth-0-3-112",
+                    "root": "InputComp-root-0-3-110",
                   }
                 }
                 disabled={false}
@@ -727,7 +727,7 @@ exports[`Storyshots Components/ClearableInput Value 1`] = `
                 value="100"
               >
                 <input
-                  className="ClearableInputComp-input-0-3-101 InputComp-fullWidth-0-3-108 InputComp-root-0-3-106"
+                  className="ClearableInputComp-input-0-3-105 InputComp-fullWidth-0-3-112 InputComp-root-0-3-110"
                   disabled={false}
                   onChange={[Function]}
                   onKeyDown={[Function]}
@@ -739,7 +739,7 @@ exports[`Storyshots Components/ClearableInput Value 1`] = `
           </Input>
         </div>
         <div
-          className="ClearableInputComp-icon-0-3-105"
+          className="ClearableInputComp-icon-0-3-109"
           onClick={[Function]}
         >
           <MUIcon
@@ -761,14 +761,14 @@ exports[`Storyshots Components/ClearableInput Value 1`] = `
               <MUIconComp
                 classes={
                   Object {
-                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d32-0-3-109",
+                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d36-0-3-113",
                   }
                 }
                 fontSize={40}
                 type="close"
               >
                 <i
-                  className="MUIconComp-root-0-3-35 MUIconComp-root-d32-0-3-109"
+                  className="MUIconComp-root-0-3-35 MUIconComp-root-d36-0-3-113"
                 >
                   close
                 </i>

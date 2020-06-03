@@ -29,9 +29,9 @@ storiesOf('Components/TouchRipple', module)
       width: 200
     })
   )
-  .add('Base', () => (
+  .add('enabled', () => (
     <TouchRipple {...baseProps}>
-      <div>TouchRipple</div>
+      <div>Click me!</div>
     </TouchRipple>
   ))
   .add('disabled', () => {
@@ -41,7 +41,7 @@ storiesOf('Components/TouchRipple', module)
     };
     return (
       <TouchRipple {...props}>
-        <div>TouchRipple</div>
+        <div>Click me!</div>
       </TouchRipple>
     );
   });

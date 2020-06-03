@@ -16,12 +16,11 @@
 import * as React from 'react';
 import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
-import { LinearProgressColor } from './LinearProgress';
 import { createStyleTrack, createStyleIndicator } from './utility';
 
 type CompProps = Readonly<{
   className?: string;
-  color: LinearProgressColor;
+  color: 'green' | 'orange' | 'yellow' | 'red' | 'grey' | 'white' | 'brown';
   value: number;
   disabled?: boolean;
   border?: boolean;

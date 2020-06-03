@@ -14,16 +14,9 @@
  * limitations under the License.
  */
 import { storiesOf } from '@storybook/react';
-import { hostDecorator, LoremIpsumShort } from '../../utils';
+import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { SignalNotification } from './SignalNotification';
-
-const text = 'Activity automatically interrupted';
-
-const mkProps = (text: string, icon = 'warning') => ({
-  icon,
-  text
-});
 
 storiesOf('Components/SignalNotification', module)
   .addParameters({ component: SignalNotification })
@@ -32,5 +25,12 @@ storiesOf('Components/SignalNotification', module)
       width: 500
     })
   )
-  .add('Text', () => <SignalNotification {...mkProps(text)} />)
-  .add('Long text', () => <SignalNotification {...mkProps(LoremIpsumShort)} />);
+  .add('Text', () => (
+    <SignalNotification icon="warning" text="Activity automatically interrupted" />
+  ))
+  .add('Long text', () => (
+    <SignalNotification
+      icon="warning"
+      text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet ornare est. Fusce eget urna imperdiet, fringilla leo vel, euismod augue."
+    />
+  ));

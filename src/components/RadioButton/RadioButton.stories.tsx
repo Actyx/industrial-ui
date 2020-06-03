@@ -22,11 +22,13 @@ import { RadioButton } from './RadioButton';
 storiesOf('Components/RadioButton', module)
   .addParameters({ component: RadioButton })
   .addDecorator(hostDecorator())
-  .add('Unchecked', () => (
+  .add('Neutral unchecked', () => (
     <RadioButton checked={false} color="neutral" onChange={action('onChange')} />
   ))
-  .add('Checked', () => <RadioButton checked color="neutral" onChange={action('onChange')} />)
-  .add('Disabled', () => (
+  .add('Neutral checked', () => (
+    <RadioButton checked color="neutral" onChange={action('onChange')} />
+  ))
+  .add('Neutral disabled', () => (
     <RadioButton checked color="neutral" disabled onChange={action('onChange')} />
   ))
   .add('Primary unchecked', () => (
