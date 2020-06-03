@@ -88,6 +88,9 @@ const styles: StyleSheet<ClassKey, CompProps> = {
   }
 };
 
+/**
+ *GaugeProgress it is a percentage progress indicator.
+ */
 export const GaugeProgress = compose<Props, CompProps>(
   setDisplayName('GaugeProgress'),
   injectSheet(styles)
