@@ -1,9 +1,10 @@
 {
-  "name": "@actyx/actyx-ui",
-  "version": "1.0.0-alpha.4",
+  "name": "@actyx/industrial-ui",
+  "private": false,
+  "version": "1.0.0-alpha.5",
   "author": "Actyx AG",
   "license": "Apache-2.0",
-  "description": "Actyx UI - Simple, modular UI Components for Shop Floor Applications",
+  "description": "Industrial UI - Simple, modular UI Components for Shop Floor Applications",
   "main": "./src/index.ts",
   "keywords": [
     "actyx",
@@ -12,6 +13,7 @@
     "ecosystem-react",
     "graphical user interface",
     "gui",
+    "industrial",
     "industry 4.0",
     "interaction",
     "interface",
