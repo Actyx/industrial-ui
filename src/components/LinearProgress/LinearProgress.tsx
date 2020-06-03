@@ -21,30 +21,17 @@ import { Typography } from '../Typography';
 import { getTextColor } from './colors';
 import { createStyleTrack, createStyleIndicator, getContentStyle } from './utility';
 
-export type LinearProgressSize = 'xs' | 'md' | 'lg' | 'md60';
-
-export type LinearProgressColor =
-  | 'green'
-  | 'orange'
-  | 'yellow'
-  | 'red'
-  | 'grey'
-  | 'white'
-  | 'brown';
-
-export type LinearProgressContentVerticalAlign = 'center' | 'top' | 'bottom';
-
 type CompProps = Readonly<{
   className?: string;
-  size: LinearProgressSize;
-  color: LinearProgressColor;
+  size: 'xs' | 'md' | 'lg' | 'md60';
+  color: 'green' | 'orange' | 'yellow' | 'red' | 'grey' | 'white' | 'brown';
   value: number;
   disabled?: boolean;
   contentRight?: React.ReactNode;
   contentLeft?: React.ReactNode;
   contentCenter?: React.ReactNode;
   border?: boolean;
-  contentVerticalAlign?: LinearProgressContentVerticalAlign;
+  contentVerticalAlign?: 'center' | 'top' | 'bottom';
   onSelect?: () => void;
 }>;
 

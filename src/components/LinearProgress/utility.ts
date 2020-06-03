@@ -13,13 +13,22 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import {
-  LinearProgressContentVerticalAlign,
-  LinearProgressSize,
-  LinearProgressColor
-} from './LinearProgress';
+
 import { getRegularColor, getBorderColor, getDarkColor } from './colors';
 import { normalize } from '../../utils';
+
+type LinearProgressSize = 'xs' | 'md' | 'lg' | 'md60';
+
+export type LinearProgressColor =
+  | 'green'
+  | 'orange'
+  | 'yellow'
+  | 'red'
+  | 'grey'
+  | 'white'
+  | 'brown';
+
+type LinearProgressContentVerticalAlign = 'center' | 'top' | 'bottom';
 
 export const getContentVerticalAlignTopOffset = (
   offset: number,
