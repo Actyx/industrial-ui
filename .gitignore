@@ -1,6 +1,7 @@
 # Project
 dist
 lib
+.out
 
 # Logs
 logs
