@@ -14,7 +14,7 @@ Industrial UI is written entirely in TypeScript with predictable static types, m
 
 ## 📦 Installation
 
-Industrial UI is available as a [npm package](https://www.npmjs.com/package/@actyx/industrial-ui).
+Industrial UI is available as an [npm package](https://www.npmjs.com/package/@actyx/industrial-ui).
 
 ```shell
 npm install @actyx/industrial-ui
