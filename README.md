@@ -15,7 +15,7 @@ Industrial UI is written entirely in TypeScript with predictable static types, m
 
 ## 📦 Installation
 
-Industrial UI is available as an [npm package](https://www.npmjs.com/package/@actyx/industrial-ui).
+Industrial UI is available as a [npm package](https://www.npmjs.com/package/@actyx/industrial-ui).
 
 ```shell
 npm install @actyx/industrial-ui
@@ -23,14 +23,20 @@ npm install @actyx/industrial-ui
 
 ## 📖 Documentation
 
-You can access the documentation and related examples by:
+You can access the documentation and related examples by visiting:
+
+[https://actyx.github.io/industrial-ui/index.html](https://actyx.github.io/industrial-ui/index.html)
+
+by clicking on the "Docs" tab you can access description, code samples, and properties details for each component.
+
+For off-line documentation please use following instructions:
 
 ```sh
 ## clone repository
 git clone https://github.com/Actyx/industrial-ui.git
 ## navigate to project folder
 cd industrial-ui
-## use the correct version of nodejs (optional)
+## use the correct version of nodejs
 nvm use
 ## install dependencies
 npm i
@@ -39,10 +45,6 @@ npm run storybook
 ```
 
 A website with documentation will be visible at [http://localhost:6006/](http://localhost:6006/)
-
-On the left side of the screen, you can find all components, click each story on the left to see the component on the "Canvas" tab.
-
-By clicking on the "Docs" tab you can access description, code samples and properties details.
 
 ## 🤓 Developer tools
 
@@ -59,8 +61,8 @@ By clicking on the "Docs" tab you can access description, code samples and prope
 | `npm run lint:fix` | Check and automatically fix lint issues |
 | `npm run storybook` | Run StoryBook |
 | `npm run storybook:build` | Build StoryBook |
-| `npm run storybook:build:local` | Run built StoryBook locally |
-| `npm run storybook:build:deploy` | Deploy built StoryBook on GitHub Pages |
+| `npm run storybook:build-local` | Run built StoryBook locally |
+| `npm run storybook:build-deploy` | Deploy built StoryBook on GitHub Pages |
 | `npm run test` | Run Jest tests |
 | `npm run test:no-coverage` | Run Jest tests and exclude coverage report |
 | `npm run test:watch` | Run tests in watch mode |
