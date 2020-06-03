@@ -18,10 +18,10 @@ import { action } from '@storybook/addon-actions';
 import { storiesOf } from '@storybook/react';
 import { hostDecorator } from '../../utils';
 import * as React from 'react';
-import { Grid } from './Grid';
+import { TableData } from './TableData';
 
-storiesOf('Components/Grid', module)
-  .addParameters({ component: Grid })
+storiesOf('Components/TableData', module)
+  .addParameters({ component: TableData })
   .addDecorator(hostDecorator({}))
   .add('Base', () => {
     type Item = Readonly<{
@@ -54,7 +54,7 @@ storiesOf('Components/Grid', module)
         </>
       )
     };
-    return <Grid<Item> {...baseProps} />;
+    return <TableData<Item> {...baseProps} />;
   })
   .add('setRowClassName', () => {
     type Item = Readonly<{
@@ -95,7 +95,10 @@ storiesOf('Components/Grid', module)
     };
 
     return (
-      <Grid<Item> {...baseProps} setRowClassName={x => (x.id === 'b' ? 'font-weight-bold' : '')} />
+      <TableData<Item>
+        {...baseProps}
+        setRowClassName={x => (x.id === 'b' ? 'font-weight-bold' : '')}
+      />
     );
   })
   .add('isRowSelected', () => {
@@ -136,7 +139,7 @@ storiesOf('Components/Grid', module)
       )
     };
 
-    return <Grid<Item> {...baseProps} isRowSelected={x => x.id === 'b'} />;
+    return <TableData<Item> {...baseProps} isRowSelected={x => x.id === 'b'} />;
   })
   .add('onRowSelect', () => {
     type Item = Readonly<{
@@ -176,5 +179,5 @@ storiesOf('Components/Grid', module)
       )
     };
 
-    return <Grid<Item> {...baseProps} onRowSelect={action('onRowSelected')} />;
+    return <TableData<Item> {...baseProps} onRowSelect={action('onRowSelected')} />;
   });

@@ -80,7 +80,11 @@ const useStyles = createUseStyles({
   }
 });
 
-export function Grid<T>({
+/**
+ * TableData provides a convenient way to displays a set of data to a user.
+ * It differs for a regular Table as it includes utility callbacks to perform common operations of tabular data.
+ */
+export function TableData<T>({
   className,
   renderRow,
   header,
