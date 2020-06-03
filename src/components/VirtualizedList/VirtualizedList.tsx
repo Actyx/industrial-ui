@@ -87,6 +87,11 @@ type Props<T> = Readonly<{
   calcRowHeight?: (datum: T) => number;
 }>;
 
+/**
+ * VirtualizedList efficiently renders large lists and tabular data.
+ * It improves memory consumption and performance of large lists by maintaining a finite render window of active items that are rendered incrementally,
+ * replacing all items outside of the render window.
+ */
 export function VirtualizedList<T>({
   className,
   renderRow,
