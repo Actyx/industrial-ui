@@ -384,7 +384,6 @@ exports[`Storyshots Components/Card/Swipeable Swipeable cards 1`] = `
                             color="neutral"
                             content="1.1"
                             raised={true}
-                            size="md"
                           >
                             <WithStyles(CardComp)
                               color="neutral"
@@ -397,7 +396,6 @@ exports[`Storyshots Components/Card/Swipeable Swipeable cards 1`] = `
                                 }
                               }
                               raised={true}
-                              size="md"
                               theme={Object {}}
                             >
                               <CardComp
@@ -416,7 +414,6 @@ exports[`Storyshots Components/Card/Swipeable Swipeable cards 1`] = `
                                 color="neutral"
                                 content="1.1"
                                 raised={true}
-                                size="md"
                               >
                                 <div
                                   className="CardComp-root-0-3-66 CardComp-raised-0-3-68 CardComp-md-0-3-67 CardComp-neutral-0-3-69"
@@ -434,7 +431,6 @@ exports[`Storyshots Components/Card/Swipeable Swipeable cards 1`] = `
                             color="neutral"
                             content="1.2"
                             raised={true}
-                            size="md"
                           >
                             <WithStyles(CardComp)
                               color="neutral"
@@ -447,7 +443,6 @@ exports[`Storyshots Components/Card/Swipeable Swipeable cards 1`] = `
                                 }
                               }
                               raised={true}
-                              size="md"
                               theme={Object {}}
                             >
                               <CardComp
@@ -466,7 +461,6 @@ exports[`Storyshots Components/Card/Swipeable Swipeable cards 1`] = `
                                 color="neutral"
                                 content="1.2"
                                 raised={true}
-                                size="md"
                               >
                                 <div
                                   className="CardComp-root-0-3-66 CardComp-raised-0-3-68 CardComp-md-0-3-67 CardComp-neutral-0-3-69"

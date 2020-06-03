@@ -16,12 +16,12 @@ exports[`Storyshots Components/LoadingBar Base 1`] = `
       classes={
         Object {
           "@keyframes scrolling": undefined,
-          "root": "LoadingBarComp-root-0-3-177",
+          "root": "LoadingBarComp-root-0-3-183",
         }
       }
     >
       <div
-        className="LoadingBarComp-root-0-3-177"
+        className="LoadingBarComp-root-0-3-183"
       />
     </LoadingBarComp>
   </WithStyles(LoadingBarComp)>
@@ -51,12 +51,12 @@ exports[`Storyshots Components/LoadingBar Fixed width 1`] = `
         classes={
           Object {
             "@keyframes scrolling": undefined,
-            "root": "LoadingBarComp-root-0-3-177",
+            "root": "LoadingBarComp-root-0-3-183",
           }
         }
       >
         <div
-          className="LoadingBarComp-root-0-3-177"
+          className="LoadingBarComp-root-0-3-183"
         />
       </LoadingBarComp>
     </WithStyles(LoadingBarComp)>

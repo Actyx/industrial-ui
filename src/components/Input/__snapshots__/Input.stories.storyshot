@@ -18,15 +18,15 @@ exports[`Storyshots Components/Input Type number 1`] = `
     <InputComp
       classes={
         Object {
-          "error": "InputComp-error-0-3-107",
-          "fullWidth": "InputComp-fullWidth-0-3-108",
-          "root": "InputComp-root-0-3-106",
+          "error": "InputComp-error-0-3-111",
+          "fullWidth": "InputComp-fullWidth-0-3-112",
+          "root": "InputComp-root-0-3-110",
         }
       }
       type="number"
     >
       <input
-        className="InputComp-root-0-3-106"
+        className="InputComp-root-0-3-110"
         type="number"
       />
     </InputComp>
@@ -52,15 +52,15 @@ exports[`Storyshots Components/Input Type text 1`] = `
     <InputComp
       classes={
         Object {
-          "error": "InputComp-error-0-3-107",
-          "fullWidth": "InputComp-fullWidth-0-3-108",
-          "root": "InputComp-root-0-3-106",
+          "error": "InputComp-error-0-3-111",
+          "fullWidth": "InputComp-fullWidth-0-3-112",
+          "root": "InputComp-root-0-3-110",
         }
       }
       type="text"
     >
       <input
-        className="InputComp-root-0-3-106"
+        className="InputComp-root-0-3-110"
         type="text"
       />
     </InputComp>
@@ -89,15 +89,15 @@ exports[`Storyshots Components/Input autoFocus 1`] = `
       autoFocus={true}
       classes={
         Object {
-          "error": "InputComp-error-0-3-107",
-          "fullWidth": "InputComp-fullWidth-0-3-108",
-          "root": "InputComp-root-0-3-106",
+          "error": "InputComp-error-0-3-111",
+          "fullWidth": "InputComp-fullWidth-0-3-112",
+          "root": "InputComp-root-0-3-110",
         }
       }
       type="text"
     >
       <input
-        className="InputComp-root-0-3-106"
+        className="InputComp-root-0-3-110"
         type="text"
       />
     </InputComp>
@@ -126,15 +126,15 @@ exports[`Storyshots Components/Input blurOnEnter 1`] = `
       blurOnEnter={true}
       classes={
         Object {
-          "error": "InputComp-error-0-3-107",
-          "fullWidth": "InputComp-fullWidth-0-3-108",
-          "root": "InputComp-root-0-3-106",
+          "error": "InputComp-error-0-3-111",
+          "fullWidth": "InputComp-fullWidth-0-3-112",
+          "root": "InputComp-root-0-3-110",
         }
       }
       type="text"
     >
       <input
-        className="InputComp-root-0-3-106"
+        className="InputComp-root-0-3-110"
         onKeyDown={[Function]}
         type="text"
       />
@@ -165,9 +165,9 @@ exports[`Storyshots Components/Input disabled 1`] = `
     <InputComp
       classes={
         Object {
-          "error": "InputComp-error-0-3-107",
-          "fullWidth": "InputComp-fullWidth-0-3-108",
-          "root": "InputComp-root-0-3-106",
+          "error": "InputComp-error-0-3-111",
+          "fullWidth": "InputComp-fullWidth-0-3-112",
+          "root": "InputComp-root-0-3-110",
         }
       }
       disabled={true}
@@ -175,7 +175,7 @@ exports[`Storyshots Components/Input disabled 1`] = `
       value="Text"
     >
       <input
-        className="InputComp-root-0-3-106"
+        className="InputComp-root-0-3-110"
         disabled={true}
         type="text"
         value="Text"
@@ -205,16 +205,16 @@ exports[`Storyshots Components/Input error 1`] = `
     <InputComp
       classes={
         Object {
-          "error": "InputComp-error-0-3-107",
-          "fullWidth": "InputComp-fullWidth-0-3-108",
-          "root": "InputComp-root-0-3-106",
+          "error": "InputComp-error-0-3-111",
+          "fullWidth": "InputComp-fullWidth-0-3-112",
+          "root": "InputComp-root-0-3-110",
         }
       }
       error={true}
       type="text"
     >
       <input
-        className="InputComp-error-0-3-107"
+        className="InputComp-error-0-3-111"
         type="text"
       />
     </InputComp>
@@ -242,16 +242,16 @@ exports[`Storyshots Components/Input fullWidth 1`] = `
     <InputComp
       classes={
         Object {
-          "error": "InputComp-error-0-3-107",
-          "fullWidth": "InputComp-fullWidth-0-3-108",
-          "root": "InputComp-root-0-3-106",
+          "error": "InputComp-error-0-3-111",
+          "fullWidth": "InputComp-fullWidth-0-3-112",
+          "root": "InputComp-root-0-3-110",
         }
       }
       fullWidth={true}
       type="text"
     >
       <input
-        className="InputComp-fullWidth-0-3-108 InputComp-root-0-3-106"
+        className="InputComp-fullWidth-0-3-112 InputComp-root-0-3-110"
         type="text"
       />
     </InputComp>
@@ -279,16 +279,16 @@ exports[`Storyshots Components/Input maxLength 1`] = `
     <InputComp
       classes={
         Object {
-          "error": "InputComp-error-0-3-107",
-          "fullWidth": "InputComp-fullWidth-0-3-108",
-          "root": "InputComp-root-0-3-106",
+          "error": "InputComp-error-0-3-111",
+          "fullWidth": "InputComp-fullWidth-0-3-112",
+          "root": "InputComp-root-0-3-110",
         }
       }
       maxLength={3}
       type="text"
     >
       <input
-        className="InputComp-root-0-3-106"
+        className="InputComp-root-0-3-110"
         maxLength={3}
         type="text"
       />
@@ -317,16 +317,16 @@ exports[`Storyshots Components/Input onBlur 1`] = `
     <InputComp
       classes={
         Object {
-          "error": "InputComp-error-0-3-107",
-          "fullWidth": "InputComp-fullWidth-0-3-108",
-          "root": "InputComp-root-0-3-106",
+          "error": "InputComp-error-0-3-111",
+          "fullWidth": "InputComp-fullWidth-0-3-112",
+          "root": "InputComp-root-0-3-110",
         }
       }
       onBlur={[Function]}
       type="text"
     >
       <input
-        className="InputComp-root-0-3-106"
+        className="InputComp-root-0-3-110"
         onBlur={[Function]}
         type="text"
       />
@@ -355,16 +355,16 @@ exports[`Storyshots Components/Input onChange 1`] = `
     <InputComp
       classes={
         Object {
-          "error": "InputComp-error-0-3-107",
-          "fullWidth": "InputComp-fullWidth-0-3-108",
-          "root": "InputComp-root-0-3-106",
+          "error": "InputComp-error-0-3-111",
+          "fullWidth": "InputComp-fullWidth-0-3-112",
+          "root": "InputComp-root-0-3-110",
         }
       }
       onChange={[Function]}
       type="text"
     >
       <input
-        className="InputComp-root-0-3-106"
+        className="InputComp-root-0-3-110"
         onChange={[Function]}
         type="text"
       />
@@ -393,16 +393,16 @@ exports[`Storyshots Components/Input onClick 1`] = `
     <InputComp
       classes={
         Object {
-          "error": "InputComp-error-0-3-107",
-          "fullWidth": "InputComp-fullWidth-0-3-108",
-          "root": "InputComp-root-0-3-106",
+          "error": "InputComp-error-0-3-111",
+          "fullWidth": "InputComp-fullWidth-0-3-112",
+          "root": "InputComp-root-0-3-110",
         }
       }
       onClick={[Function]}
       type="text"
     >
       <input
-        className="InputComp-root-0-3-106"
+        className="InputComp-root-0-3-110"
         onClick={[Function]}
         type="text"
       />
@@ -431,16 +431,16 @@ exports[`Storyshots Components/Input onFocus 1`] = `
     <InputComp
       classes={
         Object {
-          "error": "InputComp-error-0-3-107",
-          "fullWidth": "InputComp-fullWidth-0-3-108",
-          "root": "InputComp-root-0-3-106",
+          "error": "InputComp-error-0-3-111",
+          "fullWidth": "InputComp-fullWidth-0-3-112",
+          "root": "InputComp-root-0-3-110",
         }
       }
       onFocus={[Function]}
       type="text"
     >
       <input
-        className="InputComp-root-0-3-106"
+        className="InputComp-root-0-3-110"
         onFocus={[Function]}
         type="text"
       />
@@ -469,16 +469,16 @@ exports[`Storyshots Components/Input onKeyDOwn 1`] = `
     <InputComp
       classes={
         Object {
-          "error": "InputComp-error-0-3-107",
-          "fullWidth": "InputComp-fullWidth-0-3-108",
-          "root": "InputComp-root-0-3-106",
+          "error": "InputComp-error-0-3-111",
+          "fullWidth": "InputComp-fullWidth-0-3-112",
+          "root": "InputComp-root-0-3-110",
         }
       }
       onKeyDown={[Function]}
       type="text"
     >
       <input
-        className="InputComp-root-0-3-106"
+        className="InputComp-root-0-3-110"
         type="text"
       />
     </InputComp>
@@ -506,16 +506,16 @@ exports[`Storyshots Components/Input placeholder 1`] = `
     <InputComp
       classes={
         Object {
-          "error": "InputComp-error-0-3-107",
-          "fullWidth": "InputComp-fullWidth-0-3-108",
-          "root": "InputComp-root-0-3-106",
+          "error": "InputComp-error-0-3-111",
+          "fullWidth": "InputComp-fullWidth-0-3-112",
+          "root": "InputComp-root-0-3-110",
         }
       }
       placeholder="Placeholder"
       type="text"
     >
       <input
-        className="InputComp-root-0-3-106"
+        className="InputComp-root-0-3-110"
         placeholder="Placeholder"
         type="text"
       />
@@ -546,9 +546,9 @@ exports[`Storyshots Components/Input readOnly 1`] = `
     <InputComp
       classes={
         Object {
-          "error": "InputComp-error-0-3-107",
-          "fullWidth": "InputComp-fullWidth-0-3-108",
-          "root": "InputComp-root-0-3-106",
+          "error": "InputComp-error-0-3-111",
+          "fullWidth": "InputComp-fullWidth-0-3-112",
+          "root": "InputComp-root-0-3-110",
         }
       }
       readOnly={true}
@@ -556,7 +556,7 @@ exports[`Storyshots Components/Input readOnly 1`] = `
       value="Read only"
     >
       <input
-        className="InputComp-root-0-3-106"
+        className="InputComp-root-0-3-110"
         readOnly={true}
         type="text"
         value="Read only"
@@ -588,9 +588,9 @@ exports[`Storyshots Components/Input value 1`] = `
     <InputComp
       classes={
         Object {
-          "error": "InputComp-error-0-3-107",
-          "fullWidth": "InputComp-fullWidth-0-3-108",
-          "root": "InputComp-root-0-3-106",
+          "error": "InputComp-error-0-3-111",
+          "fullWidth": "InputComp-fullWidth-0-3-112",
+          "root": "InputComp-root-0-3-110",
         }
       }
       onChange={[Function]}
@@ -598,7 +598,7 @@ exports[`Storyshots Components/Input value 1`] = `
       value="Text"
     >
       <input
-        className="InputComp-root-0-3-106"
+        className="InputComp-root-0-3-110"
         onChange={[Function]}
         type="text"
         value="Text"

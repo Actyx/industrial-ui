@@ -2,10 +2,10 @@
 
 exports[`Storyshots Components/TooltipGuide Base 1`] = `
 <TooltipGuide
-  content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+  content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet ornare est."
 >
   <WithStyles(TooltipGuideComp)
-    content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+    content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet ornare est."
     innerRef={null}
     jssContext={
       Object {
@@ -18,29 +18,29 @@ exports[`Storyshots Components/TooltipGuide Base 1`] = `
     <TooltipGuideComp
       classes={
         Object {
-          "arch": "TooltipGuideComp-arch-0-3-356",
-          "archContainer": "TooltipGuideComp-archContainer-0-3-355",
-          "box": "TooltipGuideComp-box-0-3-353",
-          "boxShadow": "TooltipGuideComp-boxShadow-0-3-354",
-          "content": "TooltipGuideComp-content-0-3-359",
-          "icon": "TooltipGuideComp-icon-0-3-357",
-          "neutral": "TooltipGuideComp-neutral-0-3-358",
-          "root": "TooltipGuideComp-root-0-3-352",
+          "arch": "TooltipGuideComp-arch-0-3-357",
+          "archContainer": "TooltipGuideComp-archContainer-0-3-356",
+          "box": "TooltipGuideComp-box-0-3-354",
+          "boxShadow": "TooltipGuideComp-boxShadow-0-3-355",
+          "content": "TooltipGuideComp-content-0-3-360",
+          "icon": "TooltipGuideComp-icon-0-3-358",
+          "neutral": "TooltipGuideComp-neutral-0-3-359",
+          "root": "TooltipGuideComp-root-0-3-353",
         }
       }
-      content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+      content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet ornare est."
     >
       <div
-        className="TooltipGuideComp-root-0-3-352"
+        className="TooltipGuideComp-root-0-3-353"
       >
         <div
-          className="TooltipGuideComp-archContainer-0-3-355"
+          className="TooltipGuideComp-archContainer-0-3-356"
         >
           <div
-            className="TooltipGuideComp-arch-0-3-356"
+            className="TooltipGuideComp-arch-0-3-357"
           />
           <div
-            className="TooltipGuideComp-icon-0-3-357 TooltipGuideComp-neutral-0-3-358"
+            className="TooltipGuideComp-icon-0-3-358 TooltipGuideComp-neutral-0-3-359"
           >
             <MUIcon
               fontSize={80}
@@ -61,14 +61,14 @@ exports[`Storyshots Components/TooltipGuide Base 1`] = `
                 <MUIconComp
                   classes={
                     Object {
-                      "root": "MUIconComp-root-0-3-35 MUIconComp-root-d119-0-3-360",
+                      "root": "MUIconComp-root-0-3-35 MUIconComp-root-d118-0-3-361",
                     }
                   }
                   fontSize={80}
                   type="info"
                 >
                   <i
-                    className="MUIconComp-root-0-3-35 MUIconComp-root-d119-0-3-360"
+                    className="MUIconComp-root-0-3-35 MUIconComp-root-d118-0-3-361"
                   >
                     info
                   </i>
@@ -78,10 +78,10 @@ exports[`Storyshots Components/TooltipGuide Base 1`] = `
           </div>
         </div>
         <div
-          className="TooltipGuideComp-box-0-3-353"
+          className="TooltipGuideComp-box-0-3-354"
         >
           <div
-            className="TooltipGuideComp-content-0-3-359"
+            className="TooltipGuideComp-content-0-3-360"
           >
             <Typography
               variant="standard"
@@ -121,7 +121,7 @@ exports[`Storyshots Components/TooltipGuide Base 1`] = `
                   <span
                     className="TypographyComp-standard-0-3-5"
                   >
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet ornare est.
                   </span>
                 </TypographyComp>
               </WithStyles(TypographyComp)>
@@ -129,7 +129,7 @@ exports[`Storyshots Components/TooltipGuide Base 1`] = `
           </div>
         </div>
         <div
-          className="TooltipGuideComp-boxShadow-0-3-354"
+          className="TooltipGuideComp-boxShadow-0-3-355"
         />
       </div>
     </TooltipGuideComp>

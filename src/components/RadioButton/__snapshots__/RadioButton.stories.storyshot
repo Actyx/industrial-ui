@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Components/RadioButton Checked 1`] = `
+exports[`Storyshots Components/RadioButton Neutral checked 1`] = `
 <RadioButton
   checked={true}
   color="neutral"
@@ -23,14 +23,14 @@ exports[`Storyshots Components/RadioButton Checked 1`] = `
       checked={true}
       classes={
         Object {
-          "root": "RadioButtonComp-root-0-3-246",
+          "root": "RadioButtonComp-root-0-3-247",
         }
       }
       color="neutral"
       onChange={[Function]}
     >
       <div
-        className="RadioButtonComp-root-0-3-246"
+        className="RadioButtonComp-root-0-3-247"
         onClick={[Function]}
         style={
           Object {
@@ -79,14 +79,14 @@ exports[`Storyshots Components/RadioButton Checked 1`] = `
                     <MUIconComp
                       classes={
                         Object {
-                          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d95-0-3-248",
+                          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d94-0-3-249",
                         }
                       }
                       fontSize={40}
                       type="radio_button_checked"
                     >
                       <i
-                        className="MUIconComp-root-0-3-35 MUIconComp-root-d95-0-3-248"
+                        className="MUIconComp-root-0-3-35 MUIconComp-root-d94-0-3-249"
                       >
                         radio_button_checked
                       </i>
@@ -103,7 +103,7 @@ exports[`Storyshots Components/RadioButton Checked 1`] = `
 </RadioButton>
 `;
 
-exports[`Storyshots Components/RadioButton Disabled 1`] = `
+exports[`Storyshots Components/RadioButton Neutral disabled 1`] = `
 <RadioButton
   checked={true}
   color="neutral"
@@ -128,7 +128,7 @@ exports[`Storyshots Components/RadioButton Disabled 1`] = `
       checked={true}
       classes={
         Object {
-          "root": "RadioButtonComp-root-0-3-246",
+          "root": "RadioButtonComp-root-0-3-247",
         }
       }
       color="neutral"
@@ -136,11 +136,117 @@ exports[`Storyshots Components/RadioButton Disabled 1`] = `
       onChange={[Function]}
     >
       <div
-        className="RadioButtonComp-root-0-3-246"
-        onClick={[Function]}
+        className="RadioButtonComp-root-0-3-247"
         style={
           Object {
             "color": "rgba(33, 33, 33, 0.5)",
+          }
+        }
+      >
+        <TouchRipple
+          disabled={true}
+        >
+          <WithStyles(TouchRippleComp)
+            disabled={true}
+            innerRef={null}
+            jssContext={
+              Object {
+                "classNamePrefix": "",
+                "disableStylesGeneration": false,
+              }
+            }
+            theme={Object {}}
+          >
+            <TouchRippleComp
+              classes={
+                Object {
+                  "disabled": "TouchRippleComp-disabled-0-3-34",
+                  "root": "TouchRippleComp-root-0-3-33",
+                }
+              }
+              disabled={true}
+            >
+              <div
+                className="TouchRippleComp-disabled-0-3-34"
+              >
+                <MUIcon
+                  fontSize={40}
+                  type="radio_button_checked"
+                >
+                  <WithStyles(MUIconComp)
+                    fontSize={40}
+                    innerRef={null}
+                    jssContext={
+                      Object {
+                        "classNamePrefix": "",
+                        "disableStylesGeneration": false,
+                      }
+                    }
+                    theme={Object {}}
+                    type="radio_button_checked"
+                  >
+                    <MUIconComp
+                      classes={
+                        Object {
+                          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d95-0-3-250",
+                        }
+                      }
+                      fontSize={40}
+                      type="radio_button_checked"
+                    >
+                      <i
+                        className="MUIconComp-root-0-3-35 MUIconComp-root-d95-0-3-250"
+                      >
+                        radio_button_checked
+                      </i>
+                    </MUIconComp>
+                  </WithStyles(MUIconComp)>
+                </MUIcon>
+              </div>
+            </TouchRippleComp>
+          </WithStyles(TouchRippleComp)>
+        </TouchRipple>
+      </div>
+    </RadioButtonComp>
+  </WithStyles(RadioButtonComp)>
+</RadioButton>
+`;
+
+exports[`Storyshots Components/RadioButton Neutral unchecked 1`] = `
+<RadioButton
+  checked={false}
+  color="neutral"
+  onChange={[Function]}
+>
+  <WithStyles(RadioButtonComp)
+    checked={false}
+    color="neutral"
+    innerRef={null}
+    jssContext={
+      Object {
+        "classNamePrefix": "",
+        "disableStylesGeneration": false,
+      }
+    }
+    onChange={[Function]}
+    theme={Object {}}
+  >
+    <RadioButtonComp
+      checked={false}
+      classes={
+        Object {
+          "root": "RadioButtonComp-root-0-3-247",
+        }
+      }
+      color="neutral"
+      onChange={[Function]}
+    >
+      <div
+        className="RadioButtonComp-root-0-3-247"
+        onClick={[Function]}
+        style={
+          Object {
+            "color": "rgba(33, 33, 33, 1)",
           }
         }
       >
@@ -168,7 +274,7 @@ exports[`Storyshots Components/RadioButton Disabled 1`] = `
               >
                 <MUIcon
                   fontSize={40}
-                  type="radio_button_checked"
+                  type="radio_button_unchecked"
                 >
                   <WithStyles(MUIconComp)
                     fontSize={40}
@@ -180,21 +286,21 @@ exports[`Storyshots Components/RadioButton Disabled 1`] = `
                       }
                     }
                     theme={Object {}}
-                    type="radio_button_checked"
+                    type="radio_button_unchecked"
                   >
                     <MUIconComp
                       classes={
                         Object {
-                          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d96-0-3-249",
+                          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d93-0-3-248",
                         }
                       }
                       fontSize={40}
-                      type="radio_button_checked"
+                      type="radio_button_unchecked"
                     >
                       <i
-                        className="MUIconComp-root-0-3-35 MUIconComp-root-d96-0-3-249"
+                        className="MUIconComp-root-0-3-35 MUIconComp-root-d93-0-3-248"
                       >
-                        radio_button_checked
+                        radio_button_unchecked
                       </i>
                     </MUIconComp>
                   </WithStyles(MUIconComp)>
@@ -232,14 +338,14 @@ exports[`Storyshots Components/RadioButton Primary checked 1`] = `
       checked={true}
       classes={
         Object {
-          "root": "RadioButtonComp-root-0-3-246",
+          "root": "RadioButtonComp-root-0-3-247",
         }
       }
       color="primary"
       onChange={[Function]}
     >
       <div
-        className="RadioButtonComp-root-0-3-246"
+        className="RadioButtonComp-root-0-3-247"
         onClick={[Function]}
         style={
           Object {
@@ -288,14 +394,14 @@ exports[`Storyshots Components/RadioButton Primary checked 1`] = `
                     <MUIconComp
                       classes={
                         Object {
-                          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d98-0-3-251",
+                          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d97-0-3-252",
                         }
                       }
                       fontSize={40}
                       type="radio_button_checked"
                     >
                       <i
-                        className="MUIconComp-root-0-3-35 MUIconComp-root-d98-0-3-251"
+                        className="MUIconComp-root-0-3-35 MUIconComp-root-d97-0-3-252"
                       >
                         radio_button_checked
                       </i>
@@ -337,7 +443,7 @@ exports[`Storyshots Components/RadioButton Primary disabled 1`] = `
       checked={true}
       classes={
         Object {
-          "root": "RadioButtonComp-root-0-3-246",
+          "root": "RadioButtonComp-root-0-3-247",
         }
       }
       color="primary"
@@ -345,16 +451,18 @@ exports[`Storyshots Components/RadioButton Primary disabled 1`] = `
       onChange={[Function]}
     >
       <div
-        className="RadioButtonComp-root-0-3-246"
-        onClick={[Function]}
+        className="RadioButtonComp-root-0-3-247"
         style={
           Object {
             "color": "rgba(3, 169, 244, 0.5)",
           }
         }
       >
-        <TouchRipple>
+        <TouchRipple
+          disabled={true}
+        >
           <WithStyles(TouchRippleComp)
+            disabled={true}
             innerRef={null}
             jssContext={
               Object {
@@ -371,9 +479,10 @@ exports[`Storyshots Components/RadioButton Primary disabled 1`] = `
                   "root": "TouchRippleComp-root-0-3-33",
                 }
               }
+              disabled={true}
             >
               <div
-                className="TouchRippleComp-root-0-3-33"
+                className="TouchRippleComp-disabled-0-3-34"
               >
                 <MUIcon
                   fontSize={40}
@@ -394,14 +503,14 @@ exports[`Storyshots Components/RadioButton Primary disabled 1`] = `
                     <MUIconComp
                       classes={
                         Object {
-                          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d99-0-3-252",
+                          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d98-0-3-253",
                         }
                       }
                       fontSize={40}
                       type="radio_button_checked"
                     >
                       <i
-                        className="MUIconComp-root-0-3-35 MUIconComp-root-d99-0-3-252"
+                        className="MUIconComp-root-0-3-35 MUIconComp-root-d98-0-3-253"
                       >
                         radio_button_checked
                       </i>
@@ -441,14 +550,14 @@ exports[`Storyshots Components/RadioButton Primary unchecked 1`] = `
       checked={false}
       classes={
         Object {
-          "root": "RadioButtonComp-root-0-3-246",
+          "root": "RadioButtonComp-root-0-3-247",
         }
       }
       color="primary"
       onChange={[Function]}
     >
       <div
-        className="RadioButtonComp-root-0-3-246"
+        className="RadioButtonComp-root-0-3-247"
         onClick={[Function]}
         style={
           Object {
@@ -497,117 +606,14 @@ exports[`Storyshots Components/RadioButton Primary unchecked 1`] = `
                     <MUIconComp
                       classes={
                         Object {
-                          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d97-0-3-250",
+                          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d96-0-3-251",
                         }
                       }
                       fontSize={40}
                       type="radio_button_unchecked"
                     >
                       <i
-                        className="MUIconComp-root-0-3-35 MUIconComp-root-d97-0-3-250"
-                      >
-                        radio_button_unchecked
-                      </i>
-                    </MUIconComp>
-                  </WithStyles(MUIconComp)>
-                </MUIcon>
-              </div>
-            </TouchRippleComp>
-          </WithStyles(TouchRippleComp)>
-        </TouchRipple>
-      </div>
-    </RadioButtonComp>
-  </WithStyles(RadioButtonComp)>
-</RadioButton>
-`;
-
-exports[`Storyshots Components/RadioButton Unchecked 1`] = `
-<RadioButton
-  checked={false}
-  color="neutral"
-  onChange={[Function]}
->
-  <WithStyles(RadioButtonComp)
-    checked={false}
-    color="neutral"
-    innerRef={null}
-    jssContext={
-      Object {
-        "classNamePrefix": "",
-        "disableStylesGeneration": false,
-      }
-    }
-    onChange={[Function]}
-    theme={Object {}}
-  >
-    <RadioButtonComp
-      checked={false}
-      classes={
-        Object {
-          "root": "RadioButtonComp-root-0-3-246",
-        }
-      }
-      color="neutral"
-      onChange={[Function]}
-    >
-      <div
-        className="RadioButtonComp-root-0-3-246"
-        onClick={[Function]}
-        style={
-          Object {
-            "color": "rgba(33, 33, 33, 1)",
-          }
-        }
-      >
-        <TouchRipple>
-          <WithStyles(TouchRippleComp)
-            innerRef={null}
-            jssContext={
-              Object {
-                "classNamePrefix": "",
-                "disableStylesGeneration": false,
-              }
-            }
-            theme={Object {}}
-          >
-            <TouchRippleComp
-              classes={
-                Object {
-                  "disabled": "TouchRippleComp-disabled-0-3-34",
-                  "root": "TouchRippleComp-root-0-3-33",
-                }
-              }
-            >
-              <div
-                className="TouchRippleComp-root-0-3-33"
-              >
-                <MUIcon
-                  fontSize={40}
-                  type="radio_button_unchecked"
-                >
-                  <WithStyles(MUIconComp)
-                    fontSize={40}
-                    innerRef={null}
-                    jssContext={
-                      Object {
-                        "classNamePrefix": "",
-                        "disableStylesGeneration": false,
-                      }
-                    }
-                    theme={Object {}}
-                    type="radio_button_unchecked"
-                  >
-                    <MUIconComp
-                      classes={
-                        Object {
-                          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d94-0-3-247",
-                        }
-                      }
-                      fontSize={40}
-                      type="radio_button_unchecked"
-                    >
-                      <i
-                        className="MUIconComp-root-0-3-35 MUIconComp-root-d94-0-3-247"
+                        className="MUIconComp-root-0-3-35 MUIconComp-root-d96-0-3-251"
                       >
                         radio_button_unchecked
                       </i>

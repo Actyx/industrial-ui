@@ -1,14 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Components/CircularProgress Color 1`] = `
+exports[`Storyshots Components/CircularProgress Custom color 1`] = `
 <CircularProgress
-  colorIndicator="#f44336"
-  colorTrack="#000000"
+  colorIndicator="#4caf50"
+  colorTrack="#c8e6c9"
   size="md"
 >
   <WithStyles(CircularProgressComp)
-    colorIndicator="#f44336"
-    colorTrack="#000000"
+    colorIndicator="#4caf50"
+    colorTrack="#c8e6c9"
     innerRef={null}
     jssContext={
       Object {
@@ -23,21 +23,21 @@ exports[`Storyshots Components/CircularProgress Color 1`] = `
       classes={
         Object {
           "@keyframes spin": undefined,
-          "md": "CircularProgressComp-md-0-3-97",
-          "root": "CircularProgressComp-root-0-3-96",
-          "sm": "CircularProgressComp-sm-0-3-98",
+          "md": "CircularProgressComp-md-0-3-101",
+          "root": "CircularProgressComp-root-0-3-100",
+          "sm": "CircularProgressComp-sm-0-3-102",
         }
       }
-      colorIndicator="#f44336"
-      colorTrack="#000000"
+      colorIndicator="#4caf50"
+      colorTrack="#c8e6c9"
       size="md"
     >
       <div
-        className="CircularProgressComp-root-0-3-96 CircularProgressComp-md-0-3-97"
+        className="CircularProgressComp-root-0-3-100 CircularProgressComp-md-0-3-101"
         style={
           Object {
-            "borderColor": "#000000",
-            "borderTopColor": "#f44336",
+            "borderColor": "#c8e6c9",
+            "borderTopColor": "#4caf50",
           }
         }
       />
@@ -65,15 +65,15 @@ exports[`Storyshots Components/CircularProgress Variant md 1`] = `
       classes={
         Object {
           "@keyframes spin": undefined,
-          "md": "CircularProgressComp-md-0-3-97",
-          "root": "CircularProgressComp-root-0-3-96",
-          "sm": "CircularProgressComp-sm-0-3-98",
+          "md": "CircularProgressComp-md-0-3-101",
+          "root": "CircularProgressComp-root-0-3-100",
+          "sm": "CircularProgressComp-sm-0-3-102",
         }
       }
       size="md"
     >
       <div
-        className="CircularProgressComp-root-0-3-96 CircularProgressComp-md-0-3-97"
+        className="CircularProgressComp-root-0-3-100 CircularProgressComp-md-0-3-101"
         style={
           Object {
             "borderColor": undefined,
@@ -105,15 +105,15 @@ exports[`Storyshots Components/CircularProgress Variant sm 1`] = `
       classes={
         Object {
           "@keyframes spin": undefined,
-          "md": "CircularProgressComp-md-0-3-97",
-          "root": "CircularProgressComp-root-0-3-96",
-          "sm": "CircularProgressComp-sm-0-3-98",
+          "md": "CircularProgressComp-md-0-3-101",
+          "root": "CircularProgressComp-root-0-3-100",
+          "sm": "CircularProgressComp-sm-0-3-102",
         }
       }
       size="sm"
     >
       <div
-        className="CircularProgressComp-root-0-3-96 CircularProgressComp-sm-0-3-98"
+        className="CircularProgressComp-root-0-3-100 CircularProgressComp-sm-0-3-102"
         style={
           Object {
             "borderColor": undefined,
