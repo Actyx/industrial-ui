@@ -15,3 +15,28 @@ Actyx UI is available as an [npm package](https://www.npmjs.com/package/@actyx/a
 ```shell
 npm install @actyx/actyx-ui
 ```
+
+## Developer tools
+
+| Script | Description  |
+|---|---|
+| `npm run clean` | Clean lib and coverage folders |
+| `npm run tsc` | Run TypeScript check |
+| `npm run tsc:watch` | Run TypeScript check watch mode |
+| `npm run build` | Build project |
+| `npm run build:watch` | Build project watch mode |
+| `npm run build:prod` | Perform all checks and build project |
+| `npm run lint` | Check for lint issues |
+| `npm run lint:fix` | Check and automatically fix lint issues |
+| `npm run storybook` | Run StoryBook |
+| `npm run storybook:build` | Build StoryBook |
+| `npm run test` | Run Jest tests |
+| `npm run test:no-coverage` | Run Jest tests and exclude coverage report |
+| `npm run test:watch` | Run tests in watch mode |
+| `npm run test:visual` | Run visual regression testing |
+| `npm run test:visual-approve` | Approve result from visual regression testing |
+| `npm run license:add` | Append license information to every relevant files |
+| `npm run license:check` | Check if license information is present on every relevant files |
+| `npm run license:check-dep` | Check the licenses for project dependencies |
+| `npm run license:check-dep` | Check the licenses for project dependencies and produce a summary |
+| `npm run sloc` | Report total number of source lines of code |
