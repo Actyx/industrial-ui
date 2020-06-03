@@ -138,6 +138,10 @@ const styles: StyleSheet<ClassKey> = {
   }
 };
 
+/**
+ * FloatingActionButton performs the primary, or most common, action on a screen.
+ * It appears in front of all screen content. Use it if it is the most suitable way to present a screen’s primary action.
+ */
 export const FloatingActionButton = compose<Props, CompProps>(
   setDisplayName('FloatingActionButton'),
   injectSheet(styles)
