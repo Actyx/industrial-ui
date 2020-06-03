@@ -16,6 +16,29 @@ Actyx UI is available as an [npm package](https://www.npmjs.com/package/@actyx/a
 npm install @actyx/actyx-ui
 ```
 
+## Documentation
+
+You can access the documentation and related examples by:
+
+```sh
+## clone repository
+git clone https://github.com/Actyx/actyx-ui.git
+## navigate to project folder
+cd actyx-ui
+## use the correct version of nodejs
+nvm use
+## install dependencies
+npm i
+## run StoryBook
+npm run storybook
+```
+
+A website with documentation will be visible at [http://localhost:6006/](http://localhost:6006/)
+
+On the left side of the screen, you can find all components, click each story on the left to see on the component on the "Canvas" tab on the right.
+
+By clicking on the "Docs" tab you can access code samples and properties details.
+
 ## Developer tools
 
 | Script | Description  |
