@@ -21,14 +21,26 @@ import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import Transition from 'react-transition-group/Transition';
 import { compose, setDisplayName } from 'recompose';
 import { Header } from './Header';
-import { List, ListItem } from './List';
+import { List } from './List';
 
 type CompProps = Readonly<{
   open: boolean;
   headerMain: React.ReactNode;
   headerIcon?: React.ReactNode;
-  listMain: ReadonlyArray<ListItem>;
-  listSub: ReadonlyArray<ListItem>;
+  listMain: ReadonlyArray<{
+    id: string;
+    name: React.ReactNode;
+    icon?: string;
+    iconComponent?: React.ReactNode;
+    onClick: () => void;
+  }>;
+  listSub: ReadonlyArray<{
+    id: string;
+    name: React.ReactNode;
+    icon?: string;
+    iconComponent?: React.ReactNode;
+    onClick: () => void;
+  }>;
   handleClose: () => void;
 }>;
 
