@@ -166,6 +166,11 @@ const styles: StyleSheet<ClassKey> = {
   }
 };
 
+/**
+ * Typography helps to present your UI and content as clearly and efficiently as possible.
+ * Its typographic scale has a limited set of type sizes that were selected and tested to maximize operators' user experience in industrial environments.
+ * The "Titillium Web" font will be automatically loaded by this library.
+ */
 export const Typography = compose<Props, CompProps>(
   setDisplayName('Typography'),
   injectSheet(styles)
