@@ -1,3 +1,4 @@
+/* eslint-disable react/display-name */
 /*
  * Copyright 2020 Actyx AG
  *
@@ -15,68 +16,196 @@
  */
 import { action } from '@storybook/addon-actions';
 import { storiesOf } from '@storybook/react';
-import { LoremIpsumVeryShort, range } from '../../utils';
+import { range } from '../../utils';
 import { hostDecorator } from '../../utils';
 import * as React from 'react';
 import { VirtualizedList } from './VirtualizedList';
 import { theme } from '../../theme';
 
-type Item = Readonly<{
-  id: string;
-  description: string;
-  value: string;
-}>;
-
-const data: ReadonlyArray<Item> = [
-  { id: 'a', description: `A ${LoremIpsumVeryShort}`, value: '1' },
-  { id: 'b', description: `B ${LoremIpsumVeryShort}`, value: '2' },
-  { id: 'c', description: `C ${LoremIpsumVeryShort}`, value: '3' }
-];
-
-const FONT_WEIGHT_BOLD = theme.typography.fontWeightBold;
-
-const baseProps = {
-  data,
-  getUniqKey: (datum: Item) => datum.id,
-  header: (
-    <>
-      <div style={{ width: 100, fontWeight: FONT_WEIGHT_BOLD }}>Id</div>
-      <div style={{ width: 300, fontWeight: FONT_WEIGHT_BOLD }}>Description</div>
-      <div style={{ width: 100, marginLeft: 'auto', fontWeight: FONT_WEIGHT_BOLD }}>Value</div>
-    </>
-  ),
-  // eslint-disable-next-line react/display-name
-  renderRow: ({ id, description, value }: Item) => (
-    <>
-      <div style={{ width: 100 }}>{id}</div>
-      <div style={{ width: 300 }}>{description}</div>
-      <div style={{ width: 100, marginLeft: 'auto' }}>{value}</div>
-    </>
-  )
-};
-
 storiesOf('Components/VirtualizedList', module)
   .addParameters({ component: VirtualizedList })
   .addDecorator(hostDecorator({ height: 400 }))
-  .add('Base', () => <VirtualizedList<Item> {...baseProps} />)
-  .add('Lots of data virtualized', () => {
-    const d: ReadonlyArray<Item> = range(0, 10000).map(x => ({
-      id: `${x}`,
-      description: `desc ${x}`,
-      value: `${x}`
-    }));
+  .add('Base', () => {
+    type Item = Readonly<{
+      id: string;
+      description: string;
+      value: string;
+    }>;
+    const lorem = 'Lorem ipsum dolor sit amet.';
 
-    return <VirtualizedList<Item> {...baseProps} data={d} />;
+    const data: ReadonlyArray<Item> = [
+      { id: 'a', description: `A ${lorem}`, value: '1' },
+      { id: 'b', description: `B ${lorem}`, value: '2' },
+      { id: 'c', description: `C ${lorem}`, value: '3' }
+    ];
+
+    const FONT_WEIGHT_BOLD = theme.typography.fontWeightBold;
+
+    const baseProps = {
+      data,
+      getUniqKey: (datum: Item) => datum.id,
+      header: (
+        <>
+          <div style={{ width: 100, fontWeight: FONT_WEIGHT_BOLD }}>Id</div>
+          <div style={{ width: 300, fontWeight: FONT_WEIGHT_BOLD }}>Description</div>
+          <div style={{ width: 100, marginLeft: 'auto', fontWeight: FONT_WEIGHT_BOLD }}>Value</div>
+        </>
+      ),
+      renderRow: ({ id, description, value }: Item) => (
+        <>
+          <div style={{ width: 100 }}>{id}</div>
+          <div style={{ width: 300 }}>{description}</div>
+          <div style={{ width: 100, marginLeft: 'auto' }}>{value}</div>
+        </>
+      )
+    };
+
+    return <VirtualizedList<Item> {...baseProps} />;
   })
-  .add('setRowClassName', () => (
-    <VirtualizedList<Item>
-      {...baseProps}
-      setRowClassName={x => (x.id === 'b' ? 'font-weight-bold' : '')}
-    />
-  ))
-  .add('isRowSelected', () => (
-    <VirtualizedList<Item> {...baseProps} isRowSelected={x => x.id === 'b'} />
-  ))
-  .add('onRowSelect', () => (
-    <VirtualizedList<Item> {...baseProps} onRowSelect={action('onRowSelected')} />
-  ));
+  .add('Lots of data virtualized', () => {
+    type Item = Readonly<{
+      id: string;
+      description: string;
+      value: string;
+    }>;
+
+    const FONT_WEIGHT_BOLD = theme.typography.fontWeightBold;
+
+    const baseProps = {
+      data: range(0, 10000).map(x => ({
+        id: `${x}`,
+        description: `Description ${x}`,
+        value: `${x}`
+      })),
+      getUniqKey: (datum: Item) => datum.id,
+      header: (
+        <>
+          <div style={{ width: 100, fontWeight: FONT_WEIGHT_BOLD }}>Id</div>
+          <div style={{ width: 300, fontWeight: FONT_WEIGHT_BOLD }}>Description</div>
+          <div style={{ width: 100, marginLeft: 'auto', fontWeight: FONT_WEIGHT_BOLD }}>Value</div>
+        </>
+      ),
+      renderRow: ({ id, description, value }: Item) => (
+        <>
+          <div style={{ width: 100 }}>{id}</div>
+          <div style={{ width: 300 }}>{description}</div>
+          <div style={{ width: 100, marginLeft: 'auto' }}>{value}</div>
+        </>
+      )
+    };
+
+    return <VirtualizedList<Item> {...baseProps} />;
+  })
+  .add('setRowClassName', () => {
+    type Item = Readonly<{
+      id: string;
+      description: string;
+      value: string;
+    }>;
+    const lorem = 'Lorem ipsum dolor sit amet.';
+
+    const data: ReadonlyArray<Item> = [
+      { id: 'a', description: `A ${lorem}`, value: '1' },
+      { id: 'b', description: `B ${lorem}`, value: '2' },
+      { id: 'c', description: `C ${lorem}`, value: '3' }
+    ];
+
+    const FONT_WEIGHT_BOLD = theme.typography.fontWeightBold;
+
+    const baseProps = {
+      data,
+      getUniqKey: (datum: Item) => datum.id,
+      header: (
+        <>
+          <div style={{ width: 100, fontWeight: FONT_WEIGHT_BOLD }}>Id</div>
+          <div style={{ width: 300, fontWeight: FONT_WEIGHT_BOLD }}>Description</div>
+          <div style={{ width: 100, marginLeft: 'auto', fontWeight: FONT_WEIGHT_BOLD }}>Value</div>
+        </>
+      ),
+      renderRow: ({ id, description, value }: Item) => (
+        <>
+          <div style={{ width: 100 }}>{id}</div>
+          <div style={{ width: 300 }}>{description}</div>
+          <div style={{ width: 100, marginLeft: 'auto' }}>{value}</div>
+        </>
+      )
+    };
+    return (
+      <VirtualizedList<Item>
+        {...baseProps}
+        setRowClassName={x => (x.id === 'b' ? 'font-weight-bold' : '')}
+      />
+    );
+  })
+  .add('isRowSelected', () => {
+    type Item = Readonly<{
+      id: string;
+      description: string;
+      value: string;
+    }>;
+    const lorem = 'Lorem ipsum dolor sit amet.';
+
+    const data: ReadonlyArray<Item> = [
+      { id: 'a', description: `A ${lorem}`, value: '1' },
+      { id: 'b', description: `B ${lorem}`, value: '2' },
+      { id: 'c', description: `C ${lorem}`, value: '3' }
+    ];
+
+    const FONT_WEIGHT_BOLD = theme.typography.fontWeightBold;
+
+    const baseProps = {
+      data,
+      getUniqKey: (datum: Item) => datum.id,
+      header: (
+        <>
+          <div style={{ width: 100, fontWeight: FONT_WEIGHT_BOLD }}>Id</div>
+          <div style={{ width: 300, fontWeight: FONT_WEIGHT_BOLD }}>Description</div>
+          <div style={{ width: 100, marginLeft: 'auto', fontWeight: FONT_WEIGHT_BOLD }}>Value</div>
+        </>
+      ),
+      renderRow: ({ id, description, value }: Item) => (
+        <>
+          <div style={{ width: 100 }}>{id}</div>
+          <div style={{ width: 300 }}>{description}</div>
+          <div style={{ width: 100, marginLeft: 'auto' }}>{value}</div>
+        </>
+      )
+    };
+    return <VirtualizedList<Item> {...baseProps} isRowSelected={x => x.id === 'b'} />;
+  })
+  .add('onRowSelect', () => {
+    type Item = Readonly<{
+      id: string;
+      description: string;
+      value: string;
+    }>;
+    const lorem = 'Lorem ipsum dolor sit amet.';
+
+    const data: ReadonlyArray<Item> = [
+      { id: 'a', description: `A ${lorem}`, value: '1' },
+      { id: 'b', description: `B ${lorem}`, value: '2' },
+      { id: 'c', description: `C ${lorem}`, value: '3' }
+    ];
+
+    const FONT_WEIGHT_BOLD = theme.typography.fontWeightBold;
+
+    const baseProps = {
+      data,
+      getUniqKey: (datum: Item) => datum.id,
+      header: (
+        <>
+          <div style={{ width: 100, fontWeight: FONT_WEIGHT_BOLD }}>Id</div>
+          <div style={{ width: 300, fontWeight: FONT_WEIGHT_BOLD }}>Description</div>
+          <div style={{ width: 100, marginLeft: 'auto', fontWeight: FONT_WEIGHT_BOLD }}>Value</div>
+        </>
+      ),
+      renderRow: ({ id, description, value }: Item) => (
+        <>
+          <div style={{ width: 100 }}>{id}</div>
+          <div style={{ width: 300 }}>{description}</div>
+          <div style={{ width: 100, marginLeft: 'auto' }}>{value}</div>
+        </>
+      )
+    };
+    return <VirtualizedList<Item> {...baseProps} onRowSelect={action('onRowSelected')} />;
+  });
