@@ -25,7 +25,7 @@ type Props = CompProps;
 
 export function DialogHeader({ text, rightComponent }: Props): JSX.Element {
   return (
-    <div className="d-flex justify-content-between">
+    <div>
       <Typography variant="big" bold>
         {text}
       </Typography>

@@ -34,14 +34,11 @@ const BatteryIconComp = ({ className, level, variant = 'light', counter, chargin
   return (
     <span className={classNames(className)}>
       {counter && (
-        <Typography
-          className="mr-2"
-          variant="subtext"
-          color={getColorFromVariant(variant)}
-          semiBold
-        >
-          {levelRounded} %
-        </Typography>
+        <span style={{ marginRight: 10 }}>
+          <Typography variant="subtext" color={getColorFromVariant(variant)} semiBold>
+            {levelRounded} %
+          </Typography>
+        </span>
       )}
       <svg xmlns="http://www.w3.org/2000/svg" width="56" height="28" viewBox="0 0 56 28">
         <rect
