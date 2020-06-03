@@ -2,6 +2,9 @@
 
 # Industrial UI
 
+🚀 Demo and docs: [https://actyx.github.io/industrial-ui/index.html](https://actyx.github.io/industrial-ui/index.html)
+
+
 ## Simple, modular UI Components for Shop Floor Applications
 
 Industrial UI is a React toolkit built by [Actyx](https://www.actyx.com), a German tech company specializing in [distributed edge computing for factories](https://www.actyx.com/os/). The toolkit features over 45 components and is mostly meant for building Shop Floor Applications that run in modern browsers on Rugged Industrial Tablets.
@@ -10,7 +13,7 @@ Industrial UI provides buttons, tabs, cards, navigation, and many other componen
 
 Industrial UI is written entirely in TypeScript with predictable static types, making it easy to pick up and understand.
 
-## Installation
+## 📦 Installation
 
 Industrial UI is available as an [npm package](https://www.npmjs.com/package/@actyx/industrial-ui).
 
@@ -18,7 +21,7 @@ Industrial UI is available as an [npm package](https://www.npmjs.com/package/@ac
 npm install @actyx/industrial-ui
 ```
 
-## Documentation
+## 📖 Documentation
 
 You can access the documentation and related examples by:
 
@@ -41,7 +44,7 @@ On the left side of the screen, you can find all components, click each story on
 
 By clicking on the "Docs" tab you can access description, code samples and properties details.
 
-## Developer tools
+## 🤓 Developer tools
 
 | Script | Description  |
 |---|---|
