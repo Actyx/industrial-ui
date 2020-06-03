@@ -66,4 +66,8 @@ const BatteryIconComp = ({ className, level, variant = 'light', counter, chargin
   );
 };
 
+/**
+ * BatteryIcon gives visual information about the battery state of charge.
+ * It is particularly handy when creating a full-screen application running in kiosk mode.
+ */
 export const BatteryIcon = compose<Props, Props>(setDisplayName('BatteryIcon'))(BatteryIconComp);
