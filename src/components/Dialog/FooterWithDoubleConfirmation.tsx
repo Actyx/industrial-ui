@@ -133,6 +133,10 @@ const styles: StyleSheet<ClassKey, CompProps> = {
   }
 };
 
+/**
+ * FooterWithDoubleConfirmation a convenient confirmation UX pattern to a Dialog.
+ * It provides a reconfirmation option to a user, use as a confirmation after a complex, sever, or irreversible operation.
+ */
 export const FooterWithDoubleConfirmation = compose<Props, CompProps>(
   setDisplayName('FooterWithDoubleConfirmation'),
   injectSheet(styles)
