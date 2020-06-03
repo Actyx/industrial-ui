@@ -9,4 +9,4 @@ cache:
 install:
   - npm ci
 script:
-  - npm run check:ci
+  - npm run check
