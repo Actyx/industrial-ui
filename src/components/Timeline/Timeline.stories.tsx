@@ -16,7 +16,7 @@
 import { storiesOf } from '@storybook/react';
 import { hostDecorator } from '../../utils';
 import * as React from 'react';
-import { Timeline, TimelineEvent as TimelineEventType } from './Timeline';
+import { Timeline } from './Timeline';
 import { TimelineEvent } from './TimelineEvent';
 import { StatusComponent } from './Status';
 import { Content } from './Content';
@@ -31,6 +31,14 @@ storiesOf('Components/Timeline', module)
     })
   )
   .add('Base', () => {
+    type TimelineEventType = Readonly<{
+      color: string;
+      arrangement: 'single' | 'start' | 'continue' | 'end';
+      title: string;
+      dateFormated: React.ReactNode;
+      description?: string;
+    }>;
+
     const COLOR_GREEN = green[500];
     const COLOR_ORANGE = orange[700];
 
@@ -76,9 +84,19 @@ storiesOf('Components/Timeline', module)
     return <Timeline {...baseProps} />;
   })
   .add('Intervals', () => {
+    type TimelineEventType = Readonly<{
+      color: string;
+      arrangement: 'single' | 'start' | 'continue' | 'end';
+      title: string;
+      dateFormated: React.ReactNode;
+      description?: string;
+    }>;
+
     const COLOR_GREEN = green[500];
     const COLOR_ORANGE = orange[700];
+
     const formatDate = (timestamp: number) => <>{new Date(timestamp).toLocaleString('en-US')}</>;
+
     const intervalsProps: {
       events: ReadonlyArray<TimelineEventType>;
       scrollToLast: boolean;

@@ -34,7 +34,13 @@ export type TimelineEvent = Readonly<{
 }>;
 
 type CompProps = Readonly<{
-  events: ReadonlyArray<TimelineEvent>;
+  events: ReadonlyArray<{
+    color: string;
+    arrangement: 'single' | 'start' | 'continue' | 'end';
+    title: string;
+    dateFormated: React.ReactNode;
+    description?: string;
+  }>;
   scrollToLast?: boolean;
 }>;
 
