@@ -89,6 +89,10 @@ const styles: StyleSheet<ClassKey> = {
   }
 };
 
+/**
+ * SwipeableCards is a container component for swipeable items including Cards.
+ * Below an example of swiping Cards or any other UI elements.
+ */
 export const SwipeableCards = compose<Props, CompProps>(
   setDisplayName('SwipeableCards'),
   injectSheet(styles)
