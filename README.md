@@ -22,9 +22,9 @@ You can access the documentation and related examples by:
 
 ```sh
 ## clone repository
-git clone https://github.com/Actyx/actyx-ui.git
+git clone https://github.com/Actyx/industrial-ui.git
 ## navigate to project folder
-cd actyx-ui
+cd industrial-ui
 ## use the correct version of nodejs
 nvm use
 ## install dependencies
