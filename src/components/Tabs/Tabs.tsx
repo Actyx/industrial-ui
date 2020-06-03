@@ -89,6 +89,9 @@ const styles: StyleSheet<ClassKey> = {
   }
 };
 
+/**
+ * Tab organizes content across different screens, make it easy to explore and switch between different views.
+ */
 export const Tabs = compose<Props, CompProps>(
   setDisplayName('Tabs'),
   injectSheet(styles)

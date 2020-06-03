@@ -39,14 +39,14 @@ exports[`Storyshots Components/LinearProgress Color brown 1`] = `
       border={true}
       classes={
         Object {
-          "content": "LinearProgressComp-content-0-3-180",
-          "indicator": "LinearProgressComp-indicator-0-3-178",
-          "lg": "LinearProgressComp-lg-0-3-177",
-          "md": "LinearProgressComp-md-0-3-175",
-          "md60": "LinearProgressComp-md60-0-3-176",
-          "message": "LinearProgressComp-message-0-3-179",
-          "root": "LinearProgressComp-root-0-3-173",
-          "xs": "LinearProgressComp-xs-0-3-174",
+          "content": "LinearProgressComp-content-0-3-177",
+          "indicator": "LinearProgressComp-indicator-0-3-175",
+          "lg": "LinearProgressComp-lg-0-3-174",
+          "md": "LinearProgressComp-md-0-3-172",
+          "md60": "LinearProgressComp-md60-0-3-173",
+          "message": "LinearProgressComp-message-0-3-176",
+          "root": "LinearProgressComp-root-0-3-170",
+          "xs": "LinearProgressComp-xs-0-3-171",
         }
       }
       color="brown"
@@ -61,7 +61,7 @@ exports[`Storyshots Components/LinearProgress Color brown 1`] = `
       value={30}
     >
       <div
-        className="LinearProgressComp-root-0-3-173 LinearProgressComp-md-0-3-175"
+        className="LinearProgressComp-root-0-3-170 LinearProgressComp-md-0-3-172"
         style={
           Object {
             "backgroundColor": "#3e2723",
@@ -70,7 +70,7 @@ exports[`Storyshots Components/LinearProgress Color brown 1`] = `
         }
       >
         <div
-          className="LinearProgressComp-indicator-0-3-178"
+          className="LinearProgressComp-indicator-0-3-175"
           style={
             Object {
               "backgroundColor": "#8d6e63",
@@ -91,13 +91,13 @@ exports[`Storyshots Components/LinearProgress Color brown 1`] = `
         >
           <Typography
             bold={true}
-            className="LinearProgressComp-message-0-3-179"
+            className="LinearProgressComp-message-0-3-176"
             color="#ffffff"
             variant="subtext"
           >
             <WithStyles(TypographyComp)
               bold={true}
-              className="LinearProgressComp-message-0-3-179"
+              className="LinearProgressComp-message-0-3-176"
               color="#ffffff"
               innerRef={null}
               jssContext={
@@ -111,7 +111,7 @@ exports[`Storyshots Components/LinearProgress Color brown 1`] = `
             >
               <TypographyComp
                 bold={true}
-                className="LinearProgressComp-message-0-3-179"
+                className="LinearProgressComp-message-0-3-176"
                 classes={
                   Object {
                     "big": "TypographyComp-big-0-3-7",
@@ -134,7 +134,7 @@ exports[`Storyshots Components/LinearProgress Color brown 1`] = `
                 variant="subtext"
               >
                 <span
-                  className="LinearProgressComp-message-0-3-179 TypographyComp-subtext-0-3-4 TypographyComp-bold-0-3-1"
+                  className="LinearProgressComp-message-0-3-176 TypographyComp-subtext-0-3-4 TypographyComp-bold-0-3-1"
                   style={
                     Object {
                       "color": "rgba(255, 255, 255, 1)",
@@ -149,7 +149,7 @@ exports[`Storyshots Components/LinearProgress Color brown 1`] = `
             </WithStyles(TypographyComp)>
           </Typography>
           <div
-            className="LinearProgressComp-content-0-3-180"
+            className="LinearProgressComp-content-0-3-177"
           >
             <Typography
               bold={true}
@@ -291,14 +291,14 @@ exports[`Storyshots Components/LinearProgress Color green 1`] = `
     <LinearProgressComp
       classes={
         Object {
-          "content": "LinearProgressComp-content-0-3-180",
-          "indicator": "LinearProgressComp-indicator-0-3-178",
-          "lg": "LinearProgressComp-lg-0-3-177",
-          "md": "LinearProgressComp-md-0-3-175",
-          "md60": "LinearProgressComp-md60-0-3-176",
-          "message": "LinearProgressComp-message-0-3-179",
-          "root": "LinearProgressComp-root-0-3-173",
-          "xs": "LinearProgressComp-xs-0-3-174",
+          "content": "LinearProgressComp-content-0-3-177",
+          "indicator": "LinearProgressComp-indicator-0-3-175",
+          "lg": "LinearProgressComp-lg-0-3-174",
+          "md": "LinearProgressComp-md-0-3-172",
+          "md60": "LinearProgressComp-md60-0-3-173",
+          "message": "LinearProgressComp-message-0-3-176",
+          "root": "LinearProgressComp-root-0-3-170",
+          "xs": "LinearProgressComp-xs-0-3-171",
         }
       }
       color="green"
@@ -307,7 +307,7 @@ exports[`Storyshots Components/LinearProgress Color green 1`] = `
       value={20}
     >
       <div
-        className="LinearProgressComp-root-0-3-173 LinearProgressComp-md-0-3-175"
+        className="LinearProgressComp-root-0-3-170 LinearProgressComp-md-0-3-172"
         style={
           Object {
             "backgroundColor": "#4caf50",
@@ -316,7 +316,7 @@ exports[`Storyshots Components/LinearProgress Color green 1`] = `
         }
       >
         <div
-          className="LinearProgressComp-indicator-0-3-178"
+          className="LinearProgressComp-indicator-0-3-175"
           style={
             Object {
               "backgroundColor": "#64dd17",
@@ -337,13 +337,13 @@ exports[`Storyshots Components/LinearProgress Color green 1`] = `
         >
           <Typography
             bold={true}
-            className="LinearProgressComp-message-0-3-179"
+            className="LinearProgressComp-message-0-3-176"
             color="#ffffff"
             variant="subtext"
           >
             <WithStyles(TypographyComp)
               bold={true}
-              className="LinearProgressComp-message-0-3-179"
+              className="LinearProgressComp-message-0-3-176"
               color="#ffffff"
               innerRef={null}
               jssContext={
@@ -357,7 +357,7 @@ exports[`Storyshots Components/LinearProgress Color green 1`] = `
             >
               <TypographyComp
                 bold={true}
-                className="LinearProgressComp-message-0-3-179"
+                className="LinearProgressComp-message-0-3-176"
                 classes={
                   Object {
                     "big": "TypographyComp-big-0-3-7",
@@ -380,7 +380,7 @@ exports[`Storyshots Components/LinearProgress Color green 1`] = `
                 variant="subtext"
               >
                 <span
-                  className="LinearProgressComp-message-0-3-179 TypographyComp-subtext-0-3-4 TypographyComp-bold-0-3-1"
+                  className="LinearProgressComp-message-0-3-176 TypographyComp-subtext-0-3-4 TypographyComp-bold-0-3-1"
                   style={
                     Object {
                       "color": "rgba(255, 255, 255, 1)",
@@ -393,7 +393,7 @@ exports[`Storyshots Components/LinearProgress Color green 1`] = `
             </WithStyles(TypographyComp)>
           </Typography>
           <div
-            className="LinearProgressComp-content-0-3-180"
+            className="LinearProgressComp-content-0-3-177"
           >
             <Typography
               bold={true}
@@ -531,14 +531,14 @@ exports[`Storyshots Components/LinearProgress Color grey 1`] = `
     <LinearProgressComp
       classes={
         Object {
-          "content": "LinearProgressComp-content-0-3-180",
-          "indicator": "LinearProgressComp-indicator-0-3-178",
-          "lg": "LinearProgressComp-lg-0-3-177",
-          "md": "LinearProgressComp-md-0-3-175",
-          "md60": "LinearProgressComp-md60-0-3-176",
-          "message": "LinearProgressComp-message-0-3-179",
-          "root": "LinearProgressComp-root-0-3-173",
-          "xs": "LinearProgressComp-xs-0-3-174",
+          "content": "LinearProgressComp-content-0-3-177",
+          "indicator": "LinearProgressComp-indicator-0-3-175",
+          "lg": "LinearProgressComp-lg-0-3-174",
+          "md": "LinearProgressComp-md-0-3-172",
+          "md60": "LinearProgressComp-md60-0-3-173",
+          "message": "LinearProgressComp-message-0-3-176",
+          "root": "LinearProgressComp-root-0-3-170",
+          "xs": "LinearProgressComp-xs-0-3-171",
         }
       }
       color="grey"
@@ -547,7 +547,7 @@ exports[`Storyshots Components/LinearProgress Color grey 1`] = `
       value={20}
     >
       <div
-        className="LinearProgressComp-root-0-3-173 LinearProgressComp-md-0-3-175"
+        className="LinearProgressComp-root-0-3-170 LinearProgressComp-md-0-3-172"
         style={
           Object {
             "backgroundColor": "#9e9e9e",
@@ -556,7 +556,7 @@ exports[`Storyshots Components/LinearProgress Color grey 1`] = `
         }
       >
         <div
-          className="LinearProgressComp-indicator-0-3-178"
+          className="LinearProgressComp-indicator-0-3-175"
           style={
             Object {
               "backgroundColor": "#bdbdbd",
@@ -577,13 +577,13 @@ exports[`Storyshots Components/LinearProgress Color grey 1`] = `
         >
           <Typography
             bold={true}
-            className="LinearProgressComp-message-0-3-179"
+            className="LinearProgressComp-message-0-3-176"
             color="#ffffff"
             variant="subtext"
           >
             <WithStyles(TypographyComp)
               bold={true}
-              className="LinearProgressComp-message-0-3-179"
+              className="LinearProgressComp-message-0-3-176"
               color="#ffffff"
               innerRef={null}
               jssContext={
@@ -597,7 +597,7 @@ exports[`Storyshots Components/LinearProgress Color grey 1`] = `
             >
               <TypographyComp
                 bold={true}
-                className="LinearProgressComp-message-0-3-179"
+                className="LinearProgressComp-message-0-3-176"
                 classes={
                   Object {
                     "big": "TypographyComp-big-0-3-7",
@@ -620,7 +620,7 @@ exports[`Storyshots Components/LinearProgress Color grey 1`] = `
                 variant="subtext"
               >
                 <span
-                  className="LinearProgressComp-message-0-3-179 TypographyComp-subtext-0-3-4 TypographyComp-bold-0-3-1"
+                  className="LinearProgressComp-message-0-3-176 TypographyComp-subtext-0-3-4 TypographyComp-bold-0-3-1"
                   style={
                     Object {
                       "color": "rgba(255, 255, 255, 1)",
@@ -633,7 +633,7 @@ exports[`Storyshots Components/LinearProgress Color grey 1`] = `
             </WithStyles(TypographyComp)>
           </Typography>
           <div
-            className="LinearProgressComp-content-0-3-180"
+            className="LinearProgressComp-content-0-3-177"
           >
             <Typography
               bold={true}
@@ -771,14 +771,14 @@ exports[`Storyshots Components/LinearProgress Color orange 1`] = `
     <LinearProgressComp
       classes={
         Object {
-          "content": "LinearProgressComp-content-0-3-180",
-          "indicator": "LinearProgressComp-indicator-0-3-178",
-          "lg": "LinearProgressComp-lg-0-3-177",
-          "md": "LinearProgressComp-md-0-3-175",
-          "md60": "LinearProgressComp-md60-0-3-176",
-          "message": "LinearProgressComp-message-0-3-179",
-          "root": "LinearProgressComp-root-0-3-173",
-          "xs": "LinearProgressComp-xs-0-3-174",
+          "content": "LinearProgressComp-content-0-3-177",
+          "indicator": "LinearProgressComp-indicator-0-3-175",
+          "lg": "LinearProgressComp-lg-0-3-174",
+          "md": "LinearProgressComp-md-0-3-172",
+          "md60": "LinearProgressComp-md60-0-3-173",
+          "message": "LinearProgressComp-message-0-3-176",
+          "root": "LinearProgressComp-root-0-3-170",
+          "xs": "LinearProgressComp-xs-0-3-171",
         }
       }
       color="orange"
@@ -787,7 +787,7 @@ exports[`Storyshots Components/LinearProgress Color orange 1`] = `
       value={20}
     >
       <div
-        className="LinearProgressComp-root-0-3-173 LinearProgressComp-md-0-3-175"
+        className="LinearProgressComp-root-0-3-170 LinearProgressComp-md-0-3-172"
         style={
           Object {
             "backgroundColor": "#ef6c00",
@@ -796,7 +796,7 @@ exports[`Storyshots Components/LinearProgress Color orange 1`] = `
         }
       >
         <div
-          className="LinearProgressComp-indicator-0-3-178"
+          className="LinearProgressComp-indicator-0-3-175"
           style={
             Object {
               "backgroundColor": "#ff9800",
@@ -817,13 +817,13 @@ exports[`Storyshots Components/LinearProgress Color orange 1`] = `
         >
           <Typography
             bold={true}
-            className="LinearProgressComp-message-0-3-179"
+            className="LinearProgressComp-message-0-3-176"
             color="#ffffff"
             variant="subtext"
           >
             <WithStyles(TypographyComp)
               bold={true}
-              className="LinearProgressComp-message-0-3-179"
+              className="LinearProgressComp-message-0-3-176"
               color="#ffffff"
               innerRef={null}
               jssContext={
@@ -837,7 +837,7 @@ exports[`Storyshots Components/LinearProgress Color orange 1`] = `
             >
               <TypographyComp
                 bold={true}
-                className="LinearProgressComp-message-0-3-179"
+                className="LinearProgressComp-message-0-3-176"
                 classes={
                   Object {
                     "big": "TypographyComp-big-0-3-7",
@@ -860,7 +860,7 @@ exports[`Storyshots Components/LinearProgress Color orange 1`] = `
                 variant="subtext"
               >
                 <span
-                  className="LinearProgressComp-message-0-3-179 TypographyComp-subtext-0-3-4 TypographyComp-bold-0-3-1"
+                  className="LinearProgressComp-message-0-3-176 TypographyComp-subtext-0-3-4 TypographyComp-bold-0-3-1"
                   style={
                     Object {
                       "color": "rgba(255, 255, 255, 1)",
@@ -873,7 +873,7 @@ exports[`Storyshots Components/LinearProgress Color orange 1`] = `
             </WithStyles(TypographyComp)>
           </Typography>
           <div
-            className="LinearProgressComp-content-0-3-180"
+            className="LinearProgressComp-content-0-3-177"
           >
             <Typography
               bold={true}
@@ -1011,14 +1011,14 @@ exports[`Storyshots Components/LinearProgress Color red 1`] = `
     <LinearProgressComp
       classes={
         Object {
-          "content": "LinearProgressComp-content-0-3-180",
-          "indicator": "LinearProgressComp-indicator-0-3-178",
-          "lg": "LinearProgressComp-lg-0-3-177",
-          "md": "LinearProgressComp-md-0-3-175",
-          "md60": "LinearProgressComp-md60-0-3-176",
-          "message": "LinearProgressComp-message-0-3-179",
-          "root": "LinearProgressComp-root-0-3-173",
-          "xs": "LinearProgressComp-xs-0-3-174",
+          "content": "LinearProgressComp-content-0-3-177",
+          "indicator": "LinearProgressComp-indicator-0-3-175",
+          "lg": "LinearProgressComp-lg-0-3-174",
+          "md": "LinearProgressComp-md-0-3-172",
+          "md60": "LinearProgressComp-md60-0-3-173",
+          "message": "LinearProgressComp-message-0-3-176",
+          "root": "LinearProgressComp-root-0-3-170",
+          "xs": "LinearProgressComp-xs-0-3-171",
         }
       }
       color="red"
@@ -1027,7 +1027,7 @@ exports[`Storyshots Components/LinearProgress Color red 1`] = `
       value={20}
     >
       <div
-        className="LinearProgressComp-root-0-3-173 LinearProgressComp-md-0-3-175"
+        className="LinearProgressComp-root-0-3-170 LinearProgressComp-md-0-3-172"
         style={
           Object {
             "backgroundColor": "#d50000",
@@ -1036,7 +1036,7 @@ exports[`Storyshots Components/LinearProgress Color red 1`] = `
         }
       >
         <div
-          className="LinearProgressComp-indicator-0-3-178"
+          className="LinearProgressComp-indicator-0-3-175"
           style={
             Object {
               "backgroundColor": "#d50000",
@@ -1057,13 +1057,13 @@ exports[`Storyshots Components/LinearProgress Color red 1`] = `
         >
           <Typography
             bold={true}
-            className="LinearProgressComp-message-0-3-179"
+            className="LinearProgressComp-message-0-3-176"
             color="#ffffff"
             variant="subtext"
           >
             <WithStyles(TypographyComp)
               bold={true}
-              className="LinearProgressComp-message-0-3-179"
+              className="LinearProgressComp-message-0-3-176"
               color="#ffffff"
               innerRef={null}
               jssContext={
@@ -1077,7 +1077,7 @@ exports[`Storyshots Components/LinearProgress Color red 1`] = `
             >
               <TypographyComp
                 bold={true}
-                className="LinearProgressComp-message-0-3-179"
+                className="LinearProgressComp-message-0-3-176"
                 classes={
                   Object {
                     "big": "TypographyComp-big-0-3-7",
@@ -1100,7 +1100,7 @@ exports[`Storyshots Components/LinearProgress Color red 1`] = `
                 variant="subtext"
               >
                 <span
-                  className="LinearProgressComp-message-0-3-179 TypographyComp-subtext-0-3-4 TypographyComp-bold-0-3-1"
+                  className="LinearProgressComp-message-0-3-176 TypographyComp-subtext-0-3-4 TypographyComp-bold-0-3-1"
                   style={
                     Object {
                       "color": "rgba(255, 255, 255, 1)",
@@ -1113,7 +1113,7 @@ exports[`Storyshots Components/LinearProgress Color red 1`] = `
             </WithStyles(TypographyComp)>
           </Typography>
           <div
-            className="LinearProgressComp-content-0-3-180"
+            className="LinearProgressComp-content-0-3-177"
           >
             <Typography
               bold={true}
@@ -1266,14 +1266,14 @@ exports[`Storyshots Components/LinearProgress Color white 1`] = `
       border={true}
       classes={
         Object {
-          "content": "LinearProgressComp-content-0-3-180",
-          "indicator": "LinearProgressComp-indicator-0-3-178",
-          "lg": "LinearProgressComp-lg-0-3-177",
-          "md": "LinearProgressComp-md-0-3-175",
-          "md60": "LinearProgressComp-md60-0-3-176",
-          "message": "LinearProgressComp-message-0-3-179",
-          "root": "LinearProgressComp-root-0-3-173",
-          "xs": "LinearProgressComp-xs-0-3-174",
+          "content": "LinearProgressComp-content-0-3-177",
+          "indicator": "LinearProgressComp-indicator-0-3-175",
+          "lg": "LinearProgressComp-lg-0-3-174",
+          "md": "LinearProgressComp-md-0-3-172",
+          "md60": "LinearProgressComp-md60-0-3-173",
+          "message": "LinearProgressComp-message-0-3-176",
+          "root": "LinearProgressComp-root-0-3-170",
+          "xs": "LinearProgressComp-xs-0-3-171",
         }
       }
       color="white"
@@ -1288,7 +1288,7 @@ exports[`Storyshots Components/LinearProgress Color white 1`] = `
       value={30}
     >
       <div
-        className="LinearProgressComp-root-0-3-173 LinearProgressComp-md-0-3-175"
+        className="LinearProgressComp-root-0-3-170 LinearProgressComp-md-0-3-172"
         style={
           Object {
             "backgroundColor": "#ffffff",
@@ -1297,7 +1297,7 @@ exports[`Storyshots Components/LinearProgress Color white 1`] = `
         }
       >
         <div
-          className="LinearProgressComp-indicator-0-3-178"
+          className="LinearProgressComp-indicator-0-3-175"
           style={
             Object {
               "backgroundColor": "#fafafa",
@@ -1318,13 +1318,13 @@ exports[`Storyshots Components/LinearProgress Color white 1`] = `
         >
           <Typography
             bold={true}
-            className="LinearProgressComp-message-0-3-179"
+            className="LinearProgressComp-message-0-3-176"
             color="#212121"
             variant="subtext"
           >
             <WithStyles(TypographyComp)
               bold={true}
-              className="LinearProgressComp-message-0-3-179"
+              className="LinearProgressComp-message-0-3-176"
               color="#212121"
               innerRef={null}
               jssContext={
@@ -1338,7 +1338,7 @@ exports[`Storyshots Components/LinearProgress Color white 1`] = `
             >
               <TypographyComp
                 bold={true}
-                className="LinearProgressComp-message-0-3-179"
+                className="LinearProgressComp-message-0-3-176"
                 classes={
                   Object {
                     "big": "TypographyComp-big-0-3-7",
@@ -1361,7 +1361,7 @@ exports[`Storyshots Components/LinearProgress Color white 1`] = `
                 variant="subtext"
               >
                 <span
-                  className="LinearProgressComp-message-0-3-179 TypographyComp-subtext-0-3-4 TypographyComp-bold-0-3-1"
+                  className="LinearProgressComp-message-0-3-176 TypographyComp-subtext-0-3-4 TypographyComp-bold-0-3-1"
                   style={
                     Object {
                       "color": "rgba(33, 33, 33, 1)",
@@ -1376,7 +1376,7 @@ exports[`Storyshots Components/LinearProgress Color white 1`] = `
             </WithStyles(TypographyComp)>
           </Typography>
           <div
-            className="LinearProgressComp-content-0-3-180"
+            className="LinearProgressComp-content-0-3-177"
           >
             <Typography
               bold={true}
@@ -1518,14 +1518,14 @@ exports[`Storyshots Components/LinearProgress Color yellow 1`] = `
     <LinearProgressComp
       classes={
         Object {
-          "content": "LinearProgressComp-content-0-3-180",
-          "indicator": "LinearProgressComp-indicator-0-3-178",
-          "lg": "LinearProgressComp-lg-0-3-177",
-          "md": "LinearProgressComp-md-0-3-175",
-          "md60": "LinearProgressComp-md60-0-3-176",
-          "message": "LinearProgressComp-message-0-3-179",
-          "root": "LinearProgressComp-root-0-3-173",
-          "xs": "LinearProgressComp-xs-0-3-174",
+          "content": "LinearProgressComp-content-0-3-177",
+          "indicator": "LinearProgressComp-indicator-0-3-175",
+          "lg": "LinearProgressComp-lg-0-3-174",
+          "md": "LinearProgressComp-md-0-3-172",
+          "md60": "LinearProgressComp-md60-0-3-173",
+          "message": "LinearProgressComp-message-0-3-176",
+          "root": "LinearProgressComp-root-0-3-170",
+          "xs": "LinearProgressComp-xs-0-3-171",
         }
       }
       color="yellow"
@@ -1534,7 +1534,7 @@ exports[`Storyshots Components/LinearProgress Color yellow 1`] = `
       value={20}
     >
       <div
-        className="LinearProgressComp-root-0-3-173 LinearProgressComp-md-0-3-175"
+        className="LinearProgressComp-root-0-3-170 LinearProgressComp-md-0-3-172"
         style={
           Object {
             "backgroundColor": "#f9a825",
@@ -1543,7 +1543,7 @@ exports[`Storyshots Components/LinearProgress Color yellow 1`] = `
         }
       >
         <div
-          className="LinearProgressComp-indicator-0-3-178"
+          className="LinearProgressComp-indicator-0-3-175"
           style={
             Object {
               "backgroundColor": "#fdd835",
@@ -1564,13 +1564,13 @@ exports[`Storyshots Components/LinearProgress Color yellow 1`] = `
         >
           <Typography
             bold={true}
-            className="LinearProgressComp-message-0-3-179"
+            className="LinearProgressComp-message-0-3-176"
             color="#ffffff"
             variant="subtext"
           >
             <WithStyles(TypographyComp)
               bold={true}
-              className="LinearProgressComp-message-0-3-179"
+              className="LinearProgressComp-message-0-3-176"
               color="#ffffff"
               innerRef={null}
               jssContext={
@@ -1584,7 +1584,7 @@ exports[`Storyshots Components/LinearProgress Color yellow 1`] = `
             >
               <TypographyComp
                 bold={true}
-                className="LinearProgressComp-message-0-3-179"
+                className="LinearProgressComp-message-0-3-176"
                 classes={
                   Object {
                     "big": "TypographyComp-big-0-3-7",
@@ -1607,7 +1607,7 @@ exports[`Storyshots Components/LinearProgress Color yellow 1`] = `
                 variant="subtext"
               >
                 <span
-                  className="LinearProgressComp-message-0-3-179 TypographyComp-subtext-0-3-4 TypographyComp-bold-0-3-1"
+                  className="LinearProgressComp-message-0-3-176 TypographyComp-subtext-0-3-4 TypographyComp-bold-0-3-1"
                   style={
                     Object {
                       "color": "rgba(255, 255, 255, 1)",
@@ -1620,7 +1620,7 @@ exports[`Storyshots Components/LinearProgress Color yellow 1`] = `
             </WithStyles(TypographyComp)>
           </Typography>
           <div
-            className="LinearProgressComp-content-0-3-180"
+            className="LinearProgressComp-content-0-3-177"
           >
             <Typography
               bold={true}
@@ -1760,14 +1760,14 @@ exports[`Storyshots Components/LinearProgress Content right % 1`] = `
     <LinearProgressComp
       classes={
         Object {
-          "content": "LinearProgressComp-content-0-3-180",
-          "indicator": "LinearProgressComp-indicator-0-3-178",
-          "lg": "LinearProgressComp-lg-0-3-177",
-          "md": "LinearProgressComp-md-0-3-175",
-          "md60": "LinearProgressComp-md60-0-3-176",
-          "message": "LinearProgressComp-message-0-3-179",
-          "root": "LinearProgressComp-root-0-3-173",
-          "xs": "LinearProgressComp-xs-0-3-174",
+          "content": "LinearProgressComp-content-0-3-177",
+          "indicator": "LinearProgressComp-indicator-0-3-175",
+          "lg": "LinearProgressComp-lg-0-3-174",
+          "md": "LinearProgressComp-md-0-3-172",
+          "md60": "LinearProgressComp-md60-0-3-173",
+          "message": "LinearProgressComp-message-0-3-176",
+          "root": "LinearProgressComp-root-0-3-170",
+          "xs": "LinearProgressComp-xs-0-3-171",
         }
       }
       color="green"
@@ -1777,7 +1777,7 @@ exports[`Storyshots Components/LinearProgress Content right % 1`] = `
       value={50}
     >
       <div
-        className="LinearProgressComp-root-0-3-173 LinearProgressComp-md-0-3-175"
+        className="LinearProgressComp-root-0-3-170 LinearProgressComp-md-0-3-172"
         style={
           Object {
             "backgroundColor": "#4caf50",
@@ -1786,7 +1786,7 @@ exports[`Storyshots Components/LinearProgress Content right % 1`] = `
         }
       >
         <div
-          className="LinearProgressComp-indicator-0-3-178"
+          className="LinearProgressComp-indicator-0-3-175"
           style={
             Object {
               "backgroundColor": "#64dd17",
@@ -1806,7 +1806,7 @@ exports[`Storyshots Components/LinearProgress Content right % 1`] = `
           }
         >
           <div
-            className="LinearProgressComp-content-0-3-180"
+            className="LinearProgressComp-content-0-3-177"
           >
             <Typography
               bold={true}
@@ -1948,14 +1948,14 @@ exports[`Storyshots Components/LinearProgress Exceed % 1`] = `
     <LinearProgressComp
       classes={
         Object {
-          "content": "LinearProgressComp-content-0-3-180",
-          "indicator": "LinearProgressComp-indicator-0-3-178",
-          "lg": "LinearProgressComp-lg-0-3-177",
-          "md": "LinearProgressComp-md-0-3-175",
-          "md60": "LinearProgressComp-md60-0-3-176",
-          "message": "LinearProgressComp-message-0-3-179",
-          "root": "LinearProgressComp-root-0-3-173",
-          "xs": "LinearProgressComp-xs-0-3-174",
+          "content": "LinearProgressComp-content-0-3-177",
+          "indicator": "LinearProgressComp-indicator-0-3-175",
+          "lg": "LinearProgressComp-lg-0-3-174",
+          "md": "LinearProgressComp-md-0-3-172",
+          "md60": "LinearProgressComp-md60-0-3-173",
+          "message": "LinearProgressComp-message-0-3-176",
+          "root": "LinearProgressComp-root-0-3-170",
+          "xs": "LinearProgressComp-xs-0-3-171",
         }
       }
       color="green"
@@ -1965,7 +1965,7 @@ exports[`Storyshots Components/LinearProgress Exceed % 1`] = `
       value={100}
     >
       <div
-        className="LinearProgressComp-root-0-3-173 LinearProgressComp-md-0-3-175"
+        className="LinearProgressComp-root-0-3-170 LinearProgressComp-md-0-3-172"
         style={
           Object {
             "backgroundColor": "#4caf50",
@@ -1974,7 +1974,7 @@ exports[`Storyshots Components/LinearProgress Exceed % 1`] = `
         }
       >
         <div
-          className="LinearProgressComp-indicator-0-3-178"
+          className="LinearProgressComp-indicator-0-3-175"
           style={
             Object {
               "backgroundColor": "#64dd17",
@@ -1994,7 +1994,7 @@ exports[`Storyshots Components/LinearProgress Exceed % 1`] = `
           }
         >
           <div
-            className="LinearProgressComp-content-0-3-180"
+            className="LinearProgressComp-content-0-3-177"
           >
             <Typography
               bold={true}
@@ -2138,14 +2138,14 @@ exports[`Storyshots Components/LinearProgress Exceed % xl 1`] = `
     <LinearProgressComp
       classes={
         Object {
-          "content": "LinearProgressComp-content-0-3-180",
-          "indicator": "LinearProgressComp-indicator-0-3-178",
-          "lg": "LinearProgressComp-lg-0-3-177",
-          "md": "LinearProgressComp-md-0-3-175",
-          "md60": "LinearProgressComp-md60-0-3-176",
-          "message": "LinearProgressComp-message-0-3-179",
-          "root": "LinearProgressComp-root-0-3-173",
-          "xs": "LinearProgressComp-xs-0-3-174",
+          "content": "LinearProgressComp-content-0-3-177",
+          "indicator": "LinearProgressComp-indicator-0-3-175",
+          "lg": "LinearProgressComp-lg-0-3-174",
+          "md": "LinearProgressComp-md-0-3-172",
+          "md60": "LinearProgressComp-md60-0-3-173",
+          "message": "LinearProgressComp-message-0-3-176",
+          "root": "LinearProgressComp-root-0-3-170",
+          "xs": "LinearProgressComp-xs-0-3-171",
         }
       }
       color="green"
@@ -2155,7 +2155,7 @@ exports[`Storyshots Components/LinearProgress Exceed % xl 1`] = `
       value={100}
     >
       <div
-        className="LinearProgressComp-root-0-3-173 LinearProgressComp-lg-0-3-177"
+        className="LinearProgressComp-root-0-3-170 LinearProgressComp-lg-0-3-174"
         style={
           Object {
             "backgroundColor": "#4caf50",
@@ -2164,7 +2164,7 @@ exports[`Storyshots Components/LinearProgress Exceed % xl 1`] = `
         }
       >
         <div
-          className="LinearProgressComp-indicator-0-3-178"
+          className="LinearProgressComp-indicator-0-3-175"
           style={
             Object {
               "backgroundColor": "#64dd17",
@@ -2184,7 +2184,7 @@ exports[`Storyshots Components/LinearProgress Exceed % xl 1`] = `
           }
         >
           <div
-            className="LinearProgressComp-content-0-3-180"
+            className="LinearProgressComp-content-0-3-177"
           >
             <Typography
               bold={true}
@@ -2328,14 +2328,14 @@ exports[`Storyshots Components/LinearProgress Exceed h:m 1`] = `
     <LinearProgressComp
       classes={
         Object {
-          "content": "LinearProgressComp-content-0-3-180",
-          "indicator": "LinearProgressComp-indicator-0-3-178",
-          "lg": "LinearProgressComp-lg-0-3-177",
-          "md": "LinearProgressComp-md-0-3-175",
-          "md60": "LinearProgressComp-md60-0-3-176",
-          "message": "LinearProgressComp-message-0-3-179",
-          "root": "LinearProgressComp-root-0-3-173",
-          "xs": "LinearProgressComp-xs-0-3-174",
+          "content": "LinearProgressComp-content-0-3-177",
+          "indicator": "LinearProgressComp-indicator-0-3-175",
+          "lg": "LinearProgressComp-lg-0-3-174",
+          "md": "LinearProgressComp-md-0-3-172",
+          "md60": "LinearProgressComp-md60-0-3-173",
+          "message": "LinearProgressComp-message-0-3-176",
+          "root": "LinearProgressComp-root-0-3-170",
+          "xs": "LinearProgressComp-xs-0-3-171",
         }
       }
       color="green"
@@ -2345,7 +2345,7 @@ exports[`Storyshots Components/LinearProgress Exceed h:m 1`] = `
       value={100}
     >
       <div
-        className="LinearProgressComp-root-0-3-173 LinearProgressComp-md-0-3-175"
+        className="LinearProgressComp-root-0-3-170 LinearProgressComp-md-0-3-172"
         style={
           Object {
             "backgroundColor": "#4caf50",
@@ -2354,7 +2354,7 @@ exports[`Storyshots Components/LinearProgress Exceed h:m 1`] = `
         }
       >
         <div
-          className="LinearProgressComp-indicator-0-3-178"
+          className="LinearProgressComp-indicator-0-3-175"
           style={
             Object {
               "backgroundColor": "#64dd17",
@@ -2374,7 +2374,7 @@ exports[`Storyshots Components/LinearProgress Exceed h:m 1`] = `
           }
         >
           <div
-            className="LinearProgressComp-content-0-3-180"
+            className="LinearProgressComp-content-0-3-177"
           >
             <Typography
               bold={true}
@@ -2518,14 +2518,14 @@ exports[`Storyshots Components/LinearProgress Exceed x/y 1`] = `
     <LinearProgressComp
       classes={
         Object {
-          "content": "LinearProgressComp-content-0-3-180",
-          "indicator": "LinearProgressComp-indicator-0-3-178",
-          "lg": "LinearProgressComp-lg-0-3-177",
-          "md": "LinearProgressComp-md-0-3-175",
-          "md60": "LinearProgressComp-md60-0-3-176",
-          "message": "LinearProgressComp-message-0-3-179",
-          "root": "LinearProgressComp-root-0-3-173",
-          "xs": "LinearProgressComp-xs-0-3-174",
+          "content": "LinearProgressComp-content-0-3-177",
+          "indicator": "LinearProgressComp-indicator-0-3-175",
+          "lg": "LinearProgressComp-lg-0-3-174",
+          "md": "LinearProgressComp-md-0-3-172",
+          "md60": "LinearProgressComp-md60-0-3-173",
+          "message": "LinearProgressComp-message-0-3-176",
+          "root": "LinearProgressComp-root-0-3-170",
+          "xs": "LinearProgressComp-xs-0-3-171",
         }
       }
       color="green"
@@ -2535,7 +2535,7 @@ exports[`Storyshots Components/LinearProgress Exceed x/y 1`] = `
       value={100}
     >
       <div
-        className="LinearProgressComp-root-0-3-173 LinearProgressComp-md-0-3-175"
+        className="LinearProgressComp-root-0-3-170 LinearProgressComp-md-0-3-172"
         style={
           Object {
             "backgroundColor": "#4caf50",
@@ -2544,7 +2544,7 @@ exports[`Storyshots Components/LinearProgress Exceed x/y 1`] = `
         }
       >
         <div
-          className="LinearProgressComp-indicator-0-3-178"
+          className="LinearProgressComp-indicator-0-3-175"
           style={
             Object {
               "backgroundColor": "#64dd17",
@@ -2564,7 +2564,7 @@ exports[`Storyshots Components/LinearProgress Exceed x/y 1`] = `
           }
         >
           <div
-            className="LinearProgressComp-content-0-3-180"
+            className="LinearProgressComp-content-0-3-177"
           >
             <Typography
               bold={true}
@@ -2704,14 +2704,14 @@ exports[`Storyshots Components/LinearProgress No message  1`] = `
     <LinearProgressComp
       classes={
         Object {
-          "content": "LinearProgressComp-content-0-3-180",
-          "indicator": "LinearProgressComp-indicator-0-3-178",
-          "lg": "LinearProgressComp-lg-0-3-177",
-          "md": "LinearProgressComp-md-0-3-175",
-          "md60": "LinearProgressComp-md60-0-3-176",
-          "message": "LinearProgressComp-message-0-3-179",
-          "root": "LinearProgressComp-root-0-3-173",
-          "xs": "LinearProgressComp-xs-0-3-174",
+          "content": "LinearProgressComp-content-0-3-177",
+          "indicator": "LinearProgressComp-indicator-0-3-175",
+          "lg": "LinearProgressComp-lg-0-3-174",
+          "md": "LinearProgressComp-md-0-3-172",
+          "md60": "LinearProgressComp-md60-0-3-173",
+          "message": "LinearProgressComp-message-0-3-176",
+          "root": "LinearProgressComp-root-0-3-170",
+          "xs": "LinearProgressComp-xs-0-3-171",
         }
       }
       color="green"
@@ -2719,7 +2719,7 @@ exports[`Storyshots Components/LinearProgress No message  1`] = `
       value={20}
     >
       <div
-        className="LinearProgressComp-root-0-3-173 LinearProgressComp-md-0-3-175"
+        className="LinearProgressComp-root-0-3-170 LinearProgressComp-md-0-3-172"
         style={
           Object {
             "backgroundColor": "#4caf50",
@@ -2728,7 +2728,7 @@ exports[`Storyshots Components/LinearProgress No message  1`] = `
         }
       >
         <div
-          className="LinearProgressComp-indicator-0-3-178"
+          className="LinearProgressComp-indicator-0-3-175"
           style={
             Object {
               "backgroundColor": "#64dd17",
@@ -2748,7 +2748,7 @@ exports[`Storyshots Components/LinearProgress No message  1`] = `
           }
         >
           <div
-            className="LinearProgressComp-content-0-3-180"
+            className="LinearProgressComp-content-0-3-177"
           >
             <Typography
               bold={true}
@@ -2886,14 +2886,14 @@ exports[`Storyshots Components/LinearProgress Size lg  1`] = `
     <LinearProgressComp
       classes={
         Object {
-          "content": "LinearProgressComp-content-0-3-180",
-          "indicator": "LinearProgressComp-indicator-0-3-178",
-          "lg": "LinearProgressComp-lg-0-3-177",
-          "md": "LinearProgressComp-md-0-3-175",
-          "md60": "LinearProgressComp-md60-0-3-176",
-          "message": "LinearProgressComp-message-0-3-179",
-          "root": "LinearProgressComp-root-0-3-173",
-          "xs": "LinearProgressComp-xs-0-3-174",
+          "content": "LinearProgressComp-content-0-3-177",
+          "indicator": "LinearProgressComp-indicator-0-3-175",
+          "lg": "LinearProgressComp-lg-0-3-174",
+          "md": "LinearProgressComp-md-0-3-172",
+          "md60": "LinearProgressComp-md60-0-3-173",
+          "message": "LinearProgressComp-message-0-3-176",
+          "root": "LinearProgressComp-root-0-3-170",
+          "xs": "LinearProgressComp-xs-0-3-171",
         }
       }
       color="green"
@@ -2902,7 +2902,7 @@ exports[`Storyshots Components/LinearProgress Size lg  1`] = `
       value={20}
     >
       <div
-        className="LinearProgressComp-root-0-3-173 LinearProgressComp-lg-0-3-177"
+        className="LinearProgressComp-root-0-3-170 LinearProgressComp-lg-0-3-174"
         style={
           Object {
             "backgroundColor": "#4caf50",
@@ -2911,7 +2911,7 @@ exports[`Storyshots Components/LinearProgress Size lg  1`] = `
         }
       >
         <div
-          className="LinearProgressComp-indicator-0-3-178"
+          className="LinearProgressComp-indicator-0-3-175"
           style={
             Object {
               "backgroundColor": "#64dd17",
@@ -2932,13 +2932,13 @@ exports[`Storyshots Components/LinearProgress Size lg  1`] = `
         >
           <Typography
             bold={true}
-            className="LinearProgressComp-message-0-3-179"
+            className="LinearProgressComp-message-0-3-176"
             color="#ffffff"
             variant="distance"
           >
             <WithStyles(TypographyComp)
               bold={true}
-              className="LinearProgressComp-message-0-3-179"
+              className="LinearProgressComp-message-0-3-176"
               color="#ffffff"
               innerRef={null}
               jssContext={
@@ -2952,7 +2952,7 @@ exports[`Storyshots Components/LinearProgress Size lg  1`] = `
             >
               <TypographyComp
                 bold={true}
-                className="LinearProgressComp-message-0-3-179"
+                className="LinearProgressComp-message-0-3-176"
                 classes={
                   Object {
                     "big": "TypographyComp-big-0-3-7",
@@ -2975,7 +2975,7 @@ exports[`Storyshots Components/LinearProgress Size lg  1`] = `
                 variant="distance"
               >
                 <span
-                  className="LinearProgressComp-message-0-3-179 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
+                  className="LinearProgressComp-message-0-3-176 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
                   style={
                     Object {
                       "color": "rgba(255, 255, 255, 1)",
@@ -2988,7 +2988,7 @@ exports[`Storyshots Components/LinearProgress Size lg  1`] = `
             </WithStyles(TypographyComp)>
           </Typography>
           <div
-            className="LinearProgressComp-content-0-3-180"
+            className="LinearProgressComp-content-0-3-177"
           >
             <Typography
               bold={true}
@@ -3143,14 +3143,14 @@ exports[`Storyshots Components/LinearProgress Size lg content vertical align: bo
       border={true}
       classes={
         Object {
-          "content": "LinearProgressComp-content-0-3-180",
-          "indicator": "LinearProgressComp-indicator-0-3-178",
-          "lg": "LinearProgressComp-lg-0-3-177",
-          "md": "LinearProgressComp-md-0-3-175",
-          "md60": "LinearProgressComp-md60-0-3-176",
-          "message": "LinearProgressComp-message-0-3-179",
-          "root": "LinearProgressComp-root-0-3-173",
-          "xs": "LinearProgressComp-xs-0-3-174",
+          "content": "LinearProgressComp-content-0-3-177",
+          "indicator": "LinearProgressComp-indicator-0-3-175",
+          "lg": "LinearProgressComp-lg-0-3-174",
+          "md": "LinearProgressComp-md-0-3-172",
+          "md60": "LinearProgressComp-md60-0-3-173",
+          "message": "LinearProgressComp-message-0-3-176",
+          "root": "LinearProgressComp-root-0-3-170",
+          "xs": "LinearProgressComp-xs-0-3-171",
         }
       }
       color="white"
@@ -3166,7 +3166,7 @@ exports[`Storyshots Components/LinearProgress Size lg content vertical align: bo
       value={30}
     >
       <div
-        className="LinearProgressComp-root-0-3-173 LinearProgressComp-lg-0-3-177"
+        className="LinearProgressComp-root-0-3-170 LinearProgressComp-lg-0-3-174"
         style={
           Object {
             "backgroundColor": "#ffffff",
@@ -3175,7 +3175,7 @@ exports[`Storyshots Components/LinearProgress Size lg content vertical align: bo
         }
       >
         <div
-          className="LinearProgressComp-indicator-0-3-178"
+          className="LinearProgressComp-indicator-0-3-175"
           style={
             Object {
               "backgroundColor": "#fafafa",
@@ -3196,13 +3196,13 @@ exports[`Storyshots Components/LinearProgress Size lg content vertical align: bo
         >
           <Typography
             bold={true}
-            className="LinearProgressComp-message-0-3-179"
+            className="LinearProgressComp-message-0-3-176"
             color="#212121"
             variant="distance"
           >
             <WithStyles(TypographyComp)
               bold={true}
-              className="LinearProgressComp-message-0-3-179"
+              className="LinearProgressComp-message-0-3-176"
               color="#212121"
               innerRef={null}
               jssContext={
@@ -3216,7 +3216,7 @@ exports[`Storyshots Components/LinearProgress Size lg content vertical align: bo
             >
               <TypographyComp
                 bold={true}
-                className="LinearProgressComp-message-0-3-179"
+                className="LinearProgressComp-message-0-3-176"
                 classes={
                   Object {
                     "big": "TypographyComp-big-0-3-7",
@@ -3239,7 +3239,7 @@ exports[`Storyshots Components/LinearProgress Size lg content vertical align: bo
                 variant="distance"
               >
                 <span
-                  className="LinearProgressComp-message-0-3-179 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
+                  className="LinearProgressComp-message-0-3-176 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
                   style={
                     Object {
                       "color": "rgba(33, 33, 33, 1)",
@@ -3254,7 +3254,7 @@ exports[`Storyshots Components/LinearProgress Size lg content vertical align: bo
             </WithStyles(TypographyComp)>
           </Typography>
           <div
-            className="LinearProgressComp-content-0-3-180"
+            className="LinearProgressComp-content-0-3-177"
           >
             <Typography
               bold={true}
@@ -3413,14 +3413,14 @@ exports[`Storyshots Components/LinearProgress Size lg content vertical align: ce
       border={true}
       classes={
         Object {
-          "content": "LinearProgressComp-content-0-3-180",
-          "indicator": "LinearProgressComp-indicator-0-3-178",
-          "lg": "LinearProgressComp-lg-0-3-177",
-          "md": "LinearProgressComp-md-0-3-175",
-          "md60": "LinearProgressComp-md60-0-3-176",
-          "message": "LinearProgressComp-message-0-3-179",
-          "root": "LinearProgressComp-root-0-3-173",
-          "xs": "LinearProgressComp-xs-0-3-174",
+          "content": "LinearProgressComp-content-0-3-177",
+          "indicator": "LinearProgressComp-indicator-0-3-175",
+          "lg": "LinearProgressComp-lg-0-3-174",
+          "md": "LinearProgressComp-md-0-3-172",
+          "md60": "LinearProgressComp-md60-0-3-173",
+          "message": "LinearProgressComp-message-0-3-176",
+          "root": "LinearProgressComp-root-0-3-170",
+          "xs": "LinearProgressComp-xs-0-3-171",
         }
       }
       color="white"
@@ -3436,7 +3436,7 @@ exports[`Storyshots Components/LinearProgress Size lg content vertical align: ce
       value={30}
     >
       <div
-        className="LinearProgressComp-root-0-3-173 LinearProgressComp-lg-0-3-177"
+        className="LinearProgressComp-root-0-3-170 LinearProgressComp-lg-0-3-174"
         style={
           Object {
             "backgroundColor": "#ffffff",
@@ -3445,7 +3445,7 @@ exports[`Storyshots Components/LinearProgress Size lg content vertical align: ce
         }
       >
         <div
-          className="LinearProgressComp-indicator-0-3-178"
+          className="LinearProgressComp-indicator-0-3-175"
           style={
             Object {
               "backgroundColor": "#fafafa",
@@ -3466,13 +3466,13 @@ exports[`Storyshots Components/LinearProgress Size lg content vertical align: ce
         >
           <Typography
             bold={true}
-            className="LinearProgressComp-message-0-3-179"
+            className="LinearProgressComp-message-0-3-176"
             color="#212121"
             variant="distance"
           >
             <WithStyles(TypographyComp)
               bold={true}
-              className="LinearProgressComp-message-0-3-179"
+              className="LinearProgressComp-message-0-3-176"
               color="#212121"
               innerRef={null}
               jssContext={
@@ -3486,7 +3486,7 @@ exports[`Storyshots Components/LinearProgress Size lg content vertical align: ce
             >
               <TypographyComp
                 bold={true}
-                className="LinearProgressComp-message-0-3-179"
+                className="LinearProgressComp-message-0-3-176"
                 classes={
                   Object {
                     "big": "TypographyComp-big-0-3-7",
@@ -3509,7 +3509,7 @@ exports[`Storyshots Components/LinearProgress Size lg content vertical align: ce
                 variant="distance"
               >
                 <span
-                  className="LinearProgressComp-message-0-3-179 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
+                  className="LinearProgressComp-message-0-3-176 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
                   style={
                     Object {
                       "color": "rgba(33, 33, 33, 1)",
@@ -3524,7 +3524,7 @@ exports[`Storyshots Components/LinearProgress Size lg content vertical align: ce
             </WithStyles(TypographyComp)>
           </Typography>
           <div
-            className="LinearProgressComp-content-0-3-180"
+            className="LinearProgressComp-content-0-3-177"
           >
             <Typography
               bold={true}
@@ -3683,14 +3683,14 @@ exports[`Storyshots Components/LinearProgress Size lg content vertical align: to
       border={true}
       classes={
         Object {
-          "content": "LinearProgressComp-content-0-3-180",
-          "indicator": "LinearProgressComp-indicator-0-3-178",
-          "lg": "LinearProgressComp-lg-0-3-177",
-          "md": "LinearProgressComp-md-0-3-175",
-          "md60": "LinearProgressComp-md60-0-3-176",
-          "message": "LinearProgressComp-message-0-3-179",
-          "root": "LinearProgressComp-root-0-3-173",
-          "xs": "LinearProgressComp-xs-0-3-174",
+          "content": "LinearProgressComp-content-0-3-177",
+          "indicator": "LinearProgressComp-indicator-0-3-175",
+          "lg": "LinearProgressComp-lg-0-3-174",
+          "md": "LinearProgressComp-md-0-3-172",
+          "md60": "LinearProgressComp-md60-0-3-173",
+          "message": "LinearProgressComp-message-0-3-176",
+          "root": "LinearProgressComp-root-0-3-170",
+          "xs": "LinearProgressComp-xs-0-3-171",
         }
       }
       color="white"
@@ -3706,7 +3706,7 @@ exports[`Storyshots Components/LinearProgress Size lg content vertical align: to
       value={30}
     >
       <div
-        className="LinearProgressComp-root-0-3-173 LinearProgressComp-lg-0-3-177"
+        className="LinearProgressComp-root-0-3-170 LinearProgressComp-lg-0-3-174"
         style={
           Object {
             "backgroundColor": "#ffffff",
@@ -3715,7 +3715,7 @@ exports[`Storyshots Components/LinearProgress Size lg content vertical align: to
         }
       >
         <div
-          className="LinearProgressComp-indicator-0-3-178"
+          className="LinearProgressComp-indicator-0-3-175"
           style={
             Object {
               "backgroundColor": "#fafafa",
@@ -3736,13 +3736,13 @@ exports[`Storyshots Components/LinearProgress Size lg content vertical align: to
         >
           <Typography
             bold={true}
-            className="LinearProgressComp-message-0-3-179"
+            className="LinearProgressComp-message-0-3-176"
             color="#212121"
             variant="distance"
           >
             <WithStyles(TypographyComp)
               bold={true}
-              className="LinearProgressComp-message-0-3-179"
+              className="LinearProgressComp-message-0-3-176"
               color="#212121"
               innerRef={null}
               jssContext={
@@ -3756,7 +3756,7 @@ exports[`Storyshots Components/LinearProgress Size lg content vertical align: to
             >
               <TypographyComp
                 bold={true}
-                className="LinearProgressComp-message-0-3-179"
+                className="LinearProgressComp-message-0-3-176"
                 classes={
                   Object {
                     "big": "TypographyComp-big-0-3-7",
@@ -3779,7 +3779,7 @@ exports[`Storyshots Components/LinearProgress Size lg content vertical align: to
                 variant="distance"
               >
                 <span
-                  className="LinearProgressComp-message-0-3-179 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
+                  className="LinearProgressComp-message-0-3-176 TypographyComp-distance-0-3-6 TypographyComp-bold-0-3-1"
                   style={
                     Object {
                       "color": "rgba(33, 33, 33, 1)",
@@ -3794,7 +3794,7 @@ exports[`Storyshots Components/LinearProgress Size lg content vertical align: to
             </WithStyles(TypographyComp)>
           </Typography>
           <div
-            className="LinearProgressComp-content-0-3-180"
+            className="LinearProgressComp-content-0-3-177"
           >
             <Typography
               bold={true}
@@ -3944,14 +3944,14 @@ exports[`Storyshots Components/LinearProgress Size md 1`] = `
     <LinearProgressComp
       classes={
         Object {
-          "content": "LinearProgressComp-content-0-3-180",
-          "indicator": "LinearProgressComp-indicator-0-3-178",
-          "lg": "LinearProgressComp-lg-0-3-177",
-          "md": "LinearProgressComp-md-0-3-175",
-          "md60": "LinearProgressComp-md60-0-3-176",
-          "message": "LinearProgressComp-message-0-3-179",
-          "root": "LinearProgressComp-root-0-3-173",
-          "xs": "LinearProgressComp-xs-0-3-174",
+          "content": "LinearProgressComp-content-0-3-177",
+          "indicator": "LinearProgressComp-indicator-0-3-175",
+          "lg": "LinearProgressComp-lg-0-3-174",
+          "md": "LinearProgressComp-md-0-3-172",
+          "md60": "LinearProgressComp-md60-0-3-173",
+          "message": "LinearProgressComp-message-0-3-176",
+          "root": "LinearProgressComp-root-0-3-170",
+          "xs": "LinearProgressComp-xs-0-3-171",
         }
       }
       color="green"
@@ -3964,7 +3964,7 @@ exports[`Storyshots Components/LinearProgress Size md 1`] = `
       value={20}
     >
       <div
-        className="LinearProgressComp-root-0-3-173 LinearProgressComp-md-0-3-175"
+        className="LinearProgressComp-root-0-3-170 LinearProgressComp-md-0-3-172"
         style={
           Object {
             "backgroundColor": "#4caf50",
@@ -3973,7 +3973,7 @@ exports[`Storyshots Components/LinearProgress Size md 1`] = `
         }
       >
         <div
-          className="LinearProgressComp-indicator-0-3-178"
+          className="LinearProgressComp-indicator-0-3-175"
           style={
             Object {
               "backgroundColor": "#64dd17",
@@ -3994,13 +3994,13 @@ exports[`Storyshots Components/LinearProgress Size md 1`] = `
         >
           <Typography
             bold={true}
-            className="LinearProgressComp-message-0-3-179"
+            className="LinearProgressComp-message-0-3-176"
             color="#ffffff"
             variant="subtext"
           >
             <WithStyles(TypographyComp)
               bold={true}
-              className="LinearProgressComp-message-0-3-179"
+              className="LinearProgressComp-message-0-3-176"
               color="#ffffff"
               innerRef={null}
               jssContext={
@@ -4014,7 +4014,7 @@ exports[`Storyshots Components/LinearProgress Size md 1`] = `
             >
               <TypographyComp
                 bold={true}
-                className="LinearProgressComp-message-0-3-179"
+                className="LinearProgressComp-message-0-3-176"
                 classes={
                   Object {
                     "big": "TypographyComp-big-0-3-7",
@@ -4037,7 +4037,7 @@ exports[`Storyshots Components/LinearProgress Size md 1`] = `
                 variant="subtext"
               >
                 <span
-                  className="LinearProgressComp-message-0-3-179 TypographyComp-subtext-0-3-4 TypographyComp-bold-0-3-1"
+                  className="LinearProgressComp-message-0-3-176 TypographyComp-subtext-0-3-4 TypographyComp-bold-0-3-1"
                   style={
                     Object {
                       "color": "rgba(255, 255, 255, 1)",
@@ -4052,7 +4052,7 @@ exports[`Storyshots Components/LinearProgress Size md 1`] = `
             </WithStyles(TypographyComp)>
           </Typography>
           <div
-            className="LinearProgressComp-content-0-3-180"
+            className="LinearProgressComp-content-0-3-177"
           >
             <Typography
               bold={true}
@@ -4207,14 +4207,14 @@ exports[`Storyshots Components/LinearProgress Size md content vertical align: bo
       border={true}
       classes={
         Object {
-          "content": "LinearProgressComp-content-0-3-180",
-          "indicator": "LinearProgressComp-indicator-0-3-178",
-          "lg": "LinearProgressComp-lg-0-3-177",
-          "md": "LinearProgressComp-md-0-3-175",
-          "md60": "LinearProgressComp-md60-0-3-176",
-          "message": "LinearProgressComp-message-0-3-179",
-          "root": "LinearProgressComp-root-0-3-173",
-          "xs": "LinearProgressComp-xs-0-3-174",
+          "content": "LinearProgressComp-content-0-3-177",
+          "indicator": "LinearProgressComp-indicator-0-3-175",
+          "lg": "LinearProgressComp-lg-0-3-174",
+          "md": "LinearProgressComp-md-0-3-172",
+          "md60": "LinearProgressComp-md60-0-3-173",
+          "message": "LinearProgressComp-message-0-3-176",
+          "root": "LinearProgressComp-root-0-3-170",
+          "xs": "LinearProgressComp-xs-0-3-171",
         }
       }
       color="white"
@@ -4230,7 +4230,7 @@ exports[`Storyshots Components/LinearProgress Size md content vertical align: bo
       value={30}
     >
       <div
-        className="LinearProgressComp-root-0-3-173 LinearProgressComp-md-0-3-175"
+        className="LinearProgressComp-root-0-3-170 LinearProgressComp-md-0-3-172"
         style={
           Object {
             "backgroundColor": "#ffffff",
@@ -4239,7 +4239,7 @@ exports[`Storyshots Components/LinearProgress Size md content vertical align: bo
         }
       >
         <div
-          className="LinearProgressComp-indicator-0-3-178"
+          className="LinearProgressComp-indicator-0-3-175"
           style={
             Object {
               "backgroundColor": "#fafafa",
@@ -4260,13 +4260,13 @@ exports[`Storyshots Components/LinearProgress Size md content vertical align: bo
         >
           <Typography
             bold={true}
-            className="LinearProgressComp-message-0-3-179"
+            className="LinearProgressComp-message-0-3-176"
             color="#212121"
             variant="subtext"
           >
             <WithStyles(TypographyComp)
               bold={true}
-              className="LinearProgressComp-message-0-3-179"
+              className="LinearProgressComp-message-0-3-176"
               color="#212121"
               innerRef={null}
               jssContext={
@@ -4280,7 +4280,7 @@ exports[`Storyshots Components/LinearProgress Size md content vertical align: bo
             >
               <TypographyComp
                 bold={true}
-                className="LinearProgressComp-message-0-3-179"
+                className="LinearProgressComp-message-0-3-176"
                 classes={
                   Object {
                     "big": "TypographyComp-big-0-3-7",
@@ -4303,7 +4303,7 @@ exports[`Storyshots Components/LinearProgress Size md content vertical align: bo
                 variant="subtext"
               >
                 <span
-                  className="LinearProgressComp-message-0-3-179 TypographyComp-subtext-0-3-4 TypographyComp-bold-0-3-1"
+                  className="LinearProgressComp-message-0-3-176 TypographyComp-subtext-0-3-4 TypographyComp-bold-0-3-1"
                   style={
                     Object {
                       "color": "rgba(33, 33, 33, 1)",
@@ -4318,7 +4318,7 @@ exports[`Storyshots Components/LinearProgress Size md content vertical align: bo
             </WithStyles(TypographyComp)>
           </Typography>
           <div
-            className="LinearProgressComp-content-0-3-180"
+            className="LinearProgressComp-content-0-3-177"
           >
             <Typography
               bold={true}
@@ -4477,14 +4477,14 @@ exports[`Storyshots Components/LinearProgress Size md content vertical align: ce
       border={true}
       classes={
         Object {
-          "content": "LinearProgressComp-content-0-3-180",
-          "indicator": "LinearProgressComp-indicator-0-3-178",
-          "lg": "LinearProgressComp-lg-0-3-177",
-          "md": "LinearProgressComp-md-0-3-175",
-          "md60": "LinearProgressComp-md60-0-3-176",
-          "message": "LinearProgressComp-message-0-3-179",
-          "root": "LinearProgressComp-root-0-3-173",
-          "xs": "LinearProgressComp-xs-0-3-174",
+          "content": "LinearProgressComp-content-0-3-177",
+          "indicator": "LinearProgressComp-indicator-0-3-175",
+          "lg": "LinearProgressComp-lg-0-3-174",
+          "md": "LinearProgressComp-md-0-3-172",
+          "md60": "LinearProgressComp-md60-0-3-173",
+          "message": "LinearProgressComp-message-0-3-176",
+          "root": "LinearProgressComp-root-0-3-170",
+          "xs": "LinearProgressComp-xs-0-3-171",
         }
       }
       color="white"
@@ -4500,7 +4500,7 @@ exports[`Storyshots Components/LinearProgress Size md content vertical align: ce
       value={30}
     >
       <div
-        className="LinearProgressComp-root-0-3-173 LinearProgressComp-md-0-3-175"
+        className="LinearProgressComp-root-0-3-170 LinearProgressComp-md-0-3-172"
         style={
           Object {
             "backgroundColor": "#ffffff",
@@ -4509,7 +4509,7 @@ exports[`Storyshots Components/LinearProgress Size md content vertical align: ce
         }
       >
         <div
-          className="LinearProgressComp-indicator-0-3-178"
+          className="LinearProgressComp-indicator-0-3-175"
           style={
             Object {
               "backgroundColor": "#fafafa",
@@ -4530,13 +4530,13 @@ exports[`Storyshots Components/LinearProgress Size md content vertical align: ce
         >
           <Typography
             bold={true}
-            className="LinearProgressComp-message-0-3-179"
+            className="LinearProgressComp-message-0-3-176"
             color="#212121"
             variant="subtext"
           >
             <WithStyles(TypographyComp)
               bold={true}
-              className="LinearProgressComp-message-0-3-179"
+              className="LinearProgressComp-message-0-3-176"
               color="#212121"
               innerRef={null}
               jssContext={
@@ -4550,7 +4550,7 @@ exports[`Storyshots Components/LinearProgress Size md content vertical align: ce
             >
               <TypographyComp
                 bold={true}
-                className="LinearProgressComp-message-0-3-179"
+                className="LinearProgressComp-message-0-3-176"
                 classes={
                   Object {
                     "big": "TypographyComp-big-0-3-7",
@@ -4573,7 +4573,7 @@ exports[`Storyshots Components/LinearProgress Size md content vertical align: ce
                 variant="subtext"
               >
                 <span
-                  className="LinearProgressComp-message-0-3-179 TypographyComp-subtext-0-3-4 TypographyComp-bold-0-3-1"
+                  className="LinearProgressComp-message-0-3-176 TypographyComp-subtext-0-3-4 TypographyComp-bold-0-3-1"
                   style={
                     Object {
                       "color": "rgba(33, 33, 33, 1)",
@@ -4588,7 +4588,7 @@ exports[`Storyshots Components/LinearProgress Size md content vertical align: ce
             </WithStyles(TypographyComp)>
           </Typography>
           <div
-            className="LinearProgressComp-content-0-3-180"
+            className="LinearProgressComp-content-0-3-177"
           >
             <Typography
               bold={true}
@@ -4747,14 +4747,14 @@ exports[`Storyshots Components/LinearProgress Size md content vertical align: to
       border={true}
       classes={
         Object {
-          "content": "LinearProgressComp-content-0-3-180",
-          "indicator": "LinearProgressComp-indicator-0-3-178",
-          "lg": "LinearProgressComp-lg-0-3-177",
-          "md": "LinearProgressComp-md-0-3-175",
-          "md60": "LinearProgressComp-md60-0-3-176",
-          "message": "LinearProgressComp-message-0-3-179",
-          "root": "LinearProgressComp-root-0-3-173",
-          "xs": "LinearProgressComp-xs-0-3-174",
+          "content": "LinearProgressComp-content-0-3-177",
+          "indicator": "LinearProgressComp-indicator-0-3-175",
+          "lg": "LinearProgressComp-lg-0-3-174",
+          "md": "LinearProgressComp-md-0-3-172",
+          "md60": "LinearProgressComp-md60-0-3-173",
+          "message": "LinearProgressComp-message-0-3-176",
+          "root": "LinearProgressComp-root-0-3-170",
+          "xs": "LinearProgressComp-xs-0-3-171",
         }
       }
       color="white"
@@ -4770,7 +4770,7 @@ exports[`Storyshots Components/LinearProgress Size md content vertical align: to
       value={30}
     >
       <div
-        className="LinearProgressComp-root-0-3-173 LinearProgressComp-md-0-3-175"
+        className="LinearProgressComp-root-0-3-170 LinearProgressComp-md-0-3-172"
         style={
           Object {
             "backgroundColor": "#ffffff",
@@ -4779,7 +4779,7 @@ exports[`Storyshots Components/LinearProgress Size md content vertical align: to
         }
       >
         <div
-          className="LinearProgressComp-indicator-0-3-178"
+          className="LinearProgressComp-indicator-0-3-175"
           style={
             Object {
               "backgroundColor": "#fafafa",
@@ -4800,13 +4800,13 @@ exports[`Storyshots Components/LinearProgress Size md content vertical align: to
         >
           <Typography
             bold={true}
-            className="LinearProgressComp-message-0-3-179"
+            className="LinearProgressComp-message-0-3-176"
             color="#212121"
             variant="subtext"
           >
             <WithStyles(TypographyComp)
               bold={true}
-              className="LinearProgressComp-message-0-3-179"
+              className="LinearProgressComp-message-0-3-176"
               color="#212121"
               innerRef={null}
               jssContext={
@@ -4820,7 +4820,7 @@ exports[`Storyshots Components/LinearProgress Size md content vertical align: to
             >
               <TypographyComp
                 bold={true}
-                className="LinearProgressComp-message-0-3-179"
+                className="LinearProgressComp-message-0-3-176"
                 classes={
                   Object {
                     "big": "TypographyComp-big-0-3-7",
@@ -4843,7 +4843,7 @@ exports[`Storyshots Components/LinearProgress Size md content vertical align: to
                 variant="subtext"
               >
                 <span
-                  className="LinearProgressComp-message-0-3-179 TypographyComp-subtext-0-3-4 TypographyComp-bold-0-3-1"
+                  className="LinearProgressComp-message-0-3-176 TypographyComp-subtext-0-3-4 TypographyComp-bold-0-3-1"
                   style={
                     Object {
                       "color": "rgba(33, 33, 33, 1)",
@@ -4858,7 +4858,7 @@ exports[`Storyshots Components/LinearProgress Size md content vertical align: to
             </WithStyles(TypographyComp)>
           </Typography>
           <div
-            className="LinearProgressComp-content-0-3-180"
+            className="LinearProgressComp-content-0-3-177"
           >
             <Typography
               bold={true}
@@ -5008,14 +5008,14 @@ exports[`Storyshots Components/LinearProgress Size md60 1`] = `
     <LinearProgressComp
       classes={
         Object {
-          "content": "LinearProgressComp-content-0-3-180",
-          "indicator": "LinearProgressComp-indicator-0-3-178",
-          "lg": "LinearProgressComp-lg-0-3-177",
-          "md": "LinearProgressComp-md-0-3-175",
-          "md60": "LinearProgressComp-md60-0-3-176",
-          "message": "LinearProgressComp-message-0-3-179",
-          "root": "LinearProgressComp-root-0-3-173",
-          "xs": "LinearProgressComp-xs-0-3-174",
+          "content": "LinearProgressComp-content-0-3-177",
+          "indicator": "LinearProgressComp-indicator-0-3-175",
+          "lg": "LinearProgressComp-lg-0-3-174",
+          "md": "LinearProgressComp-md-0-3-172",
+          "md60": "LinearProgressComp-md60-0-3-173",
+          "message": "LinearProgressComp-message-0-3-176",
+          "root": "LinearProgressComp-root-0-3-170",
+          "xs": "LinearProgressComp-xs-0-3-171",
         }
       }
       color="green"
@@ -5028,7 +5028,7 @@ exports[`Storyshots Components/LinearProgress Size md60 1`] = `
       value={20}
     >
       <div
-        className="LinearProgressComp-root-0-3-173 LinearProgressComp-md60-0-3-176"
+        className="LinearProgressComp-root-0-3-170 LinearProgressComp-md60-0-3-173"
         style={
           Object {
             "backgroundColor": "#4caf50",
@@ -5037,7 +5037,7 @@ exports[`Storyshots Components/LinearProgress Size md60 1`] = `
         }
       >
         <div
-          className="LinearProgressComp-indicator-0-3-178"
+          className="LinearProgressComp-indicator-0-3-175"
           style={
             Object {
               "backgroundColor": "#64dd17",
@@ -5058,13 +5058,13 @@ exports[`Storyshots Components/LinearProgress Size md60 1`] = `
         >
           <Typography
             bold={true}
-            className="LinearProgressComp-message-0-3-179"
+            className="LinearProgressComp-message-0-3-176"
             color="#ffffff"
             variant="subtext"
           >
             <WithStyles(TypographyComp)
               bold={true}
-              className="LinearProgressComp-message-0-3-179"
+              className="LinearProgressComp-message-0-3-176"
               color="#ffffff"
               innerRef={null}
               jssContext={
@@ -5078,7 +5078,7 @@ exports[`Storyshots Components/LinearProgress Size md60 1`] = `
             >
               <TypographyComp
                 bold={true}
-                className="LinearProgressComp-message-0-3-179"
+                className="LinearProgressComp-message-0-3-176"
                 classes={
                   Object {
                     "big": "TypographyComp-big-0-3-7",
@@ -5101,7 +5101,7 @@ exports[`Storyshots Components/LinearProgress Size md60 1`] = `
                 variant="subtext"
               >
                 <span
-                  className="LinearProgressComp-message-0-3-179 TypographyComp-subtext-0-3-4 TypographyComp-bold-0-3-1"
+                  className="LinearProgressComp-message-0-3-176 TypographyComp-subtext-0-3-4 TypographyComp-bold-0-3-1"
                   style={
                     Object {
                       "color": "rgba(255, 255, 255, 1)",
@@ -5116,7 +5116,7 @@ exports[`Storyshots Components/LinearProgress Size md60 1`] = `
             </WithStyles(TypographyComp)>
           </Typography>
           <div
-            className="LinearProgressComp-content-0-3-180"
+            className="LinearProgressComp-content-0-3-177"
           >
             <Typography
               bold={true}
@@ -5252,14 +5252,14 @@ exports[`Storyshots Components/LinearProgress Size xs 1`] = `
     <LinearProgressComp
       classes={
         Object {
-          "content": "LinearProgressComp-content-0-3-180",
-          "indicator": "LinearProgressComp-indicator-0-3-178",
-          "lg": "LinearProgressComp-lg-0-3-177",
-          "md": "LinearProgressComp-md-0-3-175",
-          "md60": "LinearProgressComp-md60-0-3-176",
-          "message": "LinearProgressComp-message-0-3-179",
-          "root": "LinearProgressComp-root-0-3-173",
-          "xs": "LinearProgressComp-xs-0-3-174",
+          "content": "LinearProgressComp-content-0-3-177",
+          "indicator": "LinearProgressComp-indicator-0-3-175",
+          "lg": "LinearProgressComp-lg-0-3-174",
+          "md": "LinearProgressComp-md-0-3-172",
+          "md60": "LinearProgressComp-md60-0-3-173",
+          "message": "LinearProgressComp-message-0-3-176",
+          "root": "LinearProgressComp-root-0-3-170",
+          "xs": "LinearProgressComp-xs-0-3-171",
         }
       }
       color="green"
@@ -5267,7 +5267,7 @@ exports[`Storyshots Components/LinearProgress Size xs 1`] = `
       value={20}
     >
       <div
-        className="LinearProgressComp-root-0-3-173 LinearProgressComp-xs-0-3-174"
+        className="LinearProgressComp-root-0-3-170 LinearProgressComp-xs-0-3-171"
         style={
           Object {
             "backgroundColor": "#4caf50",
@@ -5276,7 +5276,7 @@ exports[`Storyshots Components/LinearProgress Size xs 1`] = `
         }
       >
         <div
-          className="LinearProgressComp-indicator-0-3-178"
+          className="LinearProgressComp-indicator-0-3-175"
           style={
             Object {
               "backgroundColor": "#64dd17",
@@ -5296,7 +5296,7 @@ exports[`Storyshots Components/LinearProgress Size xs 1`] = `
           }
         >
           <div
-            className="LinearProgressComp-content-0-3-180"
+            className="LinearProgressComp-content-0-3-177"
           >
             <Typography
               bold={true}
@@ -5451,14 +5451,14 @@ exports[`Storyshots Components/LinearProgress Size xs content vertical align: bo
       border={true}
       classes={
         Object {
-          "content": "LinearProgressComp-content-0-3-180",
-          "indicator": "LinearProgressComp-indicator-0-3-178",
-          "lg": "LinearProgressComp-lg-0-3-177",
-          "md": "LinearProgressComp-md-0-3-175",
-          "md60": "LinearProgressComp-md60-0-3-176",
-          "message": "LinearProgressComp-message-0-3-179",
-          "root": "LinearProgressComp-root-0-3-173",
-          "xs": "LinearProgressComp-xs-0-3-174",
+          "content": "LinearProgressComp-content-0-3-177",
+          "indicator": "LinearProgressComp-indicator-0-3-175",
+          "lg": "LinearProgressComp-lg-0-3-174",
+          "md": "LinearProgressComp-md-0-3-172",
+          "md60": "LinearProgressComp-md60-0-3-173",
+          "message": "LinearProgressComp-message-0-3-176",
+          "root": "LinearProgressComp-root-0-3-170",
+          "xs": "LinearProgressComp-xs-0-3-171",
         }
       }
       color="white"
@@ -5474,7 +5474,7 @@ exports[`Storyshots Components/LinearProgress Size xs content vertical align: bo
       value={30}
     >
       <div
-        className="LinearProgressComp-root-0-3-173 LinearProgressComp-xs-0-3-174"
+        className="LinearProgressComp-root-0-3-170 LinearProgressComp-xs-0-3-171"
         style={
           Object {
             "backgroundColor": "#ffffff",
@@ -5483,7 +5483,7 @@ exports[`Storyshots Components/LinearProgress Size xs content vertical align: bo
         }
       >
         <div
-          className="LinearProgressComp-indicator-0-3-178"
+          className="LinearProgressComp-indicator-0-3-175"
           style={
             Object {
               "backgroundColor": "#fafafa",
@@ -5504,13 +5504,13 @@ exports[`Storyshots Components/LinearProgress Size xs content vertical align: bo
         >
           <Typography
             bold={true}
-            className="LinearProgressComp-message-0-3-179"
+            className="LinearProgressComp-message-0-3-176"
             color="#212121"
             variant="subtext"
           >
             <WithStyles(TypographyComp)
               bold={true}
-              className="LinearProgressComp-message-0-3-179"
+              className="LinearProgressComp-message-0-3-176"
               color="#212121"
               innerRef={null}
               jssContext={
@@ -5524,7 +5524,7 @@ exports[`Storyshots Components/LinearProgress Size xs content vertical align: bo
             >
               <TypographyComp
                 bold={true}
-                className="LinearProgressComp-message-0-3-179"
+                className="LinearProgressComp-message-0-3-176"
                 classes={
                   Object {
                     "big": "TypographyComp-big-0-3-7",
@@ -5547,7 +5547,7 @@ exports[`Storyshots Components/LinearProgress Size xs content vertical align: bo
                 variant="subtext"
               >
                 <span
-                  className="LinearProgressComp-message-0-3-179 TypographyComp-subtext-0-3-4 TypographyComp-bold-0-3-1"
+                  className="LinearProgressComp-message-0-3-176 TypographyComp-subtext-0-3-4 TypographyComp-bold-0-3-1"
                   style={
                     Object {
                       "color": "rgba(33, 33, 33, 1)",
@@ -5562,7 +5562,7 @@ exports[`Storyshots Components/LinearProgress Size xs content vertical align: bo
             </WithStyles(TypographyComp)>
           </Typography>
           <div
-            className="LinearProgressComp-content-0-3-180"
+            className="LinearProgressComp-content-0-3-177"
           >
             <Typography
               bold={true}
@@ -5721,14 +5721,14 @@ exports[`Storyshots Components/LinearProgress Size xs content vertical align: ce
       border={true}
       classes={
         Object {
-          "content": "LinearProgressComp-content-0-3-180",
-          "indicator": "LinearProgressComp-indicator-0-3-178",
-          "lg": "LinearProgressComp-lg-0-3-177",
-          "md": "LinearProgressComp-md-0-3-175",
-          "md60": "LinearProgressComp-md60-0-3-176",
-          "message": "LinearProgressComp-message-0-3-179",
-          "root": "LinearProgressComp-root-0-3-173",
-          "xs": "LinearProgressComp-xs-0-3-174",
+          "content": "LinearProgressComp-content-0-3-177",
+          "indicator": "LinearProgressComp-indicator-0-3-175",
+          "lg": "LinearProgressComp-lg-0-3-174",
+          "md": "LinearProgressComp-md-0-3-172",
+          "md60": "LinearProgressComp-md60-0-3-173",
+          "message": "LinearProgressComp-message-0-3-176",
+          "root": "LinearProgressComp-root-0-3-170",
+          "xs": "LinearProgressComp-xs-0-3-171",
         }
       }
       color="white"
@@ -5744,7 +5744,7 @@ exports[`Storyshots Components/LinearProgress Size xs content vertical align: ce
       value={30}
     >
       <div
-        className="LinearProgressComp-root-0-3-173 LinearProgressComp-xs-0-3-174"
+        className="LinearProgressComp-root-0-3-170 LinearProgressComp-xs-0-3-171"
         style={
           Object {
             "backgroundColor": "#ffffff",
@@ -5753,7 +5753,7 @@ exports[`Storyshots Components/LinearProgress Size xs content vertical align: ce
         }
       >
         <div
-          className="LinearProgressComp-indicator-0-3-178"
+          className="LinearProgressComp-indicator-0-3-175"
           style={
             Object {
               "backgroundColor": "#fafafa",
@@ -5774,13 +5774,13 @@ exports[`Storyshots Components/LinearProgress Size xs content vertical align: ce
         >
           <Typography
             bold={true}
-            className="LinearProgressComp-message-0-3-179"
+            className="LinearProgressComp-message-0-3-176"
             color="#212121"
             variant="subtext"
           >
             <WithStyles(TypographyComp)
               bold={true}
-              className="LinearProgressComp-message-0-3-179"
+              className="LinearProgressComp-message-0-3-176"
               color="#212121"
               innerRef={null}
               jssContext={
@@ -5794,7 +5794,7 @@ exports[`Storyshots Components/LinearProgress Size xs content vertical align: ce
             >
               <TypographyComp
                 bold={true}
-                className="LinearProgressComp-message-0-3-179"
+                className="LinearProgressComp-message-0-3-176"
                 classes={
                   Object {
                     "big": "TypographyComp-big-0-3-7",
@@ -5817,7 +5817,7 @@ exports[`Storyshots Components/LinearProgress Size xs content vertical align: ce
                 variant="subtext"
               >
                 <span
-                  className="LinearProgressComp-message-0-3-179 TypographyComp-subtext-0-3-4 TypographyComp-bold-0-3-1"
+                  className="LinearProgressComp-message-0-3-176 TypographyComp-subtext-0-3-4 TypographyComp-bold-0-3-1"
                   style={
                     Object {
                       "color": "rgba(33, 33, 33, 1)",
@@ -5832,7 +5832,7 @@ exports[`Storyshots Components/LinearProgress Size xs content vertical align: ce
             </WithStyles(TypographyComp)>
           </Typography>
           <div
-            className="LinearProgressComp-content-0-3-180"
+            className="LinearProgressComp-content-0-3-177"
           >
             <Typography
               bold={true}
@@ -5991,14 +5991,14 @@ exports[`Storyshots Components/LinearProgress Size xs content vertical align: to
       border={true}
       classes={
         Object {
-          "content": "LinearProgressComp-content-0-3-180",
-          "indicator": "LinearProgressComp-indicator-0-3-178",
-          "lg": "LinearProgressComp-lg-0-3-177",
-          "md": "LinearProgressComp-md-0-3-175",
-          "md60": "LinearProgressComp-md60-0-3-176",
-          "message": "LinearProgressComp-message-0-3-179",
-          "root": "LinearProgressComp-root-0-3-173",
-          "xs": "LinearProgressComp-xs-0-3-174",
+          "content": "LinearProgressComp-content-0-3-177",
+          "indicator": "LinearProgressComp-indicator-0-3-175",
+          "lg": "LinearProgressComp-lg-0-3-174",
+          "md": "LinearProgressComp-md-0-3-172",
+          "md60": "LinearProgressComp-md60-0-3-173",
+          "message": "LinearProgressComp-message-0-3-176",
+          "root": "LinearProgressComp-root-0-3-170",
+          "xs": "LinearProgressComp-xs-0-3-171",
         }
       }
       color="white"
@@ -6014,7 +6014,7 @@ exports[`Storyshots Components/LinearProgress Size xs content vertical align: to
       value={30}
     >
       <div
-        className="LinearProgressComp-root-0-3-173 LinearProgressComp-xs-0-3-174"
+        className="LinearProgressComp-root-0-3-170 LinearProgressComp-xs-0-3-171"
         style={
           Object {
             "backgroundColor": "#ffffff",
@@ -6023,7 +6023,7 @@ exports[`Storyshots Components/LinearProgress Size xs content vertical align: to
         }
       >
         <div
-          className="LinearProgressComp-indicator-0-3-178"
+          className="LinearProgressComp-indicator-0-3-175"
           style={
             Object {
               "backgroundColor": "#fafafa",
@@ -6044,13 +6044,13 @@ exports[`Storyshots Components/LinearProgress Size xs content vertical align: to
         >
           <Typography
             bold={true}
-            className="LinearProgressComp-message-0-3-179"
+            className="LinearProgressComp-message-0-3-176"
             color="#212121"
             variant="subtext"
           >
             <WithStyles(TypographyComp)
               bold={true}
-              className="LinearProgressComp-message-0-3-179"
+              className="LinearProgressComp-message-0-3-176"
               color="#212121"
               innerRef={null}
               jssContext={
@@ -6064,7 +6064,7 @@ exports[`Storyshots Components/LinearProgress Size xs content vertical align: to
             >
               <TypographyComp
                 bold={true}
-                className="LinearProgressComp-message-0-3-179"
+                className="LinearProgressComp-message-0-3-176"
                 classes={
                   Object {
                     "big": "TypographyComp-big-0-3-7",
@@ -6087,7 +6087,7 @@ exports[`Storyshots Components/LinearProgress Size xs content vertical align: to
                 variant="subtext"
               >
                 <span
-                  className="LinearProgressComp-message-0-3-179 TypographyComp-subtext-0-3-4 TypographyComp-bold-0-3-1"
+                  className="LinearProgressComp-message-0-3-176 TypographyComp-subtext-0-3-4 TypographyComp-bold-0-3-1"
                   style={
                     Object {
                       "color": "rgba(33, 33, 33, 1)",
@@ -6102,7 +6102,7 @@ exports[`Storyshots Components/LinearProgress Size xs content vertical align: to
             </WithStyles(TypographyComp)>
           </Typography>
           <div
-            className="LinearProgressComp-content-0-3-180"
+            className="LinearProgressComp-content-0-3-177"
           >
             <Typography
               bold={true}
@@ -6246,14 +6246,14 @@ exports[`Storyshots Components/LinearProgress Value % xl 1`] = `
     <LinearProgressComp
       classes={
         Object {
-          "content": "LinearProgressComp-content-0-3-180",
-          "indicator": "LinearProgressComp-indicator-0-3-178",
-          "lg": "LinearProgressComp-lg-0-3-177",
-          "md": "LinearProgressComp-md-0-3-175",
-          "md60": "LinearProgressComp-md60-0-3-176",
-          "message": "LinearProgressComp-message-0-3-179",
-          "root": "LinearProgressComp-root-0-3-173",
-          "xs": "LinearProgressComp-xs-0-3-174",
+          "content": "LinearProgressComp-content-0-3-177",
+          "indicator": "LinearProgressComp-indicator-0-3-175",
+          "lg": "LinearProgressComp-lg-0-3-174",
+          "md": "LinearProgressComp-md-0-3-172",
+          "md60": "LinearProgressComp-md60-0-3-173",
+          "message": "LinearProgressComp-message-0-3-176",
+          "root": "LinearProgressComp-root-0-3-170",
+          "xs": "LinearProgressComp-xs-0-3-171",
         }
       }
       color="green"
@@ -6263,7 +6263,7 @@ exports[`Storyshots Components/LinearProgress Value % xl 1`] = `
       value={50}
     >
       <div
-        className="LinearProgressComp-root-0-3-173 LinearProgressComp-lg-0-3-177"
+        className="LinearProgressComp-root-0-3-170 LinearProgressComp-lg-0-3-174"
         style={
           Object {
             "backgroundColor": "#4caf50",
@@ -6272,7 +6272,7 @@ exports[`Storyshots Components/LinearProgress Value % xl 1`] = `
         }
       >
         <div
-          className="LinearProgressComp-indicator-0-3-178"
+          className="LinearProgressComp-indicator-0-3-175"
           style={
             Object {
               "backgroundColor": "#64dd17",
@@ -6292,7 +6292,7 @@ exports[`Storyshots Components/LinearProgress Value % xl 1`] = `
           }
         >
           <div
-            className="LinearProgressComp-content-0-3-180"
+            className="LinearProgressComp-content-0-3-177"
           >
             <Typography
               bold={true}
@@ -6434,14 +6434,14 @@ exports[`Storyshots Components/LinearProgress Value x/y 1`] = `
     <LinearProgressComp
       classes={
         Object {
-          "content": "LinearProgressComp-content-0-3-180",
-          "indicator": "LinearProgressComp-indicator-0-3-178",
-          "lg": "LinearProgressComp-lg-0-3-177",
-          "md": "LinearProgressComp-md-0-3-175",
-          "md60": "LinearProgressComp-md60-0-3-176",
-          "message": "LinearProgressComp-message-0-3-179",
-          "root": "LinearProgressComp-root-0-3-173",
-          "xs": "LinearProgressComp-xs-0-3-174",
+          "content": "LinearProgressComp-content-0-3-177",
+          "indicator": "LinearProgressComp-indicator-0-3-175",
+          "lg": "LinearProgressComp-lg-0-3-174",
+          "md": "LinearProgressComp-md-0-3-172",
+          "md60": "LinearProgressComp-md60-0-3-173",
+          "message": "LinearProgressComp-message-0-3-176",
+          "root": "LinearProgressComp-root-0-3-170",
+          "xs": "LinearProgressComp-xs-0-3-171",
         }
       }
       color="green"
@@ -6451,7 +6451,7 @@ exports[`Storyshots Components/LinearProgress Value x/y 1`] = `
       value={50}
     >
       <div
-        className="LinearProgressComp-root-0-3-173 LinearProgressComp-md-0-3-175"
+        className="LinearProgressComp-root-0-3-170 LinearProgressComp-md-0-3-172"
         style={
           Object {
             "backgroundColor": "#4caf50",
@@ -6460,7 +6460,7 @@ exports[`Storyshots Components/LinearProgress Value x/y 1`] = `
         }
       >
         <div
-          className="LinearProgressComp-indicator-0-3-178"
+          className="LinearProgressComp-indicator-0-3-175"
           style={
             Object {
               "backgroundColor": "#64dd17",
@@ -6480,7 +6480,7 @@ exports[`Storyshots Components/LinearProgress Value x/y 1`] = `
           }
         >
           <div
-            className="LinearProgressComp-content-0-3-180"
+            className="LinearProgressComp-content-0-3-177"
           >
             <Typography
               bold={true}
@@ -6620,14 +6620,14 @@ exports[`Storyshots Components/LinearProgress disabled 1`] = `
     <LinearProgressComp
       classes={
         Object {
-          "content": "LinearProgressComp-content-0-3-180",
-          "indicator": "LinearProgressComp-indicator-0-3-178",
-          "lg": "LinearProgressComp-lg-0-3-177",
-          "md": "LinearProgressComp-md-0-3-175",
-          "md60": "LinearProgressComp-md60-0-3-176",
-          "message": "LinearProgressComp-message-0-3-179",
-          "root": "LinearProgressComp-root-0-3-173",
-          "xs": "LinearProgressComp-xs-0-3-174",
+          "content": "LinearProgressComp-content-0-3-177",
+          "indicator": "LinearProgressComp-indicator-0-3-175",
+          "lg": "LinearProgressComp-lg-0-3-174",
+          "md": "LinearProgressComp-md-0-3-172",
+          "md60": "LinearProgressComp-md60-0-3-173",
+          "message": "LinearProgressComp-message-0-3-176",
+          "root": "LinearProgressComp-root-0-3-170",
+          "xs": "LinearProgressComp-xs-0-3-171",
         }
       }
       color="green"
@@ -6636,7 +6636,7 @@ exports[`Storyshots Components/LinearProgress disabled 1`] = `
       value={20}
     >
       <div
-        className="LinearProgressComp-root-0-3-173 LinearProgressComp-md-0-3-175"
+        className="LinearProgressComp-root-0-3-170 LinearProgressComp-md-0-3-172"
         style={
           Object {
             "backgroundColor": "rgba(76, 175, 80, 0.5)",
@@ -6645,7 +6645,7 @@ exports[`Storyshots Components/LinearProgress disabled 1`] = `
         }
       >
         <div
-          className="LinearProgressComp-indicator-0-3-178"
+          className="LinearProgressComp-indicator-0-3-175"
           style={
             Object {
               "backgroundColor": "rgba(100, 221, 23, 0.5)",
@@ -6665,7 +6665,7 @@ exports[`Storyshots Components/LinearProgress disabled 1`] = `
           }
         >
           <div
-            className="LinearProgressComp-content-0-3-180"
+            className="LinearProgressComp-content-0-3-177"
           >
             <Typography
               bold={true}
@@ -6817,14 +6817,14 @@ exports[`Storyshots Components/LinearProgress disabled content 1`] = `
     <LinearProgressComp
       classes={
         Object {
-          "content": "LinearProgressComp-content-0-3-180",
-          "indicator": "LinearProgressComp-indicator-0-3-178",
-          "lg": "LinearProgressComp-lg-0-3-177",
-          "md": "LinearProgressComp-md-0-3-175",
-          "md60": "LinearProgressComp-md60-0-3-176",
-          "message": "LinearProgressComp-message-0-3-179",
-          "root": "LinearProgressComp-root-0-3-173",
-          "xs": "LinearProgressComp-xs-0-3-174",
+          "content": "LinearProgressComp-content-0-3-177",
+          "indicator": "LinearProgressComp-indicator-0-3-175",
+          "lg": "LinearProgressComp-lg-0-3-174",
+          "md": "LinearProgressComp-md-0-3-172",
+          "md60": "LinearProgressComp-md60-0-3-173",
+          "message": "LinearProgressComp-message-0-3-176",
+          "root": "LinearProgressComp-root-0-3-170",
+          "xs": "LinearProgressComp-xs-0-3-171",
         }
       }
       color="grey"
@@ -6840,7 +6840,7 @@ exports[`Storyshots Components/LinearProgress disabled content 1`] = `
       value={0}
     >
       <div
-        className="LinearProgressComp-root-0-3-173 LinearProgressComp-md-0-3-175"
+        className="LinearProgressComp-root-0-3-170 LinearProgressComp-md-0-3-172"
         style={
           Object {
             "backgroundColor": "rgba(158, 158, 158, 0.5)",
@@ -6849,7 +6849,7 @@ exports[`Storyshots Components/LinearProgress disabled content 1`] = `
         }
       >
         <div
-          className="LinearProgressComp-indicator-0-3-178"
+          className="LinearProgressComp-indicator-0-3-175"
           style={
             Object {
               "backgroundColor": "rgba(189, 189, 189, 0.5)",
@@ -6870,13 +6870,13 @@ exports[`Storyshots Components/LinearProgress disabled content 1`] = `
         >
           <Typography
             bold={true}
-            className="LinearProgressComp-message-0-3-179"
+            className="LinearProgressComp-message-0-3-176"
             color="#ffffff"
             variant="subtext"
           >
             <WithStyles(TypographyComp)
               bold={true}
-              className="LinearProgressComp-message-0-3-179"
+              className="LinearProgressComp-message-0-3-176"
               color="#ffffff"
               innerRef={null}
               jssContext={
@@ -6890,7 +6890,7 @@ exports[`Storyshots Components/LinearProgress disabled content 1`] = `
             >
               <TypographyComp
                 bold={true}
-                className="LinearProgressComp-message-0-3-179"
+                className="LinearProgressComp-message-0-3-176"
                 classes={
                   Object {
                     "big": "TypographyComp-big-0-3-7",
@@ -6913,7 +6913,7 @@ exports[`Storyshots Components/LinearProgress disabled content 1`] = `
                 variant="subtext"
               >
                 <span
-                  className="LinearProgressComp-message-0-3-179 TypographyComp-subtext-0-3-4 TypographyComp-bold-0-3-1"
+                  className="LinearProgressComp-message-0-3-176 TypographyComp-subtext-0-3-4 TypographyComp-bold-0-3-1"
                   style={
                     Object {
                       "color": "rgba(255, 255, 255, 1)",
@@ -6928,7 +6928,7 @@ exports[`Storyshots Components/LinearProgress disabled content 1`] = `
             </WithStyles(TypographyComp)>
           </Typography>
           <div
-            className="LinearProgressComp-content-0-3-180"
+            className="LinearProgressComp-content-0-3-177"
           >
             <Typography
               bold={true}
@@ -7070,14 +7070,14 @@ exports[`Storyshots Components/LinearProgress onSelect 1`] = `
     <LinearProgressComp
       classes={
         Object {
-          "content": "LinearProgressComp-content-0-3-180",
-          "indicator": "LinearProgressComp-indicator-0-3-178",
-          "lg": "LinearProgressComp-lg-0-3-177",
-          "md": "LinearProgressComp-md-0-3-175",
-          "md60": "LinearProgressComp-md60-0-3-176",
-          "message": "LinearProgressComp-message-0-3-179",
-          "root": "LinearProgressComp-root-0-3-173",
-          "xs": "LinearProgressComp-xs-0-3-174",
+          "content": "LinearProgressComp-content-0-3-177",
+          "indicator": "LinearProgressComp-indicator-0-3-175",
+          "lg": "LinearProgressComp-lg-0-3-174",
+          "md": "LinearProgressComp-md-0-3-172",
+          "md60": "LinearProgressComp-md60-0-3-173",
+          "message": "LinearProgressComp-message-0-3-176",
+          "root": "LinearProgressComp-root-0-3-170",
+          "xs": "LinearProgressComp-xs-0-3-171",
         }
       }
       color="green"
@@ -7086,7 +7086,7 @@ exports[`Storyshots Components/LinearProgress onSelect 1`] = `
       value={20}
     >
       <div
-        className="LinearProgressComp-root-0-3-173 LinearProgressComp-xs-0-3-174"
+        className="LinearProgressComp-root-0-3-170 LinearProgressComp-xs-0-3-171"
         onClick={[Function]}
         style={
           Object {
@@ -7096,7 +7096,7 @@ exports[`Storyshots Components/LinearProgress onSelect 1`] = `
         }
       >
         <div
-          className="LinearProgressComp-indicator-0-3-178"
+          className="LinearProgressComp-indicator-0-3-175"
           style={
             Object {
               "backgroundColor": "#64dd17",
@@ -7116,7 +7116,7 @@ exports[`Storyshots Components/LinearProgress onSelect 1`] = `
           }
         >
           <div
-            className="LinearProgressComp-content-0-3-180"
+            className="LinearProgressComp-content-0-3-177"
           >
             <Typography
               bold={true}

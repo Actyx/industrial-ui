@@ -71,6 +71,9 @@ const styles: StyleSheet<ClassKey> = {
   }
 };
 
+/**
+ * FluidDialog is a dialog with automatically resizes in width and height based on its inner content.
+ */
 export const FluidDialog = compose<Props, CompProps>(
   setDisplayName('FluidDialog'),
   injectSheet(styles)

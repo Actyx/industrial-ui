@@ -27,7 +27,7 @@ export * from './Dialog';
 export * from './Divider';
 export * from './FloatingActionButton';
 export * from './GaugeProgress';
-export * from './Grid';
+export * from './TabeData';
 export * from './HorizontallyScrollableList';
 export * from './IconTextNotification';
 export * from './Input';

@@ -117,6 +117,10 @@ const styles: StyleSheet<ClassKey, CompProps> = {
   }
 };
 
+/**
+ * ButtonStatus provide the user with a way to trigger an action with a single tap, providing contextual information with iconography.
+ * A possible use case is to allow a user to select a workstation informing him of the presence of an operator.
+ */
 export const ButtonStatus = compose<Props, CompProps>(
   setDisplayName('ButtonStatus'),
   injectSheet(styles)

@@ -15,3 +15,51 @@ Actyx UI is available as an [npm package](https://www.npmjs.com/package/@actyx/a
 ```shell
 npm install @actyx/actyx-ui
 ```
+
+## Documentation
+
+You can access the documentation and related examples by:
+
+```sh
+## clone repository
+git clone https://github.com/Actyx/actyx-ui.git
+## navigate to project folder
+cd actyx-ui
+## use the correct version of nodejs
+nvm use
+## install dependencies
+npm i
+## run StoryBook
+npm run storybook
+```
+
+A website with documentation will be visible at [http://localhost:6006/](http://localhost:6006/)
+
+On the left side of the screen, you can find all components, click each story on the left to see on the component on the "Canvas" tab on the right.
+
+By clicking on the "Docs" tab you can access code samples and properties details.
+
+## Developer tools
+
+| Script | Description  |
+|---|---|
+| `npm run clean` | Clean lib and coverage folders |
+| `npm run tsc` | Run TypeScript check |
+| `npm run tsc:watch` | Run TypeScript check watch mode |
+| `npm run build` | Build project |
+| `npm run build:watch` | Build project watch mode |
+| `npm run build:prod` | Perform all checks and build project |
+| `npm run lint` | Check for lint issues |
+| `npm run lint:fix` | Check and automatically fix lint issues |
+| `npm run storybook` | Run StoryBook |
+| `npm run storybook:build` | Build StoryBook |
+| `npm run test` | Run Jest tests |
+| `npm run test:no-coverage` | Run Jest tests and exclude coverage report |
+| `npm run test:watch` | Run tests in watch mode |
+| `npm run test:visual` | Run visual regression testing |
+| `npm run test:visual-approve` | Approve result from visual regression testing |
+| `npm run license:add` | Append license information to every relevant files |
+| `npm run license:check` | Check if license information is present on every relevant files |
+| `npm run license:check-dep` | Check the licenses for project dependencies |
+| `npm run license:check-dep` | Check the licenses for project dependencies and produce a summary |
+| `npm run sloc` | Report total number of source lines of code |

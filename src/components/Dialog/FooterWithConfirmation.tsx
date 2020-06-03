@@ -64,6 +64,9 @@ const styles: StyleSheet<ClassKey, CompProps> = {
   }
 };
 
+/**
+ * FooterWithConfirmation provides a classical and convenient cancel/confirm UX pattern to a dialog.
+ */
 export const FooterWithConfirmation = compose<Props, CompProps>(
   setDisplayName('FooterWithConfirmation'),
   injectSheet(styles)

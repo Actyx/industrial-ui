@@ -50,7 +50,7 @@ exports[`Storyshots Components/ModalDrawer/Parts List 1`] = `
     <ListComp
       classes={
         Object {
-          "root": "ListComp-root-0-3-188",
+          "root": "ListComp-root-0-3-185",
         }
       }
       handleClose={[Function]}
@@ -72,7 +72,7 @@ exports[`Storyshots Components/ModalDrawer/Parts List 1`] = `
       }
     >
       <div
-        className="ListComp-root-0-3-188"
+        className="ListComp-root-0-3-185"
       >
         <Button
           color="transparent"
@@ -184,14 +184,14 @@ exports[`Storyshots Components/ModalDrawer/Parts List 1`] = `
                               <MUIconComp
                                 classes={
                                   Object {
-                                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d53-0-3-189",
+                                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d53-0-3-186",
                                   }
                                 }
                                 fontSize={40}
                                 type="assignment"
                               >
                                 <i
-                                  className="MUIconComp-root-0-3-35 MUIconComp-root-d53-0-3-189"
+                                  className="MUIconComp-root-0-3-35 MUIconComp-root-d53-0-3-186"
                                 >
                                   assignment
                                 </i>
@@ -370,14 +370,14 @@ exports[`Storyshots Components/ModalDrawer/Parts List 1`] = `
                               <MUIconComp
                                 classes={
                                   Object {
-                                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d54-0-3-190",
+                                    "root": "MUIconComp-root-0-3-35 MUIconComp-root-d54-0-3-187",
                                   }
                                 }
                                 fontSize={40}
                                 type="insert_drive_file"
                               >
                                 <i
-                                  className="MUIconComp-root-0-3-35 MUIconComp-root-d54-0-3-190"
+                                  className="MUIconComp-root-0-3-35 MUIconComp-root-d54-0-3-187"
                                 >
                                   insert_drive_file
                                 </i>

@@ -18,15 +18,15 @@ exports[`Storyshots Components/Toolbar Variant dark content 1`] = `
     <ToolbarComp
       classes={
         Object {
-          "dark": "ToolbarComp-dark-0-3-289",
-          "light": "ToolbarComp-light-0-3-290",
-          "root": "ToolbarComp-root-0-3-288",
+          "dark": "ToolbarComp-dark-0-3-286",
+          "light": "ToolbarComp-light-0-3-287",
+          "root": "ToolbarComp-root-0-3-285",
         }
       }
       variant="dark"
     >
       <div
-        className="ToolbarComp-root-0-3-288 ToolbarComp-dark-0-3-289"
+        className="ToolbarComp-root-0-3-285 ToolbarComp-dark-0-3-286"
       >
         <Typography
           color="#ffffff"
@@ -103,15 +103,15 @@ exports[`Storyshots Components/Toolbar Variant light content 1`] = `
     <ToolbarComp
       classes={
         Object {
-          "dark": "ToolbarComp-dark-0-3-289",
-          "light": "ToolbarComp-light-0-3-290",
-          "root": "ToolbarComp-root-0-3-288",
+          "dark": "ToolbarComp-dark-0-3-286",
+          "light": "ToolbarComp-light-0-3-287",
+          "root": "ToolbarComp-root-0-3-285",
         }
       }
       variant="light"
     >
       <div
-        className="ToolbarComp-root-0-3-288 ToolbarComp-light-0-3-290"
+        className="ToolbarComp-root-0-3-285 ToolbarComp-light-0-3-287"
       >
         <Typography
           variant="distance"
@@ -180,15 +180,15 @@ exports[`Storyshots Components/Toolbar Variant light content/icons 1`] = `
     <ToolbarComp
       classes={
         Object {
-          "dark": "ToolbarComp-dark-0-3-289",
-          "light": "ToolbarComp-light-0-3-290",
-          "root": "ToolbarComp-root-0-3-288",
+          "dark": "ToolbarComp-dark-0-3-286",
+          "light": "ToolbarComp-light-0-3-287",
+          "root": "ToolbarComp-root-0-3-285",
         }
       }
       variant="light"
     >
       <div
-        className="ToolbarComp-root-0-3-288 ToolbarComp-light-0-3-290"
+        className="ToolbarComp-root-0-3-285 ToolbarComp-light-0-3-287"
       >
         <Button
           color="transparent"

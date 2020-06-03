@@ -95,6 +95,10 @@ const styles: StyleSheet<ClassKey, CompProps> = {
   }
 };
 
+/**
+ * Table displays information in a way that’s easy to scan so that users can look for patterns and insights.
+ * It can contain any valid HTML element included other UI components.
+ */
 export const Table = compose<Props, CompProps>(
   setDisplayName('Table'),
   injectSheet(styles)

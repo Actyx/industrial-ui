@@ -31,6 +31,10 @@ type Props = Readonly<{
   onClick?: () => void;
 }>;
 
+/**
+ * Checkbox allows the user to select one or more items from a set. Checkboxes can be used to turn an option on or off.
+ * Use a Checkbox only to permit the user to make a binary choice, i.e. a choice between one of two possible mutually exclusive options.
+ */
 export const Checkbox = ({ state, color, disabled, onClick }: Props) => {
   const iconType =
     state === 'checked'

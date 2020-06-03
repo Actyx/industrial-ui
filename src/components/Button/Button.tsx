@@ -208,6 +208,10 @@ const styles: StyleSheet<ClassKey> = {
   }
 };
 
+/**
+ * Button provides the user with a simple way to take and action or make choices with a single tap.
+ * It is typically placed throughout your UI layout, as within Cards and Dialogs for instance.
+ */
 export const Button = compose<Props, CompProps>(
   setDisplayName('Button'),
   injectSheet(styles)

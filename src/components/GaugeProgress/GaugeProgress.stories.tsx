@@ -34,7 +34,7 @@ storiesOf('Components/GaugeProgress', module)
       <GaugeProgress color="green" lineCap="round" width="100%" height="100%" value={60} />
     </div>
   ))
-  .add('Dynamic', () => {
+  .add('Statefull', () => {
     const Statefull = () => {
       const [value, setValue] = React.useState<number>(50);
       return (

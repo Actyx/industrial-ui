@@ -19,8 +19,6 @@ import * as React from 'react';
 import injectSheet, { StyleSheet, WithStyles } from 'react-jss';
 import { compose, setDisplayName } from 'recompose';
 
-export type CircularProgressSize = 'sm' | 'md';
-
 type CompProps = Readonly<{
   size: 'sm' | 'md';
   colorIndicator?: string;
@@ -75,6 +73,10 @@ const styles: StyleSheet<ClassKey> = {
   }
 };
 
+/**
+ * CircularProgress indicator displays progress by animating an indicator along an invisible circular track in a clockwise direction.
+ * It can be used directly within any UI surface, such as a button or card.
+ */
 export const CircularProgress = compose<Props, CompProps>(
   setDisplayName('CircularProgress'),
   injectSheet(styles)

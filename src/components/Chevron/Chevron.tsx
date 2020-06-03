@@ -88,6 +88,10 @@ const styles: StyleSheet<ClassKey> = {
   }
 };
 
+/**
+ * Chevron is an inverted V-shaped icon.
+ * It is usually used to show that something can collapse or expand.
+ */
 export const Chevron = compose<Props, CompProps>(
   setDisplayName('Chevron'),
   injectSheet(styles)

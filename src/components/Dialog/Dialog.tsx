@@ -20,10 +20,8 @@ import { compose, setDisplayName } from 'recompose';
 import { FluidDialog } from './FluidDialog';
 import { theme } from '../../theme';
 
-export type DialogSize = 'xs' | 'sm' | 'md' | 'xl' | 'xlw' | 'xxl';
-
 type CompProps = Readonly<{
-  size: DialogSize;
+  size: 'xs' | 'sm' | 'md' | 'xl' | 'xlw' | 'xxl';
   header?: React.ReactNode;
   content: React.ReactNode;
   footer: React.ReactNode;
@@ -43,7 +41,7 @@ const DialogComp = ({ classes, className, header, content, footer, onClose, size
   />
 );
 
-type ClassKey = 'dialog' | DialogSize | 'header' | 'footer';
+type ClassKey = 'dialog' | 'xs' | 'sm' | 'md' | 'xl' | 'xlw' | 'xxl' | 'header' | 'footer';
 
 const styles: StyleSheet<ClassKey> = {
   dialog: {
@@ -83,6 +81,11 @@ const styles: StyleSheet<ClassKey> = {
   }
 };
 
+/**
+ * Dialog is a type of modal window that appears in front of app content to provide critical information or require decisions or involve multiple tasks.
+ * Dialog disables all app functionality when they appear, and remain on screen until confirmed, dismissed, or a required action has been taken.
+ * From UX point of view, a Dialog is interruptive and so it should be used sparingly in your app.
+ */
 export const Dialog = compose<Props, CompProps>(
   setDisplayName('Dialog'),
   injectSheet(styles)

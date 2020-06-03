@@ -18,13 +18,13 @@ exports[`Storyshots Components/MUIcon Base 1`] = `
     <MUIconComp
       classes={
         Object {
-          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d50-0-3-185",
+          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d50-0-3-182",
         }
       }
       type="face"
     >
       <i
-        className="MUIconComp-root-0-3-35 MUIconComp-root-d50-0-3-185"
+        className="MUIconComp-root-0-3-35 MUIconComp-root-d50-0-3-182"
       >
         face
       </i>
@@ -53,14 +53,14 @@ exports[`Storyshots Components/MUIcon color 1`] = `
     <MUIconComp
       classes={
         Object {
-          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d52-0-3-187",
+          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d52-0-3-184",
         }
       }
       color="#03a9f4"
       type="face"
     >
       <i
-        className="MUIconComp-root-0-3-35 MUIconComp-root-d52-0-3-187"
+        className="MUIconComp-root-0-3-35 MUIconComp-root-d52-0-3-184"
       >
         face
       </i>
@@ -89,14 +89,14 @@ exports[`Storyshots Components/MUIcon fontSize 1`] = `
     <MUIconComp
       classes={
         Object {
-          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d51-0-3-186",
+          "root": "MUIconComp-root-0-3-35 MUIconComp-root-d51-0-3-183",
         }
       }
       fontSize={48}
       type="face"
     >
       <i
-        className="MUIconComp-root-0-3-35 MUIconComp-root-d51-0-3-186"
+        className="MUIconComp-root-0-3-35 MUIconComp-root-d51-0-3-183"
       >
         face
       </i>

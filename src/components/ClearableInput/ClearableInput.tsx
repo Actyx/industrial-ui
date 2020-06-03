@@ -120,6 +120,10 @@ const styles: StyleSheet<ClassKey> = {
   }
 };
 
+/**
+ * ClearableInput is input with a button.
+ * It comes in two variations, one for clearing a simple input or a search.
+ */
 export const ClearableInput = compose<Props, CompProps>(
   setDisplayName('ClearableInput'),
   injectSheet(styles)

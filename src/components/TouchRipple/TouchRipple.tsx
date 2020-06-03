@@ -80,6 +80,10 @@ const styles: StyleSheet<ClassKey> = {
   }
 };
 
+/**
+ * TouchRipple provides an "ink ripple" interaction effect.
+ * It is designed to be efficient on mobile devices using a CSS only implementation.
+ */
 export const TouchRipple = compose<Props, CompProps>(
   setDisplayName('TouchRipple'),
   injectSheet(styles)

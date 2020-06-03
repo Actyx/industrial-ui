@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Components/Grid Base 1`] = `
-<Grid
+exports[`Storyshots Components/TableData Base 1`] = `
+<TableData
   data={
     Array [
       Object {
@@ -44,10 +44,10 @@ exports[`Storyshots Components/Grid Base 1`] = `
   renderRow={[Function]}
 >
   <table
-    className="root-0-3-154"
+    className="root-0-3-310"
   >
     <thead
-      className="thead-0-3-155"
+      className="thead-0-3-311"
     >
       <tr>
         <td
@@ -71,7 +71,7 @@ exports[`Storyshots Components/Grid Base 1`] = `
       </tr>
     </thead>
     <tbody
-      className="tbody-0-3-156"
+      className="tbody-0-3-312"
     >
       <tr
         key="a"
@@ -114,11 +114,11 @@ exports[`Storyshots Components/Grid Base 1`] = `
       </tr>
     </tbody>
   </table>
-</Grid>
+</TableData>
 `;
 
-exports[`Storyshots Components/Grid isRowSelected 1`] = `
-<Grid
+exports[`Storyshots Components/TableData isRowSelected 1`] = `
+<TableData
   data={
     Array [
       Object {
@@ -174,10 +174,10 @@ exports[`Storyshots Components/Grid isRowSelected 1`] = `
   renderRow={[Function]}
 >
   <table
-    className="root-0-3-154"
+    className="root-0-3-310"
   >
     <thead
-      className="thead-0-3-155"
+      className="thead-0-3-311"
     >
       <tr>
         <td
@@ -213,7 +213,7 @@ exports[`Storyshots Components/Grid isRowSelected 1`] = `
       </tr>
     </thead>
     <tbody
-      className="tbody-0-3-156"
+      className="tbody-0-3-312"
     >
       <tr
         key="a"
@@ -279,11 +279,11 @@ exports[`Storyshots Components/Grid isRowSelected 1`] = `
       </tr>
     </tbody>
   </table>
-</Grid>
+</TableData>
 `;
 
-exports[`Storyshots Components/Grid onRowSelect 1`] = `
-<Grid
+exports[`Storyshots Components/TableData onRowSelect 1`] = `
+<TableData
   data={
     Array [
       Object {
@@ -327,10 +327,10 @@ exports[`Storyshots Components/Grid onRowSelect 1`] = `
   renderRow={[Function]}
 >
   <table
-    className="root-0-3-154"
+    className="root-0-3-310"
   >
     <thead
-      className="thead-0-3-155"
+      className="thead-0-3-311"
     >
       <tr>
         <td
@@ -354,7 +354,7 @@ exports[`Storyshots Components/Grid onRowSelect 1`] = `
       </tr>
     </thead>
     <tbody
-      className="tbody-0-3-156"
+      className="tbody-0-3-312"
     >
       <tr
         key="a"
@@ -418,11 +418,11 @@ exports[`Storyshots Components/Grid onRowSelect 1`] = `
       </tr>
     </tbody>
   </table>
-</Grid>
+</TableData>
 `;
 
-exports[`Storyshots Components/Grid setRowClassName 1`] = `
-<Grid
+exports[`Storyshots Components/TableData setRowClassName 1`] = `
+<TableData
   data={
     Array [
       Object {
@@ -478,10 +478,10 @@ exports[`Storyshots Components/Grid setRowClassName 1`] = `
   setRowClassName={[Function]}
 >
   <table
-    className="root-0-3-154"
+    className="root-0-3-310"
   >
     <thead
-      className="thead-0-3-155"
+      className="thead-0-3-311"
     >
       <tr>
         <td
@@ -517,7 +517,7 @@ exports[`Storyshots Components/Grid setRowClassName 1`] = `
       </tr>
     </thead>
     <tbody
-      className="tbody-0-3-156"
+      className="tbody-0-3-312"
     >
       <tr
         className=""
@@ -581,5 +581,5 @@ exports[`Storyshots Components/Grid setRowClassName 1`] = `
       </tr>
     </tbody>
   </table>
-</Grid>
+</TableData>
 `;
