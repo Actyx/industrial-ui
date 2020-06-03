@@ -1,0 +1,12 @@
+language: node_js
+  - 12.16.0
+node_js:
+  - 'stable'
+cache:
+  npm: true
+  directories:
+    - 'node_modules'
+install:
+  - npm ci
+script:
+  - npm run check
