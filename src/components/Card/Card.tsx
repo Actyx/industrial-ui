@@ -87,6 +87,10 @@ const styles: StyleSheet<ClassKey> = {
   }
 };
 
+/**
+ * Card contains content and actions about a single topic.
+ * It should be easy to scan for related and actionable information.
+ */
 export const Card = compose<Props, CompProps>(
   setDisplayName('Card'),
   injectSheet(styles)
