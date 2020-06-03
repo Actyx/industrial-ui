@@ -86,6 +86,10 @@ const styles: StyleSheet<ClassKey> = {
   }
 };
 
+/**
+ * ButtonCircular provides the user with a simple way to create an event with a single tap.
+ * It is typically placed throughout Dialers, or whenever a numeric input is required.
+ */
 export const ButtonCircular = compose<Props, CompProps>(
   setDisplayName('ButtonCircular'),
   injectSheet(styles)
