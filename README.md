@@ -1,3 +1,5 @@
+<img width="130px" src="https://raw.githubusercontent.com/Actyx/industrial-ui/master/assets/industrial-ui-logo.svg?token=AEDGFNTMXLHX2MXQ25JH2A264DRHU">
+
 # Industrial UI
 
 ## Simple, modular UI Components for Shop Floor Applications
