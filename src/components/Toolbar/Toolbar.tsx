@@ -51,6 +51,10 @@ const styles: StyleSheet<ClassKey, CompProps> = {
   }
 };
 
+/**
+ * Toolbar displays information and actions relating to the current screen.
+ * A common UX pattern is to position a title on the left with some actions on the right.
+ */
 export const Toolbar = compose<Props, CompProps>(
   setDisplayName('Toolbar'),
   injectSheet(styles)
