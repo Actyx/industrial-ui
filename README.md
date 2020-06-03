@@ -4,7 +4,6 @@
 
 🚀 Demo and docs: [https://actyx.github.io/industrial-ui/index.html](https://actyx.github.io/industrial-ui/index.html)
 
-
 ## Simple, modular UI Components for Shop Floor Applications
 
 Industrial UI is a React toolkit built by [Actyx](https://www.actyx.com), a German tech company specializing in [distributed edge computing for factories](https://www.actyx.com/os/). The toolkit features over 45 components and is mostly meant for building Shop Floor Applications that run in modern browsers on Rugged Industrial Tablets.
