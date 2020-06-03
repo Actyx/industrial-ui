@@ -41,6 +41,10 @@ const styles: StyleSheet<ClassKey> = {
   }
 };
 
+/**
+ * A Divider is a thin line that groups content in lists and layouts. It visually separates the content into clear groups.
+ * Use dividers sparingly, to create groupings rather than separate items.
+ */
 export const Divider = compose<Props, CompProps>(
   setDisplayName('Divider'),
   injectSheet(styles)
