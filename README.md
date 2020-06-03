@@ -25,7 +25,7 @@ You can access the documentation and related examples by:
 git clone https://github.com/Actyx/industrial-ui.git
 ## navigate to project folder
 cd industrial-ui
-## use the correct version of nodejs
+## use the correct version of nodejs (optional)
 nvm use
 ## install dependencies
 npm i
