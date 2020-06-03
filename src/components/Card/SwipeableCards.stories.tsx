@@ -69,7 +69,7 @@ storiesOf('Components/Card/Swipeable', module)
     return (
       <div style={{ width: 400, height: 300, padding: 50 }}>
         <h1>Swipe anything</h1>
-        <SwipeableCards className="bg-dark">
+        <SwipeableCards>
           <div style={styles.slide}>
             <div style={{ ...styles.slide, ...styles.slide1 }}>1.1</div>
             <div style={{ ...styles.slide, ...styles.slide1, marginLeft: 50 }}>1.2</div>

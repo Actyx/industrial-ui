@@ -207,9 +207,7 @@ exports[`Storyshots Components/Dialog/Dialog Size header top right 1`] = `
                       rightComponent="some content here"
                       text="Header"
                     >
-                      <div
-                        className="d-flex justify-content-between"
-                      >
+                      <div>
                         <Typography
                           bold={true}
                           variant="big"
@@ -1823,9 +1821,7 @@ exports[`Storyshots Components/Dialog/Dialog With FooterWithConfirmation 1`] = `
                     <DialogHeader
                       text="Title dialog"
                     >
-                      <div
-                        className="d-flex justify-content-between"
-                      >
+                      <div>
                         <Typography
                           bold={true}
                           variant="big"
@@ -2527,9 +2523,7 @@ exports[`Storyshots Components/Dialog/Dialog With FooterWithDoubleConfirmation 1
                       <DialogHeader
                         text="Title dialog"
                       >
-                        <div
-                          className="d-flex justify-content-between"
-                        >
+                        <div>
                           <Typography
                             bold={true}
                             variant="big"

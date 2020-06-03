@@ -99,7 +99,7 @@ export class NumericKeypad extends React.Component<Props, State> {
     return (
       <div className={className}>
         {!hideInput && (
-          <div className="mb-4">
+          <div>
             <ClearableInput
               disabledNativeKeyboard
               value={value}
