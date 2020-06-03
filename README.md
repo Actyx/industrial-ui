@@ -1,19 +1,19 @@
-# Actyx UI
+# Industrial UI
 
 ## Simple, modular UI Components for Shop Floor Applications
 
-Actyx UI is a React UI toolkit built by [Actyx](https://www.actyx.com), a German tech company specializing in [distributed edge computing for factories](https://www.actyx.com/os/). The toolkit features over 45 components and is mostly meant for building Shop Floor Applications that run in modern browsers on Rugged Industrial Tablets.
+Industrial UI is a React toolkit built by [Actyx](https://www.actyx.com), a German tech company specializing in [distributed edge computing for factories](https://www.actyx.com/os/). The toolkit features over 45 components and is mostly meant for building Shop Floor Applications that run in modern browsers on Rugged Industrial Tablets.
 
-Actyx UI provides buttons, tabs, cards, navigation, and many other components, all of which have designed and tested to maximize operators' user experience and productivity in industrial environments. The project is "battle-tested" and running in production for Actyx's customers in seven countries.
+Industrial UI provides buttons, tabs, cards, navigation, and many other components, all of which have designed and tested to maximize operators' user experience and productivity in industrial environments. The project is "battle-tested" and running in production for Actyx's customers in seven countries.
 
-Actyx UI is written entirely in TypeScript with predictable static types, making it easy to pick up and understand.
+Industrial UI is written entirely in TypeScript with predictable static types, making it easy to pick up and understand.
 
 ## Installation
 
-Actyx UI is available as an [npm package](https://www.npmjs.com/package/@actyx/actyx-ui).
+Industrial UI is available as an [npm package](https://www.npmjs.com/package/@actyx/industrial-ui).
 
 ```shell
-npm install @actyx/actyx-ui
+npm install @actyx/industrial-ui
 ```
 
 ## Documentation
@@ -35,9 +35,9 @@ npm run storybook
 
 A website with documentation will be visible at [http://localhost:6006/](http://localhost:6006/)
 
-On the left side of the screen, you can find all components, click each story on the left to see on the component on the "Canvas" tab on the right.
+On the left side of the screen, you can find all components, click each story on the left to see the component on the "Canvas" tab.
 
-By clicking on the "Docs" tab you can access code samples and properties details.
+By clicking on the "Docs" tab you can access description, code samples and properties details.
 
 ## Developer tools
 
