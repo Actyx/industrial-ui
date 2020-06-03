@@ -107,6 +107,10 @@ const styles: StyleSheet<ClassKey, CompProps> = {
   }
 };
 
+/**
+ * ToggleButtons provide the user a grouped related options.
+ * It provides an exclusive selection and it remembers whether it is pressed or unpressed.
+ */
 export const ToggleButtons = compose<Props, CompProps>(
   injectSheet(styles),
   setDisplayName('ToggleButtons')
