@@ -128,7 +128,7 @@ const styles: StyleSheet<ClassKey> = {
   }
 };
 
-/*
+/**
  * TextArea lets users enter and edit the text into the UI.
  * It typically used in forms and dialogs.
  */
