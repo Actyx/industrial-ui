@@ -56,6 +56,8 @@ By clicking on the "Docs" tab you can access description, code samples and prope
 | `npm run lint:fix` | Check and automatically fix lint issues |
 | `npm run storybook` | Run StoryBook |
 | `npm run storybook:build` | Build StoryBook |
+| `npm run storybook:build:local` | Run built StoryBook locally |
+| `npm run storybook:build:deploy` | Deploy built StoryBook on GitHub Pages |
 | `npm run test` | Run Jest tests |
 | `npm run test:no-coverage` | Run Jest tests and exclude coverage report |
 | `npm run test:watch` | Run tests in watch mode |
