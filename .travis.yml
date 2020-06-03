@@ -10,3 +10,4 @@ install:
   - npm ci
 script:
   - npm run check
+  - npm run storybook:deploy
