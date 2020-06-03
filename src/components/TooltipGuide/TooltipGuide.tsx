@@ -107,6 +107,10 @@ const styles: StyleSheet<ClassKey> = {
   }
 };
 
+/**
+ * TooltipGuide are user-triggered short messages that provide additional information about a page element or feature.
+ * The maximum length of the content is set currently to three lines.
+ */
 export const TooltipGuide = compose<Props, CompProps>(
   setDisplayName('TooltipGuide'),
   injectSheet(styles)
