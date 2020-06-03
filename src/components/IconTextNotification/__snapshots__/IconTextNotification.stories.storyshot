@@ -24,8 +24,8 @@ exports[`Storyshots Components/IconTextNotification Generic counter 1`] = `
     <Component
       classes={
         Object {
-          "icon": "Component-icon-0-3-161",
-          "root": "Component-root-0-3-160",
+          "icon": "Component-icon-0-3-158",
+          "root": "Component-root-0-3-157",
         }
       }
       color="#1976d2"
@@ -34,16 +34,16 @@ exports[`Storyshots Components/IconTextNotification Generic counter 1`] = `
       text="Generic text"
     >
       <div
-        className="Component-root-0-3-160"
+        className="Component-root-0-3-157"
       >
         <MUIcon
-          className="Component-icon-0-3-161"
+          className="Component-icon-0-3-158"
           color="#1976d2"
           fontSize={37}
           type="info"
         >
           <WithStyles(MUIconComp)
-            className="Component-icon-0-3-161"
+            className="Component-icon-0-3-158"
             color="#1976d2"
             fontSize={37}
             innerRef={null}
@@ -57,10 +57,10 @@ exports[`Storyshots Components/IconTextNotification Generic counter 1`] = `
             type="info"
           >
             <MUIconComp
-              className="Component-icon-0-3-161"
+              className="Component-icon-0-3-158"
               classes={
                 Object {
-                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d48-0-3-164",
+                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d48-0-3-161",
                 }
               }
               color="#1976d2"
@@ -68,7 +68,7 @@ exports[`Storyshots Components/IconTextNotification Generic counter 1`] = `
               type="info"
             >
               <i
-                className="MUIconComp-root-0-3-35 MUIconComp-root-d48-0-3-164 Component-icon-0-3-161"
+                className="MUIconComp-root-0-3-35 MUIconComp-root-d48-0-3-161 Component-icon-0-3-158"
               >
                 info
               </i>
@@ -165,8 +165,8 @@ exports[`Storyshots Components/IconTextNotification Small size 1`] = `
     <Component
       classes={
         Object {
-          "icon": "Component-icon-0-3-161",
-          "root": "Component-root-0-3-160",
+          "icon": "Component-icon-0-3-158",
+          "root": "Component-root-0-3-157",
         }
       }
       color="#388e3c"
@@ -176,16 +176,16 @@ exports[`Storyshots Components/IconTextNotification Small size 1`] = `
       text="Generic text"
     >
       <div
-        className="Component-root-0-3-160"
+        className="Component-root-0-3-157"
       >
         <MUIcon
-          className="Component-icon-0-3-161"
+          className="Component-icon-0-3-158"
           color="#388e3c"
           fontSize={28}
           type="info"
         >
           <WithStyles(MUIconComp)
-            className="Component-icon-0-3-161"
+            className="Component-icon-0-3-158"
             color="#388e3c"
             fontSize={28}
             innerRef={null}
@@ -199,10 +199,10 @@ exports[`Storyshots Components/IconTextNotification Small size 1`] = `
             type="info"
           >
             <MUIconComp
-              className="Component-icon-0-3-161"
+              className="Component-icon-0-3-158"
               classes={
                 Object {
-                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d49-0-3-165",
+                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d49-0-3-162",
                 }
               }
               color="#388e3c"
@@ -210,7 +210,7 @@ exports[`Storyshots Components/IconTextNotification Small size 1`] = `
               type="info"
             >
               <i
-                className="MUIconComp-root-0-3-35 MUIconComp-root-d49-0-3-165 Component-icon-0-3-161"
+                className="MUIconComp-root-0-3-35 MUIconComp-root-d49-0-3-162 Component-icon-0-3-158"
               >
                 info
               </i>
@@ -305,8 +305,8 @@ exports[`Storyshots Components/IconTextNotification Warning 1`] = `
     <Component
       classes={
         Object {
-          "icon": "Component-icon-0-3-161",
-          "root": "Component-root-0-3-160",
+          "icon": "Component-icon-0-3-158",
+          "root": "Component-root-0-3-157",
         }
       }
       color="#d50000"
@@ -315,16 +315,16 @@ exports[`Storyshots Components/IconTextNotification Warning 1`] = `
       text="Interrupted"
     >
       <div
-        className="Component-root-0-3-160"
+        className="Component-root-0-3-157"
       >
         <MUIcon
-          className="Component-icon-0-3-161"
+          className="Component-icon-0-3-158"
           color="#d50000"
           fontSize={37}
           type="warning"
         >
           <WithStyles(MUIconComp)
-            className="Component-icon-0-3-161"
+            className="Component-icon-0-3-158"
             color="#d50000"
             fontSize={37}
             innerRef={null}
@@ -338,10 +338,10 @@ exports[`Storyshots Components/IconTextNotification Warning 1`] = `
             type="warning"
           >
             <MUIconComp
-              className="Component-icon-0-3-161"
+              className="Component-icon-0-3-158"
               classes={
                 Object {
-                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d46-0-3-162",
+                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d46-0-3-159",
                 }
               }
               color="#d50000"
@@ -349,7 +349,7 @@ exports[`Storyshots Components/IconTextNotification Warning 1`] = `
               type="warning"
             >
               <i
-                className="MUIconComp-root-0-3-35 MUIconComp-root-d46-0-3-162 Component-icon-0-3-161"
+                className="MUIconComp-root-0-3-35 MUIconComp-root-d46-0-3-159 Component-icon-0-3-158"
               >
                 warning
               </i>
@@ -442,8 +442,8 @@ exports[`Storyshots Components/IconTextNotification Warning counter 1`] = `
     <Component
       classes={
         Object {
-          "icon": "Component-icon-0-3-161",
-          "root": "Component-root-0-3-160",
+          "icon": "Component-icon-0-3-158",
+          "root": "Component-root-0-3-157",
         }
       }
       color="#d50000"
@@ -451,16 +451,16 @@ exports[`Storyshots Components/IconTextNotification Warning counter 1`] = `
       text="Interrupted"
     >
       <div
-        className="Component-root-0-3-160"
+        className="Component-root-0-3-157"
       >
         <MUIcon
-          className="Component-icon-0-3-161"
+          className="Component-icon-0-3-158"
           color="#d50000"
           fontSize={37}
           type="warning"
         >
           <WithStyles(MUIconComp)
-            className="Component-icon-0-3-161"
+            className="Component-icon-0-3-158"
             color="#d50000"
             fontSize={37}
             innerRef={null}
@@ -474,10 +474,10 @@ exports[`Storyshots Components/IconTextNotification Warning counter 1`] = `
             type="warning"
           >
             <MUIconComp
-              className="Component-icon-0-3-161"
+              className="Component-icon-0-3-158"
               classes={
                 Object {
-                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d47-0-3-163",
+                  "root": "MUIconComp-root-0-3-35 MUIconComp-root-d47-0-3-160",
                 }
               }
               color="#d50000"
@@ -485,7 +485,7 @@ exports[`Storyshots Components/IconTextNotification Warning counter 1`] = `
               type="warning"
             >
               <i
-                className="MUIconComp-root-0-3-35 MUIconComp-root-d47-0-3-163 Component-icon-0-3-161"
+                className="MUIconComp-root-0-3-35 MUIconComp-root-d47-0-3-160 Component-icon-0-3-158"
               >
                 warning
               </i>

@@ -20,15 +20,15 @@ exports[`Storyshots Components/LinearProgressSimple brown 1`] = `
     <LinearProgressSimpleComp
       classes={
         Object {
-          "indicator": "LinearProgressSimpleComp-indicator-0-3-182",
-          "root": "LinearProgressSimpleComp-root-0-3-181",
+          "indicator": "LinearProgressSimpleComp-indicator-0-3-179",
+          "root": "LinearProgressSimpleComp-root-0-3-178",
         }
       }
       color="brown"
       value={50}
     >
       <div
-        className="LinearProgressSimpleComp-root-0-3-181"
+        className="LinearProgressSimpleComp-root-0-3-178"
         style={
           Object {
             "backgroundColor": "#3e2723",
@@ -37,7 +37,7 @@ exports[`Storyshots Components/LinearProgressSimple brown 1`] = `
         }
       >
         <div
-          className="LinearProgressSimpleComp-indicator-0-3-182"
+          className="LinearProgressSimpleComp-indicator-0-3-179"
           style={
             Object {
               "backgroundColor": "#8d6e63",
@@ -73,8 +73,8 @@ exports[`Storyshots Components/LinearProgressSimple disabled 1`] = `
     <LinearProgressSimpleComp
       classes={
         Object {
-          "indicator": "LinearProgressSimpleComp-indicator-0-3-182",
-          "root": "LinearProgressSimpleComp-root-0-3-181",
+          "indicator": "LinearProgressSimpleComp-indicator-0-3-179",
+          "root": "LinearProgressSimpleComp-root-0-3-178",
         }
       }
       color="green"
@@ -82,7 +82,7 @@ exports[`Storyshots Components/LinearProgressSimple disabled 1`] = `
       value={50}
     >
       <div
-        className="LinearProgressSimpleComp-root-0-3-181"
+        className="LinearProgressSimpleComp-root-0-3-178"
         style={
           Object {
             "backgroundColor": "rgba(76, 175, 80, 0.5)",
@@ -91,7 +91,7 @@ exports[`Storyshots Components/LinearProgressSimple disabled 1`] = `
         }
       >
         <div
-          className="LinearProgressSimpleComp-indicator-0-3-182"
+          className="LinearProgressSimpleComp-indicator-0-3-179"
           style={
             Object {
               "backgroundColor": "rgba(100, 221, 23, 0.5)",
@@ -125,15 +125,15 @@ exports[`Storyshots Components/LinearProgressSimple green 1`] = `
     <LinearProgressSimpleComp
       classes={
         Object {
-          "indicator": "LinearProgressSimpleComp-indicator-0-3-182",
-          "root": "LinearProgressSimpleComp-root-0-3-181",
+          "indicator": "LinearProgressSimpleComp-indicator-0-3-179",
+          "root": "LinearProgressSimpleComp-root-0-3-178",
         }
       }
       color="green"
       value={50}
     >
       <div
-        className="LinearProgressSimpleComp-root-0-3-181"
+        className="LinearProgressSimpleComp-root-0-3-178"
         style={
           Object {
             "backgroundColor": "#4caf50",
@@ -142,7 +142,7 @@ exports[`Storyshots Components/LinearProgressSimple green 1`] = `
         }
       >
         <div
-          className="LinearProgressSimpleComp-indicator-0-3-182"
+          className="LinearProgressSimpleComp-indicator-0-3-179"
           style={
             Object {
               "backgroundColor": "#64dd17",
@@ -176,15 +176,15 @@ exports[`Storyshots Components/LinearProgressSimple grey 1`] = `
     <LinearProgressSimpleComp
       classes={
         Object {
-          "indicator": "LinearProgressSimpleComp-indicator-0-3-182",
-          "root": "LinearProgressSimpleComp-root-0-3-181",
+          "indicator": "LinearProgressSimpleComp-indicator-0-3-179",
+          "root": "LinearProgressSimpleComp-root-0-3-178",
         }
       }
       color="grey"
       value={50}
     >
       <div
-        className="LinearProgressSimpleComp-root-0-3-181"
+        className="LinearProgressSimpleComp-root-0-3-178"
         style={
           Object {
             "backgroundColor": "#9e9e9e",
@@ -193,7 +193,7 @@ exports[`Storyshots Components/LinearProgressSimple grey 1`] = `
         }
       >
         <div
-          className="LinearProgressSimpleComp-indicator-0-3-182"
+          className="LinearProgressSimpleComp-indicator-0-3-179"
           style={
             Object {
               "backgroundColor": "#bdbdbd",
@@ -227,15 +227,15 @@ exports[`Storyshots Components/LinearProgressSimple orange 1`] = `
     <LinearProgressSimpleComp
       classes={
         Object {
-          "indicator": "LinearProgressSimpleComp-indicator-0-3-182",
-          "root": "LinearProgressSimpleComp-root-0-3-181",
+          "indicator": "LinearProgressSimpleComp-indicator-0-3-179",
+          "root": "LinearProgressSimpleComp-root-0-3-178",
         }
       }
       color="orange"
       value={50}
     >
       <div
-        className="LinearProgressSimpleComp-root-0-3-181"
+        className="LinearProgressSimpleComp-root-0-3-178"
         style={
           Object {
             "backgroundColor": "#ef6c00",
@@ -244,7 +244,7 @@ exports[`Storyshots Components/LinearProgressSimple orange 1`] = `
         }
       >
         <div
-          className="LinearProgressSimpleComp-indicator-0-3-182"
+          className="LinearProgressSimpleComp-indicator-0-3-179"
           style={
             Object {
               "backgroundColor": "#ff9800",
@@ -278,15 +278,15 @@ exports[`Storyshots Components/LinearProgressSimple red 1`] = `
     <LinearProgressSimpleComp
       classes={
         Object {
-          "indicator": "LinearProgressSimpleComp-indicator-0-3-182",
-          "root": "LinearProgressSimpleComp-root-0-3-181",
+          "indicator": "LinearProgressSimpleComp-indicator-0-3-179",
+          "root": "LinearProgressSimpleComp-root-0-3-178",
         }
       }
       color="red"
       value={50}
     >
       <div
-        className="LinearProgressSimpleComp-root-0-3-181"
+        className="LinearProgressSimpleComp-root-0-3-178"
         style={
           Object {
             "backgroundColor": "#d50000",
@@ -295,7 +295,7 @@ exports[`Storyshots Components/LinearProgressSimple red 1`] = `
         }
       >
         <div
-          className="LinearProgressSimpleComp-indicator-0-3-182"
+          className="LinearProgressSimpleComp-indicator-0-3-179"
           style={
             Object {
               "backgroundColor": "#d50000",
@@ -332,15 +332,15 @@ exports[`Storyshots Components/LinearProgressSimple white 1`] = `
       border={true}
       classes={
         Object {
-          "indicator": "LinearProgressSimpleComp-indicator-0-3-182",
-          "root": "LinearProgressSimpleComp-root-0-3-181",
+          "indicator": "LinearProgressSimpleComp-indicator-0-3-179",
+          "root": "LinearProgressSimpleComp-root-0-3-178",
         }
       }
       color="white"
       value={50}
     >
       <div
-        className="LinearProgressSimpleComp-root-0-3-181"
+        className="LinearProgressSimpleComp-root-0-3-178"
         style={
           Object {
             "backgroundColor": "#ffffff",
@@ -349,7 +349,7 @@ exports[`Storyshots Components/LinearProgressSimple white 1`] = `
         }
       >
         <div
-          className="LinearProgressSimpleComp-indicator-0-3-182"
+          className="LinearProgressSimpleComp-indicator-0-3-179"
           style={
             Object {
               "backgroundColor": "#fafafa",
@@ -383,15 +383,15 @@ exports[`Storyshots Components/LinearProgressSimple yellow 1`] = `
     <LinearProgressSimpleComp
       classes={
         Object {
-          "indicator": "LinearProgressSimpleComp-indicator-0-3-182",
-          "root": "LinearProgressSimpleComp-root-0-3-181",
+          "indicator": "LinearProgressSimpleComp-indicator-0-3-179",
+          "root": "LinearProgressSimpleComp-root-0-3-178",
         }
       }
       color="yellow"
       value={50}
     >
       <div
-        className="LinearProgressSimpleComp-root-0-3-181"
+        className="LinearProgressSimpleComp-root-0-3-178"
         style={
           Object {
             "backgroundColor": "#f9a825",
@@ -400,7 +400,7 @@ exports[`Storyshots Components/LinearProgressSimple yellow 1`] = `
         }
       >
         <div
-          className="LinearProgressSimpleComp-indicator-0-3-182"
+          className="LinearProgressSimpleComp-indicator-0-3-179"
           style={
             Object {
               "backgroundColor": "#fdd835",
