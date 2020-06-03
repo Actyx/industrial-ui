@@ -154,9 +154,6 @@ storiesOf('Components/Timeline', module)
   .addParameters({ component: Timeline })
   .addDecorator(
     hostDecorator({
-      position: 'absolute',
-      top: 0,
-      left: 0,
       width: 600,
       height: 600
     })
