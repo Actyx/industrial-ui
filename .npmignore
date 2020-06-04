@@ -15,3 +15,4 @@ jest.setup.js
 .loki
 .storybook
 src/__tests__
+.out
