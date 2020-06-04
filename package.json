@@ -61,12 +61,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Actyx/actyx-ui.git"
+    "url": "git+https://github.com/Actyx/industrial-ui.git"
   },
   "bugs": {
-    "url": "https://github.com/Actyx/actyx-ui/issues"
+    "url": "https://github.com/Actyx/industrial-ui/issues"
   },
-  "homepage": "https://github.com/Actyx/actyx-ui#readme",
+  "homepage": "https://github.com/Actyx/industrial-ui#readme",
   "dependencies": {
     "classnames": "^2.2.6",
     "jss": "^10.0.3",
