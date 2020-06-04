@@ -67,7 +67,7 @@ In the `App` component, we use React hook, which lets you use state without writ
 
 Variable `text` will contain a string with our message, and function `setText()` will be used to change the value of `text`.
 
-Add a Button component from Industrial UI, you can choose between different colors and style, please reference our [documentation](https://actyx.github.io/industrial-ui/index.html?path=/docs/components-button--flat-transparent-text).
+Add a Button component from Industrial UI, you can choose between different colors and styles, please reference our [documentation](https://actyx.github.io/industrial-ui/index.html?path=/docs/components-button--flat-transparent-text).
 
 ```typescript
       <Button
