@@ -45,6 +45,10 @@ npm run storybook
 
 A website with documentation will be visible at [http://localhost:6006/](http://localhost:6006/)
 
+## Tutorials
+
+- [How to set up a new project and import Industrial UI](./tutorials/how-to-set-up-project-and-import-industrial-ui.md)
+
 ## 🤓 Developer tools
 
 | Script | Description  |
