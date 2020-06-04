@@ -25,7 +25,7 @@ Open the folder project and edit `src/App.tsx` such:
 ```typecript
 import React from 'react';
 import './App.css';
-import { Typography, Button } from '@actyx/industrial-ui/lib/components'
+import { Typography, Button } from '@actyx/industrial-ui'
 
 function App() {
   const [text, setText] = React.useState('')
@@ -56,7 +56,7 @@ Now run your project by using `npm start`, your hello world page is visible at [
 At the top of the file we have imported Industrial UI components by using:
 
 ```typescript
-import { Typography, Button } from '@actyx/industrial-ui/lib/components'
+import { Typography, Button } from '@actyx/industrial-ui'
 ```
 
 In the `App` component, we use React hook, which lets you use state without writing a class.
