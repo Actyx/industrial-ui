@@ -7,6 +7,7 @@
     "src/**/*.test.tsx",
     "src/**/*.spec.ts",
     "src/**/*.spec.tsx",
-    "src/**/*.stories.tsx"
+    "src/**/*.stories.tsx",
+    ".out"
   ]
 }
