@@ -5,7 +5,8 @@
   "author": "Actyx AG",
   "license": "Apache-2.0",
   "description": "Industrial UI - Simple, modular UI Components for Shop Floor Applications",
-  "main": "./src/index.ts",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "keywords": [
     "actyx",
     "components",
