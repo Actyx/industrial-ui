@@ -85,7 +85,7 @@ echo "Packaging succeed"
 echo "Sign in and publish on npm"
 npm login
 if npm publish --access public; then
-    echo "Project was published to https://www.npmjs.com/package/@actyx/actyx-ui"
+    echo "Project was published to https://www.npmjs.com/package/@actyx/industrial-ui"
     echo "Do not forget to communicate the new release on https://www.actyx.com/blog/"
 
     # Tag repository based on package.json version found
