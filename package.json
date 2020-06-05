@@ -1,7 +1,7 @@
 {
   "name": "@actyx/industrial-ui",
   "private": false,
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Actyx AG",
   "license": "Apache-2.0",
   "description": "Industrial UI - Simple, modular UI Components for Shop Floor Applications",
