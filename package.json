@@ -35,7 +35,7 @@
     "widgets"
   ],
   "scripts": {
-    "clean": "rimraf ./lib ./coverage",
+    "clean": "rimraf ./lib ./coverage ./.out",
     "check": "npm run clean && npm run lint && npm run tsc && npm run test",
     "tsc": "tsc",
     "tsc:watch": "tsc --watch --pretty",
