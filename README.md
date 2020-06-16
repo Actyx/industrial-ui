@@ -2,7 +2,7 @@
 
 # Industrial UI
 
-🚀 Demo and docs: [https://actyx.github.io/industrial-ui/index.html](https://actyx.github.io/industrial-ui/index.html)
+🚀 Demo and docs: [https://actyx.github.io/industrial-ui/index.html](https://actyx.github.io/industrial-ui/index.html?path=/docs/components-batteryicon--charged-100)
 
 ## Simple, modular UI Components for Shop Floor Applications
 
