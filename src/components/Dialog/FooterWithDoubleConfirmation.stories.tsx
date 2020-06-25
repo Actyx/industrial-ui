@@ -50,6 +50,7 @@ storiesOf('Components/Dialog/FooterWithDoubleConfirmation', module)
       onCancel={action('onCancel')}
     />
   ))
+  // FIXME: Add `lokiSkip` for this flaky story, as it contains an animation
   // .add('No cancelMessage', () => (
   //   <FooterWithDoubleConfirmation
   //     mode="normal"
