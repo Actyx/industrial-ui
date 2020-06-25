@@ -50,21 +50,21 @@ storiesOf('Components/Dialog/FooterWithDoubleConfirmation', module)
       onCancel={action('onCancel')}
     />
   ))
-  .add('No cancelMessage', () => (
-    <FooterWithDoubleConfirmation
-      mode="normal"
-      valid={false}
-      confirmMessage="Confirm"
-      yesMessage="Yes"
-      noMessage="No"
-      message="Message"
-      onSelectYes={action('onSelectYes')}
-      onSelectNo={action('onSelectNo')}
-      onConfirm={action('onConfirm')}
-      onCancel={action('onCancel')}
-      cancelMessage={undefined}
-    />
-  ))
+  // .add('No cancelMessage', () => (
+  //   <FooterWithDoubleConfirmation
+  //     mode="normal"
+  //     valid={false}
+  //     confirmMessage="Confirm"
+  //     yesMessage="Yes"
+  //     noMessage="No"
+  //     message="Message"
+  //     onSelectYes={action('onSelectYes')}
+  //     onSelectNo={action('onSelectNo')}
+  //     onConfirm={action('onConfirm')}
+  //     onCancel={action('onCancel')}
+  //     cancelMessage={undefined}
+  //   />
+  // ))
   .add('Mode confirmation', () => (
     <FooterWithDoubleConfirmation
       mode={'confirmation'}

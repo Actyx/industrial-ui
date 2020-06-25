@@ -25,13 +25,10 @@ const { create } = require('@storybook/theming/create')
 
 addParameters({
   options: {
-    // showRoots: true,
     theme: create({
       base: 'light',
-      brandTitle: 'Actyx',
+      brandTitle: 'industrial-ui',
       brandUrl: 'https://www.actyx.com',
-      // To control appearance:
-      // brandImage: 'http://url.of/some.svg',
     }),
   },
 })
