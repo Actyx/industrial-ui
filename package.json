@@ -53,6 +53,7 @@
     "test:watch": "TZ=UTC jest --coverage=false --watch",
     "test:visual": "loki test --port 6006",
     "test:visual-approve": "loki approve",
+    "test:visual:ci":"npm run storybook:build && loki --requireReference --reactUri file:./out/storybook",
     "license:add": "license-check-and-add add -f add-license-config.json",
     "license:check": "license-check-and-add check -f add-license-config.json",
     "license:check-dep": "license-checker --production --onlyAllow 'MIT; MIT OR X11; BSD; ISC; Apache-2.0;'",
