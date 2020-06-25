@@ -16,7 +16,7 @@
 import { storiesOf } from '@storybook/react';
 import * as React from 'react';
 import { Typography } from './Typography';
-import { hostDecorator, LoremIpsum } from '../../utils';
+import { hostDecorator, LoremXL } from '../../utils';
 
 storiesOf('Components/Typography', module)
   .addParameters({ component: Typography })
@@ -67,7 +67,7 @@ storiesOf('Components/Typography', module)
   .add('ellipsis', () => (
     <div style={{ width: 500 }}>
       <Typography variant="standard" ellipsis>
-        {LoremIpsum}
+        {LoremXL}
       </Typography>
     </div>
   ));
