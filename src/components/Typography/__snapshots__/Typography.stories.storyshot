@@ -619,8 +619,7 @@ exports[`Storyshots Components/Typography ellipsis 1`] = `
         <span
           className="TypographyComp-standard-0-3-5 TypographyComp-ellipsis-0-3-14"
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Ut labore et dolore magna aliqua. Lacus vel facilisis volutpat est. Sed faucibus turpis in eu mi bibendum neque egestas. Id eu nisl nunc mi ipsum faucibus vitae aliquet nec. Pharetra sit amet aliquam id diam maecenas ultricies mi. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque. Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Risus nec feugiat in fermentum posuere urna nec tincidunt praesent. Quis lectus nulla at volutpat diam. At consectetur lorem donec massa sapien faucibus. Aliquet nibh praesent tristique magna sit amet.
-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
         </span>
       </TypographyComp>
     </WithStyles(TypographyComp)>
