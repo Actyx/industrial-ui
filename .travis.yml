@@ -1,5 +1,5 @@
 language: node_js
-  - 12.16.0
+  - 12.18.0
 node_js:
   - 'stable'
 cache:
@@ -10,3 +10,4 @@ install:
   - npm ci
 script:
   - npm run check
+  - npm run test:visual:ci
