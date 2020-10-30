@@ -18,8 +18,13 @@ bin
 coverage
 jest.config.js
 jest.setup.js
-src
 tsconfig.json
 tsconfig.prod.json
 tutorials
 yarn.lock
+src/**/*.test.ts
+src/**/*.test.tsx
+src/**/*.spec.ts
+src/**/*.spec.tsx
+src/**/*.stories.tsx
+src/**/__snapshots__
