@@ -14,7 +14,7 @@ NVM_DIR="$HOME/.nvm"
 set -e
 
 # Get name current branch
-BRANCH_NAME=$(git name-rev --name-only HEAD)
+BRANCH_NAME=$(git symbolic-ref --short -q HEAD)
 
 # Publish only from master branch
 if [ "$BRANCH_NAME" = "master" ]; then
